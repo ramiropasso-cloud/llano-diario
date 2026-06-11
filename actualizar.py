@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""LLANO· — Actualizacion automatica del diario 3x por dia"""
+"""LLANO - Actualizacion automatica del diario 3x por dia"""
 
 import os
 import re
@@ -9,6 +9,10 @@ import html as html_module
 from datetime import datetime, timezone, timedelta
 import urllib.request
 import urllib.error
+
+# Fix encoding en Windows para que print no rompa con tildes/caracteres
+if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf8'):
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 
 # ── TIMEZONE ARGENTINA (UTC-3) ──
 ARG_TZ = timezone(timedelta(hours=-3))
@@ -53,17 +57,40 @@ def apn_noticias(max_items=8):
     if not raw:
         return []
     items = []
-    # Links a notas internas APN
-    for m in re.finditer(r'href="(/nota/detalle/[^"]+)"', raw):
-        url = "https://apn.lapampa.gob.ar" + m.group(1)
-        # Extraer titulo del contexto cercano
-        start = m.start()
-        ctx = raw[start:start+400]
-        titulo_m = re.search(r'<(?:h[123]|strong|a)[^>]*>([^<]{15,120})</(?:h[123]|strong|a)>', ctx)
-        if titulo_m:
-            titulo = re.sub(r'\s+', ' ', titulo_m.group(1)).strip()
-            if len(titulo) > 15 and url not in [i['url'] for i in items]:
-                items.append({'url': url, 'titulo': titulo, 'foto': ''})
+    seen_urls = set()
+    # Las URLs son absolutas: https://apn.lapampa.gob.ar/nota/detalle/id/XXXXX/slug
+    pattern = r'href="(https://apn\.lapampa\.gob\.ar/nota/detalle/id/\d+/[^"]+)"'
+    for m in re.finditer(pattern, raw):
+        url = m.group(1)
+        if url in seen_urls:
+            continue
+        seen_urls.add(url)
+        # Contexto siguiente para extraer alt (titulo) e img src
+        ctx = raw[m.start():m.start() + 800]
+        foto = ""
+        titulo = ""
+        # Imagen cercana
+        img_m = re.search(r'<img[^>]+src="(https://apn\.lapampa\.gob\.ar/images/[^"]+)"[^>]+alt="([^"]{10,})"', ctx)
+        if not img_m:
+            img_m = re.search(r'<img[^>]+alt="([^"]{10,})"[^>]+src="(https://apn\.lapampa\.gob\.ar/images/[^"]+)"', ctx)
+            if img_m:
+                titulo = img_m.group(1).strip()
+                foto = img_m.group(2)
+        else:
+            foto = img_m.group(1)
+            titulo = img_m.group(2).strip()
+        # Si no hay titulo por imagen, buscar en h2
+        if not titulo:
+            h2_m = re.search(r'<h2[^>]*class="[^"]*title-dest[^"]*"[^>]*>\s*([^<]{10,120})', ctx)
+            if h2_m:
+                titulo = re.sub(r'\s+', ' ', h2_m.group(1)).strip()
+        # Titulo del slug como fallback
+        if not titulo:
+            slug = url.split('/')[-1]
+            titulo = slug.replace('-', ' ')
+        titulo = re.sub(r'\s+', ' ', titulo).strip()
+        if len(titulo) > 10:
+            items.append({'url': url, 'titulo': titulo, 'foto': foto})
         if len(items) >= max_items:
             break
     return items
@@ -74,16 +101,14 @@ def apn_cuerpo(url):
     raw = fetch(url)
     if not raw:
         return "", ""
-    # Imagen principal
     foto = ""
-    img_m = re.search(r'<img[^>]+class="[^"]*noticia[^"]*"[^>]+src="([^"]+)"', raw)
-    if not img_m:
-        img_m = re.search(r'src="(https://apn\.lapampa\.gob\.ar/images/[^"]+)"', raw)
+    # Imagen principal del articulo
+    img_m = re.search(r'src="(https://apn\.lapampa\.gob\.ar/images/multimedia/[^"]+)"', raw)
     if img_m:
         foto = img_m.group(1)
-    # Parrafos del cuerpo
-    parrafos = re.findall(r'<p[^>]*>([^<]{40,})</p>', raw)
-    cuerpo = ' '.join(p.strip() for p in parrafos[:6])
+    # Parrafos del cuerpo - buscar dentro del div de contenido
+    parrafos = re.findall(r'<p[^>]*>\s*([^<]{40,})\s*</p>', raw)
+    cuerpo = ' '.join(p.strip() for p in parrafos[:6] if len(p.strip()) > 40)
     return cuerpo[:900], foto
 
 
@@ -133,66 +158,98 @@ dip_texto = ""
 for it in dip_items:
     dip_texto += f"\n• TITULO: {it['titulo']}\n  URL: {it['url']}\n"
 
-PROMPT = f"""Sos el redactor jefe de LLANO·, el primer diario digital 100% IA de La Pampa, Argentina.
+PROMPT = f"""Sos el redactor jefe de LLANO, el primer diario digital 100% IA de La Pampa, Argentina.
 Fecha: {fecha_display} — {turno_label}
 
-═══ NOTICIAS DISPONIBLES ═══
+NOTICIAS DISPONIBLES HOY:
 
-── APN La Pampa (fuente oficial del gobierno provincial) ──
+APN La Pampa (fuente oficial del gobierno provincial):
 {apn_texto if apn_texto.strip() else "No disponible hoy."}
 
-── Diputados.gob.ar ──
+Diputados.gob.ar:
 {dip_texto if dip_texto.strip() else "No disponible hoy."}
 
-═══ PRINCIPIOS EDITORIALES DE LLANO· ═══
+PRINCIPIOS EDITORIALES:
 1. OBJETIVIDAD ABSOLUTA — cobertura igual para PJ, UCR, LLA y todos los partidos. Sin sesgo.
-2. SEGUIMIENTO PRIORITARIO: Di Napoli (Santa Rosa municipal y concejo), Alonso (General Pico municipal y concejo), Ravier (diputado LLA), Berhongaray (UCR), Kronemberger (legislador).
-3. FUENTE: Siempre "LLANO·" — NUNCA mencionar La Arena, El Diario de La Pampa, ni Diarionoticias.
+2. SEGUIMIENTO PRIORITARIO: Di Napoli (Santa Rosa municipal y concejo), Alonso (General Pico), Ravier (diputado LLA), Berhongaray (UCR), Kronemberger.
+3. FUENTE: Siempre "LLANO" — NUNCA mencionar La Arena, El Diario de La Pampa, ni Diarionoticias.
 4. FOCO: 60% politica pampeana, 25% nacional con angulo pampeano, 15% economia/internacional.
 5. VOZ: Clara, directa, rioplatense, sin sesgo partidario.
-6. Las fotos son URLs de APN — usar SOLO las que existen en el contexto anterior.
+6. Fotos: usar SOLO las URLs de APN que estan en el contexto anterior. Si no hay foto, dejar vacio.
 
-GENERA EL SIGUIENTE JSON (sin texto adicional, solo el JSON valido):
+Usa la herramienta actualizar_diario con las noticias del dia.
+Para cada articulo del array arts, escribe el cuerpo completo de 4 parrafos en HTML con etiquetas p y strong."""
 
-{{
-  "hero": {{
-    "art_id": "id_snake_case",
-    "cat": "Seccion · Subseccion",
-    "titulo": "Titulo impactante maximo 85 caracteres",
-    "summary": "Dos oraciones resumiendo la nota principal.",
-    "foto": "URL foto APN o vacio"
-  }},
-  "sec01": [
-    {{"id":"id1","cat":"Cat · Sub","titulo":"Titulo nota 1","resumen":"Una oracion de resumen.","foto":"URL o vacio","ts":"{fecha_corta} · LLANO·"}},
-    {{"id":"id2","cat":"Cat · Sub","titulo":"Titulo nota 2","resumen":"Una oracion.","foto":"","ts":"{fecha_corta} · LLANO·"}},
-    {{"id":"id3","cat":"Cat · Sub","titulo":"Titulo nota 3","resumen":"Una oracion.","foto":"","ts":"{fecha_corta} · LLANO·"}}
-  ],
-  "sec03": [
-    {{"id":"id4","cat":"Nacional · Sub","titulo":"Titulo nacional 1","resumen":"Una oracion.","foto":"","ts":"{fecha_corta} · LLANO·"}},
-    {{"id":"id5","cat":"Nacional · Sub","titulo":"Titulo nacional 2","resumen":"Una oracion.","foto":"","ts":"{fecha_corta} · LLANO·"}},
-    {{"id":"id6","cat":"Nacional · Sub","titulo":"Titulo nacional 3","resumen":"Una oracion.","foto":"","ts":"{fecha_corta} · LLANO·"}}
-  ],
-  "arts": [
-    {{
-      "id":"id1",
-      "cat":"Seccion · Subseccion",
-      "fecha":"{fecha_corta}",
-      "titulo":"Titulo completo del articulo",
-      "bajada":"Dos oraciones que presentan el articulo.",
-      "cuerpo":"<p>Parrafo 1 completo con <strong>negritas</strong> en nombres.</p><p>Parrafo 2.</p><p>Parrafo 3.</p><p>Parrafo 4 con conclusion.</p>",
-      "foto":"URL o vacio"
-    }}
-  ]
-}}
+# ── SCHEMA PARA TOOL USE (JSON GARANTIZADO) ──
+CARD_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "id":      {"type": "string", "description": "id snake_case unico"},
+        "cat":     {"type": "string", "description": "Seccion y subseccion"},
+        "titulo":  {"type": "string"},
+        "resumen": {"type": "string", "description": "Una oracion de resumen"},
+        "foto":    {"type": "string", "description": "URL APN o vacio"},
+        "ts":      {"type": "string", "description": f"{fecha_corta} · LLANO"}
+    },
+    "required": ["id", "cat", "titulo", "resumen", "foto", "ts"]
+}
 
-INSTRUCCIONES:
-- sec01 = politica pampeana (3 noticias locales)
-- sec03 = politica nacional (3 noticias nacionales con angulo pampeano cuando sea posible)
-- arts = array con TODOS los articulos: el hero + los 3 de sec01 + los 3 de sec03 = minimo 7 articulos
-- El id del hero debe coincidir con uno de los ids en sec01
-- Escribi cuerpos completos de 4 parrafos en espanol rioplatense
-- Backticks y comillas simples dentro del JSON deben estar escapados
-- Devuelve SOLO el JSON, sin ningun texto antes ni despues"""
+ART_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "id":     {"type": "string"},
+        "cat":    {"type": "string"},
+        "fecha":  {"type": "string"},
+        "titulo": {"type": "string"},
+        "bajada": {"type": "string", "description": "Dos oraciones de presentacion"},
+        "cuerpo": {"type": "string", "description": "HTML con 4 parrafos usando etiquetas p y strong"},
+        "foto":   {"type": "string"}
+    },
+    "required": ["id", "cat", "fecha", "titulo", "bajada", "cuerpo", "foto"]
+}
+
+TOOL = {
+    "name": "actualizar_diario",
+    "description": "Actualizar el contenido del diario LLANO con las noticias del dia",
+    "input_schema": {
+        "type": "object",
+        "properties": {
+            "hero": {
+                "type": "object",
+                "description": "La nota mas importante del dia para el hero principal",
+                "properties": {
+                    "art_id":  {"type": "string", "description": "Debe coincidir con un id en sec01"},
+                    "cat":     {"type": "string"},
+                    "titulo":  {"type": "string", "description": "Maximo 85 caracteres"},
+                    "summary": {"type": "string", "description": "2 oraciones impactantes"},
+                    "foto":    {"type": "string", "description": "URL foto APN o vacio"}
+                },
+                "required": ["art_id", "cat", "titulo", "summary", "foto"]
+            },
+            "sec01": {
+                "type": "array",
+                "description": "3 noticias de politica pampeana",
+                "items": CARD_SCHEMA,
+                "minItems": 3,
+                "maxItems": 3
+            },
+            "sec03": {
+                "type": "array",
+                "description": "3 noticias de politica nacional con angulo pampeano",
+                "items": CARD_SCHEMA,
+                "minItems": 3,
+                "maxItems": 3
+            },
+            "arts": {
+                "type": "array",
+                "description": "Todos los articulos completos (hero + sec01 + sec03 = min 7)",
+                "items": ART_SCHEMA,
+                "minItems": 6
+            }
+        },
+        "required": ["hero", "sec01", "sec03", "arts"]
+    }
+}
 
 # ── LLAMADA A CLAUDE API ──
 print("Llamando a Claude API (claude-haiku-4-5)...")
@@ -200,12 +257,12 @@ print("Llamando a Claude API (claude-haiku-4-5)...")
 try:
     import anthropic
 except ImportError:
-    print("ERROR: Instalar anthropic → pip install anthropic")
+    print("ERROR: Instalar anthropic — pip install anthropic")
     sys.exit(1)
 
 api_key = os.environ.get("ANTHROPIC_API_KEY", "")
 if not api_key:
-    print("ERROR: Variable de entorno ANTHROPIC_API_KEY no configurada")
+    print("ERROR: Variable ANTHROPIC_API_KEY no configurada")
     sys.exit(1)
 
 client = anthropic.Anthropic(api_key=api_key)
@@ -213,32 +270,17 @@ client = anthropic.Anthropic(api_key=api_key)
 try:
     message = client.messages.create(
         model="claude-haiku-4-5-20251001",
-        max_tokens=4096,
+        max_tokens=8192,
+        tools=[TOOL],
+        tool_choice={"type": "tool", "name": "actualizar_diario"},
         messages=[{"role": "user", "content": PROMPT}]
     )
-    response_text = message.content[0].text.strip()
-    print(f"  Respuesta recibida ({len(response_text)} chars)")
+    # tool_use garantiza que input es un dict Python valido
+    data = message.content[0].input
+    print(f"  Tool use OK — {len(data.get('arts', []))} articulos, hero: {data.get('hero', {}).get('art_id','?')}")
 except Exception as e:
     print(f"ERROR API Claude: {e}")
     sys.exit(1)
-
-# ── PARSEAR JSON ──
-json_m = re.search(r'\{[\s\S]*\}', response_text)
-if not json_m:
-    print("ERROR: No se encontro JSON en la respuesta de Claude")
-    print("Respuesta:", response_text[:500])
-    sys.exit(1)
-
-try:
-    data = json.loads(json_m.group())
-except json.JSONDecodeError as e:
-    # Intentar limpiar el JSON
-    raw_json = json_m.group()
-    # Eliminar backticks no escapados dentro de strings JS
-    print(f"ERROR JSON ({e}) — intentando limpiar...")
-    sys.exit(1)
-
-print(f"  JSON valido — {len(data.get('arts', []))} articulos, hero: {data.get('hero', {}).get('art_id','?')}")
 
 
 # ── GENERADORES HTML ──
@@ -303,44 +345,30 @@ hero_nuevo = f"""{img_hero}
         </div>
       </div>"""
 
-llano = re.sub(
-    r'<!-- AUTO:HERO:START -->[\s\S]*?<!-- AUTO:HERO:END -->',
-    f'<!-- AUTO:HERO:START -->\n      {hero_nuevo}\n<!-- AUTO:HERO:END -->',
-    llano
-)
+def safe_sub(pattern, replacement, text):
+    """re.sub seguro — usa lambda para evitar que backslashes en el reemplazo rompan regex"""
+    return re.sub(pattern, lambda _: replacement, text)
+
+hero_bloque = f'<!-- AUTO:HERO:START -->\n      {hero_nuevo}\n<!-- AUTO:HERO:END -->'
+llano = safe_sub(r'<!-- AUTO:HERO:START -->[\s\S]*?<!-- AUTO:HERO:END -->', hero_bloque, llano)
 
 # ── REEMPLAZAR SEC01 ──
 sec01 = data.get("sec01", [])[:3]
 sec01_cards = "\n".join(card_html(c) for c in sec01)
-llano = re.sub(
-    r'<!-- AUTO:SEC01:START -->[\s\S]*?<!-- AUTO:SEC01:END -->',
-    f'<!-- AUTO:SEC01:START -->\n  <div class="g3 fade-in">\n{sec01_cards}\n  </div>\n  <!-- AUTO:SEC01:END -->',
-    llano
-)
+sec01_bloque = f'<!-- AUTO:SEC01:START -->\n  <div class="g3 fade-in">\n{sec01_cards}\n  </div>\n  <!-- AUTO:SEC01:END -->'
+llano = safe_sub(r'<!-- AUTO:SEC01:START -->[\s\S]*?<!-- AUTO:SEC01:END -->', sec01_bloque, llano)
 
 # ── REEMPLAZAR SEC03 ──
 sec03 = data.get("sec03", [])[:3]
 sec03_cards = "\n".join(card_html(c) for c in sec03)
-llano = re.sub(
-    r'<!-- AUTO:SEC03:START -->[\s\S]*?<!-- AUTO:SEC03:END -->',
-    f'<!-- AUTO:SEC03:START -->\n  <div class="g3 fade-in">\n{sec03_cards}\n  </div>\n  <!-- AUTO:SEC03:END -->',
-    llano
-)
+sec03_bloque = f'<!-- AUTO:SEC03:START -->\n  <div class="g3 fade-in">\n{sec03_cards}\n  </div>\n  <!-- AUTO:SEC03:END -->'
+llano = safe_sub(r'<!-- AUTO:SEC03:START -->[\s\S]*?<!-- AUTO:SEC03:END -->', sec03_bloque, llano)
 
 # ── REEMPLAZAR ARTS ──
 arts_items = data.get("arts", [])
 arts_entries_str = ",\n".join(arts_entry(a) for a in arts_items)
-arts_block = f"""  // AUTO:ARTS:START
-  const ARTS = {{
-{arts_entries_str}
-  }};
-  // AUTO:ARTS:END"""
-
-llano = re.sub(
-    r'// AUTO:ARTS:START[\s\S]*?// AUTO:ARTS:END',
-    arts_block,
-    llano
-)
+arts_block = f"  // AUTO:ARTS:START\n  const ARTS = {{\n{arts_entries_str}\n  }};\n  // AUTO:ARTS:END"
+llano = safe_sub(r'// AUTO:ARTS:START[\s\S]*?// AUTO:ARTS:END', arts_block, llano)
 
 # ── GUARDAR ──
 with open(html_path, "w", encoding="utf-8") as f:
