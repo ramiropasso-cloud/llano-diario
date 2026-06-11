@@ -469,8 +469,7 @@ aside { border-left: 1px solid var(--border); padding-left: 2rem; }
 .quote-box blockquote { font-size: .85rem; font-style: italic; line-height: 1.6; color: var(--fg); margin-bottom: .5rem; }
 .quote-box cite { font-size: .68rem; color: var(--fg-3); font-style: normal; font-weight: 600; }
 
-/* ─── SEGUIMIENTO ESPECIAL (Political Tracker) ─── */
-.tracker-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.25rem; margin-bottom: 3rem; }
+/* ─── TRACKER (eliminado) ─── */
 .tracker-card {
   background: var(--bg); border: 1px solid var(--border);
   border-radius: var(--r-lg); overflow: hidden;
@@ -705,7 +704,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     <nav class="h-nav">
       <a href="#" class="active">Inicio</a>
       <a href="#pol-prov">Política Pampeana</a>
-      <a href="#seguimiento">Seguimiento</a>
+      <a href="#video">Video</a>
       <a href="#pol-nac">Nacional</a>
       <a href="#intl">Internacional</a>
       <a href="#economia">Economía</a>
@@ -957,122 +956,52 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   </div>
   <!-- AUTO:DATOS:END -->
 
-  <!-- ── 02 SEGUIMIENTO ESPECIAL ── -->
-  <div id="seguimiento" class="sec-hd fade-in">
+  <!-- ── 02 VIDEO ── -->
+  <!-- PARA CAMBIAR EL VIDEO:
+       YouTube: reemplaza el src del iframe con https://www.youtube.com/embed/ID_DEL_VIDEO
+       X/Twitter: reemplaza VIDEO_PLATAFORMA por "X · @usuario" y pegá la URL del tweet en VIDEO_URL
+       Stream en vivo: usá https://www.youtube.com/embed/ID?autoplay=1
+  -->
+  <div id="video" class="sec-hd fade-in">
     <span class="sec-num">02</span>
-    <h2 class="sec-name">Seguimiento Especial</h2>
-    <div class="sec-hd-right"><span style="font-size:.65rem;color:var(--fg-3);">Historias en curso · actualización IA</span></div>
+    <h2 class="sec-name">Video del día</h2>
+    <div class="sec-hd-right"><span style="font-size:.65rem;color:var(--fg-3);">Actualización diaria · LLANO·</span></div>
   </div>
 
-  <div class="tracker-grid fade-in">
+  <div class="fade-in" style="margin-bottom:3rem;">
+    <div style="display:grid;grid-template-columns:1fr 340px;gap:1.5rem;align-items:start;">
 
-    <!-- Tracker nuevo: Acuífero Santa Rosa -->
-    <div class="tracker-card">
-      <div class="tc-header">
-        <span class="chip chip-r">Activo · HOY</span>
-        <span class="ts">Actualización: 11 jun 2026</span>
+      <!-- EMBED DEL VIDEO — cambiar el src para actualizar -->
+      <div style="position:relative;padding-bottom:56.25%;height:0;border-radius:var(--r-lg);overflow:hidden;background:#0a0909;">
+        <iframe
+          id="llano-video"
+          src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+          title="Video del día · LLANO·"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius:var(--r-lg);">
+        </iframe>
       </div>
-      <div class="tc-body">
-        <div class="tc-tags" style="margin-bottom:.65rem;"><span class="cat">Medio Ambiente · Santa Rosa</span></div>
-        <h4>Acuífero Toay: la batalla ambiental por el futuro del agua de Santa Rosa</h4>
-        <p>Seguimiento del conflicto por el proyecto de urbanización del acuífero compartido por Santa Rosa, Toay, Anguil y Catriló. Gremios, jueces y vecinos frente al municipio.</p>
-        <div class="tc-progress"><div class="tc-progress-fill" style="width:25%; background:#1a4a8a;"></div></div>
-        <span style="font-size:.65rem;color:var(--fg-3);">Audiencia convocada: 16 jun 2026 · impugnación activa</span>
+
+      <!-- Ficha del video -->
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+        <div class="ab">
+          <div class="card-meta" style="margin-bottom:.5rem;">
+            <span class="cat" id="video-plataforma">YouTube · LLANO·</span>
+            <span class="ia-badge">&#10022; Video</span>
+          </div>
+          <h4 id="video-titulo" style="font-size:1rem;line-height:1.4;margin:0 0 .6rem;">Video destacado de la semana</h4>
+          <p id="video-desc" style="font-size:.8rem;color:var(--fg-2);line-height:1.5;margin:0 0 .8rem;">Selección editorial de LLANO· — el video más relevante de la política pampeana y argentina de la semana.</p>
+          <span class="ts" id="video-fecha">11 jun 2026 · LLANO·</span>
+        </div>
+        <div class="ab">
+          <h6 class="ab-hd">Cómo ver más</h6>
+          <p style="font-size:.75rem;color:var(--fg-3);line-height:1.5;margin:0;">LLANO· selecciona cada día o semana el video más relevante de la política pampeana. Puede ser un debate, una entrevista, una sesión legislativa o un stream en vivo.</p>
+        </div>
       </div>
-      <div class="tc-footer"><span>3 entradas publicadas hoy</span><a href="#">Ver hilo →</a></div>
+
     </div>
-
-    <!-- Tracker armado electoral -->
-    <div class="tracker-card">
-      <div class="tc-header">
-        <span class="chip chip-r">Activo</span>
-        <span class="ts">Última actualización: hace 2 hs</span>
-      </div>
-      <div class="tc-body">
-        <div class="tc-tags" style="margin-bottom:.65rem;"><span class="cat">Electoral 2027</span></div>
-        <h4>PJ pampeano: fisuras internas y el armado de cara a 2027</h4>
-        <p>Seguimiento de los movimientos internos del peronismo provincial. Hoy: ausencia de Verna y Ziliotto en el acto de la Línea Plural. El termómetro pre-electoral semana a semana.</p>
-        <div class="tc-progress"><div class="tc-progress-fill" style="width:35%;"></div></div>
-        <span style="font-size:.65rem;color:var(--fg-3);">35% del ciclo pre-electoral · 18 meses para las elecciones</span>
-      </div>
-      <div class="tc-footer"><span>13 entradas publicadas</span><a href="#">Ver hilo →</a></div>
-    </div>
-
-    <div class="tracker-card">
-      <div class="tc-header">
-        <span class="chip chip-a">En desarrollo</span>
-        <span class="ts">Última actualización: hace 45 min</span>
-      </div>
-      <div class="tc-body">
-        <div class="tc-tags" style="margin-bottom:.65rem;"><span class="cat">Legislatura</span></div>
-        <h4>Sesión ordinaria: reforma del Código de Faltas pampeano</h4>
-        <p>Cobertura en vivo de la sesión del Senado provincial. Votaciones, discursos y resultados al instante.</p>
-        <div class="tc-progress"><div class="tc-progress-fill" style="width:60%;"></div></div>
-        <span style="font-size:.65rem;color:var(--fg-3);">Sesión en curso · 3 artículos pendientes de votación</span>
-      </div>
-      <div class="tc-footer"><span>8 actualizaciones hoy</span><a href="#">Seguir en vivo →</a></div>
-    </div>
-
-    <div class="tracker-card">
-      <div class="tc-header">
-        <span class="chip chip-b">Monitoreo</span>
-        <span class="ts">Última actualización: 11 jun</span>
-      </div>
-      <div class="tc-body">
-        <div class="tc-tags" style="margin-bottom:.65rem;"><span class="cat">General Pico · Municipal</span></div>
-        <h4>Gestión Alonso en General Pico: seguimiento de obras y decisiones clave</h4>
-        <p>Cobertura de las principales decisiones del intendente Martín Alonso: presupuesto, obra pública y agenda política del municipio más grande del interior pampeano.</p>
-        <div class="tc-progress"><div class="tc-progress-fill" style="width:30%;"></div></div>
-        <span style="font-size:.65rem;color:var(--fg-3);">Seguimiento activo · LLANO·</span>
-      </div>
-      <div class="tc-footer"><span>Cobertura en curso</span><a href="#">Ver notas →</a></div>
-    </div>
-
-    <div class="tracker-card">
-      <div class="tc-header">
-        <span class="chip chip-g">Resuelto</span>
-        <span class="ts">Cerrado: 5 jun 2026</span>
-      </div>
-      <div class="tc-body">
-        <div class="tc-tags" style="margin-bottom:.65rem;"><span class="cat">Coparticipación</span></div>
-        <h4>Negociación de La Pampa por fondos nacionales: balance final</h4>
-        <p>La provincia logró un acuerdo por $2.400 millones adicionales mensuales. Análisis de ganadores, perdedores y qué se cedió.</p>
-        <div class="tc-progress"><div class="tc-progress-fill" style="width:100%;"></div></div>
-        <span style="font-size:.65rem;color:var(--fg-3);">Cobertura completa · 4 semanas de seguimiento</span>
-      </div>
-      <div class="tc-footer"><span>23 entradas publicadas</span><a href="#">Leer resumen →</a></div>
-    </div>
-
-    <div class="tracker-card">
-      <div class="tc-header">
-        <span class="chip chip-a">En curso</span>
-        <span class="ts">Última actualización: 9 jun</span>
-      </div>
-      <div class="tc-body">
-        <div class="tc-tags" style="margin-bottom:.65rem;"><span class="cat">PJ Pampeano</span></div>
-        <h4>El congreso del PJ: definición de autoridades y estrategia 2027</h4>
-        <p>El peronismo provincial atraviesa su proceso interno más tenso en años. Fecha confirmada: 22 de julio. Los nombres y las listas.</p>
-        <div class="tc-progress"><div class="tc-progress-fill" style="width:20%;"></div></div>
-        <span style="font-size:.65rem;color:var(--fg-3);">Congreso: 22 jul 2026 · 42 días</span>
-      </div>
-      <div class="tc-footer"><span>4 entradas publicadas</span><a href="#">Seguir →</a></div>
-    </div>
-
-    <div class="tracker-card">
-      <div class="tc-header">
-        <span class="chip chip-b">Monitoreo</span>
-        <span class="ts">Última actualización: 8 jun</span>
-      </div>
-      <div class="tc-body">
-        <div class="tc-tags" style="margin-bottom:.65rem;"><span class="cat">Poder Judicial</span></div>
-        <h4>Renovación del Superior Tribunal de Justicia pampeano</h4>
-        <p>El proceso de designación de nuevos integrantes del máximo tribunal provincial. Candidatos, lobby político y calendario institucional.</p>
-        <div class="tc-progress"><div class="tc-progress-fill" style="width:30%;"></div></div>
-        <span style="font-size:.65rem;color:var(--fg-3);">Proceso abierto · resolución estimada: agosto</span>
-      </div>
-      <div class="tc-footer"><span>5 entradas publicadas</span><a href="#">Ver cobertura →</a></div>
-    </div>
-
   </div>
 
   <!-- ── 03 POLÍTICA NACIONAL ── -->
