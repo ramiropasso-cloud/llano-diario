@@ -73,7 +73,22 @@
       }
     ]
   }
-  </script>
+  
+  // ─── INFO PANELS ───
+  function openPanel(id) {
+    document.querySelectorAll('.panel-content').forEach(el => el.classList.remove('active'));
+    const target = document.getElementById('panel-' + id);
+    if (target) target.classList.add('active');
+    document.getElementById('panel-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closePanel() {
+    document.getElementById('panel-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
+
+</script>
 
   <!-- ── FAVICON INLINE SVG ── -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%230a0909'/><text x='50' y='72' font-family='Inter,sans-serif' font-size='68' font-weight='900' text-anchor='middle' fill='white'>L</text><circle cx='72' cy='28' r='10' fill='%23c8780a'/></svg>" />
@@ -683,6 +698,21 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   .cita-strip { background:var(--bg-2); border-left:4px solid var(--accent); border-radius:0 var(--r-lg) var(--r-lg) 0; padding:1rem 1.5rem; margin:0 0 1.5rem; }
   .cita-strip blockquote { margin:0 0 .4rem; font-size:.92rem; font-style:italic; color:var(--fg-1); line-height:1.5; }
   .cita-strip cite { font-size:.68rem; color:var(--fg-3); font-style:normal; }
+
+  /* ─── INFO PANELS ─── */
+  #panel-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.75); z-index:900; overflow-y:auto; padding:2rem 1rem; }
+  #panel-overlay.open { display:flex; justify-content:center; align-items:flex-start; }
+  .panel-inner { background:var(--bg-1); border:1px solid var(--border-1); border-radius:var(--r-lg); padding:2.5rem 3rem; max-width:700px; width:100%; position:relative; margin:auto; }
+  .panel-close { position:absolute; top:1.25rem; right:1.25rem; background:none; border:1px solid var(--border-1); color:var(--fg-2); width:2rem; height:2rem; border-radius:50%; cursor:pointer; font-size:1rem; display:flex; align-items:center; justify-content:center; }
+  .panel-close:hover { background:var(--bg-2); color:var(--fg-1); }
+  .panel-content { display:none; }
+  .panel-content.active { display:block; }
+  .panel-content h2 { font-size:1.5rem; font-weight:800; letter-spacing:-.03em; color:var(--fg-1); margin:0 0 1.5rem; line-height:1.25; }
+  .panel-content h3 { font-size:.85rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); margin:1.75rem 0 .5rem; }
+  .panel-content p { font-size:.88rem; color:var(--fg-2); line-height:1.7; margin:0 0 1rem; }
+  .panel-content p:last-child { margin-bottom:0; }
+  .panel-tag { display:inline-block; font-size:.62rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); background:rgba(200,120,10,.1); border:1px solid rgba(200,120,10,.2); border-radius:99px; padding:.2rem .65rem; margin-bottom:1.25rem; }
+  @media(max-width:600px) { .panel-inner { padding:1.75rem 1.25rem; } }
 </style>
 </head>
 <body>
@@ -1164,11 +1194,11 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     <div class="f-col">
       <h6>Secciones</h6>
       <a href="#">Política Pampeana</a>
-      <a href="#">Seguimiento</a>
+      <a href="#video">Video del día</a>
       <a href="#">Nacional</a>
       <a href="#">Internacional</a>
       <a href="#">Economía</a>
-      <a href="#">IA Explica</a>
+      
     </div>
     <div class="f-col">
       <h6>Plataformas</h6>
@@ -1179,10 +1209,10 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     </div>
     <div class="f-col">
       <h6>El diario</h6>
-      <a href="#">Nosotros</a>
-      <a href="#">Cómo funciona la IA</a>
-      <a href="#">Política editorial</a>
-      <a href="#">Contacto</a>
+      <a href="#" onclick="openPanel('nosotros');return false;">Nosotros</a>
+      <a href="#" onclick="openPanel('ia');return false;">Cómo funciona la IA</a>
+      <a href="#" onclick="openPanel('editorial');return false;">Política editorial</a>
+      <a href="#" onclick="openPanel('contacto');return false;">Contacto</a>
     </div>
   </div>
   <div class="f-bottom">
@@ -1190,6 +1220,70 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     <span>Producido íntegramente con Inteligencia Artificial · llano.ar</span>
   </div>
 </footer>
+
+<!-- ─── INFO PANELS OVERLAY ─── -->
+<div id="panel-overlay" onclick="if(event.target===this)closePanel()">
+  <div class="panel-inner">
+    <button class="panel-close" onclick="closePanel()">&#x2715;</button>
+
+    <!-- NOSOTROS -->
+    <div id="panel-nosotros" class="panel-content">
+      <span class="panel-tag">El diario</span>
+      <h2>LLANO· — El primer diario digital 100% IA de La Pampa</h2>
+      <p>LLANO· nació con una certeza: el periodismo provincial merece la misma profundidad, velocidad y rigor que los grandes medios nacionales. Y con una apuesta: que la inteligencia artificial puede ser la herramienta para lograrlo.</p>
+      <p>Somos un diario digital de La Pampa dedicado exclusivamente a la política. Cubrimos la provincia, el país y el mundo con foco en lo que le importa al pampeano: quién gobierna, cómo decide, qué oculta y qué construye.</p>
+      <p>No tenemos redacción tradicional. No tenemos cronistas o editores. Tenemos un sistema de producción periodística basado en inteligencia artificial que trabaja las 24 horas, contrasta fuentes, escribe con precisión y publica sin demora.</p>
+      <p>El resultado es un medio que cubre más, más rápido y con menos sesgos estructurales que los medios convencionales.</p>
+      <p style="color:var(--fg-3);font-size:.8rem;">LLANO· es un proyecto. La Pampa, Argentina. 2026.</p>
+    </div>
+
+    <!-- CÓMO FUNCIONA LA IA -->
+    <div id="panel-ia" class="panel-content">
+      <span class="panel-tag">Tecnología</span>
+      <h2>Periodismo asistido por inteligencia artificial — así producimos LLANO·</h2>
+      <p>LLANO· utiliza inteligencia artificial en cada etapa del proceso periodístico. No como experimento ni como moda: como método de trabajo permanente y riguroso.</p>
+      <h3>Monitoreo continuo</h3>
+      <p>Nuestros sistemas rastrean en tiempo real fuentes oficiales, medios provinciales, nacionales e internacionales, redes sociales y comunicados de gobierno. Nada relevante para La Pampa pasa desapercibido.</p>
+      <h3>Redacción y síntesis</h3>
+      <p>Los modelos de lenguaje procesan la información, verifican consistencia entre fuentes y producen los textos. Cada nota indica si fue generada íntegramente por IA o editada por supervisión humana.</p>
+      <h3>Supervisión editorial</h3>
+      <p>Un editor humano supervisa la línea del medio, valida las decisiones de cobertura y es responsable final del contenido publicado. La IA produce; la editorial define.</p>
+      <h3>Transparencia total</h3>
+      <p>Cada nota lleva una etiqueta que identifica su origen: <strong>✦ IA</strong> para contenido generado automáticamente, <strong>Editorial</strong> para análisis con intervención humana, y <strong>APN</strong> para comunicados oficiales reproducidos con fuente.</p>
+    </div>
+
+    <!-- POLÍTICA EDITORIAL -->
+    <div id="panel-editorial" class="panel-content">
+      <span class="panel-tag">Principios</span>
+      <h2>Los principios que rigen LLANO·</h2>
+      <h3>Independencia</h3>
+      <p>LLANO· no tiene acuerdos comerciales con partidos, funcionarios ni empresas que condicionen su cobertura. La línea editorial es autónoma.</p>
+      <h3>Verificación</h3>
+      <p>Toda información publicada debe tener al menos una fuente identificable. Las noticias sin confirmación se publican con etiqueta explícita de "versión en desarrollo". No publicamos rumores como hechos.</p>
+      <h3>Claridad en el origen</h3>
+      <p>Distinguimos con precisión entre noticia, análisis y editorial. El lector siempre sabe qué está leyendo y quién —o qué— lo produjo.</p>
+      <h3>Foco pampeano</h3>
+      <p>Cubrimos lo nacional e internacional en tanto afecta a La Pampa. No somos un agregador de noticias genérico. Nuestra vara es: ¿esto le importa al pampeano? Si la respuesta es sí, lo cubrimos.</p>
+      <h3>Correcciones</h3>
+      <p>Los errores se corrigen con nota explícita en el mismo artículo. No se borran notas, no se editan textos sin registro. La transparencia sobre los errores es parte de la credibilidad.</p>
+      <h3>Uso ético de la IA</h3>
+      <p>No fabricamos citas textuales. No atribuimos declaraciones que no puedan verificarse. No usamos la IA para generar contenido falso, especulativo o malintencionado. La tecnología está al servicio del periodismo, no al revés.</p>
+    </div>
+
+    <!-- CONTACTO -->
+    <div id="panel-contacto" class="panel-content">
+      <span class="panel-tag">Contacto</span>
+      <h2>Escribinos</h2>
+      <p>LLANO· es un medio pequeño con operación automatizada. Para consultas, sugerencias, correcciones o para acercarnos información que considerás relevante para La Pampa, usá DM en nuestras redes sociales.</p>
+      <h3>Para correcciones</h3>
+      <p>Si encontrás un error factual en una nota, escribinos indicando el título, la fecha y el dato incorrecto. Revisamos y corregimos con etiqueta visible.</p>
+      <h3>Ubicación</h3>
+      <p>La Pampa, Argentina.</p>
+    </div>
+
+  </div>
+</div>
+
 
 <script>
   // Dark mode
