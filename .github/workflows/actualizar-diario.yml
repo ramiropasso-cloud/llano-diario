@@ -1,0 +1,46 @@
+name: LLANO actualizar diario
+
+on:
+  schedule:
+    - cron: '0 10 * * 1-5'
+    - cron: '0 14 * * 1-5'
+    - cron: '0 20 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: pip install anthropic
+
+      - name: Actualizar diario
+        run: python actualizar.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit y push
+        run: |
+          git config user.email "bot@llano.it.com"
+          git config user.name "LLANO Bot"
+          git add llano.html
+          if git diff --staged --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "LLANO $(date +'%d/%m/%Y %H:%M') - actualizacion automatica"
+            git push
+          fi
