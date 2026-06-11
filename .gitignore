@@ -1,0 +1,5 @@
+llano-publicar.ps1
+llano-deploy.zip
+
+# Local Netlify folder
+.netlify
