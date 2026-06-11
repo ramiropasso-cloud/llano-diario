@@ -674,7 +674,17 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 
 .hero-main,.hero-item,.card,.li { cursor: pointer; }
 
-  </style>
+  
+  /* Dato del dia — strip prominente */
+  .dato-strip { display:flex; align-items:center; gap:1.5rem; background:linear-gradient(90deg,rgba(200,120,10,.12) 0%,transparent 100%); border-left:4px solid var(--accent); border-radius:0 var(--r-lg) var(--r-lg) 0; padding:1.1rem 1.5rem; margin:1.5rem 0; }
+  .dato-strip-badge { font-size:.55rem; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); white-space:nowrap; writing-mode:vertical-rl; transform:rotate(180deg); }
+  .dato-strip-num { font-size:3rem; font-weight:900; letter-spacing:-.06em; color:var(--accent); line-height:1; white-space:nowrap; flex-shrink:0; }
+  .dato-strip-txt p { margin:0 0 .3rem; font-size:.82rem; color:var(--fg-2); }
+  .dato-strip-txt cite { font-size:.65rem; color:var(--fg-3); font-style:normal; }
+  .cita-strip { background:var(--bg-2); border-left:4px solid var(--accent); border-radius:0 var(--r-lg) var(--r-lg) 0; padding:1rem 1.5rem; margin:0 0 1.5rem; }
+  .cita-strip blockquote { margin:0 0 .4rem; font-size:.92rem; font-style:italic; color:var(--fg-1); line-height:1.5; }
+  .cita-strip cite { font-size:.68rem; color:var(--fg-3); font-style:normal; }
+</style>
 </head>
 <body>
 
@@ -844,6 +854,8 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     <div>
       <div style="display:flex;flex-direction:column;">
 
+        <!-- AUTO:SEC01-LIST:START -->
+
         <!-- Editorial LLANO· — Adorni / Ravier -->
         <div class="li" style="border-left:3px solid #c8780a;padding-left:.75rem;">
           <div class="li-img" style="width:88px;height:58px;flex-shrink:0;background:#111;position:relative;overflow:hidden;border-radius:var(--r);">
@@ -908,6 +920,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
             <div class="li-meta"><span class="ts">10 jun 2026 · APN</span><a href="https://apn.lapampa.gob.ar/nota/detalle/id/30095/Convocan-a-inscribirse-a-los-nuevos-Desafos-Productivos-Iniciar" target="_blank" rel="noopener noreferrer" class="src-link-nota" style="font-size:.62rem;">Ver nota →</a></div>
           </div>
         </div>
+        <!-- AUTO:SEC01-LIST:END -->
 
       </div>
     </div>
@@ -950,6 +963,21 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       </div>
     </aside>
   </div>
+
+<!-- AUTO:DATOS:START -->
+  <div class="dato-strip fade-in">
+    <span class="dato-strip-badge">Dato del día</span>
+    <div class="dato-strip-num">2027</div>
+    <div class="dato-strip-txt">
+      <p>El radicalismo pampeano inicia el armado electoral de cara a las elecciones legislativas.</p>
+      <cite>LLANO· · 11 jun 2026</cite>
+    </div>
+  </div>
+  <div class="cita-strip fade-in">
+    <blockquote>"La idea de unidad está madurada. Berhongaray tiene que ser el candidato del radicalismo pampeano."</blockquote>
+    <cite>— Abel Sabarots, intendente de General Acha · LLANO· · 11 jun 2026</cite>
+  </div>
+  <!-- AUTO:DATOS:END -->
 
   <!-- ── 02 SEGUIMIENTO ESPECIAL ── -->
   <div id="seguimiento" class="sec-hd fade-in">
@@ -1107,6 +1135,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     <h2 class="sec-name">Internacional</h2>
     <div class="sec-hd-right"><a href="#" class="ver-mas">Ver todo →</a></div>
   </div>
+  <!-- AUTO:SEC04:START -->
   <div class="lay fade-in" style="margin-bottom:3rem;">
     <div class="intl-list">
       <div class="intl-item">
@@ -1151,6 +1180,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       </div>
     </aside>
   </div>
+  <!-- AUTO:SEC04:END -->
 
   <!-- ── 05 ECONOMÍA ── -->
   <div id="economia" class="sec-hd fade-in">

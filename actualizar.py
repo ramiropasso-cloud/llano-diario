@@ -166,24 +166,26 @@ for it in dip_items:
 PROMPT = f"""Sos el redactor jefe de LLANO, el primer diario digital 100% IA de La Pampa, Argentina.
 Fecha: {fecha_display} — {turno_label}
 
-NOTICIAS DISPONIBLES HOY:
-
-APN La Pampa (fuente oficial del gobierno provincial):
+NOTICIAS DISPONIBLES HOY (FUENTES OFICIALES PROVINCIALES):
 {apn_texto if apn_texto.strip() else "No disponible hoy."}
-
-Diputados.gob.ar:
-{dip_texto if dip_texto.strip() else "No disponible hoy."}
 
 PRINCIPIOS EDITORIALES:
 1. OBJETIVIDAD ABSOLUTA — cobertura igual para PJ, UCR, LLA y todos los partidos. Sin sesgo.
-2. SEGUIMIENTO PRIORITARIO: Di Napoli (Santa Rosa municipal y concejo), Alonso (General Pico), Ravier (diputado LLA), Berhongaray (UCR), Kronemberger.
+2. SEGUIMIENTO: Di Napoli (Santa Rosa), Alonso (General Pico), Ravier (LLA), Berhongaray (UCR), Kronemberger.
 3. FUENTE: Siempre "LLANO" — NUNCA mencionar La Arena, El Diario de La Pampa, ni Diarionoticias.
-4. FOCO: 60% politica pampeana, 25% nacional con angulo pampeano, 15% economia/internacional.
-5. VOZ: Clara, directa, rioplatense, sin sesgo partidario.
-6. Fotos: usar SOLO las URLs de APN que estan en el contexto anterior. Si no hay foto, dejar vacio.
+4. VOZ: Clara, directa, rioplatense, sin sesgo partidario.
+5. Fotos: usar SOLO las URLs de APN del contexto. Si no hay foto real, dejar vacio.
 
-Usa la herramienta actualizar_diario con las noticias del dia.
-Para cada articulo del array arts, escribe el cuerpo completo de 4 parrafos en HTML con etiquetas p y strong."""
+DEFINICION ESTRICTA DE SECCIONES:
+- sec01 (cards) = 3 noticias de LA PAMPA (gobierno provincial, municipios, politica pampeana)
+- sec01_list = 4 noticias de LA PAMPA en formato lista (economia, salud, cultura, obra publica)
+- sec03 (cards) = 3 noticias de ARGENTINA NACIONAL (Casa Rosada, Congreso, economia nacional, partidos nacionales) — NADA de La Pampa
+- sec04 (lista) = 5 noticias INTERNACIONALES (otros paises, organismos mundiales) — NADA de Argentina
+- dato_dia = el dato estadistico/cifra mas importante del dia en La Pampa
+- cita_dia = la frase textual mas relevante del dia en la politica pampeana
+
+Para sec03 y sec04 usa tu conocimiento del contexto mundial y nacional de hoy {fecha_display}.
+Para cada articulo del array arts, escribe 4 parrafos completos en HTML con etiquetas p y strong."""
 
 # ── SCHEMA PARA TOOL USE (JSON GARANTIZADO) ──
 CARD_SCHEMA = {
@@ -213,6 +215,29 @@ ART_SCHEMA = {
     "required": ["id", "cat", "fecha", "titulo", "bajada", "cuerpo", "foto"]
 }
 
+LI_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "id":      {"type": "string"},
+        "cat":     {"type": "string"},
+        "titulo":  {"type": "string"},
+        "resumen": {"type": "string"},
+        "foto":    {"type": "string", "description": "URL APN o vacio"},
+        "ts":      {"type": "string"}
+    },
+    "required": ["id", "cat", "titulo", "resumen", "foto", "ts"]
+}
+
+INTL_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "id":     {"type": "string"},
+        "titulo": {"type": "string"},
+        "ts":     {"type": "string"}
+    },
+    "required": ["id", "titulo", "ts"]
+}
+
 TOOL = {
     "name": "actualizar_diario",
     "description": "Actualizar el contenido del diario LLANO con las noticias del dia",
@@ -221,7 +246,7 @@ TOOL = {
         "properties": {
             "hero": {
                 "type": "object",
-                "description": "La nota mas importante del dia para el hero principal",
+                "description": "La nota mas importante del dia de La Pampa para el hero",
                 "properties": {
                     "art_id":  {"type": "string", "description": "Debe coincidir con un id en sec01"},
                     "cat":     {"type": "string"},
@@ -233,26 +258,59 @@ TOOL = {
             },
             "sec01": {
                 "type": "array",
-                "description": "3 noticias de politica pampeana",
+                "description": "3 noticias de LA PAMPA en cards (solo provincia)",
                 "items": CARD_SCHEMA,
                 "minItems": 3,
                 "maxItems": 3
+            },
+            "sec01_list": {
+                "type": "array",
+                "description": "4 noticias de LA PAMPA en lista (economia, salud, obra publica, cultura pampeana)",
+                "items": LI_SCHEMA,
+                "minItems": 4,
+                "maxItems": 5
             },
             "sec03": {
                 "type": "array",
-                "description": "3 noticias de politica nacional con angulo pampeano",
+                "description": "3 noticias NACIONALES de Argentina (fuera de La Pampa) — Casa Rosada, Congreso, economia nacional",
                 "items": CARD_SCHEMA,
                 "minItems": 3,
                 "maxItems": 3
             },
+            "sec04": {
+                "type": "array",
+                "description": "5 noticias INTERNACIONALES (fuera de Argentina)",
+                "items": INTL_SCHEMA,
+                "minItems": 4,
+                "maxItems": 5
+            },
+            "dato_dia": {
+                "type": "object",
+                "description": "Cifra o dato estadistico clave del dia en La Pampa",
+                "properties": {
+                    "num":   {"type": "string", "description": "Cifra destacada (ej: 2027, USD 500k, 48%)"},
+                    "texto": {"type": "string", "description": "Contexto en 2 oraciones"},
+                    "fuente":{"type": "string", "description": "LLANO· · fecha"}
+                },
+                "required": ["num", "texto", "fuente"]
+            },
+            "cita_dia": {
+                "type": "object",
+                "description": "Frase textual mas relevante del dia",
+                "properties": {
+                    "frase": {"type": "string"},
+                    "autor": {"type": "string", "description": "Nombre, cargo y fecha"}
+                },
+                "required": ["frase", "autor"]
+            },
             "arts": {
                 "type": "array",
-                "description": "Todos los articulos completos (hero + sec01 + sec03 = min 7)",
+                "description": "Articulos con cuerpo — al menos hero + 3 de sec01 = minimo 4. Escribi 2 parrafos por articulo.",
                 "items": ART_SCHEMA,
-                "minItems": 6
+                "minItems": 4
             }
         },
-        "required": ["hero", "sec01", "sec03", "arts"]
+        "required": ["hero", "sec01", "sec01_list", "sec03", "sec04", "dato_dia", "cita_dia", "arts"]
     }
 }
 
@@ -359,6 +417,32 @@ hero_nuevo = f"""{img_hero}
         </div>
       </div>"""
 
+def li_html(item):
+    foto = item.get("foto", "")
+    if foto and foto.startswith("http"):
+        img_block = f'<div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="{foto}" alt="{e(item["titulo"])}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>'
+    else:
+        img_block = '<div class="li-img" style="width:88px;height:58px;background:linear-gradient(135deg,#0e1520,#182030);border-radius:var(--r);"></div>'
+    return f"""        <div class="li">
+          {img_block}
+          <div>
+            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">{e(item.get("cat",""))}</span></div>
+            <h4>{e(item["titulo"])}</h4>
+            <p>{e(item.get("resumen",""))}</p>
+            <div class="li-meta"><span class="ts">{e(item.get("ts",""))}</span><span class="ia-badge">&#10022; IA</span></div>
+          </div>
+        </div>"""
+
+def intl_html(items):
+    rows = ""
+    for i, it in enumerate(items, 1):
+        rows += f"""      <div class="intl-item">
+        <span class="intl-num">0{i}</span>
+        <h4>{e(it["titulo"])}</h4>
+        <span class="ts ia-badge" style="flex-shrink:0;">&#10022; IA</span>
+      </div>\n"""
+    return rows
+
 def safe_sub(pattern, replacement, text):
     """re.sub seguro — usa lambda para evitar que backslashes en el reemplazo rompan regex"""
     return re.sub(pattern, lambda _: replacement, text)
@@ -378,11 +462,67 @@ sec03_cards = "\n".join(card_html(c) for c in sec03)
 sec03_bloque = f'<!-- AUTO:SEC03:START -->\n  <div class="g3 fade-in">\n{sec03_cards}\n  </div>\n  <!-- AUTO:SEC03:END -->'
 llano = safe_sub(r'<!-- AUTO:SEC03:START -->[\s\S]*?<!-- AUTO:SEC03:END -->', sec03_bloque, llano)
 
+# ── REEMPLAZAR SEC01-LIST ──
+sec01_list = data.get("sec01_list", [])
+sec01_list_html = "\n".join(li_html(it) for it in sec01_list)
+llano = safe_sub(
+    r'<!-- AUTO:SEC01-LIST:START -->[\s\S]*?<!-- AUTO:SEC01-LIST:END -->',
+    f'<!-- AUTO:SEC01-LIST:START -->\n{sec01_list_html}\n        <!-- AUTO:SEC01-LIST:END -->',
+    llano
+)
+
+# ── REEMPLAZAR DATO DEL DÍA ──
+dato = data.get("dato_dia", {})
+cita = data.get("cita_dia", {})
+datos_bloque = f"""<!-- AUTO:DATOS:START -->
+  <div class="dato-strip fade-in">
+    <span class="dato-strip-badge">Dato del día</span>
+    <div class="dato-strip-num">{e(dato.get("num",""))}</div>
+    <div class="dato-strip-txt">
+      <p>{e(dato.get("texto",""))}</p>
+      <cite>{e(dato.get("fuente",""))}</cite>
+    </div>
+  </div>
+  <div class="cita-strip fade-in">
+    <blockquote>"{e(cita.get("frase",""))}"</blockquote>
+    <cite>— {e(cita.get("autor",""))}</cite>
+  </div>
+  <!-- AUTO:DATOS:END -->"""
+llano = safe_sub(r'<!-- AUTO:DATOS:START -->[\s\S]*?<!-- AUTO:DATOS:END -->', datos_bloque, llano)
+
+# ── REEMPLAZAR SEC04 INTERNACIONAL ──
+sec04 = data.get("sec04", [])[:5]
+sec04_rows = intl_html(sec04)
+sec04_bloque = f"""<!-- AUTO:SEC04:START -->
+  <div class="lay fade-in" style="margin-bottom:3rem;">
+    <div class="intl-list">
+{sec04_rows}    </div>
+    <aside>
+      <div class="ab">
+        <h6 class="ab-hd">Contexto global hoy</h6>
+        <div class="dato-box">
+          <div class="num">{e(dato.get("num",""))}</div>
+          <div class="label">{e(dato.get("texto",""))}</div>
+          <div class="src">{e(dato.get("fuente",""))}</div>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <!-- AUTO:SEC04:END -->"""
+llano = safe_sub(r'<!-- AUTO:SEC04:START -->[\s\S]*?<!-- AUTO:SEC04:END -->', sec04_bloque, llano)
+
 # ── REEMPLAZAR ARTS ──
 arts_items = data.get("arts", [])
-arts_entries_str = ",\n".join(arts_entry(a) for a in arts_items)
-arts_block = f"  // AUTO:ARTS:START\n  const ARTS = {{\n{arts_entries_str}\n  }};\n  // AUTO:ARTS:END"
-llano = safe_sub(r'// AUTO:ARTS:START[\s\S]*?// AUTO:ARTS:END', arts_block, llano)
+print(f"  arts recibidos: {len(arts_items)}")
+for a in arts_items:
+    print(f"    - [{a.get('id','?')}] {a.get('titulo','?')[:60]}")
+
+if len(arts_items) >= 4:
+    arts_entries_str = ",\n".join(arts_entry(a) for a in arts_items)
+    arts_block = f"  // AUTO:ARTS:START\n  const ARTS = {{\n{arts_entries_str}\n  }};\n  // AUTO:ARTS:END"
+    llano = safe_sub(r'// AUTO:ARTS:START[\s\S]*?// AUTO:ARTS:END', arts_block, llano)
+else:
+    print(f"  ARTS insuficientes ({len(arts_items)}) — manteniendo articulos previos sin modificar")
 
 # ── GUARDAR ──
 with open(html_path, "w", encoding="utf-8") as f:
