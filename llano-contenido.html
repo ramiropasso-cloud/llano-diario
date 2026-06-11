@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLANO· — Estrategia de Contenido Multiplataforma</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #ffffff; --bg2: #f7f7f5; --bg3: #eeeee9;
+      --fg: #0a0a0a; --fg2: #555; --fg3: #999;
+      --accent: #C97B0A; --border: #e5e5df;
+      --yt: #FF0000; --tk: #1a1a1a; --ig: #C13584; --web: #C97B0A;
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--fg); line-height: 1.55; }
+    a { color: inherit; text-decoration: none; }
+
+    .top-bar { background: var(--fg); color: var(--bg); padding: .45rem 2rem; font-size: .7rem; letter-spacing: .06em; display: flex; justify-content: space-between; }
+    .ai-pill { background: var(--accent); color: #fff; padding: .14rem .6rem; border-radius: 999px; font-weight: 700; font-size: .6rem; }
+    header { border-bottom: 1px solid var(--border); padding: 1.1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-size: 1.7rem; font-weight: 900; letter-spacing: -.07em; }
+    .logo .dot { color: var(--accent); }
+    .tag { font-size: .72rem; color: var(--fg3); letter-spacing: .06em; }
+
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 3rem 2rem; }
+    h1.pt { font-size: 2.2rem; font-weight: 900; letter-spacing: -.05em; margin-bottom: .5rem; }
+    .ps { font-size: 1rem; color: var(--fg2); font-weight: 300; margin-bottom: 3.5rem; }
+    .section { margin-bottom: 4rem; }
+    .sh { font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; border-bottom: 2px solid var(--fg); padding-bottom: .6rem; margin-bottom: 2rem; }
+
+    /* PLATAFORMAS OVERVIEW */
+    .plat-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1.25rem; margin-bottom: 2.5rem; }
+    .plat-card { border-radius: 12px; overflow: hidden; border: 1px solid var(--border); }
+    .plat-top { padding: 1.25rem; display: flex; flex-direction: column; gap: .5rem; }
+    .plat-top svg { width: 22px; height: 22px; fill: #fff; }
+    .plat-top .pn { font-size: .95rem; font-weight: 700; color: #fff; }
+    .plat-top .ph { font-size: .75rem; color: rgba(255,255,255,.65); font-weight: 500; }
+    .plat-body { padding: 1.25rem; background: var(--bg2); }
+    .plat-body .kpi { font-size: 1.5rem; font-weight: 900; letter-spacing: -.04em; margin-bottom: .2rem; color: var(--accent); }
+    .plat-body .kpi-label { font-size: .7rem; color: var(--fg3); margin-bottom: .75rem; }
+    .plat-body ul { font-size: .78rem; color: var(--fg2); line-height: 1.75; padding-left: 1rem; }
+
+    /* CALENDARIO SEMANAL */
+    .cal { display: grid; grid-template-columns: repeat(7,1fr); gap: .6rem; }
+    .cal-day { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+    .cal-day-name { background: var(--fg); color: var(--bg); font-size: .6rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; padding: .4rem; text-align: center; }
+    .cal-items { padding: .6rem; display: flex; flex-direction: column; gap: .5rem; }
+    .ci {
+      border-radius: 4px; padding: .4rem .55rem;
+      font-size: .65rem; font-weight: 600; line-height: 1.3;
+    }
+    .ci.web  { background: #fdf0d8; color: #8a5500; border-left: 3px solid var(--accent); }
+    .ci.yt   { background: #fff0f0; color: #aa0000; border-left: 3px solid var(--yt); }
+    .ci.tk   { background: #f0f0f0; color: #333; border-left: 3px solid #555; }
+    .ci.ig   { background: #fdf0f8; color: #8a1a5a; border-left: 3px solid var(--ig); }
+    .ci.all  { background: #edf8ed; color: #1a6a1a; border-left: 3px solid #2a8a2a; }
+    .cal-legend { display: flex; gap: 1.25rem; margin-top: 1rem; flex-wrap: wrap; }
+    .leg { display: flex; align-items: center; gap: .4rem; font-size: .7rem; color: var(--fg2); }
+    .leg-dot { width: 10px; height: 10px; border-radius: 2px; }
+
+    /* FORMATOS DE CONTENIDO */
+    .fmt-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .fmt-card { border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; }
+    .fmt-head { display: flex; align-items: center; gap: .75rem; margin-bottom: 1rem; }
+    .fmt-icon { width: 38px; height: 38px; border-radius: 8px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .fmt-icon svg { width: 18px; height: 18px; fill: #fff; }
+    .fmt-head h3 { font-size: .92rem; font-weight: 700; }
+    .fmt-head .plat-tag { font-size: .65rem; font-weight: 600; color: var(--fg3); letter-spacing: .04em; }
+    .fmt-card p { font-size: .8rem; color: var(--fg2); line-height: 1.6; margin-bottom: .75rem; }
+    .fmt-card .specs { display: flex; flex-wrap: wrap; gap: .4rem; }
+    .spec-pill { background: var(--bg2); border: 1px solid var(--border); border-radius: 4px; padding: .2rem .55rem; font-size: .65rem; font-weight: 600; color: var(--fg2); }
+
+    /* PLANTILLA NOTA IA */
+    .nota-template { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+    .nt-header { background: var(--fg); color: var(--bg); padding: 1rem 1.5rem; font-size: .78rem; font-weight: 600; letter-spacing: .04em; display: flex; justify-content: space-between; align-items: center; }
+    .nt-body { padding: 1.5rem; }
+    .nt-field { margin-bottom: 1.25rem; }
+    .nt-field label { font-size: .62rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: .4rem; }
+    .nt-field .val { font-size: .85rem; color: var(--fg); line-height: 1.55; background: var(--bg2); border: 1px solid var(--border); border-radius: 6px; padding: .7rem 1rem; }
+    .nt-field .val.big { font-size: 1.1rem; font-weight: 600; letter-spacing: -.02em; }
+
+    /* MÉTRICAS META */
+    .kpi-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1.25rem; }
+    .kpi-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; text-align: center; }
+    .kpi-card .num { font-size: 1.8rem; font-weight: 900; letter-spacing: -.04em; color: var(--accent); line-height: 1; margin-bottom: .3rem; }
+    .kpi-card .lbl { font-size: .72rem; font-weight: 600; margin-bottom: .2rem; }
+    .kpi-card .sub { font-size: .68rem; color: var(--fg3); }
+
+    /* SHORTS SCRIPT */
+    .short-card { background: #0c0b08; border-radius: 16px; padding: 2rem; color: #f0efe8; max-width: 400px; }
+    .short-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.5rem; }
+    .short-logo { font-size: 1.2rem; font-weight: 900; letter-spacing: -.06em; }
+    .short-logo .dot { color: #E8960F; }
+    .short-dur { font-size: .65rem; color: rgba(255,255,255,.4); letter-spacing: .06em; }
+    .short-seg { margin-bottom: 1.1rem; display: flex; gap: .75rem; align-items: start; }
+    .short-seg .t { font-size: .62rem; font-weight: 700; color: #E8960F; letter-spacing: .06em; min-width: 32px; padding-top: .12rem; }
+    .short-seg p { font-size: .8rem; line-height: 1.55; color: rgba(240,239,232,.8); }
+    .short-seg p strong { color: #fff; }
+
+    /* COLORES PLATAFORMA */
+    footer { border-top: 1px solid var(--border); padding: 1.5rem 2rem; display: flex; justify-content: space-between; font-size: .7rem; color: var(--fg3); }
+
+    @media (max-width: 768px) {
+      .plat-grid { grid-template-columns: 1fr 1fr; }
+      .cal { grid-template-columns: repeat(3,1fr); }
+      .fmt-grid { grid-template-columns: 1fr; }
+      .kpi-grid { grid-template-columns: repeat(2,1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>LLANO· — Estrategia de Contenido Multiplataforma</span>
+    <span class="ai-pill">OPERATIVO</span>
+  </div>
+  <header>
+    <a href="llano.html" class="logo">LLANO<span class="dot">·</span></a>
+    <span class="tag">CONTENT STRATEGY · 2026</span>
+  </header>
+
+  <div class="wrap">
+    <h1 class="pt">Estrategia de contenido</h1>
+    <p class="ps">Guía operativa para producir y distribuir contenido de LLANO· en web, YouTube, TikTok e Instagram de forma coordinada y eficiente con IA.</p>
+
+    <!-- PLATAFORMAS -->
+    <div class="section">
+      <h2 class="sh">Las 4 plataformas del multimedios</h2>
+      <div class="plat-grid">
+
+        <div class="plat-card">
+          <div class="plat-top" style="background:#0a0a0a;">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+            <div class="pn">Web · llano.ar</div>
+            <div class="ph">Hub central del multimedios</div>
+          </div>
+          <div class="plat-body">
+            <div class="kpi">∞</div>
+            <div class="kpi-label">Artículos sin límite · SEO permanente</div>
+            <ul>
+              <li>Notas de análisis completas</li>
+              <li>Sección "IA Explica"</li>
+              <li>Ticker de noticias en vivo</li>
+              <li>Archivo histórico completo</li>
+              <li>Links a todas las RRSS</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="plat-card">
+          <div class="plat-top" style="background:#FF0000;">
+            <svg viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+            <div class="pn">YouTube · @LlanoLaPampa</div>
+            <div class="ph">Análisis en video + Shorts</div>
+          </div>
+          <div class="plat-body">
+            <div class="kpi">3–5 / sem</div>
+            <div class="kpi-label">Videos publicados por semana</div>
+            <ul>
+              <li>1 análisis largo semanal (5–10 min)</li>
+              <li>2–4 Shorts diarios (60 seg)</li>
+              <li>Voz IA + gráficos animados</li>
+              <li>Thumbnail: fondo negro + texto blanco</li>
+              <li>SEO: títulos con "La Pampa + tema"</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="plat-card">
+          <div class="plat-top" style="background:#1a1a1a;">
+            <svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 106.34 6.34V8.69a8.18 8.18 0 004.78 1.52V6.78a4.85 4.85 0 01-1.01-.09z"/></svg>
+            <div class="pn">TikTok · @llano.ia</div>
+            <div class="ph">Noticias en 60 segundos</div>
+          </div>
+          <div class="plat-body">
+            <div class="kpi">1–2 / día</div>
+            <div class="kpi-label">Videos publicados por día</div>
+            <ul>
+              <li>Formato: texto sobre fondo oscuro</li>
+              <li>Hooks brutales en 3 segundos</li>
+              <li>Subtítulos siempre activados</li>
+              <li>Hashtags: #LaPampa #política #IA</li>
+              <li>Respuesta a comentarios con datos</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="plat-card">
+          <div class="plat-top" style="background:linear-gradient(135deg,#f09433,#dc2743,#bc1888);">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            <div class="pn">Instagram · @llano.diario</div>
+            <div class="ph">Infografías + Stories diarios</div>
+          </div>
+          <div class="plat-body">
+            <div class="kpi">1 post + 3 Stories</div>
+            <div class="kpi-label">Publicaciones diarias</div>
+            <ul>
+              <li>Post: infografía o dato clave</li>
+              <li>Carrusel semanal de análisis</li>
+              <li>Stories: resumen de noticias del día</li>
+              <li>Reels: mismo video de TikTok/Shorts</li>
+              <li>Link en bio → llano.ar</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CALENDARIO SEMANAL -->
+    <div class="section">
+      <h2 class="sh">Calendario editorial semanal</h2>
+      <div class="cal">
+        <div class="cal-day">
+          <div class="cal-day-name">Lun</div>
+          <div class="cal-items">
+            <div class="ci web">Nota análisis política</div>
+            <div class="ci tk">TK: Resumen semana</div>
+            <div class="ci ig">Story: dato del día</div>
+          </div>
+        </div>
+        <div class="cal-day">
+          <div class="cal-day-name">Mar</div>
+          <div class="cal-items">
+            <div class="ci web">Nota economía local</div>
+            <div class="ci yt">YT Short: dato econ.</div>
+            <div class="ci ig">Post: infografía</div>
+            <div class="ci tk">TK: explicación IA</div>
+          </div>
+        </div>
+        <div class="cal-day">
+          <div class="cal-day-name">Mié</div>
+          <div class="cal-items">
+            <div class="ci web">IA Explica (largo)</div>
+            <div class="ci yt">YT: Video análisis</div>
+            <div class="ci ig">Story: encuesta</div>
+          </div>
+        </div>
+        <div class="cal-day">
+          <div class="cal-day-name">Jue</div>
+          <div class="cal-items">
+            <div class="ci web">Nota La Pampa</div>
+            <div class="ci tk">TK: noticia urgente</div>
+            <div class="ci ig">Carrusel: análisis</div>
+            <div class="ci yt">YT Short: política</div>
+          </div>
+        </div>
+        <div class="cal-day">
+          <div class="cal-day-name">Vie</div>
+          <div class="cal-items">
+            <div class="ci web">Resumen semanal IA</div>
+            <div class="ci all">Reels + Short + TK</div>
+            <div class="ci ig">Post: dato semanal</div>
+          </div>
+        </div>
+        <div class="cal-day">
+          <div class="cal-day-name">Sáb</div>
+          <div class="cal-items">
+            <div class="ci web">Nota sociedad/cultura</div>
+            <div class="ci tk">TK: tema viral</div>
+            <div class="ci ig">Story: behind-the-IA</div>
+          </div>
+        </div>
+        <div class="cal-day">
+          <div class="cal-day-name">Dom</div>
+          <div class="cal-items">
+            <div class="ci web">Editorial semanal IA</div>
+            <div class="ci ig">Post: agenda semana</div>
+            <div class="ci yt">YT Short: preview</div>
+          </div>
+        </div>
+      </div>
+      <div class="cal-legend">
+        <span class="leg"><span class="leg-dot" style="background:#C97B0A;"></span>Web</span>
+        <span class="leg"><span class="leg-dot" style="background:#FF0000;"></span>YouTube</span>
+        <span class="leg"><span class="leg-dot" style="background:#555;"></span>TikTok</span>
+        <span class="leg"><span class="leg-dot" style="background:#C13584;"></span>Instagram</span>
+        <span class="leg"><span class="leg-dot" style="background:#2a8a2a;"></span>Todas las plataformas</span>
+      </div>
+    </div>
+
+    <!-- PLANTILLA NOTA -->
+    <div class="section">
+      <h2 class="sh">Plantilla: estructura de nota periodística IA</h2>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;">
+        <div class="nota-template">
+          <div class="nt-header">
+            <span>LLANO· — Estructura de nota</span>
+            <span style="background:var(--accent);padding:.15rem .5rem;border-radius:4px;font-size:.6rem;">PLANTILLA IA</span>
+          </div>
+          <div class="nt-body">
+            <div class="nt-field">
+              <label>1. Categoría + Ubicación</label>
+              <div class="val">Política · La Pampa · Santa Rosa</div>
+            </div>
+            <div class="nt-field">
+              <label>2. Titular (máx. 12 palabras)</label>
+              <div class="val big">El mapa político pampeano frente a las elecciones 2027</div>
+            </div>
+            <div class="nt-field">
+              <label>3. Bajada — el QUÉ en 2 oraciones</label>
+              <div class="val">Un análisis del escenario electoral que se consolida en La Pampa. Las fuerzas que se reorganizan y los candidatos que empiezan a posicionarse.</div>
+            </div>
+            <div class="nt-field">
+              <label>4. Cuerpo — CONTEXTO + DATOS + ANÁLISIS</label>
+              <div class="val">3–5 párrafos. Primero el contexto, luego los datos duros, luego el análisis IA. Sin opinión política.</div>
+            </div>
+            <div class="nt-field">
+              <label>5. Cierre — ¿Qué viene?</label>
+              <div class="val">Una oración sobre el próximo hito o dato a monitorear.</div>
+            </div>
+            <div class="nt-field">
+              <label>6. Badge IA + Fecha + Fuentes</label>
+              <div class="val">✦ Generado con IA · 10 jun 2026 · Fuentes: INDEC, Gobierno de La Pampa</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="font-size:.88rem;font-weight:700;margin-bottom:1rem;letter-spacing:-.01em;">Script para Short de YouTube / TikTok (60 seg)</h3>
+          <div class="short-card">
+            <div class="short-header">
+              <div class="short-logo">LLANO<span class="dot">·</span></div>
+              <div class="short-dur">60 SEG · FORMATO VERTICAL</div>
+            </div>
+            <div class="short-seg">
+              <span class="t">0–5s</span>
+              <p><strong>HOOK:</strong> "¿Sabías que en La Pampa la inflación de mayo fue del 4.1%? Acá te explico qué significa para tu bolsillo."</p>
+            </div>
+            <div class="short-seg">
+              <span class="t">5–15s</span>
+              <p><strong>CONTEXTO:</strong> Un dato clave para dimensionar el problema. Número concreto.</p>
+            </div>
+            <div class="short-seg">
+              <span class="t">15–45s</span>
+              <p><strong>ANÁLISIS:</strong> 3 puntos en 30 segundos. Simple, visual, con subtítulos. Sin jerga técnica.</p>
+            </div>
+            <div class="short-seg">
+              <span class="t">45–55s</span>
+              <p><strong>DATO IA:</strong> "Según nuestro análisis IA, el sector más afectado es..."</p>
+            </div>
+            <div class="short-seg">
+              <span class="t">55–60s</span>
+              <p><strong>CTA:</strong> "Análisis completo en llano.ar — el primer diario IA de La Pampa."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORMATOS DE CONTENIDO -->
+    <div class="section">
+      <h2 class="sh">Formatos de contenido por plataforma</h2>
+      <div class="fmt-grid">
+
+        <div class="fmt-card">
+          <div class="fmt-head">
+            <div class="fmt-icon" style="background:#FF0000;">
+              <svg viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+            </div>
+            <div>
+              <h3>YouTube</h3>
+              <div class="plat-tag">@LlanoLaPampa</div>
+            </div>
+          </div>
+          <p>Canal principal de análisis en profundidad. Un video largo semanal (análisis político o económico) + Shorts diarios de 60 segundos sobre noticias urgentes.</p>
+          <div class="specs">
+            <span class="spec-pill">Video: 1280×720 mín</span>
+            <span class="spec-pill">Shorts: 1080×1920</span>
+            <span class="spec-pill">Thumb: Texto negro/blanco</span>
+            <span class="spec-pill">Intro: 3 seg máx</span>
+            <span class="spec-pill">Subs en español</span>
+          </div>
+        </div>
+
+        <div class="fmt-card">
+          <div class="fmt-head">
+            <div class="fmt-icon" style="background:#1a1a1a;">
+              <svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 106.34 6.34V8.69a8.18 8.18 0 004.78 1.52V6.78a4.85 4.85 0 01-1.01-.09z"/></svg>
+            </div>
+            <div>
+              <h3>TikTok</h3>
+              <div class="plat-tag">@llano.ia</div>
+            </div>
+          </div>
+          <p>Noticias de La Pampa explicadas en 60 segundos. Fondo oscuro con texto animado. Hook brutal en los primeros 3 segundos. Audiencia: 18–35 años.</p>
+          <div class="specs">
+            <span class="spec-pill">1080×1920 · vertical</span>
+            <span class="spec-pill">30–60 seg óptimo</span>
+            <span class="spec-pill">Subtítulos: siempre</span>
+            <span class="spec-pill">Publicar: 12hs o 19hs</span>
+            <span class="spec-pill">#LaPampa #IA</span>
+          </div>
+        </div>
+
+        <div class="fmt-card">
+          <div class="fmt-head">
+            <div class="fmt-icon" style="background:linear-gradient(135deg,#f09433,#dc2743,#bc1888);">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+            </div>
+            <div>
+              <h3>Instagram</h3>
+              <div class="plat-tag">@llano.diario</div>
+            </div>
+          </div>
+          <p>Visual y editorial. Posts de infografías con datos clave, carruseles de análisis (3–8 slides), Stories diarios de resumen de noticias y encuestas.</p>
+          <div class="specs">
+            <span class="spec-pill">Post: 1080×1080</span>
+            <span class="spec-pill">Story: 1080×1920</span>
+            <span class="spec-pill">Carrusel: 8 slides máx</span>
+            <span class="spec-pill">Paleta: negro + ámbar</span>
+            <span class="spec-pill">Link en bio siempre</span>
+          </div>
+        </div>
+
+        <div class="fmt-card">
+          <div class="fmt-head">
+            <div class="fmt-icon" style="background:var(--accent);">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+            </div>
+            <div>
+              <h3>Web · llano.ar</h3>
+              <div class="plat-tag">Hub central</div>
+            </div>
+          </div>
+          <p>Todas las notas completas viven acá. Es el destino final de todos los CTA de todas las redes. Optimizado para SEO. Las notas se generan con IA y se publican desde aquí.</p>
+          <div class="specs">
+            <span class="spec-pill">SEO: título + meta</span>
+            <span class="spec-pill">Imágen OG: 1200×630</span>
+            <span class="spec-pill">Inter · responsive</span>
+            <span class="spec-pill">Badge IA en cada nota</span>
+            <span class="spec-pill">Links a RRSS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- KPIs -->
+    <div class="section">
+      <h2 class="sh">Objetivos de crecimiento — Año 1</h2>
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="num">10K</div>
+          <div class="lbl">Visitas/mes Web</div>
+          <div class="sub">Meta: mes 6</div>
+        </div>
+        <div class="kpi-card">
+          <div class="num">5K</div>
+          <div class="lbl">Suscriptores YouTube</div>
+          <div class="sub">Meta: mes 6</div>
+        </div>
+        <div class="kpi-card">
+          <div class="num">15K</div>
+          <div class="lbl">Seguidores TikTok</div>
+          <div class="sub">Meta: mes 6</div>
+        </div>
+        <div class="kpi-card">
+          <div class="num">8K</div>
+          <div class="lbl">Seguidores Instagram</div>
+          <div class="sub">Meta: mes 6</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <span>© 2026 LLANO· · Diario Digital IA · La Pampa</span>
+    <span>Estrategia de Contenido Multiplataforma — v1.0</span>
+  </footer>
+
+</body>
+</html>

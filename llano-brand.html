@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLANO· — Kit de Marca e Identidad</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #ffffff; --bg2: #f7f7f5; --bg3: #eeeee9;
+      --fg: #0a0a0a; --fg2: #555; --fg3: #999;
+      --accent: #C97B0A; --accent-l: #fdf0d8; --border: #e5e5df;
+    }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--fg); line-height: 1.55; }
+    a { color: inherit; text-decoration: none; }
+
+    .top-bar { background: var(--fg); color: var(--bg); padding: .45rem 2rem; font-size: .7rem; letter-spacing: .06em; display: flex; justify-content: space-between; align-items: center; }
+    .ai-pill { background: var(--accent); color: #fff; padding: .14rem .6rem; border-radius: 999px; font-weight: 700; font-size: .6rem; }
+
+    header { border-bottom: 1px solid var(--border); padding: 1.1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-size: 1.7rem; font-weight: 900; letter-spacing: -.07em; }
+    .logo .dot { color: var(--accent); }
+    .tag { font-size: .72rem; color: var(--fg3); letter-spacing: .06em; }
+
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 3rem 2rem; }
+
+    h1.page-title { font-size: 2.2rem; font-weight: 900; letter-spacing: -.05em; margin-bottom: .5rem; }
+    .page-sub { font-size: 1rem; color: var(--fg2); font-weight: 300; margin-bottom: 3.5rem; }
+
+    .section { margin-bottom: 4rem; }
+    .sh {
+      font-size: .63rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+      border-bottom: 2px solid var(--fg); padding-bottom: .6rem; margin-bottom: 2rem;
+    }
+
+    /* LOGO VARIATIONS */
+    .logo-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; }
+    .logo-box {
+      border: 1px solid var(--border); border-radius: 10px;
+      padding: 2.5rem; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 1rem; text-align: center;
+    }
+    .logo-box.dark { background: #0c0c0a; }
+    .logo-box.accent { background: var(--accent); }
+    .logo-disp { font-size: 2.2rem; font-weight: 900; letter-spacing: -.07em; line-height: 1; }
+    .logo-box .label { font-size: .68rem; color: var(--fg3); letter-spacing: .06em; }
+    .logo-box.dark .label { color: rgba(255,255,255,.4); }
+    .logo-box.accent .label { color: rgba(255,255,255,.6); }
+
+    /* COLORES */
+    .color-grid { display: grid; grid-template-columns: repeat(5,1fr); gap: 1.25rem; }
+    .color-chip { border-radius: 10px; overflow: hidden; border: 1px solid var(--border); }
+    .color-swatch { height: 100px; }
+    .color-info { padding: .85rem; background: var(--bg2); }
+    .color-name { font-size: .8rem; font-weight: 600; margin-bottom: .2rem; }
+    .color-hex  { font-size: .7rem; color: var(--fg3); font-family: monospace; }
+    .color-role { font-size: .68rem; color: var(--fg2); margin-top: .2rem; }
+
+    /* TIPOGRAFÍA */
+    .type-row { display: flex; flex-direction: column; gap: 1.25rem; }
+    .type-item { display: grid; grid-template-columns: 180px 1fr; gap: 2rem; align-items: baseline; padding: 1.25rem 0; border-bottom: 1px solid var(--border); }
+    .type-meta { font-size: .72rem; color: var(--fg3); }
+    .type-meta strong { display: block; color: var(--fg2); font-size: .75rem; margin-bottom: .2rem; }
+
+    /* ICONOGRAFÍA / ÍCONOS DE RED */
+    .platform-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 1.5rem; }
+    .platform-card {
+      border: 1px solid var(--border); border-radius: 12px;
+      padding: 2rem 1.5rem; text-align: center;
+    }
+    .p-icon { width: 56px; height: 56px; border-radius: 14px; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; }
+    .p-icon svg { width: 26px; height: 26px; fill: #fff; }
+    .p-name { font-size: .92rem; font-weight: 700; margin-bottom: .25rem; }
+    .p-handle { font-size: .78rem; color: var(--accent); font-weight: 600; margin-bottom: .75rem; }
+    .p-desc { font-size: .78rem; color: var(--fg2); line-height: 1.55; }
+
+    /* TAGLINES */
+    .tag-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+    .tag-box {
+      background: var(--bg2); border: 1px solid var(--border); border-radius: 10px;
+      padding: 1.5rem;
+    }
+    .tag-box .uso { font-size: .63rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: .6rem; }
+    .tag-box .texto { font-size: 1.05rem; font-weight: 600; letter-spacing: -.02em; line-height: 1.3; }
+    .tag-box .sub  { font-size: .78rem; color: var(--fg2); margin-top: .4rem; }
+
+    /* TONO */
+    .tono-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.25rem; }
+    .tono-card { background: var(--bg2); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; }
+    .tono-icon { font-size: 1.5rem; margin-bottom: .7rem; }
+    .tono-card h4 { font-size: .88rem; font-weight: 700; margin-bottom: .4rem; }
+    .tono-card p  { font-size: .78rem; color: var(--fg2); line-height: 1.55; }
+    .tono-card ul { font-size: .75rem; color: var(--fg2); line-height: 1.8; padding-left: 1rem; margin-top: .4rem; }
+
+    /* REGLAS */
+    .reglas { display: flex; flex-direction: column; gap: 1rem; }
+    .regla { display: grid; grid-template-columns: 32px 1fr; gap: 1rem; align-items: start; padding: 1rem; border-radius: 8px; }
+    .regla.do   { background: #edf8ed; border: 1px solid #b8e8b8; }
+    .regla.dont { background: #fdeced; border: 1px solid #f5b8bb; }
+    .regla-icon { font-size: 1.1rem; font-weight: 900; text-align: center; padding-top: .1rem; }
+    .regla.do .regla-icon { color: #2a8a2a; }
+    .regla.dont .regla-icon { color: #cc3333; }
+    .regla p { font-size: .82rem; line-height: 1.55; }
+    .regla strong { font-weight: 700; }
+
+    footer { border-top: 1px solid var(--border); padding: 1.5rem 2rem; display: flex; justify-content: space-between; font-size: .7rem; color: var(--fg3); }
+
+    @media (max-width: 768px) {
+      .logo-grid { grid-template-columns: 1fr; }
+      .color-grid { grid-template-columns: repeat(2,1fr); }
+      .platform-grid { grid-template-columns: 1fr 1fr; }
+      .tono-grid { grid-template-columns: 1fr; }
+      .tag-grid { grid-template-columns: 1fr; }
+      .type-item { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-bar">
+    <span>LLANO· — Kit de Marca e Identidad Visual</span>
+    <span class="ai-pill">USO INTERNO</span>
+  </div>
+
+  <header>
+    <a href="llano.html" class="logo">LLANO<span class="dot">·</span></a>
+    <span class="tag">BRAND GUIDELINES · 2026</span>
+  </header>
+
+  <div class="wrap">
+    <h1 class="page-title">Identidad de marca LLANO·</h1>
+    <p class="page-sub">Guía de uso visual para el diario, sus redes sociales y todas las comunicaciones del multimedios.</p>
+
+    <!-- LOGOS -->
+    <div class="section">
+      <h2 class="sh">Logotipo — variantes oficiales</h2>
+      <div class="logo-grid">
+        <div class="logo-box" style="background:#f7f7f5;">
+          <div class="logo-disp" style="color:#0a0a0a;">LLANO<span style="color:#C97B0A;">·</span></div>
+          <span class="label">Principal · Fondo claro</span>
+        </div>
+        <div class="logo-box dark">
+          <div class="logo-disp" style="color:#f0efe8;">LLANO<span style="color:#E8960F;">·</span></div>
+          <span class="label">Negativo · Fondo oscuro</span>
+        </div>
+        <div class="logo-box accent">
+          <div class="logo-disp" style="color:#fff;">LLANO<span style="color:rgba(255,255,255,.55);">·</span></div>
+          <span class="label">Sobre color · Solo uso especial</span>
+        </div>
+        <div class="logo-box" style="background:#f7f7f5;">
+          <div style="font-size:3.8rem;font-weight:900;letter-spacing:-.07em;color:#0a0a0a;line-height:1;">L<span style="color:#C97B0A;">·</span></div>
+          <span class="label">Ícono · Perfil RRSS</span>
+        </div>
+        <div class="logo-box dark">
+          <div style="font-size:3.8rem;font-weight:900;letter-spacing:-.07em;color:#f0efe8;line-height:1;">L<span style="color:#E8960F;">·</span></div>
+          <span class="label">Ícono oscuro · Avatar</span>
+        </div>
+        <div class="logo-box" style="background:#0a0a0a;">
+          <div style="font-size:1rem;font-weight:700;letter-spacing:.06em;color:rgba(255,255,255,.35);text-transform:uppercase;text-align:center;line-height:1.5;">
+            LLANO<span style="color:#E8960F;">·</span><br>
+            <span style="font-size:.65rem;font-weight:400;">Diario Digital IA · La Pampa</span>
+          </div>
+          <span class="label" style="color:rgba(255,255,255,.3);">Versión texto completo</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- COLORES -->
+    <div class="section">
+      <h2 class="sh">Paleta de colores</h2>
+      <div class="color-grid">
+        <div class="color-chip">
+          <div class="color-swatch" style="background:#C97B0A;"></div>
+          <div class="color-info">
+            <div class="color-name">Ámbar LLANO</div>
+            <div class="color-hex">#C97B0A</div>
+            <div class="color-role">Acento principal · marca</div>
+          </div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background:#0a0a0a;"></div>
+          <div class="color-info">
+            <div class="color-name">Negro total</div>
+            <div class="color-hex">#0A0A0A</div>
+            <div class="color-role">Fondo oscuro · tipografía</div>
+          </div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background:#ffffff; border-bottom:1px solid #eee;"></div>
+          <div class="color-info">
+            <div class="color-name">Blanco puro</div>
+            <div class="color-hex">#FFFFFF</div>
+            <div class="color-role">Fondo claro · tipografía</div>
+          </div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background:#f7f7f5;"></div>
+          <div class="color-info">
+            <div class="color-name">Arena</div>
+            <div class="color-hex">#F7F7F5</div>
+            <div class="color-role">Fondo secundario · cards</div>
+          </div>
+        </div>
+        <div class="color-chip">
+          <div class="color-swatch" style="background:#fdf0d8;"></div>
+          <div class="color-info">
+            <div class="color-name">Ámbar suave</div>
+            <div class="color-hex">#FDF0D8</div>
+            <div class="color-role">Tags IA · destacados</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TIPOGRAFÍA -->
+    <div class="section">
+      <h2 class="sh">Tipografía — Inter (Google Fonts)</h2>
+      <div class="type-row">
+        <div class="type-item">
+          <div class="type-meta"><strong>Titular hero</strong>Inter 700 · 32–40px<br>Tracking: −0.03em</div>
+          <div style="font-size:2rem;font-weight:700;letter-spacing:-.03em;line-height:1.2;">El nuevo mapa político de La Pampa</div>
+        </div>
+        <div class="type-item">
+          <div class="type-meta"><strong>Titular nota</strong>Inter 600 · 18–22px<br>Tracking: −0.02em</div>
+          <div style="font-size:1.25rem;font-weight:600;letter-spacing:-.02em;line-height:1.3;">Pymes pampeanas en alerta por la presión tributaria</div>
+        </div>
+        <div class="type-item">
+          <div class="type-meta"><strong>Cuerpo de texto</strong>Inter 300 · 15–16px<br>Line-height: 1.75</div>
+          <div style="font-size:.95rem;font-weight:300;line-height:1.75;color:#555;">Los empresarios de Santa Rosa advierten sobre la caída de la actividad y piden medidas urgentes al gobierno provincial ante la baja sostenida del consumo.</div>
+        </div>
+        <div class="type-item">
+          <div class="type-meta"><strong>Etiqueta / UI</strong>Inter 700 · 10–11px<br>Tracking: +0.12em · CAPS</div>
+          <div style="font-size:.65rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#C97B0A;">Política · La Pampa · Análisis IA</div>
+        </div>
+        <div class="type-item">
+          <div class="type-meta"><strong>Wordmark logo</strong>Inter 900 · Variable<br>Tracking: −0.07em</div>
+          <div style="font-size:2.5rem;font-weight:900;letter-spacing:-.07em;line-height:1;">LLANO<span style="color:#C97B0A;">·</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PLATAFORMAS -->
+    <div class="section">
+      <h2 class="sh">Plataformas y redes sociales</h2>
+      <div class="platform-grid">
+        <div class="platform-card">
+          <div class="p-icon" style="background:#0a0a0a;">
+            <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          </div>
+          <div class="p-name">Web</div>
+          <div class="p-handle">llano.ar</div>
+          <div class="p-desc">Diario principal. Artículos completos, análisis IA, ticker en vivo. Hub central de todo el multimedios.</div>
+        </div>
+        <div class="platform-card">
+          <div class="p-icon" style="background:#FF0000;">
+            <svg viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+          </div>
+          <div class="p-name">YouTube</div>
+          <div class="p-handle">@LlanoLaPampa</div>
+          <div class="p-desc">Análisis en video (5–10 min) + Shorts diarios. Cara visible del periodismo IA de La Pampa.</div>
+        </div>
+        <div class="platform-card">
+          <div class="p-icon" style="background:#0a0a0a;">
+            <svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 106.34 6.34V8.69a8.18 8.18 0 004.78 1.52V6.78a4.85 4.85 0 01-1.01-.09z"/></svg>
+          </div>
+          <div class="p-name">TikTok</div>
+          <div class="p-handle">@llano.ia</div>
+          <div class="p-desc">Noticias en 60 seg. Formato vertical. Explica lo complejo en simple. Enfoque en jóvenes pampeanos.</div>
+        </div>
+        <div class="platform-card">
+          <div class="p-icon" style="background:linear-gradient(135deg,#f09433,#dc2743,#bc1888);">
+            <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          </div>
+          <div class="p-name">Instagram</div>
+          <div class="p-handle">@llano.diario</div>
+          <div class="p-desc">Infografías, datos clave, carruseles de análisis y Stories diarios. Voz editorial visual.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAGLINES -->
+    <div class="section">
+      <h2 class="sh">Taglines y frases de posicionamiento</h2>
+      <div class="tag-grid">
+        <div class="tag-box">
+          <div class="uso">Principal · Cabecera del diario</div>
+          <div class="texto">El primer diario digital 100% IA de La Pampa.</div>
+        </div>
+        <div class="tag-box">
+          <div class="uso">Redes sociales · Bio</div>
+          <div class="texto">Política y economía de La Pampa — sin filtros, con IA.</div>
+        </div>
+        <div class="tag-box">
+          <div class="uso">Slogan corto · Logo + marca</div>
+          <div class="texto">LLANO· Información sin ruido.</div>
+        </div>
+        <div class="tag-box">
+          <div class="uso">YouTube · Descripción canal</div>
+          <div class="texto">Analizamos La Pampa con datos, IA y sin humo político. Suscribite.</div>
+        </div>
+        <div class="tag-box">
+          <div class="uso">TikTok · Bio</div>
+          <div class="texto">La Pampa en 60 seg. IA, no opinión. 🌾</div>
+        </div>
+        <div class="tag-box">
+          <div class="uso">Instagram · Bio</div>
+          <div class="texto">Diario IA · La Pampa 🌾 Política · Economía · Datos reales ↓ llano.ar</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TONO -->
+    <div class="section">
+      <h2 class="sh">Tono editorial y voz</h2>
+      <div class="tono-grid">
+        <div class="tono-card">
+          <div class="tono-icon">🎯</div>
+          <h4>Objetivo y directo</h4>
+          <p>No toma partido político. Expone datos, contexto y análisis. El lector saca sus propias conclusiones.</p>
+          <ul>
+            <li>Datos primero, luego contexto</li>
+            <li>Sin adjetivos políticos cargados</li>
+            <li>Fuentes citadas siempre</li>
+          </ul>
+        </div>
+        <div class="tono-card">
+          <div class="tono-icon">⚡</div>
+          <h4>Conciso y claro</h4>
+          <p>Párrafos cortos. Oraciones directas. El lector pampeano está ocupado — se le respeta el tiempo.</p>
+          <ul>
+            <li>Titulares sin clickbait</li>
+            <li>Resumen al inicio de cada nota</li>
+            <li>Sin relleno ni palabrería</li>
+          </ul>
+        </div>
+        <div class="tono-card">
+          <div class="tono-icon">🤖</div>
+          <h4>Transparente sobre la IA</h4>
+          <p>Cada pieza generada con IA se etiqueta. La tecnología es parte de la identidad, no se oculta.</p>
+          <ul>
+            <li>Badge "✦ IA" en cada nota</li>
+            <li>Sección "Cómo funciona" pública</li>
+            <li>Política editorial visible</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- REGLAS DE USO -->
+    <div class="section">
+      <h2 class="sh">Reglas de uso de marca</h2>
+      <div class="reglas">
+        <div class="regla do">
+          <div class="regla-icon">✓</div>
+          <p><strong>Escribir el nombre siempre en mayúsculas:</strong> LLANO· — con el punto en el color ámbar (#C97B0A). El punto es parte del logo.</p>
+        </div>
+        <div class="regla do">
+          <div class="regla-icon">✓</div>
+          <p><strong>Usar siempre Inter como tipografía.</strong> Es la fuente del sistema en todos los materiales digitales e impresos.</p>
+        </div>
+        <div class="regla do">
+          <div class="regla-icon">✓</div>
+          <p><strong>Etiquetar siempre el contenido generado con IA</strong> con el badge "✦ IA" o "✦ Análisis IA". Es parte del diferencial de la marca.</p>
+        </div>
+        <div class="regla dont">
+          <div class="regla-icon">✗</div>
+          <p><strong>No escribir el nombre en minúsculas</strong> ("llano" o "Llano"). Siempre LLANO· en toda comunicación oficial.</p>
+        </div>
+        <div class="regla dont">
+          <div class="regla-icon">✗</div>
+          <p><strong>No usar el ámbar (#C97B0A) sobre fondos claros para texto de cuerpo.</strong> Solo para elementos de acento, etiquetas y el punto del logo.</p>
+        </div>
+        <div class="regla dont">
+          <div class="regla-icon">✗</div>
+          <p><strong>No agregar subtítulos como "el diario de La Pampa"</strong> — el tagline oficial es "El primer diario digital 100% IA de La Pampa."</p>
+        </div>
+        <div class="regla dont">
+          <div class="regla-icon">✗</div>
+          <p><strong>No usar degradados, sombras ni efectos 3D</strong> sobre el logotipo. La marca es plana y minimalista, siempre.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <span>© 2026 LLANO· · Diario Digital IA · La Pampa</span>
+    <span>Kit de marca — uso interno</span>
+  </footer>
+
+</body>
+</html>

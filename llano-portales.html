@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLANO· — Mapa de Medios La Pampa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:#fafaf8; --bg2:#f2f1ed; --bg3:#e8e7e2;
+      --fg:#0a0909; --fg2:#4a4845; --fg3:#9a9690;
+      --accent:#c8780a; --accent-bg:#fdf3e3; --border:#e2e0da;
+      --red:#cc2222; --green:#1a7a3a; --blue:#1a4a8a; --purple:#6a2a8a;
+    }
+    body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--fg); line-height:1.55; }
+    a { color:inherit; text-decoration:none; }
+
+    .top-bar { background:var(--fg); color:var(--bg); padding:.4rem 2rem; font-size:.7rem; letter-spacing:.06em; display:flex; justify-content:space-between; }
+    .pill { background:var(--accent); color:#fff; padding:.14rem .6rem; border-radius:999px; font-weight:700; font-size:.58rem; }
+    header { border-bottom:1px solid var(--border); padding:1.1rem 2rem; display:flex; align-items:center; justify-content:space-between; }
+    .logo { font-size:1.65rem; font-weight:900; letter-spacing:-.08em; }
+    .logo .dot { color:var(--accent); }
+    .hd-tag { font-size:.72rem; color:var(--fg3); letter-spacing:.06em; }
+
+    .wrap { max-width:1100px; margin:0 auto; padding:3rem 2rem; }
+    h1.pt { font-size:2rem; font-weight:900; letter-spacing:-.05em; margin-bottom:.45rem; }
+    .ps  { font-size:.95rem; color:var(--fg2); font-weight:300; margin-bottom:3rem; }
+
+    .sh { font-size:.62rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; border-bottom:2px solid var(--fg); padding-bottom:.55rem; margin-bottom:1.75rem; }
+
+    /* TABLA DE MEDIOS */
+    .media-table { width:100%; border-collapse:collapse; margin-bottom:3rem; font-size:.82rem; }
+    .media-table th { text-align:left; font-size:.6rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--fg3); padding:.6rem .85rem; border-bottom:2px solid var(--fg); white-space:nowrap; }
+    .media-table td { padding:.9rem .85rem; border-bottom:1px solid var(--border); vertical-align:top; }
+    .media-table tr:hover td { background:var(--bg2); }
+    .media-table tr:last-child td { border-bottom:none; }
+
+    .media-name { font-weight:700; letter-spacing:-.015em; }
+    .media-url  { font-size:.72rem; color:var(--accent); font-weight:500; margin-top:.15rem; }
+
+    .badge { display:inline-block; font-size:.58rem; font-weight:700; letter-spacing:.07em; text-transform:uppercase; padding:.15rem .5rem; border-radius:3px; }
+    .badge-r { background:#fdecea; color:var(--red); }
+    .badge-g { background:#e6f4ec; color:var(--green); }
+    .badge-b { background:#e6edf8; color:var(--blue); }
+    .badge-a { background:var(--accent-bg); color:var(--accent); }
+    .badge-p { background:#f0e6f8; color:var(--purple); }
+    .badge-n { background:var(--bg3); color:var(--fg2); }
+
+    .stars { color:var(--accent); font-size:.85rem; }
+
+    /* ANÁLISIS COMPARATIVO */
+    .gap-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; margin-bottom:3rem; }
+    .gap-card { border:1px solid var(--border); border-radius:10px; padding:1.5rem; }
+    .gap-card h3 { font-size:.88rem; font-weight:700; margin-bottom:.75rem; }
+    .gap-card ul { font-size:.8rem; color:var(--fg2); line-height:1.8; padding-left:1.1rem; }
+    .gap-card.oport { border-left:3px solid var(--green); }
+    .gap-card.amen  { border-left:3px solid var(--red); }
+    .gap-card.llano { border-left:3px solid var(--accent); background:var(--accent-bg); }
+
+    /* PALABRAS CLAVE */
+    .kw-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.25rem; margin-bottom:3rem; }
+    .kw-card { background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:1.25rem; }
+    .kw-card h4 { font-size:.78rem; font-weight:700; letter-spacing:-.01em; margin-bottom:.75rem; }
+    .kw-list { display:flex; flex-wrap:wrap; gap:.4rem; }
+    .kw { background:var(--bg); border:1px solid var(--border); border-radius:4px; padding:.2rem .55rem; font-size:.68rem; font-weight:500; }
+    .kw.hot { background:var(--accent-bg); border-color:var(--accent); color:var(--accent); font-weight:700; }
+
+    /* CRITERIO EDITORIAL */
+    .criterio-grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:1.25rem; margin-bottom:3rem; }
+    .criterio-card { border:1px solid var(--border); border-radius:10px; padding:1.25rem; }
+    .criterio-num { font-size:2rem; font-weight:900; color:var(--bg3); letter-spacing:-.05em; line-height:1; margin-bottom:.4rem; }
+    .criterio-card h4 { font-size:.85rem; font-weight:700; margin-bottom:.4rem; }
+    .criterio-card p { font-size:.76rem; color:var(--fg2); line-height:1.6; }
+
+    footer { border-top:1px solid var(--border); padding:1.5rem 2rem; display:flex; justify-content:space-between; font-size:.7rem; color:var(--fg3); }
+
+    @media(max-width:768px) {
+      .gap-grid { grid-template-columns:1fr; }
+      .kw-grid { grid-template-columns:1fr 1fr; }
+      .criterio-grid { grid-template-columns:1fr; }
+      .media-table { font-size:.75rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="top-bar">
+  <span>LLANO· — Mapa de Medios La Pampa · Referencia Editorial</span>
+  <span class="pill">CONTEXTO COMPETITIVO</span>
+</div>
+<header>
+  <a href="llano.html" class="logo">LLANO<span class="dot">·</span></a>
+  <span class="hd-tag">MEDIA MAP · La Pampa 2026</span>
+</header>
+
+<div class="wrap">
+  <h1 class="pt">Mapa de medios digitales de La Pampa</h1>
+  <p class="ps">Referencia competitiva y editorial para LLANO· Cada portal analizado en cobertura política, diseño, frecuencia, redes y posicionamiento. Usá este mapa para identificar brechas y definir criterio.</p>
+
+  <!-- TABLA PRINCIPAL -->
+  <h2 class="sh">Medios digitales activos — análisis completo</h2>
+  <table class="media-table">
+    <thead>
+      <tr>
+        <th>Medio</th>
+        <th>Foco político</th>
+        <th>Diseño</th>
+        <th>Actualización</th>
+        <th>Redes</th>
+        <th>Cobertura LLANO· vs</th>
+        <th>Nivel de amenaza</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <tr>
+        <td>
+          <div class="media-name">La Arena</div>
+          <div class="media-url">laarena.com.ar</div>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">El diario de mayor circulación de La Pampa. Fundado 1904. Edición impresa + digital.</div>
+        </td>
+        <td>
+          <span class="badge badge-a">Alto</span>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Política provincial + La Arena del Campo. Cobertura institucional equilibrada, tendencia oficialista.</div>
+        </td>
+        <td>
+          <div class="stars">★★★☆☆</div>
+          <div style="font-size:.68rem;color:var(--fg3);margin-top:.2rem;">Grid tradicional. Publicidad dominante. Diseño 2015.</div>
+        </td>
+        <td><span class="badge badge-g">Continua</span><div style="font-size:.68rem;color:var(--fg3);">Varias notas por día</div></td>
+        <td>FB · IG · YT · TW</td>
+        <td>
+          <div style="font-size:.75rem;color:var(--fg2);">LLANO· supera en diseño, foco político puro y transparencia IA. La Arena lidera en historia y audiencia acumulada.</div>
+        </td>
+        <td><span class="badge badge-r">Alta</span></td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="media-name">El Diario de La Pampa</div>
+          <div class="media-url">eldiariodelapampa.com.ar</div>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Diario tradicional fundado 1992. Fuerte presencia en Santa Rosa y General Pico. Radio propia.</div>
+        </td>
+        <td>
+          <span class="badge badge-a">Alto</span>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Cubre PJ interno (Línea Plural, vernismo), gestión municipal, Ziliotto, Di Nápoli. Cobertura municipal muy detallada.</div>
+        </td>
+        <td>
+          <div class="stars">★★★☆☆</div>
+          <div style="font-size:.68rem;color:var(--fg3);">Diseño funcional pero datado. Buena estructura de secciones.</div>
+        </td>
+        <td><span class="badge badge-g">Alta</span><div style="font-size:.68rem;color:var(--fg3);">Radio + web + impreso</div></td>
+        <td>FB · IG · YT</td>
+        <td>
+          <div style="font-size:.75rem;color:var(--fg2);">LLANO· supera en análisis político IA y "seguimiento especial". El Diario supera en fuentes y relaciones con actores locales.</div>
+        </td>
+        <td><span class="badge badge-r">Alta</span></td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="media-name">Diarionoticias</div>
+          <div class="media-url">diarionoticias.com.ar</div>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Portal digital nativo. Línea editorial crítica. Integración con LU100 Radio Capital.</div>
+        </td>
+        <td>
+          <span class="badge badge-a">Muy alto</span>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">~40% del contenido es político provincial. Análisis crítico de Ziliotto, Ravier y candidatos 2027. Estilo editorial progresista.</div>
+        </td>
+        <td>
+          <div class="stars">★★★☆☆</div>
+          <div style="font-size:.68rem;color:var(--fg3);">Interfaz limpia. Multimedia (audio, video). Mejor que promedio.</div>
+        </td>
+        <td><span class="badge badge-g">Alta</span><div style="font-size:.68rem;color:var(--fg3);">Varias notas + radio diaria</div></td>
+        <td>FB · IG</td>
+        <td>
+          <div style="font-size:.75rem;color:var(--fg2);">El competidor de foco más similar. LLANO· diferencia con objetividad IA vs. línea editorial explícita.</div>
+        </td>
+        <td><span class="badge badge-r">Alta</span></td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="media-name">La Pampa Noticias</div>
+          <div class="media-url">lapampanoticias.com.ar</div>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Portal de noticias generales. Cobertura amplia sin especialización.</div>
+        </td>
+        <td>
+          <span class="badge badge-n">Medio</span>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Política como una sección más. Sin análisis profundo ni seguimiento.</div>
+        </td>
+        <td>
+          <div class="stars">★★☆☆☆</div>
+          <div style="font-size:.68rem;color:var(--fg3);">Diseño básico. Muchos banners. Experiencia móvil pobre.</div>
+        </td>
+        <td><span class="badge badge-b">Media</span></td>
+        <td>FB</td>
+        <td><div style="font-size:.75rem;color:var(--fg2);">LLANO· lo supera en todas las dimensiones.</div></td>
+        <td><span class="badge badge-n">Baja</span></td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="media-name">Pampa Diario</div>
+          <div class="media-url">pampadiario.com</div>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Portal digital nativo. Noticias generales con algo de política local.</div>
+        </td>
+        <td>
+          <span class="badge badge-n">Bajo-Medio</span>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Sin análisis propio. Reproductor de comunicados y cables.</div>
+        </td>
+        <td>
+          <div class="stars">★★☆☆☆</div>
+          <div style="font-size:.68rem;color:var(--fg3);">Diseño básico. Sin identidad visual clara.</div>
+        </td>
+        <td><span class="badge badge-b">Irregular</span></td>
+        <td>FB · IG</td>
+        <td><div style="font-size:.75rem;color:var(--fg2);">LLANO· lo supera ampliamente. Sin overlap real.</div></td>
+        <td><span class="badge badge-n">Baja</span></td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="media-name">APN La Pampa</div>
+          <div class="media-url">apn.lapampa.gob.ar</div>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Agencia Provincial de Noticias — fuente oficial del gobierno provincial.</div>
+        </td>
+        <td>
+          <span class="badge badge-b">Institucional</span>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Comunica la gestión oficial. No es periodismo independiente. Útil como fuente primaria.</div>
+        </td>
+        <td>
+          <div class="stars">★★☆☆☆</div>
+          <div style="font-size:.68rem;color:var(--fg3);">Sitio gubernamental funcional.</div>
+        </td>
+        <td><span class="badge badge-g">Continua</span></td>
+        <td>—</td>
+        <td><div style="font-size:.75rem;color:var(--fg2);"><strong>FUENTE PRIMARIA</strong> para LLANO·, no competidor. Monitorear a diario.</div></td>
+        <td><span class="badge badge-g">No aplica</span></td>
+      </tr>
+
+      <tr>
+        <td>
+          <div class="media-name">El Diario Digital LP</div>
+          <div class="media-url">YouTube @eldiariodigitaldelapampa5908</div>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Canal de YouTube con cobertura de noticias pampeanas en video.</div>
+        </td>
+        <td>
+          <span class="badge badge-n">Medio</span>
+          <div style="margin-top:.4rem;font-size:.72rem;color:var(--fg2);">Video periodismo generalista. Sin análisis político profundo.</div>
+        </td>
+        <td>
+          <div class="stars">★★☆☆☆</div>
+          <div style="font-size:.68rem;color:var(--fg3);">Producción básica. Sin identidad de marca fuerte.</div>
+        </td>
+        <td><span class="badge badge-b">Irregular</span></td>
+        <td>YT</td>
+        <td><div style="font-size:.75rem;color:var(--fg2);">LLANO· debe superar con producción IA más prolija y análisis político específico.</div></td>
+        <td><span class="badge badge-n">Baja-Media</span></td>
+      </tr>
+
+    </tbody>
+  </table>
+
+  <!-- BRECHAS Y OPORTUNIDADES -->
+  <h2 class="sh">Brechas identificadas — dónde LLANO· tiene ventaja real</h2>
+  <div class="gap-grid">
+
+    <div class="gap-card oport">
+      <h3 style="color:var(--green);">✓ Brechas que LLANO· puede llenar</h3>
+      <ul>
+        <li><strong>Nadie tiene un tracker de seguimiento político</strong> — las historias se cubren y se olvidan. LLANO· hace seguimiento continuo.</li>
+        <li><strong>Diseño visualmente superior a todos</strong> — los medios existentes tienen diseños de 2010-2015. LLANO· es 2026+.</li>
+        <li><strong>Sin formato Short/TikTok político en La Pampa</strong> — espacio completamente vacío en video corto.</li>
+        <li><strong>Objetividad explícita</strong> — todos tienen línea editorial visible. LLANO· posiciona la objetividad IA como diferencial.</li>
+        <li><strong>Análisis explicativo</strong> — "IA Explica" no existe en ningún medio pampeano.</li>
+        <li><strong>Datos + visualización</strong> — ningún medio pampeano usa infografías de datos políticos de forma sistemática.</li>
+        <li><strong>Carruseles y multimedia en IG</strong> — ninguno tiene una presencia de Instagram editorial seria.</li>
+        <li><strong>SEO temático profundo</strong> — los portales existentes tienen SEO básico. LLANO· puede rankear con análisis largos.</li>
+      </ul>
+    </div>
+
+    <div class="gap-card amen">
+      <h3 style="color:var(--red);">⚠ Desafíos y amenazas reales</h3>
+      <ul>
+        <li><strong>La Arena tiene 120 años de audiencia</strong> — la fidelidad del lector pampeano es alta. Cambio cultural lento.</li>
+        <li><strong>Sin fuentes propias todavía</strong> — los medios existentes tienen periodistas con fuentes en el gobierno, partidos y municipios.</li>
+        <li><strong>Credibilidad IA</strong> — algunos lectores desconfiarán del contenido 100% IA. Debe contrarrestarse con transparencia radical.</li>
+        <li><strong>Diarionoticias tiene foco político similar</strong> — el competidor más parecido en intención, aunque con línea editorial opuesta.</li>
+        <li><strong>Sin historia ni trayectoria</strong> — en política provincial, la confianza se gana con tiempo y consistencia.</li>
+        <li><strong>Monetización no definida</strong> — los medios existentes tienen publicidad institucional, municipal y provincial consolidada.</li>
+      </ul>
+    </div>
+
+    <div class="gap-card llano" style="grid-column:1/-1;">
+      <h3 style="color:var(--accent);">★ El diferencial único de LLANO· que ningún medio puede copiar fácilmente</h3>
+      <ul style="columns:2;column-gap:2rem;">
+        <li><strong>100% IA declarado</strong> — es la primera vez en La Pampa. Posicionamiento histórico disponible ahora.</li>
+        <li><strong>Análisis sin opinión política</strong> — datos y contexto sin línea editorial. El único que puede llamarse objetivo de forma estructural.</li>
+        <li><strong>Seguimiento especial</strong> — tracker de historias en curso, único en la provincia.</li>
+        <li><strong>Ecosistema multiplataforma coordinado</strong> — web + YT + TK + IG con identidad visual unificada.</li>
+        <li><strong>Diseño editorial premium</strong> — calidad gráfica que compite con medios nacionales, no provinciales.</li>
+        <li><strong>"IA Explica"</strong> — simplifica lo complejo sin banalizar. Servicio público único.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- KEYWORDS SEO -->
+  <h2 class="sh">Keywords SEO estratégicas para La Pampa</h2>
+  <div class="kw-grid">
+    <div class="kw-card">
+      <h4>🔥 Alta prioridad — Búsquedas con intención política</h4>
+      <div class="kw-list">
+        <span class="kw hot">política La Pampa</span>
+        <span class="kw hot">elecciones 2027 La Pampa</span>
+        <span class="kw hot">Ziliotto La Pampa</span>
+        <span class="kw hot">legislatura pampeana</span>
+        <span class="kw hot">noticias La Pampa hoy</span>
+        <span class="kw hot">peronismo pampeano</span>
+        <span class="kw hot">PJ La Pampa</span>
+        <span class="kw hot">candidatos La Pampa 2027</span>
+        <span class="kw">intendente Santa Rosa</span>
+        <span class="kw">concejo deliberante General Pico</span>
+      </div>
+    </div>
+    <div class="kw-card">
+      <h4>📈 Media prioridad — Económico-políticas</h4>
+      <div class="kw-list">
+        <span class="kw hot">coparticipación La Pampa</span>
+        <span class="kw hot">presupuesto provincial La Pampa</span>
+        <span class="kw">economía pampeana</span>
+        <span class="kw">campo La Pampa</span>
+        <span class="kw">inflación La Pampa</span>
+        <span class="kw">obras viales La Pampa</span>
+        <span class="kw">parque industrial Santa Rosa</span>
+        <span class="kw">pymes La Pampa</span>
+      </div>
+    </div>
+    <div class="kw-card">
+      <h4>🎯 Long tail — Alto potencial, baja competencia</h4>
+      <div class="kw-list">
+        <span class="kw hot">análisis político La Pampa IA</span>
+        <span class="kw hot">diario digital La Pampa</span>
+        <span class="kw">quién es el gobernador de La Pampa</span>
+        <span class="kw">mapa político pampeano 2026</span>
+        <span class="kw">noticias Santa Rosa La Pampa</span>
+        <span class="kw">La Libertad Avanza La Pampa</span>
+        <span class="kw">UCR La Pampa</span>
+        <span class="kw">reformas legislativas La Pampa</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- CRITERIO EDITORIAL -->
+  <h2 class="sh">Criterio editorial LLANO· — definido a partir del análisis competitivo</h2>
+  <div class="criterio-grid">
+    <div class="criterio-card">
+      <div class="criterio-num">01</div>
+      <h4>La Pampa primero, siempre</h4>
+      <p>Toda noticia nacional o internacional se filtra por su relevancia pampeana. Si no tiene impacto directo en la provincia, no es la prioridad. El lector de LLANO· es un pampeano informado.</p>
+    </div>
+    <div class="criterio-card">
+      <div class="criterio-num">02</div>
+      <h4>Datos antes que opinión</h4>
+      <p>Cada nota parte de datos verificables. La IA no opina sobre quién ganó o perdió políticamente — presenta los hechos, el contexto y las implicaciones. El lector decide.</p>
+    </div>
+    <div class="criterio-card">
+      <div class="criterio-num">03</div>
+      <h4>Política provincial como eje</h4>
+      <p>El 60% del contenido es política pampeana. El 25% es política nacional con lectura pampeana. El 15% restante es economía, sociedad e internacional relevante.</p>
+    </div>
+    <div class="criterio-card">
+      <div class="criterio-num">04</div>
+      <h4>Seguimiento, no cobertura puntual</h4>
+      <p>LLANO· no cubre eventos — sigue historias. Cada hecho político entra en un hilo de seguimiento con contexto, antecedentes y actualización continua.</p>
+    </div>
+    <div class="criterio-card">
+      <div class="criterio-num">05</div>
+      <h4>Transparencia radical sobre la IA</h4>
+      <p>Cada nota lleva el badge "✦ IA" y una sección explica cómo se genera el contenido. La confianza se construye con honestidad sobre el proceso, no ocultándolo.</p>
+    </div>
+    <div class="criterio-card">
+      <div class="criterio-num">06</div>
+      <h4>APN + medios como fuente primaria</h4>
+      <p>La Agencia Provincial de Noticias (apn.lapampa.gob.ar) y los comunicados oficiales son la base factual. LLANO· agrega contexto, análisis y perspectiva, nunca inventa hechos.</p>
+    </div>
+  </div>
+
+  <!-- FUENTES PRIMARIAS -->
+  <h2 class="sh">Fuentes primarias recomendadas para LLANO·</h2>
+  <table class="media-table">
+    <thead>
+      <tr><th>Fuente</th><th>Tipo</th><th>Contenido útil</th><th>Frecuencia de monitoreo</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><div class="media-name">APN La Pampa</div><div class="media-url">apn.lapampa.gob.ar</div></td>
+        <td><span class="badge badge-b">Oficial</span></td>
+        <td>Comunicados del ejecutivo, obras, decretos, actos de gobierno</td>
+        <td><span class="badge badge-r">Diaria</span></td>
+      </tr>
+      <tr>
+        <td><div class="media-name">Legislatura La Pampa</div><div class="media-url">legislaturalpam.gob.ar</div></td>
+        <td><span class="badge badge-b">Oficial</span></td>
+        <td>Sesiones, proyectos, votaciones, órdenes del día</td>
+        <td><span class="badge badge-a">Semanal + en sesiones</span></td>
+      </tr>
+      <tr>
+        <td><div class="media-name">La Arena</div><div class="media-url">laarena.com.ar</div></td>
+        <td><span class="badge badge-n">Competidor/Referencia</span></td>
+        <td>Referencia de agenda temática, hechos confirmados</td>
+        <td><span class="badge badge-r">Diaria</span></td>
+      </tr>
+      <tr>
+        <td><div class="media-name">INDEC</div><div class="media-url">indec.gob.ar</div></td>
+        <td><span class="badge badge-b">Oficial</span></td>
+        <td>Inflación, empleo, estadísticas provinciales</td>
+        <td><span class="badge badge-a">Mensual (publicaciones)</span></td>
+      </tr>
+      <tr>
+        <td><div class="media-name">Ministerio de Economía LP</div><div class="media-url">economia.lapampa.gob.ar</div></td>
+        <td><span class="badge badge-b">Oficial</span></td>
+        <td>Presupuesto, ejecución, deuda, transferencias</td>
+        <td><span class="badge badge-a">Semanal</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
+<footer>
+  <span>© 2026 LLANO· · Diario Digital IA · La Pampa</span>
+  <span>Mapa de Medios · Referencia competitiva y editorial</span>
+</footer>
+
+</body>
+</html>

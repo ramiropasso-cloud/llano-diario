@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLANO· CMS — Gestión de Artículos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root {
+      --bg:#fafaf8; --bg2:#f2f1ed; --bg3:#e8e7e2;
+      --fg:#0a0909; --fg2:#4a4845; --fg3:#9a9690;
+      --accent:#c8780a; --accent-bg:#fdf3e3; --accent-border:#e8d4a8;
+      --border:#e2e0da; --border2:#ccc9c0;
+      --red:#cc2222; --red-bg:#fdecea;
+      --green:#1a7a3a; --green-bg:#e6f4ec;
+      --blue:#1a4a8a; --blue-bg:#e6edf8;
+      --sidebar:240px;
+    }
+    body { font-family:'Inter',sans-serif; background:var(--bg); color:var(--fg); display:flex; height:100vh; overflow:hidden; }
+
+    /* SIDEBAR */
+    .sidebar { width:var(--sidebar); flex-shrink:0; background:var(--fg); display:flex; flex-direction:column; overflow-y:auto; }
+    .sb-logo { padding:1.4rem 1.4rem .9rem; border-bottom:1px solid #1e1e1e; }
+    .sb-logo .wordmark { font-size:1.25rem; font-weight:900; letter-spacing:-.06em; color:#fff; }
+    .sb-logo .wordmark .dot { color:var(--accent); }
+    .sb-logo .tag { font-size:.56rem; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#444; margin-top:.15rem; }
+    .sb-sect { padding:.7rem 1.4rem .3rem; font-size:.56rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:#3a3a3a; }
+    .sb-item { display:flex; align-items:center; gap:.65rem; padding:.6rem 1.4rem; font-size:.76rem; font-weight:500; color:#777; cursor:pointer; transition:all .12s; }
+    .sb-item:hover { background:#111; color:#ddd; }
+    .sb-item.active { background:var(--accent); color:#fff; }
+    .sb-item .ico { font-size:.85rem; width:1rem; text-align:center; flex-shrink:0; }
+    .sb-item .badge { margin-left:auto; background:#1a1a1a; color:#555; font-size:.58rem; font-weight:700; padding:.1rem .38rem; border-radius:2px; }
+    .sb-item.active .badge { background:rgba(0,0,0,.25); color:rgba(255,255,255,.6); }
+    .sb-div { margin:.35rem 1.4rem; border:none; border-top:1px solid #161616; }
+    .sb-foot { margin-top:auto; padding:1rem 1.4rem; border-top:1px solid #161616; }
+    .sb-foot .live { font-size:.62rem; color:#333; display:flex; align-items:center; gap:.4rem; }
+    .live-dot { width:5px; height:5px; border-radius:50%; background:#1a7a3a; animation:pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.25} }
+
+    /* MAIN */
+    .main { flex:1; display:flex; flex-direction:column; overflow:hidden; min-width:0; }
+    .topbar { background:var(--bg); border-bottom:1px solid var(--border); padding:.75rem 1.75rem; display:flex; align-items:center; gap:.85rem; flex-shrink:0; }
+    .topbar h1 { font-size:.95rem; font-weight:700; flex:1; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .topbar h1 span { color:var(--fg3); font-weight:400; }
+    .btn { padding:.5rem 1rem; border-radius:5px; font-size:.75rem; font-weight:600; cursor:pointer; border:none; font-family:inherit; transition:all .12s; white-space:nowrap; }
+    .btn-primary { background:var(--fg); color:var(--bg); }
+    .btn-primary:hover { background:#2a2a2a; }
+    .btn-outline { background:transparent; border:1px solid var(--border); color:var(--fg2); }
+    .btn-outline:hover { border-color:var(--border2); background:var(--bg2); }
+    .btn-accent { background:var(--accent); color:#fff; }
+    .btn-accent:hover { background:#b06809; }
+    .btn-green { background:var(--green); color:#fff; }
+    .btn-green:hover { background:#156030; }
+
+    .content { flex:1; overflow-y:auto; padding:1.75rem; }
+
+    /* VIEWS */
+    #view-lista, #view-editor, #view-nota { display:none; }
+    #view-lista.active, #view-editor.active, #view-nota.active { display:block; }
+
+    /* STATS */
+    .stats { display:flex; gap:.85rem; margin-bottom:1.5rem; }
+    .stat { flex:1; border:1px solid var(--border); border-radius:7px; padding:.9rem 1.1rem; }
+    .stat .n { font-size:1.7rem; font-weight:900; letter-spacing:-.04em; line-height:1; }
+    .stat .l { font-size:.64rem; color:var(--fg3); margin-top:.18rem; }
+    .stat.s-draft .n { color:var(--fg2); }
+    .stat.s-rev .n   { color:var(--accent); }
+    .stat.s-pub .n   { color:var(--green); }
+    .stat.s-tot .n   { color:var(--fg); }
+
+    /* TOOLBAR */
+    .toolbar { display:flex; gap:.7rem; margin-bottom:1.25rem; flex-wrap:wrap; align-items:center; }
+    .search-wrap { flex:1; min-width:180px; display:flex; align-items:center; gap:.5rem; border:1px solid var(--border); border-radius:5px; padding:.5rem .8rem; background:var(--bg); }
+    .search-wrap input { border:none; outline:none; font-family:inherit; font-size:.78rem; background:transparent; width:100%; color:var(--fg); }
+    .sel { border:1px solid var(--border); border-radius:5px; padding:.5rem .8rem; font-size:.75rem; font-family:inherit; background:var(--bg); color:var(--fg); outline:none; cursor:pointer; }
+    .view-toggle { display:flex; border:1px solid var(--border); border-radius:5px; overflow:hidden; }
+    .vt-btn { padding:.45rem .7rem; font-size:.8rem; cursor:pointer; border:none; background:transparent; font-family:inherit; color:var(--fg3); transition:all .12s; }
+    .vt-btn.active { background:var(--fg); color:var(--bg); }
+
+    /* GRID DE CARDS */
+    .cards-grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:1.1rem; }
+    @media(max-width:1200px) { .cards-grid { grid-template-columns:repeat(2,1fr); } }
+    @media(max-width:800px)  { .cards-grid { grid-template-columns:1fr; } }
+
+    .art-card { border:1px solid var(--border); border-radius:9px; overflow:hidden; display:flex; flex-direction:column; transition:box-shadow .15s; }
+    .art-card:hover { box-shadow:0 4px 20px rgba(0,0,0,.08); }
+    .art-card-img { aspect-ratio:16/9; overflow:hidden; background:var(--bg3); position:relative; }
+    .art-card-img img { width:100%; height:100%; object-fit:cover; display:block; }
+    .art-card-img .no-img { display:flex; align-items:center; justify-content:center; font-size:2rem; height:100%; background:var(--bg2); }
+    .art-card-img .cat-overlay { position:absolute; top:.6rem; left:.6rem; }
+    .art-card-img .status-overlay { position:absolute; top:.6rem; right:.6rem; }
+    .art-card-body { padding:.95rem; flex:1; display:flex; flex-direction:column; }
+    .art-card-title { font-size:.82rem; font-weight:700; line-height:1.35; margin-bottom:.45rem; cursor:pointer; }
+    .art-card-title:hover { color:var(--accent); }
+    .art-card-meta { font-size:.65rem; color:var(--fg3); margin-bottom:.65rem; flex:1; }
+    .art-card-excerpt { font-size:.72rem; color:var(--fg2); line-height:1.55; margin-bottom:.7rem; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+    .art-card-actions { display:flex; gap:.4rem; margin-top:auto; flex-wrap:wrap; }
+    .ca-btn { flex:1; min-width:0; padding:.38rem .5rem; border-radius:4px; font-size:.65rem; font-weight:600; cursor:pointer; border:1px solid var(--border); background:transparent; font-family:inherit; color:var(--fg2); transition:all .12s; text-align:center; white-space:nowrap; }
+    .ca-btn:hover { background:var(--fg); color:var(--bg); border-color:var(--fg); }
+    .ca-btn.pub-btn { border-color:var(--green); color:var(--green); }
+    .ca-btn.pub-btn:hover { background:var(--green); color:#fff; }
+    .ca-btn.del-btn:hover { background:var(--red); color:#fff; border-color:var(--red); }
+
+    /* TABLA ALTERNATIVA */
+    .art-table { width:100%; border-collapse:collapse; font-size:.78rem; display:none; }
+    .art-table.show { display:table; }
+    .art-table th { text-align:left; font-size:.58rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--fg3); padding:.45rem .7rem; border-bottom:2px solid var(--fg); }
+    .art-table td { padding:.85rem .7rem; border-bottom:1px solid var(--border); vertical-align:middle; }
+    .art-table tr:last-child td { border-bottom:none; }
+    .art-table tr:hover td { background:var(--bg2); }
+    .tbl-img { width:72px; height:48px; object-fit:cover; border-radius:4px; background:var(--bg3); display:block; }
+    .tbl-title { font-weight:600; cursor:pointer; }
+    .tbl-title:hover { color:var(--accent); }
+    .tbl-meta { font-size:.62rem; color:var(--fg3); margin-top:.15rem; }
+    .row-acts { display:flex; gap:.3rem; }
+    .ra { padding:.3rem .55rem; border-radius:3px; font-size:.62rem; font-weight:600; cursor:pointer; border:1px solid var(--border); background:transparent; font-family:inherit; color:var(--fg2); transition:all .1s; }
+    .ra:hover { background:var(--fg); color:var(--bg); border-color:var(--fg); }
+    .ra.g { border-color:var(--green); color:var(--green); }
+    .ra.g:hover { background:var(--green); color:#fff; }
+    .ra.r:hover { background:var(--red); color:#fff; border-color:var(--red); }
+
+    /* CHIPS */
+    .chip { display:inline-block; font-size:.58rem; font-weight:700; letter-spacing:.05em; padding:.16rem .48rem; border-radius:3px; }
+    .chip-borrador  { background:var(--bg3); color:var(--fg2); }
+    .chip-revision  { background:var(--accent-bg); color:var(--accent); }
+    .chip-publicado { background:var(--green-bg); color:var(--green); }
+    .cat-chip { background:var(--fg); color:var(--bg); font-size:.55rem; font-weight:700; padding:.18rem .55rem; border-radius:3px; letter-spacing:.04em; }
+
+    /* EMPTY STATE */
+    .empty { text-align:center; padding:4rem 2rem; color:var(--fg3); }
+    .empty .big { font-size:2.5rem; margin-bottom:.75rem; }
+    .empty p { font-size:.82rem; margin-bottom:1.25rem; }
+
+    /* ===== EDITOR ===== */
+    .editor-wrap { display:grid; grid-template-columns:1fr 300px; gap:1.4rem; }
+    .form-g { margin-bottom:1.1rem; }
+    .lbl { font-size:.64rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--fg2); display:block; margin-bottom:.4rem; }
+    .lbl .opt { font-weight:400; color:var(--fg3); text-transform:none; letter-spacing:0; }
+    .fc { width:100%; border:1px solid var(--border); border-radius:5px; padding:.62rem .8rem; font-family:inherit; font-size:.82rem; color:var(--fg); background:var(--bg); outline:none; transition:border .12s; }
+    .fc:focus { border-color:var(--accent); }
+    textarea.fc { resize:vertical; line-height:1.6; }
+    #ed-cuerpo { min-height:280px; font-size:.82rem; }
+    .form-row2 { display:grid; grid-template-columns:1fr 1fr; gap:.8rem; }
+
+    .meta-box { border:1px solid var(--border); border-radius:7px; padding:1.1rem; margin-bottom:.85rem; }
+    .meta-h { font-size:.58rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; color:var(--fg3); margin-bottom:.85rem; border-bottom:1px solid var(--border); padding-bottom:.5rem; }
+    .seo-prev { background:var(--bg2); border-radius:5px; padding:.85rem; margin-top:.65rem; }
+    .seo-url   { font-size:.65rem; color:#1a7a3a; margin-bottom:.2rem; font-family:monospace; }
+    .seo-title { font-size:.78rem; font-weight:600; color:#1a0dab; margin-bottom:.2rem; }
+    .seo-desc  { font-size:.7rem; color:#545454; line-height:1.4; }
+    .cc { font-size:.62rem; color:var(--fg3); text-align:right; margin-top:.2rem; }
+    .cc.ok { color:var(--green); } .cc.warn { color:var(--accent); } .cc.over { color:var(--red); }
+
+    .status-pills { display:flex; gap:.35rem; flex-wrap:wrap; }
+    .sp { padding:.4rem .75rem; border-radius:4px; font-size:.7rem; font-weight:600; cursor:pointer; border:2px solid var(--border); color:var(--fg2); background:transparent; transition:all .1s; }
+    .sp.sel-borrador  { border-color:var(--fg); background:var(--fg); color:var(--bg); }
+    .sp.sel-revision  { border-color:var(--accent); background:var(--accent-bg); color:var(--accent); }
+    .sp.sel-publicado { border-color:var(--green); background:var(--green-bg); color:var(--green); }
+
+    .tags-w { display:flex; flex-wrap:wrap; gap:.3rem; border:1px solid var(--border); border-radius:5px; padding:.45rem .65rem; min-height:38px; cursor:text; }
+    .tags-w:focus-within { border-color:var(--accent); }
+    .tag-c { background:var(--bg3); border:1px solid var(--border); border-radius:3px; font-size:.67rem; font-weight:600; padding:.18rem .48rem; display:flex; align-items:center; gap:.3rem; }
+    .tag-c .tx { cursor:pointer; opacity:.5; font-size:.62rem; }
+    .tag-c .tx:hover { opacity:1; color:var(--red); }
+    .tags-w input { border:none; outline:none; font-family:inherit; font-size:.75rem; background:transparent; min-width:80px; flex:1; }
+
+    .etbar { border:1px solid var(--border); border-radius:5px 5px 0 0; border-bottom:none; padding:.45rem .65rem; background:var(--bg2); display:flex; gap:.2rem; flex-wrap:wrap; }
+    .eb { width:28px; height:28px; border:1px solid transparent; border-radius:3px; background:transparent; cursor:pointer; font-size:.75rem; color:var(--fg2); display:flex; align-items:center; justify-content:center; transition:all .1s; font-weight:600; font-family:inherit; }
+    .eb:hover { background:var(--bg3); border-color:var(--border); color:var(--fg); }
+    .eb-sep { width:1px; background:var(--border); margin:3px 3px; }
+    textarea#ed-cuerpo { border-radius:0 0 5px 5px; }
+
+    .foto-preview { width:100%; aspect-ratio:16/9; border-radius:5px; overflow:hidden; background:var(--bg3); margin-top:.5rem; border:1px solid var(--border); }
+    .foto-preview img { width:100%; height:100%; object-fit:cover; display:block; }
+    .foto-preview .no-foto { display:flex; align-items:center; justify-content:center; height:100%; font-size:.75rem; color:var(--fg3); flex-direction:column; gap:.3rem; }
+
+    .ia-notice { display:flex; align-items:flex-start; gap:.6rem; padding:.7rem; background:var(--accent-bg); border:1px solid var(--accent-border); border-radius:6px; margin-bottom:1.1rem; }
+    .ia-notice p { font-size:.72rem; color:var(--fg2); line-height:1.5; }
+    .ia-notice strong { color:var(--fg); }
+
+    /* FEATURED TOGGLE */
+    .toggle-wrap { display:flex; align-items:center; gap:.65rem; }
+    .toggle { width:36px; height:20px; border-radius:10px; background:var(--bg3); cursor:pointer; position:relative; transition:background .15s; flex-shrink:0; border:none; }
+    .toggle.on { background:var(--accent); }
+    .toggle::after { content:''; position:absolute; top:3px; left:3px; width:14px; height:14px; border-radius:50%; background:#fff; transition:left .15s; }
+    .toggle.on::after { left:19px; }
+    .toggle-lbl { font-size:.75rem; color:var(--fg2); }
+
+    /* ===== VISTA NOTA ===== */
+    .nota-wrap { max-width:760px; margin:0 auto; }
+    .nota-hero { width:100%; aspect-ratio:16/9; border-radius:8px; overflow:hidden; background:var(--bg3); margin-bottom:1.75rem; }
+    .nota-hero img { width:100%; height:100%; object-fit:cover; display:block; }
+    .nota-hero .no-img { display:flex; align-items:center; justify-content:center; height:100%; font-size:3rem; }
+    .nota-cat { font-size:.6rem; font-weight:800; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); margin-bottom:.65rem; }
+    .nota-titular { font-size:1.9rem; font-weight:900; letter-spacing:-.04em; line-height:1.15; margin-bottom:.85rem; }
+    .nota-resumen { font-size:.98rem; color:var(--fg2); border-left:3px solid var(--accent); padding-left:.9rem; margin-bottom:1.4rem; line-height:1.65; font-style:italic; }
+    .nota-meta { display:flex; gap:.85rem; align-items:center; font-size:.68rem; color:var(--fg3); margin-bottom:1.4rem; padding-bottom:1rem; border-bottom:1px solid var(--border); flex-wrap:wrap; }
+    .nota-ia { background:var(--fg); color:var(--bg); padding:.2rem .5rem; border-radius:3px; font-size:.58rem; font-weight:700; letter-spacing:.06em; }
+    .nota-source { background:var(--blue-bg); color:var(--blue); padding:.2rem .5rem; border-radius:3px; font-size:.58rem; font-weight:600; }
+    .nota-body { font-size:.9rem; line-height:1.8; color:var(--fg); white-space:pre-wrap; }
+    .nota-body h2 { font-size:1.1rem; font-weight:700; margin:1.5rem 0 .6rem; line-height:1.3; }
+    .nota-body h3 { font-size:.95rem; font-weight:700; margin:1.2rem 0 .5rem; }
+    .nota-cierre { margin-top:1.75rem; padding-top:1.2rem; border-top:1px solid var(--border); font-size:.88rem; font-style:italic; color:var(--fg2); line-height:1.7; }
+    .nota-tags { display:flex; gap:.4rem; flex-wrap:wrap; margin-top:1.5rem; padding-top:1rem; border-top:1px solid var(--border); }
+    .nota-tag { background:var(--bg2); border:1px solid var(--border); border-radius:3px; font-size:.65rem; padding:.18rem .5rem; color:var(--fg2); }
+    .nota-fuente { margin-top:1.25rem; padding:.75rem; background:var(--bg2); border-radius:5px; font-size:.72rem; color:var(--fg3); border:1px solid var(--border); }
+    .nota-fuente a { color:var(--blue); text-decoration:underline; }
+    .nota-status-bar { background:var(--bg2); border:1px solid var(--border); border-radius:7px; padding:.85rem 1.1rem; margin-bottom:1.5rem; display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
+    .nota-status-bar .nsb-label { font-size:.68rem; color:var(--fg3); }
+    .nota-status-bar strong { font-size:.78rem; }
+    .nota-status-bar .ns-actions { margin-left:auto; display:flex; gap:.5rem; }
+    .nota-notas { background:#fffde7; border:1px solid #f0d060; border-radius:6px; padding:.9rem 1rem; margin-bottom:1.4rem; }
+    .nota-notas .nn-label { font-size:.58rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:#8a7000; margin-bottom:.35rem; }
+    .nota-notas p { font-size:.75rem; color:#5a4800; line-height:1.55; }
+
+    /* MODAL */
+    .modal-bg { position:fixed; inset:0; background:rgba(0,0,0,.5); display:none; align-items:center; justify-content:center; z-index:999; }
+    .modal-bg.open { display:flex; }
+    .modal { background:var(--bg); border:1px solid var(--border); border-radius:9px; padding:1.6rem; max-width:360px; width:90%; }
+    .modal h3 { font-size:.95rem; font-weight:700; margin-bottom:.6rem; }
+    .modal p { font-size:.8rem; color:var(--fg2); line-height:1.5; margin-bottom:1.1rem; }
+    .modal-acts { display:flex; gap:.55rem; justify-content:flex-end; }
+
+    /* TOAST */
+    .toast { position:fixed; bottom:1.25rem; right:1.25rem; background:var(--fg); color:var(--bg); padding:.75rem 1.1rem; border-radius:7px; font-size:.78rem; font-weight:600; z-index:9999; transform:translateY(80px); transition:transform .28s; box-shadow:0 4px 20px rgba(0,0,0,.25); }
+    .toast.show { transform:translateY(0); }
+    .t-ico { color:var(--accent); margin-right:.35rem; }
+
+    @media(max-width:960px) { .editor-wrap { grid-template-columns:1fr; } }
+    @media(max-width:700px) { .sidebar { display:none; } }
+  </style>
+</head>
+<body>
+
+<!-- SIDEBAR -->
+<aside class="sidebar">
+  <div class="sb-logo">
+    <div class="wordmark">LLANO<span class="dot">·</span></div>
+    <div class="tag">Sistema de Redacción</div>
+  </div>
+  <div class="sb-sect">Contenido</div>
+  <div class="sb-item active" id="sb-todos" onclick="navLista()">
+    <span class="ico">📰</span> Todos los artículos
+    <span class="badge" id="sb-total">0</span>
+  </div>
+  <div class="sb-item" onclick="navEditor(null)">
+    <span class="ico">✏️</span> Nuevo artículo
+  </div>
+  <hr class="sb-div" />
+  <div class="sb-sect">Estado</div>
+  <div class="sb-item" onclick="filtroEstado('borrador')">
+    <span class="ico">📝</span> Borradores
+    <span class="badge" id="sb-borra">0</span>
+  </div>
+  <div class="sb-item" onclick="filtroEstado('revision')">
+    <span class="ico">🔍</span> En revisión
+    <span class="badge" id="sb-rev">0</span>
+  </div>
+  <div class="sb-item" onclick="filtroEstado('publicado')">
+    <span class="ico">✅</span> Publicados
+    <span class="badge" id="sb-pub">0</span>
+  </div>
+  <hr class="sb-div" />
+  <div class="sb-sect">Categorías</div>
+  <div class="sb-item" onclick="filtroCategoria('Política Pampeana')"><span class="ico">🏛</span> Política Pampeana</div>
+  <div class="sb-item" onclick="filtroCategoria('Nacional')"><span class="ico">🇦🇷</span> Nacional</div>
+  <div class="sb-item" onclick="filtroCategoria('Economía')"><span class="ico">📊</span> Economía</div>
+  <div class="sb-item" onclick="filtroCategoria('IA Explica')"><span class="ico">🤖</span> IA Explica</div>
+  <div class="sb-item" onclick="filtroCategoria('Internacional')"><span class="ico">🌐</span> Internacional</div>
+  <div class="sb-item" onclick="filtroCategoria('Deportes')"><span class="ico">⚽</span> Deportes</div>
+  <hr class="sb-div" />
+  <div class="sb-sect">Herramientas</div>
+  <div class="sb-item" onclick="window.open('llano.html')"><span class="ico">👁</span> Ver diario en vivo</div>
+  <div class="sb-item" onclick="window.open('llano-auditoria.html')"><span class="ico">📈</span> Auditoría SEO</div>
+  <div class="sb-item" onclick="window.open('llano-portales.html')"><span class="ico">🗺</span> Portales / Competencia</div>
+  <div class="sb-item" onclick="exportJSON()"><span class="ico">💾</span> Exportar JSON</div>
+  <div class="sb-foot">
+    <div class="live"><div class="live-dot"></div> CMS activo · LLANO· La Pampa</div>
+  </div>
+</aside>
+
+<!-- MAIN -->
+<div class="main">
+  <div class="topbar">
+    <h1 id="tb-title">Todos los artículos <span id="tb-sub"></span></h1>
+    <button class="btn btn-outline" id="btn-back" style="display:none" onclick="navLista()">← Volver</button>
+    <button class="btn btn-outline" id="btn-preview" style="display:none" onclick="toggleVistaNota()">👁 Leer nota</button>
+    <button class="btn btn-primary" id="btn-new" onclick="navEditor(null)">+ Nueva nota</button>
+    <button class="btn btn-accent" id="btn-save" style="display:none" onclick="guardar()">Guardar</button>
+  </div>
+
+  <div class="content">
+
+    <!-- ===== LISTA ===== -->
+    <div id="view-lista">
+      <div class="stats">
+        <div class="stat s-draft"><div class="n" id="st-b">0</div><div class="l">Borradores</div></div>
+        <div class="stat s-rev"><div class="n" id="st-r">0</div><div class="l">En revisión</div></div>
+        <div class="stat s-pub"><div class="n" id="st-p">0</div><div class="l">Publicados</div></div>
+        <div class="stat s-tot"><div class="n" id="st-t">0</div><div class="l">Total</div></div>
+      </div>
+      <div class="toolbar">
+        <div class="search-wrap">
+          <span>🔍</span>
+          <input type="text" id="q" placeholder="Buscar por título, tags, categoría..." oninput="render()" />
+        </div>
+        <select class="sel" id="f-cat" onchange="render()">
+          <option value="">Todas las categorías</option>
+          <option>Política Pampeana</option><option>Nacional</option>
+          <option>Economía</option><option>IA Explica</option>
+          <option>Internacional</option><option>Deportes</option>
+          <option>Seguimiento Especial</option>
+        </select>
+        <select class="sel" id="f-est" onchange="render()">
+          <option value="">Todos los estados</option>
+          <option>borrador</option><option>revision</option><option>publicado</option>
+        </select>
+        <div class="view-toggle">
+          <button class="vt-btn active" id="vt-card" onclick="setVista('card')" title="Cards">⊞</button>
+          <button class="vt-btn" id="vt-tabla" onclick="setVista('tabla')" title="Tabla">☰</button>
+        </div>
+        <button class="btn btn-outline" onclick="limpiarFiltros()">✕</button>
+      </div>
+
+      <!-- Cards -->
+      <div class="cards-grid" id="grid-cards"></div>
+      <!-- Tabla -->
+      <table class="art-table" id="tbl">
+        <thead><tr>
+          <th style="width:60px">Foto</th>
+          <th style="width:40%">Título</th>
+          <th>Categoría</th><th>Estado</th><th>Fecha</th><th>Acciones</th>
+        </tr></thead>
+        <tbody id="tbl-body"></tbody>
+      </table>
+      <div class="empty" id="empty" style="display:none">
+        <div class="big">📭</div>
+        <p>No hay artículos que coincidan.</p>
+        <button class="btn btn-outline" onclick="limpiarFiltros()">Limpiar filtros</button>
+      </div>
+    </div>
+
+    <!-- ===== EDITOR ===== -->
+    <div id="view-editor">
+      <div class="ia-notice">
+        <span style="font-size:1rem">✦</span>
+        <p><strong>Revisión editorial requerida.</strong> Este artículo fue generado con IA a partir de fuentes verificables. Confirmá nombres propios, fechas, declaraciones y contexto político antes de publicar.</p>
+      </div>
+      <div class="editor-wrap">
+        <div>
+          <div class="form-g">
+            <label class="lbl">Titular</label>
+            <input type="text" id="ed-titular" class="fc" placeholder="Titular completo del artículo..." oninput="updateSeo()" />
+          </div>
+          <div class="form-row2">
+            <div class="form-g">
+              <label class="lbl">Categoría</label>
+              <select id="ed-cat" class="fc">
+                <option value="">— Seleccionar —</option>
+                <option>Política Pampeana</option><option>Nacional</option>
+                <option>Economía</option><option>IA Explica</option>
+                <option>Internacional</option><option>Deportes</option>
+                <option>Seguimiento Especial</option>
+              </select>
+            </div>
+            <div class="form-g">
+              <label class="lbl">Fecha</label>
+              <input type="date" id="ed-fecha" class="fc" />
+            </div>
+          </div>
+          <div class="form-g">
+            <label class="lbl">Resumen <span class="opt">(meta description · 120-160 caracteres)</span></label>
+            <textarea id="ed-resumen" class="fc" rows="3" placeholder="Resumen para portada y Google..." oninput="updateCharCount();updateSeo()"></textarea>
+            <div class="cc" id="cc-res">0 / 160</div>
+          </div>
+          <div class="form-g">
+            <label class="lbl">Cuerpo</label>
+            <div class="etbar">
+              <button class="eb" onclick="fmt('**','**')" title="Negrita"><b>B</b></button>
+              <button class="eb" onclick="fmt('_','_')" title="Cursiva"><i>I</i></button>
+              <div class="eb-sep"></div>
+              <button class="eb" onclick="fmt('\n## ','')">H2</button>
+              <button class="eb" onclick="fmt('\n### ','')">H3</button>
+              <div class="eb-sep"></div>
+              <button class="eb" onclick="fmt('\n- ','')">•</button>
+              <button class="eb" onclick="fmt('\n> ','')">❝</button>
+              <div class="eb-sep"></div>
+              <button class="eb" onclick="insertIA()" title="Bloque IA">✦</button>
+            </div>
+            <textarea id="ed-cuerpo" class="fc"></textarea>
+          </div>
+          <div class="form-g">
+            <label class="lbl">Cierre / Conclusión <span class="opt">(último párrafo)</span></label>
+            <textarea id="ed-cierre" class="fc" rows="3" placeholder="Párrafo de cierre con perspectiva o proyección..."></textarea>
+          </div>
+          <div class="form-g">
+            <label class="lbl">Fuente original <span class="opt">(URL del artículo de referencia)</span></label>
+            <input type="url" id="ed-fuente" class="fc" placeholder="https://laarena.com.ar/..." />
+          </div>
+        </div>
+
+        <!-- META SIDEBAR -->
+        <div>
+          <div class="meta-box">
+            <div class="meta-h">Estado</div>
+            <div class="status-pills">
+              <button class="sp" id="sp-borrador" onclick="selEstado('borrador')">Borrador</button>
+              <button class="sp" id="sp-revision" onclick="selEstado('revision')">Revisión</button>
+              <button class="sp" id="sp-publicado" onclick="selEstado('publicado')">Publicar ✓</button>
+            </div>
+            <div style="margin-top:.85rem;">
+              <div class="toggle-wrap">
+                <button class="toggle" id="t-featured" onclick="this.classList.toggle('on')"></button>
+                <span class="toggle-lbl">Artículo destacado (portada)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="meta-box">
+            <div class="meta-h">Foto de portada</div>
+            <label class="lbl" style="margin-bottom:.35rem;">URL de imagen</label>
+            <input type="url" id="ed-foto" class="fc" style="font-size:.73rem;" placeholder="https://..." oninput="previewFoto()" />
+            <div class="foto-preview" id="foto-prev">
+              <div class="no-foto">🖼<span style="font-size:.65rem;color:var(--fg3)">Sin imagen</span></div>
+            </div>
+          </div>
+
+          <div class="meta-box">
+            <div class="meta-h">SEO — Preview Google</div>
+            <label class="lbl" style="font-size:.6rem;">Slug URL</label>
+            <input type="text" id="ed-slug" class="fc" style="font-size:.72rem;font-family:monospace;" placeholder="mapa-politico-la-pampa-2027" oninput="updateSeo()" />
+            <div class="seo-prev">
+              <div class="seo-url">llano.ar/<span id="seo-cat-url">politica</span>/<span id="seo-slug">slug</span></div>
+              <div class="seo-title" id="seo-title">Titular del artículo</div>
+              <div class="seo-desc" id="seo-desc">Resumen del artículo aparece aquí...</div>
+            </div>
+          </div>
+
+          <div class="meta-box">
+            <div class="meta-h">Tags</div>
+            <div class="tags-w" id="tags-wrap" onclick="document.getElementById('ti').focus()">
+              <input type="text" id="ti" placeholder="Tag + Enter" onkeydown="addTag(event)" />
+            </div>
+            <p style="font-size:.62rem;color:var(--fg3);margin-top:.4rem;">La Pampa · Santa Rosa · política pampeana · Ziliotto · 2027</p>
+          </div>
+
+          <div class="meta-box">
+            <div class="meta-h">Notas internas <span style="font-weight:400;color:var(--fg3);">(no se publican)</span></div>
+            <textarea id="ed-notas" class="fc" rows="3" style="font-size:.73rem;" placeholder="Fuentes, pendientes, contexto adicional..."></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== VISTA NOTA ===== -->
+    <div id="view-nota">
+      <div class="nota-wrap" id="nota-content">
+        <!-- generado por JS -->
+      </div>
+    </div>
+
+  </div><!-- /.content -->
+</div><!-- /.main -->
+
+<!-- MODAL ELIMINAR -->
+<div class="modal-bg" id="modal-del">
+  <div class="modal">
+    <h3>Eliminar artículo</h3>
+    <p>¿Confirmar eliminación? Esta acción no se puede deshacer.</p>
+    <div class="modal-acts">
+      <button class="btn btn-outline" onclick="cerrarModal()">Cancelar</button>
+      <button class="btn" style="background:var(--red);color:#fff;" onclick="confirmarDel()">Eliminar</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"><span class="t-ico">✦</span><span id="t-msg"></span></div>
+
+<script>
+// ===================== DATA =====================
+let DB = [
+  {
+    id:101, destacado:true,
+    titular:"Las fisuras del PJ pampeano: Verna y Ziliotto se ausentaron del acto de la Línea Plural en el Club Argentino",
+    categoria:"Política Pampeana", estado:"revision", fecha:"2026-06-10",
+    resumen:"El acto reunió a unas 900 personas en Santa Rosa pero las ausencias del gobernador Sergio Ziliotto, de Carlos Verna y del diputado Hernán Pérez Araujo dejaron expuesta la tensión interna del peronismo provincial.",
+    cuerpo:`El acto de la Línea Plural realizado en el Club Argentino de Santa Rosa terminó siendo más elocuente por lo que no ocurrió que por lo que sí pasó. Aproximadamente 900 personas se dieron cita en el salón principal, donde tomaron la palabra Elsa Labegorra, Antonio Curciarello, Daniel Bensusán y Marcelo Pedehontáa, todos dirigentes que responden políticamente a Santa Rosa.
+
+## Las ausencias que hablaron
+
+Las sillas vacías más comentadas fueron las de Carlos Verna —líder indiscutido del peronismo pampeano desde General Pico—, el gobernador Sergio Ziliotto y el diputado provincial Hernán Pérez Araujo. En la jerga política interna, la señal fue clara: el norte provincial observó pero no avaló.
+
+Los discursos del estrado apuntaron sin nombrarlo al intendente de Santa Rosa, Luciano di Nápoli, cuya gestión municipal sigue siendo el eje del debate interno del PJ capitalino.
+
+## "Un mensaje encriptado"
+
+Analistas políticos describieron el acto como "un mensaje encriptado" dirigido al interior de la provincia. La dirigencia intermedia rosarina intentó establecer autonomía política y marcar quiénes deberían ser, de ahora en más, los interlocutores válidos del PJ en la capital.
+
+Sin embargo, desde el vernismo respondieron con silencio y distancia. Allegados a Verna calificaron el acto de "postal vacía de conducción" y señalaron que, tras los discursos públicos, el verdadero termómetro político se mide en las conversaciones privadas.
+
+## Proyección hacia 2027
+
+El episodio no es un dato menor en el contexto del calendario político pampeano. Con el horizonte de las elecciones legislativas de 2027 cada vez más cercano, la capacidad del PJ de presentar un frente unido será determinante. La fractura entre el liderazgo territorial del interior y el aparato capitalino es la principal variable de incertidumbre.`,
+    cierre:"El acto del Club Argentino puede leerse como el inicio de una campaña de posicionamiento o como el síntoma de una fractura mayor. En La Pampa, estas diferencias suelen resolverse en la mesa chica antes que en los actos públicos.",
+    slug:"fisuras-pj-pampeano-verna-ziliotto-linea-plural",
+    foto:"https://picsum.photos/seed/pj-pampa-101/800/450",
+    fuente:"https://www.eldiariodelapampa.com.ar/la-pampa/75455/el-vernismo-puro-expone-las-fisuras-del-acto-en-el-club-argentino",
+    tags:["PJ pampeano","Verna","Ziliotto","Línea Plural","Santa Rosa","política pampeana"],
+    notas:"Fuente: El Diario de La Pampa. Verificar nombres de los oradores del estrado con fuente directa antes de publicar en producción."
+  },
+  {
+    id:102, destacado:true,
+    titular:"La Intersindical impugna la audiencia pública por el acuífero de Santa Rosa y pide postponerla hasta después del Mundial",
+    categoria:"Política Pampeana", estado:"revision", fecha:"2026-06-10",
+    resumen:"La Mesa Intersindical presentó una impugnación formal contra la convocatoria a la audiencia del 16 de junio por el proyecto de urbanización sobre el acuífero compartido por Santa Rosa, Toay, Anguil y Catriló, denunciando restricciones inconstitucionales a la participación ciudadana.",
+    cuerpo:`La Mesa Intersindical de La Pampa formalizó este martes una impugnación contra la convocatoria a la audiencia pública programada para el 16 de junio de 2026, que debería tratar el proyecto de incorporación de un Área de Urbanización Prioritaria (AUP) sobre el acuífero compartido por Santa Rosa, Toay, Anguil y Catriló.
+
+## ¿Qué es el proyecto que se debate?
+
+El proyecto propone ampliar el ejido urbano sobre una zona que la Intersindical describe como "de especial sensibilidad ambiental". El acuífero Toay es la principal reserva de agua subterránea de la región y abastece directamente a los municipios del área metropolitana de Santa Rosa.
+
+## Los argumentos de la impugnación
+
+La Mesa Intersindical cuestionó los requisitos exigidos para participar en la audiencia: idoneidad técnica acreditada, antecedentes penales, domicilio local comprobable e inscripción en un registro previo. Según los gremios, estos requisitos "no están contemplados en la legislación vigente" y "restringen injustificadamente la participación ciudadana", en violación de derechos constitucionales.
+
+La presentación señala además que la convocatoria es "violatoria del derecho constitucional a la participación ciudadana y del derecho a un ambiente sano".
+
+## Las dos solicitudes concretas
+
+Los gremios pidieron dos cosas: primero, postergar la audiencia hasta después del Mundial de Fútbol 2026 para garantizar mayor participación ciudadana. Segundo, publicar previamente toda la documentación ambiental del proyecto para que los participantes puedan prepararse.
+
+## Un conflicto que viene de largo
+
+El debate sobre la urbanización del perímetro del acuífero no es nuevo en Santa Rosa. Organizaciones ambientales, vecinos de los barrios linderos y sectores sindicales llevan años oponiéndose a cualquier proyecto que implique mayor presión sobre la zona de recarga del acuífero.`,
+    cierre:"La audiencia del 16 de junio se perfila como un foco de conflicto político-ambiental en plena temporada mundialista. Si la impugnación es admitida, el gobierno municipal deberá redefinir los tiempos y las condiciones de participación.",
+    slug:"intersindical-impugna-audiencia-acuifero-santa-rosa",
+    foto:"https://picsum.photos/seed/acuifero-santa-rosa/800/450",
+    fuente:"https://www.eldiariodelapampa.com.ar/la-pampa/75439/la-intersindical-impugno-la-audiencia-publica-por-el-proyecto-urbanistico-sobre-el-acuifero-y-pidio-postergarla",
+    tags:["acuífero","Intersindical","Santa Rosa","medio ambiente","audiencia pública","Toay"],
+    notas:"También cubierta por Diarionoticias con el ángulo de Rubén Funes. Considerar artículo complementario sobre la postura del juez."
+  },
+  {
+    id:103, destacado:false,
+    titular:"Ravier garantizó que La Pampa no perderá subsidios al gas con la reforma de zonas frías",
+    categoria:"Nacional", estado:"publicado", fecha:"2026-06-10",
+    resumen:"El diputado nacional libertario Adrián Ravier aseguró que La Pampa mantendrá los subsidios al gas por sus características climáticas y defendió la reforma que busca desmontar la extensión kirchnerista del esquema a todo el país.",
+    cuerpo:`El diputado nacional por La Pampa Adrián Ravier salió este martes a calmar las aguas respecto a un tema sensible para la economía doméstica pampeana: los subsidios al gas natural en zonas frías.
+
+"La Pampa, como parte de la Patagonia, seguirá integrada y no habría quitas aquí", aseguró Ravier en declaraciones a LU100. El legislador libertario defendió la iniciativa oficialista que propone reformar el esquema de zonas frías, cuya extensión considera un error del período kirchnerista.
+
+## La justificación de la reforma
+
+Ravier explicó que la iniciativa busca "volver al esquema original" de subsidios focalizados en zonas donde las temperaturas bajas hacen del gas una necesidad básica y no un lujo. "Durante el kirchnerismo se extendió el subsidio prácticamente a todo el país", criticó, argumentando que eso generó un costo fiscal insostenible.
+
+## El argumento climático como escudo
+
+El diputado apoyó la inclusión de La Pampa en el listado de provincias beneficiadas en "sus características climáticas". Si bien geográficamente La Pampa no integra la Patagonia stricto sensu, la baja densidad poblacional y las temperaturas invernales del oeste provincial son los argumentos técnicos para justificar la permanencia en el esquema.
+
+## La mirada económica
+
+"No hay nada gratuito, alguien siempre paga los subsidios", sostuvo Ravier, vinculando la reforma con el objetivo de reducir la inflación. Defendió el equilibrio fiscal como condición sine qua non para sostener cualquier política de subsidios en el largo plazo.`,
+    cierre:"La postura de Ravier es políticamente relevante porque es el único diputado pampeano con llegada directa al oficialismo nacional. Su garantía sobre los subsidios es una señal tranquilizadora para los hogares pampeanos, pero la letra chica de la reforma es lo que definirá el impacto real en las facturas de invierno.",
+    slug:"ravier-la-pampa-subsidios-gas-zonas-frias",
+    foto:"https://picsum.photos/seed/ravier-gas-pampa/800/450",
+    fuente:"https://diarionoticias.com.ar/mas/todas-las-diarionoticias/26107-adrian-ravier-aseguro-que-la-pampa-no-perdera-subsidios-al-gas-y-defendio-la-reforma-de-zonas-frias.html",
+    tags:["Ravier","subsidios gas","zonas frías","La Pampa","política nacional","energía"],
+    notas:"Verificar con el texto completo del proyecto en el Congreso. ¿Qué municipios pampeanos quedan incluidos?"
+  },
+  {
+    id:104, destacado:true,
+    titular:"A 70 años del bombardeo a Radio Nacional Santa Rosa: la cicatriz del 10 de junio de 1956",
+    categoria:"Política Pampeana", estado:"publicado", fecha:"2026-06-10",
+    resumen:"Cada 10 de junio, La Pampa recuerda el bombardeo aéreo que en 1956 destruyó Radio Nacional Santa Rosa. A 70 años del hecho, la efeméride convoca a revisar una herida que la memoria colectiva pampeana nunca terminó de cerrar.",
+    cuerpo:`Hoy se cumplen exactamente 70 años de uno de los episodios más oscuros de la historia pampeana moderna. El 10 de junio de 1956, aviones de la Marina de Guerra argentina bombardearon Radio Nacional Santa Rosa en el marco de un levantamiento cívico-militar contra el gobierno de facto que había derrocado a Juan Domingo Perón.
+
+## Qué pasó ese día
+
+Radio Nacional Santa Rosa era por entonces el principal medio de comunicación de la provincia, recién creada seis años antes. El bombardeo formó parte de una serie de ataques que también alcanzaron otros puntos del país durante el alzamiento del general Juan José Valle, que buscaba retomar el poder para el peronismo.
+
+El impacto no fue solo material. La destrucción de la radio dejó a La Pampa sin su principal voz informativa y dejó una marca profunda en la identidad colectiva de una provincia que apenas comenzaba a construirse como tal —La Pampa había obtenido el estatus provincial en 1952.
+
+## Una herida con memoria política viva
+
+A diferencia de otras efemérides históricas que se diluyen con el tiempo, el bombardeo del '56 tiene en La Pampa una vigencia política activa. El peronismo provincial lo inscribe en una narrativa de resistencia y persecución, mientras que el debate sobre la responsabilidad institucional de las Fuerzas Armadas sigue siendo parte del horizonte de derechos humanos pendientes.
+
+## El recuerdo hoy
+
+Organizaciones políticas, culturales y de derechos humanos realizaron durante la mañana actos de conmemoración en Santa Rosa. La efeméride coincide este año con la realización de La Pampa de actividades en el marco del Mundial de Fútbol, lo que generó un contraste de clima social que varios dirigentes señalaron como simbólicamente significativo.`,
+    cierre:"Setenta años después, Radio Nacional Santa Rosa sigue funcionando. El edificio fue reconstruido, las frecuencias se renovaron, pero la memoria del bombardeo permanece como uno de los mojones de la identidad política de La Pampa. Recordarlo es también una forma de politizar la historia, en el sentido más constructivo del término.",
+    slug:"70-anios-bombardeo-radio-nacional-santa-rosa-1956",
+    foto:"https://picsum.photos/seed/radio-nacional-56/800/450",
+    fuente:"https://www.laarena.com.ar/la-pampa/el-bombardeo-a-radio-nacional-santa-rosa-20266100220",
+    tags:["historia","Radio Nacional","Santa Rosa","1956","peronismo","10 de junio","memoria"],
+    notas:"Artículo de contexto histórico. Publicado para la efeméride del día."
+  },
+  {
+    id:105, destacado:false,
+    titular:"Bisterfeld garantizó el aguinaldo de junio y advirtió que la crisis económica provincial no ha terminado",
+    categoria:"Economía", estado:"revision", fecha:"2026-06-10",
+    resumen:"El ministro de Hacienda pampeano confirmó que el SAC de junio está garantizado para todos los agentes del Estado provincial, pero advirtió que la situación económica sigue siendo crítica y que la intervención provincial en algunos sectores continúa siendo necesaria.",
+    cuerpo:`El ministro de Hacienda de La Pampa, Hernán Bisterfeld, confirmó este martes que el Sueldo Anual Complementario (SAC) de junio está asegurado para todos los trabajadores del sector público provincial. El anuncio llega en un contexto de incertidumbre económica que el propio ministro reconoció sin rodeos.
+
+## El aguinaldo está garantizado
+
+"Está garantizado el aguinaldo", afirmó Bisterfeld en declaraciones a medios locales, aclarando que las cuentas provinciales están en condiciones de hacer frente al pago en tiempo y forma. El SAC de junio representa uno de los momentos de mayor presión sobre las finanzas provinciales, dado que coincide con el pago de medio aguinaldo a una planta estatal que incluye docentes, personal de salud, empleados administrativos y fuerzas de seguridad.
+
+## La advertencia sobre la crisis
+
+Sin embargo, el ministro no ocultó que la situación económica general sigue siendo compleja. "La crisis económica no ha terminado", sostuvo, y defendió la decisión del gobierno provincial de mantener una presencia activa en sectores donde el ajuste del gobierno nacional genera vacíos.
+
+## La intervención provincial como política
+
+Bisterfeld justificó la política de intervención del Estado pampeano en áreas donde el retroceso nacional genera impacto directo en la población: subsidios de servicios, programas de empleo transitorio y sostén de la cadena de pagos en municipios del interior con menor capacidad fiscal.
+
+La posición del ministro deja en evidencia la tensión entre la provincia —de signo peronista— y el gobierno nacional libertario, cuyos recortes en transferencias y subsidios repercuten directamente en las finanzas subnacionales.`,
+    cierre:"El aguinaldo de junio es para miles de familias pampeanas el colchón financiero que les permite llegar a fin de año. Que el gobierno provincial lo garantice sin sobresaltos es buena noticia. Que el ministro lo acompañe de una advertencia sobre la crisis en curso es la señal de que el segundo semestre económico no se perfila sencillo.",
+    slug:"bisterfeld-aguinaldo-garantizado-crisis-economica-pampa",
+    foto:"https://picsum.photos/seed/economia-pampa-105/800/450",
+    fuente:"https://diarionoticias.com.ar/mas/todas-las-diarionoticias/26111-bisterfeld-advirtio-sobre-la-crisis-economica-defendio-la-intervencion-provincial-y-confirmo-que-esta-garantizado-el-aguinaldo.html",
+    tags:["aguinaldo","SAC","Bisterfeld","economía provincial","La Pampa","presupuesto"],
+    notas:"Cruzar con datos del presupuesto provincial 2026. ¿Cuántos agentes estatales cobra el SAC en La Pampa?"
+  },
+  {
+    id:106, destacado:false,
+    titular:"Elecciones en UTELPa: la Agrupación Celeste Violeta presentó sus listas para los comicios gremiales docentes",
+    categoria:"Política Pampeana", estado:"borrador", fecha:"2026-06-10",
+    resumen:"La Agrupación 23 de Mayo Celeste Violeta presentó formalmente sus candidatos para las elecciones internas del sindicato docente UTELPa, que se celebrarán próximamente. La lista compite en un gremio clave para la política educativa pampeana.",
+    cuerpo:`La Agrupación 23 de Mayo Celeste Violeta formalizó este martes la presentación de sus listas para las elecciones internas de la Unión de Trabajadores de la Educación de La Pampa (UTELPa), el principal sindicato docente de la provincia.
+
+## El gremio docente como termómetro político
+
+UTELPa no es sólo un actor sindical: es históricamente uno de los espacios donde la disputa entre corrientes del peronismo, el kirchnerismo y los sectores independientes de izquierda tiene mayor visibilidad. Las elecciones del gremio son, en muchos sentidos, un anticipo del humor político del sector público pampeano.
+
+## La Agrupación Celeste Violeta
+
+La lista Celeste Violeta se define como una corriente interna con orientación peronista que busca articular con la conducción provincial del PJ sin subordinarse al aparato oficial. Su presentación completa de candidatos en todos los estamentos del gremio la posiciona como contendiente seria frente a la lista oficialista.
+
+## Los temas del debate interno
+
+La disputa gremial tiene como telón de fondo las paritarias docentes de 2026, el impacto de la reforma educativa nacional y la situación de los contratos temporarios en el sistema provincial. Los candidatos de la Celeste Violeta han hecho foco en la defensa del salario real y en la oposición a cualquier reforma que implique precarización laboral.`,
+    cierre:"Las elecciones gremiales docentes en La Pampa son, como siempre, mucho más que una interna sindical. En un año previo a elecciones legislativas, el resultado de UTELPa dará señales sobre el estado de las alianzas políticas del peronismo provincial con el mundo del trabajo.",
+    slug:"elecciones-utelpa-agrupacion-celeste-violeta-listas",
+    foto:"https://picsum.photos/seed/utelpa-docentes/800/450",
+    fuente:"https://www.eldiariodelapampa.com.ar/la-pampa/75459/la-agrupacion-23-de-mayo-celeste-violeta-presento-sus-listas-para-las-elecciones-de-utelpa",
+    tags:["UTELPa","docentes","elecciones gremiales","Celeste Violeta","peronismo","educación La Pampa"],
+    notas:"BORRADOR. Falta precisar fecha de las elecciones y quién encabeza la lista oficial que compite."
+  },
+  {
+    id:107, destacado:false,
+    titular:"Senado: LLA y dialoguistas acuerdan sesión para debatir la venta de tierras a extranjeros",
+    categoria:"Nacional", estado:"publicado", fecha:"2026-06-10",
+    resumen:"El oficialismo nacional y los bloques dialoguistas llegaron a un acuerdo para llamar a sesión en el Senado y tratar el proyecto que modifica la normativa sobre compra de tierras por parte de extranjeros. El debate tiene implicancias directas para las provincias con tierra fiscal.",
+    cuerpo:`La Cámara de Senadores de la Nación avanza hacia una sesión para tratar el proyecto que modifica la Ley de Tierras, que actualmente restringe la compra de tierras argentinas por parte de extranjeros o empresas con capital foráneo. Fuentes parlamentarias confirmaron que La Libertad Avanza y los bloques dialoguistas llegaron a un acuerdo para convocar a sesión en los próximos días.
+
+## El proyecto en disputa
+
+La iniciativa propone flexibilizar algunos de los límites establecidos por la ley vigente, que data del kirchnerismo y establece techos para la concentración de tierras en manos extranjeras, con restricciones especiales para zonas de frontera, recursos hídricos y tierras productivas.
+
+El oficialismo argumenta que la restricción desincentiva la inversión extranjera y que el marco regulatorio actual es burocrático y confiscatorio. La oposición teme que la reforma abra la puerta a la extranjerización de recursos estratégicos.
+
+## El ángulo pampeano
+
+La Pampa tiene una relevancia particular en este debate. La provincia concentra importantes extensiones de tierra fiscal provincial, parte del cual está en áreas de alto valor agropecuario. Cualquier modificación al régimen de tierras impacta en la gestión de esos recursos y en la política de colonización y arrendamiento que históricamente administra el gobierno provincial.
+
+## Los votos, la incógnita
+
+El proyecto necesita votos de los bloques dialoguistas para alcanzar quórum y mayoría. Según trascendidos, algunos senadores de la UCR y del bloque de provincias expresaron reparos sobre artículos específicos, pero no bloquearían la sesión.`,
+    cierre:"El debate sobre la tierra en Argentina siempre activa las tensiones más profundas entre modelos de desarrollo. Para La Pampa, más que una discusión abstracta, es una cuestión que toca directamente la soberanía sobre su principal recurso: el suelo.",
+    slug:"senado-venta-tierras-extranjeros-lla-dialoguistas",
+    foto:"https://picsum.photos/seed/senado-nacion-107/800/450",
+    fuente:"https://www.laarena.com.ar/el-pais/senado-lla-y-dialoguistas-acuerdan-sesion-para-debatir-venta-de-tierras-a-extranjeros-20266921570",
+    tags:["Senado","tierras","extranjeros","LLA","Milei","política nacional","La Pampa"],
+    notas:"Verificar si los senadores pampeanos tienen posición pública sobre el proyecto."
+  },
+  {
+    id:108, destacado:false,
+    titular:"Se registró otra fuerte caída de la construcción y la industria en abril: la recuperación sigue sin llegar",
+    categoria:"Economía", estado:"borrador", fecha:"2026-06-10",
+    resumen:"Los datos de abril confirman una nueva contracción mensual en la actividad de la construcción y la industria manufacturera, prolongando la racha de cifras negativas que afecta la economía real y el empleo en todo el país, incluyendo el interior productivo.",
+    cuerpo:`Los indicadores de actividad económica de abril de 2026 volvieron a traer malas noticias. El sector de la construcción registró una caída mensual significativa, y la industria manufacturera mostró números similares, según los datos publicados por organismos estadísticos nacionales.
+
+## Los números concretos
+
+La caída en la construcción se suma a una tendencia que persiste desde finales de 2025. El sector, que es uno de los principales generadores de empleo no calificado en el interior del país, no logra recomponerse en un contexto de tasas de interés altas, crédito hipotecario restringido y incertidumbre sobre la continuidad de la obra pública nacional.
+
+La industria, por su parte, refleja el enfriamiento del consumo interno y las dificultades de acceso a insumos importados, pese a la baja del tipo de cambio oficial que en teoría abarataría los componentes importados.
+
+## El impacto en La Pampa
+
+Para La Pampa, cuya economía tiene una base predominantemente agropecuaria pero con una industria metalmecánica y de servicios relevante en General Pico, estas cifras se traducen en menor actividad en talleres, menor movimiento en proveedores de la construcción y, en el mediano plazo, potencial pérdida de empleo.
+
+El sector de la construcción pampeano está también afectado por la paralización de obra pública provincial que el gobierno de Ziliotto anunció en el primer trimestre como medida de ajuste fiscal preventivo.`,
+    cierre:"Los datos de abril son una señal de alarma. La economía real argentina —y con ella la pampeana— sigue esperando una señal de reactivación que los indicadores financieros prometen pero que el mundo del trabajo y la producción todavía no percibe.",
+    slug:"caida-construccion-industria-abril-economia",
+    foto:"https://picsum.photos/seed/construccion-baja/800/450",
+    fuente:"https://www.eldiariodelapampa.com.ar/pais/75451/se-registro-otra-fuerte-caida-de-la-construccion-y-la-industria-en-abril",
+    tags:["economía","construcción","industria","actividad económica","empleo","La Pampa"],
+    notas:"BORRADOR. Buscar impacto específico en La Pampa: cámaras de la construcción, movimiento en General Pico."
+  },
+  {
+    id:109, destacado:false,
+    titular:"Caputo: \"Sobran tantos dólares que compramos USD 100 millones por día\" — ¿qué significa para La Pampa?",
+    categoria:"Nacional", estado:"publicado", fecha:"2026-06-10",
+    resumen:"El ministro de Economía Luis Caputo volvió a defender la política cambiaria del gobierno con datos contundentes sobre la acumulación de reservas. El contexto favorable para el dólar tiene impacto directo en las exportaciones agropecuarias pampeanas.",
+    cuerpo:`El ministro de Economía de la Nación, Luis Caputo, hizo ayer una declaración que tomó por sorpresa a propios y ajenos: "Sobran tantos dólares que venimos comprando a razón de USD 100 millones por día". La frase resume el estado actual de las reservas del Banco Central, que sigue acumulando divisas en un contexto de superávit comercial y de cuenta corriente.
+
+## ¿Qué hay detrás de esa frase?
+
+El gobierno Milei logró revertir el estado de las reservas, que al inicio de la gestión en 2023 mostraban un saldo neto negativo de alrededor de USD 11.000 millones. La disciplina fiscal, el achicamiento de las importaciones y un tipo de cambio que mantuvo competitividad exportadora generaron el superávit comercial que hoy permite al BCRA comprar dólares consistentemente.
+
+Caputo vinculó esos logros con la baja de la inflación, argumentando que "Argentina salió del pozo" y que el ciclo de saneamiento macroeconómico está avanzado.
+
+## La mirada pampeana: el campo como protagonista
+
+Para La Pampa, esta noticia tiene una lectura directa. La provincia exporta principalmente soja, girasol, carne vacuna y algunos productos industriales del agro. Un contexto de reservas holgadas y tipo de cambio estable —sin riesgo de devaluación abrupta— es favorable para la planificación de la cosecha y para las decisiones de siembra de la campaña 2026/27.
+
+Sin embargo, los productores pampeanos siguen esperando señales más claras sobre la política de retenciones y la presión tributaria provincial, que comen parte del tipo de cambio efectivo que perciben.`,
+    cierre:"El dólar abundante es una buena noticia macro. Pero en La Pampa, como en todo el interior productivo, lo que se mira es el precio neto que recibe el productor después de retenciones, flete y costos de comercialización. Esos números siguen siendo el verdadero termómetro del campo pampeano.",
+    slug:"caputo-sobran-dolares-100-millones-por-dia-economia",
+    foto:"https://picsum.photos/seed/caputo-dolares-109/800/450",
+    fuente:"https://www.eldiariodelapampa.com.ar/pais/75461/caputo--sobran-tantos-dolares-que-venimos-comprando-a-razon-de-usd-100-millones-por-dia",
+    tags:["Caputo","dólar","reservas","economía nacional","agro pampeano","retenciones"],
+    notas:"Agregar análisis del precio de la soja en el mercado local de General Pico y Realicó para enriquecer el ángulo pampeano."
+  },
+  {
+    id:110, destacado:false,
+    titular:"El juez Funes rechazó urbanizar la zona del acuífero de Santa Rosa y pidió priorizar el cuidado ambiental",
+    categoria:"Política Pampeana", estado:"publicado", fecha:"2026-06-10",
+    resumen:"El juez de primera instancia Rubén Funes se pronunció este martes contra el proyecto de urbanización sobre el acuífero compartido por Santa Rosa y Toay, argumentando que el agua subterránea es un bien común que no puede subordinarse a la expansión del negocio inmobiliario.",
+    cuerpo:`El juez civil y comercial de Santa Rosa Rubén Funes emitió este martes un pronunciamiento que se suma a la controversia sobre el proyecto de urbanización en la zona del acuífero compartido por Santa Rosa, Toay, Anguil y Catriló.
+
+## La posición del magistrado
+
+En declaraciones que trascendieron a medios locales, Funes fue contundente: pidió "priorizar el cuidado ambiental" y se manifestó en contra de avanzar en la urbanización de una zona que considera de "alta sensibilidad ecológica". Para el magistrado, el acuífero Toay es "un elemento esencial para la vida humana" que no puede ser comprometido por intereses urbanísticos o inmobiliarios.
+
+## El argumento jurídico
+
+Funes sustentó su postura en el derecho constitucional a un ambiente sano y en la doctrina del bien común en materia de recursos hídricos. "Los bienes comunes ambientales tienen una protección constitucional y convencional que está por encima de cualquier interés privado o de expansión urbana", señaló.
+
+## El ecosistema de oposición
+
+La postura del juez se suma a la impugnación presentada hoy por la Mesa Intersindical y a las manifestaciones previas de organizaciones ambientales de Santa Rosa y Toay. El conjunto de estas voces configura un ecosistema de oposición al proyecto que el gobierno municipal deberá tener en cuenta antes de llamar a la audiencia pública del 16 de junio.
+
+## ¿Qué puede pasar ahora?
+
+La intervención de un magistrado en el debate previo a la audiencia no es vinculante jurídicamente en esta instancia, pero tiene peso político y moral. Cualquier decisión municipal que avance contra estas advertencias quedará expuesta a recursos judiciales que podrían paralizar el proyecto por años.`,
+    cierre:"El agua es el límite. Cuando un magistrado, una intersindical y organizaciones ambientales coinciden en señalar que un proyecto cruza ese límite, el gobierno municipal tiene ante sí una decisión que trasciende lo urbanístico y entra de lleno en el terreno de los derechos colectivos.",
+    slug:"juez-funes-rechaza-urbanizar-acuifero-santa-rosa",
+    foto:"https://picsum.photos/seed/funes-acuifero/800/450",
+    fuente:"https://diarionoticias.com.ar/mas/todas-las-diarionoticias/26106-ruben-funes-pidio-priorizar-el-cuidado-ambiental-y-rechazo-urbanizar-la-zona-del-acuifero-de-santa-rosa.html",
+    tags:["Funes","acuífero","medio ambiente","Santa Rosa","urbanización","justicia","Toay"],
+    notas:"Este artículo y el de la Intersindical forman un díptico sobre el mismo conflicto. Considerar vincularlos en la web."
+  },
+  {
+    id:111, destacado:false,
+    titular:"Argentina goleó 3-0 a Islandia y va al Mundial 2026 en el mejor momento",
+    categoria:"Deportes", estado:"publicado", fecha:"2026-06-10",
+    resumen:"La selección argentina cerró su preparación para el Mundial 2026 con un contundente triunfo sobre Islandia. Messi anotó uno de los goles en lo que fue la última prueba antes del debut mundialista.",
+    cuerpo:`La selección argentina cerró el ciclo de amistosos premundialistas con un contundente 3-0 sobre Islandia que dejó al entrenador con una sonrisa y a los hinchas con expectativas renovadas. El partido, jugado en el Estadio Monumental, fue un festival ofensivo que mostró a un equipo que llega al Mundial 2026 en su mejor versión.
+
+## Los goles
+
+Lionel Messi abrió el marcador en el primer tiempo con un disparo desde el borde del área que no dejó reacción al arquero islandés. El segundo llegó en el arranque del complemento en una maniobra colectiva que terminó con el delantero centro empujando la pelota al arco. El tercero, sobre el final del partido, fue un golazo de larga distancia que cerró un resultado inapelable.
+
+## El equipo que va al Mundial
+
+El técnico usó este último amistoso para afinar detalles tácticos y rotar algunos jugadores que no estaban teniendo minutos. La defensa mostró solidez y el mediocampo confirmó la sociedad que viene mostrando en los últimos meses.
+
+## Los pampeanos y el Mundial
+
+La Pampa vive el Mundial con la misma intensidad que el resto del país. En Santa Rosa y General Pico, los comercios ya tienen las banderas colgadas y los bares preparan las pantallas. La provincia tiene, además, atletas que compiten en otras disciplinas en Acapulco —en footgolf, donde hoy también subieron al podio— que le dan a La Pampa una presencia en el mundo del deporte internacional.`,
+    cierre:"Argentina llega al Mundial 2026 como campeón defensor y con el hambre de quien sabe que las ventanas de gloria son estrechas. El 3-0 a Islandia es apenas un ensayo. El campeonato empieza ahora.",
+    slug:"argentina-gol-islandia-mundial-2026-preparacion",
+    foto:"https://picsum.photos/seed/argentina-mundial-111/800/450",
+    fuente:"https://www.laarena.com.ar/deportes/la-seleccion-cumplio-y-esta-lista-20266100220",
+    tags:["Argentina","Mundial 2026","fútbol","Messi","selección","Islandia"],
+    notas:"Incluir mención a pampeanos que siguen en otros deportes mundiales (Acapulco)."
+  },
+  {
+    id:112, destacado:false,
+    titular:"\"Una Escritura, un Hogar\": Eduardo Castex avanza en la regularización de viviendas y entrega títulos de propiedad",
+    categoria:"Política Pampeana", estado:"borrador", fecha:"2026-06-10",
+    resumen:"La municipalidad de Eduardo Castex, en el centro-norte de La Pampa, avanza con la entrega de escrituras a familias que ocupan viviendas sin título formal. El programa es parte de una política de regularización dominial que gana terreno en el interior provincial.",
+    cuerpo:`La municipalidad de Eduardo Castex formalizó el lanzamiento del programa "Una Escritura, un Hogar", que busca regularizar la situación dominial de familias que habitan viviendas sin título de propiedad formal. La iniciativa, impulsada por el intendente local, se enmarca en una tendencia que viene cobrando impulso en varios municipios del interior pampeano.
+
+## ¿Qué es la regularización dominial?
+
+Muchas familias del interior de La Pampa habitan viviendas construidas sobre terrenos que nunca tuvieron escritura, sea por errores históricos en los registros catastrales, por adjudicaciones informales de lotes fiscales o por herencias no formalizadas. Sin escritura, esas familias no pueden acceder al crédito hipotecario, no pueden vender la propiedad y están en una situación de vulnerabilidad jurídica permanente.
+
+## El programa en detalle
+
+El programa contempla la realización de mensuras, la tramitación de escrituras a costo reducido o gratuito para familias de bajos ingresos y la articulación con el Registro de la Propiedad Inmueble de La Pampa para agilizar los trámites. Según la municipalidad, el primer lote de escrituras ya está listo para ser entregado.
+
+## Un derecho básico
+
+La entrega de títulos de propiedad es una de las políticas más concretas y tangibles que un municipio puede implementar para mejorar la calidad de vida de sus vecinos. En el interior pampeano, donde la informalidad inmobiliaria es histórica, programas como el de Eduardo Castex tienen un impacto real en la vida cotidiana de las familias.`,
+    cierre:"Una escritura es mucho más que un papel. Es la diferencia entre habitar y pertenecer. El programa de Eduardo Castex debería ser replicado en todos los municipios pampeanos donde la informalidad dominial sigue siendo la norma y no la excepción.",
+    slug:"eduardo-castex-regularizacion-viviendas-escrituras",
+    foto:"https://picsum.photos/seed/castex-viviendas/800/450",
+    fuente:"https://diarionoticias.com.ar/mas/informacion-general/26114-una-escritura-un-hogar-eduardo-castex-impulsa-la-regularizacion-de-viviendas-y-avanza-en-la-entrega-de-titulos-de-propiedad.html",
+    tags:["Eduardo Castex","vivienda","escrituras","regularización","municipios La Pampa","política social"],
+    notas:"BORRADOR. Verificar nombre del intendente de Eduardo Castex y cantidad de escrituras a entregar."
+  }
+];
+
+// ===================== ESTADO =====================
+let editId = null;
+let estadoSel = 'borrador';
+let tagsArr = [];
+let delTarget = null;
+let vistaActual = 'lista'; // 'lista' | 'editor' | 'nota'
+let vistaTipo = 'card'; // 'card' | 'tabla'
+let vistaPrevia = false;
+
+// ===================== INIT =====================
+function init() {
+  document.getElementById('ed-fecha').value = new Date().toISOString().split('T')[0];
+  showView('lista');
+  render();
+}
+
+function showView(v) {
+  ['lista','editor','nota'].forEach(x => {
+    document.getElementById('view-'+x).classList.remove('active');
+  });
+  document.getElementById('view-'+v).classList.add('active');
+  vistaActual = v;
+
+  // topbar
+  document.getElementById('btn-back').style.display = (v !== 'lista') ? 'inline-flex' : 'none';
+  document.getElementById('btn-new').style.display = (v === 'lista') ? 'inline-flex' : 'none';
+  document.getElementById('btn-save').style.display = (v === 'editor') ? 'inline-flex' : 'none';
+  document.getElementById('btn-preview').style.display = (v === 'editor') ? 'inline-flex' : 'none';
+
+  // sidebar active
+  document.querySelectorAll('.sb-item').forEach(e => e.classList.remove('active'));
+  if (v === 'lista') document.getElementById('sb-todos').classList.add('active');
+}
+
+// ===================== RENDER LISTA =====================
+function render() {
+  const q = (document.getElementById('q').value||'').toLowerCase();
+  const fc = document.getElementById('f-cat').value;
+  const fe = document.getElementById('f-est').value;
+
+  let arr = DB.filter(a => {
+    const mq = !q || a.titular.toLowerCase().includes(q) || (a.tags||[]).some(t=>t.toLowerCase().includes(q)) || a.categoria.toLowerCase().includes(q);
+    const mc = !fc || a.categoria === fc;
+    const me = !fe || a.estado === fe;
+    return mq && mc && me;
+  });
+
+  const grid = document.getElementById('grid-cards');
+  const tbody = document.getElementById('tbl-body');
+  const empty = document.getElementById('empty');
+
+  if (!arr.length) {
+    grid.innerHTML = ''; tbody.innerHTML = '';
+    empty.style.display = 'block';
+    updateStats(); return;
+  }
+  empty.style.display = 'none';
+
+  // Cards
+  grid.innerHTML = arr.map(a => `
+    <div class="art-card">
+      <div class="art-card-img">
+        ${a.foto ? `<img src="${a.foto}" alt="" loading="lazy" />` : `<div class="no-img">📰</div>`}
+        <span class="cat-overlay"><span class="cat-chip">${a.categoria}</span></span>
+        <span class="status-overlay"><span class="chip chip-${a.estado}">${a.estado}</span></span>
+      </div>
+      <div class="art-card-body">
+        <div class="art-card-title" onclick="navNota(${a.id})">${a.titular}</div>
+        <div class="art-card-meta">${fmtFecha(a.fecha)} · ${(a.tags||[]).slice(0,2).join(' · ')}</div>
+        <div class="art-card-excerpt">${a.resumen||''}</div>
+        <div class="art-card-actions">
+          <button class="ca-btn" onclick="navEditor(${a.id})">✏️ Editar</button>
+          <button class="ca-btn" onclick="navNota(${a.id})">👁 Leer</button>
+          <button class="ca-btn pub-btn" onclick="togglePublicar(${a.id})">${a.estado==='publicado'?'Despublicar':'Publicar ✓'}</button>
+          <button class="ca-btn del-btn" onclick="abrirDel(${a.id})">✕</button>
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  // Tabla
+  tbody.innerHTML = arr.map(a => `
+    <tr>
+      <td>${a.foto ? `<img class="tbl-img" src="${a.foto}" alt="" loading="lazy" />` : `<div class="tbl-img" style="display:flex;align-items:center;justify-content:center;font-size:1.2rem">📰</div>`}</td>
+      <td>
+        <div class="tbl-title" onclick="navNota(${a.id})">${a.titular}</div>
+        <div class="tbl-meta">${(a.tags||[]).slice(0,3).join(' · ')}</div>
+      </td>
+      <td><span class="cat-chip" style="font-size:.6rem;padding:.15rem .45rem;">${a.categoria}</span></td>
+      <td><span class="chip chip-${a.estado}">${a.estado}</span></td>
+      <td style="font-size:.72rem;color:var(--fg3);white-space:nowrap;">${fmtFecha(a.fecha)}</td>
+      <td><div class="row-acts">
+        <button class="ra" onclick="navEditor(${a.id})">Editar</button>
+        <button class="ra" onclick="navNota(${a.id})">Leer</button>
+        <button class="ra g" onclick="togglePublicar(${a.id})">${a.estado==='publicado'?'✓Pub':'Publicar'}</button>
+        <button class="ra r" onclick="abrirDel(${a.id})">✕</button>
+      </div></td>
+    </tr>
+  `).join('');
+
+  updateStats();
+}
+
+function updateStats() {
+  const b = DB.filter(a=>a.estado==='borrador').length;
+  const r = DB.filter(a=>a.estado==='revision').length;
+  const p = DB.filter(a=>a.estado==='publicado').length;
+  const t = DB.length;
+  ['b','r','p','t'].forEach((k,i) => {
+    const v = [b,r,p,t][i];
+    const el1 = document.getElementById('st-'+k);
+    const el2 = document.getElementById('sb-'+(k==='t'?'total':k==='b'?'borra':k==='r'?'rev':'pub'));
+    if (el1) el1.textContent = v;
+    if (el2) el2.textContent = v;
+  });
+}
+
+function setVista(v) {
+  vistaTipo = v;
+  document.getElementById('grid-cards').style.display = v==='card' ? 'grid' : 'none';
+  document.getElementById('tbl').classList.toggle('show', v==='tabla');
+  document.getElementById('vt-card').classList.toggle('active', v==='card');
+  document.getElementById('vt-tabla').classList.toggle('active', v==='tabla');
+}
+
+function fmtFecha(d) {
+  if (!d) return '—';
+  const [y,m,day] = d.split('-');
+  const ms = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+  return `${parseInt(day)} ${ms[parseInt(m)-1]} ${y}`;
+}
+
+// ===================== NAV =====================
+function navLista() {
+  showView('lista');
+  document.getElementById('tb-title').innerHTML = 'Todos los artículos';
+  document.getElementById('tb-sub').textContent = '';
+  render();
+}
+
+function navEditor(id) {
+  editId = id;
+  tagsArr = [];
+  document.querySelectorAll('.tag-c').forEach(e=>e.remove());
+  vistaPrevia = false;
+
+  if (id === null) {
+    document.getElementById('tb-title').innerHTML = 'Nuevo artículo';
+    document.getElementById('ed-titular').value = '';
+    document.getElementById('ed-cat').value = '';
+    document.getElementById('ed-fecha').value = new Date().toISOString().split('T')[0];
+    document.getElementById('ed-resumen').value = '';
+    document.getElementById('ed-cuerpo').value = '';
+    document.getElementById('ed-cierre').value = '';
+    document.getElementById('ed-slug').value = '';
+    document.getElementById('ed-foto').value = '';
+    document.getElementById('ed-fuente').value = '';
+    document.getElementById('ed-notas').value = '';
+    selEstado('borrador');
+    document.getElementById('t-featured').classList.remove('on');
+  } else {
+    const a = DB.find(x=>x.id===id);
+    if (!a) return;
+    document.getElementById('tb-title').innerHTML = `Editando: <span>${a.titular.substring(0,45)}…</span>`;
+    document.getElementById('ed-titular').value = a.titular;
+    document.getElementById('ed-cat').value = a.categoria;
+    document.getElementById('ed-fecha').value = a.fecha;
+    document.getElementById('ed-resumen').value = a.resumen||'';
+    document.getElementById('ed-cuerpo').value = a.cuerpo||'';
+    document.getElementById('ed-cierre').value = a.cierre||'';
+    document.getElementById('ed-slug').value = a.slug||'';
+    document.getElementById('ed-foto').value = a.foto||'';
+    document.getElementById('ed-fuente').value = a.fuente||'';
+    document.getElementById('ed-notas').value = a.notas||'';
+    selEstado(a.estado);
+    (a.tags||[]).forEach(t=>addTagChip(t));
+    if (a.destacado) document.getElementById('t-featured').classList.add('on');
+    else document.getElementById('t-featured').classList.remove('on');
+  }
+  previewFoto();
+  updateCharCount();
+  updateSeo();
+  document.getElementById('btn-preview').textContent = '👁 Leer nota';
+  showView('editor');
+}
+
+function navNota(id) {
+  const a = DB.find(x=>x.id===id);
+  if (!a) return;
+  document.getElementById('tb-title').innerHTML = `<span>${a.titular.substring(0,50)}…</span>`;
+
+  const notas = a.notas ? `<div class="nota-notas"><div class="nn-label">⚑ Notas editoriales internas</div><p>${a.notas}</p></div>` : '';
+  const fuente = a.fuente ? `<div class="nota-fuente">Fuente original: <a href="${a.fuente}" target="_blank" rel="noopener">${a.fuente}</a></div>` : '';
+
+  document.getElementById('nota-content').innerHTML = `
+    <div class="nota-status-bar">
+      <div>
+        <div class="nsb-label">Estado actual</div>
+        <strong><span class="chip chip-${a.estado}">${a.estado}</span></strong>
+      </div>
+      <div>
+        <div class="nsb-label">Categoría</div>
+        <strong>${a.categoria}</strong>
+      </div>
+      <div>
+        <div class="nsb-label">Fecha</div>
+        <strong>${fmtFecha(a.fecha)}</strong>
+      </div>
+      <div class="ns-actions">
+        <button class="btn btn-outline" style="font-size:.7rem;padding:.4rem .7rem;" onclick="navEditor(${a.id})">✏️ Editar</button>
+        <button class="btn btn-${a.estado==='publicado'?'outline':'green'}" style="font-size:.7rem;padding:.4rem .7rem;" onclick="togglePublicar(${a.id});navNota(${a.id})">${a.estado==='publicado'?'Despublicar':'Publicar ✓'}</button>
+      </div>
+    </div>
+    ${notas}
+    <div class="nota-hero">
+      ${a.foto ? `<img src="${a.foto}" alt="${a.titular}" loading="lazy" />` : `<div class="no-img">📰</div>`}
+    </div>
+    <div class="nota-cat">${a.categoria}</div>
+    <div class="nota-titular">${a.titular}</div>
+    ${a.resumen ? `<div class="nota-resumen">${a.resumen}</div>` : ''}
+    <div class="nota-meta">
+      <span>${fmtFecha(a.fecha)}</span>
+      <span class="nota-ia">✦ IA</span>
+      <span class="nota-source">LLANO·</span>
+      ${a.destacado ? `<span class="nota-source" style="background:var(--accent-bg);color:var(--accent)">★ Destacado</span>` : ''}
+    </div>
+    <div class="nota-body">${renderBody(a.cuerpo||'')}</div>
+    ${a.cierre ? `<div class="nota-cierre">${a.cierre}</div>` : ''}
+    ${(a.tags||[]).length ? `<div class="nota-tags">${a.tags.map(t=>`<span class="nota-tag">${t}</span>`).join('')}</div>` : ''}
+    ${fuente}
+  `;
+  showView('nota');
+}
+
+function renderBody(txt) {
+  return txt
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/_(.+?)_/g, '<em>$1</em>');
+}
+
+// ===================== EDITOR =====================
+function selEstado(e) {
+  estadoSel = e;
+  ['borrador','revision','publicado'].forEach(s => {
+    const el = document.getElementById('sp-'+s);
+    el.className = 'sp';
+    if (s===e) el.classList.add('sel-'+s);
+  });
+}
+
+function updateCharCount() {
+  const v = document.getElementById('ed-resumen').value;
+  const l = v.length;
+  const el = document.getElementById('cc-res');
+  el.textContent = `${l} / 160`;
+  el.className = 'cc ' + (l>160?'over':l>=120?'ok':l>60?'warn':'');
+}
+
+function updateSeo() {
+  const t = document.getElementById('ed-titular').value||'Titular';
+  const d = document.getElementById('ed-resumen').value||'Resumen...';
+  const s = document.getElementById('ed-slug').value||slug(t);
+  const cat = (document.getElementById('ed-cat').value||'politica').toLowerCase().replace(/\s+/g,'-');
+  document.getElementById('seo-title').textContent = t.substring(0,60)+(t.length>60?'…':'');
+  document.getElementById('seo-desc').textContent = d.substring(0,160);
+  document.getElementById('seo-slug').textContent = s;
+  document.getElementById('seo-cat-url').textContent = cat.replace('política-pampeana','politica').replace('nacional','nacional').replace('economía','economia');
+}
+
+function previewFoto() {
+  const url = document.getElementById('ed-foto').value;
+  const el = document.getElementById('foto-prev');
+  el.innerHTML = url
+    ? `<img src="${url}" alt="" style="width:100%;height:100%;object-fit:cover;display:block;" />`
+    : `<div class="no-foto"><span style="font-size:1.5rem">🖼</span><span style="font-size:.65rem;color:var(--fg3)">Sin imagen</span></div>`;
+}
+
+function toggleVistaNota() {
+  if (editId === null) { showToast('Guardá primero el artículo'); return; }
+  navNota(editId);
+}
+
+function slug(t) {
+  return t.toLowerCase()
+    .replace(/[áàä]/g,'a').replace(/[éèë]/g,'e').replace(/[íìï]/g,'i')
+    .replace(/[óòö]/g,'o').replace(/[úùü]/g,'u').replace(/ñ/g,'n')
+    .replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-').substring(0,60);
+}
+
+function fmt(a,b) {
+  const ta = document.getElementById('ed-cuerpo');
+  const s = ta.selectionStart, e = ta.selectionEnd;
+  const sel = ta.value.substring(s,e);
+  ta.value = ta.value.substring(0,s)+a+(sel||'texto')+b+ta.value.substring(e);
+  ta.focus();
+}
+
+function insertIA() {
+  const ta = document.getElementById('ed-cuerpo');
+  ta.value += '\n\n✦ ANÁLISIS IA: [Insertar análisis basado en datos verificables aquí]\n\n';
+  ta.focus(); ta.scrollTop = ta.scrollHeight;
+}
+
+function addTag(e) {
+  if (e.key==='Enter'||e.key===',') {
+    e.preventDefault();
+    const v = e.target.value.trim().replace(/,/g,'');
+    if (v && !tagsArr.includes(v)) { addTagChip(v); e.target.value=''; }
+  }
+}
+
+function addTagChip(t) {
+  tagsArr.push(t);
+  const wrap = document.getElementById('tags-wrap');
+  const input = document.getElementById('ti');
+  const c = document.createElement('span');
+  c.className='tag-c'; c.dataset.tag=t;
+  c.innerHTML=`${t} <span class="tx" onclick="removeTag('${t}')">✕</span>`;
+  wrap.insertBefore(c,input);
+}
+
+function removeTag(t) {
+  tagsArr = tagsArr.filter(x=>x!==t);
+  document.querySelector(`.tag-c[data-tag="${CSS.escape(t)}"]`)?.remove();
+}
+
+// ===================== GUARDAR =====================
+function guardar() {
+  const titular = document.getElementById('ed-titular').value.trim();
+  if (!titular) { showToast('El titular es obligatorio'); return; }
+  const cat = document.getElementById('ed-cat').value;
+  if (!cat) { showToast('Seleccioná una categoría'); return; }
+
+  const data = {
+    titular,
+    categoria:cat,
+    estado:estadoSel,
+    fecha:document.getElementById('ed-fecha').value,
+    resumen:document.getElementById('ed-resumen').value,
+    cuerpo:document.getElementById('ed-cuerpo').value,
+    cierre:document.getElementById('ed-cierre').value,
+    slug:document.getElementById('ed-slug').value||slug(titular),
+    foto:document.getElementById('ed-foto').value,
+    fuente:document.getElementById('ed-fuente').value,
+    tags:[...tagsArr],
+    notas:document.getElementById('ed-notas').value,
+    destacado:document.getElementById('t-featured').classList.contains('on')
+  };
+
+  if (editId===null) {
+    data.id = Date.now();
+    DB.unshift(data);
+    showToast('Artículo creado ✓');
+  } else {
+    const i = DB.findIndex(a=>a.id===editId);
+    DB[i] = {...DB[i],...data};
+    showToast('Guardado ✓');
+  }
+  navLista();
+}
+
+// ===================== ACCIONES =====================
+function togglePublicar(id) {
+  const a = DB.find(x=>x.id===id);
+  if (!a) return;
+  a.estado = a.estado==='publicado' ? 'borrador' : 'publicado';
+  render();
+  showToast(a.estado==='publicado' ? `Publicado: "${a.titular.substring(0,35)}…"` : 'Despublicado');
+}
+
+function abrirDel(id) {
+  delTarget=id;
+  document.getElementById('modal-del').classList.add('open');
+}
+function cerrarModal() {
+  document.getElementById('modal-del').classList.remove('open');
+  delTarget=null;
+}
+function confirmarDel() {
+  DB = DB.filter(a=>a.id!==delTarget);
+  cerrarModal(); render();
+  showToast('Artículo eliminado');
+}
+
+function filtroEstado(e) { document.getElementById('f-est').value=e; render(); if(vistaActual!=='lista')navLista(); }
+function filtroCategoria(c) { document.getElementById('f-cat').value=c; render(); if(vistaActual!=='lista')navLista(); }
+function limpiarFiltros() { document.getElementById('q').value=''; document.getElementById('f-cat').value=''; document.getElementById('f-est').value=''; render(); }
+
+function exportJSON() {
+  const blob = new Blob([JSON.stringify(DB,null,2)],{type:'application/json'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href=url; a.download='llano-articulos.json'; a.click();
+  URL.revokeObjectURL(url);
+  showToast('Exportado como JSON ✓');
+}
+
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  document.getElementById('t-msg').textContent=msg;
+  t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),3000);
+}
+
+init();
+</script>
+</body>
+</html>

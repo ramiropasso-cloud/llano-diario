@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLANO· — Biblioteca de Fuentes Oficiales</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --bg:#fafaf8;--bg2:#f2f1ed;--bg3:#e8e7e2;
+      --fg:#0a0909;--fg2:#4a4845;--fg3:#9a9690;
+      --accent:#c8780a;--accent-bg:#fdf3e3;--accent-border:#e8d4a8;
+      --border:#e2e0da;--border2:#ccc9c0;
+      --red:#cc2222;--red-bg:#fdecea;
+      --green:#1a7a3a;--green-bg:#e6f4ec;
+      --blue:#1a4a8a;--blue-bg:#e6edf8;
+      --yellow:#8a6a00;--yellow-bg:#fffbe6;
+    }
+    body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--fg);line-height:1.5}
+    a{color:inherit;text-decoration:none}
+
+    /* HEADER */
+    .hd{background:var(--fg);color:var(--bg);padding:2rem 2rem 1.75rem}
+    .hd-inner{max-width:1200px;margin:0 auto}
+    .hd-meta{font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;opacity:.4;margin-bottom:.6rem}
+    .hd-title{font-size:1.75rem;font-weight:900;letter-spacing:-.05em;margin-bottom:.3rem}
+    .hd-title .dot{color:var(--accent)}
+    .hd-sub{font-size:.82rem;opacity:.5;font-weight:300;margin-bottom:1.5rem}
+    .hd-stats{display:flex;gap:1.5rem;flex-wrap:wrap}
+    .hd-stat{text-align:center}
+    .hd-stat .n{font-size:1.6rem;font-weight:900;letter-spacing:-.04em;color:var(--accent);line-height:1}
+    .hd-stat .l{font-size:.58rem;opacity:.45;margin-top:.1rem}
+
+    /* TOOLBAR */
+    .toolbar{background:var(--bg2);border-bottom:1px solid var(--border);padding:.85rem 2rem;position:sticky;top:0;z-index:100}
+    .toolbar-inner{max-width:1200px;margin:0 auto;display:flex;gap:.75rem;align-items:center;flex-wrap:wrap}
+    .search-w{flex:1;min-width:200px;display:flex;align-items:center;gap:.5rem;border:1px solid var(--border);border-radius:6px;padding:.5rem .85rem;background:var(--bg)}
+    .search-w input{border:none;outline:none;font-family:inherit;font-size:.8rem;background:transparent;width:100%;color:var(--fg)}
+    .filter-btn{padding:.45rem .85rem;border-radius:5px;font-size:.72rem;font-weight:600;cursor:pointer;border:1px solid var(--border);background:transparent;font-family:inherit;color:var(--fg2);transition:all .12s;white-space:nowrap}
+    .filter-btn.active{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+    .filter-btn:hover:not(.active){background:var(--bg3)}
+
+    /* CONTENT */
+    .wrap{max-width:1200px;margin:0 auto;padding:2rem}
+
+    /* CATEGORY SECTION */
+    .cat-section{margin-bottom:2.5rem}
+    .cat-hd{display:flex;align-items:center;gap:.85rem;margin-bottom:1.1rem;padding-bottom:.55rem;border-bottom:2px solid var(--fg)}
+    .cat-icon{font-size:1.1rem}
+    .cat-name{font-size:.7rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+    .cat-count{margin-left:auto;font-size:.65rem;color:var(--fg3);font-weight:600}
+
+    /* GRID */
+    .sources-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+    @media(max-width:1000px){.sources-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:640px){.sources-grid{grid-template-columns:1fr}}
+
+    /* SOURCE CARD */
+    .src-card{border:1px solid var(--border);border-radius:9px;overflow:hidden;transition:box-shadow .15s,border-color .15s}
+    .src-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.07);border-color:var(--border2)}
+    .src-top{padding:1rem 1.1rem .75rem;display:flex;align-items:flex-start;gap:.75rem}
+    .src-favicon{width:32px;height:32px;border-radius:6px;background:var(--bg3);display:flex;align-items:center;justify-content:center;font-size:.9rem;flex-shrink:0;border:1px solid var(--border)}
+    .src-info{flex:1;min-width:0}
+    .src-name{font-size:.84rem;font-weight:700;margin-bottom:.15rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .src-url{font-size:.62rem;color:var(--fg3);font-family:monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .src-status{flex-shrink:0}
+    .status-dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+    .s-ok{background:#1a7a3a}
+    .s-warn{background:#c8780a}
+    .s-off{background:#ccc}
+
+    .src-body{padding:.5rem 1.1rem .85rem}
+    .src-desc{font-size:.74rem;color:var(--fg2);line-height:1.55;margin-bottom:.65rem}
+    .src-tags{display:flex;gap:.35rem;flex-wrap:wrap;margin-bottom:.65rem}
+    .src-tag{font-size:.58rem;font-weight:700;padding:.15rem .45rem;border-radius:3px;letter-spacing:.04em}
+    .tag-oficial{background:var(--blue-bg);color:var(--blue)}
+    .tag-noticias{background:var(--green-bg);color:var(--green)}
+    .tag-decreto{background:var(--yellow-bg);color:var(--yellow)}
+    .tag-prensa{background:var(--accent-bg);color:var(--accent)}
+    .tag-legislativo{background:#e8e0f8;color:#5a3a9a}
+    .tag-judicial{background:#f0e8e0;color:#6a3a10}
+    .tag-municipal{background:#e0f0e8;color:#1a5a3a}
+
+    .src-footer{padding:.6rem 1.1rem;background:var(--bg2);border-top:1px solid var(--border);display:flex;align-items:center;gap:.5rem}
+    .freq-badge{font-size:.58rem;font-weight:700;padding:.14rem .45rem;border-radius:3px;background:var(--bg3);color:var(--fg3);letter-spacing:.04em}
+    .freq-badge.diaria{background:#e6f4ec;color:#1a7a3a}
+    .freq-badge.semanal{background:var(--accent-bg);color:var(--accent)}
+    .freq-badge.mensual{background:var(--blue-bg);color:var(--blue)}
+    .src-link{margin-left:auto;display:inline-flex;align-items:center;gap:.3rem;font-size:.68rem;font-weight:600;color:var(--accent);padding:.3rem .6rem;border:1px solid var(--accent-border);border-radius:4px;transition:all .12s}
+    .src-link:hover{background:var(--accent);color:#fff}
+
+    /* PRIORITY BADGE */
+    .prio{position:absolute;top:.65rem;right:.65rem}
+    .src-card{position:relative}
+    .prio-badge{font-size:.54rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:.18rem .48rem;border-radius:3px}
+    .prio-1{background:var(--fg);color:var(--bg)}
+    .prio-2{background:var(--accent-bg);color:var(--accent);border:1px solid var(--accent-border)}
+
+    /* DEPLOY SECTION */
+    .deploy-section{background:var(--fg);border-radius:12px;padding:2rem;margin-top:2.5rem;color:var(--bg)}
+    .deploy-hd{font-size:.6rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:.5rem}
+    .deploy-title{font-size:1.25rem;font-weight:900;letter-spacing:-.04em;margin-bottom:1.5rem}
+    .deploy-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+    @media(max-width:768px){.deploy-steps{grid-template-columns:1fr}}
+    .deploy-step{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:1.1rem}
+    .step-num{font-size:2rem;font-weight:900;color:var(--accent);line-height:1;margin-bottom:.5rem;letter-spacing:-.05em}
+    .step-title{font-size:.84rem;font-weight:700;margin-bottom:.35rem}
+    .step-body{font-size:.74rem;color:rgba(255,255,255,.55);line-height:1.6}
+    .step-body a{color:var(--accent);text-decoration:underline}
+    .step-body code{background:rgba(255,255,255,.08);padding:.1rem .35rem;border-radius:3px;font-size:.7rem}
+    .step-badge{display:inline-block;font-size:.56rem;font-weight:700;letter-spacing:.08em;padding:.15rem .45rem;border-radius:3px;margin-bottom:.5rem}
+    .step-free{background:rgba(26,122,58,.2);color:#4aaa7a}
+    .step-paid{background:rgba(200,120,10,.15);color:var(--accent)}
+    .step-now{background:rgba(255,255,255,.1);color:rgba(255,255,255,.6)}
+
+    .deploy-note{margin-top:1.25rem;font-size:.74rem;color:rgba(255,255,255,.35);border-top:1px solid rgba(255,255,255,.08);padding-top:.85rem;line-height:1.6}
+
+    footer{border-top:1px solid var(--border);padding:1.25rem 2rem;display:flex;justify-content:space-between;font-size:.68rem;color:var(--fg3)}
+  </style>
+</head>
+<body>
+
+<div class="hd">
+  <div class="hd-inner">
+    <div class="hd-meta">LLANO· · Biblioteca de Fuentes Oficiales · 10 junio 2026</div>
+    <div class="hd-title">Fuentes<span class="dot">·</span></div>
+    <div class="hd-sub">Portales oficiales verificados para la cobertura noticiosa de LLANO· · Nacionales, provinciales y municipales</div>
+    <div class="hd-stats">
+      <div class="hd-stat"><div class="n">32</div><div class="l">Fuentes totales</div></div>
+      <div class="hd-stat"><div class="n">18</div><div class="l">Verificadas activas</div></div>
+      <div class="hd-stat"><div class="n">8</div><div class="l">Monitoreo diario</div></div>
+      <div class="hd-stat"><div class="n">6</div><div class="l">Categorías</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- TOOLBAR -->
+<div class="toolbar">
+  <div class="toolbar-inner">
+    <div class="search-w">
+      <span>🔍</span>
+      <input type="text" id="q" placeholder="Buscar fuente por nombre, URL o tema..." oninput="filtrar()" />
+    </div>
+    <button class="filter-btn active" onclick="filtrarCat('all',this)">Todas</button>
+    <button class="filter-btn" onclick="filtrarCat('nacional',this)">🏛 Nacional</button>
+    <button class="filter-btn" onclick="filtrarCat('pampa',this)">📍 La Pampa</button>
+    <button class="filter-btn" onclick="filtrarCat('municipal',this)">🏙 Municipios</button>
+    <button class="filter-btn" onclick="filtrarCat('legislativo',this)">📜 Legislativo</button>
+    <button class="filter-btn" onclick="filtrarCat('judicial',this)">⚖ Judicial</button>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- ══ PRIORIDAD MÁXIMA ══ -->
+  <div class="cat-section" data-cat="pampa">
+    <div class="cat-hd">
+      <span class="cat-icon">⭐</span>
+      <span class="cat-name">Prioridad Máxima — Monitoreo Diario</span>
+      <span class="cat-count">3 fuentes</span>
+    </div>
+    <div class="sources-grid">
+
+      <div class="src-card" data-cat="pampa">
+        <div class="prio"><span class="prio-badge prio-1">PRIMARIA</span></div>
+        <div class="src-top">
+          <div class="src-favicon">📰</div>
+          <div class="src-info">
+            <div class="src-name">APN La Pampa</div>
+            <div class="src-url">apn.lapampa.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok" title="Verificado activo"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Agencia Provincial de Noticias del Gobierno de La Pampa. Fuente primaria de todos los comunicados oficiales del ejecutivo provincial. Noticias por ministerio, actividad del gobernador, obras, salud, educación y más.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-noticias">Noticias</span>
+            <span class="src-tag tag-decreto">Comunicados</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge diaria">Diaria</span>
+          <a href="https://apn.lapampa.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="pampa">
+        <div class="prio"><span class="prio-badge prio-1">PRIMARIA</span></div>
+        <div class="src-top">
+          <div class="src-favicon">🏛</div>
+          <div class="src-info">
+            <div class="src-name">Casa de Gobierno La Pampa</div>
+            <div class="src-url">lapampa.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok" title="Verificado activo"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Portal oficial del Gobierno de La Pampa. Acceso a ministerios, secretarías, Boletín Oficial, portal de transparencia y servicios digitales. Gobernador Sergio Ziliotto. Hub central del ejecutivo provincial.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-decreto">Decretos</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge diaria">Diaria</span>
+          <a href="https://www.lapampa.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="pampa">
+        <div class="prio"><span class="prio-badge prio-1">PRIMARIA</span></div>
+        <div class="src-top">
+          <div class="src-favicon">📋</div>
+          <div class="src-info">
+            <div class="src-name">Boletín Oficial La Pampa</div>
+            <div class="src-url">boletinoficial.lapampa.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Publicación oficial de la provincia. Decretos, resoluciones, licitaciones, nombramientos y toda norma legal del gobierno provincial. Fuente para verificar decisiones oficiales antes de publicar.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-decreto">Decretos</span>
+            <span class="src-tag tag-legislativo">Legal</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">Semanal</span>
+          <a href="https://boletinoficial.lapampa.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══ PODER EJECUTIVO NACIONAL ══ -->
+  <div class="cat-section" data-cat="nacional">
+    <div class="cat-hd">
+      <span class="cat-icon">🏛</span>
+      <span class="cat-name">Poder Ejecutivo Nacional</span>
+      <span class="cat-count">5 fuentes</span>
+    </div>
+    <div class="sources-grid">
+
+      <div class="src-card" data-cat="nacional">
+        <div class="prio"><span class="prio-badge prio-2">Importante</span></div>
+        <div class="src-top">
+          <div class="src-favicon">🇦🇷</div>
+          <div class="src-info">
+            <div class="src-name">Casa Rosada</div>
+            <div class="src-url">casarosada.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Portal oficial de la Presidencia de la Nación. Discursos, actos de gobierno, agenda presidencial, decretos y comunicados oficiales del Poder Ejecutivo Nacional. Presidencia de Javier Milei.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-decreto">Decretos</span>
+            <span class="src-tag tag-prensa">Prensa</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge diaria">Diaria</span>
+          <a href="https://www.casarosada.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="nacional">
+        <div class="src-top">
+          <div class="src-favicon">📊</div>
+          <div class="src-info">
+            <div class="src-name">Ministerio de Economía</div>
+            <div class="src-url">economia.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Comunicados del Ministerio de Economía. Datos fiscales, tipo de cambio, presupuesto nacional, coparticipación federal. Clave para la cobertura de política económica con impacto en La Pampa.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-decreto">Datos</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">Semanal</span>
+          <a href="https://www.economia.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="nacional">
+        <div class="src-top">
+          <div class="src-favicon">📈</div>
+          <div class="src-info">
+            <div class="src-name">INDEC</div>
+            <div class="src-url">indec.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Instituto Nacional de Estadística y Censos. IPC (inflación), pobreza, desempleo, actividad económica. Los datos de INDEC son la fuente primaria para cualquier artículo de economía real.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-noticias">Estadísticas</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://www.indec.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="nacional">
+        <div class="src-top">
+          <div class="src-favicon">📋</div>
+          <div class="src-info">
+            <div class="src-name">Boletín Oficial de la Nación</div>
+            <div class="src-url">boletinoficial.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Publicación oficial del gobierno nacional. Leyes sancionadas, decretos del PEN, resoluciones ministeriales y actos administrativos. Fuente de verificación legal primaria.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-decreto">Decretos</span>
+            <span class="src-tag tag-legislativo">Leyes</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge diaria">Diaria</span>
+          <a href="https://www.boletinoficial.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="nacional">
+        <div class="src-top">
+          <div class="src-favicon">🏠</div>
+          <div class="src-info">
+            <div class="src-name">Ministerio del Interior</div>
+            <div class="src-url">argentina.gob.ar/interior</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Relación con provincias y municipios, fondos nacionales, seguridad interior. Clave para seguimiento de transferencias a La Pampa y relación Nación-provincia.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-decreto">Comunicados</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">Semanal</span>
+          <a href="https://www.argentina.gob.ar/interior" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══ PODER LEGISLATIVO ══ -->
+  <div class="cat-section" data-cat="legislativo">
+    <div class="cat-hd">
+      <span class="cat-icon">📜</span>
+      <span class="cat-name">Poder Legislativo — Nacional y Provincial</span>
+      <span class="cat-count">5 fuentes</span>
+    </div>
+    <div class="sources-grid">
+
+      <div class="src-card" data-cat="legislativo">
+        <div class="prio"><span class="prio-badge prio-2">Importante</span></div>
+        <div class="src-top">
+          <div class="src-favicon">🏛</div>
+          <div class="src-info">
+            <div class="src-name">Legislatura de La Pampa</div>
+            <div class="src-url">legislaturalpampa.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-warn" title="URL a verificar"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Cámara de Diputados de La Pampa (unicameral). Sesiones, proyectos de ley, composición de bloques, resultados de votaciones. Fuente primaria para cobertura legislativa provincial.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-legislativo">Legislativo</span>
+            <span class="src-tag tag-oficial">Oficial</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">Semanal</span>
+          <a href="https://legislaturalpampa.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="legislativo">
+        <div class="prio"><span class="prio-badge prio-2">Importante</span></div>
+        <div class="src-top">
+          <div class="src-favicon">🏛</div>
+          <div class="src-info">
+            <div class="src-name">Cámara de Diputados de la Nación</div>
+            <div class="src-url">diputados.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Cámara baja del Congreso Nacional. Sesiones, proyectos, votaciones, comisiones y prensa oficial. Para seguimiento de los diputados pampeanos (Ravier y otros) y leyes con impacto provincial.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-legislativo">Legislativo</span>
+            <span class="src-tag tag-prensa">Prensa</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">Semanal</span>
+          <a href="https://www.diputados.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="legislativo">
+        <div class="src-top">
+          <div class="src-favicon">🏛</div>
+          <div class="src-info">
+            <div class="src-name">Senado de la Nación</div>
+            <div class="src-url">senado.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Cámara alta del Congreso. Sesiones, proyectos, comisiones y comunicados. Importante para seguimiento del debate sobre venta de tierras, reforma laboral y otros proyectos nacionales.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-legislativo">Legislativo</span>
+            <span class="src-tag tag-oficial">Oficial</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">Semanal</span>
+          <a href="https://www.senado.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="legislativo">
+        <div class="src-top">
+          <div class="src-favicon">📋</div>
+          <div class="src-info">
+            <div class="src-name">InfoLEG — Base legal nacional</div>
+            <div class="src-url">servicios.infoleg.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Base de datos de legislación nacional. Texto completo de leyes, decretos y resoluciones vigentes. Útil para verificar el texto exacto de las normas mencionadas en artículos.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-legislativo">Legal</span>
+            <span class="src-tag tag-oficial">Oficial</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Consulta</span>
+          <a href="https://servicios.infoleg.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="legislativo">
+        <div class="src-top">
+          <div class="src-favicon">🏛</div>
+          <div class="src-info">
+            <div class="src-name">Bloques Legislativos La Pampa</div>
+            <div class="src-url">legislaturalpampa.gob.ar/bloques</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-warn"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Bloques parlamentarios de la Legislatura pampeana. Composición actual, autoridades de bloque y comunicados partidarios internos. PJ, UCR, LLA y bloques menores.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-legislativo">Legislativo</span>
+            <span class="src-tag tag-prensa">Declaraciones</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">Semanal</span>
+          <a href="https://legislaturalpampa.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══ MUNICIPIOS ══ -->
+  <div class="cat-section" data-cat="municipal">
+    <div class="cat-hd">
+      <span class="cat-icon">🏙</span>
+      <span class="cat-name">Municipios de La Pampa</span>
+      <span class="cat-count">8 fuentes</span>
+    </div>
+    <div class="sources-grid">
+
+      <div class="src-card" data-cat="municipal">
+        <div class="prio"><span class="prio-badge prio-2">Importante</span></div>
+        <div class="src-top">
+          <div class="src-favicon">🌆</div>
+          <div class="src-info">
+            <div class="src-name">Municipalidad de Santa Rosa</div>
+            <div class="src-url">santarosa.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-warn" title="403 — requiere acceso directo"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Capital provincial. Intendente: Luciano di Nápoli. Comunicados municipales, obras, Concejo Deliberante, presupuesto. Centro del debate político pampeano más activo. 120.000 habitantes.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-municipal">Municipal</span>
+            <span class="src-tag tag-oficial">Oficial</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">Semanal</span>
+          <a href="https://www.santarosa.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="municipal">
+        <div class="prio"><span class="prio-badge prio-2">Importante</span></div>
+        <div class="src-top">
+          <div class="src-favicon">🏭</div>
+          <div class="src-info">
+            <div class="src-name">Municipalidad de General Pico</div>
+            <div class="src-url">generalpico.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-warn" title="Cert SSL — acceder directamente"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Segunda ciudad de La Pampa. Feudo histórico de Carlos Verna y el vernismo. Municipio clave para entender la dinámica PJ interior vs. capital. 70.000 habitantes.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-municipal">Municipal</span>
+            <span class="src-tag tag-oficial">Oficial</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">Semanal</span>
+          <a href="https://www.generalpico.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="municipal">
+        <div class="src-top">
+          <div class="src-favicon">🏡</div>
+          <div class="src-info">
+            <div class="src-name">Municipalidad de Toay</div>
+            <div class="src-url">toay.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-off"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Municipio del área metropolitana de Santa Rosa. Comparte el acuífero Toay con Santa Rosa, Anguil y Catriló. Relevante para cobertura ambiental y política del área capital.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-municipal">Municipal</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://www.toay.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="municipal">
+        <div class="src-top">
+          <div class="src-favicon">🌾</div>
+          <div class="src-info">
+            <div class="src-name">Municipalidad de Eduardo Castex</div>
+            <div class="src-url">eduardocastex.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Ciudad del centro-norte pampeano. Activa en políticas de regularización dominial ("Una Escritura, un Hogar"). Referencia para cobertura de interior provincial.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-municipal">Municipal</span>
+            <span class="src-tag tag-noticias">Noticias</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://www.eduardocastex.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="municipal">
+        <div class="src-top">
+          <div class="src-favicon">🌻</div>
+          <div class="src-info">
+            <div class="src-name">Municipalidad de General Acha</div>
+            <div class="src-url">generalacha.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-off"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Ciudad del sur pampeano. Cabecera del Departamento Utracán. Cubrirla es importante para representar el interior sur de la provincia en la agenda editorial.</div>
+          <div class="src-tags"><span class="src-tag tag-municipal">Municipal</span></div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://www.generalacha.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="municipal">
+        <div class="src-top">
+          <div class="src-favicon">🏙</div>
+          <div class="src-info">
+            <div class="src-name">Municipalidad de Santa Isabel</div>
+            <div class="src-url">santaisabel.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-off"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Ciudad del oeste pampeano, zona del conflicto por el Río Atuel con Mendoza. Relevante para cobertura de recursos hídricos y geopolítica interprovincial.</div>
+          <div class="src-tags"><span class="src-tag tag-municipal">Municipal</span></div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://www.santaisabel.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="municipal">
+        <div class="src-top">
+          <div class="src-favicon">🏘</div>
+          <div class="src-info">
+            <div class="src-name">Municipalidad de Realicó</div>
+            <div class="src-url">realico.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-off"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Ciudad del norte pampeano. Centro agropecuario importante. Municipio mencionado frecuentemente en el contexto del armado político de LLA en La Pampa.</div>
+          <div class="src-tags"><span class="src-tag tag-municipal">Municipal</span></div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://www.realico.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="municipal">
+        <div class="src-top">
+          <div class="src-favicon">🌿</div>
+          <div class="src-info">
+            <div class="src-name">Municipalidad de Anguil</div>
+            <div class="src-url">anguil.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-off"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Municipio del área metropolitana de Santa Rosa. Comparte el acuífero Toay. Relevante para la cobertura del conflicto ambiental por la audiencia del 16 de junio.</div>
+          <div class="src-tags"><span class="src-tag tag-municipal">Municipal</span></div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://www.anguil.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══ PODER JUDICIAL ══ -->
+  <div class="cat-section" data-cat="judicial">
+    <div class="cat-hd">
+      <span class="cat-icon">⚖</span>
+      <span class="cat-name">Poder Judicial</span>
+      <span class="cat-count">3 fuentes</span>
+    </div>
+    <div class="sources-grid">
+
+      <div class="src-card" data-cat="judicial">
+        <div class="src-top">
+          <div class="src-favicon">⚖</div>
+          <div class="src-info">
+            <div class="src-name">Poder Judicial de La Pampa</div>
+            <div class="src-url">juslampampa.gov.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Portal oficial del Poder Judicial provincial. Sentencias, acordadas del Superior Tribunal de Justicia, designaciones, concursos. Fuente para cobertura judicial pampeana.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-judicial">Judicial</span>
+            <span class="src-tag tag-oficial">Oficial</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">Semanal</span>
+          <a href="https://www.juslampampa.gov.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="judicial">
+        <div class="src-top">
+          <div class="src-favicon">🏛</div>
+          <div class="src-info">
+            <div class="src-name">Corte Suprema de Justicia</div>
+            <div class="src-url">csjn.gov.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Máximo tribunal judicial de la Nación. Causas con impacto en La Pampa, fallos sobre coparticipación, recursos naturales y derechos provinciales.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-judicial">Judicial</span>
+            <span class="src-tag tag-oficial">Oficial</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://www.csjn.gov.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="judicial">
+        <div class="src-top">
+          <div class="src-favicon">🔍</div>
+          <div class="src-info">
+            <div class="src-name">Ministerio Público Fiscal La Pampa</div>
+            <div class="src-url">mpflp.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-off"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Fiscalías provinciales. Causas penales relevantes, investigaciones de corrupción y comunicados de fiscales. Fuente para cobertura judicial de alto impacto político.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-judicial">Judicial</span>
+            <span class="src-tag tag-oficial">Oficial</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://www.mpflp.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══ ORGANISMOS ESPECIALES ══ -->
+  <div class="cat-section" data-cat="nacional">
+    <div class="cat-hd">
+      <span class="cat-icon">📡</span>
+      <span class="cat-name">Organismos Especiales y Partidos</span>
+      <span class="cat-count">5 fuentes</span>
+    </div>
+    <div class="sources-grid">
+
+      <div class="src-card" data-cat="nacional">
+        <div class="src-top">
+          <div class="src-favicon">📋</div>
+          <div class="src-info">
+            <div class="src-name">Cámara Nacional Electoral</div>
+            <div class="src-url">electoral.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Tribunal Electoral Nacional. Resultados electorales históricos, padrones, presentación de listas y resoluciones. Fundamental para cobertura electoral 2027.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-legislativo">Electoral</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">En campaña</span>
+          <a href="https://www.electoral.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="nacional">
+        <div class="src-top">
+          <div class="src-favicon">🌾</div>
+          <div class="src-info">
+            <div class="src-name">Bolsa de Comercio de Rosario</div>
+            <div class="src-url">bcr.com.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Precios de soja, maíz, trigo y girasol. Datos de exportación y mercado de granos. Fuente primaria para cobertura agropecuaria con impacto en el productor pampeano.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-noticias">Precios</span>
+            <span class="src-tag tag-decreto">Datos</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge semanal">Semanal</span>
+          <a href="https://www.bcr.com.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="pampa">
+        <div class="src-top">
+          <div class="src-favicon">🎓</div>
+          <div class="src-info">
+            <div class="src-name">Universidad Nacional de La Pampa</div>
+            <div class="src-url">unlpam.edu.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Portal de la UNLPam. Comunicados, investigaciones, posicionamientos institucionales. Fuente de voces académicas para análisis y contexto en artículos de profundidad.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-noticias">Análisis</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://www.unlpam.edu.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="pampa">
+        <div class="src-top">
+          <div class="src-favicon">🚜</div>
+          <div class="src-info">
+            <div class="src-name">Ministerio de la Producción LP</div>
+            <div class="src-url">produccion.lapampa.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Datos de producción agropecuaria provincial, industria, comercio y turismo. Estadísticas y programas del sector productivo pampeano. Fuente clave para artículos de economía real.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-decreto">Datos</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://produccion.lapampa.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+      <div class="src-card" data-cat="pampa">
+        <div class="src-top">
+          <div class="src-favicon">🏥</div>
+          <div class="src-info">
+            <div class="src-name">Ministerio de Salud La Pampa</div>
+            <div class="src-url">salud.lapampa.gob.ar</div>
+          </div>
+          <div class="src-status"><span class="status-dot s-ok"></span></div>
+        </div>
+        <div class="src-body">
+          <div class="src-desc">Comunicados sanitarios, epidemiología, estadísticas hospitalarias y programas de salud. Fuente para artículos de salud pública con perspectiva provincial.</div>
+          <div class="src-tags">
+            <span class="src-tag tag-oficial">Oficial</span>
+            <span class="src-tag tag-noticias">Datos</span>
+          </div>
+        </div>
+        <div class="src-footer">
+          <span class="freq-badge mensual">Mensual</span>
+          <a href="https://salud.lapampa.gob.ar" target="_blank" class="src-link">Abrir →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ══ PASO A PASO: PUBLICAR ONLINE ══ -->
+  <div class="deploy-section">
+    <div class="deploy-hd">Próximo paso</div>
+    <div class="deploy-title">Cómo dejar LLANO· online — paso a paso</div>
+    <div class="deploy-steps">
+
+      <div class="deploy-step">
+        <div class="step-num">01</div>
+        <div class="step-badge step-paid">~USD 11/año</div>
+        <div class="step-title">Registrar el dominio llano.ar</div>
+        <div class="step-body">
+          <strong>Opción A — Registrador internacional (igual que ramiropasso.com):</strong> usá <a href="https://porkbun.com" target="_blank">Porkbun</a>, <a href="https://namecheap.com" target="_blank">Namecheap</a> o <a href="https://name.com" target="_blank">Name.com</a>. Buscá <code>llano.ar</code> — costo ~USD 8–12/año. Pagás con tarjeta, sin CUIT/CUIL. El proceso es idéntico al que ya hiciste.<br/><br/>
+          <strong>Opción B — NIC Argentina:</strong> <a href="https://nic.ar" target="_blank">nic.ar</a> requiere CUIT/CUIL y pago en pesos (~$2.500 ARS/año). Más burocrático pero más barato en USD si cotiza alto.
+        </div>
+      </div>
+
+      <div class="deploy-step">
+        <div class="step-num">02</div>
+        <div class="step-badge step-free">Gratis</div>
+        <div class="step-title">Subir el sitio a Netlify</div>
+        <div class="step-body">
+          Ir a <a href="https://netlify.com" target="_blank">netlify.com</a> → crear cuenta gratis. En el dashboard: arrastrar la carpeta <code>LLANO-DIARIO-IA</code> directo al browser. Netlify la publica en segundos en una URL tipo <code>llano-123.netlify.app</code>. Sin código, sin terminal, solo drag & drop.
+        </div>
+      </div>
+
+      <div class="deploy-step">
+        <div class="step-num">03</div>
+        <div class="step-badge step-now">10 minutos</div>
+        <div class="step-title">Conectar el dominio llano.ar</div>
+        <div class="step-body">
+          En Netlify: Settings → Domain Management → Add custom domain → escribir <code>llano.ar</code>. Netlify te da dos servidores DNS. Ir a <a href="https://nic.ar" target="_blank">nic.ar</a> → Mi dominio → Servidores de nombres → pegar los de Netlify. Demora 24-48 horas en propagar. SSL automático y gratuito (Let's Encrypt).
+        </div>
+      </div>
+
+      <div class="deploy-step">
+        <div class="step-num">04</div>
+        <div class="step-badge step-free">Gratis</div>
+        <div class="step-title">Google Search Console</div>
+        <div class="step-body">
+          Ir a <a href="https://search.google.com/search-console" target="_blank">search.google.com/search-console</a> → Agregar propiedad → URL: <code>https://llano.ar</code>. Verificar propiedad (Netlify permite agregar un archivo HTML de verificación). Enviar sitemap: <code>https://llano.ar/sitemap.xml</code> (pendiente crear).
+        </div>
+      </div>
+
+      <div class="deploy-step">
+        <div class="step-num">05</div>
+        <div class="step-badge step-free">Gratis</div>
+        <div class="step-title">Registrar cuentas RRSS</div>
+        <div class="step-body">
+          <strong>YouTube:</strong> Crear canal @LlanoLaPampa<br/>
+          <strong>TikTok:</strong> Crear cuenta @llano.ia<br/>
+          <strong>Instagram:</strong> Crear cuenta @llano.diario<br/>
+          Usar el mismo email para las tres. Cargar logo del kit de marca (<code>llano-brand.html</code>). Escribir bio idéntica a la del kit.
+        </div>
+      </div>
+
+      <div class="deploy-step">
+        <div class="step-num">06</div>
+        <div class="step-badge step-now">Post-publicación</div>
+        <div class="step-title">Google News</div>
+        <div class="step-body">
+          Ir a <a href="https://publishercenter.google.com" target="_blank">publishercenter.google.com</a>. Solicitar inclusión de llano.ar en Google News. Requisitos mínimos: página "Nosotros", política editorial, 3+ artículos publicados, schema NewsArticle en cada nota. Tiempo de revisión: 2-4 semanas.
+        </div>
+      </div>
+
+    </div>
+    <div class="deploy-note">
+      💡 <strong>Orden recomendado esta semana:</strong> (1) Verificar si llano.ar está disponible en nic.ar · (2) Crear cuenta en Netlify y subir archivos · (3) Registrar los handles en YouTube, TikTok e Instagram antes de que alguien más los tome · (4) Registrar dominio y conectar DNS. Todo esto no requiere programar nada.
+    </div>
+  </div>
+
+</div><!-- /wrap -->
+
+<footer>
+  <span>LLANO· · Biblioteca de Fuentes Oficiales · 10 jun 2026</span>
+  <span><a href="llano.html" style="color:var(--accent)">← Volver al diario</a> · <a href="llano-cms.html" style="color:var(--accent);margin-left:.75rem">CMS →</a></span>
+</footer>
+
+<script>
+let catActual = 'all';
+
+function filtrarCat(cat, btn) {
+  catActual = cat;
+  document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  filtrar();
+}
+
+function filtrar() {
+  const q = (document.getElementById('q').value||'').toLowerCase();
+  document.querySelectorAll('.src-card').forEach(card => {
+    const cat = card.dataset.cat||'';
+    const text = card.textContent.toLowerCase();
+    const matchCat = catActual==='all' || cat===catActual;
+    const matchQ = !q || text.includes(q);
+    card.style.display = (matchCat && matchQ) ? '' : 'none';
+  });
+  // Ocultar secciones vacías
+  document.querySelectorAll('.cat-section').forEach(sec => {
+    const visible = [...sec.querySelectorAll('.src-card')].some(c=>c.style.display!=='none');
+    sec.style.display = visible ? '' : 'none';
+  });
+}
+</script>
+</body>
+</html>
