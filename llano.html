@@ -743,6 +743,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   <div class="hero-inner">
 
     <div class="hero-main">
+<!-- AUTO:HERO:START -->
       <img class="hero-photo" src="img/politicos/berhongaray.webp" alt="Martin Berhongaray" />
       
       <div class="hero-bg" style="background:linear-gradient(to top,rgba(10,9,9,.98) 0%,rgba(10,9,9,.88) 28%,rgba(10,9,9,.72) 58%,rgba(10,9,9,.35) 100%),radial-gradient(ellipse at 30% 80%, rgba(200,120,10,.25) 0%, transparent 55%);"></div>
@@ -760,6 +761,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
           <span class="ia-badge">✦ Análisis IA</span>
         </div>
       </div>
+<!-- AUTO:HERO:END -->
     </div>
 
     <div class="hero-side">
@@ -812,7 +814,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     </div>
   </div>
 
-  <!-- Top 3 política prov — noticias 11 jun 2026 -->
+  <!-- AUTO:SEC01:START -->
   <div class="g3 fade-in">
 
     <!-- Berhongaray candidato UCR -->
@@ -862,8 +864,9 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     </div>
 
   </div>
+  <!-- AUTO:SEC01:END -->
 
-  <!-- Política prov. + sidebar — noticias reales 11 jun 2026 -->
+  <!-- Política prov. + sidebar —>
   <div class="lay fade-in">
     <div>
       <div style="display:flex;flex-direction:column;">
@@ -1099,7 +1102,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     <h2 class="sec-name">Política Nacional</h2>
     <div class="sec-hd-right"><a href="#" class="ver-mas">Ver todo →</a></div>
   </div>
-  <!-- Sección Nacional — noticias 11 jun 2026 -->
+  <!-- AUTO:SEC03:START -->
   <div class="g3 fade-in">
 
     <!-- Adorni / Milei -->
@@ -1142,6 +1145,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     </div>
 
   </div>
+  <!-- AUTO:SEC03:END -->
 
   <!-- ── 04 INTERNACIONAL ── -->
   <div id="intl" class="sec-hd fade-in">
@@ -1369,6 +1373,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   }, { passive: true });
 
   // ─── ARTICLE READER ───
+  // AUTO:ARTS:START
   const ARTS = {
     congreso: {
       cat:'Política · Congreso Nacional', fecha:'09 jun 2026', fuente:'APN La Pampa',
@@ -1591,6 +1596,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       cuerpo:`<p>El <strong>Mundial de Fútbol 2026</strong> da inicio a su primera jornada con sede en <strong>Estados Unidos, México y Canadá</strong>. Es la Copa más grande de la historia: 48 selecciones, 104 partidos y tres países anfitriones.</p><p>El torneo arranca con el telón de fondo de los ataques de EE.UU. a Irán, que dan un marco inusualmente tenso a la fiesta deportiva más grande del planeta.</p><p><strong>Argentina</strong> llega como vigente campeona del mundo. El equipo comandado por <strong>Lionel Messi</strong> viene de vencer 3-0 a Islandia en el último amistoso premundialista y llega afinado para defender el título.</p><p>En La Pampa, como en todo el país, la fiebre mundialista ya se instaló. Cada partido argentino promete ser un evento de celebración colectiva.</p>`
     }
   };
+  // AUTO:ARTS:END
 
   function openArticle(id) {
     const a = ARTS[id]; if (!a) return;
