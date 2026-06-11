@@ -1381,6 +1381,16 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   };
   // AUTO:ARTS:END
 
+  function findArtByTitle(title) {
+    const t = (title || '').trim();
+    const match = Object.entries(ARTS).find(([, art]) =>
+      art.titulo === t ||
+      t.startsWith(art.titulo.substring(0, 50)) ||
+      art.titulo.startsWith(t.substring(0, 50))
+    );
+    return match ? match[0] : null;
+  }
+
   function openArticle(id) {
     const a = ARTS[id]; if (!a) return;
     const ov = document.getElementById('art-overlay');
@@ -1399,14 +1409,41 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     ov.classList.add('art-open');
     ov.scrollTop = 0;
     document.body.style.overflow = 'hidden';
+    history.pushState({artId: id}, '', '#' + id);
   }
 
   function closeArticle() {
     document.getElementById('art-overlay').classList.remove('art-open');
     document.body.style.overflow = '';
+    history.pushState(null, '', window.location.pathname);
+  }
+
+  function compartirNota() {
+    const url = window.location.href;
+    const btn = document.getElementById('art-share-btn');
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(() => {
+        btn.textContent = '¡Copiado!';
+        setTimeout(() => { btn.textContent = 'Compartir'; }, 2000);
+      });
+    } else {
+      prompt('Copiá este enlace:', url);
+    }
   }
 
   document.addEventListener('keydown', e => { if (e.key === 'Escape') closeArticle(); });
+
+  window.addEventListener('popstate', function() {
+    const hash = window.location.hash.slice(1);
+    if (hash && ARTS[hash]) openArticle(hash);
+    else document.getElementById('art-overlay').classList.remove('art-open');
+  });
+
+  // Abrir articulo si la URL ya tiene hash al cargar
+  (function() {
+    const hash = window.location.hash.slice(1);
+    if (hash && ARTS[hash]) openArticle(hash);
+  })();
 
   // Card & list-item clicks → article reader
   document.querySelectorAll('.card, .li').forEach(card => {
@@ -1414,24 +1451,30 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       if (e.target.closest('a')) return;
       const h = this.querySelector('h3, h4');
       if (!h) return;
-      const t = h.textContent.trim();
-      const match = Object.entries(ARTS).find(([, art]) =>
-        art.titulo === t ||
-        t.startsWith(art.titulo.substring(0, 50)) ||
-        art.titulo.startsWith(t.substring(0, 50))
-      );
-      if (match) openArticle(match[0]);
+      const id = findArtByTitle(h.textContent);
+      if (id) openArticle(id);
     });
   });
 
-  // Hero main → berhongaray
+  // Hero main → articulo dinamico por titulo
   const hMain = document.querySelector('.hero-main');
-  if (hMain) hMain.addEventListener('click', e => { if (!e.target.closest('a')) openArticle('berhongaray'); });
+  if (hMain) hMain.addEventListener('click', e => {
+    if (!e.target.closest('a')) {
+      const heroTitle = hMain.querySelector('.hero-title');
+      const id = heroTitle ? findArtByTitle(heroTitle.textContent) : null;
+      if (id) openArticle(id);
+    }
+  });
 
-  // Hero side items
-  const heroIds = ['adorni_hoy', 'aguasantarosa', 'mundial_2026'];
-  document.querySelectorAll('.hero-item').forEach((el, i) => {
-    if (heroIds[i]) el.addEventListener('click', e => { if (!e.target.closest('a')) openArticle(heroIds[i]); });
+  // Hero side items → buscar por titulo dinamicamente
+  document.querySelectorAll('.hero-item').forEach(el => {
+    el.addEventListener('click', e => {
+      if (!e.target.closest('a')) {
+        const h = el.querySelector('h3');
+        const id = h ? findArtByTitle(h.textContent) : null;
+        if (id) openArticle(id);
+      }
+    });
   });
 
 </script>
@@ -1447,6 +1490,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       <span id="art-src-txt"></span>
       <a id="art-src-lnk" href="#" target="_blank" rel="noopener noreferrer" style="display:none;">Ver nota original ↗</a>
     </div>
+    <button id="art-share-btn" onclick="compartirNota()" style="background:none;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.7);padding:.3rem .75rem;border-radius:99px;font-size:.72rem;cursor:pointer;letter-spacing:.04em;white-space:nowrap;">Compartir</button>
   </div>
   <div class="art-inner">
     <img id="art-cover-img" class="art-cover" src="" alt="" style="display:none;" loading="lazy" />
