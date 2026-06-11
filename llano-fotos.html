@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>LLANO· — Repositorio de Fotos</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',sans-serif;background:#0d0c0b;color:#f0ede8;min-height:100vh}
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap');
+  header{padding:2rem;border-bottom:1px solid rgba(255,255,255,.08);display:flex;align-items:center;justify-content:space-between}
+  .logo{font-size:1.5rem;font-weight:900;letter-spacing:-.04em}
+  .logo span{color:#c8780a}
+  .badge{font-size:.6rem;font-weight:700;letter-spacing:.12em;background:rgba(200,120,10,.15);color:#c8780a;border:1px solid rgba(200,120,10,.3);padding:.3rem .7rem;border-radius:20px}
+  .main{max-width:1100px;margin:0 auto;padding:2.5rem 2rem}
+  .sec-title{font-size:.6rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#c8780a;margin-bottom:1.5rem}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1.25rem;margin-bottom:3rem}
+  .figure-card{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:10px;overflow:hidden;transition:border-color .2s}
+  .figure-card:hover{border-color:rgba(200,120,10,.4)}
+  .figure-card img{width:100%;aspect-ratio:1;object-fit:cover;object-position:center top;display:block;background:#111}
+  .figure-card .no-photo{width:100%;aspect-ratio:1;background:linear-gradient(135deg,#1a1614,#2a2220);display:flex;align-items:center;justify-content:center}
+  .figure-card .no-photo span{font-size:2rem;font-weight:900;color:rgba(255,255,255,.1)}
+  .figure-info{padding:.85rem}
+  .figure-name{font-size:.82rem;font-weight:700;margin-bottom:.25rem}
+  .figure-role{font-size:.68rem;color:rgba(255,255,255,.45);line-height:1.4;margin-bottom:.5rem}
+  .figure-file{font-size:.6rem;font-family:monospace;background:rgba(255,255,255,.06);padding:.2rem .5rem;border-radius:4px;color:#c8780a;word-break:break-all}
+  .chip{display:inline-block;font-size:.56rem;font-weight:700;letter-spacing:.06em;padding:.15rem .5rem;border-radius:10px;margin-bottom:.4rem}
+  .chip-ok{background:rgba(26,122,58,.2);color:#4aaa7a}
+  .chip-pend{background:rgba(200,120,10,.12);color:#c8780a}
+  .add-btn{display:flex;align-items:center;justify-content:center;gap:.5rem;aspect-ratio:1;background:rgba(255,255,255,.02);border:2px dashed rgba(255,255,255,.1);border-radius:10px;font-size:.75rem;color:rgba(255,255,255,.3);cursor:pointer;transition:all .2s}
+  .add-btn:hover{border-color:rgba(200,120,10,.4);color:#c8780a}
+  .instr{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.07);border-radius:10px;padding:1.5rem;margin-top:2rem}
+  .instr h3{font-size:.8rem;font-weight:700;margin-bottom:.75rem;color:#c8780a}
+  .instr ol{padding-left:1.2rem;font-size:.78rem;color:rgba(255,255,255,.55);line-height:2}
+  .instr code{background:rgba(255,255,255,.08);padding:.1rem .4rem;border-radius:3px;font-size:.7rem;color:#c8780a}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">LLANO<span>·</span></div>
+  <span class="badge">REPOSITORIO DE FOTOS · DIRIGENTES</span>
+</header>
+
+<div class="main">
+
+  <div class="sec-title">Prioridad máxima — Figuras de seguimiento</div>
+  <div class="grid">
+
+    <div class="figure-card">
+      <img src="img/politicos/berhongaray.webp" alt="Martín Berhongaray" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+      <div class="no-photo" style="display:none"><span>B</span></div>
+      <div class="figure-info">
+        <span class="chip chip-ok">✓ Foto disponible</span>
+        <div class="figure-name">Martín Berhongaray</div>
+        <div class="figure-role">Presidente UCR La Pampa · Ex diputado nacional</div>
+        <div class="figure-file">img/politicos/berhongaray.webp</div>
+      </div>
+    </div>
+
+    <div class="figure-card">
+      <img src="img/politicos/ravier.jpg" alt="Adrián Ravier" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+      <div class="no-photo" style="display:none"><span>R</span></div>
+      <div class="figure-info">
+        <span class="chip chip-ok">✓ Foto disponible</span>
+        <div class="figure-name">Adrián Ravier</div>
+        <div class="figure-role">Diputado Nacional · La Libertad Avanza · La Pampa</div>
+        <div class="figure-file">img/politicos/ravier.jpg</div>
+      </div>
+    </div>
+
+    <div class="figure-card">
+      <div class="no-photo"><span>D</span></div>
+      <div class="figure-info">
+        <span class="chip chip-pend">⏳ Sin foto</span>
+        <div class="figure-name">Di Napoli</div>
+        <div class="figure-role">Municipio de Santa Rosa · Concejo Deliberante</div>
+        <div class="figure-file">img/politicos/dinapoli.jpg</div>
+      </div>
+    </div>
+
+    <div class="figure-card">
+      <div class="no-photo"><span>A</span></div>
+      <div class="figure-info">
+        <span class="chip chip-pend">⏳ Sin foto</span>
+        <div class="figure-name">Alonso</div>
+        <div class="figure-role">Municipio de General Pico · Concejo Deliberante</div>
+        <div class="figure-file">img/politicos/alonso.jpg</div>
+      </div>
+    </div>
+
+    <div class="figure-card">
+      <div class="no-photo"><span>K</span></div>
+      <div class="figure-info">
+        <span class="chip chip-pend">⏳ Sin foto</span>
+        <div class="figure-name">Kronemberger</div>
+        <div class="figure-role">Senador Nacional · La Pampa</div>
+        <div class="figure-file">img/politicos/kronemberger.jpg</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="sec-title">Gobierno Provincial</div>
+  <div class="grid">
+
+    <div class="figure-card">
+      <div class="no-photo"><span>Z</span></div>
+      <div class="figure-info">
+        <span class="chip chip-pend">⏳ Sin foto</span>
+        <div class="figure-name">Sergio Ziliotto</div>
+        <div class="figure-role">Gobernador de La Pampa</div>
+        <div class="figure-file">img/politicos/ziliotto.jpg</div>
+      </div>
+    </div>
+
+    <div class="figure-card">
+      <div class="no-photo"><span>V</span></div>
+      <div class="figure-info">
+        <span class="chip chip-pend">⏳ Sin foto</span>
+        <div class="figure-name">Carlos Verna</div>
+        <div class="figure-role">Ex gobernador · PJ La Pampa</div>
+        <div class="figure-file">img/politicos/verna.jpg</div>
+      </div>
+    </div>
+
+    <div class="figure-card">
+      <div class="no-photo"><span>I</span></div>
+      <div class="figure-info">
+        <span class="chip chip-pend">⏳ Sin foto</span>
+        <div class="figure-name">Alfredo Intronati</div>
+        <div class="figure-role">Ministro de Obras Públicas · La Pampa</div>
+        <div class="figure-file">img/politicos/intronati.jpg</div>
+      </div>
+    </div>
+
+    <div class="figure-card">
+      <div class="no-photo"><span>B</span></div>
+      <div class="figure-info">
+        <span class="chip chip-pend">⏳ Sin foto</span>
+        <div class="figure-name">Marcelo Bisterfeld</div>
+        <div class="figure-role">Ministro de Hacienda · La Pampa</div>
+        <div class="figure-file">img/politicos/bisterfeld.jpg</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="sec-title">Nacional</div>
+  <div class="grid">
+
+    <div class="figure-card">
+      <img src="img/politicos/adorni.avif" alt="Manuel Adorni" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+      <div class="no-photo" style="display:none"><span>A</span></div>
+      <div class="figure-info">
+        <span class="chip chip-ok">✓ Foto disponible</span>
+        <div class="figure-name">Manuel Adorni</div>
+        <div class="figure-role">Jefe de Gabinete · Gobierno Nacional</div>
+        <div class="figure-file">img/politicos/adorni.avif</div>
+      </div>
+    </div>
+
+    <div class="figure-card">
+      <div class="no-photo"><span>M</span></div>
+      <div class="figure-info">
+        <span class="chip chip-pend">⏳ Sin foto</span>
+        <div class="figure-name">Javier Milei</div>
+        <div class="figure-role">Presidente · La Libertad Avanza</div>
+        <div class="figure-file">img/politicos/milei.jpg</div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="instr">
+    <h3>¿Cómo agregar una foto nueva?</h3>
+    <ol>
+      <li>Guardá la foto en <code>C:\Users\Usuario\Desktop\LLANO-DIARIO-IA\img\politicos\</code></li>
+      <li>Nombrala en minúsculas sin espacios: <code>apellido.jpg</code> o <code>apellido.webp</code></li>
+      <li>Decile a Claude: <em>"Agregá la foto de [nombre] al repositorio"</em></li>
+      <li>Claude la referencia en los artículos automáticamente</li>
+    </ol>
+  </div>
+
+</div>
+</body>
+</html>
