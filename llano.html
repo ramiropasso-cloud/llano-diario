@@ -73,21 +73,6 @@
       }
     ]
   }
-  
-  // ─── INFO PANELS ───
-  function openPanel(id) {
-    document.querySelectorAll('.panel-content').forEach(el => el.classList.remove('active'));
-    const target = document.getElementById('panel-' + id);
-    if (target) target.classList.add('active');
-    document.getElementById('panel-overlay').classList.add('open');
-    document.body.style.overflow = 'hidden';
-  }
-  function closePanel() {
-    document.getElementById('panel-overlay').classList.remove('open');
-    document.body.style.overflow = '';
-  }
-  document.addEventListener('keydown', e => { if (e.key === 'Escape') closePanel(); });
-
 </script>
 
   <!-- ── FAVICON INLINE SVG ── -->
@@ -1489,6 +1474,19 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       }
     });
   });
+
+  // ─── INFO PANELS ───
+  function openPanel(id) {
+    document.querySelectorAll('.panel-content').forEach(el => el.classList.remove('active'));
+    const target = document.getElementById('panel-' + id);
+    if (target) target.classList.add('active');
+    document.getElementById('panel-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closePanel() {
+    document.getElementById('panel-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
 
 </script>
 
