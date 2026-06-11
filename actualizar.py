@@ -149,6 +149,11 @@ print("Obteniendo noticias de Diputados...")
 dip_items = diputados_noticias(4)
 print(f"  {len(dip_items)} noticias encontradas en Diputados")
 
+# Si no hay noticias suficientes, mantener el contenido actual sin tocar
+if len(apn_items) + len(dip_items) < 3:
+    print("Menos de 3 noticias disponibles — manteniendo contenido actual sin modificar.")
+    sys.exit(0)
+
 # ── CONSTRUIR CONTEXTO PARA CLAUDE ──
 apn_texto = ""
 for it in apn_items:
@@ -281,6 +286,15 @@ try:
 except Exception as e:
     print(f"ERROR API Claude: {e}")
     sys.exit(1)
+
+# Detectar contenido relleno — si Claude genero titulos vagos, no actualizar
+TITULOS_RELLENO = ['sin novedades', 'guardia redaccional', 'sin informacion', 'no hay noticias',
+                   'sin novedad', 'mantiene guardia', 'sin actualizaciones', 'espera de actualizaciones']
+for art in data.get('arts', []):
+    titulo_lower = art.get('titulo', '').lower()
+    if any(r in titulo_lower for r in TITULOS_RELLENO):
+        print(f"Contenido relleno detectado: '{art['titulo']}' — manteniendo contenido actual.")
+        sys.exit(0)
 
 
 # ── GENERADORES HTML ──
