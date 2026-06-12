@@ -208,7 +208,7 @@ NOTICIAS DISPONIBLES HOY (FUENTES OFICIALES PROVINCIALES):
 
 PRINCIPIOS EDITORIALES:
 1. OBJETIVIDAD ABSOLUTA — cobertura igual para PJ, UCR, LLA y todos los partidos. Sin sesgo.
-2. SEGUIMIENTO: Di Napoli (Santa Rosa), Alonso (General Pico), Ravier (LLA), Berhongaray (UCR), Kronemberger.
+2. SEGUIMIENTO: Di Napoli (intendente Santa Rosa), Alonso (intendente General Pico), Ravier (LLA), Berhongaray (UCR), Kronemberger, Altolaguirre (ex intendente Santa Rosa, UCR — NO es concejal).
 3. FUENTE EN CAMPO TS: el campo ts SIEMPRE debe ser exactamente "{fecha_corta} · LLANO·". NUNCA poner La Arena, El Diario de La Pampa, Diarionoticias, Ambito, ni ningún otro medio en ningún campo.
 4. VOZ: Clara, directa, rioplatense, sin sesgo partidario.
 5. Fotos: usar SOLO las URLs de APN del contexto. Si no hay foto real, dejar vacio.
@@ -223,6 +223,11 @@ DEFINICION ESTRICTA DE SECCIONES:
 
 Para sec03 y sec04 usa tu conocimiento del contexto mundial y nacional de hoy {fecha_display}.
 Para cada articulo del array arts, escribe 4 parrafos completos en HTML con etiquetas p y strong.
+
+CARGOS VERIFICADOS — NO CONFUNDIR:
+- Leandro Altolaguirre: EX INTENDENTE de Santa Rosa (UCR). NO es concejal, NO es legislador.
+- Luciano Di Nápoli: INTENDENTE actual de Santa Rosa.
+- Martin Berhongaray: Senador nacional por La Pampa (UCR).
 
 HECHOS VERIFICADOS — NO INVENTAR NI CONTRADECIR:
 - El Mundial FIFA 2026 se juega en ESTADOS UNIDOS, Canada y Mexico. Argentina NO es sede. Argentina es el campeon defensor (gano Qatar 2022).
