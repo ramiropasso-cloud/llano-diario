@@ -22,9 +22,11 @@ MESES = {1:'ene',2:'feb',3:'mar',4:'abr',5:'may',6:'jun',
          7:'jul',8:'ago',9:'sep',10:'oct',11:'nov',12:'dic'}
 MESES_L = {1:'enero',2:'febrero',3:'marzo',4:'abril',5:'mayo',6:'junio',
            7:'julio',8:'agosto',9:'septiembre',10:'octubre',11:'noviembre',12:'diciembre'}
+DIAS_SEMANA = {0:'Lunes',1:'Martes',2:'Miércoles',3:'Jueves',4:'Viernes',5:'Sábado',6:'Domingo'}
 
 fecha_display = f"{ahora.day} {MESES_L[ahora.month]} {ahora.year}"
 fecha_corta   = f"{ahora.day} {MESES[ahora.month]} {ahora.year}"
+dia_semana    = DIAS_SEMANA[ahora.weekday()]
 
 hora = ahora.hour
 if hora < 10:
@@ -58,36 +60,39 @@ def apn_noticias(max_items=8):
         return []
     items = []
     seen_urls = set()
-    # Las URLs son absolutas: https://apn.lapampa.gob.ar/nota/detalle/id/XXXXX/slug
     pattern = r'href="(https://apn\.lapampa\.gob\.ar/nota/detalle/id/\d+/[^"]+)"'
     for m in re.finditer(pattern, raw):
         url = m.group(1)
         if url in seen_urls:
             continue
         seen_urls.add(url)
-        # Contexto siguiente para extraer alt (titulo) e img src
-        ctx = raw[m.start():m.start() + 800]
+        # Contexto amplio: 600 chars antes + 1200 despues del href
+        start = max(0, m.start() - 600)
+        ctx = raw[start:m.start() + 1200]
         foto = ""
         titulo = ""
-        # Imagen cercana
-        img_m = re.search(r'<img[^>]+src="(https://apn\.lapampa\.gob\.ar/images/[^"]+)"[^>]+alt="([^"]{10,})"', ctx)
-        if not img_m:
-            img_m = re.search(r'<img[^>]+alt="([^"]{10,})"[^>]+src="(https://apn\.lapampa\.gob\.ar/images/[^"]+)"', ctx)
-            if img_m:
-                titulo = img_m.group(1).strip()
-                foto = img_m.group(2)
-        else:
+        # Buscar imagen con URL absoluta APN (cualquier extension)
+        img_m = re.search(r'src="(https://apn\.lapampa\.gob\.ar/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', ctx, re.IGNORECASE)
+        if img_m:
             foto = img_m.group(1)
-            titulo = img_m.group(2).strip()
-        # Si no hay titulo por imagen, buscar en h2
+        # Fallback: URL relativa /images/
+        if not foto:
+            img_m = re.search(r'src="(/images/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', ctx, re.IGNORECASE)
+            if img_m:
+                foto = "https://apn.lapampa.gob.ar" + img_m.group(1)
+        # Titulo desde alt de imagen
         if not titulo:
-            h2_m = re.search(r'<h2[^>]*class="[^"]*title-dest[^"]*"[^>]*>\s*([^<]{10,120})', ctx)
+            alt_m = re.search(r'<img[^>]+alt="([^"]{10,})"', ctx)
+            if alt_m:
+                titulo = alt_m.group(1).strip()
+        # Titulo desde h2
+        if not titulo:
+            h2_m = re.search(r'<h2[^>]*>\s*(?:<[^>]+>)?\s*([^<]{10,120})', ctx)
             if h2_m:
                 titulo = re.sub(r'\s+', ' ', h2_m.group(1)).strip()
-        # Titulo del slug como fallback
+        # Fallback: slug
         if not titulo:
-            slug = url.split('/')[-1]
-            titulo = slug.replace('-', ' ')
+            titulo = url.split('/')[-1].replace('-', ' ')
         titulo = re.sub(r'\s+', ' ', titulo).strip()
         if len(titulo) > 10:
             items.append({'url': url, 'titulo': titulo, 'foto': foto})
@@ -102,11 +107,16 @@ def apn_cuerpo(url):
     if not raw:
         return "", ""
     foto = ""
-    # Imagen principal del articulo
-    img_m = re.search(r'src="(https://apn\.lapampa\.gob\.ar/images/multimedia/[^"]+)"', raw)
+    # Imagen principal: URL absoluta
+    img_m = re.search(r'src="(https://apn\.lapampa\.gob\.ar/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', raw, re.IGNORECASE)
     if img_m:
         foto = img_m.group(1)
-    # Parrafos del cuerpo - buscar dentro del div de contenido
+    # Imagen principal: URL relativa
+    if not foto:
+        img_m = re.search(r'src="(/images/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', raw, re.IGNORECASE)
+        if img_m:
+            foto = "https://apn.lapampa.gob.ar" + img_m.group(1)
+    # Parrafos del cuerpo
     parrafos = re.findall(r'<p[^>]*>\s*([^<]{40,})\s*</p>', raw)
     cuerpo = ' '.join(p.strip() for p in parrafos[:6] if len(p.strip()) > 40)
     return cuerpo[:900], foto
@@ -528,6 +538,13 @@ if len(arts_items) >= 4:
     llano = safe_sub(r'// AUTO:ARTS:START[\s\S]*?// AUTO:ARTS:END', arts_block, llano)
 else:
     print(f"  ARTS insuficientes ({len(arts_items)}) — manteniendo articulos previos sin modificar")
+
+# ── ACTUALIZAR FECHA DEL HEADER ──
+llano = safe_sub(
+    r'<span class="mb-date">[^<]+</span>',
+    f'<span class="mb-date">{dia_semana}, {ahora.day} de {MESES_L[ahora.month]} de {ahora.year} · La Pampa</span>',
+    llano
+)
 
 # ── GUARDAR ──
 with open(html_path, "w", encoding="utf-8") as f:
