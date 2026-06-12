@@ -185,7 +185,12 @@ DEFINICION ESTRICTA DE SECCIONES:
 - cita_dia = la frase textual mas relevante del dia en la politica pampeana
 
 Para sec03 y sec04 usa tu conocimiento del contexto mundial y nacional de hoy {fecha_display}.
-Para cada articulo del array arts, escribe 4 parrafos completos en HTML con etiquetas p y strong."""
+Para cada articulo del array arts, escribe 4 parrafos completos en HTML con etiquetas p y strong.
+
+HECHOS VERIFICADOS — NO INVENTAR NI CONTRADECIR:
+- El Mundial FIFA 2026 se juega en ESTADOS UNIDOS, Canada y Mexico. Argentina NO es sede. Argentina es el campeon defensor (gano Qatar 2022).
+- No atribuir declaraciones que no puedan verificarse en las fuentes disponibles.
+- No inventar cifras, fechas, cargos ni ubicaciones geograficas. Si no estas seguro de un dato, omitilo."""
 
 # ── SCHEMA PARA TOOL USE (JSON GARANTIZADO) ──
 CARD_SCHEMA = {
