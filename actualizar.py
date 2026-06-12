@@ -9,6 +9,7 @@ import html as html_module
 from datetime import datetime, timezone, timedelta
 import urllib.request
 import urllib.error
+import urllib.parse
 
 # Fix encoding en Windows para que print no rompa con tildes/caracteres
 if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf8'):
@@ -119,6 +120,33 @@ def apn_cuerpo(url):
     parrafos = re.findall(r'<p[^>]*>\s*([^<]{40,})\s*</p>', raw)
     cuerpo = ' '.join(p.strip() for p in parrafos[:6] if len(p.strip()) > 40)
     return cuerpo[:900], foto
+
+
+def buscar_foto_wikipedia(titulo, lang='es'):
+    """Busca foto libre en Wikipedia para un titulo dado (2 requests)"""
+    try:
+        termino = urllib.parse.quote(titulo[:80])
+        # Paso 1: buscar articulo
+        raw = fetch(f"https://{lang}.wikipedia.org/w/api.php?action=query&list=search&srsearch={termino}&format=json&srlimit=1&srnamespace=0", timeout=7)
+        if not raw:
+            return ""
+        results = json.loads(raw).get('query', {}).get('search', [])
+        if not results:
+            return ""
+        page = urllib.parse.quote(results[0]['title'].replace(' ', '_'))
+        # Paso 2: obtener thumbnail del articulo
+        raw2 = fetch(f"https://{lang}.wikipedia.org/w/api.php?action=query&prop=pageimages&titles={page}&format=json&pithumbsize=600&redirects=1", timeout=7)
+        if not raw2:
+            return ""
+        pages = json.loads(raw2).get('query', {}).get('pages', {})
+        for p in pages.values():
+            src = p.get('thumbnail', {}).get('source', '')
+            # Excluir iconos, banderas, logos
+            if src and not any(x in src.lower() for x in ['flag', 'icon', 'logo', 'blank', 'svg', 'stub']):
+                return src
+    except Exception as e:
+        print(f"  [wiki] {e}")
+    return ""
 
 
 def diputados_noticias(max_items=4):
@@ -358,6 +386,36 @@ try:
 except Exception as e:
     print(f"ERROR API Claude: {e}")
     sys.exit(1)
+
+# ── BÚSQUEDA DE FOTOS WIKIPEDIA (para artículos sin foto de APN) ──
+print("Buscando fotos en Wikipedia para artículos sin imagen...")
+
+# SEC01 provincial: fallback Wikipedia si APN no dio foto
+for item in data.get('sec01', []):
+    if not item.get('foto'):
+        foto = buscar_foto_wikipedia(item['titulo'], lang='es')
+        if foto:
+            item['foto'] = foto
+            print(f"  [wiki-es] sec01: {item['titulo'][:50]}")
+
+# SEC03 nacional: siempre buscar foto en Wikipedia
+for item in data.get('sec03', []):
+    if not item.get('foto'):
+        foto = buscar_foto_wikipedia(item['titulo'], lang='es')
+        if not foto:
+            foto = buscar_foto_wikipedia(item['titulo'], lang='en')
+        if foto:
+            item['foto'] = foto
+            print(f"  [wiki] sec03: {item['titulo'][:50]}")
+
+# Arts: fotos para artículos nacionales/internacionales sin imagen
+for art in data.get('arts', []):
+    if not art.get('foto'):
+        lang = 'en' if any(x in art.get('cat','').lower() for x in ['intern', 'mundial', 'global']) else 'es'
+        foto = buscar_foto_wikipedia(art['titulo'], lang=lang)
+        if foto:
+            art['foto'] = foto
+            print(f"  [wiki] art: {art['titulo'][:50]}")
 
 # Detectar contenido relleno — si Claude genero titulos vagos, no actualizar
 TITULOS_RELLENO = ['sin novedades', 'guardia redaccional', 'sin informacion', 'no hay noticias',
