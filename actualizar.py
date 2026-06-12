@@ -172,7 +172,7 @@ NOTICIAS DISPONIBLES HOY (FUENTES OFICIALES PROVINCIALES):
 PRINCIPIOS EDITORIALES:
 1. OBJETIVIDAD ABSOLUTA — cobertura igual para PJ, UCR, LLA y todos los partidos. Sin sesgo.
 2. SEGUIMIENTO: Di Napoli (Santa Rosa), Alonso (General Pico), Ravier (LLA), Berhongaray (UCR), Kronemberger.
-3. FUENTE: Siempre "LLANO" — NUNCA mencionar La Arena, El Diario de La Pampa, ni Diarionoticias.
+3. FUENTE EN CAMPO TS: el campo ts SIEMPRE debe ser exactamente "{fecha_corta} · LLANO·". NUNCA poner La Arena, El Diario de La Pampa, Diarionoticias, Ambito, ni ningún otro medio en ningún campo.
 4. VOZ: Clara, directa, rioplatense, sin sesgo partidario.
 5. Fotos: usar SOLO las URLs de APN del contexto. Si no hay foto real, dejar vacio.
 
@@ -201,7 +201,7 @@ CARD_SCHEMA = {
         "titulo":  {"type": "string"},
         "resumen": {"type": "string", "description": "Una oracion de resumen"},
         "foto":    {"type": "string", "description": "URL APN o vacio"},
-        "ts":      {"type": "string", "description": f"{fecha_corta} · LLANO"}
+        "ts":      {"type": "string", "description": f"EXACTAMENTE '{fecha_corta} · LLANO·' — NUNCA otro medio"}
     },
     "required": ["id", "cat", "titulo", "resumen", "foto", "ts"]
 }
@@ -228,7 +228,7 @@ LI_SCHEMA = {
         "titulo":  {"type": "string"},
         "resumen": {"type": "string"},
         "foto":    {"type": "string", "description": "URL APN o vacio"},
-        "ts":      {"type": "string"}
+        "ts":      {"type": "string", "description": f"EXACTAMENTE '{fecha_corta} · LLANO·' — NUNCA otro medio"}
     },
     "required": ["id", "cat", "titulo", "resumen", "foto", "ts"]
 }
