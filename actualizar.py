@@ -71,13 +71,13 @@ def apn_noticias(max_items=8):
         ctx = raw[start:m.start() + 1200]
         foto = ""
         titulo = ""
-        # Buscar imagen con URL absoluta APN (cualquier extension)
-        img_m = re.search(r'src="(https://apn\.lapampa\.gob\.ar/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', ctx, re.IGNORECASE)
+        # Buscar imagen de nota (noticias/ o multimedia/) — excluye logos e iconos
+        img_m = re.search(r'src="(https://apn\.lapampa\.gob\.ar/images/(?:noticias|multimedia)/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', ctx, re.IGNORECASE)
         if img_m:
             foto = img_m.group(1)
-        # Fallback: URL relativa /images/
+        # Fallback: URL relativa /images/noticias/ o /images/multimedia/
         if not foto:
-            img_m = re.search(r'src="(/images/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', ctx, re.IGNORECASE)
+            img_m = re.search(r'src="(/images/(?:noticias|multimedia)/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', ctx, re.IGNORECASE)
             if img_m:
                 foto = "https://apn.lapampa.gob.ar" + img_m.group(1)
         # Titulo desde alt de imagen
@@ -107,13 +107,12 @@ def apn_cuerpo(url):
     if not raw:
         return "", ""
     foto = ""
-    # Imagen principal: URL absoluta
-    img_m = re.search(r'src="(https://apn\.lapampa\.gob\.ar/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', raw, re.IGNORECASE)
+    # Imagen del articulo — prioriza noticias/multimedia, excluye logos
+    img_m = re.search(r'src="(https://apn\.lapampa\.gob\.ar/images/(?:noticias|multimedia)/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', raw, re.IGNORECASE)
     if img_m:
         foto = img_m.group(1)
-    # Imagen principal: URL relativa
     if not foto:
-        img_m = re.search(r'src="(/images/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', raw, re.IGNORECASE)
+        img_m = re.search(r'src="(/images/(?:noticias|multimedia)/[^"]+\.(?:jpg|jpeg|png|webp)[^"]*)"', raw, re.IGNORECASE)
         if img_m:
             foto = "https://apn.lapampa.gob.ar" + img_m.group(1)
     # Parrafos del cuerpo
