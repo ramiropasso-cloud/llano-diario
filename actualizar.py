@@ -122,6 +122,26 @@ def apn_cuerpo(url):
     return cuerpo[:900], foto
 
 
+# Mapeo keyword → foto local (img/politicos/)
+FOTO_LOCAL = [
+    (['adorni'],                          'img/politicos/ardo.webp'),
+    (['berhongaray'],                     'img/politicos/berhongaray.webp'),
+    (['huala'],                           'img/politicos/huala.webp'),
+    (['kronemberger', 'kroneberger'],     'img/politicos/krone.webp'),
+    (['mac allister', 'macallister'],     'img/politicos/mac allister.webp'),
+    (['ravier'],                          'img/politicos/ravier.jpg'),
+    (['torroba'],                         'img/politicos/torroba.webp'),
+    (['altolaguirre'],                    'img/politicos/leandro altolaguirre.jpg'),
+    (['ardohain'],                        'img/politicos/ardo.webp'),
+]
+
+def buscar_foto_local(titulo, resumen=''):
+    texto = (titulo + ' ' + resumen).lower()
+    for keywords, path in FOTO_LOCAL:
+        if any(kw in texto for kw in keywords):
+            return path
+    return ''
+
 def buscar_foto_wikipedia(titulo, lang='es'):
     """Busca foto libre en Wikipedia para un titulo dado (2 requests)"""
     try:
@@ -168,6 +188,15 @@ def diputados_noticias(max_items=4):
     return items
 
 
+# ── CARGAR REFERENTES PROVINCIALES ──
+referentes_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "referentes.txt")
+try:
+    with open(referentes_path, "r", encoding="utf-8") as f:
+        REFERENTES = f.read()
+except FileNotFoundError:
+    REFERENTES = ""
+    print("ADVERTENCIA: referentes.txt no encontrado — los cargos pueden tener errores.")
+
 # ── RECOLECTAR NOTICIAS ──
 print(f"LLANO· Actualizacion automatica — {fecha_display} — Turno: {turno_label}")
 print("Obteniendo noticias de APN La Pampa...")
@@ -208,7 +237,7 @@ NOTICIAS DISPONIBLES HOY (FUENTES OFICIALES PROVINCIALES):
 
 PRINCIPIOS EDITORIALES:
 1. OBJETIVIDAD ABSOLUTA — cobertura igual para PJ, UCR, LLA y todos los partidos. Sin sesgo.
-2. SEGUIMIENTO: Di Napoli (intendente Santa Rosa), Alonso (intendente General Pico), Ravier (LLA), Berhongaray (UCR), Kronemberger, Altolaguirre (ex intendente Santa Rosa, UCR — NO es concejal).
+2. SEGUIMIENTO: Di Napoli (intendente Santa Rosa), Alonso (intendenta General Pico), Ravier (DIPUTADO NACIONAL LLA — no senador), Kronemberger (SENADOR UCR), Berhongaray (presidente Comité UCR provincial — no legislador), Altolaguirre (EX INTENDENTE Santa Rosa UCR — sin cargo actual).
 3. FUENTE EN CAMPO TS: el campo ts SIEMPRE debe ser exactamente "{fecha_corta} · LLANO·". NUNCA poner La Arena, El Diario de La Pampa, Diarionoticias, Ambito, ni ningún otro medio en ningún campo.
 4. VOZ: Clara, directa, rioplatense, sin sesgo partidario.
 5. Fotos: usar SOLO las URLs de APN del contexto. Si no hay foto real, dejar vacio.
@@ -224,10 +253,8 @@ DEFINICION ESTRICTA DE SECCIONES:
 Para sec03 y sec04 usa tu conocimiento del contexto mundial y nacional de hoy {fecha_display}.
 Para cada articulo del array arts, escribe 4 parrafos completos en HTML con etiquetas p y strong.
 
-CARGOS VERIFICADOS — NO CONFUNDIR:
-- Leandro Altolaguirre: EX INTENDENTE de Santa Rosa (UCR). NO es concejal, NO es legislador.
-- Luciano Di Nápoli: INTENDENTE actual de Santa Rosa.
-- Martin Berhongaray: Senador nacional por La Pampa (UCR).
+CARGOS VERIFICADOS — CONSULTAR SIEMPRE ESTE MAPA ANTES DE ESCRIBIR:
+{REFERENTES if REFERENTES else "Ver referentes.txt — archivo no disponible en esta corrida."}
 
 HECHOS VERIFICADOS — NO INVENTAR NI CONTRADECIR:
 - El Mundial FIFA 2026 se juega en ESTADOS UNIDOS, Canada y Mexico. Argentina NO es sede. Argentina es el campeon defensor (gano Qatar 2022).
@@ -355,9 +382,42 @@ TOOL = {
                 "description": "Articulos con cuerpo — al menos hero + 3 de sec01 = minimo 4. Escribi 2 parrafos por articulo.",
                 "items": ART_SCHEMA,
                 "minItems": 4
+            },
+            "ticker": {
+                "type": "array",
+                "description": "6 titulares cortos para el ticker de noticias al tope. keyword: palabra clave MAYUSCULAS (ej: ADORNI, LA PAMPA, RAVIER). texto: resto del titular, max 70 chars.",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "keyword": {"type": "string", "description": "Palabra clave MAYUSCULAS, max 15 chars"},
+                        "texto":   {"type": "string", "description": "Resto del titular, max 70 chars"}
+                    },
+                    "required": ["keyword", "texto"]
+                },
+                "minItems": 5,
+                "maxItems": 7
+            },
+            "hero_side": {
+                "type": "array",
+                "description": "3 noticias para la barra lateral También hoy (mix La Pampa + nacional). chip_cls: chip-a (Hoy), chip-b (Info), chip-r (Escandalo).",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "cat":      {"type": "string", "description": "Seccion · lugar"},
+                        "titulo":   {"type": "string", "description": "Max 90 chars"},
+                        "resumen":  {"type": "string", "description": "Una oracion"},
+                        "chip_cls": {"type": "string", "description": "chip-a, chip-b o chip-r"},
+                        "chip_txt": {"type": "string", "description": "Texto del chip (Hoy, Info, Escandalo, etc.)"},
+                        "foto":     {"type": "string", "description": "URL foto o vacio"},
+                        "ts":       {"type": "string", "description": f"EXACTAMENTE '{fecha_corta} · LLANO·' — NUNCA otro medio"}
+                    },
+                    "required": ["cat", "titulo", "resumen", "chip_cls", "chip_txt", "ts"]
+                },
+                "minItems": 3,
+                "maxItems": 3
             }
         },
-        "required": ["hero", "sec01", "sec01_list", "sec03", "sec04", "dato_dia", "cita_dia", "arts"]
+        "required": ["hero", "sec01", "sec01_list", "sec03", "sec04", "dato_dia", "cita_dia", "arts", "ticker", "hero_side"]
     }
 }
 
@@ -395,32 +455,46 @@ except Exception as e:
 # ── BÚSQUEDA DE FOTOS WIKIPEDIA (para artículos sin foto de APN) ──
 print("Buscando fotos en Wikipedia para artículos sin imagen...")
 
-# SEC01 provincial: fallback Wikipedia si APN no dio foto
+# SEC01 provincial: foto local → Wikipedia
 for item in data.get('sec01', []):
     if not item.get('foto'):
-        foto = buscar_foto_wikipedia(item['titulo'], lang='es')
+        foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
+        if not foto:
+            foto = buscar_foto_wikipedia(item['titulo'], lang='es')
         if foto:
             item['foto'] = foto
-            print(f"  [wiki-es] sec01: {item['titulo'][:50]}")
+            print(f"  [foto] sec01: {item['titulo'][:50]}")
 
-# SEC03 nacional: siempre buscar foto en Wikipedia
+# SEC03 nacional: foto local → Wikipedia con contexto Argentina
 for item in data.get('sec03', []):
     if not item.get('foto'):
-        foto = buscar_foto_wikipedia(item['titulo'], lang='es')
+        foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
+        if not foto:
+            foto = buscar_foto_wikipedia(item['titulo'] + " Argentina", lang='es')
         if not foto:
             foto = buscar_foto_wikipedia(item['titulo'], lang='en')
         if foto:
             item['foto'] = foto
-            print(f"  [wiki] sec03: {item['titulo'][:50]}")
+            print(f"  [foto] sec03: {item['titulo'][:50]}")
 
-# Arts: fotos para artículos nacionales/internacionales sin imagen
+# Arts: foto local → Wikipedia
 for art in data.get('arts', []):
     if not art.get('foto'):
-        lang = 'en' if any(x in art.get('cat','').lower() for x in ['intern', 'mundial', 'global']) else 'es'
-        foto = buscar_foto_wikipedia(art['titulo'], lang=lang)
+        foto = buscar_foto_local(art['titulo'], art.get('bajada', ''))
+        if not foto:
+            lang = 'en' if any(x in art.get('cat','').lower() for x in ['intern', 'mundial', 'global']) else 'es'
+            foto = buscar_foto_wikipedia(art['titulo'], lang=lang)
         if foto:
             art['foto'] = foto
-            print(f"  [wiki] art: {art['titulo'][:50]}")
+            print(f"  [foto] art: {art['titulo'][:50]}")
+
+# Hero-side: foto local si Claude no asigno ninguna
+for item in data.get('hero_side', []):
+    if not item.get('foto'):
+        foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
+        if foto:
+            item['foto'] = foto
+            print(f"  [foto] hero-side: {item['titulo'][:50]}")
 
 # Detectar contenido relleno — si Claude genero titulos vagos, no actualizar
 TITULOS_RELLENO = ['sin novedades', 'guardia redaccional', 'sin informacion', 'no hay noticias',
@@ -439,7 +513,7 @@ def e(s):
 
 def card_html(item):
     foto = item.get("foto", "")
-    if foto and foto.startswith("http"):
+    if foto and (foto.startswith("http") or foto.startswith("img/")):
         img_block = f'<div class="card-img" style="background:#111;"><img src="{foto}" alt="{e(item["titulo"])}" loading="lazy" /></div>'
     else:
         img_block = '<div class="card-img" style="background:linear-gradient(150deg,#0e1520,#182030);"><div class="illus-glow" style="background:radial-gradient(ellipse at 40% 60%, rgba(200,120,10,.18) 0%,transparent 55%);"></div></div>'
@@ -496,7 +570,7 @@ hero_nuevo = f"""{img_hero}
 
 def li_html(item):
     foto = item.get("foto", "")
-    if foto and foto.startswith("http"):
+    if foto and (foto.startswith("http") or foto.startswith("img/")):
         img_block = f'<div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="{foto}" alt="{e(item["titulo"])}" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>'
     else:
         img_block = '<div class="li-img" style="width:88px;height:58px;background:linear-gradient(135deg,#0e1520,#182030);border-radius:var(--r);"></div>'
@@ -523,6 +597,41 @@ def intl_html(items):
 def safe_sub(pattern, replacement, text):
     """re.sub seguro — usa lambda para evitar que backslashes en el reemplazo rompan regex"""
     return re.sub(pattern, lambda _: replacement, text)
+
+def ticker_html(items):
+    single = ""
+    for it in items:
+        kw = e(it.get("keyword", "").upper())
+        txt = e(it.get("texto", ""))
+        single += f'    <span class="ti"><span class="ti-sep">●</span> <strong>{kw}</strong> {txt}</span>\n'
+    return single + single  # duplicado para scroll CSS infinito
+
+def hero_side_item(item):
+    chip_cls = e(item.get("chip_cls", "chip-a"))
+    chip_txt = e(item.get("chip_txt", "Hoy"))
+    cat      = e(item.get("cat", ""))
+    titulo   = e(item.get("titulo", ""))
+    resumen  = e(item.get("resumen", ""))
+    ts       = e(item.get("ts", ""))
+    foto     = item.get("foto", "")
+    if foto and (foto.startswith("http") or foto.startswith("img/")):
+        inner = (
+            f'<div style="display:flex;gap:.75rem;align-items:flex-start;">'
+            f'<div style="width:52px;height:52px;border-radius:50%;flex-shrink:0;overflow:hidden;border:1px solid rgba(255,255,255,.12);">'
+            f'<img src="{foto}" alt="{titulo}" style="width:100%;height:100%;object-fit:cover;object-position:center top;" /></div>'
+            f'<div style="flex:1;min-width:0;">'
+            f'<div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">{cat}</span><span class="ia-badge">&#10022; IA</span></div>'
+            f'<h3>{titulo}</h3><p>{resumen}</p>'
+            f'<div class="hero-item-meta"><span class="ts">{ts}</span><span class="chip {chip_cls}">{chip_txt}</span></div>'
+            f'</div></div>'
+        )
+    else:
+        inner = (
+            f'<div class="card-meta"><span class="cat">{cat}</span><span class="ia-badge">&#10022; IA</span></div>'
+            f'<h3>{titulo}</h3><p>{resumen}</p>'
+            f'<div class="hero-item-meta"><span class="ts">{ts}</span><span class="chip {chip_cls}">{chip_txt}</span></div>'
+        )
+    return f'      <div class="hero-item">\n        {inner}\n      </div>'
 
 hero_bloque = f'<!-- AUTO:HERO:START -->\n      {hero_nuevo}\n<!-- AUTO:HERO:END -->'
 llano = safe_sub(r'<!-- AUTO:HERO:START -->[\s\S]*?<!-- AUTO:HERO:END -->', hero_bloque, llano)
@@ -600,6 +709,28 @@ if len(arts_items) >= 4:
     llano = safe_sub(r'// AUTO:ARTS:START[\s\S]*?// AUTO:ARTS:END', arts_block, llano)
 else:
     print(f"  ARTS insuficientes ({len(arts_items)}) — manteniendo articulos previos sin modificar")
+
+# ── REEMPLAZAR TICKER ──
+ticker_items = data.get("ticker", [])
+if ticker_items:
+    t_html = ticker_html(ticker_items)
+    llano = safe_sub(
+        r'<!-- AUTO:TICKER:START -->[\s\S]*?<!-- AUTO:TICKER:END -->',
+        f'<!-- AUTO:TICKER:START -->\n{t_html}    <!-- AUTO:TICKER:END -->',
+        llano
+    )
+    print(f"  Ticker actualizado — {len(ticker_items)} items")
+
+# ── REEMPLAZAR HERO-SIDE (También hoy) ──
+hero_side_items = data.get("hero_side", [])
+if hero_side_items:
+    hs_html = "\n".join(hero_side_item(it) for it in hero_side_items)
+    llano = safe_sub(
+        r'<!-- AUTO:HERO-SIDE:START -->[\s\S]*?<!-- AUTO:HERO-SIDE:END -->',
+        f'<!-- AUTO:HERO-SIDE:START -->\n{hs_html}\n      <!-- AUTO:HERO-SIDE:END -->',
+        llano
+    )
+    print(f"  Hero-side actualizado — {len(hero_side_items)} items")
 
 # ── ACTUALIZAR FECHA DEL HEADER ──
 llano = safe_sub(

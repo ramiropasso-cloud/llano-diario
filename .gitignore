@@ -2,6 +2,7 @@ llano-publicar.ps1
 llano-auto.ps1
 llano-deploy.zip
 api-keys.txt
+*.docx
 
 # Local Netlify folder
 .netlify
