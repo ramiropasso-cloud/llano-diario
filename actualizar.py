@@ -142,11 +142,22 @@ def buscar_foto_local(titulo, resumen=''):
             return path
     return ''
 
+WIKI_EXCLUIR = ['flag', 'icon', 'logo', 'blank', 'svg', 'stub', 'escudo',
+                'bandera', 'coat_of_arms', 'seal_of', 'cropped', 'portrait']
+
+def _es_headshot(url):
+    """Detecta retratos de personas por patron del nombre de archivo"""
+    fn = re.sub(r'^\d+px-', '', url.split('/')[-1].lower().rsplit('.', 1)[0])
+    if 'cropped' in fn:
+        return True
+    partes = [p for p in re.split(r'[_\-]', fn) if p and p[0].isupper()]
+    # Patron Nombre_Apellido_Año → retrato de persona
+    return 2 <= len(partes) <= 4 and len(fn) < 40
+
 def buscar_foto_wikipedia(titulo, lang='es'):
     """Busca foto libre en Wikipedia para un titulo dado (2 requests)"""
     try:
         termino = urllib.parse.quote(titulo[:80])
-        # Paso 1: buscar articulo
         raw = fetch(f"https://{lang}.wikipedia.org/w/api.php?action=query&list=search&srsearch={termino}&format=json&srlimit=1&srnamespace=0", timeout=7)
         if not raw:
             return ""
@@ -154,16 +165,19 @@ def buscar_foto_wikipedia(titulo, lang='es'):
         if not results:
             return ""
         page = urllib.parse.quote(results[0]['title'].replace(' ', '_'))
-        # Paso 2: obtener thumbnail del articulo
         raw2 = fetch(f"https://{lang}.wikipedia.org/w/api.php?action=query&prop=pageimages&titles={page}&format=json&pithumbsize=600&redirects=1", timeout=7)
         if not raw2:
             return ""
         pages = json.loads(raw2).get('query', {}).get('pages', {})
         for p in pages.values():
             src = p.get('thumbnail', {}).get('source', '')
-            # Excluir iconos, banderas, logos
-            if src and not any(x in src.lower() for x in ['flag', 'icon', 'logo', 'blank', 'svg', 'stub']):
-                return src
+            if not src:
+                continue
+            if any(x in src.lower() for x in WIKI_EXCLUIR):
+                continue
+            if _es_headshot(src):
+                continue
+            return src
     except Exception as e:
         print(f"  [wiki] {e}")
     return ""
@@ -465,17 +479,13 @@ for item in data.get('sec01', []):
             item['foto'] = foto
             print(f"  [foto] sec01: {item['titulo'][:50]}")
 
-# SEC03 nacional: foto local → Wikipedia con contexto Argentina
+# SEC03 nacional: SOLO foto local (Wikipedia devuelve politicos equivocados para noticias genericas)
 for item in data.get('sec03', []):
     if not item.get('foto'):
         foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
-        if not foto:
-            foto = buscar_foto_wikipedia(item['titulo'] + " Argentina", lang='es')
-        if not foto:
-            foto = buscar_foto_wikipedia(item['titulo'], lang='en')
         if foto:
             item['foto'] = foto
-            print(f"  [foto] sec03: {item['titulo'][:50]}")
+            print(f"  [foto-local] sec03: {item['titulo'][:50]}")
 
 # Arts: foto local → Wikipedia
 for art in data.get('arts', []):
