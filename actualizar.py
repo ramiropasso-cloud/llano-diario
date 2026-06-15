@@ -749,6 +749,45 @@ llano = safe_sub(
     llano
 )
 
+# ── ARCHIVAR EN NOTICIAS.JSON ──
+archivo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "noticias.json")
+try:
+    with open(archivo_path, "r", encoding="utf-8") as f:
+        noticias_archivo = json.load(f)
+except (FileNotFoundError, json.JSONDecodeError):
+    noticias_archivo = {"version": 1, "corridas": []}
+
+fecha_iso = ahora.strftime("%Y-%m-%d")
+clave_corrida = f"{fecha_iso}_{turno}"
+
+# Reemplazar corrida del mismo turno si ya existía (re-run del mismo turno)
+noticias_archivo["corridas"] = [c for c in noticias_archivo.get("corridas", [])
+                                 if c.get("clave") != clave_corrida]
+
+corrida = {
+    "clave":     clave_corrida,
+    "fecha_iso": fecha_iso,
+    "fecha":     fecha_display,
+    "turno":     turno_label,
+    "hero": {
+        "titulo":  hero.get("titulo", ""),
+        "summary": hero.get("summary", ""),
+        "cat":     hero.get("cat", ""),
+        "foto":    hero.get("foto", "")
+    },
+    "sec01":      [{"titulo": c["titulo"], "resumen": c.get("resumen",""), "cat": c.get("cat",""), "foto": c.get("foto",""), "ts": c.get("ts","")} for c in data.get("sec01",[])],
+    "sec03":      [{"titulo": c["titulo"], "resumen": c.get("resumen",""), "cat": c.get("cat",""), "ts": c.get("ts","")} for c in data.get("sec03",[])],
+    "hero_side":  [{"titulo": it.get("titulo",""), "resumen": it.get("resumen",""), "cat": it.get("cat",""), "ts": it.get("ts","")} for it in data.get("hero_side",[])],
+    "arts":       [{"id": a["id"], "cat": a.get("cat",""), "titulo": a.get("titulo",""), "bajada": a.get("bajada",""), "cuerpo": a.get("cuerpo",""), "foto": a.get("foto","")} for a in data.get("arts",[])]
+}
+
+noticias_archivo["corridas"].insert(0, corrida)
+noticias_archivo["corridas"] = noticias_archivo["corridas"][:180]  # ~60 dias
+
+with open(archivo_path, "w", encoding="utf-8") as f:
+    json.dump(noticias_archivo, f, ensure_ascii=False, indent=2)
+print(f"  Archivo JSON: corrida '{clave_corrida}' guardada — total {len(noticias_archivo['corridas'])} corridas")
+
 # ── GUARDAR ──
 with open(html_path, "w", encoding="utf-8") as f:
     f.write(llano)

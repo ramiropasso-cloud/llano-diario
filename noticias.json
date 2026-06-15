@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "corridas": [
+    {
+      "clave": "2026-06-15_tarde",
+      "fecha_iso": "2026-06-15",
+      "fecha": "15 junio 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "Murió Taty Almeida, presidenta de Madres de Plaza de Mayo",
+        "summary": "El Gobierno de La Pampa expresó su pesar por el fallecimiento de la referente mundial del movimiento de derechos humanos. Tenía 95 años.",
+        "cat": "Política Provincial · Derechos Humanos",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/1571185_placa-apn-institucional-b.jpg"
+      },
+      "sec01": [
+        {
+          "titulo": "Murió Taty Almeida, presidenta de Madres de Plaza de Mayo",
+          "resumen": "El Gobierno provincial expresó su pesar por el fallecimiento de la referente mundial del movimiento de derechos humanos.",
+          "cat": "Política Provincial · Derechos Humanos",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1571185_placa-apn-institucional-b.jpg",
+          "ts": "15 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Más de 300 atletas desafiaron el frío en el Trail de Parque Luro",
+          "resumen": "La Reserva Provincial Parque Luro albergó una destacada participación deportiva que combinó naturaleza, deporte y turismo.",
+          "cat": "Deportes · Turismo",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/304996_img-20260614-wa0040.jpg",
+          "ts": "15 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Parque Solar de Pico busca seleccionar mano de obra local",
+          "resumen": "INAR SRL realizó charla informativa para iniciar la búsqueda de trabajadores en el Parque Solar Fotovoltaico de General Pico.",
+          "cat": "Economía · Energía",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/245908_4.jpeg",
+          "ts": "15 jun 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Gobierno impulsa reforma fiscal en Diputados para fortalecer ingresos",
+          "resumen": "El oficialismo busca avanzar en medidas tributarias que amplíen la base de recaudación nacional.",
+          "cat": "Casa Rosada · Economía",
+          "ts": "15 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Diputados debaten control de precios en sesión especial",
+          "resumen": "Legisladores de distintos bloques expusieron sus posiciones sobre instrumentos para moderar la inflación.",
+          "cat": "Congreso Nacional · Economía",
+          "ts": "15 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "BCRA mantiene tasas de política monetaria ante perspectiva inflacionaria",
+          "resumen": "La autoridad monetaria decidió no modificar tasas en sesión directiva de junio.",
+          "cat": "Banco Central · Política Monetaria",
+          "ts": "15 jun 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Gobierno impulsa reforma fiscal para fortalecer ingresos nacionales",
+          "resumen": "El oficialismo busca avanzar medidas tributarias que amplíen la base de recaudación.",
+          "cat": "Casa Rosada · Economía",
+          "ts": "15 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "UE regulará inteligencia artificial con normativa integral",
+          "resumen": "La Unión Europea avanza en marco regulatorio para el desarrollo responsable de la IA.",
+          "cat": "Internacional · Energías Renovables",
+          "ts": "15 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Preparativos del Mundial en EE.UU., Canadá y México avanzan",
+          "resumen": "Las tres naciones ultiman detalles para la mayor cita del fútbol, a disputarse en 2026.",
+          "cat": "Deporte · Mundial 2026",
+          "ts": "15 jun 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "taty_almeida_fallecimiento",
+          "cat": "Política Provincial · Derechos Humanos",
+          "titulo": "Murió Taty Almeida, presidenta de Madres de Plaza de Mayo Línea Fundadora",
+          "bajada": "El Gobierno de La Pampa expresó su profundo pesar por el fallecimiento de la activista de derechos humanos que marcó un hito generacional en Argentina. A los 95 años, Estela de Carlotto dejó un legado de lucha y dignidad reconocido mundialmente.",
+          "cuerpo": "<p>El fallecimiento de <strong>Estela \"Taty\" de Carlotto</strong>, presidenta de Madres de Plaza de Mayo Línea Fundadora, conmocionó a La Pampa y a todo el país. La referente del movimiento de derechos humanos, quien alcanzó los 95 años, transcendió las fronteras nacionales para convertirse en un símbolo de resistencia y búsqueda de verdad durante las décadas más oscuras de la historia argentina.</p><p>La Línea Fundadora, escisión de Madres de Plaza de Mayo que encabezaba Taty desde hace más de cuatro décadas, se caracterizó por una postura inflexible en la búsqueda de los desaparecidos y en el rechazo a cualquier forma de reconciliación que no incluyera justicia penal. <strong>Su liderazgo transformó el dolor maternal en una fuerza política que enfrentó dictaduras, gobiernos democráticos y el paso implacable del tiempo.</strong></p><p>El Gobierno de La Pampa reconoció en su comunicado oficial que la provincia ha sido testigo de la trayectoria de esta luchadora incansable, quien no cedió en su compromiso de mantener vivos los nombres de los desaparecidos. Su trabajo transcendió lo institucional para convertirse en un referente moral que inspiró generaciones de activistas en el mundo entero.</p><p>Con la muerte de Taty Almeida se cierra un capítulo emblemático en la historia de la resistencia argentina. Su legado permanecerá en las plazas, en los actos de memoria y en el corazón de quienes continuarán la lucha por los derechos humanos que ella plantó con tenacidad inquebrantable.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1571185_placa-apn-institucional-b.jpg"
+        },
+        {
+          "id": "trail_parque_luro",
+          "cat": "Deportes · Turismo",
+          "titulo": "Más de 300 atletas desafiaron el frío en el Trail de la Reserva Parque Luro",
+          "bajada": "La jornada \"Trail Desafío\" congregó a más de trescientos corredores que pusieron a prueba su resistencia en uno de los parajes naturales más emblemáticos de La Pampa. El evento reforzó la apuesta provincial por el turismo deportivo y la promoción de espacios verdes.",
+          "cuerpo": "<p>La Reserva Provincial Parque Luro se transformó en el epicentro de una jornada deportiva que superó todas las expectativas de participación. <strong>Más de 300 atletas de diversas edades y procedencias aceptaron el desafío del terreno serrano</strong>, enfrentando temperaturas bajas pero condiciones óptimas para la práctica del trail running en pleno invierno austral.</p><p>El evento \"Trail Desafío\" representó un punto de inflexión en la estrategia provincial de turismo deportivo. <strong>La combinación de actividad física, naturaleza y promoción territorial demostró que La Pampa cuenta con recursos naturales de primer nivel para atraer visitantes de toda la región.</strong> Parque Luro, con sus bosques de caldén y paisajes serrados, proporcionó un escenario incomparable para esta iniciativa.</p><p>Los participantes, muchos de ellos procedentes de provincias vecinas, recorrieron senderos variados que pusieron a prueba tanto su resistencia cardiovascular como su técnica de desplazamiento en terreno irregular. La infraestructura de la reserva permitió garantizar seguridad y asistencia médica durante toda la jornada, consolidando a La Pampa como destino deportivo confiable.</p><p>La masiva asistencia abre perspectivas para futuras ediciones de este tipo de eventos. El Gobierno provincial considera que el trail running se ha posicionado como una alternativa de turismo activo que complementa las tradicionales propuestas de descanso, aprovechando al máximo los atractivos naturales del territorio pampeano.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/304996_img-20260614-wa0040.jpg"
+        },
+        {
+          "id": "parque_solar_pico",
+          "cat": "Economía · Energía",
+          "titulo": "Parque Solar de Pico abre inscripción para seleccionar mano de obra local",
+          "bajada": "INAR SRL, empresa constructora del Parque Solar Fotovoltaico de General Pico, realizó una charla informativa para iniciar la búsqueda de trabajadores calificados de la región. El proyecto genera expectativas de empleo en la zona central pampeana.",
+          "cuerpo": "<p>La estrategia de integración laboral del Parque Solar Fotovoltaico de General Pico avanzó un paso decisivo con la convocatoria formal a trabajadores locales. <strong>INAR SRL, responsable de la ejecución del proyecto, organizó una charla informativa destinada a difundir las oportunidades de empleo y los requisitos técnicos</strong> que demandará la construcción y operación de la instalación solar más grande de La Pampa.</p><p>El eje central de la iniciativa es la generación de empleo sostenido y la formación técnica de recursos humanos pampeanos. <strong>La empresa privilegió la contratación de personal local, procurando que los beneficios económicos del proyecto redunden en la comunidad piquense y circundante.</strong> Para ello, diseñó un programa de capacitación que permitirá que trabajadores sin experiencia previa accedan a entrenamiento especializado en instalación y mantenimiento de paneles solares.</p><p>General Pico, con su tradición agroindustrial y su creciente posicionamiento como centro de innovación tecnológica, emerge como punto estratégico para la transición energética del país. El Parque Solar representa una inversión de magnitud sin precedentes en la ciudad, con impacto multiplicador en proveedores locales, servicios y consumo interno.</p><p>La convocatoria a mano de obra sigue cronogramas ajustados. Los interesados pueden participar en futuras jornadas informativas donde se detallarán perfiles, salarios, jornadas laborales y modalidades de contratación. Este movimiento consolida a La Pampa como protagonista de la matriz energética renovable argentina.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/245908_4.jpeg"
+        },
+        {
+          "id": "donacion_sangre_crecimiento",
+          "cat": "Salud Provincial",
+          "titulo": "Salud destacó el crecimiento de la donación voluntaria de sangre en La Pampa",
+          "bajada": "El ministerio provincial de Salud informó sobre el incremento en donantes voluntarios que refuerza la disponibilidad de sangre en los bancos pampeanos. La tendencia positiva responde a campañas de conciencia realizadas durante los últimos meses.",
+          "cuerpo": "<p>El crecimiento en la donación voluntaria de sangre en La Pampa constituye un logro sanitario que refleja el compromiso de la población con la salud comunitaria. <strong>El ministerio de Salud provincial divulgó datos alentadores sobre el incremento de donantes que, de manera altruista, contribuyen a mantener reservas suficientes</strong> para atender emergencias médicas y procedimientos quirúrgicos programados.</p><p>Esta tendencia positiva es resultado directo de campañas de sensibilización y educación sanitaria desplegadas por el Estado provincial. <strong>Conocer que existe demanda permanente de sangre motiva a ciudadanos a participar activamente en estos programas, transformándose en eslabones fundamentales de una cadena de solidaridad sanitaria.</strong> Los bancos de sangre provinciales han mejorado su capacidad de respuesta gracias al aumento de donantes regulares.</p><p>La pandemia de COVID-19 había interrumpido muchas rutinas de donación, generando alertas sobre disponibilidad en años previos. La recuperación observada en 2026 indica que La Pampa ha superado esos obstáculos y ha construido una base de donantes más robusta y comprometida con la salud pública provincial.</p><p>El ministerio de Salud continúa promoviendo campañas de donación en todos los municipios, con especial énfasis en jóvenes y grupos de riesgo que requieren educación sobre los beneficios para la salud de donantes regulares. El objetivo es consolidar un sistema de suministro de sangre totalmente autosuficiente en la provincia.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/154360_img-20260613-wa0047.jpg"
+        }
+      ]
+    }
+  ]
+}

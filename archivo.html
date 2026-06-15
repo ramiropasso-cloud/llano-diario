@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Archivo · LLANO·</title>
+<style>
+:root{
+  --bg:#0a0909;--bg2:#0e1018;--surface:#111318;--border:rgba(255,255,255,.08);
+  --accent:#c8780a;--text:#e8e4de;--muted:rgba(232,228,222,.45);--r:6px;
+  --font:'Inter',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:15px;line-height:1.6;min-height:100vh}
+a{color:inherit;text-decoration:none}
+
+/* ── NAV ── */
+.nav{display:flex;align-items:center;gap:1rem;padding:.85rem 1.5rem;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:99;background:rgba(10,9,9,.92);backdrop-filter:blur(12px)}
+.nav-logo{font-size:1.05rem;font-weight:800;letter-spacing:-.02em}
+.nav-logo span{color:var(--accent)}
+.nav-back{font-size:.72rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--border);padding:.28rem .75rem;border-radius:99px;transition:border-color .2s}
+.nav-back:hover{border-color:var(--accent);color:var(--text)}
+.nav-title{font-size:.72rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;margin-left:auto}
+
+/* ── BUSCADOR ── */
+.search-bar{padding:1.5rem 1.5rem .5rem;max-width:860px;margin:0 auto}
+.search-input{width:100%;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);color:var(--text);font-family:var(--font);font-size:.9rem;padding:.65rem 1rem;outline:none;transition:border-color .2s}
+.search-input::placeholder{color:var(--muted)}
+.search-input:focus{border-color:var(--accent)}
+.search-stats{font-size:.72rem;color:var(--muted);margin-top:.5rem;padding:0 .2rem}
+
+/* ── MAIN ── */
+.main{max-width:860px;margin:0 auto;padding:1rem 1.5rem 4rem}
+
+/* ── DÍA ── */
+.dia{margin-bottom:2.5rem}
+.dia-header{display:flex;align-items:baseline;gap:1rem;padding:.6rem 0;border-bottom:1px solid var(--border);margin-bottom:1.2rem;cursor:pointer}
+.dia-fecha{font-size:1rem;font-weight:700;letter-spacing:-.01em}
+.dia-count{font-size:.7rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase}
+.dia-toggle{margin-left:auto;font-size:.7rem;color:var(--muted)}
+
+/* ── TURNO ── */
+.turno{margin-bottom:1.5rem}
+.turno-label{font-size:.65rem;color:var(--accent);letter-spacing:.12em;text-transform:uppercase;font-weight:700;margin-bottom:.75rem;display:flex;align-items:center;gap:.5rem}
+.turno-label::before{content:'';display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+
+/* ── HERO DEL DÍA ── */
+.hero-arc{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:1rem 1.2rem;margin-bottom:.75rem;display:flex;gap:1rem;align-items:flex-start}
+.hero-arc-img{width:80px;height:56px;border-radius:4px;object-fit:cover;flex-shrink:0;background:#111}
+.hero-arc-cat{font-size:.62rem;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.3rem}
+.hero-arc-titulo{font-size:.92rem;font-weight:700;line-height:1.3;margin-bottom:.3rem}
+.hero-arc-summary{font-size:.78rem;color:var(--muted);line-height:1.5}
+
+/* ── CARDS GRID ── */
+.cards-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:.6rem;margin-bottom:.75rem}
+.arc-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:.8rem 1rem;font-size:.82rem}
+.arc-card-cat{font-size:.6rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.3rem}
+.arc-card-titulo{font-weight:600;line-height:1.35;margin-bottom:.3rem}
+.arc-card-resumen{font-size:.75rem;color:var(--muted);line-height:1.4}
+
+/* ── ARTÍCULOS COMPLETOS ── */
+.arts-section{margin-top:.5rem}
+.art-item{border:1px solid var(--border);border-radius:var(--r);overflow:hidden;margin-bottom:.5rem}
+.art-header{display:flex;align-items:flex-start;gap:.75rem;padding:.85rem 1rem;cursor:pointer;background:var(--surface);transition:background .15s}
+.art-header:hover{background:#161920}
+.art-img{width:60px;height:44px;border-radius:4px;object-fit:cover;flex-shrink:0;background:#111}
+.art-meta-wrap{flex:1;min-width:0}
+.art-cat{font-size:.6rem;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.2rem}
+.art-titulo{font-size:.88rem;font-weight:700;line-height:1.3}
+.art-bajada{font-size:.75rem;color:var(--muted);margin-top:.25rem;line-height:1.4}
+.art-expand{font-size:.65rem;color:var(--muted);flex-shrink:0;align-self:center;margin-left:.5rem}
+.art-cuerpo{padding:1rem 1.2rem;background:var(--bg2);border-top:1px solid var(--border);font-size:.83rem;line-height:1.75;display:none}
+.art-cuerpo.open{display:block}
+.art-cuerpo p{margin-bottom:.75rem}
+.art-cuerpo strong{font-weight:600;color:var(--text)}
+
+/* ── SECCION NACIONAL ── */
+.sec03-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.5rem;margin-top:.4rem}
+.sec03-item{background:var(--bg2);border:1px solid var(--border);border-radius:var(--r);padding:.65rem .85rem;font-size:.78rem}
+.sec03-cat{font-size:.58rem;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:.2rem}
+
+/* ── BADGE IA ── */
+.ia{display:inline-block;font-size:.58rem;color:var(--accent);letter-spacing:.06em;font-weight:700;margin-left:.35rem}
+
+/* ── VACÍO ── */
+.empty{text-align:center;padding:4rem 1rem;color:var(--muted)}
+.empty h3{font-size:1.1rem;margin-bottom:.5rem}
+
+/* ── LOADER ── */
+.loader{text-align:center;padding:3rem;color:var(--muted);font-size:.85rem}
+
+@media(max-width:600px){
+  .nav{padding:.7rem 1rem}
+  .main,.search-bar{padding-left:1rem;padding-right:1rem}
+  .cards-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="llano.html" class="nav-back">← Hoy</a>
+  <div class="nav-logo">LLANO<span>·</span></div>
+  <div class="nav-title">Archivo</div>
+</nav>
+
+<div class="search-bar">
+  <input class="search-input" id="q" type="search" placeholder="Buscar en el archivo…" autocomplete="off" />
+  <div class="search-stats" id="stats"></div>
+</div>
+
+<main class="main" id="main">
+  <div class="loader">Cargando archivo…</div>
+</main>
+
+<script>
+let CORRIDAS = [];
+
+fetch('noticias.json?v=' + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    CORRIDAS = d.corridas || [];
+    renderAll(CORRIDAS);
+  })
+  .catch(() => {
+    document.getElementById('main').innerHTML = '<div class="empty"><h3>Archivo no disponible</h3><p>Todavía no se generó ninguna corrida automática.</p></div>';
+  });
+
+document.getElementById('q').addEventListener('input', function() {
+  const q = this.value.trim().toLowerCase();
+  if (!q) { renderAll(CORRIDAS); return; }
+  const filtradas = CORRIDAS.map(c => filtrarCorrida(c, q)).filter(Boolean);
+  renderAll(filtradas, q);
+});
+
+function filtrarCorrida(c, q) {
+  const matchHero  = textoMatch(c.hero, q);
+  const arts       = (c.arts || []).filter(a => textoMatch(a, q));
+  const sec01      = (c.sec01 || []).filter(a => textoMatch(a, q));
+  const sec03      = (c.sec03 || []).filter(a => textoMatch(a, q));
+  const hero_side  = (c.hero_side || []).filter(a => textoMatch(a, q));
+  if (!matchHero && !arts.length && !sec01.length && !sec03.length && !hero_side.length) return null;
+  return { ...c, hero: matchHero ? c.hero : null, arts, sec01, sec03, hero_side };
+}
+
+function textoMatch(obj, q) {
+  if (!obj) return false;
+  return ['titulo','summary','bajada','resumen','cat'].some(k => (obj[k]||'').toLowerCase().includes(q));
+}
+
+function renderAll(corridas, q) {
+  const main = document.getElementById('main');
+  const stats = document.getElementById('stats');
+
+  if (!corridas.length) {
+    main.innerHTML = '<div class="empty"><h3>Sin resultados</h3><p>No se encontraron noticias para esa búsqueda.</p></div>';
+    stats.textContent = '';
+    return;
+  }
+
+  // Agrupar por fecha
+  const porFecha = {};
+  for (const c of corridas) {
+    if (!porFecha[c.fecha_iso]) porFecha[c.fecha_iso] = { fecha: c.fecha, corridas: [] };
+    porFecha[c.fecha_iso].corridas.push(c);
+  }
+
+  const totalArts = corridas.reduce((n, c) => n + (c.arts||[]).length, 0);
+  stats.textContent = q
+    ? `${totalArts} artículo${totalArts !== 1 ? 's' : ''} que coinciden`
+    : `${Object.keys(porFecha).length} días · ${totalArts} artículos`;
+
+  let html = '';
+  for (const [fiso, grupo] of Object.entries(porFecha).sort().reverse()) {
+    const nArts = grupo.corridas.reduce((n, c) => n + (c.arts||[]).length, 0);
+    html += `<div class="dia" data-fiso="${fiso}">
+      <div class="dia-header" onclick="toggleDia('${fiso}')">
+        <span class="dia-fecha">${grupo.fecha}</span>
+        <span class="dia-count">${nArts} artículo${nArts !== 1 ? 's' : ''}</span>
+        <span class="dia-toggle" id="tog-${fiso}">▲</span>
+      </div>
+      <div id="dia-${fiso}">`;
+
+    for (const corrida of grupo.corridas) {
+      html += renderCorrida(corrida, q);
+    }
+    html += `</div></div>`;
+  }
+
+  main.innerHTML = html;
+}
+
+function toggleDia(fiso) {
+  const el  = document.getElementById('dia-' + fiso);
+  const tog = document.getElementById('tog-' + fiso);
+  const open = el.style.display !== 'none';
+  el.style.display = open ? 'none' : '';
+  tog.textContent  = open ? '▼' : '▲';
+}
+
+function renderCorrida(c, q) {
+  let html = `<div class="turno"><div class="turno-label">${esc(c.turno)}</div>`;
+
+  // Hero
+  if (c.hero && c.hero.titulo) {
+    const img = c.hero.foto && c.hero.foto.startsWith('http')
+      ? `<img class="hero-arc-img" src="${esc(c.hero.foto)}" alt="" loading="lazy" />`
+      : '';
+    html += `<div class="hero-arc">
+      ${img}
+      <div>
+        <div class="hero-arc-cat">${esc(c.hero.cat)} <span class="ia">✦ IA</span></div>
+        <div class="hero-arc-titulo">${hi(esc(c.hero.titulo), q)}</div>
+        <div class="hero-arc-summary">${hi(esc(c.hero.summary), q)}</div>
+      </div>
+    </div>`;
+  }
+
+  // Noticias locales (sec01)
+  if ((c.sec01||[]).length) {
+    html += `<div class="cards-grid">`;
+    for (const it of c.sec01) {
+      html += `<div class="arc-card">
+        <div class="arc-card-cat">${esc(it.cat)}</div>
+        <div class="arc-card-titulo">${hi(esc(it.titulo), q)}</div>
+        <div class="arc-card-resumen">${hi(esc(it.resumen), q)}</div>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
+  // También hoy (hero_side)
+  if ((c.hero_side||[]).length) {
+    html += `<div class="cards-grid">`;
+    for (const it of c.hero_side) {
+      html += `<div class="arc-card">
+        <div class="arc-card-cat">${esc(it.cat)} <span class="ia">✦ IA</span></div>
+        <div class="arc-card-titulo">${hi(esc(it.titulo), q)}</div>
+        <div class="arc-card-resumen">${hi(esc(it.resumen), q)}</div>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
+  // Nacional (sec03)
+  if ((c.sec03||[]).length) {
+    html += `<div class="sec03-grid">`;
+    for (const it of c.sec03) {
+      html += `<div class="sec03-item">
+        <div class="sec03-cat">${esc(it.cat)}</div>
+        <div class="arc-card-titulo">${hi(esc(it.titulo), q)}</div>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
+  // Artículos completos
+  if ((c.arts||[]).length) {
+    html += `<div class="arts-section">`;
+    for (const a of c.arts) {
+      const img = a.foto && (a.foto.startsWith('http') || a.foto.startsWith('img/'))
+        ? `<img class="art-img" src="${esc(a.foto)}" alt="" loading="lazy" />`
+        : `<div class="art-img"></div>`;
+      html += `<div class="art-item">
+        <div class="art-header" onclick="toggleArt(this)">
+          ${img}
+          <div class="art-meta-wrap">
+            <div class="art-cat">${esc(a.cat)} <span class="ia">✦ IA</span></div>
+            <div class="art-titulo">${hi(esc(a.titulo), q)}</div>
+            <div class="art-bajada">${hi(esc(a.bajada), q)}</div>
+          </div>
+          <span class="art-expand">▼ Leer</span>
+        </div>
+        <div class="art-cuerpo">${a.cuerpo || ''}</div>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
+  html += `</div>`;
+  return html;
+}
+
+function toggleArt(header) {
+  const cuerpo = header.nextElementSibling;
+  const btn    = header.querySelector('.art-expand');
+  const open   = cuerpo.classList.toggle('open');
+  btn.textContent = open ? '▲ Cerrar' : '▼ Leer';
+}
+
+function esc(s) {
+  if (!s) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function hi(text, q) {
+  if (!q || !text) return text;
+  const re = new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')', 'gi');
+  return text.replace(re, '<mark style="background:rgba(200,120,10,.35);color:inherit;border-radius:2px">$1</mark>');
+}
+</script>
+</body>
+</html>
