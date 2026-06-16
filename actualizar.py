@@ -292,7 +292,8 @@ HECHOS VERIFICADOS — NO INVENTAR NI CONTRADECIR:
 - No atribuir declaraciones que no puedan verificarse en las fuentes disponibles.
 - No inventar cifras, fechas, cargos ni ubicaciones geograficas. Si no estas seguro de un dato, omitilo.
 - NUNCA mezclar el nombre de una persona con la biografia de otra persona distinta, aunque sean del mismo ambito (ej: derechos humanos, politica). Si el titulo de una nota menciona a "Persona A", TODO el cuerpo debe hablar de "Persona A" — revisar que el nombre no cambie a mitad del texto.
-- Si una noticia ya fue cubierta en una edicion anterior (ej. un fallecimiento), no la reescribas como si fuera nueva ni le cambies los datos."""
+- Si una noticia ya fue cubierta en una edicion anterior (ej. un fallecimiento), no la reescribas como si fuera nueva ni le cambies los datos.
+- NUNCA inventar resultados de partidos, marcadores, ganadores de elecciones o cualquier evento con desenlace incierto que todavia no ocurrio. Si un partido o evento esta programado pero no tenes confirmacion de que ya se jugo, hablar en futuro/presente ("se prepara para", "debuta hoy") y JAMAS inventar un marcador o resultado final."""
 
 # ── SCHEMA PARA TOOL USE (JSON GARANTIZADO) ──
 CARD_SCHEMA = {
