@@ -276,7 +276,9 @@ CARGOS VERIFICADOS — CONSULTAR SIEMPRE ESTE MAPA ANTES DE ESCRIBIR:
 HECHOS VERIFICADOS — NO INVENTAR NI CONTRADECIR:
 - El Mundial FIFA 2026 se juega en ESTADOS UNIDOS, Canada y Mexico. Argentina NO es sede. Argentina es el campeon defensor (gano Qatar 2022).
 - No atribuir declaraciones que no puedan verificarse en las fuentes disponibles.
-- No inventar cifras, fechas, cargos ni ubicaciones geograficas. Si no estas seguro de un dato, omitilo."""
+- No inventar cifras, fechas, cargos ni ubicaciones geograficas. Si no estas seguro de un dato, omitilo.
+- NUNCA mezclar el nombre de una persona con la biografia de otra persona distinta, aunque sean del mismo ambito (ej: derechos humanos, politica). Si el titulo de una nota menciona a "Persona A", TODO el cuerpo debe hablar de "Persona A" — revisar que el nombre no cambie a mitad del texto.
+- Si una noticia ya fue cubierta en una edicion anterior (ej. un fallecimiento), no la reescribas como si fuera nueva ni le cambies los datos."""
 
 # ── SCHEMA PARA TOOL USE (JSON GARANTIZADO) ──
 CARD_SCHEMA = {
@@ -649,6 +651,19 @@ def hero_side_item(item):
 hero_bloque = f'<!-- AUTO:HERO:START -->\n      {hero_nuevo}\n<!-- AUTO:HERO:END -->'
 llano = safe_sub(r'<!-- AUTO:HERO:START -->[\s\S]*?<!-- AUTO:HERO:END -->', hero_bloque, llano)
 
+# ── ACTUALIZAR META TAGS OG/TWITTER CON LA NOTA PRINCIPAL ──
+og_titulo = hero.get("titulo", "LLANO· — Política y Poder en La Pampa")
+og_desc   = hero.get("summary", "")[:200] or "El primer diario digital 100% IA de La Pampa."
+og_foto   = foto_hero if foto_hero and foto_hero.startswith("http") else "https://llano.it.com/og-image.jpg"
+
+llano = re.sub(r'<meta property="og:title" content="[^"]*"', f'<meta property="og:title" content="{e(og_titulo)}"', llano)
+llano = re.sub(r'<meta property="og:description" content="[^"]*"', f'<meta property="og:description" content="{e(og_desc)}"', llano)
+llano = re.sub(r'<meta property="og:image" content="[^"]*"', f'<meta property="og:image" content="{og_foto}"', llano)
+llano = re.sub(r'<meta name="twitter:title" content="[^"]*"', f'<meta name="twitter:title" content="{e(og_titulo)}"', llano)
+llano = re.sub(r'<meta name="twitter:description" content="[^"]*"', f'<meta name="twitter:description" content="{e(og_desc)}"', llano)
+llano = re.sub(r'<meta name="twitter:image" content="[^"]*"', f'<meta name="twitter:image" content="{og_foto}"', llano)
+print(f"  Meta tags OG actualizados — foto: {'hero' if og_foto != 'https://llano.it.com/og-image.jpg' else 'fallback'}")
+
 # ── REEMPLAZAR SEC01 ──
 sec01 = data.get("sec01", [])[:3]
 sec01_cards = "\n".join(card_html(c) for c in sec01)
@@ -790,6 +805,28 @@ noticias_archivo["corridas"] = noticias_archivo["corridas"][:180]  # ~60 dias
 with open(archivo_path, "w", encoding="utf-8") as f:
     json.dump(noticias_archivo, f, ensure_ascii=False, indent=2)
 print(f"  Archivo JSON: corrida '{clave_corrida}' guardada — total {len(noticias_archivo['corridas'])} corridas")
+
+# ── ACTUALIZAR SITEMAP ──
+sitemap_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "sitemap.xml")
+fecha_iso_hoy = ahora.strftime("%Y-%m-%d")
+sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://llano.it.com/</loc>
+    <lastmod>{fecha_iso_hoy}</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://llano.it.com/archivo.html</loc>
+    <lastmod>{fecha_iso_hoy}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>
+"""
+with open(sitemap_path, "w", encoding="utf-8") as f:
+    f.write(sitemap_xml)
 
 # ── GUARDAR ──
 with open(html_path, "w", encoding="utf-8") as f:

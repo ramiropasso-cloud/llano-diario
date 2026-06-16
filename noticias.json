@@ -2,6 +2,115 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-06-16_manana",
+      "fecha_iso": "2026-06-16",
+      "fecha": "16 junio 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "Gonzalez alertó sobre el desfinanciamiento del INTA en 25 de Mayo",
+        "summary": "La ministra de la Producción visitó la Agencia de Extensión Rural y evidenció el impacto del retiro de fondos nacionales en la investigación agropecuaria. La provincia busca sostener la infraestructura y el equipo de especialistas.",
+        "cat": "Producción · Política provincial",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/2654208_img_7425.jpeg"
+      },
+      "sec01": [
+        {
+          "titulo": "González alertó sobre el desfinanciamiento del INTA en 25 de Mayo",
+          "resumen": "La ministra de la Producción visitó la Agencia de Extensión Rural y expuso el impacto del retiro de fondos nacionales en la tecnología agropecuaria.",
+          "cat": "Producción · Política provincial",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/2654208_img_7425.jpeg",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Gobierno provincial expresó pesar por la muerte de Taty Almeida",
+          "resumen": "Falleció a los 95 años la presidenta de Madres de Plaza de Mayo Línea Fundadora, referente indiscutida del movimiento de derechos humanos en Argentina.",
+          "cat": "Derechos Humanos · Provincia",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1571185_placa-apn-institucional-b.jpg",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Más de 300 atletas desafiaron el frío en el Trail de Parque Luro",
+          "resumen": "Se realizó el Trail Desafío en la Reserva Provincial combinando deporte, naturaleza y turismo en uno de los entornos más emblemáticos de La Pampa.",
+          "cat": "Deportes · Turismo",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/304996_img-20260614-wa0040.jpg",
+          "ts": "16 jun 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Gobierno nacional reporta avances en control de inflación para segundo trimestre",
+          "resumen": "Fuentes oficiales destacaron desaceleración de precios en junio tras medidas implementadas en mayo.",
+          "cat": "Economía Nacional · Casa Rosada",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Diputados avanzan en debate sobre reforma tributaria para pymes",
+          "resumen": "Comisiones del Congreso Nacional analizaron propuestas bipartidarias para reducir carga fiscal a pequeños empresarios.",
+          "cat": "Legislativo Nacional · Reformas",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Flujo de inversiones extranjeras hacia Argentina se mantiene en niveles positivos",
+          "resumen": "Analistas señalaron estabilidad macroeconómica como factor clave para mantener confianza de capitales.",
+          "cat": "Inversión · Mercado de Capitales",
+          "ts": "16 jun 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Ravier participa en comisiones presupuestarias en Diputados",
+          "resumen": "El diputado nacional por La Pampa integra grupo de trabajo sobre gasto público y eficiencia estatal.",
+          "cat": "Legislativo Nacional · LLA",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Kronemberger busca consenso para proyecto de agua interprovincial",
+          "resumen": "El senador nacional radical impulsa acuerdo legislativo para gestión coordinada de recursos hídricos.",
+          "cat": "Senado Nacional · UCR",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Homenajes a Taty Almeida en todo el país",
+          "resumen": "Funcionarios y dirigentes de distintos partidos reconocen la trayectoria de la presidenta de Madres Línea Fundadora.",
+          "cat": "Política · Movimiento por Derechos Humanos",
+          "ts": "16 jun 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "inta_desfinanciamiento",
+          "cat": "Producción · Política provincial",
+          "titulo": "González alertó sobre el desfinanciamiento del INTA en 25 de Mayo",
+          "bajada": "La ministra de la Producción visitó la Agencia de Extensión Rural y expuso el impacto crítico del retiro de fondos nacionales. La provincia busca fortalecer la infraestructura y el equipo de investigadores agropecuarios.",
+          "cuerpo": "<p><strong>La ministra Fernanda González realizó una visita estratégica a la Agencia de Extensión Rural (AER) del Instituto Nacional de Tecnología Agropecuaria (INTA) en 25 de Mayo</strong>, donde se reunió con la directora Luján Masseroni y su equipo técnico para evaluar el estado de la institución. Durante el encuentro, se abordó de manera integral el impacto del desfinanciamiento nacional en la capacidad operativa de la agencia, que representa un pilar fundamental para la transferencia tecnológica a productores de la región.</p><p><strong>El INTA en 25 de Mayo atiende a más de 1.500 productores agrícolas y ganaderos</strong> de la zona central de La Pampa, proporcionando asesoramiento técnico, capacitación y acompañamiento en la adopción de prácticas sustentables. El retiro de recursos federales pone en riesgo tanto el mantenimiento de la infraestructura como la continuidad de los programas de investigación que han generado tecnología adaptada a las condiciones agroecológicas de la región.</p><p>Desde el Gobierno provincial se enfatizó la necesidad de que la Nación reconozca la importancia estratégica del INTA como actor clave en la soberanía alimentaria y el desarrollo rural. <strong>González destacó que La Pampa requiere de instituciones de investigación sólidas para mantener su potencial productivo</strong> frente a los desafíos de sostenibilidad, cambio climático y competitividad en mercados internacionales.</p><p>La ministra se comprometió a gestionar articulaciones entre el Gobierno provincial, los municipios y organizaciones de productores para desarrollar estrategias de apoyo complementarias que permitan sostener la operatividad de la AER y consolidar su rol como nexo entre la ciencia y la práctica agrícola en el territorio.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/2654208_img_7425.jpeg"
+        },
+        {
+          "id": "taty_almeida_duelo",
+          "cat": "Derechos Humanos · Provincia",
+          "titulo": "Duelo en La Pampa por la muerte de Taty Almeida",
+          "bajada": "Falleció a los 95 años Taty Almeida, presidenta de Madres de Plaza de Mayo Línea Fundadora. Su legado de búsqueda de verdad y justicia trasciende las fronteras de Argentina.",
+          "cuerpo": "<p><strong>El Gobierno de La Pampa expresó su profundo pesar por el fallecimiento de Taty Almeida, una de las figuras más relevantes del movimiento de derechos humanos en Argentina</strong>. Almeida presidía Madres de Plaza de Mayo Línea Fundadora, y fue una de las impulsoras históricas de la búsqueda de verdad y justicia respecto de los desaparecidos durante la dictadura militar.</p><p><strong>Con 95 años, Almeida falleció dejando un legado de lucha incesante</strong> que trascendió los límites geográficos de Argentina. Su hijo, Alejandro, fue desaparecido en 1975, lo que la llevó a integrar Madres de Plaza de Mayo y a convertirse en símbolo de resistencia contra la impunidad.</p><p>La Pampa, provincia con fuerte tradición de compromiso cívico, reconoció en Almeida a una referente moral que inspira a nuevas generaciones en la defensa de los derechos fundamentales.</p><p>Los gobiernos nacional y provincial, junto a organismos de derechos humanos, expresaron su duelo y reconocimiento por una vida dedicada a garantizar que los desaparecidos no sean olvidados y que la verdad salga a la luz.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1571185_placa-apn-institucional-b.jpg"
+        },
+        {
+          "id": "trail_parque_luro",
+          "cat": "Deportes · Turismo",
+          "titulo": "Más de 300 atletas desafiaron el frío en el Trail de Parque Luro",
+          "bajada": "Se realizó con éxito el Trail Desafío en la Reserva Provincial, una propuesta que fusionó deporte, naturaleza y turismo. La jornada consolidó a Parque Luro como destino para eventos deportivos de impacto regional.",
+          "cuerpo": "<p><strong>Más de 300 atletas de diferentes regiones participaron en el Trail Desafío realizado en la Reserva Provincial Parque Luro</strong>, enfrentando temperaturas bajas pero condiciones óptimas para la competencia. El evento combinó la práctica del trail running con la experiencia de convivencia en uno de los entornos naturales más emblemáticos de La Pampa, consolidando la reserva como destino de deportes de naturaleza.</p><p>La Reserva Provincial Parque Luro es un espacio de 3.200 hectáreas ubicado en el departamento de Maracó, a 310 kilómetros de la capital provincial. <strong>Su singularidad paisajística, con caldeníes, fauna característica y ecosistemas bien conservados, la convierten en escenario privilegiado para eventos de turismo activo</strong>. El trail combinó recorridos de diferentes dificultades, permitiendo la participación de competidores amateur y profesionales.</p><p>Desde las autoridades se destacó que iniciativas como el Trail Desafío fortalecen la economía local, generando demanda en servicios de hospedaje, gastronomía y transporte. <strong>Además, posicionan a La Pampa en el mapa de destinos turísticos para deportistas de aventura</strong>, segmento de alto crecimiento en Argentina y Sudamérica. Los municipios aledaños se beneficiaron con la llegada de visitantes durante el fin de semana de la competencia.</p><p>Los organizadores anunciaron la intención de consolidar el Trail Desafío como evento anual, incrementando su convocatoria y mejorando la experiencia de participantes. <strong>La propuesta alterna deporte profesional, turismo ecológico y conservación ambiental</strong>, tres elementos clave en la estrategia provincial de diversificación económica post-agrícola.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/304996_img-20260614-wa0040.jpg"
+        },
+        {
+          "id": "parque_solar_pico",
+          "cat": "Economía · Empleo",
+          "titulo": "Parque Solar de General Pico busca capacitar mano de obra local",
+          "bajada": "INAR SRL, empresa responsable de la construcción, realizó charla informativa para seleccionar y entrenar trabajadores de la región. El proyecto genera expectativa de empleabilidad en el sector renovable.",
+          "cuerpo": "<p><strong>La empresa INAR SRL, responsable de la construcción del Parque Solar Fotovoltaico de General Pico, desarrolló una charla informativa con enfoque en generación de empleo y formación técnica</strong>. El encuentro marcó el inicio formal de la búsqueda de trabajadores locales para las diferentes etapas del proyecto, desde construcción civil hasta instalación eléctrica e integración de sistemas.</p><p>El Parque Solar constituye uno de los proyectos de energías renovables de mayor escala en el oeste bonaerense y sudeste pampeano. <strong>Se estima que durante la fase de construcción se requerirán entre 150 y 200 trabajadores con diferentes niveles de calificación, generando oportunidades para profesionales, técnicos y operarios de la región</strong>. La duración estimada de la obra es de 18 meses, lo que implica dinamismo sostenido en el mercado laboral local.</p><p>Desde INAR SRL se enfatizó la importancia de fortalecer vínculos con centros de capacitación técnica, sindicatos y municipios para identificar candidatos con potencial de aprendizaje. <strong>Se prevé desarrollar programas de entrenamiento in situ en seguridad, electrotecnia y manejo de equipamiento especializado</strong>, maximizando la contratación de mano de obra de General Pico y localidades aledañas. Esta estrategia reduce costos de traslado y amplifica el impacto económico local.</p><p>El proyecto alinea con objetivos provinciales de transición energética y desarrollo de empleo verde. Autoridades municipales y provinciales destacaron que iniciativas como esta consolidan a La Pampa como polo de atracción de inversión en renovables, complementando la diversificación de su economía más allá de la ganadería y agricultura convencionales.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/245908_4.jpeg"
+        }
+      ]
+    },
+    {
       "clave": "2026-06-15_tarde",
       "fecha_iso": "2026-06-15",
       "fecha": "15 junio 2026",
@@ -80,8 +189,8 @@
           "id": "taty_almeida_fallecimiento",
           "cat": "Política Provincial · Derechos Humanos",
           "titulo": "Murió Taty Almeida, presidenta de Madres de Plaza de Mayo Línea Fundadora",
-          "bajada": "El Gobierno de La Pampa expresó su profundo pesar por el fallecimiento de la activista de derechos humanos que marcó un hito generacional en Argentina. A los 95 años, Estela de Carlotto dejó un legado de lucha y dignidad reconocido mundialmente.",
-          "cuerpo": "<p>El fallecimiento de <strong>Estela \"Taty\" de Carlotto</strong>, presidenta de Madres de Plaza de Mayo Línea Fundadora, conmocionó a La Pampa y a todo el país. La referente del movimiento de derechos humanos, quien alcanzó los 95 años, transcendió las fronteras nacionales para convertirse en un símbolo de resistencia y búsqueda de verdad durante las décadas más oscuras de la historia argentina.</p><p>La Línea Fundadora, escisión de Madres de Plaza de Mayo que encabezaba Taty desde hace más de cuatro décadas, se caracterizó por una postura inflexible en la búsqueda de los desaparecidos y en el rechazo a cualquier forma de reconciliación que no incluyera justicia penal. <strong>Su liderazgo transformó el dolor maternal en una fuerza política que enfrentó dictaduras, gobiernos democráticos y el paso implacable del tiempo.</strong></p><p>El Gobierno de La Pampa reconoció en su comunicado oficial que la provincia ha sido testigo de la trayectoria de esta luchadora incansable, quien no cedió en su compromiso de mantener vivos los nombres de los desaparecidos. Su trabajo transcendió lo institucional para convertirse en un referente moral que inspiró generaciones de activistas en el mundo entero.</p><p>Con la muerte de Taty Almeida se cierra un capítulo emblemático en la historia de la resistencia argentina. Su legado permanecerá en las plazas, en los actos de memoria y en el corazón de quienes continuarán la lucha por los derechos humanos que ella plantó con tenacidad inquebrantable.</p>",
+          "bajada": "El Gobierno de La Pampa expresó su profundo pesar por el fallecimiento de la activista de derechos humanos que marcó un hito generacional en Argentina. A los 95 años, Taty Almeida dejó un legado de lucha y dignidad reconocido mundialmente.",
+          "cuerpo": "<p>El fallecimiento de <strong>Taty Almeida</strong>, presidenta de Madres de Plaza de Mayo Línea Fundadora, conmocionó a La Pampa y a todo el país. La referente del movimiento de derechos humanos, quien alcanzó los 95 años, transcendió las fronteras nacionales para convertirse en un símbolo de resistencia y búsqueda de verdad durante las décadas más oscuras de la historia argentina.</p><p>La Línea Fundadora, escisión de Madres de Plaza de Mayo que encabezaba Taty desde hace más de cuatro décadas, se caracterizó por una postura inflexible en la búsqueda de los desaparecidos y en el rechazo a cualquier forma de reconciliación que no incluyera justicia penal. <strong>Su liderazgo transformó el dolor maternal en una fuerza política que enfrentó dictaduras, gobiernos democráticos y el paso implacable del tiempo.</strong></p><p>El Gobierno de La Pampa reconoció en su comunicado oficial que la provincia ha sido testigo de la trayectoria de esta luchadora incansable, quien no cedió en su compromiso de mantener vivos los nombres de los desaparecidos. Su trabajo transcendió lo institucional para convertirse en un referente moral que inspiró generaciones de activistas en el mundo entero.</p><p>Con la muerte de Taty Almeida se cierra un capítulo emblemático en la historia de la resistencia argentina. Su legado permanecerá en las plazas, en los actos de memoria y en el corazón de quienes continuarán la lucha por los derechos humanos que ella plantó con tenacidad inquebrantable.</p>",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/1571185_placa-apn-institucional-b.jpg"
         },
         {

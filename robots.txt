@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://llano.it.com/sitemap.xml
