@@ -133,6 +133,9 @@ FOTO_LOCAL = [
     (['torroba'],                         'img/politicos/torroba.webp'),
     (['altolaguirre'],                    'img/politicos/leandro altolaguirre.jpg'),
     (['ardohain'],                        'img/politicos/ardo.webp'),
+    (['di napoli', 'dinapoli'],           'img/politicos/lucianodinapoli.webp'),
+    (['ziliotto'],                        'img/politicos/Dinapolizilioto.webp'),
+    (['gisela cuadrado', 'cuadrado'],     'img/politicos/gisela cuadrado.webp'),
 ]
 
 def buscar_foto_local(titulo, resumen=''):
