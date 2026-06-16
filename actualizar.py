@@ -40,6 +40,20 @@ else:
     turno = "tarde"
     turno_label = "Edición Tarde · 17:00"
 
+# ── EVITAR CORRIDAS DUPLICADAS DEL MISMO TURNO ──
+# Permite que un "watchdog" dispare este script seguido (ej. al desbloquear la PC)
+# sin gastar tokens de mas si el turno de hoy ya se publico.
+_archivo_path_check = os.path.join(os.path.dirname(os.path.abspath(__file__)), "noticias.json")
+_clave_hoy = f"{ahora.strftime('%Y-%m-%d')}_{turno}"
+try:
+    with open(_archivo_path_check, "r", encoding="utf-8") as _f:
+        _archivo_check = json.load(_f)
+    if any(c.get("clave") == _clave_hoy for c in _archivo_check.get("corridas", [])):
+        print(f"Turno '{turno}' de hoy ya esta publicado (clave={_clave_hoy}) — nada que hacer.")
+        sys.exit(0)
+except (FileNotFoundError, json.JSONDecodeError):
+    pass
+
 
 def fetch(url, timeout=12):
     try:
