@@ -88,7 +88,7 @@ netlify deploy --dir . --prod --site 6356f434-5013-469f-9f47-d8f6f1fc6a39
 - **Alonso** — intendente General Pico
 - **Ravier** — senador nacional
 - **Berhongaray** — UCR pampeana
-- **Kronemberger** — diputada nacional
+- **Kroneberger** — diputada nacional
 
 ---
 

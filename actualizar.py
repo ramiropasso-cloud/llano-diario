@@ -127,7 +127,7 @@ FOTO_LOCAL = [
     (['adorni'],                          'img/politicos/ardo.webp'),
     (['berhongaray'],                     'img/politicos/berhongaray.webp'),
     (['huala'],                           'img/politicos/huala.webp'),
-    (['kronemberger', 'kroneberger'],     'img/politicos/krone.webp'),
+    (['kroneberger'],                     'img/politicos/krone.webp'),
     (['mac allister', 'macallister'],     'img/politicos/mac allister.webp'),
     (['ravier'],                          'img/politicos/ravier.jpg'),
     (['torroba'],                         'img/politicos/torroba.webp'),
@@ -254,7 +254,7 @@ NOTICIAS DISPONIBLES HOY (FUENTES OFICIALES PROVINCIALES):
 
 PRINCIPIOS EDITORIALES:
 1. OBJETIVIDAD ABSOLUTA — cobertura igual para PJ, UCR, LLA y todos los partidos. Sin sesgo.
-2. SEGUIMIENTO: Di Napoli (intendente Santa Rosa), Alonso (intendenta General Pico), Ravier (DIPUTADO NACIONAL LLA — no senador), Kronemberger (SENADOR UCR), Berhongaray (presidente Comité UCR provincial — no legislador), Altolaguirre (EX INTENDENTE Santa Rosa UCR — sin cargo actual).
+2. SEGUIMIENTO: Di Napoli (intendente Santa Rosa), Alonso (intendenta General Pico), Ravier (DIPUTADO NACIONAL LLA — no senador), Kroneberger (SENADOR UCR), Berhongaray (presidente Comité UCR provincial — no legislador), Altolaguirre (EX INTENDENTE Santa Rosa UCR — sin cargo actual).
 3. FUENTE EN CAMPO TS: el campo ts SIEMPRE debe ser exactamente "{fecha_corta} · LLANO·". NUNCA poner La Arena, El Diario de La Pampa, Diarionoticias, Ambito, ni ningún otro medio en ningún campo.
 4. VOZ: Clara, directa, rioplatense, sin sesgo partidario.
 5. Fotos: usar SOLO las URLs de APN del contexto. Si no hay foto real, dejar vacio.
