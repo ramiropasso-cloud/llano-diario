@@ -471,6 +471,25 @@ except Exception as e:
     print(f"ERROR API Claude: {e}")
     sys.exit(1)
 
+# ── VALIDAR RESPUESTA — descartar items malformados o respuestas degeneradas ──
+for clave in ['sec01', 'sec01_list', 'sec03', 'arts', 'ticker', 'hero_side']:
+    items = data.get(clave, [])
+    if not isinstance(items, list):
+        data[clave] = []
+        continue
+    limpios = [it for it in items if isinstance(it, dict)]
+    if len(limpios) != len(items):
+        print(f"  ADVERTENCIA: {clave} tenia {len(items) - len(limpios)} items malformados — descartados")
+    data[clave] = limpios
+
+if len(data.get('arts', [])) > 12 or len(data.get('sec01', [])) > 10:
+    print(f"ERROR: respuesta degenerada de la API (arts={len(data.get('arts',[]))}, sec01={len(data.get('sec01',[]))}) — abortando sin modificar llano.html")
+    sys.exit(1)
+
+if not isinstance(data.get('hero'), dict):
+    print("ERROR: hero malformado en la respuesta — abortando sin modificar llano.html")
+    sys.exit(1)
+
 # ── BÚSQUEDA DE FOTOS WIKIPEDIA (para artículos sin foto de APN) ──
 print("Buscando fotos en Wikipedia para artículos sin imagen...")
 

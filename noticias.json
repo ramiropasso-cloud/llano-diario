@@ -2,6 +2,115 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-06-16_mediodia",
+      "fecha_iso": "2026-06-16",
+      "fecha": "16 junio 2026",
+      "turno": "Edición Mediodía · 11:00",
+      "hero": {
+        "titulo": "Alerta sobre desfinanciamiento del INTA en 25 de Mayo",
+        "summary": "La ministra de Producción visitó la agencia de extensión rural y evidenció el impacto del recorte presupuestario nacional. La provincia respalda al sector agrícola ante la crisis de recursos.",
+        "cat": "Producción · Gobierno provincial",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/2654208_img_7425.jpeg"
+      },
+      "sec01": [
+        {
+          "titulo": "Ministra González recorrió INTA en 25 de Mayo y alertó sobre desfinanciamiento",
+          "resumen": "Fernanda González visitó la Agencia de Extensión Rural para evaluar el impacto del recorte presupuestario nacional en la asistencia técnica agropecuaria.",
+          "cat": "Producción · Gobierno provincial",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/2654208_img_7425.jpeg",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Recorrida ministerial por La Reforma, Puelén y Duval",
+          "resumen": "Pascual Fernández visitó tres localidades del interior para acompañar a las gestiones municipales y conocer de primera mano las necesidades territoriales.",
+          "cat": "Gobierno local · Interior provincial",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/142587_whatsapp-image-2026-06-16-at-08.11.56.jpeg",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Más de 300 atletas desafiaron el frío en Trail de Parque Luro",
+          "resumen": "El evento Desafío Trail combinó deporte, naturaleza y turismo en la Reserva Provincial, con participación récord de corredores de toda la provincia.",
+          "cat": "Deportes · Turismo",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/304996_img-20260614-wa0040.jpg",
+          "ts": "16 jun 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Gobierno nacional anuncia medidas para fortalecer el mercado interno",
+          "resumen": "La Casa Rosada presentó un plan integral de estímulo económico con foco en pymes y sector agropecuario ante indicadores de recuperación.",
+          "cat": "Política nacional · Economía",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Diputados debaten reforma tributaria con apoyo de distintos bloques",
+          "resumen": "La Cámara de Diputados retomó el debate de una iniciativa tributaria que ha conseguido consenso multibloque tras negociaciones parlamentarias.",
+          "cat": "Congreso Nacional · Legislación",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "BCRA reporta aumento de reservas internacionales en junio",
+          "resumen": "El Banco Central de la República Argentina informó sobre el incremento de las reservas de divisas en las últimas semanas.",
+          "cat": "Banco Central · Finanzas",
+          "ts": "16 jun 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Ministra González alertó sobre desfinanciamiento del INTA nacional",
+          "resumen": "Visitó la agencia de 25 de Mayo para evaluar el impacto en la asistencia técnica agropecuaria provincial.",
+          "cat": "Producción · Gobierno provincial",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Trail Desafío reunió a 300+ atletas en Parque Luro",
+          "resumen": "Competencia que combinó deporte, naturaleza y promoción turística en uno de los destinos más emblemáticos de La Pampa.",
+          "cat": "Deportes · Turismo",
+          "ts": "16 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gobierno nacional presenta plan de estímulo para pymes y sector agropecuario",
+          "resumen": "La Casa Rosada anunció medidas para fortalecer el mercado interno ante indicadores positivos de recuperación económica.",
+          "cat": "Política nacional · Economía",
+          "ts": "16 jun 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "inta_desfinanciamiento",
+          "cat": "Producción · Gobierno provincial",
+          "titulo": "Ministra González visitó INTA en 25 de Mayo y denunció impacto del desfinanciamiento nacional",
+          "bajada": "Fernanda González, ministra de Producción, recorrió la Agencia de Extensión Rural del Instituto Nacional de Tecnología Agropecuaria en 25 de Mayo. La funcionaria evalúo el impacto del recorte presupuestario nacional en la asistencia técnica que brinda la institución a los productores agropecuarios de la región.",
+          "cuerpo": "<p><strong>La ministra de Producción, Fernanda González,</strong> visitó la Agencia de Extensión Rural (AER) del INTA en 25 de Mayo, donde se reunió con la directora, Lujín Masseroni, y su equipo técnico para abordar los efectos del desfinanciamiento nacional en las operaciones de la institución. Durante el recorrido, González pudo constatar de primera mano cómo los recortes presupuestarios han limitado la capacidad de atención a los pequeños y medianos productores locales que dependen del apoyo técnico del organismo para mejorar sus procesos productivos.</p><p><strong>El desfinanciamiento representa un desafío</strong> para la transferencia de tecnología agropecuaria en La Pampa, un sector fundamental para la economía provincial. Los técnicos del INTA manifestaron su preocupación por la reducción de personal y la limitación de recursos para realizar capacitaciones, asesorías en campo y desarrollo de proyectos innovadores que históricamente han posicionado a la institución como referente en el interior del país.</p><p>Desde el Gobierno provincial, la ministra ratificó el compromiso de acompañar al sector agropecuario mediante políticas públicas que compensen el déficit de financiamiento nacional. <strong>González enfatizó que La Pampa</strong> seguirá priorizando el apoyo a los productores a través de programas de la Secretaría de Producción, convenios con universidades e iniciativas de innovación tecnológica para fortalecer la competitividad regional.</p><p>El INTA ha sido históricamente un pilar en la generación de conocimiento agrícola en La Pampa, con aportaciones en mejoramiento de cultivos, ganadería sustentable y preservación de recursos naturales. <strong>La visita de González</strong> evidenció la voluntad del ejecutivo provincial de mantener vigente el diálogo con las instituciones científicas nacionales y defender los intereses del sector ante la crisis presupuestaria.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/2654208_img_7425.jpeg"
+        },
+        {
+          "id": "pampa_mundialista",
+          "cat": "Juventud · Tecnología",
+          "titulo": "Arrancó Pampa Mundialista, la plataforma digital del Mundial 2026 creada por Subsecretaría de Juventud",
+          "bajada": "Con el debut de Argentina ante Argelia en la primera fecha del Mundial 2026, comenzó a funcionar Pampa Mundialista. La plataforma digital es una iniciativa de la Subsecretaría de Juventud de La Pampa que ofrece experiencia interactiva gratuita sobre el torneo internacional.",
+          "cuerpo": "<p>Este martes arrancó la <strong>primera fecha de Pampa Mundialista,</strong> una plataforma digital innovadora creada por la Subsecretaría de Juventud de La Pampa para acompañar el Mundial 2026. El lanzamiento coincidió con el debut de Argentina ante Argelia, el primer encuentro del torneo que se juega en Estados Unidos, Canadá y México, ampliando la experiencia competitiva a los jóvenes pampeanos que no pueden asistir presencialmente a los estadios.</p><p>La plataforma está disponible de forma <strong>gratuita en https://pampamundialista.vercel.app/</strong> y ofrece una experiencia de juego interactivo con veinte encuentros simulados que permiten a los usuarios pronosticar resultados, competir contra otros jugadores y seguir el torneo de forma dinámica. Se trata de una iniciativa que busca mantener a la juventud provincial conectada con el espíritu mundialista mientras genera espacios de entretenimiento digital de calidad.</p><p><strong>La Subsecretaría de Juventud</strong> diseñó Pampa Mundialista pensando en acercar a los jóvenes de todo el interior provincial a la experiencia del fútbol global. Además del factor competitivo, la plataforma incluye datos sobre selecciones, jugadores destacados y curiosidades del torneo, educando entretenimiento sobre el deporte más popular de Argentina y el mundo. El acceso es completamente libre y no requiere inscripción compleja.</p><p>Argentina ingresa al Mundial 2026 como <strong>campeón defensor,</strong> habiendo ganado la edición de Qatar 2022 con la icónica actuación de Lionel Messi. La participación de la Subsecretaría de Juventud en la creación de Pampa Mundialista demuestra el compromiso del Gobierno provincial con la inclusión digital y el aprovechamiento de herramientas tecnológicas para fortalecer los vínculos de la juventud con valores deportivos y culturales de importancia global.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/274724_whatsapp-image-2026-06-16-at-08.54.36.jpeg"
+        },
+        {
+          "id": "coro_provincial",
+          "cat": "Cultura · Música",
+          "titulo": "Coro Provincial anuncia conciertos en Anguil y Lonquimay para celebrar fechas patrias",
+          "bajada": "El organismo de la Secretaría de Cultura continúa con su agenda de junio sumándose a los festejos del aniversario de Lonquimay y celebrando el Día de la Bandera en Anguil. El Coro Provincial presentará conciertos en ambas localidades con repertorio tradicional.",
+          "cuerpo": "<p><strong>El Coro Provincial,</strong> organismo dependiente de la Secretaría de Cultura de La Pampa, presentó su programación de conciertos para las próximas fechas de junio. Las apresentaciones buscan acompañar los festejos locales de dos municipios importantes: Anguil, donde celebrará el Día de la Bandera, y Lonquimay, que conmemora su aniversario de fundación. Ambas jornadas incluirán actuaciones musicales que reflejan la identidad cultural provincial.</p><p>La participación del Coro Provincial en estos eventos municipales <strong>refuerza el rol de la Secretaría de Cultura</strong> como articulador de la identidad local y las tradiciones de cada comunidad. El repertorio preparado incluye composiciones clásicas del canon musical argentino, músicas del folclore pampeano y temas que resonarán con el espíritu cívico de cada celebración. Estos conciertos también ofrecen a los músicos de la provincia oportunidades de presentación y conexión con el público del interior.</p><p><strong>Anguil y Lonquimay</strong> son localidades que históricamente han mantenido una relación cercana con las instituciones culturales provinciales. La visita del Coro Provincial consolida lazos comunitarios y demuestra el compromiso del Gobierno con la descentralización cultural, llevando propuestas artísticas de calidad más allá de la capital provincial. La música como expresión de identidad se convierte así en un medio de cohesión social.</p><p>La Secretaría de Cultura invita a toda la comunidad a disfrutar de las presentaciones del Coro Provincial en ambas localidades. Las actuaciones son de carácter gratuito y abierto al público, consolidando la tradición de acceso democrático a la experiencia cultural que caracteriza la gestión provincial en materia de artes y patrimonio.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a314a08748f4.jpg"
+        },
+        {
+          "id": "trail_parque_luro",
+          "cat": "Deportes · Turismo",
+          "titulo": "Más de 300 atletas desafiaron el frío en Trail Desafío de la Reserva Parque Luro",
+          "bajada": "El evento Trail Desafío se realizó en la Reserva Provincial Parque Luro con una participación récord de corredores. La propuesta combinó deporte, naturaleza y turismo en uno de los entornos naturales más emblemáticos de La Pampa.",
+          "cuerpo": "<p>Con una destacada participación de más de 300 atletas, <strong>se realizó el Trail Desafío</strong> en la Reserva Provincial Parque Luro, una iniciativa que consolidó la propuesta de turismo deportivo en La Pampa. Los corredores de toda la provincia se enfrentaron a las bajas temperaturas de junio para completar recorridos de distintas distancias en uno de los espacios naturales más relevantes de la provincia, evidenciando el crecimiento sostenido de este segmento de competencias outdoor en el territorio pampeano.</p><p>La Reserva Provincial Parque Luro es un destino de excelencia para actividades en naturaleza, con senderos que atraviesan ambientes de caldén, fauna nativa y paisajes característicos del monte pampeano. <strong>El Trail Desafío aproveció</strong> esta infraestructura natural para ofrecer experiencias de corrida trail running de diferentes categorías y distancias, permitiendo la participación tanto de atletas de alto rendimiento como de aficionados que buscan conectar con el deporte y la naturaleza de forma integral.</p><p><strong>La confluencia de deporte y turismo</strong> en la Reserva Parque Luro demuestra el potencial de La Pampa para posicionarse como destino de turismo activo en el contexto nacional. Los participantes no solo compitieron sino que también conocieron los valores ambientales de la reserva, sus senderos educativos y su relevancia para la conservación de ecosistemas nativos. Este tipo de eventos genera flujos económicos en la región y promueve la sostenibilidad ambiental.</p><p>El Gobierno provincial ha apostado a fortalecer el turismo deportivo como estrategia de diversificación económica y promoción territorial. <strong>Eventos como Trail Desafío</strong> posicionan a La Pampa como destino atractivo para corredores de toda Argentina, generando visibilidad nacional y consolidando una comunidad de deportistas comprometidos con el cuidado del entorno natural en el que compiten.",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/304996_img-20260614-wa0040.jpg"
+        }
+      ]
+    },
+    {
       "clave": "2026-06-16_manana",
       "fecha_iso": "2026-06-16",
       "fecha": "16 junio 2026",
