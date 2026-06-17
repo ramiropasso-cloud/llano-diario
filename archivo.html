@@ -230,6 +230,19 @@ function renderCorrida(c, q) {
     html += `</div>`;
   }
 
+  // Noticias locales en lista (sec01_list: economia, salud, cultura, obra publica)
+  if ((c.sec01_list||[]).length) {
+    html += `<div class="cards-grid">`;
+    for (const it of c.sec01_list) {
+      html += `<div class="arc-card">
+        <div class="arc-card-cat">${esc(it.cat)}</div>
+        <div class="arc-card-titulo">${hi(esc(it.titulo), q)}</div>
+        <div class="arc-card-resumen">${hi(esc(it.resumen), q)}</div>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
   // También hoy (hero_side)
   if ((c.hero_side||[]).length) {
     html += `<div class="cards-grid">`;
@@ -247,7 +260,11 @@ function renderCorrida(c, q) {
   if ((c.sec03||[]).length) {
     html += `<div class="sec03-grid">`;
     for (const it of c.sec03) {
+      const img = it.foto && it.foto.startsWith('http')
+        ? `<img class="art-img" src="${esc(it.foto)}" alt="" loading="lazy" style="margin-bottom:.4rem;" />`
+        : '';
       html += `<div class="sec03-item">
+        ${img}
         <div class="sec03-cat">${esc(it.cat)}</div>
         <div class="arc-card-titulo">${hi(esc(it.titulo), q)}</div>
       </div>`;
