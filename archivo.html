@@ -137,10 +137,11 @@ function filtrarCorrida(c, q) {
   const matchHero  = textoMatch(c.hero, q);
   const arts       = (c.arts || []).filter(a => textoMatch(a, q));
   const sec01      = (c.sec01 || []).filter(a => textoMatch(a, q));
+  const sec01_list = (c.sec01_list || []).filter(a => textoMatch(a, q));
   const sec03      = (c.sec03 || []).filter(a => textoMatch(a, q));
   const hero_side  = (c.hero_side || []).filter(a => textoMatch(a, q));
-  if (!matchHero && !arts.length && !sec01.length && !sec03.length && !hero_side.length) return null;
-  return { ...c, hero: matchHero ? c.hero : null, arts, sec01, sec03, hero_side };
+  if (!matchHero && !arts.length && !sec01.length && !sec01_list.length && !sec03.length && !hero_side.length) return null;
+  return { ...c, hero: matchHero ? c.hero : null, arts, sec01, sec01_list, sec03, hero_side };
 }
 
 function textoMatch(obj, q) {

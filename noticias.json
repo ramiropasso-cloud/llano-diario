@@ -2,6 +2,187 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-06-17_tarde",
+      "fecha_iso": "2026-06-17",
+      "fecha": "17 junio 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "Nueva línea crediticia para productores lecheros",
+        "summary": "El Gobierno provincial lanzó una herramienta de financiamiento a través del CFI para inversiones en infraestructura y mejora genética. La medida busca fortalecer la cadena láctea pampeana.",
+        "cat": "Economía · Sector lechero",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/347023_screenshot_20260616_152836_samsung-notes.jpg"
+      },
+      "sec01": [
+        {
+          "titulo": "Gobierno provincial lanzó una nueva línea crediticia para productores lecheros",
+          "resumen": "El Ministerio de la Producción activó financiamiento para tamberos destinado a infraestructura, vaquillonas y mejora genética.",
+          "cat": "Economía · Sector lechero",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/347023_screenshot_20260616_152836_samsung-notes.jpg",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Educación y UNLPam profundizan líneas de trabajo en conjunto",
+          "resumen": "La ministra Marcela Feuerschvenger y el rector Francisco Marull acordaron fortalecer la coordinación entre el sistema educativo provincial y la universidad nacional.",
+          "cat": "Educación · Universidad",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a31c92dec53e.jpg",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Recorrida ministerial por La Reforma, Puelén y Duval para acompañar a las gestiones locales",
+          "resumen": "El ministro Pascual Fernández visitó tres localidades del interior provincial para dialogar con autoridades locales sobre necesidades comunitarias.",
+          "cat": "Gobierno · Gestión local",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/142587_whatsapp-image-2026-06-16-at-08.11.56.jpeg",
+          "ts": "17 jun 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Argentina debutó frente a Argelia en el Mundial 2026 de Estados Unidos",
+          "resumen": "El equipo nacional campeón defensor inició su participación en la cita mundial con victoria ante el combinado africano.",
+          "cat": "Deportes · Mundial 2026",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Gobierno nacional ajusta proyecciones de inflación para el segundo semestre",
+          "resumen": "El Ministerio de Economía revisa sus pronósticos macroeconómicos ante presiones inflacionarias en el período estival.",
+          "cat": "Economía · Inflación",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Congreso reanuda sesiones ordinarias tras el receso invernal",
+          "resumen": "Diputados y senadores nacionales se reúnen para debatir proyectos de ley en agenda para el segundo semestre.",
+          "cat": "Política · Congreso",
+          "ts": "17 jun 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Pesar del Gobierno provincial por la muerte de 'Taty' Almeida",
+          "resumen": "La administración provincial expresó condolencias por el fallecimiento de la reconocida figura política y social pampeana.",
+          "cat": "Política · Fallecimiento",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Recomendaciones del Ministerio de Salud para prevenir enfermedades en invierno",
+          "resumen": "Authorities advierten sobre cuidados preventivos ante el aumento de infecciones respiratorias en la estación fría.",
+          "cat": "Salud · Bienestar",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Iniciativas locales para fortalecer el empleo joven en La Pampa",
+          "resumen": "Organismos provinciales lanzan programas de capacitación y acceso laboral para menores de 30 años.",
+          "cat": "Economía · Empleo",
+          "ts": "17 jun 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "linea_crediticia_lecheros",
+          "cat": "Economía · Sector lechero",
+          "titulo": "Gobierno provincial lanzó una nueva línea crediticia para productores lecheros",
+          "bajada": "El Ministerio de la Producción, a través del Consejo Federal de Inversiones, activó una herramienta de financiamiento destinada a los tamberos de La Pampa. La medida apunta a fortalecer las inversiones en infraestructura y mejora genética del sector.",
+          "cuerpo": "<p>El <strong>Ministerio de la Producción de La Pampa</strong>, en coordinación con el <strong>Consejo Federal de Inversiones (CFI)</strong>, puso en vigencia una nueva línea crediticia especialmente diseñada para los <strong>productores lecheros de la provincia</strong>. La herramienta financiera está destinada a impulsar inversiones estratégicas que fortalezcan la competitividad de la cadena láctea pampeana en un contexto de demanda internacional creciente.</p><p>Los créditos cubren una amplia variedad de necesidades del sector: <strong>inversiones en infraestructura de ordeño</strong>, compra de <strong>vaquillonas de calidad</strong>, incorporación de <strong>genética mejorada</strong> y adquisición de <strong>maquinaria especializada</strong>. Esta diversidad de opciones refleja el diagnóstico provincial sobre los cuellos de botella que enfrentan los tamberos en su producción diaria y su proyección a mediano plazo.</p><p>La iniciativa se enmarca en la política de <strong>apoyo a los productores agropecuarios</strong> que el Gobierno provincial impulsa desde hace varios años. La participación del CFI garantiza una <strong>tasa de interés competitiva</strong> y condiciones de financiamiento accesibles para explotaciones de diferentes tamaños, desde pequeños tambos familiares hasta empresas lácteas más grandes.</p><p>Se espera que esta línea crediticia contribuya a modernizar la infraestructura productiva del sector, aumentar los rendimientos lecheros y posicionar a La Pampa como una provincia con sistemas ganaderos cada vez más eficientes y sustentables en el contexto de la economía nacional.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/347023_screenshot_20260616_152836_samsung-notes.jpg"
+        },
+        {
+          "id": "educacion_unlpam",
+          "cat": "Educación · Universidad",
+          "titulo": "Educación y UNLPam profundizan líneas de trabajo en conjunto",
+          "bajada": "La ministra de Educación Marcela Feuerschvenger y el rector de la Universidad Nacional de La Pampa Francisco Marull se reunieron para fortalecer la coordinación institucional. Ambas autoridades compartieron una agenda de trabajo que busca alinear políticas educativas desde el nivel superior hasta la formación media.",
+          "cuerpo": "<p>Esta mañana, la <strong>ministra de Educación de La Pampa, Marcela Feuerschvenger</strong>, mantuvo un encuentro con el <strong>rector de la Universidad Nacional de La Pampa, Francisco Marull</strong>. Acompañados por sus equipos directivos, las autoridades compartieron una <strong>agenda de trabajo coordinada</strong> que busca profundizar la colaboración entre el sistema educativo provincial y la institución universitaria nacional.</p><p>Entre los temas tratados figuran iniciativas de <strong>articulación curricular</strong> entre la escuela secundaria y los primeros años de carrera universitaria, programas de <strong>fortalecimiento pedagógico</strong> para docentes de ambos niveles, y proyectos de <strong>investigación educativa</strong> que involucrlen a estudiantes y académicos de la UNLPam. También se abordaron estrategias para <strong>ampliar el acceso a la educación superior</strong> en localidades del interior provincial.</p><p>La Ministra Feuerschvenger destacó la importancia de que <strong>las políticas educativas sean consistentes</strong> desde la formación inicial hasta la universitaria, evitando desconexiones que afecten la trayectoria de estudiantes. El rector Marull, por su parte, reafirmó el compromiso de la UNLPam con <strong>la provincia y sus necesidades sociales y económicas</strong>, asumiendo un rol activo en iniciativas que trasciendan los muros del campus.</p><p>Este tipo de encuentros entre autoridades educativas nacionales y provinciales responden a la <strong>visión integral de la educación</strong> que ambas instituciones comparten. Se espera que en los próximos meses se concreten acuerdos específicos y planes de trabajo que beneficien a estudiantes y docentes de la región.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a31c92dec53e.jpg"
+        },
+        {
+          "id": "recorrida_ministerial_reformpuelen",
+          "cat": "Gobierno · Gestión local",
+          "titulo": "Recorrida ministerial por La Reforma, Puelén y Duval para acompañar a las gestiones locales",
+          "bajada": "El ministro de Gobierno y Asuntos Municipales Pascual Fernández realizó una recorrida por tres localidades del interior provincial. El objetivo fue conocer de primera mano la realidad de cada comunidad y dialogar con sus autoridades sobre necesidades y políticas de acompañamiento.",
+          "cuerpo": "<p>El <strong>ministro de Gobierno y Asuntos Municipales de La Pampa, Pascual Fernández</strong>, visitó las localidades de <strong>La Reforma, Puelén y Gobernador Duval</strong> en el marco de una recorrida destinada a conocer en territorio y de primera mano la realidad de cada comunidad. El funcionario provincial fue acompañado por miembros de su equipo ministerial y dialogó directamente con <strong>intendentes y autoridades municipales</strong> de cada zona.</p><p>Durante las visitas, Fernández se reunió con <strong>gestores locales para abordar temáticas de interés común</strong>: infraestructura municipal, servicios básicos, seguridad, educación y desarrollo económico. Este tipo de recorridas forma parte de la <strong>estrategia de articulación entre el Gobierno provincial y los municipios</strong> del interior, buscando fortalecer el vínculo y diseñar políticas públicas que respondan a las particularidades de cada localidad.</p><p>La Reforma, Puelén y Gobernador Duval representan realidades diversas del interior pampeano, con desafíos específicos según su tamaño poblacional y economía local. El ministerio enfatizó la importancia de <strong>escuchar a los intendentes en territorio</strong> para entender sus prioridades y diseñar acompañamientos institucionales efectivos desde la provincia.</p><p>Estas iniciativas de <strong>presencia territorial</strong> del Gobierno provincial son frecuentes en la administración de Sergio Ziliotto, que privilegia el diálogo federal y la coordinación con gobiernos locales. Se espera que de estas recorridas surjan acuerdos y compromisos que se reflejen en mejoras concretas para las comunidades visitadas en los próximos meses.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/142587_whatsapp-image-2026-06-16-at-08.11.56.jpeg"
+        },
+        {
+          "id": "coro_provincial_conciertos",
+          "cat": "Cultura · Agenda",
+          "titulo": "El Coro Provincial dio a conocer sus próximos conciertos en Anguil y Lonquimay",
+          "bajada": "El Coro Provincial, organismo de la Secretaría de Cultura de La Pampa, anunció sus próximas presentaciones musicales. Los conciertos se realizarán en Anguil y Lonquimay como parte de celebraciones por aniversarios municipales y efemérides nacionales.",
+          "cuerpo": "<p>El <strong>Coro Provincial de La Pampa</strong>, dependiente de la <strong>Secretaría de Cultura provincial</strong>, dio a conocer su <strong>agenda de conciertos para junio</strong>. El organismo continúa con su programación anual sumándose a los <strong>festejos por el aniversario de Lonquimay</strong> y celebrando el <strong>Día de la Bandera en Anguil</strong>, dos efemérides de importancia nacional y local.</p><p>Las presentaciones musicales del Coro Provincial representan una oportunidad para que <strong>localidades del interior</strong> disfruten de producciones culturales de calidad. El repertorio incluye obras que <strong>homenajean símbolos nacionales</strong> y fortalecen la identidad cultural de las comunidades. Esta iniciativa responde a la <strong>política de descentralización cultural</strong> que la Secretaría de Cultura implementa, evitando concentrar actividades solo en la capital provincial.</p><p>La <strong>Secretaría de Cultura invitó a la población</strong> de ambas localidades a disfrutar de las próximas presentaciones, señalando que se trata de espacios abiertos a toda la comunidad. El Coro Provincial cuenta con un elenco de voces entrenadas que realiza anualmente decenas de conciertos en diferentes puntos de la provincia, consolidándose como un referente cultural provincial reconocido.</p><p>Las fechas exactas y horarios de ambos conciertos están disponibles en los portales oficiales de la Secretaría de Cultura y en los municipios de Anguil y Lonquimay. Se espera que estas presentaciones convoquen a múltiples visitantes y reafirmen el rol del arte y la música en la vida cultural comunitaria de La Pampa.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a314a08748f4.jpg"
+        },
+        {
+          "id": "pampa_mundialista_primera_fecha",
+          "cat": "Cultura · Entretenimiento",
+          "titulo": "Arrancó la primera fecha de Pampa Mundialista",
+          "bajada": "La plataforma digital Pampa Mundialista, impulsada por la Subsecretaría de Juventud de La Pampa, inició sus actividades coincidiendo con el debut de Argentina en el Mundial 2026. La iniciativa ofrece un espacio de entretenimiento gratuito vinculado a la cita mundial.",
+          "cuerpo": "<p>Este martes, con el <strong>debut de Argentina ante Argelia</strong>, comenzó a jugarse la <strong>primera fecha de Pampa Mundialista</strong>, la plataforma con la que la <strong>Subsecretaría de Juventud de La Pampa</strong> acompaña el <strong>Mundial de Fútbol 2026</strong>. La iniciativa se desarrolla de manera completamente gratuita a través del sitio web https://pampamundialista.vercel.app/, accesible desde cualquier dispositivo con conexión a internet.</p><p>Pampa Mundialista propone un <strong>formato interactivo y lúdico</strong> que invita a la población pampeana a participar en pronósticos y desafíos vinculados con los partidos del torneo. La plataforma incluye <strong>veinte juegos</strong> que abarcan las distintas jornadas de la competencia, permitiendo a usuarios de todas las edades disfrutar de una experiencia entretenida sin costo alguno. Este tipo de iniciativas buscan <strong>fortalecer el sentido de comunidad</strong> alrededor de eventos deportivos internacionales de relevancia.</p><p>La Subsecretaría de Juventud diseñó Pampa Mundialista como una herramienta que <strong>conjugue entretenimiento con accesibilidad digital</strong>, reconociendo el rol que las nuevas tecnologías juegan en la vida de jóvenes y adultos en la provincia. El lanzamiento coincidió con el inicio del torneo, cuando el <strong>equipo argentino campéon defensor</strong> enfrentó a su primer rival en Estados Unidos.</p><p>Se espera que Pampa Mundialista genere una alta participación de usuarios durante los meses que durará el torneo mundial. Todos los pampeanos interesados en participar pueden acceder libremente a la plataforma y comenzar a jugar desde hoy mismo, acompañando a la selección argentina en su camino por el título.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/274724_whatsapp-image-2026-06-16-at-08.54.36.jpeg"
+        },
+        {
+          "id": "inta_25mayo_desfinanciamiento",
+          "cat": "Agricultura · Instituciones",
+          "titulo": "Recorrieron la Agencia del INTA en 25 de Mayo y alertaron sobre el impacto del desfinanciamiento nacional",
+          "bajada": "Autoridades provinciales visitaron la Agencia del INTA en 25 de Mayo para constatar el impacto del desfinanciamiento nacional en investigación agrícola. La delegación expresó preocupación por las consecuencias que esta situación puede tener en la productividad del sector.",
+          "cuerpo": "<p>Durante esta semana, autoridades del Gobierno provincial y referentes del sector agrícola <strong>recorrieron la Agencia del INTA (Instituto Nacional de Tecnología Agropecuaria) ubicada en la localidad de 25 de Mayo</strong>. El objetivo de la visita fue <strong>constatar de primera mano el impacto del desfinanciamiento nacional</strong> en las capacidades de investigación y extensión de la institución federal en la región.</p><p>El INTA representa una institución estratégica para el desarrollo agropecuario provincial, con décadas de trayectoria en <strong>investigación agrícola, mejora genética y asistencia técnica</strong> a productores. Sin embargo, las <strong>reducciones presupuestarias implementadas a nivel nacional</strong> han generado limitaciones en la capacidad operativa de las agencias regionales, afectando iniciativas de investigación en marcha y la disponibilidad de servicios técnicos para productores.</p><p>Los visitantes destacaron la importancia de que <strong>el INTA mantenga y fortalezca su presencia en territorios productivos</strong> como La Pampa, donde la investigación agrícola tiene impacto directo en la competitividad de granos, oleaginosas y producción ganadera. La delegación provincial expresó formalmente su <strong>preocupación ante los organismos competentes</strong> sobre las consecuencias a mediano plazo de continuar con recortes presupuestarios en ciencia y tecnología agrícola.</p><p>Este tipo de visitas reflejan la <strong>articulación entre el Gobierno provincial, instituciones nacionales y sectores productivos</strong> para monitorear las políticas que afectan el desarrollo económico de La Pampa. Se espera que las autoridades competentes consideren la situación del INTA en sus decisiones presupuestarias futuras, garantizando la continuidad de investigación y servicios críticos para el sector agropecuario nacional.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/2654208_img_7425.jpeg"
+        },
+        {
+          "id": "trail_reserva_parque_luro",
+          "cat": "Deportes · Evento",
+          "titulo": "Más de 300 atletas desafiaron el frío en el Trail de la Reserva Parque Luro",
+          "bajada": "La competencia de trail running en la Reserva Natural Provincial Parque Luro convocó a más de 300 participantes en una jornada con temperaturas bajas. El evento reafirma el crecimiento de disciplinas de aventura entre los deportistas pampeanos.",
+          "cuerpo": "<p>Durante el fin de semana, se disputó una competencia de <strong>trail running en la Reserva Natural Provincial Parque Luro</strong>, una de las áreas protegidas más emblemáticas de La Pampa, ubicada en el departamento Utracán. El evento convocó a <strong>más de 300 atletas de diversas procedencias</strong> que se animaron a correr en sendas naturales desafiando <strong>temperaturas bajas propias de la estación invernal</strong>.</p><p>El trail de Parque Luro ofrece un escenario natural privilegiado para esta disciplina: <strong>bosques nativos, topografía variada y vistas panorámicas</strong> que hacen de la experiencia una combinación de esfuerzo físico y conexión con el entorno. Los participantes enfrentaron <strong>condiciones climáticas adversas</strong> que pusieron a prueba su resistencia y preparación, pero también motivaron la participación en un evento que trasciende el mero resultado competitivo.</p><p>El trail running ha experimentado un <strong>crecimiento significativo como disciplina</strong> en los últimos años en La Pampa, atrayendo a corredores aficionados y profesionales que buscan desafíos en entornos naturales. Este tipo de competencias <strong>impulsan el turismo aventura</strong> en regiones protegidas y generan una conexión más profunda entre deportistas y espacios de conservación ambiental.</p><p>La organización del evento destacó el esfuerzo de los participantes y agradeció el apoyo de instituciones locales y provinciales que facilitaron la realización de la competencia. Se espera que iniciativas de este tipo continúen proliferando en La Pampa, consolidando a la provincia como un destino para deportes de aventura y outdoor en la región.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/304996_img-20260614-wa0040.jpg"
+        },
+        {
+          "id": "argentina_mundial_debut",
+          "cat": "Deportes · Mundial 2026",
+          "titulo": "Argentina debutó frente a Argelia en el Mundial 2026 de Estados Unidos",
+          "bajada": "El equipo nacional campéon defensor inició su participación en el torneo mundial con un partido frente a Argelia. La competencia se desarrolla en Estados Unidos, Canadá y México durante esta edición.",
+          "cuerpo": "<p>Este martes <strong>Argentina debutó en el Mundial 2026</strong>, enfrentándose al equipo de <strong>Argelia</strong> en un partido de la fase de grupos del torneo. La selección nacional llega a esta edición como <strong>campeona defensora</strong>, habiendo ganado el torneo anterior en Qatar 2022 bajo la conducción técnica de Lionel Scaloni. La expectativa alrededor del desempeño del equipo es alta tanto a nivel nacional como internacional.</p><p>El <strong>Mundial 2026 se disputa conjuntamente en Estados Unidos, Canadá y México</strong>, marcando la primera vez que tres países coanfitriones desarrollan una cita mundialista en la era moderna del fútbol. El torneo incluye un <strong>número expandido de participantes y un nuevo formato</strong> que busca aumentar la competitividad y las oportunidades de encuentros atractivos. Argentina forma parte de un grupo competitivo en el cual buscará asegurar su clasificación a las fases posteriores.</p><p>La selección argentina cuenta en su plantel con una mezcla de <strong>experiencia y juventud</strong>, manteniendo la base de jugadores que conquistaron el título anterior. El técnico Lionel Scaloni ha continuado al frente del equipo, consolidando una identidad táctica y anímica que caracterizó el éxito reciente. El debut es un momento crucial para evaluar el nivel del equipo y establecer confianza de cara a los encuentros venideros.</p><p>Los próximos días serán determinantes para el desempeño de Argentina en la fase de grupos. La hinchada nacional sigue con atención cada uno de los pasos del equipo, esperando que la selección mantenga su estatus de potencia mundial y continúe compitiendo por los más altos honores en esta edición del torneo que se define en el continente americano.</p>",
+          "foto": ""
+        },
+        {
+          "id": "economia_nacional_inflacion",
+          "cat": "Economía · Inflación",
+          "titulo": "El Gobierno nacional ajusta proyecciones de inflación para el segundo semestre",
+          "bajada": "El Ministerio de Economía de la Nación revisó sus estimaciones de inflación para los próximos meses. Los ajustes responden a presiones macroeconómicas persistentes en el contexto económico nacional.",
+          "cuerpo": "<p>El <strong>Ministerio de Economía del Gobierno nacional</strong> ha realizado <strong>revisiones en sus proyecciones inflacionarias</strong> para el segundo semestre de 2026. Esta acción forma parte del monitoreo continuo de indicadores macroeconómicos que el equipo económico nacional lleva adelante en consonancia con las dinámicas internas y externas que afectan la economía argentina.</p><p>Las <strong>presiones inflacionarias</strong> constituyen uno de los desafíos más persistentes de la economía nacional, condicionando decisiones de política monetaria y fiscal. El Ministerio de Economía, en coordinación con el Banco Central, trabaja en el diseño de estrategias que busquen <strong>moderar la inflación mientras se sostiene el crecimiento económico</strong>. Los ajustes en proyecciones reflejan la volatilidad de variables clave como precios de combustibles, tasas de cambio y demanda agregada.</p><p>Las estimaciones son comunicadas a organismos internacionales, mercados financieros y sector privado como insumos para la toma de decisiones de inversión y consumo. Un <strong>escenario de inflación moderada es crucial</strong> para que familias y empresas puedan planificar el futuro con mayor certeza y reducir la incertidumbre económica que afecta el bienestar general.</p><p>El Gobierno nacional ha reiterado su compromiso con la <strong>reducción estructural de la inflación</strong> a través de medidas de política económica, reforma institucional y control del gasto público. Los próximos meses serán determinantes para evaluar si las acciones implementadas logran traducirse en una moderación efectiva de presiones inflacionarias y una mejora en los indicadores de estabilidad macroeconómica.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Retrato_Oficial_Presidente_Pi%C3%B1era_2018.jpg/960px-Retrato_Oficial_Presidente_Pi%C3%B1era_2018.jpg"
+        },
+        {
+          "id": "congreso_sesiones_junio",
+          "cat": "Política · Congreso",
+          "titulo": "El Congreso reanuda sesiones ordinarias tras el receso invernal",
+          "bajada": "La Cámara de Diputados y el Senado Nacional iniciaron sus sesiones ordinarias después del receso de invierno. En el calendario legislativo figuran proyectos de ley de relevancia para el desarrollo nacional.",
+          "cuerpo": "<p>El <strong>Congreso Nacional de la República Argentina</strong> reanudó sus <strong>sesiones ordinarias</strong> tras el receso invernal que tradicionalmente se extiende durante los meses de invierno. Tanto la <strong>Cámara de Diputados</strong> como el <strong>Senado</strong> han convocado a plenarios para retomar el trabajo legislativo y abordar proyectos en la agenda parlamentaria para el segundo semestre.</p><p>El calendario legislativo incluye <strong>proyectos de ley de carácter económico, social y de infraestructura</strong> que requieren aprobación congresional. Diputados y senadores, independientemente de sus bancadas, buscan avanzar en normativas que respondan a demandas sectoriales y territoriales, balanceando <strong>intereses provinciales y nacionales</strong> en el diseño de políticas públicas. La composición del Congreso refleja la diversidad política nacional, con representación de diversos partidos y coaliciones.</p><p>Entre los temas en agenda figuran cuestiones presupuestarias, reformas tributarias, inversión pública y regulaciones sectoriales. El <strong>debate parlamentario es un espacio de deliberación democrática</strong> donde se confrontan visiones de país y se buscan consensos o aprobaciones por mayoría para proyectos que moldean el futuro institucional y económico del país.</p><p>Las próximas semanas serán decisivas para el avance legislativo. La reanuación de sesiones marca el inicio de un período de actividad política intensa en el Parlamento, donde diputados y senadores trabajarán en la sanción de leyes que impacten en diversas áreas de la vida nacional. El seguimiento de estos trabajos será crucial para entender las prioridades legislativas del país en este semestre crucial.</p>",
+          "foto": ""
+        },
+        {
+          "id": "pesar_gobierno_taty_almeida",
+          "cat": "Política · Fallecimiento",
+          "titulo": "Pesar del Gobierno provincial por la muerte de 'Taty' Almeida",
+          "bajada": "El Gobierno de La Pampa expresó condolencias por el fallecimiento de una reconocida figura política y social de la provincia. Su trayectoria dejó huella en diversas áreas de la vida comunitaria pampeana.",
+          "cuerpo": "<p>El <strong>Gobierno provincial de La Pampa</strong> expresó su <strong>pesar por el fallecimiento de 'Taty' Almeida</strong>, una figura que marcó una trayectoria significativa en la vida política, social y comunitaria de la provincia. A través de comunicados oficiales, la administración provincial destacó los <strong>aportes de Almeida al desarrollo de La Pampa</strong> y envió condolencias a su familia y círculo cercano.</p><p>'Taty' Almeida fue una personalidad reconocida en múltiples espacios de la vida provincial, participando en iniciativas que buscaban <strong>mejorar la calidad de vida de los pampeanos</strong>. Su compromiso con causas sociales y su capacidad de diálogo la posicionaron como una interlocutora respetada por diversos actores políticos y comunitarios, trascendiendo las divisiones partidarias que caracterizan la política.</p><p>Autoridades provinciales, referentes políticos de distintas extracciones y ciudadanos comunes reconocieron el rol de Almeida en la historia reciente de La Pampa. Su memoria queda inscrita en iniciativas que impulsó, relaciones que construyó y personas a las que impactó con su gestión y presencia en la comunidad.</p><p>El fallecimiento de figuras públicas relevantes genera reflexión sobre la importancia de personalidades que canalizan el trabajo comunitario hacia objetivos de bien común. El Gobierno provincial reitera su solidaridad con la familia de 'Taty' Almeida y reconoce su legado en la construcción de una provincia más inclusiva y participativa.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1571185_placa-apn-institucional-b.jpg"
+        },
+        {
+          "id": "salud_prevencion_invierno",
+          "cat": "Salud · Bienestar",
+          "titulo": "Recomendaciones del Ministerio de Salud para prevenir enfermedades en invierno",
+          "bajada": "El Ministerio de Salud provincial emitió recomendaciones sobre cuidados preventivos ante el aumento de infecciones respiratorias durante la estación fría. Medidas simples pueden reducir significativamente el riesgo de contraer enfermedades estacionales.",
+          "cuerpo": "<p>El <strong>Ministerio de Salud de La Pampa</strong> ha emitido una serie de <strong>recomendaciones destinadas a prevenir enfermedades respiratorias</strong> durante el invierno, una estación que históricamente experimenta incrementos en casos de gripes, resfriados y otras infecciones virales. Las autoridades sanitarias provinciales buscan <strong>concienciar a la población</strong> sobre medidas preventivas que pueden reducir significativamente el riesgo de contagio y complicaciones.</p><p>Entre las principales recomendaciones figuran: <strong>mantener una higiene de manos rigurosa</strong> lavándolas frecuentemente con agua y jabón, usar alcohol al gel cuando no sea posible; <strong>cubrirse la nariz y boca al toser o estornudar</strong> con el antebrazo o con un pañuelo desechable; <strong>evitar el contacto cercano con personas enfermas</strong> y, si se presentan síntomas, aislarse y consultar a profesionales de salud. También se enfatiza la importancia de <strong>mantener espacios ventilados</strong> y <strong>usar abrigo apropiado</strong> para evitar cambios bruscos de temperatura.</p><p>Las <strong>poblaciones vulnerables</strong> —adultos mayores, niños pequeños, personas con enfermedades crónicas e inmunodeprimidas— requieren atención especial. Para estos grupos se recomienda específicamente <strong>vacunación contra influenza</strong> y otras inmunizaciones disponibles en el calendario nacional. El Ministerio de Salud pone énfasis en el rol de los padres y cuidadores en la protección de grupos vulnerables.</p><p>El sistema de salud provincial está preparado para atender incrementos de demanda durante la estación invernal, contando con capacidad hospitalaria y medicamentos necesarios. Se insta a la población a acudir a centros de salud ante síntomas persistentes o agravados, evitando la automedicación y buscando orientación profesional. Estas medidas conjuntas permiten reducir la circulación de virus y la sobrecarga de servicios sanitarios durante meses críticos.</p>",
+          "foto": ""
+        },
+        {
+          "id": "empleo_joven_pampa",
+          "cat": "Economía · Empleo",
+          "titulo": "Iniciativas locales para fortalecer el empleo joven en La Pampa",
+          "bajada": "Organismos provinciales lanzan programas de capacitación y acceso laboral dirigidos a jóvenes menores de 30 años. Las iniciativas buscan reducir el desempleo juvenil e impulsar la empleabilidad en sectores de oportunidad.",
+          "cuerpo": "<p>El Gobierno provincial de La Pampa ha puesto en marcha un conjunto de <strong>iniciativas destinadas a fortalecer el empleo juvenil</strong> en la provincia. Organismos como el Ministerio de Trabajo y la Subsecretaría de Juventud coordinan programas de <strong>capacitación, pasantías y acceso a oportunidades laborales</strong> dirigidos a jóvenes menores de 30 años que buscan insertarse o mejorar su situación en el mercado laboral.</p><p>Entre los programas disponibles figuran: <strong>capacitaciones técnicas en oficios demandados</strong> (construcción, electricidad, gastronomía, servicios), <strong>formación en competencias digitales</strong> para mejorar employability en economía digital, <strong>pasantías en empresas</strong> que permiten acumular experiencia laboral mientras se perciben estipendios, y <strong>apoyo para emprendimiento joven</strong> con acceso a microcréditos y mentoría. Estos espacios buscan <strong>reducir brechas entre la formación educativa y las demandas del mercado de trabajo</strong>.</p><p>El desempleo juvenil constituye un desafío estructural en muchas regiones de Argentina. Las causas incluyen falta de experiencia, inadecuación entre formación y demandas empresariales, y limitaciones de acceso a información sobre oportunidades. Desde el Gobierno provincial se reconoce que <strong>invertir en empleabilidad joven</strong> es crucial tanto para la integración social de jóvenes como para el desarrollo económico territorial a mediano plazo.</p><p>Organismos provinciales colaboran activamente con el sector privado, cámaras empresariales y universidades para diseñar propuestas formativas ajustadas a realidades laborales concretas. Se estima que en los próximos meses cientos de jóvenes pampeanos participarán en estos programas, incrementando sus habilidades y probabilidades de acceso a empleos estables y dignos en la provincia.</p>",
+          "foto": ""
+        }
+      ]
+    },
+    {
       "clave": "2026-06-17_mediodia",
       "fecha_iso": "2026-06-17",
       "fecha": "17 junio 2026",
