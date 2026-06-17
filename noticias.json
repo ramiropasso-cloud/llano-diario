@@ -2,6 +2,115 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-06-17_manana",
+      "fecha_iso": "2026-06-17",
+      "fecha": "17 junio 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "Nueva línea crediticia para productores lecheros de La Pampa",
+        "summary": "El Ministerio de Producción lanzó una herramienta financiera del CFI destinada a tamberos pampeanos. Financia infraestructura, genética y maquinaria con tasas competitivas.",
+        "cat": "Economía · Producción",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/347023_screenshot_20260616_152836_samsung-notes.jpg"
+      },
+      "sec01": [
+        {
+          "titulo": "Nueva línea crediticia para productores lecheros de La Pampa",
+          "resumen": "El Ministerio de Producción puso en vigencia una nueva línea del CFI destinada a tamberos para inversiones en infraestructura y genética.",
+          "cat": "Economía · Producción",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/347023_screenshot_20260616_152836_samsung-notes.jpg",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Educación y UNLPam profundizan líneas de trabajo conjunto",
+          "resumen": "La ministra Marcela Feuerschvenger se reunió con el rector Francisco Marull para coordinar agenda compartida entre ambas instituciones.",
+          "cat": "Educación · Política provincial",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a31c92dec53e.jpg",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Pascual Fernández recorre La Reforma, Puelén y Duval para acompañar gestiones locales",
+          "resumen": "El ministro de Gobierno visitó tres localidades en recorrida para conocer de primera mano la realidad de cada comunidad.",
+          "cat": "Política provincial · Municipios",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/142587_whatsapp-image-2026-06-16-at-08.11.56.jpeg",
+          "ts": "17 jun 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Argentina debuta en el Mundial 2026 frente a Argelia en Estados Unidos",
+          "resumen": "La selección argentina, campeona defensor tras Qatar 2022, inicia su participación en el torneo internacional que se disputará en Estados Unidos, Canadá y México.",
+          "cat": "Política nacional · Deportes",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Diputados y Senadores retoman sesiones ordinarias en el Congreso Nacional",
+          "resumen": "Las cámaras legislativas continúan con su agenda de proyectos mientras el ejecutivo avanza con reformas estructurales.",
+          "cat": "Política nacional · Poder Legislativo",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Indicadores económicos muestran evolución en contexto de estabilización de precios",
+          "resumen": "La economía nacional continúa en proceso de ajuste con atención en el comportamiento del dólar y la inflación mensual.",
+          "cat": "Economía nacional · Inflación",
+          "ts": "17 jun 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Pampa Mundialista: plataforma gratuita de juego para vivir el Mundial",
+          "resumen": "La Subsecretaría de Juventud lanzó la plataforma interactiva con 20 encuentros para que los pampeanos sigan el torneo.",
+          "cat": "Deportes · Entretenimiento",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Argentina comienza su camino en el Mundial 2026 con debut frente a Argelia",
+          "resumen": "La selección campeona defensora busca consolidar su dominio en el torneo disputado en Estados Unidos, Canadá y México.",
+          "cat": "Política nacional · Argentina",
+          "ts": "17 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gobierno provincial alerta sobre desfinanciamiento nacional del INTA",
+          "resumen": "Autoridades visitaron la agencia en 25 de Mayo y expresaron preocupación por el impacto en proyectos de investigación agrícola.",
+          "cat": "Agricultura · Investigación",
+          "ts": "17 jun 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "linea_crediticia_lecheros",
+          "cat": "Economía · Producción",
+          "titulo": "Nueva línea crediticia para productores lecheros de La Pampa",
+          "bajada": "El Ministerio de Producción puso en vigencia una herramienta financiera destinada a tamberos pampeanos. La línea del CFI financia inversiones en infraestructura, compra de vaquillonas, genética y maquinaria.",
+          "cuerpo": "<p>El <strong>Ministerio de la Producción</strong> de La Pampa, a través del <strong>Consejo Federal de Inversiones (CFI)</strong>, activó una nueva línea crediticia diseñada específicamente para los productores tamberos de la provincia. Esta herramienta financiera representa un apoyo estratégico para un sector que históricamente ha impulsado la economía pampeana y que requiere inversiones permanentes en tecnología y modernización.</p><p>La línea financia <strong>inversiones en infraestructura de ordeño, compra de vaquillonas de calidad, mejora genética del rodeo y adquisición de maquinaria especializada</strong>. Se trata de rubros clave para incrementar la productividad y competitividad de los tambos, permitiendo que productores con diferentes escalas de operación accedan a crédito en condiciones competitivas. El financiamiento busca fortalecer la cadena láctea provincial en contextos de volatilidad de precios internacionales.</p><p>La puesta en vigencia de esta línea responde a una <strong>política provincial de apoyo al sector agropecuario</strong>, que busca mantener la actividad productiva como motor de empleo y desarrollo territorial. Los interesados en acceder al crédito podrán consultar los requisitos y plazos directamente en las oficinas del CFI y del Ministerio de Producción en Santa Rosa.</p><p>Esta iniciativa se suma a otras medidas de apoyo que el gobierno provincial ha implementado en los últimos meses para fortalecer la producción láctea, un pilar fundamental de la economía pampeana que exporta lácteos a mercados de América Latina y genera cientos de empleos directos e indirectos en territorios rurales.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/347023_screenshot_20260616_152836_samsung-notes.jpg"
+        },
+        {
+          "id": "educacion_unlpam_trabajo",
+          "cat": "Educación · Política provincial",
+          "titulo": "Educación y UNLPam profundizan líneas de trabajo conjunto",
+          "bajada": "La ministra Marcela Feuerschvenger y el rector Francisco Marull se reunieron para coordinar una agenda compartida. Ambas instituciones buscan alinear políticas de capacitación y acceso a la educación superior.",
+          "cuerpo": "<p>Esta mañana, la <strong>ministra de Educación de La Pampa, Marcela Feuerschvenger</strong>, mantuvo un encuentro de trabajo con el <strong>rector de la Universidad Nacional de La Pampa (UNLPam), Francisco Marull</strong>. Acompañados por sus equipos técnicos, ambas autoridades compartieron una <strong>agenda de trabajo colaborativo</strong> orientada a fortalecer la articulación entre la educación secundaria y la educación superior en la provincia.</p><p>Durante la reunión se abordaron líneas estratégicas para mejorar la <strong>transición de estudiantes hacia la universidad</strong>, así como iniciativas de <strong>capacitación docente y acceso a tecnología</strong> en instituciones educativas pampeanas. La coordinación entre el Ministerio de Educación provincial y UNLPam resulta fundamental para asegurar que los jóvenes tengan continuidad en su trayectoria formativa y que las políticas educativas respondan a las necesidades reales del territorio.</p><p>El encuentro refleja una <strong>voluntad política de trabajo integrado</strong> entre instituciones que comparten la responsabilidad de formar recursos humanos capacitados. En contextos de transformaciones tecnológicas y económicas, la sinergia entre educación media y superior permite anticipar demandas de competencias y orientar mejor la formación de estudiantes.</p><p>Ambas instituciones continuarán los diálogos en próximas reuniones para concretar acuerdos específicos en materia de becas, extensión universitaria y transferencia de conocimiento hacia comunidades locales, elementos clave para el desarrollo provincial a mediano plazo.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a31c92dec53e.jpg"
+        },
+        {
+          "id": "fernandez_reforma_duval",
+          "cat": "Política provincial · Municipios",
+          "titulo": "Pascual Fernández recorre localidades para acompañar gestiones municipales",
+          "bajada": "El ministro de Gobierno visitó La Reforma, Puelén y Gobernador Duval en recorrida territorial. El objetivo fue conocer directamente la realidad de cada comunidad y fortalecer el vínculo con autoridades locales.",
+          "cuerpo": "<p>El <strong>ministro de Gobierno y Asuntos Municipales de La Pampa, Pascual Fernández</strong>, realizó una <strong>recorrida territorial</strong> que incluyó las localidades de <strong>La Reforma, Puelén y Gobernador Duval</strong>. La visita respondió a una estrategia de <strong>acercamiento directo</strong> del ejecutivo provincial hacia municipios y comunas, con el propósito de conocer de primera mano la situación local y el desarrollo de gestiones municipales.</p><p>Durante los recorridos, el ministro <strong>dialogó con intendentes y autoridades locales</strong> sobre las prioridades de cada comunidad, demandas de infraestructura y políticas que requieren coordinación provincial. Este tipo de presencia territorial es una estrategia clásica del ejecutivo para <strong>fortalecer el tejido institucional</strong> y asegurar que las políticas provinciales respondan a necesidades específicas de cada zona.</p><p>La Reforma, Puelén y Gobernador Duval son localidades que tradicionalmente demandan <strong>inversión en caminos rurales, servicios básicos y oportunidades de empleo local</strong>. El acompañamiento del ministerio a sus gestiones forma parte de una política de <strong>subsidiaridad</strong> que reconoce la autonomía municipal y busca articular recursos provinciales y locales de manera coordinada.</p><p>Fernández expresó durante las paradas que el <strong>acompañamiento a las gestiones locales es una prioridad</strong> del gobierno provincial para fortalecer territorios y comunidades. Las próximas semanas incluirán nuevas recorridas a otras zonas de la provincia en el mismo sentido de diálogo y trabajo conjunto.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/142587_whatsapp-image-2026-06-16-at-08.11.56.jpeg"
+        },
+        {
+          "id": "coro_provincial_conciertos",
+          "cat": "Cultura · Agenda",
+          "titulo": "Coro Provincial presenta conciertos en Anguil y Lonquimay",
+          "bajada": "El organismo de la Secretaría de Cultura anunció próximas presentaciones musicales. Los conciertos forman parte de la agenda de junio y celebran efemérides locales.",
+          "cuerpo": "<p>El <strong>Coro Provincial</strong>, organismo dependiente de la <strong>Secretaría de Cultura de La Pampa</strong>, dio a conocer su <strong>calendario de conciertos para junio</strong>. Las próximas presentaciones incluyen actuaciones en las localidades de <strong>Anguil y Lonquimay</strong>, en el marco de celebraciones y efemérides locales que convocan a amplios públicos.</p><p>Una de las presentaciones tendrá lugar en el contexto de la <strong>celebración del Día de la Bandera</strong> en Anguil, mientras que la otra se enmarca en los <strong>festejos por el aniversario de Lonquimay</strong>. Estas actuaciones permiten que el Coro Provincial cumpla su función de difusión de la música coral y fortalezimiento de la identidad cultural en territorios provinciales.</p><p>El Coro Provincial es un referente de la <strong>actividad cultural pampeana</strong>, contando con un elenco de cantantes comprometidos con la preservación y promoción del arte musical. Sus presentaciones en localidades del interior genera oportunidades de acceso a la cultura para comunidades que de otra forma tendrían menor exposición a este tipo de expresiones artísticas.</p><p>La Secretaría de Cultura invitó a la población a disfrutar de las presentaciones y acompañar así las celebraciones locales. Se espera que ambos conciertos convoquen a familias y vecinos interesados en fortalecer el sentido de comunidad a través de la música.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a314a08748f4.jpg"
+        }
+      ]
+    },
+    {
       "clave": "2026-06-16_tarde",
       "fecha_iso": "2026-06-16",
       "fecha": "16 junio 2026",
