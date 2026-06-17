@@ -200,6 +200,57 @@ def buscar_foto_wikipedia(titulo, lang='es'):
     return ""
 
 
+def extraer_nombre_propio(texto):
+    """Extrae la secuencia de palabras capitalizadas mas larga (candidato a nombre de persona)"""
+    candidatos = re.findall(
+        r'\b[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+(?:de|del|la|y)?\s*[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){1,3}\b',
+        texto or ''
+    )
+    return max(candidatos, key=len) if candidatos else ''
+
+
+def _nombre_coincide(nombre, titulo_wiki):
+    conectores = {'de', 'del', 'la', 'y'}
+    palabras_nombre = {w.lower() for w in nombre.split() if len(w) > 2 and w.lower() not in conectores}
+    palabras_wiki = {w.lower() for w in re.split(r'[\s,]+', titulo_wiki) if len(w) > 2}
+    return bool(palabras_nombre & palabras_wiki)
+
+
+def buscar_foto_persona(titulo, resumen=''):
+    """Busca foto de una persona nombrada en titulo/resumen, validando que la pagina de Wikipedia
+    encontrada corresponda a ese nombre antes de usar la foto — evita el problema de fotos
+    erroneas que motivo deshabilitar Wikipedia para noticias nacionales genericas."""
+    nombre = extraer_nombre_propio(titulo) or extraer_nombre_propio(resumen)
+    if not nombre:
+        return ""
+    try:
+        termino = urllib.parse.quote(nombre[:80])
+        raw = fetch(f"https://es.wikipedia.org/w/api.php?action=query&list=search&srsearch={termino}&format=json&srlimit=1&srnamespace=0", timeout=7)
+        if not raw:
+            return ""
+        results = json.loads(raw).get('query', {}).get('search', [])
+        if not results:
+            return ""
+        titulo_wiki = results[0]['title']
+        if not _nombre_coincide(nombre, titulo_wiki):
+            return ""
+        page = urllib.parse.quote(titulo_wiki.replace(' ', '_'))
+        raw2 = fetch(f"https://es.wikipedia.org/w/api.php?action=query&prop=pageimages&titles={page}&format=json&pithumbsize=600&redirects=1", timeout=7)
+        if not raw2:
+            return ""
+        pages = json.loads(raw2).get('query', {}).get('pages', {})
+        for p in pages.values():
+            src = p.get('thumbnail', {}).get('source', '')
+            if not src:
+                continue
+            if any(x in src.lower() for x in WIKI_EXCLUIR):
+                continue
+            return src
+    except Exception as e:
+        print(f"  [wiki-persona] {e}")
+    return ""
+
+
 def diputados_noticias(max_items=4):
     """Extrae noticias de la pagina de prensa de Diputados"""
     raw = fetch("https://www.diputados.gob.ar/prensa/")
@@ -282,7 +333,9 @@ DEFINICION ESTRICTA DE SECCIONES:
 - cita_dia = la frase textual mas relevante del dia en la politica pampeana
 
 Para sec03 y sec04 usa tu conocimiento del contexto mundial y nacional de hoy {fecha_display}.
-Para cada articulo del array arts, escribe 4 parrafos completos en HTML con etiquetas p y strong.
+
+ARTICULO COMPLETO OBLIGATORIO PARA TODAS LAS NOTAS — NO SOLO LAS PRINCIPALES:
+El array "arts" debe incluir UN articulo completo por CADA noticia que aparece en sec01, sec01_list, sec03 y hero_side (NO es necesario para sec04, que es solo lista internacional sin clic). Es decir: 3 (sec01) + 4-5 (sec01_list) + 3 (sec03) + 3 (hero_side) = entre 13 y 14 articulos en total. El campo "titulo" de cada entrada en "arts" debe coincidir EXACTAMENTE con el "titulo" de la noticia correspondiente en su seccion de origen, porque el sitio usa ese texto para abrir el articulo al hacer clic. Ninguna noticia debe quedar sin articulo completo: ningun lector debe hacer clic y que no pase nada. Para cada articulo escribe 4 parrafos completos en HTML con etiquetas p y strong.
 
 CARGOS VERIFICADOS — CONSULTAR SIEMPRE ESTE MAPA ANTES DE ESCRIBIR:
 {REFERENTES if REFERENTES else "Ver referentes.txt — archivo no disponible en esta corrida."}
@@ -413,9 +466,9 @@ TOOL = {
             },
             "arts": {
                 "type": "array",
-                "description": "Articulos con cuerpo — al menos hero + 3 de sec01 = minimo 4. Escribi 2 parrafos por articulo.",
+                "description": "Articulo completo para CADA noticia de sec01 + sec01_list + sec03 + hero_side (no para sec04). El 'titulo' de cada art debe coincidir exactamente con el de su noticia de origen. Minimo 13 articulos. Escribi 4 parrafos por articulo.",
                 "items": ART_SCHEMA,
-                "minItems": 4
+                "minItems": 13
             },
             "ticker": {
                 "type": "array",
@@ -472,13 +525,14 @@ if not api_key:
 client = anthropic.Anthropic(api_key=api_key)
 
 try:
-    message = client.messages.create(
+    with client.messages.stream(
         model="claude-haiku-4-5-20251001",
-        max_tokens=8192,
+        max_tokens=16000,
         tools=[TOOL],
         tool_choice={"type": "tool", "name": "actualizar_diario"},
         messages=[{"role": "user", "content": PROMPT}]
-    )
+    ) as stream:
+        message = stream.get_final_message()
     # tool_use garantiza que input es un dict Python valido
     data = message.content[0].input
     print(f"  Tool use OK — {len(data.get('arts', []))} articulos, hero: {data.get('hero', {}).get('art_id','?')}")
@@ -497,7 +551,7 @@ for clave in ['sec01', 'sec01_list', 'sec03', 'arts', 'ticker', 'hero_side']:
         print(f"  ADVERTENCIA: {clave} tenia {len(items) - len(limpios)} items malformados — descartados")
     data[clave] = limpios
 
-if len(data.get('arts', [])) > 12 or len(data.get('sec01', [])) > 10:
+if len(data.get('arts', [])) > 20 or len(data.get('sec01', [])) > 10:
     print(f"ERROR: respuesta degenerada de la API (arts={len(data.get('arts',[]))}, sec01={len(data.get('sec01',[]))}) — abortando sin modificar llano.html")
     sys.exit(1)
 
@@ -518,13 +572,15 @@ for item in data.get('sec01', []):
             item['foto'] = foto
             print(f"  [foto] sec01: {item['titulo'][:50]}")
 
-# SEC03 nacional: SOLO foto local (Wikipedia devuelve politicos equivocados para noticias genericas)
+# SEC03 nacional: foto local → persona nombrada en Wikipedia (validada por nombre, evita fotos de politicos equivocados)
 for item in data.get('sec03', []):
     if not item.get('foto'):
         foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
+        if not foto:
+            foto = buscar_foto_persona(item['titulo'], item.get('resumen', ''))
         if foto:
             item['foto'] = foto
-            print(f"  [foto-local] sec03: {item['titulo'][:50]}")
+            print(f"  [foto] sec03: {item['titulo'][:50]}")
 
 # Arts: foto local → Wikipedia
 for art in data.get('arts', []):
@@ -537,10 +593,12 @@ for art in data.get('arts', []):
             art['foto'] = foto
             print(f"  [foto] art: {art['titulo'][:50]}")
 
-# Hero-side: foto local si Claude no asigno ninguna
+# Hero-side: foto local → persona nombrada en Wikipedia
 for item in data.get('hero_side', []):
     if not item.get('foto'):
         foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
+        if not foto:
+            foto = buscar_foto_persona(item['titulo'], item.get('resumen', ''))
         if foto:
             item['foto'] = foto
             print(f"  [foto] hero-side: {item['titulo'][:50]}")
