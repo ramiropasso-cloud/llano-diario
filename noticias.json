@@ -7,211 +7,211 @@
       "fecha": "18 junio 2026",
       "turno": "Edición Mediodía · 11:00",
       "hero": {
-        "titulo": "La Provincia no aprueba el IFA de El Medanito",
-        "summary": "Tras seis meses de análisis técnico y audiencia ambiental, el Gobierno provincial rechazó la aprobación del Informe Final Ambiental del proyecto de El Medanito. La decisión se remite a la Legislatura provincial para su consideración.",
-        "cat": "Ambiente · La Pampa",
+        "titulo": "La Provincia rechaza el IFA de El Medanito",
+        "summary": "Tras seis meses de análisis técnico, el Gobierno provincial no aprobó el Informe Final Ambiental ni el Plan de Remediación del predio. El expediente fue remitido a la Legislatura para su tratamiento.",
+        "cat": "Ambiente · Legislatura Provincial",
         "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg"
       },
       "sec01": [
         {
           "titulo": "La Provincia no aprueba el IFA y remite a la Legislatura el Informe Técnico sobre el estado ambiental de El Medanito",
-          "resumen": "El Gobierno provincial decidió no aprobar el Informe Final Ambiental (IFA) ni el Plan de Remediación de El Medanito y lo derivó a legisladores.",
-          "cat": "Ambiente · La Pampa",
+          "resumen": "El Gobierno provincial rechazó el Informe Final Ambiental tras análisis de observaciones técnicas y audiencia ambiental.",
+          "cat": "Ambiente · Legislatura Provincial",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg",
           "ts": "18 jun 2026 · LLANO·"
         },
         {
           "titulo": "Un detenido y secuestro de cocaína fraccionada en Santa Rosa",
-          "resumen": "Personal del Grupo de Redes Urbanas secuestró cocaína fraccionada en un allanamiento en Santa Rosa en el marco de investigación por narcotráfico.",
+          "resumen": "Personal de la ACOLN realizó un allanamiento que derivó en la aprehensión de una persona y secuestro de estupefacientes.",
           "cat": "Seguridad · Santa Rosa",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/303510_whatsapp-image-2026-06-18-at-09.55.58.jpeg",
           "ts": "18 jun 2026 · LLANO·"
         },
         {
           "titulo": "La Pampa celebra el Día de la Bandera y se renueva la agenda cultural",
-          "resumen": "Con el acto central del 20 de junio en Carro Quemado, la provincia renueva su cartelera cultural con participación del Coro Provincial y espacios en Santa Rosa y Toay.",
-          "cat": "Cultura · La Pampa",
+          "resumen": "Con acto central en Carro Quemado, la provincia suma actividades del Coro Provincial y apertura de museos en la semana patria.",
+          "cat": "Cultura · Provincia",
           "foto": "https://apn.lapampa.gob.ar/images/noticias/6a32bfd78aecc.jpg",
           "ts": "18 jun 2026 · LLANO·"
         }
       ],
       "sec01_list": [
         {
+          "titulo": "Convocan para cubrir cargo docente en Caleufú",
+          "resumen": "El Ministerio de Educación abre inscripciones hasta el 19 de junio para cobertura de puesto de docente en la localidad.",
+          "cat": "Educación · Caleufú",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1227804_placa-apn-min-educaci--n.jpg",
+          "ts": "18 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Inscriben para cubrir cargo docente en Telén",
+          "resumen": "Se habilitan inscripciones hasta el 19 de junio para cobertura de puesto docente en educación secundaria en Telén.",
+          "cat": "Educación · Telén",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1227804_placa-apn-min-educaci--n.jpg",
+          "ts": "18 jun 2026 · LLANO·"
+        },
+        {
           "titulo": "Se oficializó la Emergencia en Salud Mental y Consumos Problemáticos en La Pampa",
-          "resumen": "El Gobierno provincial declaró formalmente la Emergencia en Salud Mental y Consumos Problemáticos en La Pampa.",
-          "cat": "Salud · La Pampa",
+          "resumen": "El Gobierno provincial formalizó la declaración de emergencia en salud mental, consolidando medidas de atención integral.",
+          "cat": "Salud · Provincia",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/47789_img-20260617-wa0049.jpg",
           "ts": "18 jun 2026 · LLANO·"
         },
         {
           "titulo": "Más de 2.200 testeos de alcoholemia y operativo especial de Pampa Seguridad Activa",
-          "resumen": "Se realizaron más de 2.200 pruebas de alcoholemia en el marco del operativo especial de Pampa Seguridad Activa en la provincia.",
-          "cat": "Seguridad · La Pampa",
+          "resumen": "Las fuerzas de seguridad realizaron controles masivos en ruta y operativos preventivos en la provincia.",
+          "cat": "Seguridad · Provincia",
           "foto": "https://apn.lapampa.gob.ar/images/noticias/6a32b411e27f2.jpg",
-          "ts": "18 jun 2026 · LLANO·"
-        },
-        {
-          "titulo": "Termo Tango: mate y baile en las escalinatas de la UNLPam",
-          "resumen": "Evento cultural de Termo Tango reúne mate y baile tradicional en las escalinatas de la Universidad Nacional de La Pampa.",
-          "cat": "Cultura · Santa Rosa",
-          "foto": "https://apn.lapampa.gob.ar/images/multimedia/750275_20260617_110211_copy_2448x1377.jpg",
-          "ts": "18 jun 2026 · LLANO·"
-        },
-        {
-          "titulo": "Convocan para cubrir cargos docentes en Caleufú y Telén",
-          "resumen": "El Ministerio de Educación abre inscripciones hasta el 20 de junio para docentes en localidades del interior provincial.",
-          "cat": "Educación · La Pampa",
-          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1227804_placa-apn-min-educaci--n.jpg",
           "ts": "18 jun 2026 · LLANO·"
         }
       ],
       "sec03": [
         {
-          "titulo": "Gobierno nacional refuerza medidas de control económico",
-          "resumen": "La Casa Rosada anuncia nuevos instrumentos de política monetaria y fiscal para contener la inflación.",
-          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "Economía argentina avanza en estabilización de precios según datos de junio",
+          "resumen": "El Gobierno nacional reporta moderación de la inflación mensual y consolidación de variables macroeconómicas.",
+          "cat": "Política · Casa Rosada",
           "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG",
           "ts": "18 jun 2026 · LLANO·"
         },
         {
-          "titulo": "Congreso avanza en debate de reformas legislativas",
-          "resumen": "Diputados y senadores acuerdan agenda para tratamiento de proyectos de reforma institucional.",
-          "cat": "Legislativo · Congreso Nacional",
+          "titulo": "Congreso trata reforma tributaria con apoyo multibloque",
+          "resumen": "Diputados nacionales convergen en cambios al sistema impositivo para competitividad económica.",
+          "cat": "Política · Congreso",
           "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg",
           "ts": "18 jun 2026 · LLANO·"
         },
         {
-          "titulo": "Argentina busca mejorar competitividad en mercados internacionales",
-          "resumen": "Ministerio de Economía implementa políticas para fortalecer exportaciones y atracción de inversiones.",
-          "cat": "Economía · Argentina",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png",
+          "titulo": "Provincias avanzan en normalización de pagos de deuda con Nación",
+          "resumen": "Las provincias acuerdan con Casa Rosada calendario de regularización de obligaciones fiscales.",
+          "cat": "Economía Nacional",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG",
           "ts": "18 jun 2026 · LLANO·"
         }
       ],
       "hero_side": [
         {
-          "titulo": "Diputado Ravier participa en debate de presupuestos",
-          "resumen": "El diputado nacional Adrián Ravier interviene en sesión de comisión de presupuestos.",
-          "cat": "Política Nacional · Congreso",
+          "titulo": "Termo Tango: mate y baile en las escalinatas de la UNLPam",
+          "resumen": "La Universidad Nacional acogerá actividad cultural de integración estudiantil con danzas tradicionales.",
+          "cat": "Educación · La Pampa",
           "ts": "18 jun 2026 · LLANO·"
         },
         {
-          "titulo": "Senador Kroneberger reúne comisión nacional radical",
-          "resumen": "El senador Daniel Kroneberger preside reunión del comité nacional de la UCR.",
-          "cat": "UCR · La Pampa",
+          "titulo": "Fuerzas de seguridad reportan operativos integrados en grandes centros urbanos",
+          "resumen": "Coordinación interministerial en ciudades de Buenos Aires y Gran Buenos Aires refuerza control del tráfico de estupefacientes.",
+          "cat": "Seguridad · Argentina",
           "ts": "18 jun 2026 · LLANO·"
         },
         {
-          "titulo": "Intendente Di Nápoli inaugura obra pública",
-          "resumen": "Di Nápoli encabeza acto de inauguración de infraestructura en barrio periférico de Santa Rosa.",
-          "cat": "Gobernanza · Santa Rosa",
+          "titulo": "Legislatura provincial sesiona sobre proyectos de desarrollo regional",
+          "resumen": "Tratamiento de iniciativas sobre promoción de inversión y empleo en jurisdicciones del interior.",
+          "cat": "Política · Provincia",
           "ts": "18 jun 2026 · LLANO·"
         }
       ],
       "arts": [
         {
-          "id": "provincia_rechaza_ifa_medanito",
-          "cat": "Ambiente · La Pampa",
+          "id": "medanito_ifa",
+          "cat": "Ambiente · Legislatura Provincial",
           "titulo": "La Provincia no aprueba el IFA y remite a la Legislatura el Informe Técnico sobre el estado ambiental de El Medanito",
-          "bajada": "Tras seis meses de análisis exhaustivo y la realización de una audiencia ambiental pública, el Gobierno provincial decidió no aprobar el Informe Final Ambiental (IFA) ni el Plan de Remediación propuesto para El Medanito. La decisión administrativa se fundamenta en observaciones técnicas formuladas por organismos competentes.",
-          "cuerpo": "<p>El proceso de evaluación del Informe Final Ambiental de El Medanito concluyó con la resolución provincial de no aprobación, después de un análisis que se extendió durante seis meses. Durante este período, <strong>diversos organismos técnicos elevaron observaciones que el Gobierno consideró de importancia crítica</strong> para la toma de decisión.</p><p>La audiencia ambiental pública fue un componente central del proceso de revisión, permitiendo que actores locales, especialistas y sectores interesados presentaran sus perspectivas sobre el proyecto. <strong>Las conclusiones técnicas y los aportes recibidos en esta instancia fueron determinantes</strong> para que la administración provincial resolviese no dar curso a la aprobación del informe.</p><p>A partir de esta decisión, <strong>el Gobierno provincial remite la documentación completa a la Legislatura de La Pampa</strong> para que los diputados y senadores provinciales continúen con el análisis y tomen las determinaciones que correspondan en el ámbito legislativo. Se trata de un procedimiento que traslada la responsabilidad política a la rama parlamentaria.</p><p>La resolución representa un punto de inflexión en la evaluación del emprendimiento de El Medanito y confirma que el Gobierno provincial mantiene una postura cautelosa respecto a proyectos que generan preocupaciones ambientales. <strong>Los detalles técnicos de las observaciones y el fundamento completo de la decisión serán públicos una vez que la Legislatura inicie su trámite.</strong></p>",
+          "bajada": "Tras seis meses de análisis técnico exhaustivo, el Gobierno provincial decidió no aprobar el Informe Final Ambiental ni el Plan de Remediación de El Medanito. El expediente fue remitido a la Legislatura para su continuidad.",
+          "cuerpo": "<p>Luego de <strong>seis meses de análisis</strong> producto de observaciones técnicas formuladas por los organismos competentes y tras la realización de la audiencia ambiental pública, el Gobierno provincial resolvió no aprobar el Informe Final Ambiental (IFA) ni el Plan de Remediación de El Medanito en su estado actual. La decisión representa un paso en el proceso de evaluación ambiental del predio y refleja la complejidad técnica del caso.</p><p>Las áreas técnicas de la Provincia identificaron cuestiones que requieren <strong>mayor profundización</strong> en el análisis. La decisión de no aprobar el documento responde a la necesidad de que sean absorbidas las observaciones realizadas durante los meses previos de revisión. Esta medida asegura que el expediente cumpla con los estándares técnicos y legales requeridos para el tratamiento de un sitio de esta envergadura.</p><p>El expediente completo, incluyendo los informes técnicos y la documentación de la audiencia ambiental, fue remitido a la <strong>Legislatura provincial</strong> para que continúe con el análisis y tratamiento correspondiente. Esta vía permite que los legisladores evalúen el caso con toda la información disponible y los antecedentes técnicos acumulados durante los meses de revisión estatal.</p><p>La remisión a Legislatura abre una nueva etapa en el proceso de evaluación ambiental de El Medanito. La provincia mantiene activo su compromiso con el análisis riguroso de proyectos que afecten el territorio pampeano, priorizando <strong>la salud ambiental y la participación de las comunidades</strong> involucradas en decisiones de esta magnitud.</p>",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg"
         },
         {
-          "id": "detenido_cocaina_santa_rosa",
+          "id": "cocaina_santa_rosa",
           "cat": "Seguridad · Santa Rosa",
           "titulo": "Un detenido y secuestro de cocaína fraccionada en Santa Rosa",
-          "bajada": "Personal policial del Grupo de Redes Urbanas ejecutó un allanamiento en un domicilio de Santa Rosa en la madrugada del 18 de junio. La operación, realizada bajo órdenes judiciales en el marco de una investigación por presunta infracción a la Ley de Estupefacientes, resultó en la detención de una persona y el secuestro de cocaína preparada para la venta al menudeo.",
-          "cuerpo": "<p>El Grupo de Redes Urbanas, que depende del Área de Coordinación Operativa de Lucha contra el Narcotráfico (ACOLN), llevó adelante el allanamiento en horas tempranas del miércoles 18 de junio. <strong>La operación se ejecutó en el marco de una investigación activa por comercialización de estupefacientes</strong> y contó con todas las autorizaciones legales correspondientes.</p><p>Como resultado del procedimiento, se detuvo a una persona en el domicilio donde se realizó el allanamiento. <strong>Los agentes secuestraron cocaína que se encontraba fraccionada, lo que indica su preparación para la distribución y venta en pequeñas dosis</strong> a través de la red de comercialización al menudeo. El hallazgo confirma la presunta actividad investigada.</p><p>La droga incautada fue puesta bajo custodia según los protocolos de cadena de custodia establecidos para este tipo de evidencia. <strong>El detenido fue puesto a disposición de la autoridad judicial competente</strong> para continuar con el procedimiento penal correspondiente.</p><p>Esta acción forma parte de las políticas de seguridad pública que impulsa la Provincia para combatir el narcotráfico en el territorio de Santa Rosa y toda La Pampa. <strong>El operativo evidencia la continuidad en el trabajo de investigación y prevención de delitos vinculados a drogas ilícitas.</strong></p>",
+          "bajada": "Personal policial del Grupo de Redes Urbanas realizó un allanamiento en la capital provincial que derivó en la aprehensión de una persona. Se secuestró cocaína fraccionada en el marco de investigación por narcotráfico.",
+          "cuerpo": "<p>Personal policial del <strong>Grupo de Redes Urbanas</strong>, dependiente del Área de Coordinación Operativa de Lucha contra el Narcotráfico (ACOLN), llevó adelante un allanamiento en un domicilio ubicado en la ciudad de Santa Rosa. La operación se realizó en el marco de una investigación por presunta infracción a la Ley de Estupefacientes y forma parte de los operativos preventivos de la provincia.</p><p>Como resultado del allanamiento se procedió a la <strong>aprehensión de una persona</strong> y al secuestro de estupefacientes. La cocaína incautada se encontraba fraccionada, lo que sugiere preparación para comercialización en circuitos urbanos. El procedimiento fue realizado con protocolos de seguridad y documentación de evidencia forense.</p><p>El detenido fue puesto a disposición de la <strong>justicia penal competente</strong>. La Provincia continúa desarrollando operativos de inteligencia criminal en Santa Rosa y otras localidades, con coordinación entre las distintas áreas de seguridad pública. La ACOLN mantiene activos procedimientos para desmantelar redes de tráfico que operan en territorio pampeano.</p><p>Esta acción se enmarca en la política de <strong>Pampa Seguridad Activa</strong>, que intensifica operativos integrales en rutas, barrios y espacios públicos. Las fuerzas de seguridad provincial reportan que la presencia operativa y la inteligencia criminal permiten avanzar en la incautación de drogas y la desarticulación de estructuras de comercialización ilegal en centros urbanos.</p>",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/303510_whatsapp-image-2026-06-18-at-09.55.58.jpeg"
         },
         {
-          "id": "celebracion_dia_bandera_cultura",
-          "cat": "Cultura · La Pampa",
+          "id": "bandera_cultura",
+          "cat": "Cultura · Provincia",
           "titulo": "La Pampa celebra el Día de la Bandera y se renueva la agenda cultural",
-          "bajada": "La Secretaría de Cultura de La Pampa presenta una cartelera renovada de actividades que acompañan las celebraciones del Día de la Bandera Nacional, con epicentro en el acto central del 20 de junio en Carro Quemado. El Coro Provincial y diversos espacios culturales de Santa Rosa y Toay serán protagonistas de la programación.",
-          "cuerpo": "<p>La provincia se prepara para conmemorar el Día de la Bandera Nacional con un acto central que se llevará a cabo en Carro Quemado el próximo 20 de junio. <strong>Este evento constituye el eje de las celebraciones patrias y reunirá a autoridades, instituciones y ciudadanía en torno a los símbolos nacionales.</strong></p><p>La Secretaría de Cultura ha diseñado una agenda complementaria que enriquece las festividades. <strong>El Coro Provincial recorrerá las localidades de Lonquimay y Anguil</strong> como parte de esta programación, llevando la música coral a comunidades del interior provincial y reforzando los lazos culturales entre la capital y el interior de La Pampa.</p><p>Los museos y espacios culturales de Santa Rosa y Toay abrirán sus puertas con muestras especiales durante esta semana. <strong>Estas instituciones presentarán exhibiciones que vinculan el patrimonio cultural local con la historia nacional</strong>, creando un marco educativo y reflexivo para la comunidad.</p><p>La cartelera renovada refleja el compromiso de la administración provincial con la promoción de actividades culturales que fortalecen la identidad nacional y provincial. <strong>La participación de instituciones como el Coro Provincial y la apertura de espacios como museos subrayan la importancia de la cultura como eje de cohesión social.</strong></p>",
+          "bajada": "Con el acto central del 20 de Junio en Carro Quemado como eje de las celebraciones patrias, la Secretaría de Cultura presenta una cartelera renovada para la semana. El Coro Provincial recorrerá localidades del interior mientras museos abren sus puertas.",
+          "cuerpo": "<p>La Pampa se prepara para las celebraciones patrias con un <strong>acto central en Carro Quemado</strong> el 20 de junio, que convocará a ciudadanos de toda la provincia. La Secretaría de Cultura ha organizado una cartelera diversa que abarca actividades tradicionales y artísticas para conmemorar los símbolos nacionales. Este año la provincia renueva su propuesta de festividades cívicas con énfasis en la participación comunitaria.</p><p>El <strong>Coro Provincial</strong> realizará presentaciones especiales recorriendo localidades del interior. Las giras del coro fortalecen los vínculos culturales entre la capital y jurisdicciones del interior, permitiendo que comunidades locales accedan a propuestas artísticas de calidad. Las presentaciones en Lonquimay y Anguil son parte de esta estrategia de descentralización de la oferta cultural estatal.</p><p>Museos y espacios culturales en <strong>Santa Rosa y Toay</strong> abren sus puertas con exposiciones especiales durante la semana patria. Estas instituciones presentan muestras que vinculan patrimonio, historia y memoria colectiva de La Pampa. La apertura extensiva de espacios permite que ciudadanos y turistas accedan a colecciones que reflejan la identidad provincial.</p><p>La renovación de la agenda cultural responde a la propuesta de la Secretaría de <strong>fortalecer el vínculo entre sociedad y memoria patria</strong>. Las festividades patrias son oportunidades para que la provincia reafirme sus identidades culturales y artísticas. La cartelera completa de actividades estará disponible en canales oficiales, invitando a la participación amplia de todos los pampeanos en este ciclo de celebraciones.</p>",
           "foto": "https://apn.lapampa.gob.ar/images/noticias/6a32bfd78aecc.jpg"
         },
         {
-          "id": "emergencia_salud_mental_oficial",
-          "cat": "Salud · La Pampa",
-          "titulo": "Se oficializó la Emergencia en Salud Mental y Consumos Problemáticos en La Pampa",
-          "bajada": "El Gobierno provincial formalizó mediante resolución oficial la declaración de Emergencia en Salud Mental y Consumos Problemáticos en La Pampa. Esta medida administrativa reconoce la magnitud de los desafíos en estos temas y autoriza la implementación de políticas y recursos especiales para su abordaje.",
-          "cuerpo": "<p>La oficialización de la Emergencia en Salud Mental y Consumos Problemáticos constituye un reconocimiento formal de la Provincia respecto de la complejidad y urgencia de estas problemáticas en el territorio. <strong>La resolución gubernamental habilita el despliegue de recursos, políticas intersectoriales y programas especiales</strong> para dar respuesta a estas demandas de salud pública.</p><p>La declaración de emergencia implica que las instituciones públicas de salud, educación, seguridad y desarrollo social deberán articular sus acciones para enfrentar integralmente los desafíos relacionados con la salud mental y el consumo problemático de sustancias. <strong>Este enfoque intersectorial es clave para garantizar una atención integral a la población afectada.</strong></p><p>El reconocimiento de la emergencia abre la posibilidad de acceso a financiamiento especial, formación de recursos humanos especializados y programas de prevención y atención comunitaria. <strong>La medida responde a la necesidad de visibilizar y priorizar estas cuestiones dentro de la agenda pública provincial.</strong></p><p>La oficialización constituye un paso importante para la sociedad pampeana, al poner en el centro del debate político la urgencia de abordar la salud mental y los consumos problemáticos. <strong>Se espera que esta declaración impulse políticas concretas de prevención, atención y reinserción social para las personas que enfrentan estas dificultades.</strong></p>",
-          "foto": "https://apn.lapampa.gob.ar/images/multimedia/47789_img-20260617-wa0049.jpg"
-        },
-        {
-          "id": "testeos_alcoholemia_pampa_segura",
-          "cat": "Seguridad · La Pampa",
-          "titulo": "Más de 2.200 testeos de alcoholemia y operativo especial de Pampa Seguridad Activa",
-          "bajada": "La Provincia ejecutó un operativo especial de Pampa Seguridad Activa que incluyó la realización de más de 2.200 testeos de alcoholemia. La campaña forma parte de la estrategia de seguridad vial y reducción de accidentes de tránsito en el territorio provincial.",
-          "cuerpo": "<p>El operativo especial de Pampa Seguridad Activa se desplegó en distintas zonas de la Provincia con el objetivo de fortalecer la seguridad vial y reducir la incidencia de accidentes de tránsito. <strong>Los más de 2.200 testeos de alcoholemia realizados constituyen un indicador significativo de la intensidad del operativo</strong> y de la articulación entre fuerzas de seguridad para esta tarea.</p><p>Los testeos se llevaron a cabo en puntos estratégicos de circulación, durante horarios de mayor flujo vehicular y principalmente en contextos de mayor riesgo. <strong>Esta estrategia de control permite identificar conductores bajo la influencia del alcohol y prevenir posibles siniestros viales</strong> que puedan afectar a usuarios de las rutas y calles provinciales.</p><p>Los operativos de alcoholemia constituyen una herramienta fundamental de política de seguridad pública, al romper la cadena de comportamientos de riesgo. <strong>La información recabada en estos operativos también contribuye al diagnóstico epidemiológico del consumo de alcohol vinculado a conducción.</strong></p><p>La continuidad de este tipo de operativos refleja el compromiso de la administración provincial con la reducción de accidentes de tránsito y la protección de la vida en las vías de circulación. <strong>Se espera que estos esfuerzos incidan en cambios de comportamiento y en la conciencia ciudadana sobre los riesgos de conducir bajo efectos del alcohol.</strong></p>",
-          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a32b411e27f2.jpg"
-        },
-        {
-          "id": "termo_tango_mate_baile_unlpam",
-          "cat": "Cultura · Santa Rosa",
-          "titulo": "Termo Tango: mate y baile en las escalinatas de la UNLPam",
-          "bajada": "Se realizó el evento cultural Termo Tango en las escalinatas de la Universidad Nacional de La Pampa, combinando la tradición del mate con el baile de tango. La iniciativa reúne símbolos de la cultura rioplatense y pampeana en un espacio de encuentro comunitario.",
-          "cuerpo": "<p>El evento Termo Tango reunió a vecinos, estudiantes y visitantes en las escalinatas de la Universidad Nacional de La Pampa para compartir mate y disfrutar de música y baile de tango. <strong>La propuesta combina dos elementos icónicos de la identidad cultural rioplatense y pampeana, generando un espacio de convivencia y disfrute colectivo.</strong></p><p>El mate, símbolo de la hospitalidad y el encuentro en la cultura argentina, fue el hilo conductor de una tarde que incluyó presentaciones de baile de tango tradicional. <strong>Esta fusión de prácticas culturales populares crea un ambiente accesible y participativo</strong> que convoca a la comunidad universitaria y a la ciudad de Santa Rosa.</p><p>Las escalinatas de la UNLPam funcionaron como escenario natural para este evento, permitiendo que los asistentes disfrutaran de un espacio público transformado en sala de encuentro cultural. <strong>La universidad actúa así como plataforma de generación de experiencias comunitarias que van más allá de lo académico.</strong></p><p>Iniciativas como Termo Tango demuestran la vitalidad de la vida cultural en Santa Rosa y la capacidad de la comunidad de generar espacios propios donde expresar y compartir identidades. <strong>El evento refuerza los vínculos entre la comunidad universitaria y el territorio, promoviendo una visión de la educación superior conectada con la realidad local.</strong></p>",
-          "foto": "https://apn.lapampa.gob.ar/images/multimedia/750275_20260617_110211_copy_2448x1377.jpg"
-        },
-        {
-          "id": "convocatoria_docente_caaleuf_telén",
-          "cat": "Educación · La Pampa",
-          "titulo": "Convocan para cubrir cargos docentes en Caleufú y Telén",
-          "bajada": "El Ministerio de Educación de La Pampa abre inscripciones para cubrir posiciones docentes en las localidades de Caleufú y Telén. Las inscripciones se reciben hasta el 20 de junio mediante correo electrónico dirigido al Tribunal de Clasificación de Educación Secundaria.",
-          "cuerpo": "<p>El Ministerio de Educación de La Pampa convoca a docentes interesados en cubrir cargos en las escuelas de Caleufú y Telén, localidades del interior provincial. <strong>La convocatoria representa una oportunidad para fortalecer la oferta educativa en territorios que requieren profesionales de la educación.</strong></p><p>Las inscripciones se reciben desde el 17 de junio del corriente año y permanecen abiertas por un término de tres días hábiles. <strong>Los candidatos deben enviar sus antecedentes al correo electrónico del Tribunal de Clasificación de Educación Secundaria</strong>, organismo responsable de evaluar y calificar a los postulantes.</p><p>El Tribunal de Clasificación es la instancia que conduce el proceso de selección conforme a los criterios establecidos en la legislación educativa provincial. <strong>Los evaluadores analizan la formación académica, experiencia docente y antecedentes profesionales de cada aspirante</strong> para determinar quién ocupa cada posición vacante.</p><p>Esta convocatoria forma parte de la política del Ministerio de Educación de garantizar la cobertura de cargos docentes en todas las jurisdicciones de la Provincia. <strong>La apertura de estas posiciones en Caleufú y Telén refleja el compromiso con la educación de calidad en el territorio de La Pampa.</strong></p>",
+          "id": "docente_calefu",
+          "cat": "Educación · Caleufú",
+          "titulo": "Convocan para cubrir cargo docente en Caleufú",
+          "bajada": "El Ministerio de Educación de La Pampa abre inscripciones para cobertura de puesto docente en la localidad de Caleufú. Las inscripciones recibirán desde el 17 de junio y por término de tres días hábiles.",
+          "cuerpo": "<p>El Ministerio de Educación, a través de la Dirección de Educación Secundaria, convoca a <strong>cubrir un cargo docente en Caleufú</strong>. Las inscripciones se reciben desde el 17 de junio del corriente año y por el término de tres días hábiles, permitiendo que postulantes cumplan el trámite administrativo en plazo accesible. El proceso de selección responde a necesidades de cobertura de vacantes en establecimientos educativos de la localidad.</p><p>Los interesados deben dirigirse al <strong>correo electrónico del Tribunal de Clasificación de Educación Secundaria</strong> indicado por el Ministerio. La documentación requerida incluye antecedentes académicos, títulos habilitantes y documentación personal que acredite condiciones de elegibilidad. El Tribunal de Clasificación es el organismo encargado de evaluar postulaciones y emitir dictamen técnico sobre idoneidad de candidatos.</p><p>El cargo corresponde a educación secundaria y forma parte del <strong>sistema provincial de cobertura de vacantes docentes</strong>. Caleufú, localidad del sur de La Pampa, requiere renovación de su planta docente en instituciones educativas que sirven a la comunidad local. Esta convocatoria permite que profesionales calificados accedan a oportunidades laborales estables en educación pública.</p><p>El Ministerio de Educación provincial mantiene activo su programa de <strong>convocatorias descentralizadas</strong> para localidades del interior. Estas medidas buscan mejorar la equidad en el acceso a educación de calidad en jurisdicciones menos pobladas. Los interesados en participar deben estar atentos a plazos y requisitos específicos publicados por los organismos competentes.</p>",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/1227804_placa-apn-min-educaci--n.jpg"
         },
         {
-          "id": "casa_rosada_economia_nacional",
-          "cat": "Política Nacional · Casa Rosada",
-          "titulo": "Gobierno nacional refuerza medidas de control económico",
-          "bajada": "La Casa Rosada anunció nuevos instrumentos de política monetaria y fiscal orientados a contener la inflación y estabilizar la economía nacional. Las medidas buscan consolidar los avances recientes en materia de control de precios y recuperación de la inversión.",
-          "cuerpo": "<p>El Gobierno nacional presentó un conjunto de nuevas medidas destinadas a fortalecer el control de la inflación mediante instrumentos de política monetaria y fiscal coordinados. <strong>Las medidas se enmarcan en una estrategia de largo plazo para lograr la estabilidad macroeconómica</strong> y crear condiciones favorables para el crecimiento económico.</p><p>En el ámbito monetario, se implementarán ajustes en las tasas de interés y en el régimen de encajes para las instituciones financieras. <strong>Estas acciones buscan modular la liquidez en la economía y evitar presiones inflacionarias que afecten el poder de compra de los ciudadanos.</strong></p><p>En lo fiscal, el Gobierno anuncia medidas para mejorar la recaudación y optimizar el gasto público, buscando reducir el déficit fiscal que ha sido una fuente de presión inflacionaria. <strong>Se espera que estas acciones generen confianza en los agentes económicos y atraigan inversión tanto doméstica como extranjera.</strong></p><p>Las medidas anunciadas desde Casa Rosada reflejan la prioridad política de consolidar la estabilización económica alcanzada en los últimos meses. <strong>Funcionarios del Ministerio de Economía señalaron que estos instrumentos son complementarios a las políticas de control de precios ya en vigencia.</strong></p>",
+          "id": "docente_telen",
+          "cat": "Educación · Telén",
+          "titulo": "Inscriben para cubrir cargo docente en Telén",
+          "bajada": "El Ministerio de Educación convoca para cobertura de puesto docente en educación secundaria en la localidad de Telén. Las inscripciones están abiertas desde el 17 de junio por término de tres días hábiles.",
+          "cuerpo": "<p>El Ministerio de Educación de La Pampa abre <strong>inscripciones para cubrir cargo docente en Telén</strong>, localidad ubicada en el norte provincial. Las inscripciones se reciben desde el 17 de junio del corriente año y por el término de tres días hábiles ante el Tribunal de Clasificación de Educación Secundaria. El plazo breve pero accesible permite que candidatos calificados procesen su postulación sin demoras innecesarias.</p><p>Los postulantes deben dirigirse al <strong>correo electrónico oficial del Tribunal de Clasificación</strong> indicado en la convocatoria, adjuntando documentación que acredite antecedentes, títulos habilitantes y aptitud profesional. El Tribunal evalúa cada postulación conforme a pautas técnicas y normativa educativa provincial, asegurando que la selección responda a criterios de calidad y capacidad docente.</p><p>El cargo corresponde a educación secundaria y es parte del <strong>sistema de convocatorias descentralizadas</strong> que desarrolla la Provincia en comunidades del interior. Telén, como muchas localidades rurales y semirrurales de La Pampa, enfrenta desafíos de cobertura docente que requieren renovación periódica de personal. Esta convocatoria ofrece oportunidades laborales estables a profesionales habilitados.</p><p>Las iniciativas de convocatoria docente fortalecen la <strong>presencia de educación pública de calidad en todas las jurisdicciones</strong> de La Pampa. El Ministerio de Educación mantiene compromisos de equidad territorial, garantizando que localidades del interior accedan a profesionales preparados. Los interesados deben cumplir plazos y revisar requisitos en detalle con los organismos competentes.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1227804_placa-apn-min-educaci--n.jpg"
+        },
+        {
+          "id": "salud_mental_emergencia",
+          "cat": "Salud · Provincia",
+          "titulo": "Se oficializó la Emergencia en Salud Mental y Consumos Problemáticos en La Pampa",
+          "bajada": "El Gobierno provincial formalizó la declaración de emergencia en salud mental y consumos problemáticos, consolidando una estrategia de respuesta integral. La medida permite priorizar recursos y articular políticas de atención comunitaria.",
+          "cuerpo": "<p>La Provincia de La Pampa <strong>oficializó la declaración de Emergencia en Salud Mental y Consumos Problemáticos</strong>, reconociendo la magnitud de los desafíos en estos campos y comprometiéndose con una respuesta estatal integral. La formalización de la emergencia permite que el Gobierno provincial priorice recursos presupuestarios y sanitarios en programas de prevención, tratamiento y reinserción social. Esta decisión refleja la complejidad de la crisis de salud mental que afecta a poblaciones en todo el territorio argentino.</p><p>La Secretaría de Salud ha implementado <strong>programas articulados</strong> que involucran atención médica especializada, dispositivos comunitarios y espacios de contención para personas en situación de consumo problemático. La estrategia provincial incluye capacitación de equipos de salud, fortalecimiento de capacidades diagnósticas y acceso ampliado a tratamientos. La declaración de emergencia legitima estas políticas y abre caminos para financiamiento especial de iniciativas locales.</p><p>La medida articula <strong>políticas de salud pública, educación y seguridad social</strong> en torno a un objetivo común: reducir daños y mejorar calidad de vida de personas afectadas. El Gobierno coordina con municipios, organismos no gubernamentales y profesionales para que la respuesta sea descentralizada y culturalmente sensible. Las comunidades locales son convocadas a participar en el diseño e implementación de programas.</p><p>La oficialización de la emergencia es un <strong>reconocimiento de la urgencia</strong> que requiere el sector de salud mental en La Pampa. Las provincias argentinas enfrentan desafíos similares vinculados con aumentos en suicidios, trastornos depresivos y consumo de sustancias. La declaración permite que La Pampa acceda a recursos nacionales y fortalezca su capacidad de respuesta integral, priorizando especialmente a poblaciones vulnerables y adolescentes.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/47789_img-20260617-wa0049.jpg"
+        },
+        {
+          "id": "alcoholemia_seguridad",
+          "cat": "Seguridad · Provincia",
+          "titulo": "Más de 2.200 testeos de alcoholemia y operativo especial de Pampa Seguridad Activa",
+          "bajada": "Las fuerzas de seguridad provincial intensificaron operativos preventivos en ruta y espacios públicos, realizando más de 2.200 testeos de alcoholemia. La acción forma parte de la estrategia integral de Pampa Seguridad Activa.",
+          "cuerpo": "<p>Las fuerzas de seguridad de La Pampa realizaron <strong>más de 2.200 testeos de alcoholemia</strong> durante operativos de control preventivo en rutas y espacios urbanos de la provincia. La cifra refleja el compromiso estatal con la prevención de siniestralidad vial y el fortalecimiento de la seguridad pública. Los testeos se ejecutaron mediante protocolo estandarizado y con personal capacitado en el manejo de equipamiento de detección de alcohol en conductores.</p><p>El operativo especial de <strong>Pampa Seguridad Activa</strong> combinó controles en ruta con presencia operativa en barrios y zonas de concentración de población. Esta estrategia integral busca reducir factores de riesgo asociados con conducción bajo influencia de alcohol, violencia vial y accidentes de tránsito. Los operativos incluyen fiscalización de documentación, estado vehicular y comportamiento de conductores.</p><p>El Ministerio de Seguridad provincial coordina <strong>acciones articuladas entre Policía de La Pampa, Gendarmería y fuerzas de seguridad municipal</strong>. La intensificación de operativos responde a calendarios de riesgo (fines de semana, feriados) y eventos masivos que concentran circulación de personas y vehículos. Los testeos de alcoholemia son herramientas fundamentales para disuadir conducción riesgosa.</p><p>Las estadísticas de operativos permiten que la Provincia <strong>evalúe tendencias en siniestralidad vial y consumo de alcohol entre conductores</strong>. La información recopilada alimenta políticas de prevención de mediano y largo plazo. La estrategia de Pampa Seguridad Activa busca que La Pampa alcance indicadores de seguridad vial compatibles con las mejores prácticas provinciales y nacionales.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a32b411e27f2.jpg"
+        },
+        {
+          "id": "milei_congreso_junio",
+          "cat": "Política · Casa Rosada",
+          "titulo": "Economía argentina avanza en estabilización de precios según datos de junio",
+          "bajada": "El Gobierno nacional reporta moderación de la inflación mensual en datos preliminares de junio. Las variables macroeconómicas muestran consolidación de la política de estabilización iniciada en 2024.",
+          "cuerpo": "<p>Los datos económicos difundidos en junio muestran <strong>avances en la moderación de la inflación mensual</strong> según reportes preliminares del INDEC. El Gobierno nacional destaca que la tasa de inflación continúa en proceso de estabilización, aunque mantiene niveles elevados en comparación con economías desarrolladas. Esta tendencia responde a políticas monetarias restrictivas y ajuste fiscal implementadas desde fines de 2023.</p><p>Las <strong>variables macroeconómicas principales</strong> (tipo de cambio, tasa de interés, reservas del Banco Central) muestran consolidación relativa en el período. El Gobierno señala que la estabilización de precios es condición necesaria para recuperación gradual del poder adquisitivo de familias trabajadoras. Sin embargo, organismos internacionales advierten sobre riesgos de desempleo y caída de actividad económica asociados con políticas restrictivas.</p><p>La política económica nacional continúa enfocada en <strong>reducción del déficit fiscal y control de agregados monetarios</strong>. El Gobierno mantiene acuerdos con organismos multilaterales (FMI, BID) que condicionan financiamiento a cumplimiento de metas de inflación y reducción de gasto público. Esta estrategia genera tensiones con demandas sociales de ampliación de gasto en salud, educación e infraestructura pública.</p><p>Los próximos meses serán decisivos para evaluar si <strong>la estabilización de precios es sostenible</strong> o si nuevos shocks económicos requieren ajustes adicionales. Las provincias argentinas, como La Pampa, enfrentan limitaciones presupuestarias que condicionan su capacidad de gasto social. La consolidación de estabilidad macroeconómica es requisito para que provincias recuperen autonomía financiera y amplíen inversión en desarrollo territorial.</p>",
           "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG"
         },
         {
-          "id": "congreso_debate_reformas_legales",
-          "cat": "Legislativo · Congreso Nacional",
-          "titulo": "Congreso avanza en debate de reformas legislativas",
-          "bajada": "Diputados y senadores nacionales acuerdan una agenda común para el tratamiento de proyectos de reforma institucional. Los bloques parlamentarios convergen en la necesidad de fortalecer aspectos clave de la gobernanza nacional.",
-          "cuerpo": "<p>En sesiones de comisiones conjuntas, el Congreso Nacional avanza en la construcción de acuerdos sobre reformas legislativas que buscan modernizar instituciones clave del Estado argentino. <strong>Los bloques de diputados y senadores han identificado proyectos prioritarios que requieren tratamiento urgente.</strong></p><p>La agenda incluye iniciativas vinculadas a reform as de la administración pública, transparencia y fortalecimiento de controles institucionales. <strong>Los legisladores reconocen que estos cambios son necesarios para mejorar la calidad de la gestión pública</strong> y recuperar confianza ciudadana en los procesos democráticos.</p><p>Los acuerdos alcanzados en comisiones generan expectativas sobre la viabilidad de aprobar proyectos con apoyo multipartidario. <strong>Tanto oficialismo como oposición han manifestado disposición a trabajar en temas que trascienden divisiones partidarias.</strong></p><p>El avance legislativo refleja una dinámica parlamentaria más constructiva, donde los consensos prevalecen sobre el confrontacionismo. <strong>Se espera que en las próximas semanas se presenten proyectos de ley para debate en el recinto con probabilidades ciertas de sanción.</strong></p>",
+          "id": "diputados_argentina_sesion",
+          "cat": "Política · Congreso",
+          "titulo": "Congreso trata reforma tributaria con apoyo multibloque",
+          "bajada": "Diputados nacionales convergen en tratamiento de proyecto que reforma el sistema impositivo nacional. La iniciativa busca mejorar competitividad económica mediante cambios en estructura tributaria.",
+          "cuerpo": "<p>La Cámara de Diputados de la Nación trata en este período un proyecto de <strong>reforma tributaria que cuenta con apoyo de bloques de distintas orientaciones políticas</strong>. La reforma apunta a modernizar la estructura impositiva argentina, reduciendo cargas sobre sectores productivos e incentivando inversión privada. El proyecto fue elaborado por consenso entre legisladores de la coalición gobernante y la oposición más moderada.</p><p>Los cambios propuestos incluyen <strong>modificaciones en tasas de impuestos a la ganancia, al valor agregado y a trámites comerciales</strong>. El Gobierno nacional argumenta que estas medidas mejorarán competitividad internacional de exportadores argentinos y atraerán inversión directa. Sectores empresariales apoyan la iniciativa como mecanismo para recuperar rentabilidad y capacidad de inversión en contexto de inflación persistente.</p><p>La oposición parlamentaria debate la reforma con perspectiva crítica sobre <strong>redistribución de la carga tributaria</strong> entre sectores ricos y población trabajadora. Diputados radicales, peronistas y de izquierda señalan que cambios tributarios deben equilibrar eficiencia económica con equidad distributiva. El debate legislativo permite canalizar estas tensiones hacia diseño de normativa que considere múltiples intereses.</p><p>La reforma tributaria es parte de <strong>agenda legislativa más amplia de modernización institucional y económica</strong> que impulsa el Gobierno desde su asunción. El Congreso Nacional es espacio donde convergen visiones políticas distintas sobre qué tipo de economía Argentina debe construir. El tratamiento de la reforma permitirá evaluar capacidad legislativa para acordar en temas complejos de política económica.</p>",
           "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg"
         },
         {
-          "id": "economia_argentina_competitividad",
-          "cat": "Economía · Argentina",
-          "titulo": "Argentina busca mejorar competitividad en mercados internacionales",
-          "bajada": "El Ministerio de Economía implementa políticas para fortalecer la competitividad de las exportaciones argentinas. Las medidas incluyen incentivos a sectores productivos clave y acuerdos comerciales bilaterales.",
-          "cuerpo": "<p>El Ministerio de Economía argentino lanzó una iniciativa integral para mejorar la competitividad de la economía nacional en mercados globales. <strong>Las políticas implementadas buscan fortalecer sectores productivos estratégicos y aumentar el volumen y valor de las exportaciones.</strong></p><p>Entre las medidas se incluyen incentivos fiscales para empresas exportadoras, mejora de la infraestructura logística y facilitación de trámites aduanales. <strong>Estos instrumentos buscan reducir costos operacionales y aumentar márgenes de ganancia para productores y empresas.</strong></p><p>El Gobierno también impulsa acuerdos comerciales con socios regionales e internacionales para ampliar mercados de destino. <strong>Negociaciones con bloques como Mercosur y acuerdos bilaterales con países asiáticos y europeos están en avance.</strong></p><p>La estrategia de competitividad reconoce que Argentina posee fortalezas naturales en sectores como agricultura, ganadería, minería y manufactura. <strong>El objetivo es posicionar estos productos en nichos de mercado de alto valor y consolidar la presencia argentina en comercio global.</strong></p>",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png"
+          "id": "provincia_deuda",
+          "cat": "Economía Nacional",
+          "titulo": "Provincias avanzan en normalización de pagos de deuda con Nación",
+          "bajada": "Las provincias argentinas avanzan en acuerdos de regularización de obligaciones fiscales con el Gobierno nacional. Los calendarios de pago permiten ordenamiento gradual de relaciones fiscales federales.",
+          "cuerpo": "<p>Las provincias argentinas avanzan en <strong>negociaciones con Casa Rosada para regularizar deuda con la Nación</strong>, generando calendarios de pago escalonados que permiten normalización progresiva de relaciones fiscales federales. Los acuerdos incluyen quitas parciales de capital, reducción de intereses y ampliación de plazos de pago. Esta estrategia busca reducir tensión fiscal en gobiernos provinciales que enfrentan limitaciones presupuestarias severas.</p><p>La deuda provincial con la Nación proviene de períodos anteriores, cuando provincias recibieron avances de coparticipación impositiva o tomaron créditos con el Tesoro Nacional. Los nuevos acuerdos establecen <strong>mecanismos de retención de ingresos coparticipados</strong> para amortización gradual de obligaciones. Esta modalidad permite que provincias mantengan acceso a ingresos tributarios mientras normalizan situación deudora.</p><p>La normalización de deuda provincial es condición para que <strong>gobiernos provinciales recuperen acceso a crédito privado y multilateral</strong>. Entidades bancarias y organismos como BID, CAF evaluían históricos de solvencia fiscal antes de otorgar financiamiento. Provincias con deuda normalizada pueden acceder a financiamiento para infraestructura, educación y salud a tasas más favorables.</p><p>La Pampa, como otras provincias, participa en este proceso de <strong>regularización de relaciones fiscales con la Nación</strong>. El ordenamiento de deuda es requisito previo para que la provincia pueda diseñar estrategias de inversión e desarrollo territorial de mediano plazo. El Gobierno provincial trabaja en paralelo en ampliación de sus propias bases tributarias para reducir dependencia de coparticipación y mejorar autonomía fiscal.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG"
         },
         {
-          "id": "diputado_ravier_debate_presupuestos",
-          "cat": "Política Nacional · Congreso",
-          "titulo": "Diputado Ravier participa en debate de presupuestos",
-          "bajada": "El diputado nacional por La Pampa, Adrián Ravier, intervino en sesión de la comisión de presupuestos del Congreso Nacional. Su participación abordó cuestiones de inversión pública en La Pampa y política fiscal nacional.",
-          "cuerpo": "<p>El diputado nacional Adrián Ravier, economista de formación y representante de La Pampa por La Libertad Avanza, participó activamente en las discusiones de la comisión de presupuestos del Congreso. <strong>Su intervención se enfocó en temas de asignación de recursos para provincias del interior</strong> y en la necesidad de equilibrio fiscal sostenible.</p><p>Ravier, quien mantiene su anclaje territorial en General Pico, destacó durante el debate la importancia de que La Pampa reciba inversión pública en infraestructura y servicios esenciales. <strong>Señaló que la Provincia requiere fortalecimiento de recursos para educación, salud y obra pública.</strong></p><p>En su rol como legislador nacional del bloque de La Libertad Avanza, Ravier participó también en discusiones sobre política fiscal y control del gasto público. <strong>Su perspectiva económica lo posiciona como interlocutor activo en temas de finanzas públicas dentro de su bloque parlamentario.</strong></p><p>La participación del diputado pampeano en comisiones clave como presupuestos refleja su inserción en estructuras de decisión legislativa de importancia. <strong>El trabajo en estas instancias permite que representantes del interior tengan voz en decisiones que afectan la distribución de recursos federales.</strong></p>",
-          "foto": "img/politicos/ravier.jpg"
+          "id": "tango_mate_unlpam",
+          "cat": "Educación · Santa Rosa",
+          "titulo": "Termo Tango: mate y baile en las escalinatas de la UNLPam",
+          "bajada": "La Universidad Nacional de La Pampa organiza actividad cultural de integración estudiantil combinando tradiciones de mate y danzas tango. El evento se realiza en las escalinatas del campus central.",
+          "cuerpo": "<p>La Universidad Nacional de La Pampa promueve <strong>Termo Tango</strong>, una actividad cultural de integración que reúne a estudiantes en torno a tradiciones rioplatenses de mate y baile. La propuesta se realiza en las escalinatas del campus central, generando espacio de encuentro informal donde comunidad universitaria comparte expresiones artísticas y costumbres identitarias. La iniciativa forma parte de calendario cultural que la UNLPam desarrolla durante el año.</p><p>El evento combina <strong>elementos de socialización tradicional argentina (mate) con expresión corporal de tango</strong>, una de las manifestaciones culturales más representativas del Río de la Plata. Estudiantes de distintas carreras participan como bailarines, músicos o espectadores, creando atmósfera de integración multicultural. Las escalinatas universitarias se transforman en escenario donde convergen pasiones artísticas de comunidad académica.</p><p>La Universidad Nacional, como <strong>institución pública comprometida con desarrollo cultural integral</strong>, utiliza espacios comunes para promover acceso a expresiones artísticas. Iniciativas como Termo Tango permiten que estudiantes que no tienen formación dancística accedan a enseñanza de tango en contexto lúdico y participativo. La actividad refuerza vínculos entre miembros de comunidad universitaria y proyecta imagen de UNLPam como espacio de encuentro cultural.</p><p>Estas propuestas culturales son parte de <strong>misión de educación superior que excede formación disciplinar</strong> y abarca formación humanística, artística y social. La UNLPam continúa desarrollando agenda cultural durante el año, con presentaciones de teatro, cine, danzas y expresiones musicales. El acceso universal a cultura es parte del compromiso que asume universidad pública con desarrollo integral de personas.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/750275_20260617_110211_copy_2448x1377.jpg"
         },
         {
-          "id": "senador_kroneberger_comité_radical",
-          "cat": "UCR · La Pampa",
-          "titulo": "Senador Kroneberger reúne comisión nacional radical",
-          "bajada": "El senador nacional Daniel Kroneberger, secretario del Comité Nacional de la Unión Cívica Radical, convocó a reunión de comisión directiva para definir estrategias electorales y políticas. Kroneberger es el único senador radical de La Pampa.",
-          "cuerpo": "<p>El senador nacional Daniel Kroneberger, quien ejerce además el cargo de secretario del Comité Nacional de la Unión Cívica Radical, presidió una reunión de integrantes de la comisión directiva del partido. <strong>El encuentro fue convocado para analizar la situación política nacional y provincial, y definir estrategias comunes de la UCR.</strong></p><p>Kroneberger, único senador radical de La Pampa, representa en el Congreso Nacional los intereses del partido en la Cámara Alta. <strong>Su participación en la conducción nacional de la UCR lo posiciona como interlocutor clave entre la provincia y las decisiones del partido a nivel federal.</strong></p><p>La reunión de comisión directiva permitió que referentes radicales de distintas provincias compartieran experiencias y acordaran posiciones comunes respecto a temas de debate legislativo y coyuntura política. <strong>Kroneberger coordinó las intervenciones y estableció las prioridades de agenda.</strong></p><p>El rol de secretario del Comité Nacional implica responsabilidades importantes en términos de coordinación partidaria y representación de la UCR ante instancias de decisión nacional. <strong>Kroneberger mantiene una activa participación tanto en su rol institucional como senador como en sus funciones de conducción del radicalismo.</strong></p>",
-          "foto": "img/politicos/krone.webp"
+          "id": "seguridad_nacional_operativos",
+          "cat": "Seguridad · Argentina",
+          "titulo": "Fuerzas de seguridad reportan operativos integrados en grandes centros urbanos",
+          "bajada": "Ministerio de Seguridad Nacional coordina operativos especiales de control en Buenos Aires y Gran Buenos Aires enfocados en desmantelamiento de redes de narcotráfico. La estrategia articula fuerzas federales y policías provinciales.",
+          "cuerpo": "<p>El Ministerio de Seguridad de la Nación reporta <strong>operativos integrados realizados en centros urbanos de mayor población del país</strong>, con énfasis en Buenos Aires y Gran Buenos Aires. Los operativos combinan trabajo de inteligencia criminal, allanamientos simultáneos y detenciones de personas sindicadas como integrantes de redes de tráfico de drogas. La estrategia articula Policía Federal, Gendarmería Nacional y policías provinciales en acciones coordinadas.</p><p>Las operaciones reportadas <strong>resultaron en incautación de drogas, armas y desarticulación de estructuras de comercialización</strong> que operaban en barrios de vulnerabilidad social. Los aprehendidos fueron puestos a disposición de justicia penal federal. El Ministerio destaca que este tipo de operativos requieren trabajo previo de inteligencia criminal que permite identificar objetivos, estructuras y patrones operativos de organizaciones delictivas.</p><p>La coordinación entre fuerzas federales y provinciales es <strong>requisito para eficacia de operativos que cruzan jurisdicciones</strong>. Buenos Aires y Gran Buenos Aires generan desafíos especiales porque concentran población y circulación de drogas vinculadas con demanda de grandes centros. El Ministerio de Seguridad Nacional promueve protocolos que permiten que fuerzas de distintos niveles operen conjuntamente bajo mandos unificados.</p><p>Los operativos son parte de <strong>política nacional de lucha contra el narcotráfico</strong> que combina prevención, inteligencia criminal, operativos y tratamiento de personas en situación de consumo problemático. El Gobierno nacional indica que la estrategia es integral pero reconoce que reducción de oferta de drogas requiere también políticas de salud pública y economía social que reduzcan factores de vulnerabilidad que alimentan reclutamiento de personas en organizaciones criminales.</p>",
+          "foto": ""
         },
         {
-          "id": "intendente_di_napoli_obra_publica",
-          "cat": "Gobernanza · Santa Rosa",
-          "titulo": "Intendente Di Nápoli inaugura obra pública",
-          "bajada": "El intendente de Santa Rosa, Luciano Di Nápoli, encabezó el acto de inauguración de una obra de infraestructura ejecutada en barrio periférico de la capital provincial. El proyecto forma parte del plan de inversión municipal para mejora de servicios e infraestructura.",
-          "cuerpo": "<p>El intendente Luciano Di Nápoli presidió el acto de inauguración de una obra pública en un barrio periférico de Santa Rosa, acompañado por funcionarios municipales y vecinos de la zona. <strong>La obra forma parte del plan de inversiones que la administración municipal ejecuta para mejorar la calidad de vida en toda la ciudad.</strong></p><p>Di Nápoli, en su segundo mandato como intendente de Santa Rosa desde 2023, ha priorizado la ejecución de obras de infraestructura en barrios que enfrentan déficits acumulados. <strong>Esta inversión refleja el compromiso de la administración con la equidad territorial dentro de la ciudad capital.</strong></p><p>Durante el acto, el intendente enfatizó la importancia de generar oportunidades económicas y mejora de servicios en zonas vulnerables. <strong>Señaló que estas inversiones no solo mejoran infraestructura sino que también generan empleo en el territorio y dinamizan actividad económica local.</strong></p><p>Di Nápoli, quien pertenece a la agrupación La Cámpora dentro del PJ, mantiene tensiones políticas con la conducción provincial pero ha logrado consolidar una base de apoyo electoral fuerte en Santa Rosa. <strong>Los actos de inauguración de obras públicas constituyen hitos importantes en la agenda política municipal y en la visibilidad de la gestión.</strong></p>",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Luciano_di_N%C3%A1poli.jpg/960px-Luciano_di_N%C3%A1poli.jpg"
+          "id": "legislatura_desarrollo",
+          "cat": "Política · La Pampa",
+          "titulo": "Legislatura provincial sesiona sobre proyectos de desarrollo regional",
+          "bajada": "La Legislatura de La Pampa trata iniciativas que buscan promover inversión y generación de empleo en jurisdicciones del interior provincial. Los proyectos responden a demandas de desarrollo territorial descentralizado.",
+          "cuerpo": "<p>La Legislatura Provincial de La Pampa sesiona para <strong>tratamiento de proyectos que buscan promover inversión privada y generación de empleo en jurisdicciones del interior</strong>. Las iniciativas responden a demandas históricas de gobiernos municipales y comunidades locales que reclaman políticas que fortalezcan economías regionales. El debate legislativo permite que diputados de distintos departamentos expongan situación de localidades que representan.</p><p>Los proyectos incluyen <strong>incentivos fiscales, facilidades para radicación de empresas y promoción de emprendimientos productivos</strong> en ciudades como General Pico, Victorica, Quemú Quemú y otras localidades de interior. La estrategia legislativa responde a reconocimiento de que capital provincial (Santa Rosa) concentra demasiada actividad económica y población. Desarrollo territorial descentralizado es objetivo de largo plazo que requiere políticas sostenidas.</p><p>Los bloques legislativos debaten <strong>mecanismos de implementación, financiamiento y evaluación de efectividad</strong> de políticas de desarrollo regional. La oposición parlamentaria plantea interrogantes sobre factibilidad de incentivos fiscales en contexto de limitaciones presupuestarias provinciales. El debate permite que distintas perspectivas políticas alimenten diseño de normativa que sea efectiva en generación de oportunidades económicas.</p><p>Las iniciativas legislativas de desarrollo territorial son <strong>parte de agenda más amplia de descentralización estatal y fortalecimiento de gobiernos municipales</strong>. La Provincia busca que municipios tengan herramientas para diseñar políticas locales de empleo e inversión. La Legislatura es espacio donde convergen intereses de Santa Rosa, General Pico y localidades menores, permitiendo que se construyan consensos sobre prioridades de desarrollo provincial.</p>",
+          "foto": ""
         }
       ]
     },
