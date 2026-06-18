@@ -5,6 +5,7 @@ import os
 import re
 import json
 import sys
+import time
 import html as html_module
 from datetime import datetime, timezone, timedelta
 import urllib.request
@@ -174,6 +175,7 @@ def _es_headshot(url):
 def buscar_foto_wikipedia(titulo, lang='es'):
     """Busca foto libre en Wikipedia para un titulo dado (2 requests)"""
     try:
+        time.sleep(0.4)  # evitar HTTP 429 por demasiadas busquedas seguidas
         termino = urllib.parse.quote(titulo[:80])
         raw = fetch(f"https://{lang}.wikipedia.org/w/api.php?action=query&list=search&srsearch={termino}&format=json&srlimit=1&srnamespace=0", timeout=7)
         if not raw:
@@ -200,13 +202,24 @@ def buscar_foto_wikipedia(titulo, lang='es'):
     return ""
 
 
+_STOPWORDS_INICIALES = {'el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas', 'este', 'esta', 'estos', 'estas'}
+
 def extraer_nombre_propio(texto):
-    """Extrae la secuencia de palabras capitalizadas mas larga (candidato a nombre de persona)"""
+    """Extrae la secuencia de palabras capitalizadas mas larga (candidato a nombre de persona).
+    Descarta candidatos como 'El Gobierno' o 'El Congreso', que son mayuscula de inicio de oracion
+    seguida de un sustantivo comun, no un nombre propio real."""
     candidatos = re.findall(
         r'\b[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+(?:\s+(?:de|del|la|y)?\s*[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){1,3}\b',
         texto or ''
     )
-    return max(candidatos, key=len) if candidatos else ''
+    limpios = []
+    for c in candidatos:
+        palabras = c.split()
+        while palabras and palabras[0].lower() in _STOPWORDS_INICIALES:
+            palabras = palabras[1:]
+        if len(palabras) >= 2:
+            limpios.append(' '.join(palabras))
+    return max(limpios, key=len) if limpios else ''
 
 
 def _nombre_coincide(nombre, titulo_wiki):
@@ -224,6 +237,7 @@ def buscar_foto_persona(titulo, resumen=''):
     if not nombre:
         return ""
     try:
+        time.sleep(0.4)  # evitar HTTP 429 por demasiadas busquedas seguidas
         termino = urllib.parse.quote(nombre[:80])
         raw = fetch(f"https://es.wikipedia.org/w/api.php?action=query&list=search&srsearch={termino}&format=json&srlimit=1&srnamespace=0", timeout=7)
         if not raw:
@@ -248,6 +262,27 @@ def buscar_foto_persona(titulo, resumen=''):
             return src
     except Exception as e:
         print(f"  [wiki-persona] {e}")
+    return ""
+
+
+TOPIC_LOCAL = [
+    (['congreso', 'diputados', 'senado', 'senadores nacionales', 'camara baja', 'camara alta'],
+     'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg'),
+    (['casa rosada', 'gobierno nacional', 'presidencia', 'poder ejecutivo'],
+     'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG'),
+    (['inflación', 'inflacion', 'economía nacional', 'economia nacional', 'dólar', 'dolar',
+      'ministerio de economía', 'ministerio de economia', 'tasas de interés', 'tasas de interes'],
+     'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png'),
+]
+
+
+def buscar_foto_tema(cat, titulo, resumen=''):
+    """Foto institucional fija para temas nacionales genericos sin persona nombrada
+    (Congreso, Casa Rosada, Ministerio de Economia) — URLs estables de Wikimedia Commons."""
+    texto = f"{cat} {titulo} {resumen}".lower()
+    for keywords, url in TOPIC_LOCAL:
+        if any(kw in texto for kw in keywords):
+            return url
     return ""
 
 
@@ -572,33 +607,49 @@ for item in data.get('sec01', []):
             item['foto'] = foto
             print(f"  [foto] sec01: {item['titulo'][:50]}")
 
-# SEC03 nacional: foto local → persona nombrada en Wikipedia (validada por nombre, evita fotos de politicos equivocados)
+# SEC01-LIST provincial (economia/salud/cultura/obra publica): foto local → Wikipedia
+for item in data.get('sec01_list', []):
+    if not item.get('foto'):
+        foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
+        if not foto:
+            foto = buscar_foto_wikipedia(item['titulo'], lang='es')
+        if foto:
+            item['foto'] = foto
+            print(f"  [foto] sec01_list: {item['titulo'][:50]}")
+
+# SEC03 nacional: foto local → persona nombrada en Wikipedia → tema institucional fijo
 for item in data.get('sec03', []):
     if not item.get('foto'):
         foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
         if not foto:
             foto = buscar_foto_persona(item['titulo'], item.get('resumen', ''))
+        if not foto:
+            foto = buscar_foto_tema(item.get('cat', ''), item['titulo'], item.get('resumen', ''))
         if foto:
             item['foto'] = foto
             print(f"  [foto] sec03: {item['titulo'][:50]}")
 
-# Arts: foto local → Wikipedia
+# Arts: foto local → Wikipedia → tema institucional fijo
 for art in data.get('arts', []):
     if not art.get('foto'):
         foto = buscar_foto_local(art['titulo'], art.get('bajada', ''))
         if not foto:
             lang = 'en' if any(x in art.get('cat','').lower() for x in ['intern', 'mundial', 'global']) else 'es'
             foto = buscar_foto_wikipedia(art['titulo'], lang=lang)
+        if not foto:
+            foto = buscar_foto_tema(art.get('cat', ''), art['titulo'], art.get('bajada', ''))
         if foto:
             art['foto'] = foto
             print(f"  [foto] art: {art['titulo'][:50]}")
 
-# Hero-side: foto local → persona nombrada en Wikipedia
+# Hero-side: foto local → persona nombrada en Wikipedia → tema institucional fijo
 for item in data.get('hero_side', []):
     if not item.get('foto'):
         foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
         if not foto:
             foto = buscar_foto_persona(item['titulo'], item.get('resumen', ''))
+        if not foto:
+            foto = buscar_foto_tema(item.get('cat', ''), item['titulo'], item.get('resumen', ''))
         if foto:
             item['foto'] = foto
             print(f"  [foto] hero-side: {item['titulo'][:50]}")
@@ -886,7 +937,8 @@ corrida = {
         "foto":    hero.get("foto", "")
     },
     "sec01":      [{"titulo": c["titulo"], "resumen": c.get("resumen",""), "cat": c.get("cat",""), "foto": c.get("foto",""), "ts": c.get("ts","")} for c in data.get("sec01",[])],
-    "sec03":      [{"titulo": c["titulo"], "resumen": c.get("resumen",""), "cat": c.get("cat",""), "ts": c.get("ts","")} for c in data.get("sec03",[])],
+    "sec01_list": [{"titulo": c["titulo"], "resumen": c.get("resumen",""), "cat": c.get("cat",""), "foto": c.get("foto",""), "ts": c.get("ts","")} for c in data.get("sec01_list",[])],
+    "sec03":      [{"titulo": c["titulo"], "resumen": c.get("resumen",""), "cat": c.get("cat",""), "foto": c.get("foto",""), "ts": c.get("ts","")} for c in data.get("sec03",[])],
     "hero_side":  [{"titulo": it.get("titulo",""), "resumen": it.get("resumen",""), "cat": it.get("cat",""), "ts": it.get("ts","")} for it in data.get("hero_side",[])],
     "arts":       [{"id": a["id"], "cat": a.get("cat",""), "titulo": a.get("titulo",""), "bajada": a.get("bajada",""), "cuerpo": a.get("cuerpo",""), "foto": a.get("foto","")} for a in data.get("arts",[])]
 }
