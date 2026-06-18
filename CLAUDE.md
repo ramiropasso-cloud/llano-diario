@@ -86,9 +86,9 @@ netlify deploy --dir . --prod --site 6356f434-5013-469f-9f47-d8f6f1fc6a39
 ### Figuras políticas prioritarias para seguimiento
 - **Di Nápoli** — intendente Santa Rosa
 - **Alonso** — intendente General Pico
-- **Ravier** — senador nacional
-- **Berhongaray** — UCR pampeana
-- **Kroneberger** — diputada nacional
+- **Ravier** — diputado nacional (LLA)
+- **Berhongaray** — presidente Comité UCR provincial (sin cargo legislativo actual)
+- **Kroneberger** — senador nacional (UCR)
 
 ---
 
