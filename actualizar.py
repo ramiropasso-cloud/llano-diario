@@ -594,6 +594,10 @@ if not isinstance(data.get('hero'), dict):
     print("ERROR: hero malformado en la respuesta — abortando sin modificar llano.html")
     sys.exit(1)
 
+if len(data.get('sec01', [])) < 3 or not data.get('sec01_list') or len(data.get('sec03', [])) < 3 or not data.get('sec04'):
+    print(f"ERROR: respuesta insuficiente (sec01={len(data.get('sec01',[]))}, sec01_list={len(data.get('sec01_list',[]))}, sec03={len(data.get('sec03',[]))}, sec04={len(data.get('sec04',[]))}) — abortando sin modificar llano.html")
+    sys.exit(1)
+
 # ── BÚSQUEDA DE FOTOS WIKIPEDIA (para artículos sin foto de APN) ──
 print("Buscando fotos en Wikipedia para artículos sin imagen...")
 
