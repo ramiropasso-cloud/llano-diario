@@ -2,6 +2,23 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-06-18_tarde",
+      "fecha_iso": "2026-06-18",
+      "fecha": "18 junio 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "La Provincia rechaza el IFA de El Medanito",
+        "summary": "Tras seis meses de análisis y observaciones técnicas, el gobierno provincial no aprobó el Informe Final Ambiental del proyecto. El expediente se remite a la Legislatura provincial.",
+        "cat": "Ambiente · Gobierno provincial",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg"
+      },
+      "sec01": [],
+      "sec01_list": [],
+      "sec03": [],
+      "hero_side": [],
+      "arts": []
+    },
+    {
       "clave": "2026-06-18_mediodia",
       "fecha_iso": "2026-06-18",
       "fecha": "18 junio 2026",
