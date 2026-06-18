@@ -2,6 +2,220 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-06-18_mediodia",
+      "fecha_iso": "2026-06-18",
+      "fecha": "18 junio 2026",
+      "turno": "Edición Mediodía · 11:00",
+      "hero": {
+        "titulo": "La Provincia no aprueba el IFA de El Medanito",
+        "summary": "Tras seis meses de análisis técnico y audiencia ambiental, el Gobierno provincial rechazó la aprobación del Informe Final Ambiental del proyecto de El Medanito. La decisión se remite a la Legislatura provincial para su consideración.",
+        "cat": "Ambiente · La Pampa",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg"
+      },
+      "sec01": [
+        {
+          "titulo": "La Provincia no aprueba el IFA y remite a la Legislatura el Informe Técnico sobre el estado ambiental de El Medanito",
+          "resumen": "El Gobierno provincial decidió no aprobar el Informe Final Ambiental (IFA) ni el Plan de Remediación de El Medanito y lo derivó a legisladores.",
+          "cat": "Ambiente · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg",
+          "ts": "18 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Un detenido y secuestro de cocaína fraccionada en Santa Rosa",
+          "resumen": "Personal del Grupo de Redes Urbanas secuestró cocaína fraccionada en un allanamiento en Santa Rosa en el marco de investigación por narcotráfico.",
+          "cat": "Seguridad · Santa Rosa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/303510_whatsapp-image-2026-06-18-at-09.55.58.jpeg",
+          "ts": "18 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Pampa celebra el Día de la Bandera y se renueva la agenda cultural",
+          "resumen": "Con el acto central del 20 de junio en Carro Quemado, la provincia renueva su cartelera cultural con participación del Coro Provincial y espacios en Santa Rosa y Toay.",
+          "cat": "Cultura · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a32bfd78aecc.jpg",
+          "ts": "18 jun 2026 · LLANO·"
+        }
+      ],
+      "sec01_list": [
+        {
+          "titulo": "Se oficializó la Emergencia en Salud Mental y Consumos Problemáticos en La Pampa",
+          "resumen": "El Gobierno provincial declaró formalmente la Emergencia en Salud Mental y Consumos Problemáticos en La Pampa.",
+          "cat": "Salud · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/47789_img-20260617-wa0049.jpg",
+          "ts": "18 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Más de 2.200 testeos de alcoholemia y operativo especial de Pampa Seguridad Activa",
+          "resumen": "Se realizaron más de 2.200 pruebas de alcoholemia en el marco del operativo especial de Pampa Seguridad Activa en la provincia.",
+          "cat": "Seguridad · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a32b411e27f2.jpg",
+          "ts": "18 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Termo Tango: mate y baile en las escalinatas de la UNLPam",
+          "resumen": "Evento cultural de Termo Tango reúne mate y baile tradicional en las escalinatas de la Universidad Nacional de La Pampa.",
+          "cat": "Cultura · Santa Rosa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/750275_20260617_110211_copy_2448x1377.jpg",
+          "ts": "18 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Convocan para cubrir cargos docentes en Caleufú y Telén",
+          "resumen": "El Ministerio de Educación abre inscripciones hasta el 20 de junio para docentes en localidades del interior provincial.",
+          "cat": "Educación · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1227804_placa-apn-min-educaci--n.jpg",
+          "ts": "18 jun 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Gobierno nacional refuerza medidas de control económico",
+          "resumen": "La Casa Rosada anuncia nuevos instrumentos de política monetaria y fiscal para contener la inflación.",
+          "cat": "Política Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG",
+          "ts": "18 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Congreso avanza en debate de reformas legislativas",
+          "resumen": "Diputados y senadores acuerdan agenda para tratamiento de proyectos de reforma institucional.",
+          "cat": "Legislativo · Congreso Nacional",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg",
+          "ts": "18 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Argentina busca mejorar competitividad en mercados internacionales",
+          "resumen": "Ministerio de Economía implementa políticas para fortalecer exportaciones y atracción de inversiones.",
+          "cat": "Economía · Argentina",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png",
+          "ts": "18 jun 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Diputado Ravier participa en debate de presupuestos",
+          "resumen": "El diputado nacional Adrián Ravier interviene en sesión de comisión de presupuestos.",
+          "cat": "Política Nacional · Congreso",
+          "ts": "18 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Senador Kroneberger reúne comisión nacional radical",
+          "resumen": "El senador Daniel Kroneberger preside reunión del comité nacional de la UCR.",
+          "cat": "UCR · La Pampa",
+          "ts": "18 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Intendente Di Nápoli inaugura obra pública",
+          "resumen": "Di Nápoli encabeza acto de inauguración de infraestructura en barrio periférico de Santa Rosa.",
+          "cat": "Gobernanza · Santa Rosa",
+          "ts": "18 jun 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "provincia_rechaza_ifa_medanito",
+          "cat": "Ambiente · La Pampa",
+          "titulo": "La Provincia no aprueba el IFA y remite a la Legislatura el Informe Técnico sobre el estado ambiental de El Medanito",
+          "bajada": "Tras seis meses de análisis exhaustivo y la realización de una audiencia ambiental pública, el Gobierno provincial decidió no aprobar el Informe Final Ambiental (IFA) ni el Plan de Remediación propuesto para El Medanito. La decisión administrativa se fundamenta en observaciones técnicas formuladas por organismos competentes.",
+          "cuerpo": "<p>El proceso de evaluación del Informe Final Ambiental de El Medanito concluyó con la resolución provincial de no aprobación, después de un análisis que se extendió durante seis meses. Durante este período, <strong>diversos organismos técnicos elevaron observaciones que el Gobierno consideró de importancia crítica</strong> para la toma de decisión.</p><p>La audiencia ambiental pública fue un componente central del proceso de revisión, permitiendo que actores locales, especialistas y sectores interesados presentaran sus perspectivas sobre el proyecto. <strong>Las conclusiones técnicas y los aportes recibidos en esta instancia fueron determinantes</strong> para que la administración provincial resolviese no dar curso a la aprobación del informe.</p><p>A partir de esta decisión, <strong>el Gobierno provincial remite la documentación completa a la Legislatura de La Pampa</strong> para que los diputados y senadores provinciales continúen con el análisis y tomen las determinaciones que correspondan en el ámbito legislativo. Se trata de un procedimiento que traslada la responsabilidad política a la rama parlamentaria.</p><p>La resolución representa un punto de inflexión en la evaluación del emprendimiento de El Medanito y confirma que el Gobierno provincial mantiene una postura cautelosa respecto a proyectos que generan preocupaciones ambientales. <strong>Los detalles técnicos de las observaciones y el fundamento completo de la decisión serán públicos una vez que la Legislatura inicie su trámite.</strong></p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg"
+        },
+        {
+          "id": "detenido_cocaina_santa_rosa",
+          "cat": "Seguridad · Santa Rosa",
+          "titulo": "Un detenido y secuestro de cocaína fraccionada en Santa Rosa",
+          "bajada": "Personal policial del Grupo de Redes Urbanas ejecutó un allanamiento en un domicilio de Santa Rosa en la madrugada del 18 de junio. La operación, realizada bajo órdenes judiciales en el marco de una investigación por presunta infracción a la Ley de Estupefacientes, resultó en la detención de una persona y el secuestro de cocaína preparada para la venta al menudeo.",
+          "cuerpo": "<p>El Grupo de Redes Urbanas, que depende del Área de Coordinación Operativa de Lucha contra el Narcotráfico (ACOLN), llevó adelante el allanamiento en horas tempranas del miércoles 18 de junio. <strong>La operación se ejecutó en el marco de una investigación activa por comercialización de estupefacientes</strong> y contó con todas las autorizaciones legales correspondientes.</p><p>Como resultado del procedimiento, se detuvo a una persona en el domicilio donde se realizó el allanamiento. <strong>Los agentes secuestraron cocaína que se encontraba fraccionada, lo que indica su preparación para la distribución y venta en pequeñas dosis</strong> a través de la red de comercialización al menudeo. El hallazgo confirma la presunta actividad investigada.</p><p>La droga incautada fue puesta bajo custodia según los protocolos de cadena de custodia establecidos para este tipo de evidencia. <strong>El detenido fue puesto a disposición de la autoridad judicial competente</strong> para continuar con el procedimiento penal correspondiente.</p><p>Esta acción forma parte de las políticas de seguridad pública que impulsa la Provincia para combatir el narcotráfico en el territorio de Santa Rosa y toda La Pampa. <strong>El operativo evidencia la continuidad en el trabajo de investigación y prevención de delitos vinculados a drogas ilícitas.</strong></p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/303510_whatsapp-image-2026-06-18-at-09.55.58.jpeg"
+        },
+        {
+          "id": "celebracion_dia_bandera_cultura",
+          "cat": "Cultura · La Pampa",
+          "titulo": "La Pampa celebra el Día de la Bandera y se renueva la agenda cultural",
+          "bajada": "La Secretaría de Cultura de La Pampa presenta una cartelera renovada de actividades que acompañan las celebraciones del Día de la Bandera Nacional, con epicentro en el acto central del 20 de junio en Carro Quemado. El Coro Provincial y diversos espacios culturales de Santa Rosa y Toay serán protagonistas de la programación.",
+          "cuerpo": "<p>La provincia se prepara para conmemorar el Día de la Bandera Nacional con un acto central que se llevará a cabo en Carro Quemado el próximo 20 de junio. <strong>Este evento constituye el eje de las celebraciones patrias y reunirá a autoridades, instituciones y ciudadanía en torno a los símbolos nacionales.</strong></p><p>La Secretaría de Cultura ha diseñado una agenda complementaria que enriquece las festividades. <strong>El Coro Provincial recorrerá las localidades de Lonquimay y Anguil</strong> como parte de esta programación, llevando la música coral a comunidades del interior provincial y reforzando los lazos culturales entre la capital y el interior de La Pampa.</p><p>Los museos y espacios culturales de Santa Rosa y Toay abrirán sus puertas con muestras especiales durante esta semana. <strong>Estas instituciones presentarán exhibiciones que vinculan el patrimonio cultural local con la historia nacional</strong>, creando un marco educativo y reflexivo para la comunidad.</p><p>La cartelera renovada refleja el compromiso de la administración provincial con la promoción de actividades culturales que fortalecen la identidad nacional y provincial. <strong>La participación de instituciones como el Coro Provincial y la apertura de espacios como museos subrayan la importancia de la cultura como eje de cohesión social.</strong></p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a32bfd78aecc.jpg"
+        },
+        {
+          "id": "emergencia_salud_mental_oficial",
+          "cat": "Salud · La Pampa",
+          "titulo": "Se oficializó la Emergencia en Salud Mental y Consumos Problemáticos en La Pampa",
+          "bajada": "El Gobierno provincial formalizó mediante resolución oficial la declaración de Emergencia en Salud Mental y Consumos Problemáticos en La Pampa. Esta medida administrativa reconoce la magnitud de los desafíos en estos temas y autoriza la implementación de políticas y recursos especiales para su abordaje.",
+          "cuerpo": "<p>La oficialización de la Emergencia en Salud Mental y Consumos Problemáticos constituye un reconocimiento formal de la Provincia respecto de la complejidad y urgencia de estas problemáticas en el territorio. <strong>La resolución gubernamental habilita el despliegue de recursos, políticas intersectoriales y programas especiales</strong> para dar respuesta a estas demandas de salud pública.</p><p>La declaración de emergencia implica que las instituciones públicas de salud, educación, seguridad y desarrollo social deberán articular sus acciones para enfrentar integralmente los desafíos relacionados con la salud mental y el consumo problemático de sustancias. <strong>Este enfoque intersectorial es clave para garantizar una atención integral a la población afectada.</strong></p><p>El reconocimiento de la emergencia abre la posibilidad de acceso a financiamiento especial, formación de recursos humanos especializados y programas de prevención y atención comunitaria. <strong>La medida responde a la necesidad de visibilizar y priorizar estas cuestiones dentro de la agenda pública provincial.</strong></p><p>La oficialización constituye un paso importante para la sociedad pampeana, al poner en el centro del debate político la urgencia de abordar la salud mental y los consumos problemáticos. <strong>Se espera que esta declaración impulse políticas concretas de prevención, atención y reinserción social para las personas que enfrentan estas dificultades.</strong></p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/47789_img-20260617-wa0049.jpg"
+        },
+        {
+          "id": "testeos_alcoholemia_pampa_segura",
+          "cat": "Seguridad · La Pampa",
+          "titulo": "Más de 2.200 testeos de alcoholemia y operativo especial de Pampa Seguridad Activa",
+          "bajada": "La Provincia ejecutó un operativo especial de Pampa Seguridad Activa que incluyó la realización de más de 2.200 testeos de alcoholemia. La campaña forma parte de la estrategia de seguridad vial y reducción de accidentes de tránsito en el territorio provincial.",
+          "cuerpo": "<p>El operativo especial de Pampa Seguridad Activa se desplegó en distintas zonas de la Provincia con el objetivo de fortalecer la seguridad vial y reducir la incidencia de accidentes de tránsito. <strong>Los más de 2.200 testeos de alcoholemia realizados constituyen un indicador significativo de la intensidad del operativo</strong> y de la articulación entre fuerzas de seguridad para esta tarea.</p><p>Los testeos se llevaron a cabo en puntos estratégicos de circulación, durante horarios de mayor flujo vehicular y principalmente en contextos de mayor riesgo. <strong>Esta estrategia de control permite identificar conductores bajo la influencia del alcohol y prevenir posibles siniestros viales</strong> que puedan afectar a usuarios de las rutas y calles provinciales.</p><p>Los operativos de alcoholemia constituyen una herramienta fundamental de política de seguridad pública, al romper la cadena de comportamientos de riesgo. <strong>La información recabada en estos operativos también contribuye al diagnóstico epidemiológico del consumo de alcohol vinculado a conducción.</strong></p><p>La continuidad de este tipo de operativos refleja el compromiso de la administración provincial con la reducción de accidentes de tránsito y la protección de la vida en las vías de circulación. <strong>Se espera que estos esfuerzos incidan en cambios de comportamiento y en la conciencia ciudadana sobre los riesgos de conducir bajo efectos del alcohol.</strong></p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a32b411e27f2.jpg"
+        },
+        {
+          "id": "termo_tango_mate_baile_unlpam",
+          "cat": "Cultura · Santa Rosa",
+          "titulo": "Termo Tango: mate y baile en las escalinatas de la UNLPam",
+          "bajada": "Se realizó el evento cultural Termo Tango en las escalinatas de la Universidad Nacional de La Pampa, combinando la tradición del mate con el baile de tango. La iniciativa reúne símbolos de la cultura rioplatense y pampeana en un espacio de encuentro comunitario.",
+          "cuerpo": "<p>El evento Termo Tango reunió a vecinos, estudiantes y visitantes en las escalinatas de la Universidad Nacional de La Pampa para compartir mate y disfrutar de música y baile de tango. <strong>La propuesta combina dos elementos icónicos de la identidad cultural rioplatense y pampeana, generando un espacio de convivencia y disfrute colectivo.</strong></p><p>El mate, símbolo de la hospitalidad y el encuentro en la cultura argentina, fue el hilo conductor de una tarde que incluyó presentaciones de baile de tango tradicional. <strong>Esta fusión de prácticas culturales populares crea un ambiente accesible y participativo</strong> que convoca a la comunidad universitaria y a la ciudad de Santa Rosa.</p><p>Las escalinatas de la UNLPam funcionaron como escenario natural para este evento, permitiendo que los asistentes disfrutaran de un espacio público transformado en sala de encuentro cultural. <strong>La universidad actúa así como plataforma de generación de experiencias comunitarias que van más allá de lo académico.</strong></p><p>Iniciativas como Termo Tango demuestran la vitalidad de la vida cultural en Santa Rosa y la capacidad de la comunidad de generar espacios propios donde expresar y compartir identidades. <strong>El evento refuerza los vínculos entre la comunidad universitaria y el territorio, promoviendo una visión de la educación superior conectada con la realidad local.</strong></p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/750275_20260617_110211_copy_2448x1377.jpg"
+        },
+        {
+          "id": "convocatoria_docente_caaleuf_telén",
+          "cat": "Educación · La Pampa",
+          "titulo": "Convocan para cubrir cargos docentes en Caleufú y Telén",
+          "bajada": "El Ministerio de Educación de La Pampa abre inscripciones para cubrir posiciones docentes en las localidades de Caleufú y Telén. Las inscripciones se reciben hasta el 20 de junio mediante correo electrónico dirigido al Tribunal de Clasificación de Educación Secundaria.",
+          "cuerpo": "<p>El Ministerio de Educación de La Pampa convoca a docentes interesados en cubrir cargos en las escuelas de Caleufú y Telén, localidades del interior provincial. <strong>La convocatoria representa una oportunidad para fortalecer la oferta educativa en territorios que requieren profesionales de la educación.</strong></p><p>Las inscripciones se reciben desde el 17 de junio del corriente año y permanecen abiertas por un término de tres días hábiles. <strong>Los candidatos deben enviar sus antecedentes al correo electrónico del Tribunal de Clasificación de Educación Secundaria</strong>, organismo responsable de evaluar y calificar a los postulantes.</p><p>El Tribunal de Clasificación es la instancia que conduce el proceso de selección conforme a los criterios establecidos en la legislación educativa provincial. <strong>Los evaluadores analizan la formación académica, experiencia docente y antecedentes profesionales de cada aspirante</strong> para determinar quién ocupa cada posición vacante.</p><p>Esta convocatoria forma parte de la política del Ministerio de Educación de garantizar la cobertura de cargos docentes en todas las jurisdicciones de la Provincia. <strong>La apertura de estas posiciones en Caleufú y Telén refleja el compromiso con la educación de calidad en el territorio de La Pampa.</strong></p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1227804_placa-apn-min-educaci--n.jpg"
+        },
+        {
+          "id": "casa_rosada_economia_nacional",
+          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "Gobierno nacional refuerza medidas de control económico",
+          "bajada": "La Casa Rosada anunció nuevos instrumentos de política monetaria y fiscal orientados a contener la inflación y estabilizar la economía nacional. Las medidas buscan consolidar los avances recientes en materia de control de precios y recuperación de la inversión.",
+          "cuerpo": "<p>El Gobierno nacional presentó un conjunto de nuevas medidas destinadas a fortalecer el control de la inflación mediante instrumentos de política monetaria y fiscal coordinados. <strong>Las medidas se enmarcan en una estrategia de largo plazo para lograr la estabilidad macroeconómica</strong> y crear condiciones favorables para el crecimiento económico.</p><p>En el ámbito monetario, se implementarán ajustes en las tasas de interés y en el régimen de encajes para las instituciones financieras. <strong>Estas acciones buscan modular la liquidez en la economía y evitar presiones inflacionarias que afecten el poder de compra de los ciudadanos.</strong></p><p>En lo fiscal, el Gobierno anuncia medidas para mejorar la recaudación y optimizar el gasto público, buscando reducir el déficit fiscal que ha sido una fuente de presión inflacionaria. <strong>Se espera que estas acciones generen confianza en los agentes económicos y atraigan inversión tanto doméstica como extranjera.</strong></p><p>Las medidas anunciadas desde Casa Rosada reflejan la prioridad política de consolidar la estabilización económica alcanzada en los últimos meses. <strong>Funcionarios del Ministerio de Economía señalaron que estos instrumentos son complementarios a las políticas de control de precios ya en vigencia.</strong></p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG"
+        },
+        {
+          "id": "congreso_debate_reformas_legales",
+          "cat": "Legislativo · Congreso Nacional",
+          "titulo": "Congreso avanza en debate de reformas legislativas",
+          "bajada": "Diputados y senadores nacionales acuerdan una agenda común para el tratamiento de proyectos de reforma institucional. Los bloques parlamentarios convergen en la necesidad de fortalecer aspectos clave de la gobernanza nacional.",
+          "cuerpo": "<p>En sesiones de comisiones conjuntas, el Congreso Nacional avanza en la construcción de acuerdos sobre reformas legislativas que buscan modernizar instituciones clave del Estado argentino. <strong>Los bloques de diputados y senadores han identificado proyectos prioritarios que requieren tratamiento urgente.</strong></p><p>La agenda incluye iniciativas vinculadas a reform as de la administración pública, transparencia y fortalecimiento de controles institucionales. <strong>Los legisladores reconocen que estos cambios son necesarios para mejorar la calidad de la gestión pública</strong> y recuperar confianza ciudadana en los procesos democráticos.</p><p>Los acuerdos alcanzados en comisiones generan expectativas sobre la viabilidad de aprobar proyectos con apoyo multipartidario. <strong>Tanto oficialismo como oposición han manifestado disposición a trabajar en temas que trascienden divisiones partidarias.</strong></p><p>El avance legislativo refleja una dinámica parlamentaria más constructiva, donde los consensos prevalecen sobre el confrontacionismo. <strong>Se espera que en las próximas semanas se presenten proyectos de ley para debate en el recinto con probabilidades ciertas de sanción.</strong></p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg"
+        },
+        {
+          "id": "economia_argentina_competitividad",
+          "cat": "Economía · Argentina",
+          "titulo": "Argentina busca mejorar competitividad en mercados internacionales",
+          "bajada": "El Ministerio de Economía implementa políticas para fortalecer la competitividad de las exportaciones argentinas. Las medidas incluyen incentivos a sectores productivos clave y acuerdos comerciales bilaterales.",
+          "cuerpo": "<p>El Ministerio de Economía argentino lanzó una iniciativa integral para mejorar la competitividad de la economía nacional en mercados globales. <strong>Las políticas implementadas buscan fortalecer sectores productivos estratégicos y aumentar el volumen y valor de las exportaciones.</strong></p><p>Entre las medidas se incluyen incentivos fiscales para empresas exportadoras, mejora de la infraestructura logística y facilitación de trámites aduanales. <strong>Estos instrumentos buscan reducir costos operacionales y aumentar márgenes de ganancia para productores y empresas.</strong></p><p>El Gobierno también impulsa acuerdos comerciales con socios regionales e internacionales para ampliar mercados de destino. <strong>Negociaciones con bloques como Mercosur y acuerdos bilaterales con países asiáticos y europeos están en avance.</strong></p><p>La estrategia de competitividad reconoce que Argentina posee fortalezas naturales en sectores como agricultura, ganadería, minería y manufactura. <strong>El objetivo es posicionar estos productos en nichos de mercado de alto valor y consolidar la presencia argentina en comercio global.</strong></p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png"
+        },
+        {
+          "id": "diputado_ravier_debate_presupuestos",
+          "cat": "Política Nacional · Congreso",
+          "titulo": "Diputado Ravier participa en debate de presupuestos",
+          "bajada": "El diputado nacional por La Pampa, Adrián Ravier, intervino en sesión de la comisión de presupuestos del Congreso Nacional. Su participación abordó cuestiones de inversión pública en La Pampa y política fiscal nacional.",
+          "cuerpo": "<p>El diputado nacional Adrián Ravier, economista de formación y representante de La Pampa por La Libertad Avanza, participó activamente en las discusiones de la comisión de presupuestos del Congreso. <strong>Su intervención se enfocó en temas de asignación de recursos para provincias del interior</strong> y en la necesidad de equilibrio fiscal sostenible.</p><p>Ravier, quien mantiene su anclaje territorial en General Pico, destacó durante el debate la importancia de que La Pampa reciba inversión pública en infraestructura y servicios esenciales. <strong>Señaló que la Provincia requiere fortalecimiento de recursos para educación, salud y obra pública.</strong></p><p>En su rol como legislador nacional del bloque de La Libertad Avanza, Ravier participó también en discusiones sobre política fiscal y control del gasto público. <strong>Su perspectiva económica lo posiciona como interlocutor activo en temas de finanzas públicas dentro de su bloque parlamentario.</strong></p><p>La participación del diputado pampeano en comisiones clave como presupuestos refleja su inserción en estructuras de decisión legislativa de importancia. <strong>El trabajo en estas instancias permite que representantes del interior tengan voz en decisiones que afectan la distribución de recursos federales.</strong></p>",
+          "foto": "img/politicos/ravier.jpg"
+        },
+        {
+          "id": "senador_kroneberger_comité_radical",
+          "cat": "UCR · La Pampa",
+          "titulo": "Senador Kroneberger reúne comisión nacional radical",
+          "bajada": "El senador nacional Daniel Kroneberger, secretario del Comité Nacional de la Unión Cívica Radical, convocó a reunión de comisión directiva para definir estrategias electorales y políticas. Kroneberger es el único senador radical de La Pampa.",
+          "cuerpo": "<p>El senador nacional Daniel Kroneberger, quien ejerce además el cargo de secretario del Comité Nacional de la Unión Cívica Radical, presidió una reunión de integrantes de la comisión directiva del partido. <strong>El encuentro fue convocado para analizar la situación política nacional y provincial, y definir estrategias comunes de la UCR.</strong></p><p>Kroneberger, único senador radical de La Pampa, representa en el Congreso Nacional los intereses del partido en la Cámara Alta. <strong>Su participación en la conducción nacional de la UCR lo posiciona como interlocutor clave entre la provincia y las decisiones del partido a nivel federal.</strong></p><p>La reunión de comisión directiva permitió que referentes radicales de distintas provincias compartieran experiencias y acordaran posiciones comunes respecto a temas de debate legislativo y coyuntura política. <strong>Kroneberger coordinó las intervenciones y estableció las prioridades de agenda.</strong></p><p>El rol de secretario del Comité Nacional implica responsabilidades importantes en términos de coordinación partidaria y representación de la UCR ante instancias de decisión nacional. <strong>Kroneberger mantiene una activa participación tanto en su rol institucional como senador como en sus funciones de conducción del radicalismo.</strong></p>",
+          "foto": "img/politicos/krone.webp"
+        },
+        {
+          "id": "intendente_di_napoli_obra_publica",
+          "cat": "Gobernanza · Santa Rosa",
+          "titulo": "Intendente Di Nápoli inaugura obra pública",
+          "bajada": "El intendente de Santa Rosa, Luciano Di Nápoli, encabezó el acto de inauguración de una obra de infraestructura ejecutada en barrio periférico de la capital provincial. El proyecto forma parte del plan de inversión municipal para mejora de servicios e infraestructura.",
+          "cuerpo": "<p>El intendente Luciano Di Nápoli presidió el acto de inauguración de una obra pública en un barrio periférico de Santa Rosa, acompañado por funcionarios municipales y vecinos de la zona. <strong>La obra forma parte del plan de inversiones que la administración municipal ejecuta para mejorar la calidad de vida en toda la ciudad.</strong></p><p>Di Nápoli, en su segundo mandato como intendente de Santa Rosa desde 2023, ha priorizado la ejecución de obras de infraestructura en barrios que enfrentan déficits acumulados. <strong>Esta inversión refleja el compromiso de la administración con la equidad territorial dentro de la ciudad capital.</strong></p><p>Durante el acto, el intendente enfatizó la importancia de generar oportunidades económicas y mejora de servicios en zonas vulnerables. <strong>Señaló que estas inversiones no solo mejoran infraestructura sino que también generan empleo en el territorio y dinamizan actividad económica local.</strong></p><p>Di Nápoli, quien pertenece a la agrupación La Cámpora dentro del PJ, mantiene tensiones políticas con la conducción provincial pero ha logrado consolidar una base de apoyo electoral fuerte en Santa Rosa. <strong>Los actos de inauguración de obras públicas constituyen hitos importantes en la agenda política municipal y en la visibilidad de la gestión.</strong></p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Luciano_di_N%C3%A1poli.jpg/960px-Luciano_di_N%C3%A1poli.jpg"
+        }
+      ]
+    },
+    {
       "clave": "2026-06-18_manana",
       "fecha_iso": "2026-06-18",
       "fecha": "18 junio 2026",
