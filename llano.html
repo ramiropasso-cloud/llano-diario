@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="es" data-theme="light">
+<html lang="es" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -88,48 +88,50 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg:        #fafaf8;
-  --bg-2:      #f2f1ed;
-  --bg-3:      #e8e7e2;
-  --fg:        #0a0909;
-  --fg-2:      #4a4845;
-  --fg-3:      #9a9690;
-  --fg-4:      #c8c4bc;
-  --accent:    #c8780a;
-  --accent-2:  #e8960f;
-  --accent-bg: #fdf3e3;
-  --border:    #e2e0da;
-  --border-2:  #ccc9c0;
-  --ink:       #0a0909;
-  --red:       #cc2222;
-  --green:     #1a7a3a;
-  --blue:      #1a4a8a;
-  --shadow-s:  0 1px 2px rgba(10,9,9,.06);
-  --shadow-m:  0 2px 8px rgba(10,9,9,.08), 0 1px 2px rgba(10,9,9,.04);
+  /* modo "lectura" claro — frío, sin crema/naranja */
+  --bg:        #f4f6f8;
+  --bg-2:      #e8ecf0;
+  --bg-3:      #dce1e6;
+  --fg:        #0d1117;
+  --fg-2:      #46505c;
+  --fg-3:      #8893a0;
+  --fg-4:      #c3c9d1;
+  --accent:    #0090e0;
+  --accent-2:  #0077c2;
+  --accent-bg: #e3f3fd;
+  --border:    #d5dae0;
+  --border-2:  #c0c7d0;
+  --ink:       #0d1117;
+  --red:       #d92b2b;
+  --green:     #16804a;
+  --blue:      #1a5dbf;
+  --shadow-s:  0 1px 2px rgba(13,17,23,.06);
+  --shadow-m:  0 2px 8px rgba(13,17,23,.08), 0 1px 2px rgba(13,17,23,.04);
   --r:         5px;
   --r-lg:      10px;
   --transition: .18s cubic-bezier(.4,0,.2,1);
 }
 
 [data-theme="dark"] {
-  --bg:        #0d0c0b;
-  --bg-2:      #141310;
-  --bg-3:      #1e1c18;
-  --fg:        #eeece5;
-  --fg-2:      #a09c94;
-  --fg-3:      #5a5650;
-  --fg-4:      #2e2c28;
-  --accent:    #e8960f;
-  --accent-2:  #f0aa30;
-  --accent-bg: #1e1608;
-  --border:    #1e1c18;
-  --border-2:  #2a2820;
-  --ink:       #eeece5;
-  --red:       #e05555;
-  --green:     #3aaa5a;
-  --blue:      #4a80cc;
-  --shadow-s:  0 1px 2px rgba(0,0,0,.3);
-  --shadow-m:  0 2px 8px rgba(0,0,0,.35);
+  /* modo default — negro espacial + acento azul-cian */
+  --bg:        #050608;
+  --bg-2:      #0a0d12;
+  --bg-3:      #12161d;
+  --fg:        #f5f7fa;
+  --fg-2:      #9aa3b2;
+  --fg-3:      #5d6573;
+  --fg-4:      #383d47;
+  --accent:    #2ea8ff;
+  --accent-2:  #6fd0ff;
+  --accent-bg: rgba(46,168,255,.10);
+  --border:    rgba(255,255,255,.08);
+  --border-2:  rgba(255,255,255,.14);
+  --ink:       #f5f7fa;
+  --red:       #ff3b3b;
+  --green:     #2ee07a;
+  --blue:      #4d8dff;
+  --shadow-s:  0 1px 2px rgba(0,0,0,.4);
+  --shadow-m:  0 4px 16px rgba(0,0,0,.5), 0 1px 2px rgba(0,0,0,.3);
 }
 
 html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
@@ -729,7 +731,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     </nav>
     <div class="h-right">
       <button class="icon-btn" onclick="toggleTheme()" aria-label="Cambiar tema">
-        <svg id="icon-theme" viewBox="0 0 24 24"><path d="M12 3a9 9 0 100 18A9 9 0 0012 3zm0 2a7 7 0 010 14V5z"/></svg>
+        <svg id="icon-theme" viewBox="0 0 24 24"><path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z"/></svg>
       </button>
     </div>
   </div>
