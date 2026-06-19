@@ -2,6 +2,211 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-06-19_tarde",
+      "fecha_iso": "2026-06-19",
+      "fecha": "19 junio 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "Provincia rechaza IFA de El Medanito y lo eleva a Legislatura",
+        "summary": "Tras seis meses de análisis y observaciones técnicas, el Gobierno provincial no aprobó el Informe Final Ambiental ni el Plan de Remediación del proyecto. La decisión se remite ahora a la Legislatura provincial.",
+        "cat": "Ambiente · La Pampa",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg"
+      },
+      "sec01": [
+        {
+          "titulo": "La Provincia no aprueba el IFA y remite a la Legislatura el Informe Técnico sobre el estado ambiental de El Medanito",
+          "resumen": "Tras seis meses de análisis técnico y audiencia ambiental, el Gobierno provincial decidió no aprobar el Informe Final Ambiental ni el Plan de Remediación.",
+          "cat": "Ambiente · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Dos viviendas más ya están listas para entregar en Loventuel",
+          "resumen": "En el marco del Plan Mi Casa 4, el municipio finalizó la construcción de dos nuevas viviendas con fondos provinciales para entregar a la comunidad.",
+          "cat": "Obra Pública · Loventuel",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/722717_loventuel-05.-.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Nueva campaña de DNI gratuito: realizaron 135 trámites y anunciaron nuevos operativos",
+          "resumen": "La campaña de actualización gratuita del Documento Nacional de Identidad registró alta demanda en Santa Rosa con 135 trámites y nuevas jornadas programadas.",
+          "cat": "Servicios · Santa Rosa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/104216_img-20260618-wa0045.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        }
+      ],
+      "sec01_list": [
+        {
+          "titulo": "Horizontes infinitos: el despertar del Turismo Rural en La Pampa",
+          "resumen": "Los establecimientos rurales pampeanos despiertan como destino turístico, ofreciendo experiencias de reencontro con la naturaleza, tradiciones y vida rural.",
+          "cat": "Turismo · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1040372_la-holanda.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Capacitación: digitalización de trámites del Registro Provincial de Consultores Ambientales",
+          "resumen": "La Secretaría de Ambiente invitó a profesionales y firmas consultoras a capacitarse sobre la digitalización de trámites del Registro Provincial.",
+          "cat": "Capacitación · Ambiente",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/836995_capacitacionconsultores_2026-05.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "En General Pico, Escuelas \"i\" impulsó una jornada para fortalecer la participación de las familias",
+          "resumen": "El programa de Escuelas Innovadoras realizó una jornada en General Pico destinada a profundizar el vínculo entre instituciones educativas y comunidades familiares.",
+          "cat": "Educación · General Pico",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/232150_whatsapp-image-2026-06-18-at-12.57.21.jpeg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gobierno provincial acompaña inversiones de emprendedores norteños",
+          "resumen": "El Gobierno provincial apoya iniciativas de emprendedores del norte pampeano mediante programas de acompañamiento y financiamiento.",
+          "cat": "Economía · General Pico",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a34371668a8a.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Onda mundialista en las vitrinas de emprendedoras instaladas en Casa de Gobierno",
+          "resumen": "Emprendedoras pampeanas aprovechan la vidriera de Casa de Gobierno para comercializar productos con inspiración en la actual Copa del Mundo.",
+          "cat": "Economía · Santa Rosa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/7418062_20260612_120046.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Argentina se prepara para defender su corona en el Mundial 2026",
+          "resumen": "Campeona defensora tras su victoria en Qatar 2022, Argentina alista su plantel para enfrentar el torneo que se disputará en Estados Unidos, Canadá y México.",
+          "cat": "Deportes · Selección Nacional",
+          "foto": "",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Debate en Diputados sobre medidas de ajuste fiscal y promoción de inversiones",
+          "resumen": "La Cámara de Diputados continúa debatiendo iniciativas legislativas sobre política fiscal y atracción de inversiones para reactivar la economía nacional.",
+          "cat": "Política · Economía Nacional",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Casa Rosada anuncia nuevas iniciativas para fortalecer el Estado provincial",
+          "resumen": "La administración nacional avanza en un plan de fortalecimiento institucional de gobiernos provinciales mediante transferencias de competencias y recursos.",
+          "cat": "Casa Rosada · Política Nacional",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG",
+          "ts": "19 jun 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Provincia rechaza IFA y eleva caso a Legislatura",
+          "resumen": "El Gobierno no aprobó el Informe Final Ambiental de El Medanito tras análisis técnico exhaustivo.",
+          "cat": "Ambiente · La Pampa",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Escuelas \"i\" fortalece participación de familias en el norte pampeano",
+          "resumen": "Una jornada educativa convocó a padres y docentes para profundizar vínculos institucionales.",
+          "cat": "Educación · General Pico",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Argentina busca defender corona en Mundial 2026 de Estados Unidos",
+          "resumen": "Campeona defensora tras Qatar 2022, la Selección Nacional alista su plantel para enfrentar el torneo continental.",
+          "cat": "Deportes · Selección Nacional",
+          "ts": "19 jun 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "provincia_no_aprueba_ifa",
+          "cat": "Ambiente · La Pampa",
+          "titulo": "La Provincia no aprueba el IFA y remite a la Legislatura el Informe Técnico sobre el estado ambiental de El Medanito",
+          "bajada": "Luego de seis meses de análisis técnico exhaustivo, el Gobierno provincial rechazó el Informe Final Ambiental del proyecto. La decisión ahora se traslada a la Legislatura provincial para su consideración.",
+          "cuerpo": "<p>Tras un riguroso proceso de evaluación de seis meses, durante el cual organismos técnicos competentes formularon observaciones sustantivas, el <strong>Gobierno provincial decidió no aprobar el Informe Final Ambiental (IFA) ni el Plan de Remediación de El Medanito</strong> en su estado actual. Esta resolución llega después de una audiencia pública ambiental en la que se recogieron aportes de distintos sectores involucrados en la cuestión.</p><p>La no aprobación del informe técnico constituye un paso administrativo importante, dado que el proyecto había sido objeto de múltiples consultas y evaluaciones por parte de los organismos de control ambiental de la provincia. <strong>Las observaciones formuladas por estos organismos resultaron suficientes para que la administración provincial considerara insuficientes los análisis presentados</strong> en su formato original, particularmente respecto a los protocolos de remediación ambiental.</p><p>La Secretaría de Ambiente y Cambio Climático será responsable de elevar toda la documentación técnica a la Legislatura provincial, donde los diputados y diputadas tendrán la facultad de revisar el expediente completo. <strong>Este traspaso del análisis al poder legislativo abre un nuevo ciclo de evaluación</strong> en el que se esperan nuevas consultas, posibles audiencias adicionales y deliberación parlamentaria sobre los alcances y responsabilidades del proyecto.</p><p>Fuentes del Gobierno provincial indicaron que esta decisión refleja el compromiso con estándares ambientales rigurosos y con la participación de todas las instancias técnicas y legislativas necesarias para garantizar que los proyectos de desarrollo sean compatibles con la protección del ecosistema pampeano. El próximo paso dependerá de cómo la Legislatura procese y evalúe la documentación remitida.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg"
+        },
+        {
+          "id": "dos_viviendas_loventuel",
+          "cat": "Obra Pública · Loventuel",
+          "titulo": "Dos viviendas más ya están listas para entregar en Loventuel",
+          "bajada": "El municipio de Loventuel finalizó la construcción de dos nuevas viviendas dentro del Plan Mi Casa 4 con financiamiento del Gobierno provincial. El proyecto forma parte de un esfuerzo más amplio de infraestructura rural.",
+          "cuerpo": "<p>En el marco del <strong>Plan Mi Casa 4</strong>, el municipio de Loventuel completó la construcción de dos nuevas viviendas destinadas a ser entregadas a familias de la comunidad. <strong>El Gobierno provincial aportó los fondos necesarios</strong> para ejecutar este emprendimiento habitacional, que responde a políticas de acceso a la vivienda en localidades del interior pampeano.</p><p>Las viviendas ya se encuentran en condiciones de ser ocupadas y próximamente se realizará el acto de entrega oficial a los beneficiarios seleccionados según los criterios de vulnerabilidad y demanda local establecidos por la administración municipal. <strong>Esta iniciativa forma parte de un programa más amplio que busca mejorar la calidad de vida en pequeños núcleos urbanos</strong> del territorio provincial.</p><p>Además de la construcción de viviendas, el Estado pampeano continúa acompañando la gestión municipal en materia de infraestructura rural. <strong>Se han realizado tareas de reparación y mantenimiento de caminos vecinales</strong> que conectan la localidad con otras zonas productivas del departamento, mejorando la accesibilidad para productores y residentes.</p><p>Funcionarios municipales celebraron el avance de obras y destacaron la importancia del apoyo provincial para desarrollar proyectos que de otra manera resultarían imposibles de ejecutar con presupuesto local. Se espera que el acto de entrega se realice en los próximos días, con presencia de autoridades provinciales y municipales.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/722717_loventuel-05.-.jpg"
+        },
+        {
+          "id": "dni_gratuito_campana",
+          "cat": "Servicios · Santa Rosa",
+          "titulo": "Nueva campaña de DNI gratuito: realizaron 135 trámites y anunciaron nuevos operativos",
+          "bajada": "La campaña de actualización gratuita del Documento Nacional de Identidad continuó su expansión en Santa Rosa con una nueva jornada de alta demanda. El Gobierno provincial anunció nuevos operativos en otras localidades.",
+          "cuerpo": "<p>La campaña de actualización gratuita del <strong>Documento Nacional de Identidad promovida por el Gobierno provincial registró una nueva jornada de alta demanda en Santa Rosa</strong>, donde se realizaron 135 trámites en una única sesión. Esta cifra demuestra el interés de la ciudadanía por acceder a un servicio esencial que muchas veces resulta dificultoso gestionar a nivel nacional.</p><p><strong>El operativo buscó acercar un servicio de la Administración Nacional Directa a los barrios de Santa Rosa</strong>, evitando que los vecinos deban trasladarse a oficinas de atención remota o esperar tiempos prolongados. La modalidad itinerante de la campaña ha resultado exitosa en términos de cobertura territorial y satisfacción ciudadana.</p><p>Autoridades del Gobierno provincial anunciaron que <strong>nuevos operativos de DNI gratuito se desarrollarán en otras localidades de la provincia</strong>, ampliando el acceso a este trámite fundamental. Se espera que en las próximas semanas se concrete la presencia de estos equipos en General Pico y otras ciudades del interior pampeano, con calendarios a divulgarse próximamente.</p><p>El éxito de esta iniciativa refleja la coordinación entre instancias provinciales y la Administración Nacional de Documentos de Identidad. Funcionarios destacaron que estas campañas contribuyen a garantizar derechos básicos y facilitan trámites administrativos que dependen de documentación actualizada, fortaleciendo la inclusión documentaria en toda la provincia.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/104216_img-20260618-wa0045.jpg"
+        },
+        {
+          "id": "turismo_rural_pampa",
+          "cat": "Turismo · La Pampa",
+          "titulo": "Horizontes infinitos: el despertar del Turismo Rural en La Pampa",
+          "bajada": "Los establecimientos rurales pampeanos emergen como destino turístico integral, ofreciendo experiencias inmersivas en la naturaleza y las tradiciones del campo. Un nuevo circuito que redescubre la región.",
+          "cuerpo": "<p>Hay lugares que se visitan. Hay lugares que se sienten. <strong>En los establecimientos rurales de La Pampa, el tiempo transcurre de otra manera</strong>: los amaneceres llegan sin apuro, los atardeceres parecen no terminar nunca y cada experiencia invita a reencontrarse con la naturaleza, las tradiciones y la vida auténtica del campo pampeano. Este despertar del turismo rural constituye una oportunidad para la economía provincial y un redescubrimiento del territorio.</p><p><strong>El turismo rural se posiciona como una alternativa de diversificación económica para productores agropecuarios</strong>, permitiéndoles complementar ingresos mediante la prestación de servicios de hospedaje, gastronomía y experiencias vivenciales. Desde cabalgatas por campos abiertos hasta cenas bajo el cielo estrellado, las propuestas combinan educación sobre prácticas productivas con descanso y reconnexión emocional.</p><p>Los establecimientos rurales pampeanos ofrecen <strong>un contacto genuino con la cultura local, las tradiciones gauchas y la historia de la región</strong>. Muchos de estos emprendimientos incluyen talleres de trabajos artesanales, degustación de productos regionales y participación en labores cotidianas de la estancia, generando un aprendizaje vivencial que difícilmente se logra en destinos masivos.</p><p>Organismos de promoción turística provincial trabajan en la difusión de estos circuitos, tanto a nivel nacional como internacional, posicionando a La Pampa como destino de turismo experiencial y sostenible. <strong>El desafío próximo consiste en articular inversiones en infraestructura, conectividad y servicios complementarios que potencien el desarrollo de este segmento</strong> sin comprometer los valores de autenticidad y respeto ambiental que caracterizan estas experiencias.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1040372_la-holanda.jpg"
+        },
+        {
+          "id": "capacitacion_consultores_ambientales",
+          "cat": "Capacitación · Ambiente",
+          "titulo": "Capacitación: digitalización de trámites del Registro Provincial de Consultores Ambientales",
+          "bajada": "La Secretaría de Ambiente y Cambio Climático invitó a profesionales y firmas consultoras a participar en una jornada sobre digitalización de los trámites administrativos. El objetivo es modernizar los procesos de certificación.",
+          "cuerpo": "<p>La Secretaría de Ambiente y Cambio Climático convocó a profesionales y firmas consultoras en materia ambiental a participar en una <strong>capacitación especializada sobre la digitalización de trámites del Registro Provincial de Consultores Ambientales</strong>. Este encuentro forma parte de un proceso más amplio de modernización administrativa y mejora de la eficiencia en la gestión pública ambiental.</p><p><strong>El Registro Provincial de Consultores Ambientales es una herramienta fundamental para garantizar la calidad técnica de profesionales que intervienen en evaluaciones de impacto ambiental y estudios de remediación</strong>. Su digitalización permitirá agilizar inscripciones, renovaciones de credenciales, verificación de habilitaciones y acceso a información sobre consultores activos.</p><p>La capacitación abordó <strong>plataformas digitales, procedimientos simplificados, requisitos de documentación en formato electrónico y sistemas de seguimiento en línea</strong>. Participaron ingenieros ambientales, consultores independientes y responsables de oficinas técnicas de empresas locales, que recibieron orientación práctica para navegar los nuevos sistemas.</p><p>Funcionarios de la Secretaría destacaron que <strong>la digitalización de estos trámites reduce tiempos administrativos, disminuye costos de gestión y facilita el cumplimiento normativo</strong> tanto para consultores como para las autoridades provinciales. Se espera que los nuevos sistemas comiencen a operar en forma progresiva durante las próximas semanas, con períodos de transición para garantizar inclusión de todos los actores.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/836995_capacitacionconsultores_2026-05.jpg"
+        },
+        {
+          "id": "escuelas_familias_pico",
+          "cat": "Educación · General Pico",
+          "titulo": "En General Pico, Escuelas \"i\" impulsó una jornada para fortalecer la participación de las familias",
+          "bajada": "El programa Escuelas Innovadoras realizó una jornada en General Pico dedicada a fortalecer el vínculo entre instituciones educativas y familias. Participaron docentes y padres de varios establecimientos.",
+          "cuerpo": "<p>El programa <strong>Escuelas Innovadoras («i») realizó una jornada en General Pico orientada a fortalecer la participación activa de familias en la vida institucional de las escuelas</strong>. El encuentro convocó a docentes, directivos, padres y madres de varias instituciones educativas de la ciudad para reflexionar sobre mecanismos de colaboración y corresponsabilidad en procesos pedagógicos.</p><p><strong>La participación familiar es considerada un factor crucial para mejorar indicadores de aprendizaje, retención escolar y clima institucional</strong>. Las jornadas de Escuelas Innovadoras buscan crear espacios de diálogo donde se identifiquen barreras a la participación y se diseñen estrategias concretas de inclusión.</p><p>Durante la actividad, <strong>se compartieron experiencias exitosas de escuelas que lograron fortalecer vínculos con familias a través de proyectos colaborativos, asambleas abiertas y talleres participativos</strong>. Se discutieron también desafíos comunes como la disponibilidad horaria de padres trabajadores, diversidad de contextos socioeconómicos y variables culturales que inciden en la participación.</p><p>Las autoridades educativas piquenses expresaron su compromiso con <strong>consolidar redes de colaboración escuela-comunidad que redunden en educación de mayor calidad y más inclusiva</strong>. Se esperan nuevas jornadas en otros núcleos territoriales de La Pampa, con el objetivo de replicar este modelo de fortalecimiento participativo en toda la provincia.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/232150_whatsapp-image-2026-06-18-at-12.57.21.jpeg"
+        },
+        {
+          "id": "emprendedores_norte",
+          "cat": "Economía · General Pico",
+          "titulo": "Gobierno provincial acompaña inversiones de emprendedores norteños",
+          "bajada": "El Gobierno provincial anunció líneas de apoyo y financiamiento para emprendedores del norte pampeano. Se busca fortalecer el tejido productivo y la generación de empleo local.",
+          "cuerpo": "<p>El <strong>Gobierno provincial implementó nuevas líneas de apoyo y acompañamiento para emprendedores del norte pampeano, particularmente en la región de General Pico y localidades cercanas</strong>. Estas iniciativas buscan fortalecer el tejido productivo local, estimular la generación de empleo y diversificar la base económica regional más allá de actividades tradicionales.</p><p><strong>Los programas incluyen capacitación empresarial, asesoramiento técnico y acceso a financiamiento a tasas preferenciales</strong> para emprendedores que cumplan con requisitos de viabilidad técnica y compromiso de radicación territorial. El énfasis se coloca en proyectos que generen empleo local y aprovechen recursos o capacidades propias de la región.</p><p>Funcionarios provinciales destacaron que <strong>el norte pampeano posee potencial productivo subutilizado en sectores como agroindustria, turismo, comercio especializado y servicios</strong>. El acompañamiento gubernamental busca convertir ideas en emprendimientos concretos, reduciendo barreras de acceso a capital inicial y conocimiento técnico-administrativo.</p><p><strong>Se espera que estas medidas generen un efecto multiplicador, creando puestos de trabajo directo e indirecto y reteniendo talento joven en la región</strong>. Se realizarán próximamente reuniones informativas en General Pico y otras localidades norteñas para que emprendedores conozcan en detalle los requisitos, montos disponibles y plazos de solicitud para acceder a estos beneficios provinciales.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a34371668a8a.jpg"
+        },
+        {
+          "id": "emprendedoras_casa_gobierno",
+          "cat": "Economía · Santa Rosa",
+          "titulo": "Onda mundialista en las vitrinas de emprendedoras instaladas en Casa de Gobierno",
+          "bajada": "Emprendedoras pampeanas comercializan productos con temática de la Copa del Mundo 2026 desde una vidriera instalada en Casa de Gobierno. La iniciativa busca potenciar pequeños negocios locales.",
+          "cuerpo": "<p><strong>Emprendedoras de La Pampa aprovechan una vidriera instalada en Casa de Gobierno para comercializar productos con inspiración mundialista</strong>, aprovechando el contexto de la Copa del Mundo 2026 que se disputará en Estados Unidos, Canadá y México. La iniciativa representa una estrategia de visibilización y comercialización de pequeños negocios locales mediante un espacio estratégico en una edificación pública de alto tránsito.</p><p>Los productos expuestos incluyen <strong>artículos de confección con diseños alusivos a la Selección Argentina, accesorios decorativos, emprendimientos gastronómicos artesanales y artesanías con identidad pampeana pero temática mundialista</strong>. La combinación de lo local con un evento deportivo de alcance global genera una propuesta comercial original que atrae tanto a turistas como a público doméstico.</p><p><strong>La presencia de emprendedoras en Casa de Gobierno visibiliza el trabajo productivo de mujeres del territorio y refuerza políticas de apoyo a la pequeña economía</strong>. Esta iniciativa forma parte de una estrategia más amplia de promoción de emprendimientos liderados por mujeres y de aprovechamiento de espacios públicos para dinamizar la comercialización de bienes locales.</p><p>Funcionarias del Gobierno provincial indicaron que <strong>estas experiencias de visibilización en espacios institucionales generan oportunidades de networking, contactos comerciales y posibilidades de expansión para emprendedoras</strong>. Se evalúa la posibilidad de replicar iniciativas similares en otros municipios y de extender los períodos de ocupación de vitrinas para distintos sectores productivos.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/7418062_20260612_120046.jpg"
+        },
+        {
+          "id": "argentina_mundial_2026",
+          "cat": "Deportes · Selección Nacional",
+          "titulo": "Argentina se prepara para defender su corona en el Mundial 2026",
+          "bajada": "Como campeona defensora tras su victoria en Qatar 2022, Argentina alista su plantel para enfrentar el torneo que se disputará en Estados Unidos, Canadá y México. El objetivo es reeditar el éxito.",
+          "cuerpo": "<p><strong>Argentina, campeona mundial tras su victoria en Qatar 2022, se prepara intensamente para defender su corona en el Mundial 2026</strong>. El torneo se disputará en territorio de Estados Unidos, Canadá y México, marcando la primera ocasión en que tres países coanfitrionan una Copa del Mundo en su formato expandido a 48 selecciones nacionales.</p><p>La Selección Argentina goza de ventajas significativas: <strong>un plantel consolidado con experiencia mundialista reciente, cohesión grupal probada y el prestigio de ser defensora del título</strong>. Sin embargo, el torneo 2026 presentará desafíos sin precedentes debido a su formato ampliado, la participación de más equipos y calendarios de viaje complejos entre tres naciones anfitrionas.</p><p><strong>El cuerpo técnico nacional trabaja en la identificación de nuevos talentos que se sumen al núcleo campeón, buscando equilibrio entre experiencia y juventud</strong>. Las amistosos internacionales, las eliminatorias sudamericanas y los torneos de clubes funcionan como laboratorio para evaluar alternativas y ajustar sistemas tácticos.</p><p><strong>La expectativa en Argentina es alta: reeditar un campeonato mundial sería un logro histórico que consolidaría una dinastía deportiva</strong>. Los aficionados, autoridades y cuerpo técnico se preparan para una campaña que comenzará con los partidos clasificatorios y culminará en el torneo final de 2026, con toda la nación atenta a cada paso de la Selección en su búsqueda por un nuevo título.</p>",
+          "foto": ""
+        },
+        {
+          "id": "congreso_economia_nacional",
+          "cat": "Política · Economía Nacional",
+          "titulo": "Debate en Diputados sobre medidas de ajuste fiscal y promoción de inversiones",
+          "bajada": "La Cámara de Diputados continúa deliberando sobre iniciativas legislativas en materia de política fiscal y atracción de inversiones. El objetivo es reactivar la economía nacional.",
+          "cuerpo": "<p><strong>La Cámara de Diputados continuó debatiendo durante la jornada de hoy iniciativas legislativas vinculadas a medidas de ajuste fiscal y promoción de inversiones productivas</strong>. Los bloques parlamentarios presentaron propuestas con enfoques distintos pero orientadas hacia la reactivación económica y la mejora de la capacidad de inversión pública y privada.</p><p><strong>El debate incluyó temas como reformas tributarias, simplificación de trámites administrativos para inversores y asignación de recursos para infraestructura estratégica</strong>. Diputados de distintos espacios políticos argumentaron sus posiciones, reflejando tensiones entre prioridades de ajuste fiscal, gasto social y promoción de crecimiento económico.</p><p><strong>Las comisiones parlamentarias trabajan en análisis detallado de las propuestas, recibiendo aportes de sectores empresariales, laborales y académicos</strong>. Se espera que en las próximas semanas avancen tratos particulares que permitan consensos amplios sobre medidas que requieran apoyo parlamentario mayoritario.</p><p><strong>Analistas políticos destacan que el resultado de estos debates tendrá impacto directo en provincias como La Pampa, que depende de transferencias nacionales y políticas federales de promoción agroindustrial</strong>. El Gobierno provincial sigue de cerca estos debates legislativos, anticipando cambios normativos que afecten su capacidad de inversión y sus relaciones financieras con la nación.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Diputados_debaten_reforma_previsional_03.jpg/960px-Diputados_debaten_reforma_previsional_03.jpg"
+        },
+        {
+          "id": "casa_rosada_agenda",
+          "cat": "Casa Rosada · Política Nacional",
+          "titulo": "Casa Rosada anuncia nuevas iniciativas para fortalecer el Estado provincial",
+          "bajada": "La administración nacional avanza en un plan de fortalecimiento institucional de gobiernos provinciales mediante transferencias de competencias y recursos. El objetivo es desconcentrar la toma de decisiones.",
+          "cuerpo": "<p><strong>Casa Rosada anunció hoy nuevas iniciativas orientadas a fortalecer la capacidad institucional de los gobiernos provinciales mediante transferencia de competencias y recursos financieros</strong>. El plan busca avanzar en procesos de descentralización que permitan que autoridades locales tengan mayor autonomía en la gestión de asuntos que afectan directamente a sus poblaciones.</p><p><strong>Las medidas incluyen transferencia de fondos destinados a educación, salud, infraestructura local y servicios esenciales, acompañadas de capacitación técnica para optimizar su uso</strong>. La administración nacional enfatiza que el federalismo operativo requiere que provincias cuenten con herramientas institucionales y financieras suficientes.</p><p><strong>Gobiernos provinciales como el de La Pampa, que históricamente ha recibido transferencias de recursos federales, ven estos anuncios como oportunidades para expandir su capacidad de inversión</strong>. Se espera que próximamente se detalles los montos específicos, calendarios de desembolso y criterios para acceder a estos fondos adicionales.</p><p><strong>Especialistas en federalismo subrayan que estas iniciativas pueden fortalecer gobiernos locales pero requieren marcos regulatorios claros, evaluación de capacidades administrativas provinciales y mecanismos de accountability</strong>. Los próximos pasos incluirán negociaciones entre autoridades nacionales y provinciales para definir detalles operativos e implementar estos anuncios de manera coordinada.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG"
+        }
+      ]
+    },
+    {
       "clave": "2026-06-19_manana",
       "fecha_iso": "2026-06-19",
       "fecha": "19 junio 2026",
