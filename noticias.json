@@ -2,6 +2,211 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-06-19_manana",
+      "fecha_iso": "2026-06-19",
+      "fecha": "19 junio 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "Provincia rechaza IFA de El Medanito y remite a Legislatura",
+        "summary": "Tras seis meses de análisis, el Gobierno provincial rechazó la aprobación del Informe Final Ambiental de El Medanito. La decisión se basa en observaciones técnicas de organismos competentes y audiencia ambiental.",
+        "cat": "Ambiente · La Pampa",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg"
+      },
+      "sec01": [
+        {
+          "titulo": "La Provincia no aprueba el IFA y remite a la Legislatura el Informe Técnico sobre el estado ambiental de El Medanito",
+          "resumen": "Luego de seis meses de análisis técnico, el Gobierno provincial resolvió no aprobar el Informe Final Ambiental ni el Plan de Remediación de El Medanito.",
+          "cat": "Ambiente · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Casa de Piedra: avanza obra estratégica que ampliará la superficie productiva bajo riego",
+          "resumen": "El Gobierno provincial continúa con una fuerte inversión en infraestructura estratégica para ampliar la superficie bajo riego en Casa de Piedra.",
+          "cat": "Obra Pública · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/597697_whatsapp-image-2026-06-18-at-11.15.47.jpeg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Nueva campaña de DNI gratuito: realizaron 135 trámites y anunciaron nuevos operativos",
+          "resumen": "La campaña de actualización gratuita del DNI registró alta demanda en Santa Rosa, completando 135 trámites en la última jornada.",
+          "cat": "Política Provincial · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/104216_img-20260618-wa0045.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        }
+      ],
+      "sec01_list": [
+        {
+          "titulo": "En General Pico, Escuelas \"i\" impulsó una jornada para fortalecer la participación de las familias",
+          "resumen": "Se realizó la jornada comunitaria \"Porque estar, no es lo mismo que no estar\" para fortalecer vínculos entre escuela, familias y comunidad.",
+          "cat": "Educación · General Pico",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/232150_whatsapp-image-2026-06-18-at-12.57.21.jpeg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gobierno provincial acompaña inversiones de emprendedores norteños",
+          "resumen": "Durante recorridas en localidades del norte pampeano, se verificaron inversiones productivas con generación de empleo local.",
+          "cat": "Economía Regional · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a34371668a8a.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Onda mundialista en las vitrinas de emprendedoras instaladas en Casa de Gobierno",
+          "resumen": "Emprendedoras locales exhiben sus productos con temática relacionada a la Copa del Mundo en las instalaciones provinciales.",
+          "cat": "Cultura · Santa Rosa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/7418062_20260612_120046.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Policías pampeanos participaron de una jornada de intercambio investigativo en Neuquén",
+          "resumen": "Efectivos de la policía provincial realizaron una jornada de intercambio de experiencias investigativas con sus pares de la provincia de Neuquén.",
+          "cat": "Seguridad · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/168939_img-20260618-wa0058.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Anunciaron una nueva edición de los festejos We Tripantu Rankül",
+          "resumen": "Se confirmó la realización de una nueva edición de los festejos We Tripantu Rankül, celebración que honra tradiciones ancestrales mapuches.",
+          "cat": "Cultura · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/745386_20260618_105353_copy_2448x1377.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Gobierno remite presupuesto 2027 al Congreso en medio de tensiones legislativas",
+          "resumen": "La administración nacional envió el proyecto de presupuesto para el próximo ejercicio fiscal al Parlamento, generando expectativa en los bloques.",
+          "cat": "Política Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "BCRA mantiene tasa de referencia en contexto de inflación moderada",
+          "resumen": "El Banco Central de la República Argentina reafirmó su posición en materia de política monetaria frente a la evolución de precios.",
+          "cat": "Economía Nacional · Banco Central",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Argentina defiende su condición de bicampeona en Estados Unidos 2026",
+          "resumen": "La Selección Nacional se prepara para participar en el Mundial de Fútbol que se disputará en Estados Unidos, Canadá y México.",
+          "cat": "Política Nacional · Deportes",
+          "foto": "",
+          "ts": "19 jun 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "En General Pico, Escuelas \"i\" impulsó una jornada para fortalecer la participación de las familias",
+          "resumen": "Se realizó la jornada comunitaria destinada a fortalecer los vínculos entre escuela, familias y comunidad en el marco del Proyecto Escuelas \"i\".",
+          "cat": "Educación · General Pico",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Anunciaron una nueva edición de los festejos We Tripantu Rankül",
+          "resumen": "Se confirmó la realización de una nueva edición de los festejos We Tripantu Rankül, celebración de tradiciones ancestrales mapuches.",
+          "cat": "Cultura · La Pampa",
+          "ts": "19 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Policías pampeanos participaron de una jornada de intercambio investigativo en Neuquén",
+          "resumen": "Efectivos pampeanos participaron en una jornada de intercambio de experiencias investigativas con la policía de Neuquén.",
+          "cat": "Seguridad · La Pampa",
+          "ts": "19 jun 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "provincia_no_aprueba_ifa",
+          "cat": "Ambiente · La Pampa",
+          "titulo": "La Provincia no aprueba el IFA y remite a la Legislatura el Informe Técnico sobre el estado ambiental de El Medanito",
+          "bajada": "Tras seis meses de análisis riguroso, el Gobierno provincial resolvió no aprobar el Informe Final Ambiental de El Medanito. La decisión se basa en observaciones técnicas de organismos competentes y los resultados de la audiencia ambiental pública.",
+          "cuerpo": "<p>El Gobierno de La Pampa, tras un proceso de evaluación técnica exhaustiva de seis meses, resolvió <strong>no aprobar el Informe Final Ambiental (IFA) ni el Plan de Remediación de El Medanito</strong> en su estado actual. La decisión fue tomada luego de analizar en profundidad las observaciones formuladas por los organismos técnicos competentes y después de realizarse la correspondiente audiencia ambiental pública.</p><p>El procedimiento de evaluación ambiental incluyó el análisis detallado de todas las observaciones técnicas presentadas durante el proceso administrativo y la audiencia ambiental, en la cual participaron distintos actores interesados en el proyecto. <strong>Esta metodología garantiza que la decisión responda a criterios técnicos rigurosos y a los estándares de participación ciudadana</strong> que requiere la legislación ambiental provincial.</p><p>El rechazo del IFA implica que el Gobierno provincial remitirá el informe técnico completo a la Legislatura, permitiendo que los diputados provinciales analicen los fundamentos técnicos de la decisión. <strong>Esta derivación al órgano legislativo respeta los mecanismos de control y transparencia institucionales</strong>, dando participación a los representantes electos en una materia de relevancia ambiental y territorial.</p><p>La administración provincial mantiene su compromiso con el desarrollo territorial equilibrado y la protección del ambiente como criterios centrales de la política de gobierno. El análisis de proyectos extractivos y de impacto ambiental continúa realizándose bajo estándares rigurosos de evaluación técnica y participación pública.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1587227_placa-apn-institucional-a.jpg"
+        },
+        {
+          "id": "casa_piedra_riego",
+          "cat": "Obra Pública · La Pampa",
+          "titulo": "Casa de Piedra: avanza obra estratégica que ampliará la superficie productiva bajo riego",
+          "bajada": "El Gobierno provincial continúa consolidando el desarrollo productivo de Casa de Piedra a través de una inversión estratégica en infraestructura. La obra permitirá ampliar significativamente la superficie agrícola bajo riego en la región.",
+          "cuerpo": "<p>Casa de Piedra se posiciona como uno de los polos de desarrollo regional más estratégicos de La Pampa gracias a la <strong>inversión estatal en infraestructura de riego que continúa avanzando</strong>. El Gobierno provincial reafirma su apuesta por consolidar esta localidad como nodo de producción agrícola de alto valor agregado en el norte del territorio provincial.</p><p>La obra que se ejecuta comprende la ampliación de la superficie productiva bajo riego, lo que <strong>potenciará la capacidad productiva regional y permitirá la incorporación de nuevas hectáreas a sistemas de irrigación controlada</strong>. Esta iniciativa forma parte de una estrategia integral de desarrollo territorial que busca diversificar la matriz económica local.</p><p>La inversión en infraestructura de riego representa un compromiso de mediano y largo plazo con el crecimiento económico de Casa de Piedra. <strong>El proyecto beneficia tanto a productores privados como a pequeños emprendimientos agrícolas</strong>, democratizando el acceso a tecnología de riego y permitiendo que más familias participen en cadenas productivas de mayor rentabilidad.</p><p>El Gobierno provincial continúa monitoreando el avance de las obras y coordina con los actores locales para optimizar el impacto de la inversión. <strong>Casa de Piedra representa una apuesta clara por la producción regional y el fortalecimiento de las economías locales del interior pampeano</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/597697_whatsapp-image-2026-06-18-at-11.15.47.jpeg"
+        },
+        {
+          "id": "dni_gratuito_campaña",
+          "cat": "Política Provincial · La Pampa",
+          "titulo": "Nueva campaña de DNI gratuito: realizaron 135 trámites y anunciaron nuevos operativos",
+          "bajada": "La campaña de actualización gratuita del Documento Nacional de Identidad registró una alta demanda en Santa Rosa. El Gobierno provincial anunció nuevos operativos para continuar acercando este servicio esencial a los ciudadanos.",
+          "cuerpo": "<p>La campaña de actualización gratuita del Documento Nacional de Identidad del Gobierno provincial continuó registrando una <strong>alta demanda ciudadana en la ciudad de Santa Rosa, donde se completaron 135 trámites en una única jornada</strong>. El servicio, que busca acercar un documento esencial a todos los pampeanos, demostró nuevamente su importancia y utilidad en la población.</p><p>El proceso de actualización del DNI es fundamental para garantizar que todos los ciudadanos cuenten con documentación vigente y válida para acceder a servicios públicos, realizar trámites administrativos y ejercer sus derechos cívicos. <strong>La masiva concurrencia a la jornada refleja la necesidad que existe en la comunidad y la confianza en la gestión provincial</strong>.</p><p>Ante el éxito de esta campaña, el Gobierno provincial anunció <strong>nuevos operativos que llevarán el servicio de actualización de DNI a diferentes localidades de La Pampa</strong>. Esta estrategia de expansión geográfica busca llegar a ciudadanos del interior provincial que enfrentan mayores dificultades para acceder a trámites documentales en las capitales departamentales.</p><p>La administración provincial ratifica su compromiso con la inclusión ciudadana y el acceso equitativo a servicios públicos. La gratuidad de los trámites y la proximidad del servicio son instrumentos clave para garantizar que todos los pampeanos puedan contar con documentación actualizada sin barreras económicas ni geográficas.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/104216_img-20260618-wa0045.jpg"
+        },
+        {
+          "id": "escuelas_general_pico",
+          "cat": "Educación · General Pico",
+          "titulo": "En General Pico, Escuelas \"i\" impulsó una jornada para fortalecer la participación de las familias",
+          "bajada": "En el marco del Proyecto Escuelas \"i\", se realizó una jornada comunitaria orientada a fortalecer los vínculos entre la institución educativa, las familias y la comunidad. El evento llevó como lema \"Porque estar, no es lo mismo que no estar\".",
+          "cuerpo": "<p>En la ciudad de General Pico, el Proyecto Escuelas \"i\" desarrolló una jornada comunitaria con el significativo lema <strong>\"Porque estar, no es lo mismo que no estar\"</strong>, una iniciativa orientada a fortalecer los vínculos entre la institución educativa, las familias y el entorno comunitario. La actividad se realizó en el SUM del establecimiento educativo y convocó a padres, docentes, estudiantes y vecinos.</p><p>El Proyecto Escuelas \"i\" constituye una estrategia pedagógica y comunitaria que reconoce la importancia de la <strong>participación activa de las familias en los procesos educativos de los niños y jóvenes</strong>. La jornada reflejó este compromiso al crear espacios de encuentro donde se fortalecen las relaciones entre la escuela y su comunidad inmediata.</p><p>La consigna del evento subraya una verdad central en educación: la mera presencia física no es suficiente para construir comunidad educativa. <strong>Se requiere participación genuina, involucramiento de las familias en los procesos de aprendizaje y compromiso compartido entre adultos responsables de la formación de nuevas generaciones</strong>.</p><p>Estas iniciativas demuestran que la educación de calidad depende no solo de recursos materiales y docentes preparados, sino también de <strong>redes de apoyo comunitario sólidas que acompañen el trayecto formativo de cada estudiante</strong>. El Proyecto Escuelas \"i\" avanza en esa dirección, consolidando espacios de encuentro que transforman a las instituciones educativas en centros de vida comunitaria integral.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/232150_whatsapp-image-2026-06-18-at-12.57.21.jpeg"
+        },
+        {
+          "id": "emprendedores_norte",
+          "cat": "Economía Regional · La Pampa",
+          "titulo": "Gobierno provincial acompaña inversiones de emprendedores norteños",
+          "bajada": "El Gobierno provincial continuó su estrategia de apoyo territorial realizando recorridas en localidades del norte pampeano. Se verificaron nuevas inversiones productivas con generación de empleo local.",
+          "cuerpo": "<p>Durante recorridas realizadas en las localidades de Intendente Alvear, Bernardo Larroudé y Embajador Martini, el Gobierno provincial verificó <strong>múltiples inversiones productivas en marcha en la región norte pampeana</strong>. Las actividades incluyeron la evaluación de proyectos empresariales, la incorporación de nuevo equipamiento en establecimientos locales y el seguimiento de iniciativas que continúan expandiéndose.</p><p>El acompañamiento estatal a los emprendedores del norte constituye un eje central de la política de desarrollo territorial provincial. <strong>Estos proyectos no solo generan actividad económica en sus respectivas localidades, sino que también crean puestos de trabajo y contribuyen a fijar población en el interior de La Pampa</strong>, revirtiendo dinámicas históricas de concentración urbana.</p><p>Algunos de los emprendimientos visitados reportaron <strong>generación de empleo local directo e indirecto, la incorporación de tecnología productiva actualizada y proyectos de diversificación económica</strong> que transforman las economías locales tradicionalmente basadas en ganadería y agricultura extensiva. El Gobierno provincial asume que su rol incluye acompañar estas iniciativas con información, asesoramiento y, cuando corresponde, acceso a líneas de financiamiento.</p><p>El Gobierno reafirma su compromiso con el desarrollo equitativo del territorio pampeano. <strong>Las inversiones en el norte provincial son inversiones en el futuro colectivo, en la generación de oportunidades para las nuevas generaciones y en la construcción de un modelo de desarrollo que valoriza la diversidad productiva regional</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a34371668a8a.jpg"
+        },
+        {
+          "id": "emprendedoras_casa_gobierno",
+          "cat": "Cultura · Santa Rosa",
+          "titulo": "Onda mundialista en las vitrinas de emprendedoras instaladas en Casa de Gobierno",
+          "bajada": "Emprendedoras locales exhiben sus productos en las instalaciones de Casa de Gobierno con una propuesta creativa que incorpora la temática del Mundial de Fútbol. El espacio se convierte en vidriera de la producción local.",
+          "cuerpo": "<p>En la Casa de Gobierno provincial, <strong>emprendedoras locales instalaron sus vitrinas de exhibición y venta de productos con una propuesta creativa que incorpora la temática del Mundial de Fútbol</strong>. La iniciativa combina el apoyo al emprendimiento femenino local con la celebración de la pasión futbolística que caracteriza a la sociedad argentina, generando un espacio lúdico y comercial simultáneamente.</p><p>Esta iniciativa refleja una estrategia de visibilización del emprendimiento local desde los espacios públicos institucionales. <strong>Casa de Gobierno se convierte en plataforma de promoción para emprendedoras que buscan expandir sus mercados y llegar a nuevos clientes a través de una presencia en un edificio de alto tránsito ciudadano</strong>.</p><p>La incorporación de elementos mundialistas en la propuesta comercial demuestra la capacidad de adaptación creativa de las emprendedoras locales a temas de interés social coyuntural. <strong>El Mundial de Fútbol 2026 genera una onda cultural en todo el país que traspasa fronteras e impacta en múltiples áreas de la vida social, incluyendo el comercio y el emprendimiento</strong>.</p><p>El Gobierno provincial ratifica su apuesta por fortalecer el emprendimiento femenino como motor de autonomía económica y participación de las mujeres en la vida productiva. <strong>Iniciativas como la instalación de vitrinas en espacios públicos institucionales democratizan el acceso a plataformas de visibilización y venta que historicamente fueron reservadas para grandes comercios</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/7418062_20260612_120046.jpg"
+        },
+        {
+          "id": "policias_neuquen",
+          "cat": "Seguridad · La Pampa",
+          "titulo": "Policías pampeanos participaron de una jornada de intercambio investigativo en Neuquén",
+          "bajada": "Efectivos de la policía provincial de La Pampa participaron en una jornada de intercambio de experiencias investigativas con sus colegas de la provincia de Neuquén. La actividad forma parte de estrategias de coordinación interprovincial.",
+          "cuerpo": "<p>Efectivos de la policía provincial de La Pampa participaron en una <strong>jornada de intercambio investigativo con sus colegas de la policía de la provincia de Neuquén</strong>. La actividad se enmarca en estrategias de coordinación y cooperación interprovincial destinadas a fortalecer capacidades operativas y compartir buenas prácticas en materia de investigación de delitos.</p><p>El intercambio de experiencias entre fuerzas de seguridad de diferentes provincias constituye una herramienta fundamental para mejorar las capacidades institucionales. <strong>A través de estos encuentros, los policías pampeanos acceden a información actualizada sobre metodologías investigativas, comparten casos de éxito y construyen redes de trabajo colaborativo</strong> que trascienden las fronteras provinciales.</p><p>La profesionalización de la tarea investigativa requiere <strong>actualización constante, exposición a nuevas metodologías y aprendizaje mutuo entre jurisdicciones</strong>. Las jornadas de intercambio permiten que especialistas en diferentes áreas delictivas compartan sus conocimientos y expongan a colegas de otras provincias a marcos conceptuales y herramientas investigativas que enriquecen el desempeño policial.</p><p>La coordinación interprovincial en seguridad es especialmente relevante en contextos donde el delito trasciende fronteras administrativas. <strong>El Gobierno provincial reconoce que la profesionalización de sus fuerzas de seguridad depende tanto del entrenamiento interno como de la construcción de redes colaborativas que permitan a los efectivos aprender de experiencias de otras jurisdicciones</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/168939_img-20260618-wa0058.jpg"
+        },
+        {
+          "id": "we_tripantu_rankul",
+          "cat": "Cultura · La Pampa",
+          "titulo": "Anunciaron una nueva edición de los festejos We Tripantu Rankül",
+          "bajada": "Se confirmó la realización de una nueva edición de los festejos We Tripantu Rankül, celebración que honra tradiciones ancestrales mapuches. La festividad continúa siendo un espacio de encuentro comunitario.",
+          "cuerpo": "<p>El Gobierno provincial anunció <strong>la realización de una nueva edición de los festejos We Tripantu Rankül</strong>, celebración ancestral que honra las tradiciones culturales del pueblo mapuche. La festividad, cuyo nombre significa el \"año nuevo mapuche\" o \"vuelta del año\", continúa consolidándose como un espacio de encuentro comunitario en La Pampa.</p><p>We Tripantu Rankül representa la importancia que la provincia otorga a la <strong>valorización de la herencia cultural mapuche y la construcción de una sociedad que reconoce y celebra la diversidad cultural como patrimonio colectivo</strong>. Cada edición de la festividad convoca a familias mapuches, instituciones educativas, organismos de gobierno y ciudadanía en general a participar de actividades que transmiten tradiciones ancestrales.</p><p>La celebración del We Tripantu Rankül es, además, <strong>un acto de memoria histórica que reconoce a los pueblos originarios como sujetos activos en la construcción de la identidad territorial de La Pampa</strong>. En un contexto donde la historia oficial frecuentemente invisibilizó a los pueblos indígenas, iniciativas como estas recuperan narrativas silenciadas y reivindican derechos culturales históricamente negados.</p><p>La nueva edición de los festejos promete mantener el espíritu inclusivo y participativo que caracteriza a las celebraciones anteriores. <strong>We Tripantu Rankül demuestra que La Pampa es un territorio multiétnico donde conviven tradiciones de origen europeo, criollo e indígena que juntas construyen la identidad cultural provincial</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/745386_20260618_105353_copy_2448x1377.jpg"
+        },
+        {
+          "id": "presupuesto_nacional_debate",
+          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "Gobierno remite presupuesto 2027 al Congreso en medio de tensiones legislativas",
+          "bajada": "La administración nacional envió el proyecto de presupuesto para el ejercicio fiscal 2027 al Parlamento. El envío ocurre en un contexto de tensiones entre el Ejecutivo y distintos bloques legislativos.",
+          "cuerpo": "<p>El Gobierno nacional remitió al Congreso de la Nación el proyecto de presupuesto para el ejercicio fiscal 2027. <strong>La presentación presupuestaria marca un punto central en la agenda legislativa anual y define las prioridades de inversión pública y gasto corriente para el próximo año</strong>. El documento fue acompañado de un mensaje presidencial que justificó las principales líneas de gastos e ingresos proyectados.</p><p>El presupuesto 2027 refleja las prioridades de la administración nacional en contexto de inflación moderada, evolución de las variables macroeconómicas y tensiones legislativas que caracterizan el actual período. <strong>Los distintos bloques de diputados y senadores evalúan el proyecto desde sus perspectivas ideológicas y territoriales, anticipándose debates sobre asignaciones de recursos para diferentes carteras ministeriales</strong>.</p><p>Las comisiones parlamentarias encargadas de analizar el presupuesto iniciarán el proceso de revisión técnica y deliberación política. <strong>Diferentes fuerzas políticas presentarán sus observaciones, pedidos de modificación y propuestas alternativas que reflejen las prioridades de sus territorios y electorados</strong>. Este proceso es central en el sistema representativo de gobierno.</p><p><strong>La aprobación o modificación del presupuesto dependerá de las coaliciones legislativas que logre construir el Gobierno en ambas cámaras del Congreso</strong>. El debate presupuestario es una oportunidad para que distintos sectores expongan sus demandas de inversión pública y para que los legisladores defiendan los intereses de sus provincias y circunscripciones.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Pedro_S%C3%A1nchez_in_2026.jpg"
+        },
+        {
+          "id": "bcra_politica_monetaria",
+          "cat": "Economía Nacional · Banco Central",
+          "titulo": "BCRA mantiene tasa de referencia en contexto de inflación moderada",
+          "bajada": "El Banco Central de la República Argentina reafirmó su posición en materia de política monetaria. La decisión ocurre en un contexto de moderación de presiones inflacionarias.",
+          "cuerpo": "<p>El Banco Central de la República Argentina (BCRA) <strong>reafirmó su posición en materia de política monetaria, manteniendo su tasa de referencia en niveles compatibles con la evolución actual de variables macroeconómicas</strong>. La decisión fue comunicada en el contexto de una coyuntura caracterizada por la moderación relativa de presiones inflacionarias en comparación con períodos anteriores.</p><p>La política monetaria del BCRA busca equilibrar múltiples objetivos: controlar la inflación, mantener la estabilidad del sistema financiero, promover el empleo y sostener la actividad económica. <strong>El mantenimiento de la tasa de referencia refleja la evaluación del banco central sobre el balance actual entre estos objetivos y la necesidad de evitar movimientos bruscos que podrían afectar la confianza en las variables monetarias</strong>.</p><p>La inflación, aunque moderada en comparación con períodos anteriores, continúa siendo un desafío central de la política económica. <strong>El BCRA reconoce que el proceso de desinflación requiere paciencia, consistencia en los instrumentos de política monetaria y coordinación con la política fiscal</strong> para consolidar ganancias alcanzadas en la reducción de presiones de precios.</p><p><strong>El mantenimiento de tasas de interés reales positivas busca incentivar el ahorro y desalentar presiones inflacionarias sin contraer excesivamente la actividad económica</strong>. La autoridad monetaria continúa monitoreando la evolución de agregados monetarios, variables del tipo de cambio y expectativas de inflación para ajustar instrumentos cuando sea necesario.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Money_on_the_floor_%E2%86%92_economic_crisis.jpg/960px-Money_on_the_floor_%E2%86%92_economic_crisis.jpg"
+        },
+        {
+          "id": "argentina_mundial_futbol",
+          "cat": "Política Nacional · Deportes",
+          "titulo": "Argentina defiende su condición de bicampeona en Estados Unidos 2026",
+          "bajada": "La Selección Nacional Argentina se prepara para participar en el Mundial de Fútbol que se disputará en Estados Unidos, Canadá y México. Argentina defenderá su condición de campeona bicampeona tras ganar en Qatar 2022.",
+          "cuerpo": "<p>La Selección Nacional Argentina se prepara para participar en el Mundial de Fútbol FIFA 2026, que se disputará en Estados Unidos, Canadá y México. <strong>Argentina asume la responsabilidad de defender su condición de bicampeona mundial tras conquistar el título en Qatar 2022, dándole a la nación una victoria que significó el fin de una sequía de 36 años en campeonatos mundiales</strong>.</p><p>La participación argentina en el Mundial 2026 genera expectativas en toda la sociedad. <strong>El fútbol ocupa un lugar central en la identidad cultural argentina, y la Selección Nacional es una institución que trasciende el deporte para convertirse en símbolo de identidad colectiva y pride nacional</strong>. La defensa del título es un objetivo que moviliza emocionalmente al conjunto de la sociedad.</p><p>El proceso de preparación de la Selección Nacional incluye análisis de rivales potenciales, experimentación táctica, evaluación de jugadores en sus respectivos clubes europeos y sudamericanos, y decisiones sobre composición de planteles. <strong>El técnico de la Selección lidera un proceso complejo de construcción de un equipo altamente competitivo en una competencia donde juegan las 32 mejores selecciones del mundo</strong>.</p><p><strong>La participación en un Mundial representa para Argentina la oportunidad de continuar escribiendo capítulos gloriosos en su historia futbolística, ratificando su posición como una de las potencias del deporte mundial</strong>. El tiempo de preparación que media entre hoy y la competencia será fundamental para que la Selección Nacional asuma el desafío de competir al máximo nivel en busca de su tercer título mundial.</p>",
+          "foto": ""
+        }
+      ]
+    },
+    {
       "clave": "2026-06-18_tarde",
       "fecha_iso": "2026-06-18",
       "fecha": "18 junio 2026",
