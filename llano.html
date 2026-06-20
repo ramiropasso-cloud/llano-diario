@@ -313,8 +313,7 @@ header:not(.header--solid) .h-nav .sep { background: rgba(255,255,255,.25); }
 }
 .hero-inner {
   max-width: 1280px; margin: 0 auto;
-  display: grid; grid-template-columns: 1fr 380px;
-  min-height: 520px;
+  min-height: 580px;
 }
 
 .hero-main {
@@ -369,26 +368,19 @@ header:not(.header--solid) .h-nav .sep { background: rgba(255,255,255,.25); }
 }
 .btn-primary:hover { color: var(--accent); }
 
+/* "También hoy" — franja de 3 tarjetas debajo del hero */
 .hero-side {
-  background: #0a0d12;
-  border-left: 1px solid rgba(255,255,255,.08);
-  display: flex; flex-direction: column;
-}
-.hero-side-title {
-  padding: 1rem 1.5rem;
-  font-size: .6rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
-  color: rgba(255,255,255,.4); border-bottom: 1px solid rgba(255,255,255,.08);
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem;
 }
 .hero-item {
-  padding: 1.1rem 1.5rem;
-  border-bottom: 1px solid rgba(255,255,255,.08);
-  cursor: pointer; transition: background var(--transition);
-  display: flex; flex-direction: column; gap: .55rem; flex: 1;
+  border: 1px solid var(--border); border-radius: var(--r-lg);
+  padding: 1.1rem;
+  cursor: pointer; transition: background var(--transition), border-color var(--transition), transform var(--transition);
+  display: flex; flex-direction: column; gap: .55rem;
 }
-.hero-item:last-child { border-bottom: none; }
-.hero-item:hover { background: rgba(255,255,255,.04); }
-.hero-item h3 { font-size: .9rem; font-weight: 600; line-height: 1.3; letter-spacing: -.015em; color: #f5f7fa; }
-.hero-item p  { font-size: .78rem; color: rgba(255,255,255,.55); line-height: 1.55; }
+.hero-item:hover { background: var(--bg-2); border-color: var(--border-2); transform: translateY(-2px); }
+.hero-item h3 { font-size: .9rem; font-weight: 600; line-height: 1.3; letter-spacing: -.015em; color: var(--fg); }
+.hero-item p  { font-size: .78rem; color: var(--fg-2); line-height: 1.55; }
 .hero-item-meta { display: flex; align-items: center; gap: .6rem; }
 
 /* ─── MAIN LAYOUT ─── */
@@ -601,6 +593,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 /* ─── RESPONSIVE ─── */
 @media (max-width: 1100px) {
   .g3 { grid-template-columns: repeat(2,1fr); }
+  .hero-side { grid-template-columns: repeat(2,1fr); }
   .g4 { grid-template-columns: repeat(2,1fr); }
   .tracker-grid { grid-template-columns: repeat(2,1fr); }
   .ia-cards { grid-template-columns: repeat(2,1fr); }
@@ -610,13 +603,9 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   .meta-bar .mb-r { display: none; }
   .h-inner { padding: 0 1rem; }
   .h-nav { display: none; }
-  .hero-inner { grid-template-columns: 1fr; }
   .hero-main { min-height: 380px; }
   .hero-title { font-size: 1.7rem; }
-  .hero-side { border-left: none; border-top: 1px solid var(--border); display: grid; grid-template-columns: repeat(2,1fr); }
-  .hero-side-title { grid-column: 1/-1; }
-  .hero-item { border-right: 1px solid var(--border); }
-  .hero-item:last-child { border-right: none; }
+  .hero-side { grid-template-columns: 1fr; }
   .main-wrap { padding: 1.5rem 1rem; }
   .g3, .g2, .g4 { grid-template-columns: 1fr; gap: 1.25rem; }
   .lay { grid-template-columns: 1fr; }
@@ -631,6 +620,24 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 /* ─── SCROLL ANIMATION ─── */
 .fade-in { opacity: 0; transform: translateY(14px); transition: opacity .5s ease, transform .5s ease; }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
+
+/* stagger por sección: las cards/items dentro de un .fade-in aparecen en cascada */
+.g3.fade-in > .card,
+.lay.fade-in .li,
+.lay.fade-in .intl-item {
+  opacity: 0; transform: translateY(10px);
+  transition: opacity .45s ease, transform .45s ease;
+}
+.g3.fade-in.visible > .card,
+.lay.fade-in.visible .li,
+.lay.fade-in.visible .intl-item {
+  opacity: 1; transform: translateY(0);
+}
+.g3.fade-in.visible > .card:nth-child(1), .lay.fade-in.visible .li:nth-child(1), .lay.fade-in.visible .intl-item:nth-child(1) { transition-delay: 0ms; }
+.g3.fade-in.visible > .card:nth-child(2), .lay.fade-in.visible .li:nth-child(2), .lay.fade-in.visible .intl-item:nth-child(2) { transition-delay: 70ms; }
+.g3.fade-in.visible > .card:nth-child(3), .lay.fade-in.visible .li:nth-child(3), .lay.fade-in.visible .intl-item:nth-child(3) { transition-delay: 140ms; }
+.lay.fade-in.visible .li:nth-child(4), .lay.fade-in.visible .intl-item:nth-child(4) { transition-delay: 210ms; }
+.lay.fade-in.visible .li:nth-child(5), .lay.fade-in.visible .intl-item:nth-child(5) { transition-delay: 280ms; }
 
 /* ─── LECTOR DE ARTÍCULOS ─── */
 .art-overlay {
@@ -1279,6 +1286,33 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     { threshold: 0.08 }
   );
   document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Contador animado para los datos numéricos del día (dato-strip / dato-box)
+  function animateCount(el) {
+    const raw = el.textContent;
+    const m = raw.match(/[\d][\d.,]*/);
+    if (!m) return;
+    const numStr = m[0];
+    const prefix = raw.slice(0, m.index);
+    const suffix = raw.slice(m.index + numStr.length);
+    const target = parseInt(numStr.replace(/[.,]/g, ''), 10);
+    if (isNaN(target) || target <= 0) return;
+    const hasThousands = /[.,]/.test(numStr);
+    const duration = 900, start = performance.now();
+    (function step(now) {
+      const p = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      const current = Math.round(target * eased);
+      el.textContent = prefix + (hasThousands ? current.toLocaleString('es-AR') : current) + suffix;
+      if (p < 1) requestAnimationFrame(step); else el.textContent = raw;
+    })(start);
+  }
+  const countObserver = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { animateCount(e.target); countObserver.unobserve(e.target); }
+    });
+  }, { threshold: 0.4 });
+  document.querySelectorAll('.dato-strip-num, .dato-box .num').forEach(el => countObserver.observe(el));
 
   // Nav scroll spy + header solid-on-scroll
   const navLinks = document.querySelectorAll('.h-nav a');
