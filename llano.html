@@ -323,7 +323,21 @@ header:not(.header--solid) .h-nav .sep { background: rgba(255,255,255,.25); }
   transition: transform var(--transition), box-shadow var(--transition);
 }
 .hero-panel:hover { transform: translateY(-3px); box-shadow: var(--shadow-m); }
-.hero-panel--wide { grid-column: 1 / -1; min-height: 340px; }
+
+/* panel ancho de abajo — sin foto, fondo claro para contraste y respiro visual */
+.hero-panel--wide {
+  grid-column: 1 / -1; min-height: 220px;
+  background: #fff; display: flex; align-items: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 10px 26px rgba(0,0,0,.07);
+}
+.hero-panel--wide:hover { box-shadow: 0 1px 2px rgba(0,0,0,.05), 0 14px 32px rgba(0,0,0,.1); }
+.hero-panel--wide .hero-panel-top { width: 100%; padding: 2rem 2.4rem; }
+.hero-panel--wide .hero-panel-cat { color: rgba(13,17,23,.45); }
+.hero-panel--wide .hero-panel-title { color: #0d1117; }
+.hero-panel--wide .hero-panel-sub { color: rgba(13,17,23,.6); }
+.hero-panel--wide .ts { color: rgba(13,17,23,.42); }
+.hero-panel--wide .chip-r { background: #fdecea; color: #c0392b; }
+.hero-panel--wide .chip-b { background: #e6edf8; color: #0090e0; }
 
 .hero-panel-photo {
   position: absolute; left: 0; right: 0; bottom: 0; height: 58%;
@@ -331,7 +345,6 @@ header:not(.header--solid) .h-nav .sep { background: rgba(255,255,255,.25); }
   -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 26%);
           mask-image: linear-gradient(to bottom, transparent 0%, #000 26%);
 }
-.hero-panel--wide .hero-panel-photo { height: 64%; background-position: center 26%; }
 
 .hero-panel-top { position: relative; z-index: 2; padding: 2.5rem 2.2rem 0; text-align: center; }
 .hero-panel-kicker { display: flex; align-items: center; justify-content: center; gap: .65rem; margin-bottom: 1rem; flex-wrap: wrap; }
@@ -591,8 +604,10 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   .h-nav { display: none; }
   .hero { padding: 1rem 1rem 1.75rem; }
   .hero-panels { grid-template-columns: 1fr; gap: 1rem; }
-  .hero-panel, .hero-panel--wide { min-height: 380px; }
+  .hero-panel { min-height: 380px; }
+  .hero-panel--wide { min-height: auto; }
   .hero-panel-top { padding: 1.75rem 1.4rem 0; }
+  .hero-panel--wide .hero-panel-top { padding: 1.75rem 1.4rem; }
   .hero-panel-title { font-size: 1.5rem; }
   .hero-panel--lead .hero-panel-title { font-size: 1.65rem; }
   .main-wrap { padding: 1.5rem 1rem; }
@@ -841,7 +856,6 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
           <span class="chip chip-a">Hoy</span>
         </div>
       </div>
-      <div class="hero-panel-photo" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Sergio_Ra%C3%BAl_Ziliotto.png');"></div>
     </div>
 <!-- AUTO:HERO-SIDE:END -->
 
@@ -860,32 +874,6 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       <a href="#" class="ver-mas">Ver todo →</a>
     </div>
   </div>
-
-  <!-- AUTO:SEC01:START -->
-  <div class="g3 fade-in">
-    <div class="card">
-      <div class="card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/48/Luciano_di_N%C3%A1poli.jpg');background-size:cover;background-position:center 20%;"></div>
-      <div class="card-meta"><span class="cat">Política Provincial · Santa Rosa</span><span class="ia-badge">&#10022; IA</span></div>
-      <h3>Di Nápoli presenta un plan de obras por $2.475 millones para Santa Rosa</h3>
-      <p>El intendente capitalino anunció un nuevo paquete de inversión en infraestructura urbana, en medio de la tensión con el Gobierno provincial por la urbanización del acuífero.</p>
-      <div class="card-meta"><span class="ts">19 jun 2026 · LLANO·</span></div>
-    </div>
-    <div class="card">
-      <div class="card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Sergio_Ra%C3%BAl_Ziliotto.png');background-size:cover;background-position:center 20%;"></div>
-      <div class="card-meta"><span class="cat">Política Provincial · PJ</span><span class="ia-badge">&#10022; IA</span></div>
-      <h3>El peronismo pampeano ya discute en voz baja la sucesión de Di Nápoli</h3>
-      <p>Sectores del PJ provincial comenzaron a analizar nombres para 2027 ante la tensión persistente entre el intendente de La Cámpora y la conducción de Ziliotto.</p>
-      <div class="card-meta"><span class="ts">19 jun 2026 · LLANO·</span></div>
-    </div>
-    <div class="card">
-      <div class="card-img" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Sergio_Ra%C3%BAl_Ziliotto.png');background-size:cover;background-position:center 20%;"></div>
-      <div class="card-meta"><span class="cat">Política Provincial · La Pampa</span><span class="ia-badge">&#10022; IA</span></div>
-      <h3>Ziliotto reclamó a Santilli fondos de ATN tras el temporal en la provincia</h3>
-      <p>El gobernador pidió al Gobierno nacional la liberación de Aportes del Tesoro Nacional para asistir a localidades afectadas por las últimas lluvias.</p>
-      <div class="card-meta"><span class="ts">19 jun 2026 · LLANO·</span></div>
-    </div>
-  </div>
-  <!-- AUTO:SEC01:END -->
 
   <!-- Política prov. + sidebar —>
   <div class="lay fade-in">
@@ -982,7 +970,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       <div style="position:relative;padding-bottom:56.25%;height:0;border-radius:var(--r-lg);overflow:hidden;background:#0a0909;">
         <iframe
           id="llano-video"
-          src="https://www.youtube.com/embed/CVo402w_Ypk"
+          src="https://www.youtube.com/embed/fVSiLhBMUD4"
           title="Video del día · LLANO·"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -998,9 +986,9 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
             <span class="cat" id="video-plataforma">YouTube · LLANO·</span>
             <span class="ia-badge">&#10022; Video</span>
           </div>
-          <h4 id="video-titulo" style="font-size:1rem;line-height:1.4;margin:0 0 .6rem;">Video destacado de la semana</h4>
-          <p id="video-desc" style="font-size:.8rem;color:var(--fg-2);line-height:1.5;margin:0 0 .8rem;">Selección editorial de LLANO· — el video más relevante de la política pampeana y argentina de la semana.</p>
-          <span class="ts" id="video-fecha">11 jun 2026 · LLANO·</span>
+          <h4 id="video-titulo" style="font-size:1rem;line-height:1.4;margin:0 0 .6rem;">Adrián Ravier es el nuevo vocero presidencial</h4>
+          <p id="video-desc" style="font-size:.8rem;color:var(--fg-2);line-height:1.5;margin:0 0 .8rem;">El diputado nacional pampeano reemplaza a Manuel Adorni en la vocería de la Presidencia, en el episodio político más relevante de la semana.</p>
+          <span class="ts" id="video-fecha">19 jun 2026 · LLANO·</span>
         </div>
         <div class="ab">
           <h6 class="ab-hd">Cómo ver más</h6>
@@ -1360,27 +1348,6 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       titulo:`Messi anotó un triplete y Argentina sigue invicta en el Mundial 2026`,
       bajada:`La Selección venció a Argelia y se aseguró el primer puesto del Grupo J con puntaje ideal en la fase de grupos.`,
       cuerpo:`<p>La Selección Argentina venció a Argelia con <strong>un triplete de Lionel Messi</strong> y se asegura el primer puesto del Grupo J con puntaje ideal en la fase de grupos del Mundial 2026. El capitán albiceleste volvió a ser determinante en una competencia donde busca sumar un nuevo logro a su extensa carrera con la camiseta nacional.</p><p>El triunfo confirma a Argentina como <strong>una de las candidatas más sólidas para pelear el título</strong> en la competencia que se disputa en Estados Unidos, Canadá y México. El equipo dirigido por el cuerpo técnico nacional mostró solidez defensiva y efectividad ofensiva en los tres partidos de la fase de grupos.</p><p>Con este resultado, la Selección se asegura <strong>el cruce de octavos de final en una posición favorable del cuadro</strong>, evitando enfrentar de manera temprana a otras potencias del fútbol mundial. El desempeño colectivo del equipo se combina con la vigencia goleadora de su capitán.</p><p>La actuación de Messi en este Mundial renueva la expectativa de la afición argentina, que sigue de cerca cada partido con la ilusión de <strong>ver al equipo defender con éxito su corona obtenida en Qatar 2022</strong>. El próximo desafío llegará en la instancia de eliminación directa.</p>`
-    },
-    dinapoli_plan_obras_2027: {
-      cat:'Política Provincial · Santa Rosa', fecha:'19 jun 2026', fuente:'LLANO·',
-      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/4/48/Luciano_di_N%C3%A1poli.jpg',
-      titulo:`Di Nápoli presenta un plan de obras por $2.475 millones para Santa Rosa`,
-      bajada:`El intendente capitalino anunció un nuevo paquete de inversión en infraestructura urbana, en medio de la tensión con el Gobierno provincial por la urbanización del acuífero.`,
-      cuerpo:`<p>El intendente de Santa Rosa, Luciano Di Nápoli, presentó un <strong>plan de obras por $2.475 millones</strong> destinado a infraestructura urbana en distintos barrios de la capital provincial. El anuncio llega en un momento de tensión con el Gobierno provincial por el proyecto de urbanización sobre el acuífero Santa Rosa-Anguil.</p><p>El plan contempla intervenciones en <strong>pavimentación, redes de agua y desagües pluviales</strong> en distintos sectores de la ciudad, con foco en barrios que vienen reclamando obras desde hace tiempo. La gestión municipal, que inició su segundo mandato en 2023, busca consolidar su gestión de cara a la segunda mitad del período.</p><p>Di Nápoli, referente de La Cámpora en la provincia, viene sosteniendo una <strong>agenda de gestión local que combina obra pública con un perfil político propio</strong> dentro del peronismo pampeano, en ocasiones a contramano de las definiciones de la conducción provincial del PJ que encabeza Sergio Ziliotto.</p><p>El anuncio se da en simultáneo con la convocatoria a audiencia pública por la urbanización sobre el acuífero, lo que <strong>refuerza la lectura política de un intendente que busca mostrar gestión propia</strong> mientras sostiene un frente de tensión abierto con el Gobierno provincial.</p>`
-    },
-    peronismo_ordena_sucesion_dinapoli: {
-      cat:'Política Provincial · PJ', fecha:'19 jun 2026', fuente:'LLANO·',
-      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/5/5c/Sergio_Ra%C3%BAl_Ziliotto.png',
-      titulo:`El peronismo pampeano ya discute en voz baja la sucesión de Di Nápoli`,
-      bajada:`Sectores del PJ provincial comenzaron a analizar nombres para 2027 ante la tensión persistente entre el intendente de La Cámpora y la conducción de Ziliotto.`,
-      cuerpo:`<p>Distintos sectores del Partido Justicialista pampeano comenzaron a <strong>analizar en voz baja posibles nombres para la sucesión municipal de Santa Rosa en 2027</strong>, en un contexto de tensión persistente entre el intendente Luciano Di Nápoli, referente de La Cámpora, y la conducción provincial que encabeza el gobernador Sergio Ziliotto, también presidente del PJ provincial.</p><p>Aunque Di Nápoli completa recién la primera mitad de su segundo mandato, <strong>las diferencias internas dentro del peronismo pampeano</strong> alimentan especulaciones sobre el armado de listas para las próximas elecciones municipales, en un escenario donde el oficialismo provincial busca preservar la conducción de la capital.</p><p>La vinculación entre Di Nápoli y La Cámpora marca una diferencia respecto de la mayoría de los referentes del PJ provincial, alineados con la conducción de Ziliotto. <strong>Esta tensión territorial se viene expresando en distintos episodios de gestión</strong>, el más reciente vinculado a la urbanización sobre el acuífero Santa Rosa-Anguil.</p><p>Por ahora no hay nombres confirmados ni candidaturas formalizadas, pero <strong>el debate interno refleja que la sucesión en Santa Rosa será un tema central</strong> en la interna del peronismo pampeano durante los próximos meses.</p>`
-    },
-    ziliotto_reclamo_santilli_atn: {
-      cat:'Política Provincial · La Pampa', fecha:'19 jun 2026', fuente:'LLANO·',
-      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/5/5c/Sergio_Ra%C3%BAl_Ziliotto.png',
-      titulo:`Ziliotto reclamó a Santilli fondos de ATN tras el temporal en la provincia`,
-      bajada:`El gobernador pidió al Gobierno nacional la liberación de Aportes del Tesoro Nacional para asistir a localidades afectadas por las últimas lluvias.`,
-      cuerpo:`<p>El gobernador de La Pampa, Sergio Ziliotto, reclamó al Gobierno nacional la <strong>liberación de Aportes del Tesoro Nacional (ATN)</strong> para asistir a localidades pampeanas afectadas por las últimas lluvias intensas. El pedido se enmarca en la relación que mantiene la administración provincial con la Casa Rosada en materia de asistencia financiera.</p><p>Las precipitaciones de los últimos días generaron <strong>anegamientos en distintos puntos de la provincia</strong>, afectando zonas urbanas y rurales. El Gobierno provincial relevó los daños y elevó un pedido formal de asistencia para financiar tareas de reparación de infraestructura y asistencia a familias afectadas.</p><p>Ziliotto, que conduce el PJ provincial y completa su mandato como gobernador hasta 2027, sostiene un vínculo de gestión con el Gobierno nacional <strong>más allá de las diferencias políticas entre el peronismo provincial y la administración de Javier Milei</strong>, priorizando la negociación de recursos para la provincia.</p><p>La respuesta del Gobierno nacional respecto del pedido de ATN será clave para determinar el alcance de la asistencia que recibirán los municipios afectados. <strong>La gestión de fondos de emergencia es un tema recurrente en la relación entre las provincias y la Nación</strong> en contextos de eventos climáticos extremos.</p>`
     },
     matzkin_reemplaza_ravier_diputado: {
       cat:'Política Nacional · LLA', fecha:'19 jun 2026', fuente:'LLANO·',
