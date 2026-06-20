@@ -306,103 +306,59 @@ header:not(.header--solid) .h-nav .sep { background: rgba(255,255,255,.25); }
   100% { transform: translateX(-50%); }
 }
 
-/* ─── HERO ─── */
+/* ─── HERO — paneles estilo "Apple" (fondo solido + foto a color sangrando abajo) ─── */
 .hero {
   border-bottom: 1px solid var(--border);
   background: var(--bg);
+  padding: 1.5rem 2rem 2.5rem;
 }
-.hero-inner {
+.hero-panels {
   max-width: 1280px; margin: 0 auto;
-  min-height: 580px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;
 }
+.hero-panel {
+  position: relative; overflow: hidden; cursor: pointer;
+  border-radius: 28px; background: #0b0e14;
+  min-height: 480px;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.hero-panel:hover { transform: translateY(-3px); box-shadow: var(--shadow-m); }
+.hero-panel--wide { grid-column: 1 / -1; min-height: 340px; }
 
-.hero-main {
-  padding: 3rem; display: flex; flex-direction: column; justify-content: flex-end;
-  position: relative; overflow: hidden; background: #050608;
+.hero-panel-photo {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 58%;
+  background-size: cover; background-position: center 18%;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 26%);
+          mask-image: linear-gradient(to bottom, transparent 0%, #000 26%);
 }
-.hero-photo {
-  position: absolute; inset: 0; width: 100%; height: 100%;
-  object-fit: cover; object-position: center 30%;
-  z-index: 0; display: block; opacity: .32;
+.hero-panel--wide .hero-panel-photo { height: 64%; background-position: center 26%; }
+
+.hero-panel-top { position: relative; z-index: 2; padding: 2.5rem 2.2rem 0; text-align: center; }
+.hero-panel-kicker { display: flex; align-items: center; justify-content: center; gap: .65rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.hero-panel-cat {
+  font-size: .62rem; letter-spacing: .1em; text-transform: uppercase;
+  color: rgba(255,255,255,.45); font-weight: 600;
 }
-.hero-bg {
-  position: absolute; inset: 0; z-index: 1;
-  background:
-    linear-gradient(to top,
-      rgba(5,6,8,.98) 0%,
-      rgba(5,6,8,.88) 28%,
-      rgba(5,6,8,.55) 58%,
-      rgba(5,6,8,.12) 100%),
-    radial-gradient(ellipse at 20% 85%, rgba(46,168,255,.16) 0%, transparent 50%);
+.hero-panel-title {
+  font-size: 1.85rem; font-weight: 800; letter-spacing: -.03em; line-height: 1.12;
+  color: #fff; margin-bottom: .6rem;
 }
-/* Barrido de radar + anillos de "tracking" — distingue al hero del resto del diario */
-.hero-scan {
-  position: absolute; inset: 0; z-index: 2; overflow: hidden; pointer-events: none;
+.hero-panel--lead .hero-panel-title { font-size: 2.25rem; }
+.hero-panel-sub {
+  font-size: .85rem; line-height: 1.6; color: rgba(255,255,255,.55);
+  font-weight: 300; max-width: 440px; margin: 0 auto 1.2rem;
 }
-.hero-rings {
-  position: absolute; right: 6%; top: 50%; z-index: 2; pointer-events: none;
-  width: 1px; height: 1px;
-}
-.hero-rings span {
-  position: absolute; left: 0; top: 0; border: 1px solid rgba(46,168,255,.45);
-  border-radius: 50%; transform: translate(-50%,-50%); opacity: 0;
-}
-@media (max-width: 980px) {
-  .hero-rings { display: none; }
-}
-@media (prefers-reduced-motion: no-preference) {
-  .hero-scan::before {
-    content: ''; position: absolute; left: 0; right: 0; top: -6%; height: 1px;
-    background: linear-gradient(90deg, transparent, rgba(46,168,255,.6), transparent);
-    box-shadow: 0 0 14px rgba(46,168,255,.45);
-    animation: heroScanMove 7s linear infinite;
-  }
-  .hero-rings span {
-    width: 60px; height: 60px;
-    animation: heroRingPing 4.5s cubic-bezier(.2,.6,.4,1) infinite;
-  }
-  .hero-rings span:nth-child(2) { animation-delay: 1.5s; }
-  .hero-rings span:nth-child(3) { animation-delay: 3s; }
-}
-@keyframes heroScanMove {
-  0%   { top: -6%;  opacity: 0; }
-  10%  { opacity: .8; }
-  50%  { opacity: .35; }
-  90%  { opacity: 0; }
-  100% { top: 106%; opacity: 0; }
-}
-@keyframes heroRingPing {
-  0%   { width: 16px; height: 16px; opacity: .55; }
-  100% { width: 220px; height: 220px; opacity: 0; }
-}
-#hero-3d {
-  position: absolute; inset: 0; z-index: 1.5;
-  width: 100%; height: 100%; display: block; pointer-events: none;
-}
-.hero-main-content { position: relative; z-index: 3; max-width: 620px; }
-.hero-kicker {
-  display: flex; align-items: center; gap: .75rem; margin-bottom: 1.2rem;
-}
-.hero-title {
-  font-size: 2.75rem; font-weight: 900; line-height: 1.08;
-  letter-spacing: -.045em; color: #fff; margin-bottom: 1.1rem;
-}
-.hero-summary {
-  font-size: .95rem; line-height: 1.72; color: rgba(255,255,255,.6);
-  font-weight: 300; margin-bottom: 1.6rem; max-width: 540px;
-}
-.hero-footer { display: flex; align-items: center; gap: 1rem; }
-.hero-ts { font-family: var(--font-mono); font-size: .7rem; color: rgba(255,255,255,.4); }
+.hero-panel-foot { display: flex; align-items: center; justify-content: center; gap: .65rem; }
+.hero-panel .ts { color: rgba(255,255,255,.42); }
+.hero-panel .chip-r { background: rgba(255,59,59,.16); color: #ff6b6b; }
+.hero-panel .chip-b { background: rgba(46,168,255,.14); color: #6fd0ff; }
 
 @media (prefers-reduced-motion: no-preference) {
-  @keyframes heroUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
-  .hero-kicker, .hero-title, .hero-summary, .hero-footer {
-    opacity: 0; animation: heroUp .7s cubic-bezier(.16,1,.3,1) forwards;
-  }
-  .hero-kicker  { animation-delay: .05s; }
-  .hero-title   { animation-delay: .15s; }
-  .hero-summary { animation-delay: .28s; }
-  .hero-footer  { animation-delay: .4s; }
+  @keyframes panelUp { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+  .hero-panel { opacity: 0; animation: panelUp .65s cubic-bezier(.16,1,.3,1) forwards; }
+  .hero-panel:nth-child(1) { animation-delay: .05s; }
+  .hero-panel:nth-child(2) { animation-delay: .16s; }
+  .hero-panel:nth-child(3) { animation-delay: .3s; }
 }
 .btn-primary {
   display: inline-flex; align-items: center; gap: .4rem;
@@ -411,21 +367,6 @@ header:not(.header--solid) .h-nav .sep { background: rgba(255,255,255,.25); }
   transition: color var(--transition), border-color var(--transition);
 }
 .btn-primary:hover { color: var(--accent); }
-
-/* "También hoy" — franja de 3 tarjetas debajo del hero */
-.hero-side {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem;
-}
-.hero-item {
-  border: 1px solid var(--border); border-radius: var(--r-lg);
-  padding: 1.1rem;
-  cursor: pointer; transition: background var(--transition), border-color var(--transition), transform var(--transition);
-  display: flex; flex-direction: column; gap: .55rem;
-}
-.hero-item:hover { background: var(--bg-2); border-color: var(--border-2); transform: translateY(-2px); }
-.hero-item h3 { font-size: .9rem; font-weight: 600; line-height: 1.3; letter-spacing: -.015em; color: var(--fg); }
-.hero-item p  { font-size: .78rem; color: var(--fg-2); line-height: 1.55; }
-.hero-item-meta { display: flex; align-items: center; gap: .6rem; }
 
 /* ─── MAIN LAYOUT ─── */
 .main-wrap { max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem; }
@@ -637,19 +578,23 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 /* ─── RESPONSIVE ─── */
 @media (max-width: 1100px) {
   .g3 { grid-template-columns: repeat(2,1fr); }
-  .hero-side { grid-template-columns: repeat(2,1fr); }
   .g4 { grid-template-columns: repeat(2,1fr); }
   .tracker-grid { grid-template-columns: repeat(2,1fr); }
   .ia-cards { grid-template-columns: repeat(2,1fr); }
   .f-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .hero-panel-title { font-size: 1.6rem; }
+  .hero-panel--lead .hero-panel-title { font-size: 1.9rem; }
 }
 @media (max-width: 768px) {
   .meta-bar .mb-r { display: none; }
   .h-inner { padding: 0 1rem; }
   .h-nav { display: none; }
-  .hero-main { min-height: 380px; }
-  .hero-title { font-size: 1.7rem; }
-  .hero-side { grid-template-columns: 1fr; }
+  .hero { padding: 1rem 1rem 1.75rem; }
+  .hero-panels { grid-template-columns: 1fr; gap: 1rem; }
+  .hero-panel, .hero-panel--wide { min-height: 380px; }
+  .hero-panel-top { padding: 1.75rem 1.4rem 0; }
+  .hero-panel-title { font-size: 1.5rem; }
+  .hero-panel--lead .hero-panel-title { font-size: 1.65rem; }
   .main-wrap { padding: 1.5rem 1rem; }
   .g3, .g2, .g4 { grid-template-columns: 1fr; gap: 1.25rem; }
   .lay { grid-template-columns: 1fr; }
@@ -667,21 +612,19 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 
 /* stagger por sección: las cards/items dentro de un .fade-in aparecen en cascada */
 .g3.fade-in > .card,
-.hero-side.fade-in > .hero-item,
 .lay.fade-in .li,
 .lay.fade-in .intl-item {
   opacity: 0; transform: translateY(10px);
   transition: opacity .45s ease, transform .45s ease;
 }
 .g3.fade-in.visible > .card,
-.hero-side.fade-in.visible > .hero-item,
 .lay.fade-in.visible .li,
 .lay.fade-in.visible .intl-item {
   opacity: 1; transform: translateY(0);
 }
-.g3.fade-in.visible > .card:nth-child(1), .hero-side.fade-in.visible > .hero-item:nth-child(1), .lay.fade-in.visible .li:nth-child(1), .lay.fade-in.visible .intl-item:nth-child(1) { transition-delay: 0ms; }
-.g3.fade-in.visible > .card:nth-child(2), .hero-side.fade-in.visible > .hero-item:nth-child(2), .lay.fade-in.visible .li:nth-child(2), .lay.fade-in.visible .intl-item:nth-child(2) { transition-delay: 70ms; }
-.g3.fade-in.visible > .card:nth-child(3), .hero-side.fade-in.visible > .hero-item:nth-child(3), .lay.fade-in.visible .li:nth-child(3), .lay.fade-in.visible .intl-item:nth-child(3) { transition-delay: 140ms; }
+.g3.fade-in.visible > .card:nth-child(1), .lay.fade-in.visible .li:nth-child(1), .lay.fade-in.visible .intl-item:nth-child(1) { transition-delay: 0ms; }
+.g3.fade-in.visible > .card:nth-child(2), .lay.fade-in.visible .li:nth-child(2), .lay.fade-in.visible .intl-item:nth-child(2) { transition-delay: 70ms; }
+.g3.fade-in.visible > .card:nth-child(3), .lay.fade-in.visible .li:nth-child(3), .lay.fade-in.visible .intl-item:nth-child(3) { transition-delay: 140ms; }
 .lay.fade-in.visible .li:nth-child(4), .lay.fade-in.visible .intl-item:nth-child(4) { transition-delay: 210ms; }
 .lay.fade-in.visible .li:nth-child(5), .lay.fade-in.visible .intl-item:nth-child(5) { transition-delay: 280ms; }
 
@@ -751,7 +694,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 .art-foot-src a { color: var(--accent); font-weight: 600; }
 .art-foot-src a:hover { opacity: .75; }
 
-.hero-main,.hero-item,.card,.li { cursor: pointer; }
+.hero-panel,.card,.li { cursor: pointer; }
 
   
   /* Dato del dia — strip prominente */
@@ -851,60 +794,62 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 
 <!-- ─── HERO ─── -->
 <section class="hero">
-  <div class="hero-inner">
+  <div class="hero-panels">
 
-    <div class="hero-main">
-      <canvas id="hero-3d" aria-hidden="true"></canvas>
 <!-- AUTO:HERO:START -->
-      <div class="hero-bg" style="background:linear-gradient(to top,rgba(5,6,8,.98) 0%,rgba(5,6,8,.88) 28%,rgba(5,6,8,.72) 58%,rgba(5,6,8,.35) 100%),radial-gradient(ellipse at 30% 80%, rgba(46,168,255,.18) 0%, transparent 55%),url('https://media.ambito.com/p/efd4336c1c7c381d885de813976d2904/adjuntos/239/imagenes/043/455/0043455249/adrian-ravier.jpg');background-size:auto,auto,cover;background-position:center,center,center;"></div>
-      <div class="hero-scan"></div>
-      <div class="hero-rings"><span></span><span></span><span></span></div>
-      <div class="hero-main-content">
-        <div class="hero-kicker">
+    <div class="hero-panel hero-panel--lead">
+      <div class="hero-panel-top">
+        <div class="hero-panel-kicker">
           <span class="live-dot">ÚLTIMA HORA</span>
-          <span style="width:1px;height:12px;background:rgba(255,255,255,.15);display:inline-block;"></span>
-          <span style="font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4);font-weight:600;">Política Nacional · Casa Rosada</span>
+          <span class="hero-panel-cat">Política Nacional · Casa Rosada</span>
         </div>
-        <h1 class="hero-title">Ravier es el nuevo vocero presidencial: el diputado pampeano reemplaza a Adorni</h1>
-        <p class="hero-summary">Tras un desayuno entre Javier Milei y Manuel Adorni en Olivos, se confirmó que el diputado nacional por La Pampa asumirá la vocería de la Presidencia. Deja su banca en el Congreso, donde lo reemplazará Martín Matzkin, y Adorni continúa como Jefe de Gabinete.</p>
-        <div class="hero-footer">
-          <span class="hero-ts">19 junio 2026 · LLANO&#183;</span>
+        <h1 class="hero-panel-title">Ravier es el nuevo vocero presidencial: el diputado pampeano reemplaza a Adorni</h1>
+        <p class="hero-panel-sub">Tras un desayuno entre Javier Milei y Manuel Adorni en Olivos, se confirmó que el diputado nacional por La Pampa asumirá la vocería de la Presidencia. Deja su banca en el Congreso, donde lo reemplazará Martín Matzkin, y Adorni continúa como Jefe de Gabinete.</p>
+        <div class="hero-panel-foot">
+          <span class="ts">19 junio 2026 · LLANO&#183;</span>
           <span class="ia-badge">&#10022; Analisis IA</span>
         </div>
       </div>
-<!-- AUTO:HERO:END -->
+      <div class="hero-panel-photo" style="background-image:url('https://media.ambito.com/p/efd4336c1c7c381d885de813976d2904/adjuntos/239/imagenes/043/455/0043455249/adrian-ravier.jpg');"></div>
     </div>
+<!-- AUTO:HERO:END -->
+
+<!-- AUTO:HERO-SIDE:START -->
+    <div class="hero-panel">
+      <div class="hero-panel-top">
+        <div class="hero-panel-kicker">
+          <span class="hero-panel-cat">Política Provincial · Santa Rosa</span>
+        </div>
+        <h2 class="hero-panel-title">Audiencia pública por una urbanización sobre el acuífero reabre la guerra entre Ziliotto y Di Nápoli</h2>
+        <p class="hero-panel-sub">El municipio de Santa Rosa convocó a una audiencia pública de tres jornadas para definir el destino de un proyecto que busca subdividir 171 lotes sobre el acuífero Santa Rosa-Anguil.</p>
+        <div class="hero-panel-foot">
+          <span class="ts">19 jun 2026 · LLANO·</span>
+          <span class="chip chip-a">Hoy</span>
+        </div>
+      </div>
+      <div class="hero-panel-photo" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/48/Luciano_di_N%C3%A1poli.jpg');"></div>
+    </div>
+    <div class="hero-panel hero-panel--wide">
+      <div class="hero-panel-top">
+        <div class="hero-panel-kicker">
+          <span class="hero-panel-cat">Ambiente · El Medanito</span>
+        </div>
+        <h2 class="hero-panel-title">La Provincia rechazó el informe ambiental final del yacimiento El Medanito</h2>
+        <p class="hero-panel-sub">Tras seis meses de análisis y una audiencia pública, el Gobierno pampeano no dio el visto bueno y sostuvo que los pasivos ambientales son responsabilidad de las concesionarias.</p>
+        <div class="hero-panel-foot">
+          <span class="ts">19 jun 2026 · LLANO·</span>
+          <span class="chip chip-a">Hoy</span>
+        </div>
+      </div>
+      <div class="hero-panel-photo" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Sergio_Ra%C3%BAl_Ziliotto.png');"></div>
+    </div>
+<!-- AUTO:HERO-SIDE:END -->
 
   </div>
 </section>
 
 <!-- ─── MAIN ─── -->
 <div class="main-wrap">
-
-  <!-- ── TAMBIÉN HOY ── -->
-  <div class="sec-hd fade-in" style="margin-top:0;">
-    <span class="sec-num">00</span>
-    <h2 class="sec-name">También hoy</h2>
-    <div class="sec-hd-right">
-      <span class="live-dot" style="font-size:.58rem;">Actualización continua</span>
-    </div>
-  </div>
-  <div class="hero-side fade-in" style="margin-bottom:2.5rem;">
-    <!-- AUTO:HERO-SIDE:START -->
-    <div class="hero-item">
-      <div class="hero-item-img" style="width:100%;height:110px;background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/48/Luciano_di_N%C3%A1poli.jpg');background-size:cover;background-position:center 20%;border-radius:var(--r);"></div>
-      <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Política Provincial · Santa Rosa</span><span class="ia-badge">&#10022; IA</span></div><h3>Audiencia pública por una urbanización sobre el acuífero reabre la guerra entre Ziliotto y Di Nápoli</h3><p>El municipio de Santa Rosa convocó a una audiencia pública de tres jornadas para definir el destino de un proyecto que busca subdividir 171 lotes sobre el acuífero Santa Rosa-Anguil.</p><div class="hero-item-meta"><span class="ts">19 jun 2026 · LLANO·</span><span class="chip chip-a">Hoy</span></div>
-    </div>
-    <div class="hero-item">
-      <div class="hero-item-img" style="width:100%;height:110px;background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Sergio_Ra%C3%BAl_Ziliotto.png');background-size:cover;background-position:center 20%;border-radius:var(--r);"></div>
-      <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Ambiente · El Medanito</span><span class="ia-badge">&#10022; IA</span></div><h3>La Provincia rechazó el informe ambiental final del yacimiento El Medanito</h3><p>Tras seis meses de análisis y una audiencia pública, el Gobierno pampeano no dio el visto bueno y sostuvo que los pasivos ambientales son responsabilidad de las concesionarias.</p><div class="hero-item-meta"><span class="ts">19 jun 2026 · LLANO·</span><span class="chip chip-a">Hoy</span></div>
-    </div>
-    <div class="hero-item">
-      <div class="hero-item-img" style="width:100%;height:110px;background-image:url('https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg');background-size:cover;background-position:center 20%;border-radius:var(--r);"></div>
-      <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Deportes · Selección</span><span class="ia-badge">&#10022; IA</span></div><h3>Messi anotó un triplete y Argentina sigue invicta en el Mundial 2026</h3><p>La Selección venció a Argelia y se aseguró el primer puesto del Grupo J con puntaje ideal en la fase de grupos.</p><div class="hero-item-meta"><span class="ts">19 jun 2026 · LLANO·</span><span class="chip chip-a">Hoy</span></div>
-    </div>
-    <!-- AUTO:HERO-SIDE:END -->
-  </div>
 
   <!-- ── 01 POLÍTICA PAMPEANA ── -->
   <div id="pol-prov" class="sec-hd fade-in" style="margin-top:.5rem;">
