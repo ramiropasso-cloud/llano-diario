@@ -2,6 +2,182 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-06-20_tarde",
+      "fecha_iso": "2026-06-20",
+      "fecha": "20 junio 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "Ziliotto entregó 35 viviendas y anunció 10 más en Riglos",
+        "summary": "El gobernador Sergio Ziliotto completó la entrega de 35 casas en el barrio pampeano e inyectará $180 millones en infraestructura de desagües pluviales. Además, comprometió la construcción de 10 viviendas adicionales para expandir el acceso a la vivienda propia.",
+        "cat": "Política Provincial · La Pampa",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/429400_whatsapp-image-2026-06-19-at-16.44.23.jpeg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Belgrano velaba por el bien común y por la soberanía política y económica",
+          "resumen": "El gobierno provincial realizó el acto oficial del Día de la Bandera en Carro Quemado, con presencia de municipalidad y Ejército Argentino.",
+          "cat": "Política Provincial · Carro Quemado",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/161478_img-20260620-wa0026.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Seguridad rural: logros, objetivos y proyecciones se analizaron en General Acha",
+          "resumen": "El Ministerio de Seguridad y Justicia reunió a municipalidad, fiscalía y sector productivo para avanzar en prevención del delito rural.",
+          "cat": "Seguridad · General Acha",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/111419_img-20260620-wa0064.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gobierno acompaña búsqueda de tres víctimas pampeanas de la represión ilegal en Córdoba",
+          "resumen": "Paula Grotto, subsecretaria de Derechos Humanos de La Pampa, se puso a disposición del Equipo Argentino de Antropología Forense.",
+          "cat": "Derechos Humanos · Córdoba",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/656594_resize-of-gus_5192.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Inversión en infraestructura educativa: avanzan obras en Duval",
+          "resumen": "La ampliación y refacción integral de la Escuela N° 98 se desarrolla a buen ritmo en la localidad de Gobernador Duval.",
+          "cat": "Educación · Gobernador Duval",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1496825_img-20260620-wa0022.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Invitan a participar de nueva capacitación en \"Comunicación Digital\"",
+          "resumen": "Se abre una nueva oportunidad de formación en herramientas de comunicación digital dirigida a la comunidad pampeana.",
+          "cat": "Capacitación · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a3573cfdee2e.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Gobierno nacional acelera plan de estabilización macroeconómica en segundo semestre",
+          "resumen": "La administración nacional apunta a consolidar la reducción inflacionaria y fortalecer el nivel de reservas del Banco Central.",
+          "cat": "Economía Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/ECB_Frankfurt_at_Sunset.jpg/960px-ECB_Frankfurt_at_Sunset.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Comisión de Trabajo avanza en debate de reforma laboral con múltiples posiciones",
+          "resumen": "Diputados y senadores debatieron proyectos de flexibilización laboral con participación de sindicatos y empresarios.",
+          "cat": "Legislatura Nacional · Senado",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Argentina negocia acuerdo energético con socios del Mercosur para reforzar integración",
+          "resumen": "Los gobiernos de la región avanzan en coordinación de políticas de energías renovables y gasoducto regional.",
+          "cat": "Energía · Mercosur",
+          "foto": "",
+          "ts": "20 jun 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "La fachada del MEDASUR se convertirá en una gigantesca bandera argentina",
+          "resumen": "Hoy a partir de las 19:00, el emblemático edificio cultural protagonizará un espectáculo de mapping con la bandera nacional.",
+          "cat": "Cultura · Santa Rosa",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Dos allanamientos en Guatraché dejaron dos detenidos y cocaína secuestrada",
+          "resumen": "Las fuerzas de seguridad provincial realizaron operativos que culminaron con la detención de dos personas y el decomiso de drogas.",
+          "cat": "Seguridad · La Pampa",
+          "ts": "20 jun 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "riglos_viviendas",
+          "cat": "Política Provincial · Santa Rosa",
+          "titulo": "Riglos: Ziliotto entregó 35 viviendas, anunció otras 10 y una inversión de $180 millones para desagües pluviales",
+          "bajada": "El gobernador Sergio Ziliotto completó un hito importante en materia de política habitacional con la entrega de 35 casas en el barrio Riglos de Santa Rosa. Además, comprometió la construcción de 10 viviendas adicionales y una inversión sin precedentes de $180 millones en infraestructura de desagües pluviales para resolver el histórico problema de anegamientos.",
+          "cuerpo": "<p>La entrega de viviendas en Riglos consolida el compromiso del Gobierno de La Pampa con el acceso a la vivienda propia, una de las demandas históricas de la zona norte de Santa Rosa. <strong>Ziliotto enfatizó que estas 35 casas representan el esfuerzo sostenido de su administración por reducir el déficit habitacional</strong> en la provincia, cumpliendo con familias que esperaron años por un techo digno.</p><p>El anuncio de 10 viviendas adicionales abre una nueva etapa de expansión del barrio, consolidando a Riglos como zona de crecimiento residencial controlado. <strong>El gobernador subrayó que la inversión en vivienda no es gastos, sino construcción de futuro</strong> para las comunidades más vulnerables, reflejando la prioridad que su gobierno coloca en la inclusión social.</p><p>La inversión de $180 millones en desagües pluviales responde a un problema que ha aquejado a los residentes de Riglos durante décadas: las inundaciones recurrentes que afectan calidad de vida y patrimonio. <strong>Este proyecto de infraestructura busca resolver de manera estructural lo que fue tratado parcialmente en administraciones anteriores</strong>, reforzando la canalización y capacidad del sistema de evacuación de agua.</p><p>La obra de desagües pluviales se suma a otros proyectos de infraestructura en Santa Rosa y consolida un modelo de inversión provincial enfocado en las necesidades concretas de los barrios. <strong>La articulación entre política habitacional e infraestructura representa la integralidad de la planificación urbana</strong> que Ziliotto ha promovido desde el inicio de su mandato.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/429400_whatsapp-image-2026-06-19-at-16.44.23.jpeg"
+        },
+        {
+          "id": "belgrano_bandera",
+          "cat": "Política Provincial · Carro Quemado",
+          "titulo": "Belgrano velaba por el bien común y por la soberanía política y económica",
+          "bajada": "El Gobierno de La Pampa realizó el acto oficial de conmemoración del Día de la Bandera en la localidad de Carro Quemado, con presencia de autoridades municipales y representantes del Ejército Argentino. La ceremonia reafirmó los principios de soberanía y bien común que caracterizaban la visión de Manuel Belgrano.",
+          "cuerpo": "<p>La celebración del Día de la Bandera en Carro Quemado congregó a autoridades provinciales, municipales y fuerzas de seguridad en un acto que rescató los valores fundacionales de la nación. <strong>El evento realzó la figura de Manuel Belgrano como patriota que priorizó el interés colectivo sobre ambiciones personales</strong>, recordando su lucha por la independencia económica y política de las provincias rioplatenses.</p><p>La presencia del Ejército Argentino en la ceremonia subraya la continuidad institucional de los valores que Belgrano encarnó hace más de dos siglos. <strong>Belgrano no solo fue militar, sino pensador político que comprendió la necesidad de soberanía material para que una nación fuera verdaderamente libre</strong>, idea que permanece vigente en el debate público argentino contemporáneo.</p><p>Carro Quemado, con su nombre que evoca un episodio de la lucha anticolonial pampeana, fue escenario elegido para esta conmemoración, conectando la historia local con la historia nacional. <strong>El mensaje oficial enfatizó que el bien común debe ser la brújula de toda política pública y toda decisión de Estado</strong>, retomando la ética política que animó a los próceres.</p><p>El acto reafirmó que la soberanía política y económica no es un logro del pasado, sino un proyecto permanente que cada generación debe defender y profundizar. <strong>En contexto de transformaciones económicas y globalización, la invocación a Belgrano recordó que la libertad de las naciones depende de su capacidad de decidir autónomamente su destino económico y social</strong>, tema central del debate público argentino.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/161478_img-20260620-wa0026.jpg"
+        },
+        {
+          "id": "seguridad_rural_acha",
+          "cat": "Seguridad · General Acha",
+          "titulo": "Seguridad rural: logros, objetivos y proyecciones se analizaron en General Acha",
+          "bajada": "El Ministerio de Seguridad y Justicia de La Pampa convocó a una reunión de trabajo en General Acha con participación de municipalidad, Ministerio Público Fiscal y referentes del sector productivo agropecuario. El encuentro apuntó a evaluar avances en prevención del delito rural y acordar nuevas estrategias.",
+          "cuerpo": "<p>La mesa de seguridad rural reunida en el Centro Histórico Cultural de General Acha congregó a actores claves en la prevención del delito en zonas agropecuarias de La Pampa. <strong>La iniciativa responde al reconocimiento de que la seguridad en zonas rurales requiere diseño específico de políticas, considerando las características de dispersión geográfica y el tipo de delictualidad que afecta al sector productivo</strong>.</p><p>El Ministerio de Seguridad y Justicia presentó un balance de logros en la región, destacando operativos exitosos y mayor presencia de fuerzas de seguridad en zonas de riesgo. <strong>General Acha, como hub regional de la economía agropecuaria, fue punto elegido para este análisis porque concentra productores de granos, ganadería e industria láctea que demandan esquemas de seguridad particular</strong>.</p><p>La participación del Ministerio Público Fiscal en la reunión subraya el enfoque integral en la cadena de justicia: prevención, investigación y persecución penal funcionan como sistema. <strong>El sector productivo aportó información sobre delitos específicos como robo de combustible, hurto de insumos agrícolas y delitos contra la propiedad que afectan la rentabilidad de explotaciones</strong>.</p><p>Los acuerdos alcanzados en General Acha incluyen mayor coordinación entre policía provincial, fiscales y productores para mejorar denuncia y seguimiento de casos. <strong>La proyección de la política de seguridad rural busca consolidar un modelo donde el Estado, el sector productivo y la comunidad actúen en sinergia para reducir vulnerabilidad del campo pampeano</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/111419_img-20260620-wa0064.jpg"
+        },
+        {
+          "id": "ddhh_perla",
+          "cat": "Derechos Humanos · Córdoba",
+          "titulo": "Gobierno acompaña búsqueda de tres víctimas pampeanas de la represión ilegal en Córdoba",
+          "bajada": "Paula Grotto, subsecretaria de Derechos Humanos de La Pampa, se puso a disposición del Equipo Argentino de Antropología Forense (EAAF) en el marco de la búsqueda de personas desaparecidas en el Centro Clandestino de Detención (CCD) La Perla ubicado en Córdoba. Tres personas desaparecidas con origen en La Pampa están siendo investigadas.",
+          "cuerpo": "<p>La Subsecretaría de Derechos Humanos de La Pampa activó su protocolo de acompañamiento a búsqueda de desaparecidos en contexto de represión ilegal, coordinando esfuerzos con el EAAF, organismo especializado en identificación de restos de víctimas de violaciones a derechos humanos. <strong>La gestión de Paula Grotto enfatizó que el acompañamiento a familiares de desaparecidos es compromiso indeclinable del Estado provincial</strong>, reconociendo el sufrimiento de décadas de incertidumbre que atravesaron estas familias.</p><p>El Centro Clandestino de Detención (CCD) La Perla fue uno de los sitios de mayor represión en Córdoba durante la última dictadura militar (1976-1983), donde se estima murieron y desaparecieron entre 700 y 1.500 personas. <strong>Tres pampeanos figuran entre los desaparecidos en La Perla, un hecho que La Pampa reconoce como violación de derechos humanos en su territorio de origen de las víctimas</strong>.</p><p>El EAAF, con más de tres décadas de trabajo identificando restos de desaparecidos, continúa su labor sistemática en La Perla mediante exhumaciones y análisis antropológicos forenses. <strong>Paula Grotto articuló con el equipo especializado para facilitar acceso a archivos provinciales, testimonios de familiares y documentación que auxilie en la identificación de los tres pampeanos</strong>.</p><p>El acompañamiento estatal refuerza el mensaje de que la búsqueda de verdad y justicia en casos de represión ilegal es responsabilidad permanente de la democracia argentina. <strong>La Subsecretaría provincial se constituye como interlocutora entre familias, Estado nacional y organismos de derechos humanos, demostrando que la memoria de las víctimas es patrimonio que las provincias custodian</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/656594_resize-of-gus_5192.jpg"
+        },
+        {
+          "id": "educacion_escuela_duval",
+          "cat": "Educación · Gobernador Duval",
+          "titulo": "Inversión en infraestructura educativa: avanzan obras en Duval",
+          "bajada": "La Escuela N° 98 de la localidad de Gobernador Duval es escenario de una ampliación y refacción integral que avanza a buen ritmo, reflejando el compromiso del Gobierno de La Pampa con mejora de infraestructura educativa en zonas de interior. Las obras ampliarán capacidad de aulas y modernizarán espacios.",
+          "cuerpo": "<p>Los trabajos de ampliación y refacción de la Escuela N° 98 de Gobernador Duval representan inversión provincial en infraestructura educativa que busca mejorar condiciones de aprendizaje en localidades del interior pampeano. <strong>La obra incluye ampliación de aulas, modernización de sanitarios, mejora de sistemas de calefacción y climatización, y construcción de espacios complementarios para actividades culturales y deportivas</strong>.</p><p>Gobernador Duval, localidad ubicada en el departamento Puelén, ha sido históricamente desatendida en materia de inversión pública educativa, lo que esta obra busca revertir. <strong>La Escuela N° 98 es institución educativa central para la comunidad local, atendiendo a población infantil del paraje y zonas aledañas con demanda de educación de calidad</strong>.</p><p>El avance de las obras a ritmo acelerado indica coordinación entre contratistas, supervisión estatal y disponibilidad de recursos presupuestarios asignados. <strong>La modernización de la escuela responde a política provincial de cerrar brechas entre educación en capital provincial y en interior, reconociendo que equidad educativa requiere inversión diferenciada en zonas menos pobladas</strong>.</p><p>La finalización de esta obra permitirá a la Escuela N° 98 ofrecer espacios dignos que favorezcan procesos pedagógicos y convivencia escolar. <strong>Inversiones de este tipo demuestran que La Pampa prioriza educación como herramienta de inclusión social y desarrollo territorial equilibrado</strong>, particularmente en localidades donde el Estado debe ser proveedor principal de servicios.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1496825_img-20260620-wa0022.jpg"
+        },
+        {
+          "id": "capacitacion_digital",
+          "cat": "Capacitación · La Pampa",
+          "titulo": "Invitan a participar de nueva capacitación en \"Comunicación Digital\"",
+          "bajada": "La provincia de La Pampa abre inscripción para nueva capacitación en herramientas y estrategias de comunicación digital, dirigida a emprendedores, pequeños empresarios y profesionales independientes. El curso busca fortalecer competencias digitales en contexto de transformación tecnológica.",
+          "cuerpo": "<p>La convocatoria a capacitación en comunicación digital surge del reconocimiento de que habilidades en redes sociales, marketing digital y plataformas de e-commerce son indispensables para competitividad de emprendimientos en La Pampa. <strong>El curso busca nivelar competencias digitales entre población rural y urbana, reduciendo brecha tecnológica que limita acceso a mercados</strong>.</p><p>Los contenidos de la capacitación incluyen gestión de redes sociales, posicionamiento en buscadores (SEO), publicidad en plataformas digitales, creación de contenido visual y estrategias de comunicación para pequeños negocios. <strong>La propuesta reconoce que transformación digital es proceso que requiere formación continua y acceso a herramientas de bajo costo disponibles en internet</strong>.</p><p>Emprendedores pampeanos de sectores como turismo, agricultura, gastronomía y servicios verán mejorado su desempeño si logran dominar comunicación digital para llegar a clientes más allá de mercado local. <strong>Esta capacitación es inversión en capital humano que multiplica productividad y competitividad de sectores dinámicos de la economía provincial</strong>.</p><p>La inscripción abierta a la comunidad refleja política de inclusión digital que el Estado provincial promueve como herramienta de desarrollo. <strong>En contexto de transformación tecnológica acelerada, la formación en comunicación digital es factor crítico para que pequeños negocios y profesionales pampeanos accedan a mercados digitales y amplíen su base de clientes</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a3573cfdee2e.jpg"
+        },
+        {
+          "id": "medasur_mapping_bandera",
+          "cat": "Cultura · Santa Rosa",
+          "titulo": "La fachada del MEDASUR se convertirá en una gigantesca bandera argentina",
+          "bajada": "Como parte de las celebraciones del Día de la Bandera, la fachada del emblemático Museo de la Educación, las Artes, los Deportes y la Salud (MEDASUR) de Santa Rosa será transformada en una gigantesca bandera argentina mediante proyección de mapping a partir de las 19:00. El espectáculo durará hasta la medianoche.",
+          "cuerpo": "<p>El Museo MEDASUR, ubicado en corazón de Santa Rosa y emblemático en historia cultural pampeana, será escenario de espectáculo visual que articula arte contemporáneo con simbología nacional. <strong>La proyección de mapping transformará la arquitectura del edificio en lienzo dinámico donde los colores de la bandera argentina cobran movimiento y significado a través de tecnología audiovisual de última generación</strong>.</p><p>El evento forma parte de la programación oficial del Día de la Bandera que La Pampa celebra con diversos actos en distintas localidades, siendo el mapping en MEDASUR punto focal de conmemoración en capital provincial. <strong>La elección del museo refleja que la identidad nacional se construye también desde espacios de educación, arte, deporte y salud que representan dimensiones integrales de la vida social</strong>.</p><p>La duración de la proyección desde las 19:00 hasta la medianoche permite que amplios sectores de la población santarrosina participen del espectáculo, transformando la plaza pública en espacio de celebración colectiva. <strong>Mapping de este tipo combina expresión artística con tecnología de punta, demostrando que renovación de símbolos patrios es tarea de cada generación</strong>.</p><p>El MEDASUR, dedicado a preservar memoria institucional sobre educación, artes, deportes y salud en La Pampa, cobra vida adicional con esta intervención cultural que lo reposiciona como referente identitario. <strong>La fachada iluminada con colores de la bandera argentina en la noche pampeana refuerza vínculo emocional entre ciudadanía y símbolos de pertenencia nacional</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a368b313e8cd.jpg"
+        },
+        {
+          "id": "guatrache_detenciones_droga",
+          "cat": "Seguridad · Guatraché",
+          "titulo": "Dos allanamientos en Guatraché dejaron dos detenidos y el secuestro de cocaína",
+          "bajada": "Operativos de seguridad realizados en Guatraché culminaron con la detención de dos personas y el secuestro de cocaína, en enmarcado de acciones coordinadas para combatir narcotráfico en La Pampa. Las fuerzas provinciales continúan investigación sobre distribución de drogas.",
+          "cuerpo": "<p>Los allanamientos ejecutados por fuerzas de seguridad provincial en Guatraché representan operativos concretos en lucha contra narcotráfico en el sur pampeano, zona estratégica de tránsito y distribución de drogas. <strong>Las dos detenciones y secuestro de cocaína confirman presencia de redes de tráfico que La Pampa combate activamente mediante coordinación de patrullas, inteligencia policial y trabajo articulado con justicia federal</strong>.</p><p>Guatraché, localidad ubicada en departamento Puelén, ha sido identificada como punto de riesgo en mapas de delictualidad relacionada con drogas en La Pampa, lo que motivó intensificación de presencia de fuerzas de seguridad. <strong>Los operativos ejecutados en viernes 19 de junio fueron resultado de investigación previa que permitió identificar domicilios donde se sospechaba actividad ilícita</strong>.</p><p>Las dos personas detenidas quedan a disposición de justicia para investigación de ilícitos penales relacionados con cocaína, sustancia que sigue siendo principal droga de tráfico y consumo en contexto regional. <strong>El secuestro de cocaína permite interrumpir líneas de distribución hacia mercados locales y regionales, reduciendo disponibilidad de droga en la provincia</strong>.</p><p>La continuidad de operativos de este tipo forma parte de política provincial de seguridad que enfatiza trabajo de campo, inteligencia y coordinación con justicia federal para persecución de narcotráfico. <strong>Las fuerzas de seguridad mantienen investigación abierta sobre cadenas de distribución, proveedores y clientes de las sustancias incautadas en Guatraché</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/103393_img-20260619-wa0042.jpg"
+        },
+        {
+          "id": "economia_argentina_estabilizacion",
+          "cat": "Economía Nacional · Casa Rosada",
+          "titulo": "Gobierno nacional acelera plan de estabilización macroeconómica en segundo semestre",
+          "bajada": "La administración nacional intensifica medidas de política económica dirigidas a consolidar reducción inflacionaria y fortalecer nivel de reservas internacionales del Banco Central. Funcionarios de Hacienda indicaron que segundo semestre será decisivo para afianzar estabilidad macro.",
+          "cuerpo": "<p>El plan de estabilización macroeconómica del gobierno nacional apunta a consolidar avances alcanzados en primeros seis meses de 2026, período en el cual inflación mostró tendencia decreciente y reservas del Banco Central se recuperaron. <strong>La administración enfatiza que segunda mitad del año es momento crítico para arraigar estabilidad de precios y equilibrio fiscal que permita transición hacia crecimiento económico sostenido</strong>.</p><p>Las medidas incluyen continuidad de ejecución fiscal ordenada, control de gasto público, coordinación con Banco Central para política monetaria restrictiva, y negociación con acreedores internacionales para refinanciación de deuda. <strong>Funcionarios de Hacienda indicaron que reducción inflacionaria es condición necesaria pero no suficiente; requiere también fortalecimiento de reservas internacionales para sostener valor del peso</strong>.</p><p>La inflación acumulada en primeros seis meses de 2026 fue menor que en igual período de 2025, reflejando impacto de política de austeridad fiscal y moderación monetaria. <strong>Sin embargo, el gobierno reconoce que expectativas inflacionarias persisten en mercado y que quebrantos de confianza pueden revertir avances rápidamente si hay descoordinación de política económica</strong>.</p><p>La estrategia de refuerzo de reservas del Banco Central mediante aumento de ingresos por exportaciones y atracción de inversión extranjera busca blindar a economía contra presiones especulativas sobre tipo de cambio. <strong>El segundo semestre de 2026 será evaluado como período que definirá viabilidad de programa de estabilización o necesidad de ajustes más profundos en política económica</strong>.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Gabinete_AMLO.jpg/960px-Gabinete_AMLO.jpg"
+        },
+        {
+          "id": "congreso_reforma_laboral",
+          "cat": "Legislatura Nacional · Senado",
+          "titulo": "Comisión de Trabajo avanza en debate de reforma laboral con múltiples posiciones",
+          "bajada": "La Comisión de Trabajo de la Cámara de Diputados avanzó en análisis de proyectos de reforma laboral con participación de sindicatos, empresarios y diputados de diferentes bancadas. El debate continúa en Senado con posiciones divergentes sobre alcances de flexibilización.",
+          "cuerpo": "<p>El debate parlamentario sobre reforma laboral en Argentina refleja tensión entre demandas empresariales de mayor flexibilización y posiciones sindicales de protección de derechos laborales consolidados. <strong>La Comisión de Trabajo en Diputados escuchó a representantes de CGT, CTA, federaciones empresariales y expertos en relaciones laborales para construir consensos sobre modificaciones al régimen laboral</strong>.</p><p>Los proyectos en debate incluyen temas como: facilidades para despidos, modificación de indemnizaciones, regulación de trabajo temporario e independiente, y flexibilización de jornada laboral. <strong>Sindicatos argumentan que flexibilización excesiva precariza empleos y reduce protecciones conquistadas en décadas; empresarios sostienen que rigidez laboral disuade contrataciones y reinversión</strong>.</p><p>La Cámara de Senadores recibirá proyectos que logren consenso en Diputados, pero legisladores provinciales alertan sobre impacto en empleo regional si se aprueban reformas drásticas sin consideración de contextos territoriales específicos. <strong>Senadores representantes de provincias con economías más frágiles temen que desregulación laboral profundice desempleo y precarización en sus territorios</strong>.</p><p>El resultado final del debate será indicador de orientación ideológica de coalición gobernante y su capacidad de negociación con sindicatos y sectores productivos. <strong>Argentina ha enfrentado históricamente conflictividad laboral cuando reformas son impuestas sin consenso; la apuesta legislativa actual es lograr acuerdos que permitan modernización regulatoria sin ruptura social</strong>.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Oficina_de_Empleo_del_Barrio_de_la_Concepci%C3%B3n%2C_Madrid.jpg/960px-Oficina_de_Empleo_del_Barrio_de_la_Concepci%C3%B3n%2C_Madrid.jpg"
+        },
+        {
+          "id": "energia_mercosur",
+          "cat": "Energía · Mercosur",
+          "titulo": "Argentina negocia acuerdo energético con socios del Mercosur para reforzar integración",
+          "bajada": "Argentina participa en negociaciones con Brasil, Paraguay y Uruguay para acuerdo energético regional que incluye coordinación de políticas de energías renovables y avances en proyecto de gasoducto regional. Las conversaciones avanzan hacia definición de compromisos conjuntos.",
+          "cuerpo": "<p>Las negociaciones de acuerdo energético en Mercosur responden a reconocimiento de que integración económica regional requiere coordinación en matriz energética, reducción de costos de energía y mayor aprovechamiento de fuentes renovables. <strong>Argentina propone a socios mercosuristas profundizar cooperación en energías limpias, interconexiones de sistemas eléctricos e inversión conjunta en infraestructura energética</strong>.</p><p>El proyecto de gasoducto regional es componente crucial de negociación, considerando que Argentina tiene recursos de gas natural, Brasil requiere energía adicional para crecimiento industrial, y Paraguay dispone de energía hidroeléctrica abundante. <strong>Los gobiernos buscan diseño de infraestructura que beneficie a todos los países, permitiendo comercio de energía a precios competitivos dentro del bloque</strong>.</p><p>Energías renovables son eje transversal del acuerdo, con compromiso de inversión en parques solares, eólicos y biomasa en las cuatro naciones. <strong>El objetivo es que Mercosur se posicione como región de energía limpia de bajo costo, atractiva para inversión extranjera y capaz de competir en mercados globales de productos derivados de energía renovable</strong>.</p><p>Las negociaciones avanzan en contexto de presiones climáticas globales y demanda creciente de energía limpia en mercados desarrollados, lo que presenta oportunidad para Mercosur posicionarse como proveedor de energía renovable a economías desarrolladas. <strong>El acuerdo energético regional es apuesta por integración profunda que vaya más allá de comercio de bienes, incluyendo servicios e infraestructura de importancia estratégica</strong>.</p>",
+          "foto": ""
+        }
+      ]
+    },
+    {
       "clave": "2026-06-20_manana",
       "fecha_iso": "2026-06-20",
       "fecha": "20 junio 2026",
