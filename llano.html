@@ -1517,21 +1517,11 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     });
   });
 
-  // Hero main → articulo dinamico por titulo
-  const hMain = document.querySelector('.hero-main');
-  if (hMain) hMain.addEventListener('click', e => {
-    if (!e.target.closest('a')) {
-      const heroTitle = hMain.querySelector('.hero-title');
-      const id = heroTitle ? findArtByTitle(heroTitle.textContent) : null;
-      if (id) openArticle(id);
-    }
-  });
-
-  // Hero side items → buscar por titulo dinamicamente
-  document.querySelectorAll('.hero-item').forEach(el => {
+  // Paneles del hero (lead + secundarios) → buscar por titulo dinamicamente
+  document.querySelectorAll('.hero-panel').forEach(el => {
     el.addEventListener('click', e => {
       if (!e.target.closest('a')) {
-        const h = el.querySelector('h3');
+        const h = el.querySelector('.hero-panel-title');
         const id = h ? findArtByTitle(h.textContent) : null;
         if (id) openArticle(id);
       }
@@ -1576,86 +1566,6 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     document.getElementById('panel-overlay').classList.remove('open');
     document.body.style.overflow = '';
   }
-
-  // ─── HERO 3D (Three.js, condicional — desktop + sin "reducir movimiento") ───
-  (function initHero3D() {
-    const canvas = document.getElementById('hero-3d');
-    if (!canvas) return;
-    const tooNarrow = window.matchMedia('(max-width: 980px)').matches;
-    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (tooNarrow || reducedMotion) return;
-
-    let renderer, scene, camera, mesh, raf = null, heroVisible = true;
-    let mouseX = 0, mouseY = 0;
-
-    const loader = document.createElement('script');
-    loader.src = 'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js';
-    loader.onload = setupScene;
-    document.body.appendChild(loader);
-
-    function setupScene() {
-      const heroMain = canvas.closest('.hero-main');
-      const w = heroMain.clientWidth, h = heroMain.clientHeight;
-
-      renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-      renderer.setSize(w, h, false);
-
-      scene = new THREE.Scene();
-      camera = new THREE.PerspectiveCamera(50, w / h, 0.1, 100);
-      camera.position.set(0, 0, 7);
-
-      const geo = new THREE.IcosahedronGeometry(2.6, 1);
-      const wire = new THREE.WireframeGeometry(geo);
-      const mat = new THREE.LineBasicMaterial({ color: 0x2ea8ff, transparent: true, opacity: 0.4 });
-      mesh = new THREE.LineSegments(wire, mat);
-      mesh.position.set(3.4, -0.3, 0);
-      scene.add(mesh);
-
-      window.addEventListener('mousemove', e => {
-        mouseX = (e.clientX / window.innerWidth) - 0.5;
-        mouseY = (e.clientY / window.innerHeight) - 0.5;
-      }, { passive: true });
-
-      window.addEventListener('resize', () => {
-        const w2 = heroMain.clientWidth, h2 = heroMain.clientHeight;
-        renderer.setSize(w2, h2, false);
-        camera.aspect = w2 / h2;
-        camera.updateProjectionMatrix();
-      });
-
-      const heroObserver = new IntersectionObserver(entries => {
-        entries.forEach(en => {
-          heroVisible = en.isIntersecting;
-          (heroVisible && !document.hidden) ? startLoop() : stopLoop();
-        });
-      }, { threshold: 0.01 });
-      heroObserver.observe(document.querySelector('.hero'));
-
-      document.addEventListener('visibilitychange', () => {
-        (!document.hidden && heroVisible) ? startLoop() : stopLoop();
-      });
-
-      startLoop();
-    }
-
-    function startLoop() {
-      if (raf) return;
-      const animate = () => {
-        raf = requestAnimationFrame(animate);
-        mesh.rotation.y += 0.0022;
-        mesh.rotation.x += 0.0009;
-        camera.position.x += (mouseX * 1.1 - camera.position.x) * 0.02;
-        camera.position.y += (-mouseY * 1.1 - camera.position.y) * 0.02;
-        camera.lookAt(scene.position);
-        renderer.render(scene, camera);
-      };
-      animate();
-    }
-    function stopLoop() {
-      if (raf) { cancelAnimationFrame(raf); raf = null; }
-    }
-  })();
 
 </script>
 
