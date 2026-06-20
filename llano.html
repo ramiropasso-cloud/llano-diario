@@ -335,12 +335,45 @@ header:not(.header--solid) .h-nav .sep { background: rgba(255,255,255,.25); }
       rgba(5,6,8,.12) 100%),
     radial-gradient(ellipse at 20% 85%, rgba(46,168,255,.16) 0%, transparent 50%);
 }
-.hero-grid-lines {
-  position: absolute; inset: 0; z-index: 2;
-  background-image:
-    linear-gradient(rgba(46,168,255,.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(46,168,255,.06) 1px, transparent 1px);
-  background-size: 50px 50px;
+/* Barrido de radar + anillos de "tracking" — distingue al hero del resto del diario */
+.hero-scan {
+  position: absolute; inset: 0; z-index: 2; overflow: hidden; pointer-events: none;
+}
+.hero-rings {
+  position: absolute; right: 6%; top: 50%; z-index: 2; pointer-events: none;
+  width: 1px; height: 1px;
+}
+.hero-rings span {
+  position: absolute; left: 0; top: 0; border: 1px solid rgba(46,168,255,.45);
+  border-radius: 50%; transform: translate(-50%,-50%); opacity: 0;
+}
+@media (max-width: 980px) {
+  .hero-rings { display: none; }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-scan::before {
+    content: ''; position: absolute; left: 0; right: 0; top: -6%; height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(46,168,255,.6), transparent);
+    box-shadow: 0 0 14px rgba(46,168,255,.45);
+    animation: heroScanMove 7s linear infinite;
+  }
+  .hero-rings span {
+    width: 60px; height: 60px;
+    animation: heroRingPing 4.5s cubic-bezier(.2,.6,.4,1) infinite;
+  }
+  .hero-rings span:nth-child(2) { animation-delay: 1.5s; }
+  .hero-rings span:nth-child(3) { animation-delay: 3s; }
+}
+@keyframes heroScanMove {
+  0%   { top: -6%;  opacity: 0; }
+  10%  { opacity: .8; }
+  50%  { opacity: .35; }
+  90%  { opacity: 0; }
+  100% { top: 106%; opacity: 0; }
+}
+@keyframes heroRingPing {
+  0%   { width: 16px; height: 16px; opacity: .55; }
+  100% { width: 220px; height: 220px; opacity: 0; }
 }
 #hero-3d {
   position: absolute; inset: 0; z-index: 1.5;
@@ -360,6 +393,17 @@ header:not(.header--solid) .h-nav .sep { background: rgba(255,255,255,.25); }
 }
 .hero-footer { display: flex; align-items: center; gap: 1rem; }
 .hero-ts { font-family: var(--font-mono); font-size: .7rem; color: rgba(255,255,255,.4); }
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes heroUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
+  .hero-kicker, .hero-title, .hero-summary, .hero-footer {
+    opacity: 0; animation: heroUp .7s cubic-bezier(.16,1,.3,1) forwards;
+  }
+  .hero-kicker  { animation-delay: .05s; }
+  .hero-title   { animation-delay: .15s; }
+  .hero-summary { animation-delay: .28s; }
+  .hero-footer  { animation-delay: .4s; }
+}
 .btn-primary {
   display: inline-flex; align-items: center; gap: .4rem;
   font-size: .78rem; font-weight: 600; color: #fff;
@@ -623,19 +667,21 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 
 /* stagger por sección: las cards/items dentro de un .fade-in aparecen en cascada */
 .g3.fade-in > .card,
+.hero-side.fade-in > .hero-item,
 .lay.fade-in .li,
 .lay.fade-in .intl-item {
   opacity: 0; transform: translateY(10px);
   transition: opacity .45s ease, transform .45s ease;
 }
 .g3.fade-in.visible > .card,
+.hero-side.fade-in.visible > .hero-item,
 .lay.fade-in.visible .li,
 .lay.fade-in.visible .intl-item {
   opacity: 1; transform: translateY(0);
 }
-.g3.fade-in.visible > .card:nth-child(1), .lay.fade-in.visible .li:nth-child(1), .lay.fade-in.visible .intl-item:nth-child(1) { transition-delay: 0ms; }
-.g3.fade-in.visible > .card:nth-child(2), .lay.fade-in.visible .li:nth-child(2), .lay.fade-in.visible .intl-item:nth-child(2) { transition-delay: 70ms; }
-.g3.fade-in.visible > .card:nth-child(3), .lay.fade-in.visible .li:nth-child(3), .lay.fade-in.visible .intl-item:nth-child(3) { transition-delay: 140ms; }
+.g3.fade-in.visible > .card:nth-child(1), .hero-side.fade-in.visible > .hero-item:nth-child(1), .lay.fade-in.visible .li:nth-child(1), .lay.fade-in.visible .intl-item:nth-child(1) { transition-delay: 0ms; }
+.g3.fade-in.visible > .card:nth-child(2), .hero-side.fade-in.visible > .hero-item:nth-child(2), .lay.fade-in.visible .li:nth-child(2), .lay.fade-in.visible .intl-item:nth-child(2) { transition-delay: 70ms; }
+.g3.fade-in.visible > .card:nth-child(3), .hero-side.fade-in.visible > .hero-item:nth-child(3), .lay.fade-in.visible .li:nth-child(3), .lay.fade-in.visible .intl-item:nth-child(3) { transition-delay: 140ms; }
 .lay.fade-in.visible .li:nth-child(4), .lay.fade-in.visible .intl-item:nth-child(4) { transition-delay: 210ms; }
 .lay.fade-in.visible .li:nth-child(5), .lay.fade-in.visible .intl-item:nth-child(5) { transition-delay: 280ms; }
 
@@ -811,7 +857,8 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       <canvas id="hero-3d" aria-hidden="true"></canvas>
 <!-- AUTO:HERO:START -->
       <div class="hero-bg" style="background:linear-gradient(to top,rgba(5,6,8,.98) 0%,rgba(5,6,8,.88) 28%,rgba(5,6,8,.72) 58%,rgba(5,6,8,.35) 100%),radial-gradient(ellipse at 30% 80%, rgba(46,168,255,.18) 0%, transparent 55%),url('https://media.ambito.com/p/efd4336c1c7c381d885de813976d2904/adjuntos/239/imagenes/043/455/0043455249/adrian-ravier.jpg');background-size:auto,auto,cover;background-position:center,center,center;"></div>
-      <div class="hero-grid-lines"></div>
+      <div class="hero-scan"></div>
+      <div class="hero-rings"><span></span><span></span><span></span></div>
       <div class="hero-main-content">
         <div class="hero-kicker">
           <span class="live-dot">ÚLTIMA HORA</span>
@@ -828,28 +875,36 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 <!-- AUTO:HERO:END -->
     </div>
 
-    <div class="hero-side">
-      <div class="hero-side-title">También hoy</div>
-      <!-- AUTO:HERO-SIDE:START -->
-      <div class="hero-item">
-        <div class="hero-item-img" style="width:100%;height:110px;background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/48/Luciano_di_N%C3%A1poli.jpg');background-size:cover;background-position:center 20%;border-radius:var(--r);"></div>
-        <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Política Provincial · Santa Rosa</span><span class="ia-badge">&#10022; IA</span></div><h3>Audiencia pública por una urbanización sobre el acuífero reabre la guerra entre Ziliotto y Di Nápoli</h3><p>El municipio de Santa Rosa convocó a una audiencia pública de tres jornadas para definir el destino de un proyecto que busca subdividir 171 lotes sobre el acuífero Santa Rosa-Anguil.</p><div class="hero-item-meta"><span class="ts">19 jun 2026 · LLANO·</span><span class="chip chip-a">Hoy</span></div>
-      </div>
-      <div class="hero-item">
-        <div class="hero-item-img" style="width:100%;height:110px;background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Sergio_Ra%C3%BAl_Ziliotto.png');background-size:cover;background-position:center 20%;border-radius:var(--r);"></div>
-        <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Ambiente · El Medanito</span><span class="ia-badge">&#10022; IA</span></div><h3>La Provincia rechazó el informe ambiental final del yacimiento El Medanito</h3><p>Tras seis meses de análisis y una audiencia pública, el Gobierno pampeano no dio el visto bueno y sostuvo que los pasivos ambientales son responsabilidad de las concesionarias.</p><div class="hero-item-meta"><span class="ts">19 jun 2026 · LLANO·</span><span class="chip chip-a">Hoy</span></div>
-      </div>
-      <div class="hero-item">
-        <div class="hero-item-img" style="width:100%;height:110px;background-image:url('https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg');background-size:cover;background-position:center 20%;border-radius:var(--r);"></div>
-        <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Deportes · Selección</span><span class="ia-badge">&#10022; IA</span></div><h3>Messi anotó un triplete y Argentina sigue invicta en el Mundial 2026</h3><p>La Selección venció a Argelia y se aseguró el primer puesto del Grupo J con puntaje ideal en la fase de grupos.</p><div class="hero-item-meta"><span class="ts">19 jun 2026 · LLANO·</span><span class="chip chip-a">Hoy</span></div>
-      </div>
-      <!-- AUTO:HERO-SIDE:END -->
-    </div>
   </div>
 </section>
 
 <!-- ─── MAIN ─── -->
 <div class="main-wrap">
+
+  <!-- ── TAMBIÉN HOY ── -->
+  <div class="sec-hd fade-in" style="margin-top:0;">
+    <span class="sec-num">00</span>
+    <h2 class="sec-name">También hoy</h2>
+    <div class="sec-hd-right">
+      <span class="live-dot" style="font-size:.58rem;">Actualización continua</span>
+    </div>
+  </div>
+  <div class="hero-side fade-in" style="margin-bottom:2.5rem;">
+    <!-- AUTO:HERO-SIDE:START -->
+    <div class="hero-item">
+      <div class="hero-item-img" style="width:100%;height:110px;background-image:url('https://upload.wikimedia.org/wikipedia/commons/4/48/Luciano_di_N%C3%A1poli.jpg');background-size:cover;background-position:center 20%;border-radius:var(--r);"></div>
+      <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Política Provincial · Santa Rosa</span><span class="ia-badge">&#10022; IA</span></div><h3>Audiencia pública por una urbanización sobre el acuífero reabre la guerra entre Ziliotto y Di Nápoli</h3><p>El municipio de Santa Rosa convocó a una audiencia pública de tres jornadas para definir el destino de un proyecto que busca subdividir 171 lotes sobre el acuífero Santa Rosa-Anguil.</p><div class="hero-item-meta"><span class="ts">19 jun 2026 · LLANO·</span><span class="chip chip-a">Hoy</span></div>
+    </div>
+    <div class="hero-item">
+      <div class="hero-item-img" style="width:100%;height:110px;background-image:url('https://upload.wikimedia.org/wikipedia/commons/5/5c/Sergio_Ra%C3%BAl_Ziliotto.png');background-size:cover;background-position:center 20%;border-radius:var(--r);"></div>
+      <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Ambiente · El Medanito</span><span class="ia-badge">&#10022; IA</span></div><h3>La Provincia rechazó el informe ambiental final del yacimiento El Medanito</h3><p>Tras seis meses de análisis y una audiencia pública, el Gobierno pampeano no dio el visto bueno y sostuvo que los pasivos ambientales son responsabilidad de las concesionarias.</p><div class="hero-item-meta"><span class="ts">19 jun 2026 · LLANO·</span><span class="chip chip-a">Hoy</span></div>
+    </div>
+    <div class="hero-item">
+      <div class="hero-item-img" style="width:100%;height:110px;background-image:url('https://upload.wikimedia.org/wikipedia/commons/b/b4/Lionel-Messi-Argentina-2022-FIFA-World-Cup_%28cropped%29.jpg');background-size:cover;background-position:center 20%;border-radius:var(--r);"></div>
+      <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Deportes · Selección</span><span class="ia-badge">&#10022; IA</span></div><h3>Messi anotó un triplete y Argentina sigue invicta en el Mundial 2026</h3><p>La Selección venció a Argelia y se aseguró el primer puesto del Grupo J con puntaje ideal en la fase de grupos.</p><div class="hero-item-meta"><span class="ts">19 jun 2026 · LLANO·</span><span class="chip chip-a">Hoy</span></div>
+    </div>
+    <!-- AUTO:HERO-SIDE:END -->
+  </div>
 
   <!-- ── 01 POLÍTICA PAMPEANA ── -->
   <div id="pol-prov" class="sec-hd fade-in" style="margin-top:.5rem;">
@@ -1605,11 +1660,11 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       camera = new THREE.PerspectiveCamera(50, w / h, 0.1, 100);
       camera.position.set(0, 0, 7);
 
-      const geo = new THREE.IcosahedronGeometry(2.3, 1);
+      const geo = new THREE.IcosahedronGeometry(2.6, 1);
       const wire = new THREE.WireframeGeometry(geo);
       const mat = new THREE.LineBasicMaterial({ color: 0x2ea8ff, transparent: true, opacity: 0.4 });
       mesh = new THREE.LineSegments(wire, mat);
-      mesh.position.set(2.3, -0.3, 0);
+      mesh.position.set(3.4, -0.3, 0);
       scene.add(mesh);
 
       window.addEventListener('mousemove', e => {
