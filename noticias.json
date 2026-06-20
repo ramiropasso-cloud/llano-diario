@@ -2,6 +2,182 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-06-20_manana",
+      "fecha_iso": "2026-06-20",
+      "fecha": "20 junio 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "Ziliotto entregó 35 viviendas y anunció inversión de $180 millones",
+        "summary": "El gobernador Sergio Ziliotto entregó 35 casas del IPAV en Miguel Riglos y anunció la construcción de 10 viviendas más con una inversión de $180 millones para desagües pluviales.",
+        "cat": "Gobierno Provincial · Vivienda",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/429400_whatsapp-image-2026-06-19-at-16.44.23.jpeg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Nueva campaña de DNI gratuito: realizaron 135 trámites y anunciaron nuevos operativos",
+          "resumen": "Realizaron 135 trámites de documentación nacional en la campaña de DNI gratuito y anunciaron nuevos operativos en distintos puntos.",
+          "cat": "Documentación · Santa Rosa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/104216_img-20260618-wa0045.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Dos viviendas más ya están listas para entregar en Loventuel",
+          "resumen": "Avanzan las obras en Loventuel con dos nuevas viviendas listas para su entrega a familias beneficiarias.",
+          "cat": "Vivienda · Loventuel",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/722717_loventuel-05.-.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "En General Pico, Escuelas \"i\" impulsó una jornada para fortalecer la participación de las familias",
+          "resumen": "El programa Escuelas \"i\" realizó una jornada en General Pico destinada a fortalecer la participación y vínculo de las familias con la educación.",
+          "cat": "Educación · General Pico",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/232150_whatsapp-image-2026-06-18-at-12.57.21.jpeg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Invitan a participar de nueva capacitación en \"Comunicación Digital\"",
+          "resumen": "El Ministerio de la Producción invita a emprendedores a participar del taller virtual de Comunicación Digital bajo el Programa Emprender La Pampa.",
+          "cat": "Emprendedurismo · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a3573cfdee2e.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Capacitación: digitalización de trámites del Registro Provincial de Consultores Ambientales",
+          "resumen": "La Secretaría de Ambiente convoca a profesionales y consultoras a una capacitación sobre digitalización de trámites del registro ambiental.",
+          "cat": "Ambiente · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/836995_capacitacionconsultores_2026-05.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "El Banco Central reporta aumento de reservas internacionales tras medidas de Milei",
+          "resumen": "Las reservas internacionales del Banco Central de Argentina crecieron en junio como resultado de los ajustes fiscales implementados por la administración Milei.",
+          "cat": "Casa Rosada · Economía",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/ECB_Frankfurt_at_Sunset.jpg/960px-ECB_Frankfurt_at_Sunset.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Diputados debaten reforma fiscal con énfasis en reducción de impuestos a exportaciones",
+          "resumen": "La Cámara de Diputados sesionó para debatir una reforma tributaria que busca dinamizar las exportaciones agroindustriales.",
+          "cat": "Congreso Nacional · Tributario",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Senado analiza el presupuesto 2027 con énfasis en obra pública federal",
+          "resumen": "El Senado Nacional comienza el análisis del proyecto de presupuesto para 2027 con debates sobre inversiones en infraestructura federal.",
+          "cat": "Congreso Nacional · Presupuesto",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cicer%C3%B3n_denuncia_a_Catilina%2C_por_Cesare_Maccari.jpg/960px-Cicer%C3%B3n_denuncia_a_Catilina%2C_por_Cesare_Maccari.jpg",
+          "ts": "20 jun 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Dos allanamientos dejaron detenidos y secuestro de cocaína",
+          "resumen": "La División Toxicomanía realizó dos allanamientos simultáneos en Guatraché con dos detenidos y decomiso de cocaína.",
+          "cat": "Seguridad · Guatraché",
+          "ts": "20 jun 2026 · LLANO·"
+        },
+        {
+          "titulo": "Horizontes infinitos: el despertar del Turismo Rural en La Pampa",
+          "resumen": "Los establecimientos rurales pampeanos abren sus puertas para ofrecer experiencias auténticas de reconexión con la naturaleza.",
+          "cat": "Turismo · La Pampa",
+          "ts": "20 jun 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "riglos_viviendas_ziliotto",
+          "cat": "Gobierno Provincial · Vivienda",
+          "titulo": "Riglos: Ziliotto entregó 35 viviendas, anunció otras 10 y una inversión de $180 millones para desagües pluviales",
+          "bajada": "El gobernador Sergio Ziliotto encabezó un acto de entrega de 35 casas del Instituto Provincial de la Vivienda (IPAV) en Miguel Riglos. Durante el evento, anunció la construcción de 10 viviendas adicionales y una inversión de $180 millones en infraestructura de desagües pluviales.",
+          "cuerpo": "<p>En el acto celebrado en Miguel Riglos, el gobernador <strong>Sergio Ziliotto</strong> reafirmó el compromiso de su administración con la política habitacional en toda la provincia. \"Vamos a seguir haciendo viviendas y obra pública en cada rincón de La Pampa\", expresó durante la entrega de las 35 casas que se suman al esfuerzo provincial por garantizar acceso a la vivienda digna para las familias pampeanas.</p><p>La obra ejecutada en Miguel Riglos forma parte del Programa Llegar a Casa, mediante el cual el IPAV continúa construyendo soluciones habitacionales en localidades del interior provincial. <strong>Dos créditos adicionales</strong> fueron firmados durante el evento, ampliando la cobertura del programa y reafirmando la continuidad de las políticas de vivienda que caracterizan la gestión de Ziliotto.</p><p>Más allá de la entrega inmediata, el gobernador anunció la construcción de <strong>10 viviendas más</strong> que se sumarán a la agenda de obra pública en la zona. Este anuncio consolida los planes de expansión habitacional que el gobierno provincial desarrolla en todo el territorio.</p><p>La inversión en infraestructura de desagües pluviales por $180 millones representa un complemento fundamental a la entrega de viviendas, abordando problemas de drenaje que afectan a la localidad de Miguel Riglos. Esta integración de obra nueva con mejora de servicios básicos evidencia una estrategia territorial más amplia que busca mejorar la calidad de vida en el interior pampeano.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/429400_whatsapp-image-2026-06-19-at-16.44.23.jpeg"
+        },
+        {
+          "id": "dni_gratuito_135_tramites",
+          "cat": "Documentación · Santa Rosa",
+          "titulo": "Nueva campaña de DNI gratuito: realizaron 135 trámites y anunciaron nuevos operativos",
+          "bajada": "Una nueva campaña provincial de documentación nacional ha cumplido su primera etapa con 135 trámites de DNI completados. Las autoridades anunciaron nuevos operativos en diferentes localidades para ampliar el acceso a documentación.",
+          "cuerpo": "<p>La campaña de <strong>DNI gratuito</strong> impulsada por el gobierno provincial alcanzó un saldo positivo en su fase inicial con un total de <strong>135 trámites realizados</strong>. Este resultado refleja la demanda latente de documentación entre ciudadanos que hasta el momento enfrentaban barreras económicas para acceder al Documento Nacional de Identidad.</p><p>El operativo contó con <strong>equipos móviles y puntos de atención</strong> que funcionaron en Santa Rosa y localidades estratégicas del territorio provincial. La gratuidad de la gestión permitió que muchas familias, especialmente de sectores vulnerables, accedieran a un trámite que resulta fundamental para el ejercicio de derechos civiles y políticos.</p><p>Frente al éxito de la primera etapa, <strong>las autoridades anunciaron nuevos operativos</strong> que se desarrollarán en próximas semanas. Estos permitirán llegar a más localidades de La Pampa y consolidar una política pública de inclusión documental que ya mostró resultados concretos.</p><p>La iniciativa se enmarca en las políticas de acceso a derechos que caracterizan la actual administración provincial, enfocadas en remover obstáculos que impiden que sectores de la población ejerzan plenamente sus derechos como ciudadanos. El seguimiento de esta campaña será fundamental para evaluar el alcance real de la política en el territorio.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/104216_img-20260618-wa0045.jpg"
+        },
+        {
+          "id": "loventuel_viviendas_listas",
+          "cat": "Vivienda · Loventuel",
+          "titulo": "Dos viviendas más ya están listas para entregar en Loventuel",
+          "bajada": "Dos nuevas casas completaron su construcción en Loventuel y están disponibles para ser entregadas a familias beneficiarias. El avance de obra continúa en la localidad del sur provincial.",
+          "cuerpo": "<p>En la localidad de Loventuel, ubicada en el sur de La Pampa, <strong>dos viviendas completaron su construcción</strong> y están listas para ser entregadas a sus beneficiarios. El avance representa un nuevo logro en los planes habitacionales que el gobierno provincial ejecuta en localidades del interior.</p><p>Las casas construidas en Loventuel responden a los <strong>estándares de calidad</strong> establecidos por el IPAV, incluyendo servicios básicos de agua, electricidad y cloacas. Cada vivienda fue diseñada considerando las necesidades específicas de familias del territorio y el contexto climático local.</p><p>El proceso de entrega a familias beneficiarias se llevará a cabo conforme a los <strong>protocolos establecidos</strong> por las autoridades provinciales, asegurando transparencia y equidad en la distribución de las viviendas. Los candidatos previamente seleccionados por el programa recibirán sus casas en próximos días.</p><p>La obra en Loventuel forma parte de una estrategia más amplia de intervención territorial que busca garantizar acceso a la vivienda digna en todas las regiones de La Pampa. El avance en pequeñas localidades como esta demuestra que la política habitacional provincial no se concentra solo en centros urbanos mayores, sino que aborda la demanda real en todo el territorio provincial.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/722717_loventuel-05.-.jpg"
+        },
+        {
+          "id": "escuelas_i_general_pico",
+          "cat": "Educación · General Pico",
+          "titulo": "En General Pico, Escuelas \"i\" impulsó una jornada para fortalecer la participación de las familias",
+          "bajada": "El programa Escuelas \"i\" realizó una jornada especial en General Pico con foco en fortalecer la participación de las familias en los procesos educativos. El evento reunió a docentes, padres y referentes comunitarios.",
+          "cuerpo": "<p>El programa <strong>Escuelas \"i\"</strong>, impulsado por el gobierno provincial para mejorar la calidad educativa, desarrolló una <strong>jornada integral</strong> en General Pico dedicada a fortalecer la participación activa de las familias en los procesos de enseñanza y aprendizaje. El evento congregó a docentes, padres y referentes comunitarios de la ciudad piquense.</p><p>La propuesta educativa de Escuelas \"i\" reconoce que <strong>el vínculo familia-escuela</strong> es determinante para el éxito académico de los estudiantes. La jornada incluyó espacios de reflexión, diálogo y construcción colaborativa entre los actores educativos, permitiendo identificar oportunidades para mejorar la comunicación y el compromiso mutuo.</p><p>General Pico, como <strong>segundo polo educativo</strong> de la provincia, concentra una importante población estudiantil que se beneficia de iniciativas como esta. La participación activa de las familias en la educación de los hijos genera impactos duraderos en el desempeño académico y el desarrollo integral de niños y adolescentes.</p><p>Las autoridades educativas provinciales continuarán <strong>replicando estas jornadas</strong> en otros establecimientos y localidades, consolidando un modelo de escuela abierta a la comunidad. Este enfoque representa un cambio paradigmático en la forma en que se entiende la educación pública, transformándola en un espacio de encuentro y co-responsabilidad.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/232150_whatsapp-image-2026-06-18-at-12.57.21.jpeg"
+        },
+        {
+          "id": "capacitacion_comunicacion_digital",
+          "cat": "Emprendedurismo · La Pampa",
+          "titulo": "Invitan a participar de nueva capacitación en \"Comunicación Digital\"",
+          "bajada": "El Ministerio de la Producción convoca a emprendedores y emprendedoras de La Pampa a participar en un nuevo taller de Comunicación Digital bajo modalidad virtual. La capacitación forma parte del Programa Emprender La Pampa.",
+          "cuerpo": "<p>El Ministerio de la Producción de La Pampa, a través del <strong>Programa Emprender La Pampa</strong>, invita a emprendedores y emprendedoras de toda la provincia a participar en un nuevo <strong>taller de Comunicación Digital</strong>. La capacitación se dictará bajo modalidad virtual, permitiendo la participación de interesados sin importar su ubicación geográfica.</p><p>La comunicación digital se ha convertido en una <strong>herramienta imprescindible</strong> para que pequeños y medianos emprendimientos logren posicionar sus productos y servicios en mercados cada vez más conectados. El taller abordará estrategias de marketing digital, redes sociales y herramientas de comunicación online que potencien el crecimiento de los negocios pampeanos.</p><p>El Programa Emprender La Pampa ha demostrado ser una <strong>plataforma efectiva</strong> para transferir capacidades y conocimientos a personas interesadas en iniciar o fortalecer sus emprendimientos. Las ediciones anteriores de capacitaciones han llegado a cientos de participantes, generando impacto real en el ecosistema emprendedor provincial.</p><p>Los interesados en inscribirse pueden hacerlo a través de los canales oficiales del Ministerio de la Producción. El taller está dirigido tanto a emprendedores que ya tienen sus negocios en funcionamiento como a quienes están en fase de planificación y desean adquirir herramientas previas al lanzamiento de sus iniciativas.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a3573cfdee2e.jpg"
+        },
+        {
+          "id": "consultores_ambientales_digitalizacion",
+          "cat": "Ambiente · La Pampa",
+          "titulo": "Capacitación: digitalización de trámites del Registro Provincial de Consultores Ambientales",
+          "bajada": "La Secretaría de Ambiente y Cambio Climático convoca a profesionales y firmas consultoras a una capacitación sobre la digitalización de trámites del Registro Provincial de Consultores Ambientales. La iniciativa busca modernizar los procesos administrativos ambientales.",
+          "cuerpo": "<p>La <strong>Secretaría de Ambiente y Cambio Climático</strong> de La Pampa impulsa una <strong>capacitación especializada</strong> dirigida a profesionales y firmas consultoras registradas en el Registro Provincial de Consultores Ambientales. El objetivo es familiarizar a los actores con los nuevos procesos digitalizados de gestión de trámites ambientales.</p><p>La digitalización de trámites representa un <strong>avance significativo</strong> en la modernización de la administración pública ambiental. Los consultores que cumplen un rol fundamental en la evaluación y mitigación de impactos ambientales requieren acceso a sistemas ágiles y transparentes para la presentación y seguimiento de proyectos de relevancia ambiental.</p><p>El Registro Provincial de Consultores Ambientales es una herramienta de <strong>gobernanza ambiental</strong> que permite identificar y acreditar a profesionales y organizaciones con capacidad técnica para asesorar en cuestiones de sustentabilidad. La digitalización de sus procesos facilita tanto a los consultores como a la administración provincial el cumplimiento de obligaciones regulatorias.</p><p>Esta capacitación se enmarca en una estrategia más amplia de <strong>transformación digital</strong> del sector ambiental provincial. La Secretaría continuará desarrollando iniciativas que mejoren la interacción entre la administración, los consultores y las empresas que requieren asesoramiento ambiental para sus operaciones en La Pampa.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/836995_capacitacionconsultores_2026-05.jpg"
+        },
+        {
+          "id": "turismo_rural_pampa",
+          "cat": "Turismo · La Pampa",
+          "titulo": "Horizontes infinitos: el despertar del Turismo Rural en La Pampa",
+          "bajada": "Los establecimientos rurales de La Pampa abren sus puertas para ofrecer experiencias auténticas de descanso y reconexión con la naturaleza. El turismo rural se consolida como una alternativa de desarrollo territorial y diversificación económica.",
+          "cuerpo": "<p>La Pampa, territorio de <strong>llanuras infinitas</strong> y paisajes serenos, se posiciona como destino emergente para el turismo rural. Los establecimientos agropecuarios de la provincia abren sus puertas a visitantes que buscan experiencias auténticas: vivir el ritmo de la vida campestre, conectar con la naturaleza y descubrir las tradiciones que sustentan la identidad pampeana.</p><p>El turismo rural no es solo una estrategia de ingresos adicionales para productores agrícolas: representa una <strong>oportunidad de revalorización territorial</strong> que mantiene vivos los saberes tradicionales y permite que generaciones más jóvenes comprendan las raíces productivas de su región. Las vivencias en campo —desde la observación de labores agrícolas hasta caminatas por estancias y encuentros con la fauna local— generan vínculos emocionales que transforman la perspectiva sobre el territorio.</p><p>Los amaneceres sin apuro, los atardeceres que parecen no terminar, y el silencio de la pampa constituyen un <strong>antídoto frente al ritmo acelerado</strong> de la vida urbana. Muchos visitantes buscan precisamente eso: espacios donde el tiempo discurra de otra manera, donde la contemplación y el descanso recuperen su valor frente a la productividad incesante.</p><p>El despertar del turismo rural en La Pampa abre perspectivas para un <strong>desarrollo territorial más integrado</strong>, que no dependa exclusivamente de la producción de commodities sino que articule agricultura, naturaleza, cultura y turismo. Los gobiernos municipales y provincial acompañan esta transición con capacitaciones, promoción y mejora de infraestructura, reconociendo que la diversificación económica fortalece la resiliencia de las comunidades rurales.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1040372_la-holanda.jpg"
+        },
+        {
+          "id": "guatrache_allanamientos_cocaina",
+          "cat": "Seguridad · Guatraché",
+          "titulo": "Dos allanamientos en Guatraché dejaron dos detenidos y el secuestro de cocaína",
+          "bajada": "Personal policial de la División Toxicomanía realizó dos allanamientos simultáneos en Guatraché que resultaron en dos detenciones y el decomiso de cocaína. La operación fue coordinada por el Área de Coordinación Operativa de Lucha contra el Narcotráfico (ACOLN).",
+          "cuerpo": "<p>El <strong>personal de la División Toxicomanía</strong> con base en General Acha, dependiente del Área de Coordinación Operativa de Lucha contra el Narcotráfico (ACOLN), ejecutó <strong>dos allanamientos simultáneos</strong> en la localidad de Guatraché en el marco de operativos contra el tráfico de drogas. Las acciones resultaron en dos detenciones y el secuestro de sustancias controladas.</p><p>Los allanamientos fueron coordinados como parte de una <strong>estrategia operativa</strong> destinada a desarticular puntos de comercialización de estupefacientes en el territorio provincial. La intervención de ACOLN, que concentra los esfuerzos provinciales contra el narcotráfico, refleja una prioridad de las fuerzas de seguridad por abordar esta problemática que afecta a diferentes localidades pampeanas.</p><p>El decomiso de <strong>cocaína en ambos domicilios</strong> representa un resultado tangible de la operación. Aunque las cifras exactas de la sustancia secuestrada aún no han sido difundidas oficialmente, los allanamientos permiten identificar redes de distribución y personas involucradas en la comercialización de drogas en Guatraché.</p><p>Las detenciones se encuentran en proceso de investigación y las autoridades judiciales competentes continuarán con las actuaciones legales correspondientes. Estos operativos contribuyen a reforzar la presencia estatal en materia de seguridad y control de narcotráfico en el territorio provincial, aunque la complejidad de esta problemática requiere de abordajes integrales que combinen represión, prevención y políticas de tratamiento.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/103393_img-20260619-wa0042.jpg"
+        },
+        {
+          "id": "banco_central_reservas_internacionales",
+          "cat": "Casa Rosada · Economía",
+          "titulo": "El Banco Central reporta aumento de reservas internacionales tras medidas de Milei",
+          "bajada": "El Banco Central de la República Argentina informó sobre un aumento en las reservas internacionales durante junio de 2026. El crecimiento responde a las políticas fiscales implementadas por la administración de Javier Milei.",
+          "cuerpo": "<p>El <strong>Banco Central de la República Argentina</strong> reportó en junio de 2026 un <strong>aumento de reservas internacionales</strong> que responde a la ejecución de medidas económicas de la administración nacional. El incremento es considerado por autoridades monetarias como un resultado positivo de la política fiscal ortodoxa implementada desde diciembre de 2023.</p><p>Las reservas internacionales constituyen un <strong>indicador crucial de estabilidad macroeconómica</strong>. Su fortalecimiento permite a la autoridad monetaria intervenir en los mercados de cambios, sostener la confianza en la moneda local y mantener la capacidad de pago de la deuda externa. El aumento reportado refleja un flujo neto positivo de divisas hacia el país.</p><p>Los ajustes fiscales implementados por el gobierno de Milei incluyen <strong>reducción del gasto público, eliminación de subsidios</strong> y políticas de equilibrio presupuestario. Aunque estas medidas han generado controversia por sus impactos en sectores vulnerables, las autoridades argumentan que son necesarias para restaurar la sustentabilidad de las finanzas públicas y de la macroeconomía argentina.</p><p>El fortalecimiento de las reservas internacionales es considerado por la administración nacional como evidencia del giro positivo en la economía. Sin embargo, analistas advierten sobre la necesidad de acompañar estos avances con políticas que aborden el desempleo creciente, la inflación persistente y la pobreza estructural que caracteriza el contexto nacional.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/b/b3/BCV_Building.jpg"
+        },
+        {
+          "id": "congreso_reforma_tributaria_exportaciones",
+          "cat": "Congreso Nacional · Tributario",
+          "titulo": "Diputados debaten reforma fiscal con énfasis en reducción de impuestos a exportaciones",
+          "bajada": "La Cámara de Diputados sesionó para debatir una reforma tributaria impulsada por el gobierno nacional. El proyecto busca reducir la presión fiscal sobre las exportaciones agroindustriales.",
+          "cuerpo": "<p>La <strong>Cámara de Diputados de la Nación</strong> sesionó durante junio de 2026 para analizar una reforma tributaria que constituye parte de la agenda legislativa del gobierno de Javier Milei. El proyecto incluye medidas de <strong>reducción de impuestos a exportaciones</strong>, particularmente en el sector agroindustrial que genera importantes volúmenes de divisas para Argentina.</p><p>El debate legislativo reflejó posiciones diversas sobre el alcance y la oportunidad de la reforma propuesta. Mientras la administración argumenta que reducir la carga tributaria a exportadores impulsará la actividad económica y la generación de empleo, sectores opositores advierten sobre la pérdida de ingresos fiscales y la necesidad de encontrar otras fuentes de financiamiento.</p><p>El sector agropecuario argentino ha sido históricamente una <strong>fuente fundamental de divisas</strong> que permitió financiar políticas sociales e inversión pública. La reforma tributaria responde a la presión del sector exportador, que argumenta que retenciones excesivas reducen su competitividad global y desestiman las inversiones en producción.</p><p>La evolución de la reforma en el Congreso dependerá de la capacidad del gobierno para construir consensos legislativos. Las votaciones en comisiones y plenario permitirán evaluar el grado de apoyo parlamentario a estas medidas, que generan tensiones entre la necesidad de equilibrio fiscal y el objetivo de dinamizar la economía productiva.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg"
+        },
+        {
+          "id": "senado_presupuesto_2027_obra_publica",
+          "cat": "Congreso Nacional · Presupuesto",
+          "titulo": "El Senado analiza el presupuesto 2027 con énfasis en obra pública federal",
+          "bajada": "La Cámara de Senadores comienza el análisis del proyecto de presupuesto nacional para 2027. Los debates se concentran en las partidas destinadas a obra pública federal y su distribución territorial.",
+          "cuerpo": "<p>El <strong>Senado Nacional</strong> inició en junio de 2026 el análisis del <strong>proyecto de presupuesto 2027</strong> presentado por la administración nacional. Las comisiones permanentes del cuerpo legislativo han comenzado a examinar las partidas presupuestarias, con particular énfasis en las asignaciones para obra pública federal que distribuye recursos en todo el territorio.</p><p>La obra pública constituye un <strong>instrumento fundamental de política regional</strong> que permite que provincias reciban inversiones federales en infraestructura vial, educativa, de salud y de servicios. Los senadores de diferentes jurisdicciones protagonizan debates sobre la equidad de la distribución y la cantidad de recursos destinados a sus provincias.</p><p>El contexto de ajuste fiscal implementado por el gobierno Milei genera presiones sobre las asignaciones presupuestarias. Mientras el ejecutivo busca mantener el equilibrio de cuentas públicas, gobernadores y legisladores reclaman mayor inversión federal en sus territorios, argumentando que el gasto público en obra es motor de actividad económica y empleo.</p><p>Los debates parlamentarios sobre el presupuesto 2027 permitirán observar las prioridades políticas del gobierno nacional y los equilibrios de poder en el Senado. Las provincias con mayor representación legislativa típicamente logran mayor asignación de recursos, reproduciendo desigualdades territoriales que caracterizan la distribución presupuestaria federal.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg"
+        }
+      ]
+    },
+    {
       "clave": "2026-06-19_tarde",
       "fecha_iso": "2026-06-19",
       "fecha": "19 junio 2026",
