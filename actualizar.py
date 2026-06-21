@@ -144,12 +144,13 @@ FOTO_LOCAL = [
     (['huala'],                           'img/politicos/huala.webp'),
     (['kroneberger'],                     'img/politicos/krone.webp'),
     (['mac allister', 'macallister'],     'img/politicos/mac allister.webp'),
-    (['ravier'],                          'img/politicos/ravier.jpg'),
+    (['ravier'],                          'img/politicos/ravier2.webp'),
+    (['matzkin'],                         'img/politicos/matzkin.jpg'),
     (['torroba'],                         'img/politicos/torroba.webp'),
     (['altolaguirre'],                    'img/politicos/leandro altolaguirre.jpg'),
     (['ardohain'],                        'img/politicos/ardo.webp'),
     (['di napoli', 'dinapoli'],           'img/politicos/lucianodinapoli.webp'),
-    (['ziliotto'],                        'img/politicos/Dinapolizilioto.webp'),
+    (['ziliotto'],                        'img/politicos/zillioto.webp'),
     (['gisela cuadrado', 'cuadrado'],     'img/politicos/gisela cuadrado.webp'),
 ]
 
@@ -360,8 +361,7 @@ PRINCIPIOS EDITORIALES:
 5. Fotos: usar SOLO las URLs de APN del contexto. Si no hay foto real, dejar vacio.
 
 DEFINICION ESTRICTA DE SECCIONES:
-- sec01 (cards) = 3 noticias de LA PAMPA (gobierno provincial, municipios, politica pampeana)
-- sec01_list = 4 noticias de LA PAMPA en formato lista (economia, salud, cultura, obra publica)
+- sec01_list = 5-6 noticias de LA PAMPA en formato lista (gobierno provincial, municipios, politica pampeana, economia, salud, cultura, obra publica) — NO repetir los temas/protagonistas ya cubiertos en hero o hero_side, deben ser noticias distintas
 - sec03 (cards) = 3 noticias de ARGENTINA NACIONAL (Casa Rosada, Congreso, economia nacional, partidos nacionales) — NADA de La Pampa
 - sec04 (lista) = 5 noticias INTERNACIONALES (otros paises, organismos mundiales) — NADA de Argentina
 - dato_dia = el dato estadistico/cifra mas importante del dia en La Pampa
@@ -370,7 +370,7 @@ DEFINICION ESTRICTA DE SECCIONES:
 Para sec03 y sec04 usa tu conocimiento del contexto mundial y nacional de hoy {fecha_display}.
 
 ARTICULO COMPLETO OBLIGATORIO PARA TODAS LAS NOTAS — NO SOLO LAS PRINCIPALES:
-El array "arts" debe incluir UN articulo completo por CADA noticia que aparece en sec01, sec01_list, sec03 y hero_side (NO es necesario para sec04, que es solo lista internacional sin clic). Es decir: 3 (sec01) + 4-5 (sec01_list) + 3 (sec03) + 3 (hero_side) = entre 13 y 14 articulos en total. El campo "titulo" de cada entrada en "arts" debe coincidir EXACTAMENTE con el "titulo" de la noticia correspondiente en su seccion de origen, porque el sitio usa ese texto para abrir el articulo al hacer clic. Ninguna noticia debe quedar sin articulo completo: ningun lector debe hacer clic y que no pase nada. Para cada articulo escribe 4 parrafos completos en HTML con etiquetas p y strong.
+El array "arts" debe incluir UN articulo completo por CADA noticia que aparece en sec01_list, sec03 y hero_side (NO es necesario para sec04, que es solo lista internacional sin clic). Es decir: 5-6 (sec01_list) + 3 (sec03) + 2 (hero_side) = entre 10 y 11 articulos en total. El campo "titulo" de cada entrada en "arts" debe coincidir EXACTAMENTE con el "titulo" de la noticia correspondiente en su seccion de origen, porque el sitio usa ese texto para abrir el articulo al hacer clic. Ninguna noticia debe quedar sin articulo completo: ningun lector debe hacer clic y que no pase nada. Para cada articulo escribe 4 parrafos completos en HTML con etiquetas p y strong.
 
 CARGOS VERIFICADOS — CONSULTAR SIEMPRE ESTE MAPA ANTES DE ESCRIBIR:
 {REFERENTES if REFERENTES else "Ver referentes.txt — archivo no disponible en esta corrida."}
@@ -444,27 +444,19 @@ TOOL = {
                 "type": "object",
                 "description": "La nota mas importante del dia de La Pampa para el hero",
                 "properties": {
-                    "art_id":  {"type": "string", "description": "Debe coincidir con un id en sec01"},
                     "cat":     {"type": "string"},
                     "titulo":  {"type": "string", "description": "Maximo 85 caracteres"},
                     "summary": {"type": "string", "description": "2 oraciones impactantes"},
                     "foto":    {"type": "string", "description": "URL foto APN o vacio"}
                 },
-                "required": ["art_id", "cat", "titulo", "summary", "foto"]
-            },
-            "sec01": {
-                "type": "array",
-                "description": "3 noticias de LA PAMPA en cards (solo provincia)",
-                "items": CARD_SCHEMA,
-                "minItems": 3,
-                "maxItems": 3
+                "required": ["cat", "titulo", "summary", "foto"]
             },
             "sec01_list": {
                 "type": "array",
-                "description": "4 noticias de LA PAMPA en lista (economia, salud, obra publica, cultura pampeana)",
+                "description": "5-6 noticias de LA PAMPA en lista (gobierno provincial, municipios, economia, salud, obra publica, cultura) — distintas de las cubiertas en hero/hero_side",
                 "items": LI_SCHEMA,
-                "minItems": 4,
-                "maxItems": 5
+                "minItems": 5,
+                "maxItems": 6
             },
             "sec03": {
                 "type": "array",
@@ -501,9 +493,9 @@ TOOL = {
             },
             "arts": {
                 "type": "array",
-                "description": "Articulo completo para CADA noticia de sec01 + sec01_list + sec03 + hero_side (no para sec04). El 'titulo' de cada art debe coincidir exactamente con el de su noticia de origen. Minimo 13 articulos. Escribi 4 parrafos por articulo.",
+                "description": "Articulo completo para CADA noticia de sec01_list + sec03 + hero_side (no para sec04). El 'titulo' de cada art debe coincidir exactamente con el de su noticia de origen. Minimo 10 articulos. Escribi 4 parrafos por articulo.",
                 "items": ART_SCHEMA,
-                "minItems": 13
+                "minItems": 10
             },
             "ticker": {
                 "type": "array",
@@ -521,7 +513,7 @@ TOOL = {
             },
             "hero_side": {
                 "type": "array",
-                "description": "3 noticias para la barra lateral También hoy (mix La Pampa + nacional). chip_cls: chip-a (Hoy), chip-b (Info), chip-r (Escandalo).",
+                "description": "2 noticias para los paneles secundarios del hero (estilo Apple: foto + titulo + resumen), mix La Pampa + nacional. La SEGUNDA noticia es la menos relevante de las dos y ocupa el panel ancho de abajo. chip_cls: chip-a (Hoy), chip-b (Info), chip-r (Escandalo).",
                 "items": {
                     "type": "object",
                     "properties": {
@@ -535,11 +527,11 @@ TOOL = {
                     },
                     "required": ["cat", "titulo", "resumen", "chip_cls", "chip_txt", "ts"]
                 },
-                "minItems": 3,
-                "maxItems": 3
+                "minItems": 2,
+                "maxItems": 2
             }
         },
-        "required": ["hero", "sec01", "sec01_list", "sec03", "sec04", "dato_dia", "cita_dia", "arts", "ticker", "hero_side"]
+        "required": ["hero", "sec01_list", "sec03", "sec04", "dato_dia", "cita_dia", "arts", "ticker", "hero_side"]
     }
 }
 
@@ -570,13 +562,13 @@ try:
         message = stream.get_final_message()
     # tool_use garantiza que input es un dict Python valido
     data = message.content[0].input
-    print(f"  Tool use OK — {len(data.get('arts', []))} articulos, hero: {data.get('hero', {}).get('art_id','?')}")
+    print(f"  Tool use OK — {len(data.get('arts', []))} articulos, hero: {data.get('hero', {}).get('titulo','?')[:50]}")
 except Exception as e:
     print(f"ERROR API Claude: {e}")
     sys.exit(1)
 
 # ── VALIDAR RESPUESTA — descartar items malformados o respuestas degeneradas ──
-for clave in ['sec01', 'sec01_list', 'sec03', 'arts', 'ticker', 'hero_side']:
+for clave in ['sec01_list', 'sec03', 'arts', 'ticker', 'hero_side']:
     items = data.get(clave, [])
     if not isinstance(items, list):
         data[clave] = []
@@ -586,30 +578,20 @@ for clave in ['sec01', 'sec01_list', 'sec03', 'arts', 'ticker', 'hero_side']:
         print(f"  ADVERTENCIA: {clave} tenia {len(items) - len(limpios)} items malformados — descartados")
     data[clave] = limpios
 
-if len(data.get('arts', [])) > 20 or len(data.get('sec01', [])) > 10:
-    print(f"ERROR: respuesta degenerada de la API (arts={len(data.get('arts',[]))}, sec01={len(data.get('sec01',[]))}) — abortando sin modificar llano.html")
+if len(data.get('arts', [])) > 20:
+    print(f"ERROR: respuesta degenerada de la API (arts={len(data.get('arts',[]))}) — abortando sin modificar llano.html")
     sys.exit(1)
 
 if not isinstance(data.get('hero'), dict):
     print("ERROR: hero malformado en la respuesta — abortando sin modificar llano.html")
     sys.exit(1)
 
-if len(data.get('sec01', [])) < 3 or not data.get('sec01_list') or len(data.get('sec03', [])) < 3 or not data.get('sec04'):
-    print(f"ERROR: respuesta insuficiente (sec01={len(data.get('sec01',[]))}, sec01_list={len(data.get('sec01_list',[]))}, sec03={len(data.get('sec03',[]))}, sec04={len(data.get('sec04',[]))}) — abortando sin modificar llano.html")
+if not data.get('sec01_list') or len(data.get('sec03', [])) < 3 or not data.get('sec04'):
+    print(f"ERROR: respuesta insuficiente (sec01_list={len(data.get('sec01_list',[]))}, sec03={len(data.get('sec03',[]))}, sec04={len(data.get('sec04',[]))}) — abortando sin modificar llano.html")
     sys.exit(1)
 
 # ── BÚSQUEDA DE FOTOS WIKIPEDIA (para artículos sin foto de APN) ──
 print("Buscando fotos en Wikipedia para artículos sin imagen...")
-
-# SEC01 provincial: foto local → Wikipedia
-for item in data.get('sec01', []):
-    if not item.get('foto'):
-        foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
-        if not foto:
-            foto = buscar_foto_wikipedia(item['titulo'], lang='es')
-        if foto:
-            item['foto'] = foto
-            print(f"  [foto] sec01: {item['titulo'][:50]}")
 
 # SEC01-LIST provincial (economia/salud/cultura/obra publica): foto local → Wikipedia
 for item in data.get('sec01_list', []):
@@ -647,7 +629,11 @@ for art in data.get('arts', []):
             print(f"  [foto] art: {art['titulo'][:50]}")
 
 # Hero-side: foto local → persona nombrada en Wikipedia → tema institucional fijo
-for item in data.get('hero_side', []):
+# (el ultimo item es el panel ancho de abajo y no usa foto — se omite la busqueda)
+_hero_side_list = data.get('hero_side', [])
+for _idx, item in enumerate(_hero_side_list):
+    if _idx == len(_hero_side_list) - 1:
+        continue
     if not item.get('foto'):
         foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
         if not foto:
@@ -678,7 +664,7 @@ def card_html(item):
     if foto and (foto.startswith("http") or foto.startswith("img/")):
         img_block = f'<div class="card-img" style="background:#111;"><img src="{foto}" alt="{e(item["titulo"])}" loading="lazy" /></div>'
     else:
-        img_block = '<div class="card-img" style="background:linear-gradient(150deg,#0e1520,#182030);"><div class="illus-glow" style="background:radial-gradient(ellipse at 40% 60%, rgba(200,120,10,.18) 0%,transparent 55%);"></div></div>'
+        img_block = '<div class="card-img" style="background:linear-gradient(150deg,#0e1520,#182030);"><div class="illus-glow" style="background:radial-gradient(ellipse at 40% 60%, rgba(46,168,255,.16) 0%,transparent 55%);"></div></div>'
     return f"""    <div class="card">
       {img_block}
       <div class="card-meta"><span class="cat">{e(item.get("cat",""))}</span><span class="ia-badge">&#10022; IA</span></div>
@@ -712,22 +698,24 @@ original_size = len(llano)
 # ── REEMPLAZAR HERO ──
 hero = data.get("hero", {})
 foto_hero = hero.get("foto", "")
-img_hero = f'<img class="hero-photo" src="{foto_hero}" alt="{e(hero.get("titulo",""))}" />' if foto_hero and foto_hero.startswith("http") else ""
-hero_nuevo = f"""{img_hero}
-      <div class="hero-bg" style="background:linear-gradient(to top,rgba(10,9,9,.98) 0%,rgba(10,9,9,.88) 28%,rgba(10,9,9,.72) 58%,rgba(10,9,9,.35) 100%),radial-gradient(ellipse at 30% 80%, rgba(200,120,10,.25) 0%, transparent 55%);"></div>
-      <div class="hero-grid-lines"></div>
-      <div class="hero-main-content">
-        <div class="hero-kicker">
-          <span class="live-dot">SEGUIMIENTO</span>
-          <span style="width:1px;height:12px;background:rgba(255,255,255,.15);display:inline-block;"></span>
-          <span style="font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.4);font-weight:600;">{e(hero.get("cat",""))}</span>
+if foto_hero and (foto_hero.startswith("http") or foto_hero.startswith("img/")):
+    foto_block_hero = f'<div class="hero-panel-photo" style="background-image:url(\'{foto_hero}\');"></div>'
+else:
+    foto_block_hero = '<div class="hero-panel-photo" style="background-image:linear-gradient(150deg,#0e1520,#182030);"></div>'
+hero_nuevo = f"""<div class="hero-panel hero-panel--lead">
+        <div class="hero-panel-top">
+          <div class="hero-panel-kicker">
+            <span class="live-dot">SEGUIMIENTO</span>
+            <span class="hero-panel-cat">{e(hero.get("cat",""))}</span>
+          </div>
+          <h1 class="hero-panel-title">{e(hero.get("titulo",""))}</h1>
+          <p class="hero-panel-sub">{e(hero.get("summary",""))}</p>
+          <div class="hero-panel-foot">
+            <span class="ts">{fecha_display} &#183; LLANO&#183;</span>
+            <span class="ia-badge">&#10022; Analisis IA</span>
+          </div>
         </div>
-        <h1 class="hero-title">{e(hero.get("titulo",""))}</h1>
-        <p class="hero-summary">{e(hero.get("summary",""))}</p>
-        <div class="hero-footer">
-          <span class="hero-ts">{fecha_display} · LLANO&#183;</span>
-          <span class="ia-badge">&#10022; Analisis IA</span>
-        </div>
+        {foto_block_hero}
       </div>"""
 
 def li_html(item):
@@ -768,7 +756,7 @@ def ticker_html(items):
         single += f'    <span class="ti"><span class="ti-sep">●</span> <strong>{kw}</strong> {txt}</span>\n'
     return single + single  # duplicado para scroll CSS infinito
 
-def hero_side_item(item):
+def hero_panel_item(item, wide=False):
     chip_cls = e(item.get("chip_cls", "chip-a"))
     chip_txt = e(item.get("chip_txt", "Hoy"))
     cat      = e(item.get("cat", ""))
@@ -776,24 +764,28 @@ def hero_side_item(item):
     resumen  = e(item.get("resumen", ""))
     ts       = e(item.get("ts", ""))
     foto     = item.get("foto", "")
-    if foto and (foto.startswith("http") or foto.startswith("img/")):
-        inner = (
-            f'<div style="display:flex;gap:.75rem;align-items:flex-start;">'
-            f'<div style="width:52px;height:52px;border-radius:50%;flex-shrink:0;overflow:hidden;border:1px solid rgba(255,255,255,.12);">'
-            f'<img src="{foto}" alt="{titulo}" style="width:100%;height:100%;object-fit:cover;object-position:center top;" /></div>'
-            f'<div style="flex:1;min-width:0;">'
-            f'<div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">{cat}</span><span class="ia-badge">&#10022; IA</span></div>'
-            f'<h3>{titulo}</h3><p>{resumen}</p>'
-            f'<div class="hero-item-meta"><span class="ts">{ts}</span><span class="chip {chip_cls}">{chip_txt}</span></div>'
-            f'</div></div>'
-        )
+    cls = "hero-panel hero-panel--wide" if wide else "hero-panel"
+    if wide:
+        # panel ancho de abajo (menos relevante) — sin foto, fondo claro de contraste
+        foto_block = ""
+    elif foto and (foto.startswith("http") or foto.startswith("img/")):
+        foto_block = f'<div class="hero-panel-photo" style="background-image:url(\'{foto}\');"></div>'
     else:
-        inner = (
-            f'<div class="card-meta"><span class="cat">{cat}</span><span class="ia-badge">&#10022; IA</span></div>'
-            f'<h3>{titulo}</h3><p>{resumen}</p>'
-            f'<div class="hero-item-meta"><span class="ts">{ts}</span><span class="chip {chip_cls}">{chip_txt}</span></div>'
-        )
-    return f'      <div class="hero-item">\n        {inner}\n      </div>'
+        foto_block = '<div class="hero-panel-photo" style="background-image:linear-gradient(150deg,#0e1520,#182030);"></div>'
+    return f"""      <div class="{cls}">
+        <div class="hero-panel-top">
+          <div class="hero-panel-kicker">
+            <span class="hero-panel-cat">{cat}</span>
+          </div>
+          <h2 class="hero-panel-title">{titulo}</h2>
+          <p class="hero-panel-sub">{resumen}</p>
+          <div class="hero-panel-foot">
+            <span class="ts">{ts}</span>
+            <span class="chip {chip_cls}">{chip_txt}</span>
+          </div>
+        </div>
+        {foto_block}
+      </div>"""
 
 hero_bloque = f'<!-- AUTO:HERO:START -->\n      {hero_nuevo}\n<!-- AUTO:HERO:END -->'
 llano = safe_sub(r'<!-- AUTO:HERO:START -->[\s\S]*?<!-- AUTO:HERO:END -->', hero_bloque, llano)
@@ -810,12 +802,6 @@ llano = re.sub(r'<meta name="twitter:title" content="[^"]*"', f'<meta name="twit
 llano = re.sub(r'<meta name="twitter:description" content="[^"]*"', f'<meta name="twitter:description" content="{e(og_desc)}"', llano)
 llano = re.sub(r'<meta name="twitter:image" content="[^"]*"', f'<meta name="twitter:image" content="{og_foto}"', llano)
 print(f"  Meta tags OG actualizados — foto: {'hero' if og_foto != 'https://llano.it.com/og-image.jpg' else 'fallback'}")
-
-# ── REEMPLAZAR SEC01 ──
-sec01 = data.get("sec01", [])[:3]
-sec01_cards = "\n".join(card_html(c) for c in sec01)
-sec01_bloque = f'<!-- AUTO:SEC01:START -->\n  <div class="g3 fade-in">\n{sec01_cards}\n  </div>\n  <!-- AUTO:SEC01:END -->'
-llano = safe_sub(r'<!-- AUTO:SEC01:START -->[\s\S]*?<!-- AUTO:SEC01:END -->', sec01_bloque, llano)
 
 # ── REEMPLAZAR SEC03 ──
 sec03 = data.get("sec03", [])[:3]
@@ -899,7 +885,8 @@ if ticker_items:
 # ── REEMPLAZAR HERO-SIDE (También hoy) ──
 hero_side_items = data.get("hero_side", [])
 if hero_side_items:
-    hs_html = "\n".join(hero_side_item(it) for it in hero_side_items)
+    n_hs = len(hero_side_items)
+    hs_html = "\n".join(hero_panel_item(it, wide=(i == n_hs - 1)) for i, it in enumerate(hero_side_items))
     llano = safe_sub(
         r'<!-- AUTO:HERO-SIDE:START -->[\s\S]*?<!-- AUTO:HERO-SIDE:END -->',
         f'<!-- AUTO:HERO-SIDE:START -->\n{hs_html}\n      <!-- AUTO:HERO-SIDE:END -->',
@@ -940,7 +927,6 @@ corrida = {
         "cat":     hero.get("cat", ""),
         "foto":    hero.get("foto", "")
     },
-    "sec01":      [{"titulo": c["titulo"], "resumen": c.get("resumen",""), "cat": c.get("cat",""), "foto": c.get("foto",""), "ts": c.get("ts","")} for c in data.get("sec01",[])],
     "sec01_list": [{"titulo": c["titulo"], "resumen": c.get("resumen",""), "cat": c.get("cat",""), "foto": c.get("foto",""), "ts": c.get("ts","")} for c in data.get("sec01_list",[])],
     "sec03":      [{"titulo": c["titulo"], "resumen": c.get("resumen",""), "cat": c.get("cat",""), "foto": c.get("foto",""), "ts": c.get("ts","")} for c in data.get("sec03",[])],
     "hero_side":  [{"titulo": it.get("titulo",""), "resumen": it.get("resumen",""), "cat": it.get("cat",""), "ts": it.get("ts","")} for it in data.get("hero_side",[])],
