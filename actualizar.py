@@ -360,10 +360,12 @@ print("Obteniendo noticias de Diputados...")
 dip_items = diputados_noticias(4)
 print(f"  {len(dip_items)} noticias encontradas en Diputados")
 
-# Si no hay noticias suficientes, mantener el contenido actual sin tocar
-if len(apn_items) + len(dip_items) < 3:
-    print("Menos de 3 noticias disponibles — manteniendo contenido actual sin modificar.")
-    sys.exit(0)
+# Si las fuentes provinciales (APN/Diputados) no respondieron, no abortamos toda la
+# actualizacion: nacional e internacional se redactan con el conocimiento de la IA y
+# no dependen de estas fuentes. Solo avisamos al prompt para que no invente La Pampa.
+pampa_sin_fuentes = (len(apn_items) + len(dip_items) < 3)
+if pampa_sin_fuentes:
+    print("Pocas/ninguna noticia provincial disponible (APN/Diputados) — se prioriza nacional/internacional este turno.")
 
 # ── CONSTRUIR CONTEXTO PARA CLAUDE ──
 apn_texto = ""
@@ -398,6 +400,9 @@ DEFINICION ESTRICTA DE SECCIONES:
 - cita_dia = la frase textual mas relevante del dia en la politica pampeana
 
 Para sec03 y sec04 usa tu conocimiento del contexto mundial y nacional de hoy {fecha_display}.
+{"""
+ATENCION — HOY NO HAY FUENTES PROVINCIALES FRESCAS (APN y Diputados no respondieron): NO inventes noticias puntuales, anuncios, declaraciones ni hechos nuevos de La Pampa. En este turno: el hero principal y hero_side deben centrarse en la noticia nacional o internacional mas importante del dia (no en La Pampa). Para sec01_list, sec01_list puede tener menos de 5-6 items si no hay nada seguro que contar — preferi 1-3 items de seguimiento institucional ya conocido y verificable (continuidad de gestion, sin hechos puntuales inventados) antes que rellenar con noticias falsas. dato_dia y cita_dia tambien pueden referirse a nacional/internacional si no hay nada confiable de La Pampa hoy.
+""" if pampa_sin_fuentes else ""}
 
 ARTICULO COMPLETO OBLIGATORIO PARA TODAS LAS NOTAS — NO SOLO LAS PRINCIPALES:
 El array "arts" debe incluir UN articulo completo por CADA noticia que aparece en sec01_list, sec03 y hero_side (NO es necesario para sec04, que es solo lista internacional sin clic). Es decir: 5-6 (sec01_list) + 3 (sec03) + 2 (hero_side) = entre 10 y 11 articulos en total. El campo "titulo" de cada entrada en "arts" debe coincidir EXACTAMENTE con el "titulo" de la noticia correspondiente en su seccion de origen, porque el sitio usa ese texto para abrir el articulo al hacer clic. Ninguna noticia debe quedar sin articulo completo: ningun lector debe hacer clic y que no pase nada. Para cada articulo escribe 4 parrafos completos en HTML con etiquetas p y strong.
