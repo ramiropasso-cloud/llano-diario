@@ -152,6 +152,9 @@ FOTO_LOCAL = [
     (['di napoli', 'dinapoli'],           'img/politicos/lucianodinapoli.webp'),
     (['ziliotto'],                        'img/politicos/zillioto.webp'),
     (['gisela cuadrado', 'cuadrado'],     'img/politicos/gisela cuadrado.webp'),
+    (['mayoral'],                         'img/politicos/mayoral.jpg'),
+    (['verna'],                           'img/politicos/verna.jpg'),
+    (['rauschenberger'],                  'img/politicos/rauschenberger.png'),
 ]
 
 def buscar_foto_local(titulo, resumen=''):
@@ -355,10 +358,13 @@ NOTICIAS DISPONIBLES HOY (FUENTES OFICIALES PROVINCIALES):
 
 PRINCIPIOS EDITORIALES:
 1. OBJETIVIDAD ABSOLUTA — cobertura igual para PJ, UCR, LLA y todos los partidos. Sin sesgo.
-2. SEGUIMIENTO: Di Napoli (intendente Santa Rosa), Alonso (intendenta General Pico), Ravier (DIPUTADO NACIONAL LLA — no senador), Kroneberger (SENADOR UCR), Berhongaray (presidente Comité UCR provincial — no legislador), Altolaguirre (EX INTENDENTE Santa Rosa UCR — sin cargo actual).
+2. SEGUIMIENTO EQUILIBRADO DE TODA LA OPOSICION Y EL OFICIALISMO — no concentrar la cobertura en un solo referente opositor. Cubrir segun peso institucional real:
+   OFICIALISMO: Ziliotto (GOBERNADOR PJ), Di Napoli (intendente Santa Rosa, PJ/La Campora), Alonso (intendenta Gral. Pico, vernismo/PJ).
+   OPOSICION (cubrir el conjunto, sin sobre-representar a uno solo): Kroneberger (SENADOR NACIONAL UCR), Huala (SENADORA NACIONAL PRO), Ardohain (DIPUTADO NACIONAL PRO), Ravier (DIPUTADO NACIONAL LLA — viene ganando protagonismo politico, cubrir con la misma intensidad que a los demas referentes opositores, no menos), Berhongaray (presidente Comite UCR provincial, conduccion partidaria sin banca), Altolaguirre (EX INTENDENTE Santa Rosa UCR, sin cargo actual).
 3. FUENTE EN CAMPO TS: el campo ts SIEMPRE debe ser exactamente "{fecha_corta} · LLANO·". NUNCA poner La Arena, El Diario de La Pampa, Diarionoticias, Ambito, ni ningún otro medio en ningún campo.
 4. VOZ: Clara, directa, rioplatense, sin sesgo partidario.
-5. Fotos: usar SOLO las URLs de APN del contexto. Si no hay foto real, dejar vacio.
+5. FOTOS: APN es fuente de texto/notas oficiales, NO la fuente de fotos. Si el contexto trae una URL de foto de APN, usala; si no, deja el campo vacio y NO inventes ni busques fotos por tu cuenta — el sistema completa automaticamente con foto local del archivo o foto verificada de Wikipedia.
+6. PROFUNDIDAD Y TRASFONDO: ademas del anuncio o hecho del dia, buscar el "entre telones" — alianzas, tensiones internas, operadores y conectores que explican por que pasa lo que pasa en la politica pampeana. Priorizar notas que muestren el juego de poder y los vinculos entre actores, no solo la gacetilla oficial.
 
 DEFINICION ESTRICTA DE SECCIONES:
 - sec01_list = 5-6 noticias de LA PAMPA en formato lista (gobierno provincial, municipios, politica pampeana, economia, salud, cultura, obra publica) — NO repetir los temas/protagonistas ya cubiertos en hero o hero_side, deben ser noticias distintas
@@ -593,10 +599,12 @@ if not data.get('sec01_list') or len(data.get('sec03', [])) < 3 or not data.get(
 # ── BÚSQUEDA DE FOTOS WIKIPEDIA (para artículos sin foto de APN) ──
 print("Buscando fotos en Wikipedia para artículos sin imagen...")
 
-# SEC01-LIST provincial (economia/salud/cultura/obra publica): foto local → Wikipedia
+# SEC01-LIST provincial (economia/salud/cultura/obra publica): foto local → persona nombrada → Wikipedia generica
 for item in data.get('sec01_list', []):
     if not item.get('foto'):
         foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
+        if not foto:
+            foto = buscar_foto_persona(item['titulo'], item.get('resumen', ''))
         if not foto:
             foto = buscar_foto_wikipedia(item['titulo'], lang='es')
         if foto:
