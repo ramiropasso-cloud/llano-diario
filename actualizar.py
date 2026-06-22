@@ -56,17 +56,22 @@ except (FileNotFoundError, json.JSONDecodeError):
     pass
 
 
-def fetch(url, timeout=12):
-    try:
-        req = urllib.request.Request(url, headers={
-            'User-Agent': 'Mozilla/5.0 (compatible; LLANObot/1.0)',
-            'Accept': 'text/html,application/xhtml+xml',
-        })
-        with urllib.request.urlopen(req, timeout=timeout) as r:
-            return r.read().decode('utf-8', errors='ignore')
-    except Exception as e:
-        print(f"  [fetch error] {url}: {e}")
-        return ""
+def fetch(url, timeout=12, intentos=3):
+    for intento in range(1, intentos + 1):
+        try:
+            req = urllib.request.Request(url, headers={
+                'User-Agent': 'Mozilla/5.0 (compatible; LLANObot/1.0)',
+                'Accept': 'text/html,application/xhtml+xml',
+            })
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read().decode('utf-8', errors='ignore')
+        except Exception as e:
+            if intento < intentos:
+                print(f"  [fetch reintento {intento}/{intentos}] {url}: {e}")
+                time.sleep(3)
+            else:
+                print(f"  [fetch error] {url}: {e}")
+    return ""
 
 
 def apn_noticias(max_items=8):
