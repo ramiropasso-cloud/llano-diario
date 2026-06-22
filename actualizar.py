@@ -158,11 +158,30 @@ FOTO_LOCAL = [
 ]
 
 def buscar_foto_local(titulo, resumen=''):
+    """Elige la foto de la persona que aparece mas temprano en el titulo (el sujeto principal
+    de la noticia), no la primera coincidencia de FOTO_LOCAL — evita que una nota sobre Ravier
+    que menciona de pasada a Adorni (su antecesor) termine usando la foto de Adorni."""
+    titulo_l = titulo.lower()
+    mejor_pos, mejor_path = None, None
+    for keywords, path in FOTO_LOCAL:
+        for kw in keywords:
+            pos = titulo_l.find(kw)
+            if pos != -1 and (mejor_pos is None or pos < mejor_pos):
+                mejor_pos, mejor_path = pos, path
+    if mejor_path:
+        return mejor_path
     texto = (titulo + ' ' + resumen).lower()
     for keywords, path in FOTO_LOCAL:
         if any(kw in texto for kw in keywords):
             return path
     return ''
+
+
+def foto_es_valida(foto):
+    """Una foto valida es una URL real (http/https) provista por el contexto de APN.
+    Cualquier otro valor (nombre de archivo inventado por el modelo, ej. 'adorniedi.avif')
+    se descarta y se reemplaza por busqueda real en el pipeline de fotos."""
+    return bool(foto) and foto.startswith('http')
 
 WIKI_EXCLUIR = ['flag', 'icon', 'logo', 'blank', 'svg', 'stub', 'escudo',
                 'bandera', 'coat_of_arms', 'seal_of', 'cropped', 'portrait']
@@ -599,9 +618,23 @@ if not data.get('sec01_list') or len(data.get('sec03', [])) < 3 or not data.get(
 # ── BÚSQUEDA DE FOTOS WIKIPEDIA (para artículos sin foto de APN) ──
 print("Buscando fotos en Wikipedia para artículos sin imagen...")
 
+# Hero principal: foto local → persona nombrada en Wikipedia → tema institucional fijo
+_hero = data.get('hero', {})
+if not foto_es_valida(_hero.get('foto')):
+    _hero['foto'] = ''
+    foto = buscar_foto_local(_hero.get('titulo', ''), _hero.get('summary', ''))
+    if not foto:
+        foto = buscar_foto_persona(_hero.get('titulo', ''), _hero.get('summary', ''))
+    if not foto:
+        foto = buscar_foto_tema(_hero.get('cat', ''), _hero.get('titulo', ''), _hero.get('summary', ''))
+    if foto:
+        _hero['foto'] = foto
+        print(f"  [foto] hero: {_hero.get('titulo','')[:50]}")
+
 # SEC01-LIST provincial (economia/salud/cultura/obra publica): foto local → persona nombrada → Wikipedia generica
 for item in data.get('sec01_list', []):
-    if not item.get('foto'):
+    if not foto_es_valida(item.get('foto')):
+        item['foto'] = ''
         foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
         if not foto:
             foto = buscar_foto_persona(item['titulo'], item.get('resumen', ''))
@@ -613,7 +646,8 @@ for item in data.get('sec01_list', []):
 
 # SEC03 nacional: foto local → persona nombrada en Wikipedia → tema institucional fijo
 for item in data.get('sec03', []):
-    if not item.get('foto'):
+    if not foto_es_valida(item.get('foto')):
+        item['foto'] = ''
         foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
         if not foto:
             foto = buscar_foto_persona(item['titulo'], item.get('resumen', ''))
@@ -625,7 +659,8 @@ for item in data.get('sec03', []):
 
 # Arts: foto local → Wikipedia → tema institucional fijo
 for art in data.get('arts', []):
-    if not art.get('foto'):
+    if not foto_es_valida(art.get('foto')):
+        art['foto'] = ''
         foto = buscar_foto_local(art['titulo'], art.get('bajada', ''))
         if not foto:
             lang = 'en' if any(x in art.get('cat','').lower() for x in ['intern', 'mundial', 'global']) else 'es'
@@ -642,7 +677,8 @@ _hero_side_list = data.get('hero_side', [])
 for _idx, item in enumerate(_hero_side_list):
     if _idx == len(_hero_side_list) - 1:
         continue
-    if not item.get('foto'):
+    if not foto_es_valida(item.get('foto')):
+        item['foto'] = ''
         foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
         if not foto:
             foto = buscar_foto_persona(item['titulo'], item.get('resumen', ''))
