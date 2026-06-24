@@ -200,11 +200,15 @@ def _es_headshot(url):
     # Patron Nombre_Apellido_Año → retrato de persona
     return 2 <= len(partes) <= 4 and len(fn) < 40
 
-def buscar_foto_wikipedia(titulo, lang='es'):
-    """Busca foto libre en Wikipedia para un titulo dado (2 requests)"""
+def buscar_foto_wikipedia(titulo, lang='es', contexto=''):
+    """Busca foto libre en Wikipedia para un titulo dado (2 requests). El parametro
+    'contexto' (ej. 'La Pampa Argentina') se suma a la busqueda para evitar que un
+    nombre de lugar ambiguo (ej. 'Santa Rosa', 'San Miguel') traiga la foto de una
+    ciudad homonima en otro pais o provincia."""
     try:
         time.sleep(0.4)  # evitar HTTP 429 por demasiadas busquedas seguidas
-        termino = urllib.parse.quote(titulo[:80])
+        termino_base = titulo[:80] + (' ' + contexto if contexto else '')
+        termino = urllib.parse.quote(termino_base)
         raw = fetch(f"https://{lang}.wikipedia.org/w/api.php?action=query&list=search&srsearch={termino}&format=json&srlimit=1&srnamespace=0", timeout=7)
         if not raw:
             return ""
@@ -293,27 +297,81 @@ def buscar_foto_persona(titulo, resumen=''):
     return ""
 
 
+_W = 'https://upload.wikimedia.org/wikipedia/commons'
+
+# Cada tema mapea a una LISTA de fotos candidatas (no una sola), para poder
+# rotar y evitar que dos noticias distintas terminen mostrando la misma imagen.
 TOPIC_LOCAL = [
-    (['congreso', 'diputados', 'senado', 'senadores nacionales', 'camara baja', 'camara alta'],
-     'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg'),
-    (['casa rosada', 'gobierno nacional', 'presidencia', 'poder ejecutivo'],
-     'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG'),
+    (['congreso', 'diputados', 'camara baja', 'camara de diputados'],
+     [f'{_W}/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg']),
+    (['senado', 'senadores nacionales', 'camara alta'],
+     [f'{_W}/1/15/Recinto_del_Senado_de_la_Naci%C3%B3n_Argentina.jpg',
+      f'{_W}/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg']),
+    (['casa rosada', 'gobierno nacional', 'presidencia', 'poder ejecutivo', 'vocero presidencial', 'voceria'],
+     [f'{_W}/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG']),
+    (['banco central', 'bcra'],
+     [f'{_W}/thumb/3/30/Banco_Central_de_la_Rep%C3%BAblica_Argentina_en_2016.jpg/960px-Banco_Central_de_la_Rep%C3%BAblica_Argentina_en_2016.jpg']),
     (['inflación', 'inflacion', 'economía nacional', 'economia nacional', 'dólar', 'dolar',
-      'ministerio de economía', 'ministerio de economia', 'tasas de interés', 'tasas de interes'],
-     'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png'),
-    (['pyme', 'pymes', 'crédito', 'creditos', 'créditos', 'financiamiento', 'banco central', 'bcra'],
-     'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Banco_de_la_Naci%C3%B3n_argentina_-_panoramio.jpg/960px-Banco_de_la_Naci%C3%B3n_argentina_-_panoramio.jpg'),
+      'ministerio de economía', 'ministerio de economia', 'tasas de interés', 'tasas de interes',
+      'mercados', 'bonos argentinos'],
+     [f'{_W}/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png']),
+    (['pyme', 'pymes', 'crédito', 'creditos', 'créditos', 'financiamiento'],
+     [f'{_W}/thumb/d/db/Banco_de_la_Naci%C3%B3n_argentina_-_panoramio.jpg/960px-Banco_de_la_Naci%C3%B3n_argentina_-_panoramio.jpg']),
+    (['cosecha', 'agro', 'agroindustria', 'agricultura', 'trigo', 'soja', 'granos'],
+     [f'{_W}/9/97/Loading_wheat_at_Rosario_Argentina_%286964413258%29.jpg']),
+    (['deuda', 'acreedores', 'bolsa', 'refinanciamiento', 'coparticipacion', 'coparticipación'],
+     [f'{_W}/c/ca/Bolsa_de_Comercio_%28Buenos_Aires%29.jpg']),
 ]
 
+# Fallback para noticias genericas de La Pampa (sin persona ni foto APN) que el
+# resto del pipeline (foto local / persona / wikipedia) no logra resolver.
+PAMPA_LOCAL = [
+    (['salud', 'hospital', 'sanitari'],
+     [f'{_W}/1/18/Hospital_Regional.jpg']),
+    (['cultura', 'patrimonio', 'museo'],
+     [f'{_W}/thumb/6/6f/Entrada_al_Museo_Provincial_de_Historia_Natural_de_La_Pampa_1.jpg/960px-Entrada_al_Museo_Provincial_de_Historia_Natural_de_La_Pampa_1.jpg']),
+    (['educación', 'educacion', 'escuela', 'digital', 'tecnologia', 'tecnología', 'universidad'],
+     [f'{_W}/thumb/4/4b/Universidad_Nacional_de_La_Pampa_2.jpg/960px-Universidad_Nacional_de_La_Pampa_2.jpg']),
+    (['pj', 'peronis', 'justicialista', 'legislatura', 'diputados de la pampa', 'electoral'],
+     [f'{_W}/thumb/f/f3/Camara_de_diputados_de_La_Pampa_05.jpg/960px-Camara_de_diputados_de_La_Pampa_05.jpg']),
+    (['santa rosa', 'municipal', 'intendencia'],
+     [f'{_W}/thumb/9/9d/Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg/960px-Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg']),
+    (['general pico'],
+     [f'{_W}/thumb/d/db/Calle_de_Gral._Pico.JPG/960px-Calle_de_Gral._Pico.JPG']),
+]
 
-def buscar_foto_tema(cat, titulo, resumen=''):
-    """Foto institucional fija para temas nacionales genericos sin persona nombrada
-    (Congreso, Casa Rosada, Ministerio de Economia) — URLs estables de Wikimedia Commons."""
+TOPIC_LOCAL_ALL = TOPIC_LOCAL + PAMPA_LOCAL
+
+
+def buscar_foto_tema(cat, titulo, resumen='', usadas=None):
+    """Foto institucional fija para temas genericos sin persona nombrada (Congreso,
+    Casa Rosada, hospitales, museos, etc.) — URLs estables de Wikimedia Commons. Si se
+    pasa 'usadas', prefiere una candidata todavia no usada en esta corrida para no repetir."""
     texto = f"{cat} {titulo} {resumen}".lower()
-    for keywords, url in TOPIC_LOCAL:
+    for keywords, urls in TOPIC_LOCAL_ALL:
         if any(kw in texto for kw in keywords):
-            return url
+            if usadas:
+                for u in urls:
+                    if u not in usadas:
+                        return u
+            return urls[0]
     return ""
+
+
+def resolver_foto(candidatos, usadas):
+    """Prueba cada funcion candidata en orden y devuelve la primera foto que no
+    este ya usada en esta corrida. Si todas las candidatas encontradas ya estan
+    usadas, devuelve la primera que se encontro (mejor repetir que dejar vacio)."""
+    primera_encontrada = ''
+    for fn in candidatos:
+        foto = fn()
+        if not foto:
+            continue
+        if not primera_encontrada:
+            primera_encontrada = foto
+        if foto not in usadas:
+            return foto
+    return primera_encontrada
 
 
 def diputados_noticias(max_items=4):
@@ -630,60 +688,57 @@ if not data.get('sec01_list') or len(data.get('sec03', [])) < 6 or not data.get(
     sys.exit(1)
 
 # ── BÚSQUEDA DE FOTOS WIKIPEDIA (para artículos sin foto de APN) ──
+# 'fotos_usadas' rastrea todas las fotos ya asignadas en esta corrida para que
+# dos noticias distintas nunca terminen mostrando la misma imagen.
 print("Buscando fotos en Wikipedia para artículos sin imagen...")
+fotos_usadas = set()
+
+def _es_pampa(cat):
+    c = (cat or '').lower()
+    return 'pampa' in c or 'provincia' in c or any(m in c for m in ['santa rosa', 'general pico'])
 
 # Hero principal: foto local → persona nombrada en Wikipedia → tema institucional fijo
 _hero = data.get('hero', {})
 if not foto_es_valida(_hero.get('foto')):
     _hero['foto'] = ''
-    foto = buscar_foto_local(_hero.get('titulo', ''), _hero.get('summary', ''))
-    if not foto:
-        foto = buscar_foto_persona(_hero.get('titulo', ''), _hero.get('summary', ''))
-    if not foto:
-        foto = buscar_foto_tema(_hero.get('cat', ''), _hero.get('titulo', ''), _hero.get('summary', ''))
+    foto = resolver_foto([
+        lambda: buscar_foto_local(_hero.get('titulo', ''), _hero.get('summary', '')),
+        lambda: buscar_foto_persona(_hero.get('titulo', ''), _hero.get('summary', '')),
+        lambda: buscar_foto_tema(_hero.get('cat', ''), _hero.get('titulo', ''), _hero.get('summary', ''), usadas=fotos_usadas),
+    ], fotos_usadas)
     if foto:
         _hero['foto'] = foto
+        fotos_usadas.add(foto)
         print(f"  [foto] hero: {_hero.get('titulo','')[:50]}")
 
-# SEC01-LIST provincial (economia/salud/cultura/obra publica): foto local → persona nombrada → Wikipedia generica
+# SEC01-LIST provincial (economia/salud/cultura/obra publica): foto local → persona nombrada → Wikipedia (con contexto La Pampa) → tema fijo
 for item in data.get('sec01_list', []):
     if not foto_es_valida(item.get('foto')):
         item['foto'] = ''
-        foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
-        if not foto:
-            foto = buscar_foto_persona(item['titulo'], item.get('resumen', ''))
-        if not foto:
-            foto = buscar_foto_wikipedia(item['titulo'], lang='es')
+        foto = resolver_foto([
+            lambda: buscar_foto_local(item['titulo'], item.get('resumen', '')),
+            lambda: buscar_foto_persona(item['titulo'], item.get('resumen', '')),
+            lambda: buscar_foto_wikipedia(item['titulo'], lang='es', contexto='La Pampa Argentina'),
+            lambda: buscar_foto_tema(item.get('cat', ''), item['titulo'], item.get('resumen', ''), usadas=fotos_usadas),
+        ], fotos_usadas)
         if foto:
             item['foto'] = foto
+            fotos_usadas.add(foto)
             print(f"  [foto] sec01_list: {item['titulo'][:50]}")
 
 # SEC03 nacional: foto local → persona nombrada en Wikipedia → tema institucional fijo
 for item in data.get('sec03', []):
     if not foto_es_valida(item.get('foto')):
         item['foto'] = ''
-        foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
-        if not foto:
-            foto = buscar_foto_persona(item['titulo'], item.get('resumen', ''))
-        if not foto:
-            foto = buscar_foto_tema(item.get('cat', ''), item['titulo'], item.get('resumen', ''))
+        foto = resolver_foto([
+            lambda: buscar_foto_local(item['titulo'], item.get('resumen', '')),
+            lambda: buscar_foto_persona(item['titulo'], item.get('resumen', '')),
+            lambda: buscar_foto_tema(item.get('cat', ''), item['titulo'], item.get('resumen', ''), usadas=fotos_usadas),
+        ], fotos_usadas)
         if foto:
             item['foto'] = foto
+            fotos_usadas.add(foto)
             print(f"  [foto] sec03: {item['titulo'][:50]}")
-
-# Arts: foto local → Wikipedia → tema institucional fijo
-for art in data.get('arts', []):
-    if not foto_es_valida(art.get('foto')):
-        art['foto'] = ''
-        foto = buscar_foto_local(art['titulo'], art.get('bajada', ''))
-        if not foto:
-            lang = 'en' if any(x in art.get('cat','').lower() for x in ['intern', 'mundial', 'global']) else 'es'
-            foto = buscar_foto_wikipedia(art['titulo'], lang=lang)
-        if not foto:
-            foto = buscar_foto_tema(art.get('cat', ''), art['titulo'], art.get('bajada', ''))
-        if foto:
-            art['foto'] = foto
-            print(f"  [foto] art: {art['titulo'][:50]}")
 
 # Hero-side: foto local → persona nombrada en Wikipedia → tema institucional fijo
 # (el ultimo item es el panel ancho de abajo y no usa foto — se omite la busqueda)
@@ -693,14 +748,44 @@ for _idx, item in enumerate(_hero_side_list):
         continue
     if not foto_es_valida(item.get('foto')):
         item['foto'] = ''
-        foto = buscar_foto_local(item['titulo'], item.get('resumen', ''))
-        if not foto:
-            foto = buscar_foto_persona(item['titulo'], item.get('resumen', ''))
-        if not foto:
-            foto = buscar_foto_tema(item.get('cat', ''), item['titulo'], item.get('resumen', ''))
+        foto = resolver_foto([
+            lambda: buscar_foto_local(item['titulo'], item.get('resumen', '')),
+            lambda: buscar_foto_persona(item['titulo'], item.get('resumen', '')),
+            lambda: buscar_foto_tema(item.get('cat', ''), item['titulo'], item.get('resumen', ''), usadas=fotos_usadas),
+        ], fotos_usadas)
         if foto:
             item['foto'] = foto
+            fotos_usadas.add(foto)
             print(f"  [foto] hero-side: {item['titulo'][:50]}")
+
+# Mapa titulo → foto ya resuelta para hero/sec01_list/sec03/hero_side, de modo
+# que el articulo completo (arts) de una noticia muestre SIEMPRE la misma foto
+# que su card/item de origen, en vez de hacer una busqueda independiente que
+# puede dar un resultado distinto (o peor, equivocado).
+_foto_por_titulo = {}
+for _src in [_hero] + data.get('sec01_list', []) + data.get('sec03', []) + data.get('hero_side', []):
+    if _src.get('titulo') and _src.get('foto'):
+        _foto_por_titulo[_src['titulo']] = _src['foto']
+
+# Arts: reusa la foto de su card/item de origen → si no hay match, foto local → Wikipedia → tema institucional fijo
+for art in data.get('arts', []):
+    if not foto_es_valida(art.get('foto')):
+        reusada = _foto_por_titulo.get(art.get('titulo', ''), '')
+        if reusada:
+            art['foto'] = reusada
+            continue
+        art['foto'] = ''
+        contexto = 'La Pampa Argentina' if _es_pampa(art.get('cat', '')) else 'Argentina'
+        lang = 'en' if any(x in art.get('cat','').lower() for x in ['intern', 'mundial', 'global']) else 'es'
+        foto = resolver_foto([
+            lambda: buscar_foto_local(art['titulo'], art.get('bajada', '')),
+            lambda: buscar_foto_wikipedia(art['titulo'], lang=lang, contexto=(contexto if lang == 'es' else '')),
+            lambda: buscar_foto_tema(art.get('cat', ''), art['titulo'], art.get('bajada', ''), usadas=fotos_usadas),
+        ], fotos_usadas)
+        if foto:
+            art['foto'] = foto
+            fotos_usadas.add(foto)
+            print(f"  [foto] art: {art['titulo'][:50]}")
 
 # Detectar contenido relleno — si Claude genero titulos vagos, no actualizar
 TITULOS_RELLENO = ['sin novedades', 'guardia redaccional', 'sin informacion', 'no hay noticias',
