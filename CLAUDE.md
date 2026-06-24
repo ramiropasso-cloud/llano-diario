@@ -26,9 +26,9 @@ Claude tiene permiso total para editar, escribir y ejecutar sin pedir confirmaci
 |---|---|
 | `<!-- AUTO:HERO:START/END -->` | Panel hero principal (estilo Apple) |
 | `<!-- AUTO:HERO-SIDE:START/END -->` | 2 paneles secundarios del hero (1 con foto + 1 ancho sin foto, fondo claro) |
-| `<!-- AUTO:SEC01-LIST:START/END -->` | 5-6 items `.li` — Política Pampeana (única sección de esta categoría, sin cards arriba para no repetir con el hero) |
+| `<!-- AUTO:SEC01-LIST:START/END -->` | 6 items `.li` — Política Pampeana (única sección de esta categoría, sin cards arriba para no repetir con el hero) |
 | `<!-- AUTO:DATOS:START/END -->` | dato-strip + cita-strip del día |
-| `<!-- AUTO:SEC03:START/END -->` | 3 cards `.card` — Política Nacional |
+| `<!-- AUTO:SEC03:START/END -->` | 6 cards `.card` — Política Nacional |
 | `<!-- AUTO:SEC04:START/END -->` | `.intl-list` + aside — Internacional |
 | `// AUTO:ARTS:START` / `// AUTO:ARTS:END` | Objeto JS `ARTS` completo |
 

@@ -301,6 +301,8 @@ TOPIC_LOCAL = [
     (['inflación', 'inflacion', 'economía nacional', 'economia nacional', 'dólar', 'dolar',
       'ministerio de economía', 'ministerio de economia', 'tasas de interés', 'tasas de interes'],
      'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png'),
+    (['pyme', 'pymes', 'crédito', 'creditos', 'créditos', 'financiamiento', 'banco central', 'bcra'],
+     'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Banco_de_la_Naci%C3%B3n_argentina_-_panoramio.jpg/960px-Banco_de_la_Naci%C3%B3n_argentina_-_panoramio.jpg'),
 ]
 
 
@@ -378,7 +380,7 @@ for it in dip_items:
 
 aviso_sin_fuentes_pampa = ""
 if pampa_sin_fuentes:
-    aviso_sin_fuentes_pampa = "ATENCION — HOY NO HAY FUENTES PROVINCIALES FRESCAS (APN y Diputados no respondieron): NO inventes noticias puntuales, anuncios, declaraciones ni hechos nuevos de La Pampa. En este turno: el hero principal y hero_side deben centrarse en la noticia nacional o internacional mas importante del dia (no en La Pampa). sec01_list puede tener menos de 5-6 items si no hay nada seguro que contar — preferi 1-3 items de seguimiento institucional ya conocido y verificable (continuidad de gestion, sin hechos puntuales inventados) antes que rellenar con noticias falsas. dato_dia y cita_dia tambien pueden referirse a nacional/internacional si no hay nada confiable de La Pampa hoy."
+    aviso_sin_fuentes_pampa = "ATENCION — HOY NO HAY FUENTES PROVINCIALES FRESCAS (APN y Diputados no respondieron): NO inventes noticias puntuales, anuncios, declaraciones ni hechos nuevos de La Pampa. En este turno: el hero principal y hero_side deben centrarse en la noticia nacional o internacional mas importante del dia (no en La Pampa). sec01_list puede tener menos de 6 items si no hay nada seguro que contar — preferi 1-3 items de seguimiento institucional ya conocido y verificable (continuidad de gestion, sin hechos puntuales inventados) antes que rellenar con noticias falsas. dato_dia y cita_dia tambien pueden referirse a nacional/internacional si no hay nada confiable de La Pampa hoy."
 
 PROMPT = f"""Sos el redactor jefe de LLANO, el primer diario digital 100% IA de La Pampa, Argentina.
 Fecha: {fecha_display} — {turno_label}
@@ -397,8 +399,8 @@ PRINCIPIOS EDITORIALES:
 6. PROFUNDIDAD Y TRASFONDO: ademas del anuncio o hecho del dia, buscar el "entre telones" — alianzas, tensiones internas, operadores y conectores que explican por que pasa lo que pasa en la politica pampeana. Priorizar notas que muestren el juego de poder y los vinculos entre actores, no solo la gacetilla oficial.
 
 DEFINICION ESTRICTA DE SECCIONES:
-- sec01_list = 5-6 noticias de LA PAMPA en formato lista (gobierno provincial, municipios, politica pampeana, economia, salud, cultura, obra publica) — NO repetir los temas/protagonistas ya cubiertos en hero o hero_side, deben ser noticias distintas
-- sec03 (cards) = 3 noticias de ARGENTINA NACIONAL (Casa Rosada, Congreso, economia nacional, partidos nacionales) — NADA de La Pampa
+- sec01_list = 6 noticias de LA PAMPA en formato lista (gobierno provincial, municipios, politica pampeana, economia, salud, cultura, obra publica) — NO repetir los temas/protagonistas ya cubiertos en hero o hero_side, deben ser noticias distintas
+- sec03 (cards) = 6 noticias de ARGENTINA NACIONAL (Casa Rosada, Congreso, economia nacional, partidos nacionales) — NADA de La Pampa
 - sec04 (lista) = 5 noticias INTERNACIONALES (otros paises, organismos mundiales) — NADA de Argentina
 - dato_dia = el dato estadistico/cifra mas importante del dia en La Pampa
 - cita_dia = la frase textual mas relevante del dia en la politica pampeana
@@ -407,7 +409,7 @@ Para sec03 y sec04 usa tu conocimiento del contexto mundial y nacional de hoy {f
 {aviso_sin_fuentes_pampa}
 
 ARTICULO COMPLETO OBLIGATORIO PARA TODAS LAS NOTAS — NO SOLO LAS PRINCIPALES:
-El array "arts" debe incluir UN articulo completo por CADA noticia que aparece en sec01_list, sec03 y hero_side (NO es necesario para sec04, que es solo lista internacional sin clic). Es decir: 5-6 (sec01_list) + 3 (sec03) + 2 (hero_side) = entre 10 y 11 articulos en total. El campo "titulo" de cada entrada en "arts" debe coincidir EXACTAMENTE con el "titulo" de la noticia correspondiente en su seccion de origen, porque el sitio usa ese texto para abrir el articulo al hacer clic. Ninguna noticia debe quedar sin articulo completo: ningun lector debe hacer clic y que no pase nada. Para cada articulo escribe 4 parrafos completos en HTML con etiquetas p y strong.
+El array "arts" debe incluir UN articulo completo por CADA noticia que aparece en sec01_list, sec03 y hero_side (NO es necesario para sec04, que es solo lista internacional sin clic). Es decir: 6 (sec01_list) + 6 (sec03) + 2 (hero_side) = 14 articulos en total. El campo "titulo" de cada entrada en "arts" debe coincidir EXACTAMENTE con el "titulo" de la noticia correspondiente en su seccion de origen, porque el sitio usa ese texto para abrir el articulo al hacer clic. Ninguna noticia debe quedar sin articulo completo: ningun lector debe hacer clic y que no pase nada. Para cada articulo escribe 4 parrafos completos en HTML con etiquetas p y strong.
 
 CARGOS VERIFICADOS — CONSULTAR SIEMPRE ESTE MAPA ANTES DE ESCRIBIR:
 {REFERENTES if REFERENTES else "Ver referentes.txt — archivo no disponible en esta corrida."}
@@ -490,17 +492,17 @@ TOOL = {
             },
             "sec01_list": {
                 "type": "array",
-                "description": "5-6 noticias de LA PAMPA en lista (gobierno provincial, municipios, economia, salud, obra publica, cultura) — distintas de las cubiertas en hero/hero_side",
+                "description": "6 noticias de LA PAMPA en lista (gobierno provincial, municipios, economia, salud, obra publica, cultura) — distintas de las cubiertas en hero/hero_side",
                 "items": LI_SCHEMA,
-                "minItems": 5,
+                "minItems": 6,
                 "maxItems": 6
             },
             "sec03": {
                 "type": "array",
-                "description": "3 noticias NACIONALES de Argentina (fuera de La Pampa) — Casa Rosada, Congreso, economia nacional",
+                "description": "6 noticias NACIONALES de Argentina (fuera de La Pampa) — Casa Rosada, Congreso, economia nacional",
                 "items": CARD_SCHEMA,
-                "minItems": 3,
-                "maxItems": 3
+                "minItems": 6,
+                "maxItems": 6
             },
             "sec04": {
                 "type": "array",
@@ -530,9 +532,9 @@ TOOL = {
             },
             "arts": {
                 "type": "array",
-                "description": "Articulo completo para CADA noticia de sec01_list + sec03 + hero_side (no para sec04). El 'titulo' de cada art debe coincidir exactamente con el de su noticia de origen. Minimo 10 articulos. Escribi 4 parrafos por articulo.",
+                "description": "Articulo completo para CADA noticia de sec01_list + sec03 + hero_side (no para sec04). El 'titulo' de cada art debe coincidir exactamente con el de su noticia de origen. Minimo 14 articulos. Escribi 4 parrafos por articulo.",
                 "items": ART_SCHEMA,
-                "minItems": 10
+                "minItems": 14
             },
             "ticker": {
                 "type": "array",
@@ -591,7 +593,7 @@ client = anthropic.Anthropic(api_key=api_key)
 try:
     with client.messages.stream(
         model="claude-haiku-4-5-20251001",
-        max_tokens=16000,
+        max_tokens=24000,
         tools=[TOOL],
         tool_choice={"type": "tool", "name": "actualizar_diario"},
         messages=[{"role": "user", "content": PROMPT}]
@@ -623,7 +625,7 @@ if not isinstance(data.get('hero'), dict):
     print("ERROR: hero malformado en la respuesta — abortando sin modificar llano.html")
     sys.exit(1)
 
-if not data.get('sec01_list') or len(data.get('sec03', [])) < 3 or not data.get('sec04'):
+if not data.get('sec01_list') or len(data.get('sec03', [])) < 6 or not data.get('sec04'):
     print(f"ERROR: respuesta insuficiente (sec01_list={len(data.get('sec01_list',[]))}, sec03={len(data.get('sec03',[]))}, sec04={len(data.get('sec04',[]))}) — abortando sin modificar llano.html")
     sys.exit(1)
 
@@ -860,7 +862,7 @@ llano = re.sub(r'<meta name="twitter:image" content="[^"]*"', f'<meta name="twit
 print(f"  Meta tags OG actualizados — foto: {'hero' if og_foto != 'https://llano.it.com/og-image.jpg' else 'fallback'}")
 
 # ── REEMPLAZAR SEC03 ──
-sec03 = data.get("sec03", [])[:3]
+sec03 = data.get("sec03", [])[:6]
 sec03_cards = "\n".join(card_html(c) for c in sec03)
 sec03_bloque = f'<!-- AUTO:SEC03:START -->\n  <div class="g3 fade-in">\n{sec03_cards}\n  </div>\n  <!-- AUTO:SEC03:END -->'
 llano = safe_sub(r'<!-- AUTO:SEC03:START -->[\s\S]*?<!-- AUTO:SEC03:END -->', sec03_bloque, llano)
