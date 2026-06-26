@@ -1,4 +1,1583 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
-<meta http-equiv="refresh" content="0;url=llano.html">
-<title>LLANO·</title>
+﻿<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLANO · Política y Poder en La Pampa</title>
+
+  <!-- ── SEO ESENCIAL ── -->
+  <meta name="description" content="LLANO· es el primer diario digital 100% IA de La Pampa. Política provincial, análisis profundo y seguimiento en tiempo real de los movimientos políticos pampeanos." />
+  <meta name="author" content="LLANO· — Diario Digital IA" />
+  <meta name="keywords" content="La Pampa, política pampeana, noticias La Pampa, diario digital, inteligencia artificial, Santa Rosa, General Pico, peronismo pampeano, elecciones 2027, Ziliotto" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://llano.it.com/" />
+
+  <!-- ── OPEN GRAPH ── -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_AR" />
+  <meta property="og:site_name" content="LLANO·" />
+  <meta property="og:url" content="https://llano.it.com/" />
+  <meta property="og:title" content="Argentina prepara reforma fiscal ante presión internacional" />
+  <meta property="og:description" content="El Gobierno avanza en negociaciones para un nuevo esquema tributario que equilibre ingresos y gasto público. Los bloques parlamentarios debaten propuestas en el Congreso." />
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="LLANO· — Diario Digital IA La Pampa" />
+
+  <!-- ── TWITTER / X CARD ── -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@llanodiario" />
+  <meta name="twitter:title" content="Argentina prepara reforma fiscal ante presión internacional" />
+  <meta name="twitter:description" content="El Gobierno avanza en negociaciones para un nuevo esquema tributario que equilibre ingresos y gasto público. Los bloques parlamentarios debaten propuestas en el Congreso." />
+  <meta name="twitter:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg" />
+
+  <!-- ── JSON-LD SCHEMA ── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "NewsMediaOrganization",
+        "@id": "https://llano.it.com/#organization",
+        "name": "LLANO·",
+        "alternateName": "Diario LLANO",
+        "url": "https://llano.it.com",
+        "logo": { "@type": "ImageObject", "url": "https://llano.it.com/logo.png" },
+        "description": "El primer diario digital 100% IA de La Pampa. Política provincial, análisis profundo y seguimiento en tiempo real.",
+        "foundingDate": "2026",
+        "publishingPrinciples": "https://llano.it.com/politica-editorial.html",
+        "areaServed": {
+          "@type": "State",
+          "name": "La Pampa",
+          "containedInPlace": { "@type": "Country", "name": "Argentina" }
+        },
+        "sameAs": [
+          "https://youtube.com/@LlanoLaPampa",
+          "https://tiktok.com/@llano.ia",
+          "https://instagram.com/llano.diario"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://llano.it.com/#website",
+        "url": "https://llano.it.com",
+        "name": "LLANO·",
+        "description": "El primer diario digital 100% IA de La Pampa",
+        "publisher": { "@id": "https://llano.it.com/#organization" },
+        "inLanguage": "es-AR"
+      }
+    ]
+  }
+</script>
+
+  <!-- ── FAVICON INLINE SVG ── -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='18' fill='%23050608'/><text x='50' y='72' font-family='Inter,sans-serif' font-size='68' font-weight='900' text-anchor='middle' fill='white'>L</text><circle cx='72' cy='28' r='10' fill='%232ea8ff'/></svg>" />
+
+  <!-- ── PERFORMANCE: PRECONNECT ── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <style>
+
+/* ─── RESET + TOKENS ─── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* modo "lectura" claro — frío, sin crema/naranja */
+  --bg:        #f4f6f8;
+  --bg-2:      #e8ecf0;
+  --bg-3:      #dce1e6;
+  --fg:        #0d1117;
+  --fg-2:      #46505c;
+  --fg-3:      #8893a0;
+  --fg-4:      #c3c9d1;
+  --accent:    #0090e0;
+  --accent-2:  #0077c2;
+  --accent-bg: #e3f3fd;
+  --border:    #d5dae0;
+  --border-2:  #c0c7d0;
+  --ink:       #0d1117;
+  --red:       #d92b2b;
+  --green:     #16804a;
+  --blue:      #1a5dbf;
+  --shadow-s:  0 1px 2px rgba(13,17,23,.06);
+  --shadow-m:  0 2px 8px rgba(13,17,23,.08), 0 1px 2px rgba(13,17,23,.04);
+  --r:         5px;
+  --r-lg:      10px;
+  --transition: .18s cubic-bezier(.4,0,.2,1);
+  --font-mono: 'Space Mono', 'SF Mono', Consolas, monospace;
+}
+
+[data-theme="dark"] {
+  /* modo default — negro espacial + acento azul-cian */
+  --bg:        #050608;
+  --bg-2:      #0a0d12;
+  --bg-3:      #12161d;
+  --fg:        #f5f7fa;
+  --fg-2:      #9aa3b2;
+  --fg-3:      #5d6573;
+  --fg-4:      #383d47;
+  --accent:    #2ea8ff;
+  --accent-2:  #6fd0ff;
+  --accent-bg: rgba(46,168,255,.10);
+  --border:    rgba(255,255,255,.08);
+  --border-2:  rgba(255,255,255,.14);
+  --ink:       #f5f7fa;
+  --red:       #ff3b3b;
+  --green:     #2ee07a;
+  --blue:      #4d8dff;
+  --shadow-s:  0 1px 2px rgba(0,0,0,.4);
+  --shadow-m:  0 4px 16px rgba(0,0,0,.5), 0 1px 2px rgba(0,0,0,.3);
+}
+
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+  line-height: 1.5;
+  transition: background var(--transition), color var(--transition);
+}
+
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; }
+
+/* ─── UTILITIES ─── */
+.cat {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: .6rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  color: var(--accent);
+}
+.ia-badge {
+  display: inline-flex; align-items: center; gap: .3rem;
+  font-family: var(--font-mono);
+  background: var(--accent-bg); border: 1px solid var(--accent);
+  color: var(--accent); font-size: .58rem; font-weight: 700;
+  letter-spacing: .06em; padding: .16rem .45rem; border-radius: 3px;
+}
+.ts { font-family: var(--font-mono); font-size: .66rem; color: var(--fg-3); }
+.divider { border: none; border-top: 1px solid var(--border); }
+
+.live-dot {
+  display: inline-flex; align-items: center; gap: .35rem;
+  font-family: var(--font-mono);
+  font-size: .6rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--red);
+}
+.live-dot::before {
+  content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--red);
+  animation: blink 1.4s ease-in-out infinite;
+}
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:.25} }
+
+/* Status chips */
+.chip {
+  display: inline-block; font-size: .58rem; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; padding: .16rem .5rem; border-radius: 3px;
+}
+.chip-r { background: #fdecea; color: var(--red); }
+.chip-g { background: #e6f4ec; color: var(--green); }
+.chip-b { background: #e6edf8; color: var(--blue); }
+.chip-a { background: var(--accent-bg); color: var(--accent); }
+
+[data-theme="dark"] .chip-r { background: #2a1010; }
+[data-theme="dark"] .chip-g { background: #0e2018; }
+[data-theme="dark"] .chip-b { background: #0e1828; }
+[data-theme="dark"] .chip-a { background: var(--accent-bg); }
+
+/* ─── META BAR ─── */
+.meta-bar {
+  background: var(--fg); color: var(--bg);
+  font-size: .66rem; letter-spacing: .055em;
+  padding: .38rem 2rem;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.mb-l { display: flex; align-items: center; gap: 1.4rem; }
+.mb-date { opacity: .55; }
+.mb-focus {
+  display: flex; align-items: center; gap: .4rem;
+  font-weight: 600; font-size: .62rem;
+}
+.mb-focus::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
+.ai-tag-sm {
+  background: var(--accent); color: #fff;
+  padding: .12rem .55rem; border-radius: 999px;
+  font-weight: 700; font-size: .58rem; letter-spacing: .1em;
+}
+.mb-r { opacity: .4; font-size: .62rem; }
+
+/* ─── HEADER ─── */
+header {
+  position: sticky; top: 0; z-index: 300;
+  background: transparent;
+  backdrop-filter: none; -webkit-backdrop-filter: none;
+  border-bottom: 1px solid transparent;
+  transition: background var(--transition), border-color var(--transition), backdrop-filter var(--transition);
+}
+header.header--solid {
+  background: rgba(250,250,248,.95);
+  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+  border-bottom-color: var(--border);
+}
+[data-theme="dark"] header.header--solid { background: rgba(5,6,8,.92); }
+
+.h-inner {
+  max-width: 1280px; margin: 0 auto;
+  padding: 0 2rem; height: 56px;
+  display: flex; align-items: center; gap: 2rem;
+}
+
+.logo {
+  font-size: 1.65rem; font-weight: 900; letter-spacing: -.08em;
+  line-height: 1; flex-shrink: 0; display: flex; align-items: baseline; gap: .05em;
+}
+.logo-dot { color: var(--accent); font-size: 1.9rem; line-height: 0; }
+
+.h-nav { display: flex; align-items: center; gap: 0; flex: 1; }
+.h-nav a {
+  font-size: .72rem; font-weight: 600; color: var(--fg-2);
+  padding: .38rem .7rem; border-radius: var(--r);
+  letter-spacing: .05em; text-transform: uppercase; white-space: nowrap;
+  transition: color var(--transition), background var(--transition);
+}
+.h-nav a:hover { color: var(--fg); background: var(--bg-2); }
+.h-nav a.active { color: var(--fg); font-weight: 600; }
+.h-nav .sep { width: 1px; height: 14px; background: var(--border-2); margin: 0 .5rem; }
+.h-nav .ia-link {
+  background: var(--fg); color: var(--bg) !important;
+  font-size: .7rem; font-weight: 700; border-radius: var(--r);
+  margin-left: .5rem;
+}
+.h-nav .ia-link:hover { opacity: .85; background: var(--fg); }
+
+.h-right { display: flex; align-items: center; gap: .5rem; margin-left: auto; }
+.icon-btn {
+  width: 32px; height: 32px; border-radius: 50%;
+  border: 1px solid var(--border); background: transparent;
+  cursor: pointer; display: flex; align-items: center; justify-content: center;
+  color: var(--fg-3); transition: background var(--transition), color var(--transition);
+  flex-shrink: 0;
+}
+.icon-btn:hover { background: var(--bg-2); color: var(--fg); }
+.icon-btn svg { width: 14px; height: 14px; fill: currentColor; }
+
+/* header flotante sobre el hero (sin fondo): texto siempre claro, el hero es siempre oscuro */
+header:not(.header--solid) .logo,
+header:not(.header--solid) .h-nav a,
+header:not(.header--solid) .icon-btn { color: rgba(255,255,255,.82); }
+header:not(.header--solid) .icon-btn { border-color: rgba(255,255,255,.25); }
+header:not(.header--solid) .h-nav a:hover,
+header:not(.header--solid) .icon-btn:hover { color: #fff; background: rgba(255,255,255,.08); }
+header:not(.header--solid) .h-nav a.active { color: #fff; }
+header:not(.header--solid) .h-nav .sep { background: rgba(255,255,255,.25); }
+
+/* ─── TICKER ─── */
+/* siempre oscuro/invertido (franja "telemetría"), independiente del tema del sitio */
+.ticker {
+  background: #0a0d12; overflow: hidden; position: relative; height: 36px;
+  display: flex; align-items: center;
+}
+.ticker-label {
+  position: absolute; left: 0; top: 0; bottom: 0; z-index: 3;
+  display: flex; align-items: center; padding: 0 .9rem;
+  background: var(--accent); font-size: .58rem; font-weight: 800;
+  letter-spacing: .12em; color: #fff; white-space: nowrap;
+  gap: .4rem;
+}
+.ticker-fade { position: absolute; top: 0; bottom: 0; width: 50px; z-index: 2; }
+.ticker-fade-l { left: 88px; background: linear-gradient(to right, #0a0d12, transparent); }
+.ticker-fade-r { right: 0; background: linear-gradient(to left, #0a0d12, transparent); }
+.ticker-track {
+  display: flex; gap: 2.5rem; white-space: nowrap;
+  padding-left: 100px;
+  animation: tickerMove 50s linear infinite;
+}
+.ticker-track .ti { font-family: var(--font-mono); font-size: .72rem; color: rgba(255,255,255,.75); letter-spacing: .01em; }
+.ticker-track .ti strong { color: #fff; font-weight: 600; }
+.ticker-track .ti-sep { color: var(--accent); }
+@keyframes tickerMove {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ─── HERO — paneles estilo "Apple" (fondo solido + foto a color sangrando abajo) ─── */
+.hero {
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  padding: 1.5rem 2rem 2.5rem;
+}
+.hero-panels {
+  max-width: 1280px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;
+}
+.hero-panel {
+  position: relative; overflow: hidden; cursor: pointer;
+  border-radius: 28px; background: #0b0e14;
+  min-height: 480px;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.hero-panel:hover { transform: translateY(-3px); box-shadow: var(--shadow-m); }
+
+/* panel ancho de abajo — sin foto, fondo claro para contraste y respiro visual */
+.hero-panel--wide {
+  grid-column: 1 / -1; min-height: 220px;
+  background: #fff; display: flex; align-items: center;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 10px 26px rgba(0,0,0,.07);
+}
+.hero-panel--wide:hover { box-shadow: 0 1px 2px rgba(0,0,0,.05), 0 14px 32px rgba(0,0,0,.1); }
+.hero-panel--wide .hero-panel-top { width: 100%; padding: 2rem 2.4rem; }
+.hero-panel--wide .hero-panel-cat { color: rgba(13,17,23,.45); }
+.hero-panel--wide .hero-panel-title { color: #0d1117; }
+.hero-panel--wide .hero-panel-sub { color: rgba(13,17,23,.6); }
+.hero-panel--wide .ts { color: rgba(13,17,23,.42); }
+.hero-panel--wide .chip-r { background: #fdecea; color: #c0392b; }
+.hero-panel--wide .chip-b { background: #e6edf8; color: #0090e0; }
+
+.hero-panel-photo {
+  position: absolute; left: 0; right: 0; bottom: 0; height: 58%;
+  background-size: cover; background-position: center 18%;
+  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 26%);
+          mask-image: linear-gradient(to bottom, transparent 0%, #000 26%);
+}
+
+.hero-panel-top { position: relative; z-index: 2; padding: 2.5rem 2.2rem 0; text-align: center; }
+.hero-panel-kicker { display: flex; align-items: center; justify-content: center; gap: .65rem; margin-bottom: 1rem; flex-wrap: wrap; }
+.hero-panel-cat {
+  font-size: .62rem; letter-spacing: .1em; text-transform: uppercase;
+  color: rgba(255,255,255,.45); font-weight: 600;
+}
+.hero-panel-title {
+  font-size: 1.85rem; font-weight: 800; letter-spacing: -.03em; line-height: 1.12;
+  color: #fff; margin-bottom: .6rem;
+}
+.hero-panel--lead .hero-panel-title { font-size: 2.25rem; }
+.hero-panel-sub {
+  font-size: .85rem; line-height: 1.6; color: rgba(255,255,255,.55);
+  font-weight: 300; max-width: 440px; margin: 0 auto 1.2rem;
+}
+.hero-panel-foot { display: flex; align-items: center; justify-content: center; gap: .65rem; }
+.hero-panel .ts { color: rgba(255,255,255,.42); }
+.hero-panel .chip-r { background: rgba(255,59,59,.16); color: #ff6b6b; }
+.hero-panel .chip-b { background: rgba(46,168,255,.14); color: #6fd0ff; }
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes panelUp { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+  .hero-panel { opacity: 0; animation: panelUp .65s cubic-bezier(.16,1,.3,1) forwards; }
+  .hero-panel:nth-child(1) { animation-delay: .05s; }
+  .hero-panel:nth-child(2) { animation-delay: .16s; }
+  .hero-panel:nth-child(3) { animation-delay: .3s; }
+}
+.btn-primary {
+  display: inline-flex; align-items: center; gap: .4rem;
+  font-size: .78rem; font-weight: 600; color: #fff;
+  padding-bottom: 2px; border-bottom: 1.5px solid var(--accent);
+  transition: color var(--transition), border-color var(--transition);
+}
+.btn-primary:hover { color: var(--accent); }
+
+/* ─── MAIN LAYOUT ─── */
+.main-wrap { max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem; }
+
+/* Section headings — editorial style */
+.sec-hd {
+  display: flex; align-items: baseline; gap: 1rem;
+  margin-bottom: 1.75rem; padding-bottom: .65rem;
+  border-bottom: 1.5px solid var(--fg);
+}
+.sec-num { font-family: var(--font-mono); font-size: .6rem; font-weight: 700; color: var(--accent); letter-spacing: .08em; }
+.sec-name { font-size: .7rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+.sec-hd-right { margin-left: auto; display: flex; align-items: center; gap: 1rem; }
+.ver-mas { font-size: .7rem; font-weight: 600; color: var(--accent); letter-spacing: .03em; }
+.ver-mas:hover { opacity: .75; }
+
+/* Grid layouts */
+.g3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.75rem; margin-bottom: 3rem; }
+.g4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 1.5rem; margin-bottom: 3rem; }
+.g2 { display: grid; grid-template-columns: repeat(2,1fr); gap: 1.75rem; margin-bottom: 3rem; }
+
+/* News card */
+.card {
+  cursor: pointer; display: flex; flex-direction: column; gap: .7rem;
+  padding: .85rem;
+  border-radius: var(--r-lg); border: 1px solid transparent;
+  transition: background var(--transition), border-color var(--transition), box-shadow var(--transition);
+}
+.card:hover { background: var(--bg-2); border-color: var(--border); box-shadow: var(--shadow-s); }
+
+.card-img {
+  width: 100%; aspect-ratio: 16/9; border-radius: var(--r);
+  overflow: hidden; display: flex; align-items: center; justify-content: center;
+  position: relative;
+}
+.card-img svg { opacity: 1; position: relative; z-index: 1; }
+.card-img .illus-label {
+  position: absolute; bottom: .4rem; right: .6rem; z-index: 2;
+  font-size: .44rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  color: rgba(255,255,255,.22); pointer-events: none; font-family: 'Inter', sans-serif;
+}
+.card-img .illus-glow {
+  position: absolute; inset: 0; z-index: 0; pointer-events: none;
+}
+/* li-img ilustraciones */
+.li-img { border-radius: var(--r); flex-shrink: 0; display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden; }
+.li-img svg { opacity: 1; position: relative; z-index:1; }
+/* Fotos reales dentro de card-img / li-img */
+.card-img img, .li-img img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:1; display:block; border-radius:0; }
+.src-link-nota { font-size:.68rem; color:var(--accent); font-weight:600; margin-left:auto; }
+.src-link-nota:hover { opacity:.7; }
+.card-img-wide { aspect-ratio: 21/9; }
+.card-img-sq { aspect-ratio: 1; }
+
+.card-meta { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
+.card h3 { font-size: .97rem; font-weight: 600; line-height: 1.32; letter-spacing: -.018em; }
+.card h3.lg { font-size: 1.15rem; font-weight: 700; letter-spacing: -.025em; }
+.card p { font-size: .8rem; color: var(--fg-2); line-height: 1.62; font-weight: 300; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
+/* Bloquear salida a sitios externos desde cards — todo abre en lector interno */
+.card .src-link-nota, .li .src-link-nota { pointer-events:none; cursor:default; color:var(--fg-3); text-decoration:none; }
+
+/* Compact list item */
+.li {
+  display: grid; grid-template-columns: 88px 1fr; gap: .9rem;
+  padding: 1rem 0; border-bottom: 1px solid var(--border);
+  cursor: pointer; transition: opacity var(--transition);
+}
+.li:first-child { padding-top: 0; }
+.li:hover { opacity: .7; }
+.li-img { width: 88px; height: 58px; border-radius: var(--r); flex-shrink: 0; }
+.li h4 { font-size: .88rem; font-weight: 600; letter-spacing: -.016em; line-height: 1.3; margin-bottom: .28rem; }
+.li p  { font-size: .75rem; color: var(--fg-2); line-height: 1.5; }
+.li-meta { display: flex; align-items: center; gap: .5rem; margin-top: .3rem; }
+
+/* ─── LAYOUT: MAIN + SIDEBAR ─── */
+.lay { display: grid; grid-template-columns: 1fr 300px; gap: 2.5rem; margin-bottom: 3rem; }
+
+aside { border-left: 1px solid var(--border); padding-left: 2rem; }
+.ab { margin-bottom: 2.5rem; }
+.ab-hd {
+  font-size: .6rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+  border-bottom: 2px solid var(--fg); padding-bottom: .55rem; margin-bottom: 1rem;
+}
+.ai-item { padding: .85rem 0; border-bottom: 1px solid var(--border); cursor: pointer; transition: opacity var(--transition); }
+.ai-item:hover { opacity: .7; }
+.ai-item:last-child { border-bottom: none; }
+.ai-item h5 { font-size: .82rem; font-weight: 600; letter-spacing: -.012em; line-height: 1.3; margin-bottom: .2rem; }
+.ai-item .meta { font-size: .65rem; color: var(--fg-3); }
+.rank { font-size: 2rem; font-weight: 900; color: var(--bg-3); letter-spacing: -.06em; line-height: 1; margin-bottom: .2rem; }
+
+.dato-box {
+  background: var(--accent-bg); border: 1px solid var(--accent);
+  border-radius: var(--r-lg); padding: 1.2rem;
+}
+.dato-box .num { font-family: var(--font-mono); font-size: 2.4rem; font-weight: 900; letter-spacing: -.06em; color: var(--accent); line-height: 1; }
+.dato-box .label { font-size: .75rem; color: var(--fg-2); margin-top: .4rem; line-height: 1.5; }
+.dato-box .src  { font-size: .62rem; color: var(--fg-3); margin-top: .25rem; }
+
+.quote-box {
+  background: var(--bg-2); border-left: 3px solid var(--accent);
+  border-radius: 0 var(--r-lg) var(--r-lg) 0;
+  padding: 1.1rem 1.2rem; margin-bottom: 1.25rem;
+}
+.quote-box blockquote { font-size: .85rem; font-style: italic; line-height: 1.6; color: var(--fg); margin-bottom: .5rem; }
+.quote-box cite { font-size: .68rem; color: var(--fg-3); font-style: normal; font-weight: 600; }
+
+/* ─── TRACKER (eliminado) ─── */
+.tracker-card {
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: var(--r-lg); overflow: hidden;
+  transition: box-shadow var(--transition), border-color var(--transition);
+  cursor: pointer;
+}
+.tracker-card:hover { box-shadow: var(--shadow-m); border-color: var(--border-2); }
+.tc-header {
+  padding: .85rem 1.1rem;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+}
+.tc-body { padding: 1.1rem; }
+.tc-body h4 { font-size: .9rem; font-weight: 700; letter-spacing: -.02em; line-height: 1.3; margin-bottom: .5rem; }
+.tc-body p  { font-size: .78rem; color: var(--fg-2); line-height: 1.58; margin-bottom: .75rem; }
+.tc-footer { border-top: 1px solid var(--border); padding: .7rem 1.1rem; display: flex; align-items: center; justify-content: space-between; }
+.tc-footer span { font-size: .65rem; color: var(--fg-3); }
+.tc-footer a { font-size: .65rem; font-weight: 600; color: var(--accent); }
+.tc-progress { height: 3px; background: var(--bg-3); position: relative; margin: .6rem 0; }
+.tc-progress-fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--accent); border-radius: 999px; }
+.tc-tags { display: flex; gap: .35rem; flex-wrap: wrap; }
+
+/* ─── IA EXPLICA ─── */
+.ia-sec {
+  background: var(--bg-2); border: 1px solid var(--border);
+  border-radius: 14px; padding: 2rem; margin-bottom: 3rem;
+}
+.ia-sec-hd { display: flex; align-items: center; gap: .8rem; margin-bottom: 1.5rem; }
+.ia-sec-hd .badge { background: var(--fg); color: var(--bg); font-size: .58rem; font-weight: 800; letter-spacing: .12em; padding: .28rem .75rem; border-radius: 999px; }
+.ia-sec-hd p { font-size: .85rem; color: var(--fg-2); font-weight: 400; }
+.ia-cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.1rem; }
+.ia-card {
+  background: var(--bg); border: 1px solid var(--border);
+  border-radius: var(--r-lg); padding: 1.2rem;
+  cursor: pointer; transition: box-shadow var(--transition), transform var(--transition);
+}
+.ia-card:hover { box-shadow: var(--shadow-m); transform: translateY(-2px); }
+.ia-icon {
+  width: 32px; height: 32px; background: var(--accent); border-radius: 7px;
+  display: flex; align-items: center; justify-content: center; margin-bottom: .8rem;
+}
+.ia-icon svg { width: 15px; fill: #fff; }
+.ia-card h4 { font-size: .85rem; font-weight: 700; letter-spacing: -.018em; line-height: 1.3; margin-bottom: .35rem; }
+.ia-card p  { font-size: .75rem; color: var(--fg-2); line-height: 1.55; }
+.ia-card .min { font-size: .62rem; color: var(--accent); font-weight: 700; letter-spacing: .04em; margin-top: .65rem; }
+
+/* ─── SEPARADOR SECCIÓN ─── */
+.sec-divider { height: 1px; background: var(--border); margin: 2rem 0; }
+
+/* ─── INTERNACIONAL - COMPACT ─── */
+.intl-list { display: flex; flex-direction: column; }
+.intl-item {
+  display: flex; align-items: baseline; gap: .8rem;
+  padding: .8rem 0; border-bottom: 1px solid var(--border); cursor: pointer;
+  transition: opacity var(--transition);
+}
+.intl-item:hover { opacity: .7; }
+.intl-item:last-child { border-bottom: none; }
+.intl-num { font-size: .62rem; font-weight: 700; color: var(--fg-4); min-width: 18px; }
+.intl-item h4 { font-size: .88rem; font-weight: 600; letter-spacing: -.015em; line-height: 1.3; flex: 1; }
+.intl-item .ts { flex-shrink: 0; }
+
+/* ─── SOCIAL STRIP ─── */
+.social-strip { background: var(--fg); padding: 3rem 2rem; }
+.ss-inner { max-width: 720px; margin: 0 auto; text-align: center; }
+.social-strip h2 { color: var(--bg); font-size: 1.45rem; font-weight: 800; letter-spacing: -.03em; margin-bottom: .45rem; }
+.social-strip > .ss-inner > p { color: var(--fg-3); font-size: .85rem; font-weight: 300; margin-bottom: 1.75rem; }
+.ss-btns { display: flex; justify-content: center; flex-wrap: wrap; gap: .65rem; }
+.sbtn {
+  display: inline-flex; align-items: center; gap: .5rem;
+  padding: .65rem 1.35rem; border-radius: 8px;
+  font-size: .78rem; font-weight: 700; letter-spacing: .01em;
+  transition: opacity .2s, transform var(--transition);
+}
+.sbtn:hover { opacity: .82; transform: translateY(-1px); }
+.sbtn svg { width: 16px; height: 16px; fill: currentColor; flex-shrink: 0; }
+.sb-yt  { background: #FF0000; color: #fff; }
+.sb-tk  { background: #1a1a1a; color: #fff; border: 1px solid #2a2a2a; }
+.sb-ig  { background: linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888); color: #fff; }
+.sb-web { background: var(--accent); color: #fff; }
+
+/* ─── FOOTER ─── */
+footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
+.f-grid {
+  max-width: 1280px; margin: 0 auto;
+  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 2.5rem; margin-bottom: 2rem;
+}
+.f-brand .flogo { font-size: 1.35rem; font-weight: 900; letter-spacing: -.07em; margin-bottom: .65rem; }
+.f-brand .flogo .dot { color: var(--accent); }
+.f-brand p { font-size: .78rem; color: var(--fg-2); line-height: 1.75; font-weight: 300; max-width: 280px; }
+.f-col h6 { font-size: .6rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; margin-bottom: .85rem; color: var(--fg-3); }
+.f-col a { display: block; font-size: .8rem; color: var(--fg-2); padding: .18rem 0; transition: color var(--transition); }
+.f-col a:hover { color: var(--fg); }
+.f-bottom {
+  max-width: 1280px; margin: 0 auto;
+  border-top: 1px solid var(--border); padding-top: 1.2rem;
+  display: flex; justify-content: space-between;
+  font-size: .67rem; color: var(--fg-3); letter-spacing: .02em;
+}
+
+/* ─── RESPONSIVE ─── */
+@media (max-width: 1100px) {
+  .g3 { grid-template-columns: repeat(2,1fr); }
+  .g4 { grid-template-columns: repeat(2,1fr); }
+  .tracker-grid { grid-template-columns: repeat(2,1fr); }
+  .ia-cards { grid-template-columns: repeat(2,1fr); }
+  .f-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
+  .hero-panel-title { font-size: 1.6rem; }
+  .hero-panel--lead .hero-panel-title { font-size: 1.9rem; }
+}
+@media (max-width: 768px) {
+  .meta-bar .mb-r { display: none; }
+  .h-inner { padding: 0 1rem; }
+  .h-nav { display: none; }
+  .hero { padding: 1rem 1rem 1.75rem; }
+  .hero-panels { grid-template-columns: 1fr; gap: 1rem; }
+  .hero-panel { min-height: 380px; }
+  .hero-panel--wide { min-height: auto; }
+  .hero-panel-top { padding: 1.75rem 1.4rem 0; }
+  .hero-panel--wide .hero-panel-top { padding: 1.75rem 1.4rem; }
+  .hero-panel-title { font-size: 1.5rem; }
+  .hero-panel--lead .hero-panel-title { font-size: 1.65rem; }
+  .main-wrap { padding: 1.5rem 1rem; }
+  .g3, .g2, .g4 { grid-template-columns: 1fr; gap: 1.25rem; }
+  .lay { grid-template-columns: 1fr; }
+  aside { border-left: none; padding-left: 0; border-top: 1px solid var(--border); padding-top: 2rem; }
+  .tracker-grid { grid-template-columns: 1fr; }
+  .ia-cards { grid-template-columns: 1fr; }
+  .ia-sec { padding: 1.25rem; }
+  .f-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+  .f-bottom { flex-direction: column; gap: .3rem; }
+}
+
+/* ─── SCROLL ANIMATION ─── */
+.fade-in { opacity: 0; transform: translateY(14px); transition: opacity .5s ease, transform .5s ease; }
+.fade-in.visible { opacity: 1; transform: translateY(0); }
+
+/* stagger por sección: las cards/items dentro de un .fade-in aparecen en cascada */
+.g3.fade-in > .card,
+.lay.fade-in .li,
+.lay.fade-in .intl-item {
+  opacity: 0; transform: translateY(10px);
+  transition: opacity .45s ease, transform .45s ease;
+}
+.g3.fade-in.visible > .card,
+.lay.fade-in.visible .li,
+.lay.fade-in.visible .intl-item {
+  opacity: 1; transform: translateY(0);
+}
+.g3.fade-in.visible > .card:nth-child(1), .lay.fade-in.visible .li:nth-child(1), .lay.fade-in.visible .intl-item:nth-child(1) { transition-delay: 0ms; }
+.g3.fade-in.visible > .card:nth-child(2), .lay.fade-in.visible .li:nth-child(2), .lay.fade-in.visible .intl-item:nth-child(2) { transition-delay: 70ms; }
+.g3.fade-in.visible > .card:nth-child(3), .lay.fade-in.visible .li:nth-child(3), .lay.fade-in.visible .intl-item:nth-child(3) { transition-delay: 140ms; }
+.g3.fade-in.visible > .card:nth-child(4), .lay.fade-in.visible .li:nth-child(4), .lay.fade-in.visible .intl-item:nth-child(4) { transition-delay: 210ms; }
+.g3.fade-in.visible > .card:nth-child(5), .lay.fade-in.visible .li:nth-child(5), .lay.fade-in.visible .intl-item:nth-child(5) { transition-delay: 280ms; }
+.g3.fade-in.visible > .card:nth-child(6), .lay.fade-in.visible .li:nth-child(6), .lay.fade-in.visible .intl-item:nth-child(6) { transition-delay: 350ms; }
+
+/* ─── LECTOR DE ARTÍCULOS ─── */
+.art-overlay {
+  display: none; position: fixed; inset: 0; z-index: 500;
+  background: var(--bg); overflow-y: auto;
+}
+.art-overlay.art-open { display: block; animation: artIn .2s ease; }
+@keyframes artIn { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
+
+.art-topbar {
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(250,250,248,.95); backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 2rem; height: 52px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+[data-theme="dark"] .art-topbar { background: rgba(5,6,8,.92); }
+
+.art-back {
+  display: inline-flex; align-items: center; gap: .5rem;
+  font-size: .82rem; font-weight: 700; color: var(--fg);
+  cursor: pointer; border: none; background: transparent;
+  font-family: inherit; padding: .4rem .7rem; border-radius: var(--r);
+  transition: background var(--transition);
+}
+.art-back:hover { background: var(--bg-2); }
+.art-back svg { width: 16px; fill: currentColor; }
+.art-back-dot { color: var(--accent); }
+
+.art-src-bar { font-size: .63rem; color: var(--fg-3); display: flex; align-items: center; gap: .5rem; }
+.art-src-bar a { color: var(--accent); font-weight: 600; }
+.art-src-bar a:hover { opacity: .75; }
+
+.art-inner { max-width: 720px; margin: 0 auto; padding: 0 2rem 5rem; }
+
+.art-cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; background: var(--bg-3); }
+.art-nocover {
+  width: 100%; aspect-ratio: 21/9;
+  background: linear-gradient(160deg, #0a0909, #1e1a14);
+  display: flex; align-items: center; justify-content: center;
+}
+.art-nocover span { font-size: .65rem; font-weight: 800; letter-spacing: .22em; color: rgba(255,255,255,.1); text-transform: uppercase; }
+
+.art-meta-row { padding: 1.5rem 0 .9rem; display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; }
+.art-title {
+  font-size: 2rem; font-weight: 800; line-height: 1.14;
+  letter-spacing: -.045em; margin-bottom: 1rem; color: var(--fg);
+}
+@media(max-width:640px) { .art-title { font-size: 1.5rem; } }
+.art-bajada {
+  font-size: 1.05rem; color: var(--fg-2); line-height: 1.7;
+  font-weight: 300; margin-bottom: 1.75rem;
+  border-bottom: 1px solid var(--border); padding-bottom: 1.75rem;
+}
+.art-body { font-size: .95rem; line-height: 1.88; color: var(--fg-2); }
+.art-body p { margin-bottom: 1.35rem; }
+.art-body strong { color: var(--fg); font-weight: 600; }
+
+.art-foot {
+  margin-top: 2.5rem; padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .75rem;
+}
+.art-foot-src { font-size: .7rem; color: var(--fg-3); }
+.art-foot-src a { color: var(--accent); font-weight: 600; }
+.art-foot-src a:hover { opacity: .75; }
+
+.hero-panel,.card,.li { cursor: pointer; }
+
+  
+  /* Dato del dia — strip prominente */
+  .dato-strip { display:flex; align-items:center; gap:1.5rem; background:linear-gradient(90deg,rgba(46,168,255,.10) 0%,transparent 100%); border-left:4px solid var(--accent); border-radius:0 var(--r-lg) var(--r-lg) 0; padding:1.1rem 1.5rem; margin:1.5rem 0; }
+  .dato-strip-badge { font-size:.55rem; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); white-space:nowrap; writing-mode:vertical-rl; transform:rotate(180deg); }
+  .dato-strip-num { font-size:3rem; font-weight:900; letter-spacing:-.06em; color:var(--accent); line-height:1; white-space:nowrap; flex-shrink:0; }
+  .dato-strip-txt p { margin:0 0 .3rem; font-size:.82rem; color:var(--fg-2); }
+  .dato-strip-txt cite { font-size:.65rem; color:var(--fg-3); font-style:normal; }
+  .cita-strip { background:var(--bg-2); border-left:4px solid var(--accent); border-radius:0 var(--r-lg) var(--r-lg) 0; padding:1rem 1.5rem; margin:0 0 1.5rem; }
+  .cita-strip blockquote { margin:0 0 .4rem; font-size:.92rem; font-style:italic; color:var(--fg-1); line-height:1.5; }
+  .cita-strip cite { font-size:.68rem; color:var(--fg-3); font-style:normal; }
+
+  /* ─── INFO PANELS ─── */
+  #panel-overlay { display:none; position:fixed; inset:0; z-index:600; background:var(--bg); overflow-y:auto; animation:artIn .2s ease; }
+  #panel-overlay.open { display:block; }
+  .panel-topbar { position:sticky; top:0; z-index:10; background:rgba(5,6,8,.92); backdrop-filter:blur(20px); border-bottom:1px solid var(--border-1); display:flex; align-items:center; justify-content:space-between; padding:.75rem 1.5rem; }
+  .panel-back { display:flex; align-items:center; gap:.5rem; background:none; border:none; color:var(--fg-2); cursor:pointer; font-size:.8rem; font-weight:600; letter-spacing:.06em; text-transform:uppercase; }
+  .panel-back:hover { color:var(--fg-1); }
+  .panel-inner { max-width:700px; margin:0 auto; padding:2.5rem 1.5rem 4rem; }
+  .panel-content { display:none; }
+  .panel-content.active { display:block; }
+  .panel-content h2 { font-size:1.6rem; font-weight:900; letter-spacing:-.04em; color:var(--fg-1); margin:0 0 1.5rem; line-height:1.2; }
+  .panel-content h3 { font-size:.75rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); margin:2rem 0 .6rem; border-top:1px solid var(--border-1); padding-top:1.25rem; }
+  .panel-content p { font-size:.9rem; color:var(--fg-2); line-height:1.75; margin:0 0 1rem; }
+  .panel-content p:last-child { margin-bottom:0; }
+  .panel-tag { display:inline-block; font-size:.6rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); background:rgba(46,168,255,.1); border:1px solid rgba(46,168,255,.25); border-radius:99px; padding:.25rem .7rem; margin-bottom:1.25rem; }
+</style>
+</head>
+<body>
+
+<!-- ─── META BAR ─── -->
+<div class="meta-bar">
+  <div class="mb-l">
+    <span class="mb-date">Viernes, 26 de junio de 2026 · La Pampa</span>
+    <span class="mb-focus">Foco: Ravier, vocero presidencial, reordena el poder libertario en La Pampa</span>
+    <span class="ai-tag-sm">100% IA</span>
+  </div>
+  <div class="mb-r">El primer diario digital IA de La Pampa</div>
+</div>
+
+<!-- ─── HEADER ─── -->
+<header>
+  <div class="h-inner">
+    <a href="https://llano.it.com/" class="logo">LLANO<span class="logo-dot">·</span></a>
+    <nav class="h-nav">
+      <a href="#" class="active">Inicio</a>
+      <a href="#pol-prov">Política Pampeana</a>
+      <a href="#video">Video</a>
+      <a href="#voces-x">Voces · X</a>
+      <a href="#pol-nac">Nacional</a>
+      <a href="#intl">Internacional</a>
+      <span class="sep"></span>
+      <a href="archivo.html" style="font-size:.72rem;color:rgba(255,255,255,.45);letter-spacing:.06em;" title="Archivo de noticias">Archivo</a>
+      <a href="#ia" class="ia-link">✦ IA Explica</a>
+    </nav>
+    <div class="h-right">
+      <button class="icon-btn" onclick="toggleTheme()" aria-label="Cambiar tema">
+        <svg id="icon-theme" viewBox="0 0 24 24"><path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ─── TICKER ─── -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-label">
+    <svg width="8" height="8" viewBox="0 0 8 8" fill="white"><circle cx="4" cy="4" r="4"/></svg>
+    EN VIVO
+  </div>
+  <div class="ticker-fade ticker-fade-l"></div>
+  <div class="ticker-fade ticker-fade-r"></div>
+  <div class="ticker-track">
+    <!-- AUTO:TICKER:START -->
+    <span class="ti"><span class="ti-sep">●</span> <strong>REFORMA FISCAL</strong> Argentina prepara nuevo esquema tributario ante presión internacional</span>
+    <span class="ti"><span class="ti-sep">●</span> <strong>BANCO CENTRAL</strong> Suba de tasa a 32% para contener inflación y fortalecer moneda</span>
+    <span class="ti"><span class="ti-sep">●</span> <strong>AGRO</strong> Exportaciones agrícolas crecen 8% interanual en segundo trimestre</span>
+    <span class="ti"><span class="ti-sep">●</span> <strong>LA PAMPA</strong> Ziliotto negocia presupuesto provincial 2027 con bloques opositores</span>
+    <span class="ti"><span class="ti-sep">●</span> <strong>CONGRESO</strong> Bloques debaten propuestas alternativas de reforma tributaria nacional</span>
+    <span class="ti"><span class="ti-sep">●</span> <strong>EMPLEO</strong> Desempleo se mantiene en 9,2% con recuperación gradual del mercado laboral</span>
+    <span class="ti"><span class="ti-sep">●</span> <strong>REFORMA FISCAL</strong> Argentina prepara nuevo esquema tributario ante presión internacional</span>
+    <span class="ti"><span class="ti-sep">●</span> <strong>BANCO CENTRAL</strong> Suba de tasa a 32% para contener inflación y fortalecer moneda</span>
+    <span class="ti"><span class="ti-sep">●</span> <strong>AGRO</strong> Exportaciones agrícolas crecen 8% interanual en segundo trimestre</span>
+    <span class="ti"><span class="ti-sep">●</span> <strong>LA PAMPA</strong> Ziliotto negocia presupuesto provincial 2027 con bloques opositores</span>
+    <span class="ti"><span class="ti-sep">●</span> <strong>CONGRESO</strong> Bloques debaten propuestas alternativas de reforma tributaria nacional</span>
+    <span class="ti"><span class="ti-sep">●</span> <strong>EMPLEO</strong> Desempleo se mantiene en 9,2% con recuperación gradual del mercado laboral</span>
+    <!-- AUTO:TICKER:END -->
+  </div>
+</div>
+
+<!-- ─── HERO ─── -->
+<section class="hero">
+  <div class="hero-panels">
+
+<!-- AUTO:HERO:START -->
+      <div class="hero-panel hero-panel--lead">
+        <div class="hero-panel-top">
+          <div class="hero-panel-kicker">
+            <span class="live-dot">SEGUIMIENTO</span>
+            <span class="hero-panel-cat">Política · Nacional</span>
+          </div>
+          <h1 class="hero-panel-title">Argentina prepara reforma fiscal ante presión internacional</h1>
+          <p class="hero-panel-sub">El Gobierno avanza en negociaciones para un nuevo esquema tributario que equilibre ingresos y gasto público. Los bloques parlamentarios debaten propuestas en el Congreso.</p>
+          <div class="hero-panel-foot">
+            <span class="ts">26 junio 2026 &#183; LLANO&#183;</span>
+            <span class="ia-badge">&#10022; Analisis IA</span>
+          </div>
+        </div>
+        <div class="hero-panel-photo" style="background-image:url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg');"></div>
+      </div>
+<!-- AUTO:HERO:END -->
+
+<!-- AUTO:HERO-SIDE:START -->
+      <div class="hero-panel">
+        <div class="hero-panel-top">
+          <div class="hero-panel-kicker">
+            <span class="hero-panel-cat">Política · La Pampa</span>
+          </div>
+          <h2 class="hero-panel-title">Ziliotto busca consenso en presupuesto provincial 2027</h2>
+          <p class="hero-panel-sub">El gobernador inicia ronda de conversaciones con bloques opositores para viabilizar las cuentas del próximo año.</p>
+          <div class="hero-panel-foot">
+            <span class="ts">26 jun 2026 · LLANO·</span>
+            <span class="chip chip-a">Hoy</span>
+          </div>
+        </div>
+        <div class="hero-panel-photo" style="background-image:url('img/politicos/zillioto.webp');"></div>
+      </div>
+      <div class="hero-panel hero-panel--wide">
+        <div class="hero-panel-top">
+          <div class="hero-panel-kicker">
+            <span class="hero-panel-cat">Economía · Argentina</span>
+          </div>
+          <h2 class="hero-panel-title">Banco Central eleva tasa de política monetaria a 32%</h2>
+          <p class="hero-panel-sub">La medida busca contener presiones inflacionarias y fortalecer la posición de la moneda local en mercados.</p>
+          <div class="hero-panel-foot">
+            <span class="ts">26 jun 2026 · LLANO·</span>
+            <span class="chip chip-b">Info</span>
+          </div>
+        </div>
+        
+      </div>
+      <!-- AUTO:HERO-SIDE:END -->
+
+  </div>
+</section>
+
+<!-- ─── MAIN ─── -->
+<div class="main-wrap">
+
+  <!-- ── 01 POLÍTICA PAMPEANA ── -->
+  <div id="pol-prov" class="sec-hd fade-in" style="margin-top:.5rem;">
+    <span class="sec-num">01</span>
+    <h2 class="sec-name">Política Pampeana</h2>
+    <div class="sec-hd-right">
+      <span class="live-dot" style="font-size:.58rem;">Actualización continua</span>
+      <a href="archivo.html" class="ver-mas">Ver todo →</a>
+    </div>
+  </div>
+
+  <!-- Política prov. + sidebar —>
+  <div class="lay fade-in">
+    <div>
+      <div style="display:flex;flex-direction:column;">
+
+        <!-- AUTO:SEC01-LIST:START -->
+        <div class="li">
+          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="img/politicos/zillioto.webp" alt="Ziliotto busca consenso en presupuesto provincial 2027" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
+          <div>
+            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Política · Provincia</span></div>
+            <h4>Ziliotto busca consenso en presupuesto provincial 2027</h4>
+            <p>El gobernador inicia ronda de conversaciones con bloques opositores para viabilizar las cuentas del próximo año.</p>
+            <div class="li-meta"><span class="ts">26 jun 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
+          </div>
+        </div>
+        <div class="li">
+          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg/960px-Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg" alt="Di Nápoli acelera obras de ampliación vial en Santa Rosa" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
+          <div>
+            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Gobierno · Santa Rosa</span></div>
+            <h4>Di Nápoli acelera obras de ampliación vial en Santa Rosa</h4>
+            <p>La intendencia avanza con proyectos de mejora urbana para descongestionamiento de tráfico en la capital provincial.</p>
+            <div class="li-meta"><span class="ts">26 jun 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
+          </div>
+        </div>
+        <div class="li">
+          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Calle_de_Gral._Pico.JPG/960px-Calle_de_Gral._Pico.JPG" alt="Alonso refuerza estrategia de seguridad en General Pico" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
+          <div>
+            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Gobierno · General Pico</span></div>
+            <h4>Alonso refuerza estrategia de seguridad en General Pico</h4>
+            <p>La intendenta presenta nuevo plan de patrullaje conjunto con Policía provincial para reducir delitos.</p>
+            <div class="li-meta"><span class="ts">26 jun 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
+          </div>
+        </div>
+        <div class="li">
+          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Loading_wheat_at_Rosario_Argentina_%286964413258%29.jpg" alt="Sector agrícola reporta buena cosecha de trigo en La Pampa" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
+          <div>
+            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Economía · Provincia</span></div>
+            <h4>Sector agrícola reporta buena cosecha de trigo en La Pampa</h4>
+            <p>Condiciones climáticas favorables permiten proyectar uno de los mejores rendimientos de los últimos cinco años.</p>
+            <div class="li-meta"><span class="ts">26 jun 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
+          </div>
+        </div>
+        <div class="li">
+          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Cristina_baston_Kirchner.jpg/960px-Cristina_baston_Kirchner.jpg" alt="Salud provincial realiza jornada de prevención oncológica" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
+          <div>
+            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Salud · Provincia</span></div>
+            <h4>Salud provincial realiza jornada de prevención oncológica</h4>
+            <p>Campañas gratuitas de detección temprana llegan a municipios del interior de La Pampa.</p>
+            <div class="li-meta"><span class="ts">26 jun 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
+          </div>
+        </div>
+        <div class="li">
+          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Festival_de_Cosqu%C3%ADn_1970_ca.jpg" alt="Biblioteca Pública lanza muestra de autores pampeanos" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
+          <div>
+            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">Cultura · Santa Rosa</span></div>
+            <h4>Biblioteca Pública lanza muestra de autores pampeanos</h4>
+            <p>Exhibición de obras literarias locales busca promocionar talentos regionales y fortalecer identidad cultural.</p>
+            <div class="li-meta"><span class="ts">26 jun 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
+          </div>
+        </div>
+        <!-- AUTO:SEC01-LIST:END -->
+
+      </div>
+    </div>
+
+    <aside>
+
+    </aside>
+  </div>
+
+<!-- AUTO:DATOS:START -->
+  <div class="dato-strip fade-in">
+    <span class="dato-strip-badge">Dato del día</span>
+    <div class="dato-strip-num">8%</div>
+    <div class="dato-strip-txt">
+      <p>Las exportaciones agrícolas argentinas crecen 8% interanual, según datos del Ministerio de Economía. Este incremento refleja la fortaleza del sector productivo nacional en mercados internacionales.</p>
+      <cite>LLANO · 26 jun 2026</cite>
+    </div>
+  </div>
+  <div class="cita-strip fade-in">
+    <blockquote>"La reforma tributaria es imprescindible para equilibrar las cuentas públicas sin castigar la inversión productiva."</blockquote>
+    <cite>— Funcionario del Ministerio de Economía, 26 de junio de 2026</cite>
+  </div>
+  <!-- AUTO:DATOS:END -->
+
+  <!-- ── 02 VIDEO ── -->
+  <!-- PARA CAMBIAR EL VIDEO:
+       YouTube: reemplaza el src del iframe con https://www.youtube.com/embed/ID_DEL_VIDEO
+       X/Twitter: reemplaza VIDEO_PLATAFORMA por "X · @usuario" y pegá la URL del tweet en VIDEO_URL
+       Stream en vivo: usá https://www.youtube.com/embed/ID?autoplay=1
+  -->
+  <div id="video" class="sec-hd fade-in">
+    <span class="sec-num">02</span>
+    <h2 class="sec-name">Video del día</h2>
+    <div class="sec-hd-right"><span style="font-size:.65rem;color:var(--fg-3);">Actualización diaria · LLANO·</span></div>
+  </div>
+
+  <div class="fade-in" style="margin-bottom:3rem;">
+    <div style="display:grid;grid-template-columns:1fr 340px;gap:1.5rem;align-items:start;">
+
+      <!-- EMBED DEL VIDEO — cambiar el src para actualizar -->
+      <div style="border-radius:var(--r-lg);overflow:hidden;background:#0a0909;">
+        <iframe width="100%" height="480" src="https://www.youtube.com/embed/VVnDODRgQqk?si=Dt0Oi78wSljy7zHF" title="🇦🇷 SESIÓN EN VIVO: 24 de junio de 2026 - Diputados Argentina" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="display:block;"></iframe>
+      </div>
+
+      <!-- Ficha del video -->
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+        <div class="ab">
+          <div class="card-meta" style="margin-bottom:.5rem;">
+            <span class="cat" id="video-plataforma">YouTube · Diputados Argentina</span>
+            <span class="ia-badge">&#10022; Video</span>
+          </div>
+          <h4 id="video-titulo" style="font-size:1rem;line-height:1.4;margin:0 0 .6rem;">Sesión en vivo de la Cámara de Diputados de la Nación</h4>
+          <p id="video-desc" style="font-size:.8rem;color:var(--fg-2);line-height:1.5;margin:0 0 .8rem;">Transmisión oficial en directo de la sesión de la Honorable Cámara de Diputados de la Nación.</p>
+          <span class="ts" id="video-fecha">24 jun 2026 · LLANO·</span>
+        </div>
+        <div class="ab">
+          <h6 class="ab-hd">Cómo ver más</h6>
+          <p style="font-size:.75rem;color:var(--fg-3);line-height:1.5;margin:0;">LLANO· selecciona cada día o semana el video más relevante de la política pampeana. Puede ser un debate, una entrevista, una sesión legislativa o un stream en vivo.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── VOCES · X ── -->
+  <div id="voces-x" class="sec-hd fade-in">
+    <span class="sec-num" style="font-weight:900;font-style:normal;letter-spacing:0;">𝕏</span>
+    <h2 class="sec-name">Voces · X</h2>
+    <div class="sec-hd-right"><span style="font-size:.65rem;color:var(--fg-3);">Lo que dicen los dirigentes · LLANO·</span></div>
+  </div>
+
+  <!-- AUTO:TWEETS:START -->
+  <div class="fade-in" style="margin-bottom:3rem;">
+    <div style="display:grid;grid-template-columns:1fr 300px;gap:1.5rem;align-items:start;">
+
+      <!-- Columna tweets -->
+      <div>
+        <p style="font-size:.8rem;color:var(--fg-2);margin:0 0 1.2rem;line-height:1.5;">El tuit del día — cambios en el recinto: jura el reemplazante de Ravier en Diputados</p>
+
+        <!-- Tweet: Diputados Argentina (@DiputadosAR) -->
+        <blockquote class="twitter-tweet" data-theme="dark" data-lang="es">
+          <a href="https://twitter.com/DiputadosAR/status/2069812363767763165">Tuit de Diputados Argentina sobre la jura de Martín Matzkin</a>
+        </blockquote>
+
+      </div>
+
+      <!-- Ficha lateral -->
+      <div style="display:flex;flex-direction:column;gap:1rem;">
+        <div class="ab">
+          <div class="card-meta" style="margin-bottom:.5rem;">
+            <span class="cat">Congreso · La Pampa</span>
+            <span class="ia-badge">&#10022; Voces</span>
+          </div>
+          <h4 style="font-size:1rem;line-height:1.4;margin:0 0 .6rem;">Martín Matzkin juró como diputado nacional en reemplazo de Ravier</h4>
+          <p style="font-size:.8rem;color:var(--fg-2);line-height:1.5;margin:0 0 .8rem;">La cuenta oficial de Diputados Argentina confirmó la jura de Martín Matzkin, abogado pampeano que entre 2015 y 2017 fue juez de Faltas en Catriló y se desempeñaba como subsecretario de Articulación Federal, en el lugar que deja Adrián Ravier.</p>
+          <span class="ts">24 jun 2026 · LLANO·</span>
+        </div>
+        <div class="ab">
+          <h6 class="ab-hd">Sobre esta sección</h6>
+          <p style="font-size:.75rem;color:var(--fg-3);line-height:1.5;margin:0;">LLANO· selecciona los tuits más relevantes de políticos pampeanos y nacionales para seguir el debate en tiempo real desde La Pampa.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- AUTO:TWEETS:END -->
+
+  <!-- ── 03 POLÍTICA NACIONAL ── -->
+  <div id="pol-nac" class="sec-hd fade-in">
+    <span class="sec-num">03</span>
+    <h2 class="sec-name">Política Nacional</h2>
+    <div class="sec-hd-right"><a href="archivo.html" class="ver-mas">Ver todo →</a></div>
+  </div>
+  <!-- AUTO:SEC03:START -->
+  <div class="g3 fade-in">
+    <div class="card">
+      <div class="card-img" style="background:#111;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG" alt="Argentina prepara reforma fiscal ante presión internacional" loading="lazy" /></div>
+      <div class="card-meta"><span class="cat">Política · Casa Rosada</span><span class="ia-badge">&#10022; IA</span></div>
+      <h3>Argentina prepara reforma fiscal ante presión internacional</h3>
+      <p>El Gobierno avanza en negociaciones para un nuevo esquema tributario que equilibre ingresos y gasto público.</p>
+      <div class="card-meta"><span class="ts">26 jun 2026 · LLANO·</span></div>
+    </div>
+    <div class="card">
+      <div class="card-img" style="background:#111;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/ECB_Frankfurt_at_Sunset.jpg/960px-ECB_Frankfurt_at_Sunset.jpg" alt="Banco Central eleva tasa de política monetaria a 32%" loading="lazy" /></div>
+      <div class="card-meta"><span class="cat">Economía · Política monetaria</span><span class="ia-badge">&#10022; IA</span></div>
+      <h3>Banco Central eleva tasa de política monetaria a 32%</h3>
+      <p>La medida busca contener presiones inflacionarias y fortalecer la posición de la moneda local en mercados.</p>
+      <div class="card-meta"><span class="ts">26 jun 2026 · LLANO·</span></div>
+    </div>
+    <div class="card">
+      <div class="card-img" style="background:#111;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg" alt="Bloques parlamentarios debaten propuestas de reforma tributaria" loading="lazy" /></div>
+      <div class="card-meta"><span class="cat">Política · Congreso</span><span class="ia-badge">&#10022; IA</span></div>
+      <h3>Bloques parlamentarios debaten propuestas de reforma tributaria</h3>
+      <p>UCR, PRO y LLA presentan alternativas mientras sectores productivos advierten sobre competitividad.</p>
+      <div class="card-meta"><span class="ts">26 jun 2026 · LLANO·</span></div>
+    </div>
+    <div class="card">
+      <div class="card-img" style="background:#111;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png" alt="Inflación de servicios marca récord en segundo trimestre" loading="lazy" /></div>
+      <div class="card-meta"><span class="cat">Economía · Costo de vida</span><span class="ia-badge">&#10022; IA</span></div>
+      <h3>Inflación de servicios marca récord en segundo trimestre</h3>
+      <p>Aumentos en energía, agua y transporte impactan presupuestos de hogares de todo el país.</p>
+      <div class="card-meta"><span class="ts">26 jun 2026 · LLANO·</span></div>
+    </div>
+    <div class="card">
+      <div class="card-img" style="background:#111;"><img src="https://upload.wikimedia.org/wikipedia/commons/9/97/Loading_wheat_at_Rosario_Argentina_%286964413258%29.jpg" alt="Exportaciones agrícolas argentinas crecen 8% interanual" loading="lazy" /></div>
+      <div class="card-meta"><span class="cat">Economía · Agro</span><span class="ia-badge">&#10022; IA</span></div>
+      <h3>Exportaciones agrícolas argentinas crecen 8% interanual</h3>
+      <p>Demanda mundial sostiene precios de granos y abre oportunidades para el sector productivo.</p>
+      <div class="card-meta"><span class="ts">26 jun 2026 · LLANO·</span></div>
+    </div>
+    <div class="card">
+      <div class="card-img" style="background:#111;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cartel_ministerio_de_trabajo_y_empleo_argentina.jpg/960px-Cartel_ministerio_de_trabajo_y_empleo_argentina.jpg" alt="Desempleo nacional se mantiene en 9,2% según últimos datos" loading="lazy" /></div>
+      <div class="card-meta"><span class="cat">Economía · Trabajo</span><span class="ia-badge">&#10022; IA</span></div>
+      <h3>Desempleo nacional se mantiene en 9,2% según últimos datos</h3>
+      <p>Recuperación gradual del mercado laboral genera optimismo en sectores vinculados a consumo.</p>
+      <div class="card-meta"><span class="ts">26 jun 2026 · LLANO·</span></div>
+    </div>
+  </div>
+  <!-- AUTO:SEC03:END -->
+
+  <!-- ── 04 INTERNACIONAL ── -->
+  <div id="intl" class="sec-hd fade-in">
+    <span class="sec-num">04</span>
+    <h2 class="sec-name">Internacional</h2>
+    <div class="sec-hd-right"><a href="archivo.html" class="ver-mas">Ver todo →</a></div>
+  </div>
+  <!-- AUTO:SEC04:START -->
+  <div class="lay fade-in" style="margin-bottom:3rem;">
+    <div class="intl-list">
+      <div class="intl-item">
+        <span class="intl-num">01</span>
+        <h4>Unión Europea aprueba nuevo marco regulatorio para plataformas tecnológicas</h4>
+        <span class="ts ia-badge" style="flex-shrink:0;">&#10022; IA</span>
+      </div>
+      <div class="intl-item">
+        <span class="intl-num">02</span>
+        <h4>Brasil enfrenta jornada de paros en transporte y servicios públicos</h4>
+        <span class="ts ia-badge" style="flex-shrink:0;">&#10022; IA</span>
+      </div>
+      <div class="intl-item">
+        <span class="intl-num">03</span>
+        <h4>Negociadores internacionales avanzan en gestiones de paz en Medio Oriente</h4>
+        <span class="ts ia-badge" style="flex-shrink:0;">&#10022; IA</span>
+      </div>
+      <div class="intl-item">
+        <span class="intl-num">04</span>
+        <h4>ONU advierte por aceleración de cambios climáticos en ecosistemas costeros</h4>
+        <span class="ts ia-badge" style="flex-shrink:0;">&#10022; IA</span>
+      </div>
+      <div class="intl-item">
+        <span class="intl-num">05</span>
+        <h4>China reporta desaceleración de crecimiento en primer semestre</h4>
+        <span class="ts ia-badge" style="flex-shrink:0;">&#10022; IA</span>
+      </div>
+    </div>
+    <aside>
+      <div class="ab">
+        <h6 class="ab-hd">Contexto global hoy</h6>
+        <div class="dato-box">
+          <div class="num">8%</div>
+          <div class="label">Las exportaciones agrícolas argentinas crecen 8% interanual, según datos del Ministerio de Economía. Este incremento refleja la fortaleza del sector productivo nacional en mercados internacionales.</div>
+          <div class="src">LLANO · 26 jun 2026</div>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <!-- AUTO:SEC04:END -->
+
+
+</div><!-- /main-wrap -->
+
+<!-- ─── SOCIAL STRIP ─── -->
+<div class="social-strip">
+  <div class="ss-inner">
+    <h2>LLANO· en todas las plataformas</h2>
+    <p>Política pampeana en web, video corto y análisis visual. Donde quieras consumirla.</p>
+    <div class="ss-btns">
+      <a href="https://llano.it.com/" class="sbtn sb-web">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+        llano.it.com
+      </a>
+      <a href="https://youtube.com/@LlanoLaPampa" target="_blank" rel="noopener noreferrer" class="sbtn sb-yt">
+        <svg viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+        YouTube
+      </a>
+      <a href="https://tiktok.com/@llano.ia" target="_blank" rel="noopener noreferrer" class="sbtn sb-tk">
+        <svg viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.34 6.34 0 106.34 6.34V8.69a8.18 8.18 0 004.78 1.52V6.78a4.85 4.85 0 01-1.01-.09z"/></svg>
+        TikTok
+      </a>
+      <a href="https://instagram.com/llano.diario" target="_blank" rel="noopener noreferrer" class="sbtn sb-ig">
+        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        Instagram
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="f-grid">
+    <div class="f-brand">
+      <div class="flogo">LLANO<span class="dot">·</span></div>
+      <p>El primer diario digital 100% IA de La Pampa. Información objetiva, análisis profundo y seguimiento riguroso de la política provincial, nacional e internacional.</p>
+    </div>
+    <div class="f-col">
+      <h6>Secciones</h6>
+      <a href="#pol-prov">Política Pampeana</a>
+      <a href="#video">Video del día</a>
+      <a href="#pol-nac">Nacional</a>
+      <a href="#intl">Internacional</a>
+
+    </div>
+    <div class="f-col">
+      <h6>Plataformas</h6>
+      <a href="https://llano.it.com/">Web · llano.it.com</a>
+      <a href="https://youtube.com/@LlanoLaPampa" target="_blank" rel="noopener noreferrer">YouTube</a>
+      <a href="https://tiktok.com/@llano.ia" target="_blank" rel="noopener noreferrer">TikTok</a>
+      <a href="https://instagram.com/llano.diario" target="_blank" rel="noopener noreferrer">Instagram</a>
+    </div>
+    <div class="f-col">
+      <h6>El diario</h6>
+      <a href="nosotros.html" onclick="openPanel('nosotros');return false;">Nosotros</a>
+      <a href="como-funciona-la-ia.html" onclick="openPanel('ia');return false;">Cómo funciona la IA</a>
+      <a href="politica-editorial.html" onclick="openPanel('editorial');return false;">Política editorial</a>
+      <a href="#" onclick="openPanel('contacto');return false;">Contacto</a>
+    </div>
+  </div>
+  <div class="f-bottom">
+    <span>© 2026 LLANO· · Diario Digital IA · La Pampa, Argentina</span>
+    <span>Producido íntegramente con Inteligencia Artificial · llano.it.com</span>
+  </div>
+</footer>
+
+<!-- ─── INFO PANELS OVERLAY ─── -->
+<div id="panel-overlay">
+  <div class="panel-topbar">
+    <button class="panel-back" onclick="closePanel()">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+      LLANO<span style="color:var(--accent);">·</span>
+    </button>
+    <span id="panel-titulo-top" style="font-size:.75rem;font-weight:600;color:var(--fg-3);letter-spacing:.04em;"></span>
+  </div>
+  <div class="panel-inner">
+
+    <!-- NOSOTROS -->
+    <div id="panel-nosotros" class="panel-content">
+      <span class="panel-tag">El diario</span>
+      <h2>LLANO· — El primer diario digital 100% IA de La Pampa</h2>
+      <p>LLANO· nació con una certeza: el periodismo provincial merece la misma profundidad, velocidad y rigor que los grandes medios nacionales. Y con una apuesta: que la inteligencia artificial puede ser la herramienta para lograrlo.</p>
+      <p>Somos un diario digital de La Pampa dedicado exclusivamente a la política. Cubrimos la provincia, el país y el mundo con foco en lo que le importa al pampeano: quién gobierna, cómo decide, qué oculta y qué construye.</p>
+      <p>No tenemos redacción tradicional. No tenemos cronistas o editores. Tenemos un sistema de producción periodística basado en inteligencia artificial que trabaja las 24 horas, contrasta fuentes, escribe con precisión y publica sin demora.</p>
+      <p>El resultado es un medio que cubre más, más rápido y con menos sesgos estructurales que los medios convencionales.</p>
+      <p style="color:var(--fg-3);font-size:.8rem;">LLANO· es un proyecto. La Pampa, Argentina. 2026.</p>
+    </div>
+
+    <!-- CÓMO FUNCIONA LA IA -->
+    <div id="panel-ia" class="panel-content">
+      <span class="panel-tag">Tecnología</span>
+      <h2>Periodismo asistido por inteligencia artificial — así producimos LLANO·</h2>
+      <p>LLANO· utiliza inteligencia artificial en cada etapa del proceso periodístico. No como experimento ni como moda: como método de trabajo permanente y riguroso.</p>
+      <h3>Monitoreo continuo</h3>
+      <p>Nuestros sistemas rastrean en tiempo real fuentes oficiales, medios provinciales, nacionales e internacionales, redes sociales y comunicados de gobierno. Nada relevante para La Pampa pasa desapercibido.</p>
+      <h3>Redacción y síntesis</h3>
+      <p>Los modelos de lenguaje procesan la información, verifican consistencia entre fuentes y producen los textos. Cada nota indica si fue generada íntegramente por IA o editada por supervisión humana.</p>
+      <h3>Supervisión editorial</h3>
+      <p>Un editor humano supervisa la línea del medio, valida las decisiones de cobertura y es responsable final del contenido publicado. La IA produce; la editorial define.</p>
+      <h3>Transparencia total</h3>
+      <p>Cada nota lleva una etiqueta que identifica su origen: <strong>✦ IA</strong> para contenido generado automáticamente, <strong>Editorial</strong> para análisis con intervención humana, y <strong>APN</strong> para comunicados oficiales reproducidos con fuente.</p>
+    </div>
+
+    <!-- POLÍTICA EDITORIAL -->
+    <div id="panel-editorial" class="panel-content">
+      <span class="panel-tag">Principios</span>
+      <h2>Los principios que rigen LLANO·</h2>
+      <h3>Independencia</h3>
+      <p>LLANO· no tiene acuerdos comerciales con partidos, funcionarios ni empresas que condicionen su cobertura. La línea editorial es autónoma.</p>
+      <h3>Verificación</h3>
+      <p>Toda información publicada debe tener al menos una fuente identificable. Las noticias sin confirmación se publican con etiqueta explícita de "versión en desarrollo". No publicamos rumores como hechos.</p>
+      <h3>Claridad en el origen</h3>
+      <p>Distinguimos con precisión entre noticia, análisis y editorial. El lector siempre sabe qué está leyendo y quién —o qué— lo produjo.</p>
+      <h3>Foco pampeano</h3>
+      <p>Cubrimos lo nacional e internacional en tanto afecta a La Pampa. No somos un agregador de noticias genérico. Nuestra vara es: ¿esto le importa al pampeano? Si la respuesta es sí, lo cubrimos.</p>
+      <h3>Correcciones</h3>
+      <p>Los errores se corrigen con nota explícita en el mismo artículo. No se borran notas, no se editan textos sin registro. La transparencia sobre los errores es parte de la credibilidad.</p>
+      <h3>Uso ético de la IA</h3>
+      <p>No fabricamos citas textuales. No atribuimos declaraciones que no puedan verificarse. No usamos la IA para generar contenido falso, especulativo o malintencionado. La tecnología está al servicio del periodismo, no al revés.</p>
+    </div>
+
+    <!-- CONTACTO -->
+    <div id="panel-contacto" class="panel-content">
+      <span class="panel-tag">Contacto</span>
+      <h2>Escribinos</h2>
+      <p>LLANO· es un medio pequeño con operación automatizada. Para consultas, sugerencias, correcciones o para acercarnos información que considerás relevante para La Pampa, usá DM en nuestras redes sociales.</p>
+      <h3>Para correcciones</h3>
+      <p>Si encontrás un error factual en una nota, escribinos indicando el título, la fecha y el dato incorrecto. Revisamos y corregimos con etiqueta visible.</p>
+      <h3>Ubicación</h3>
+      <p>La Pampa, Argentina.</p>
+    </div>
+
+  </div>
+</div>
+
+
+<script>
+  // Dark mode
+  function toggleTheme() {
+    const html = document.documentElement;
+    const dark = html.getAttribute('data-theme') === 'dark';
+    html.setAttribute('data-theme', dark ? 'light' : 'dark');
+    document.getElementById('icon-theme').innerHTML = dark
+      ? '<path d="M12 3a9 9 0 100 18A9 9 0 0012 3zm0 2a7 7 0 010 14V5z"/>'
+      : '<path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z"/>';
+  }
+
+  // Scroll-triggered fade-in
+  const observer = new IntersectionObserver(
+    entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
+    { threshold: 0.08 }
+  );
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+  // Contador animado para los datos numéricos del día (dato-strip / dato-box)
+  function animateCount(el) {
+    const raw = el.textContent;
+    const m = raw.match(/[\d][\d.,]*/);
+    if (!m) return;
+    const numStr = m[0];
+    const prefix = raw.slice(0, m.index);
+    const suffix = raw.slice(m.index + numStr.length);
+    const target = parseInt(numStr.replace(/[.,]/g, ''), 10);
+    if (isNaN(target) || target <= 0) return;
+    const hasThousands = /[.,]/.test(numStr);
+    const duration = 900, start = performance.now();
+    (function step(now) {
+      const p = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - p, 3);
+      const current = Math.round(target * eased);
+      el.textContent = prefix + (hasThousands ? current.toLocaleString('es-AR') : current) + suffix;
+      if (p < 1) requestAnimationFrame(step); else el.textContent = raw;
+    })(start);
+  }
+  const countObserver = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { animateCount(e.target); countObserver.unobserve(e.target); }
+    });
+  }, { threshold: 0.4 });
+  document.querySelectorAll('.dato-strip-num, .dato-box .num').forEach(el => countObserver.observe(el));
+
+  // Nav scroll spy + header solid-on-scroll
+  const navLinks = document.querySelectorAll('.h-nav a');
+  const headerEl = document.querySelector('header');
+  window.addEventListener('scroll', () => {
+    let cur = '';
+    document.querySelectorAll('[id]').forEach(s => {
+      if (window.scrollY >= s.offsetTop - 80) cur = s.id;
+    });
+    navLinks.forEach(a => {
+      a.classList.toggle('active',
+        a.getAttribute('href') === '#' + cur || (cur === '' && a.getAttribute('href') === '#')
+      );
+    });
+    headerEl.classList.toggle('header--solid', window.scrollY > 24);
+  }, { passive: true });
+
+  // ─── ARTICLE READER ───
+                                                                      // AUTO:ARTS:START
+  const ARTS = {
+    reforma_fiscal_nacional: {
+      cat:'Política · Casa Rosada', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG',
+      titulo:`Argentina prepara reforma fiscal ante presión internacional`,
+      bajada:`El Gobierno avanza en negociaciones para un nuevo esquema tributario que equilibre ingresos y gasto público. Los bloques parlamentarios debaten propuestas en el Congreso.`,
+      cuerpo:`<p>El Ministerio de Economía presentó formalmente ante la Cámara de Diputados un <strong>proyecto integral de reforma fiscal</strong> que busca reordenar la estructura tributaria argentina. La iniciativa responde a presiones tanto de organismos internacionales de crédito como de sectores productivos que reclaman mayor previsibilidad en la política impositiva.</p><p>La propuesta mantiene como eje la reducción gradual de impuestos distorsivos mientras fortalece impuestos más eficientes en recaudación. <strong>El Gobierno estima un impacto fiscal positivo de 2,3 puntos del PBI en los próximos dos años</strong>, aunque economistas de la oposición cuestionan las proyecciones macroeconómicas subyacentes. La iniciativa incluye aumentos en retenciones agrícolas, ampliación de la base del IVA y nuevos gravámenes a servicios financieros.</p><p>UCR, PRO y La Libertad Avanza mantienen posiciones divergentes sobre varios ejes de la reforma. Mientras <strong>el radicalismo propone mayor progresividad en ingresos brutos</strong>, los diputados amarillos prefieren una rebaja general de la carga tributaria sin subas en ningún ramo. El peronismo, por su parte, busca proteger al sector productivo pequeño.</p><p>Se espera que el proyecto ingrese a comisión la próxima semana, donde las negociaciones se intensificarán. Tanto el oficialismo como la oposición reconocen la urgencia de avanzar, aunque las divergencias sobre distribución de la carga fiscal amenazan el cronograma legislativo previsto.</p>`
+    },
+    banco_central_tasa: {
+      cat:'Economía · Política monetaria', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/ECB_Frankfurt_at_Sunset.jpg/960px-ECB_Frankfurt_at_Sunset.jpg',
+      titulo:`Banco Central eleva tasa de política monetaria a 32%`,
+      bajada:`La medida busca contener presiones inflacionarias y fortalecer la posición de la moneda local en mercados. El directorio evaluó alternativas ante volatilidad del tipo de cambio.`,
+      cuerpo:`<p>El Banco Central de la República Argentina <strong>elevó la tasa de política monetaria a 32% anual</strong> en su reunión de directorio celebrada ayer por la tarde. La decisión, tomada por unanimidad, responde a <strong>persistentes presiones inflacionarias</strong> que alcanzaron 6,8% en mayo según datos del INDEC, por encima de las proyecciones oficiales.</p><p>La autoridad monetaria argumentó que <strong>la suba de tasas es imprescindible para anclar expectativas de inflación</strong> y evitar que los agentes económicos traspasen aumentos de precios a cadenas de valor más amplias. El comunicado oficial señala que la medida también busca fortalecer la demanda de pesos en mercados, conteniendo presiones sobre el tipo de cambio nominal.</p><p>Analistas financieros señalan que el Banco Central ha adoptado un enfoque <strong>más agresivo en política monetaria</strong> tras el fracaso relativo de medidas anteriores. La suba de tasas implica un costo en crecimiento económico a corto plazo, pero las autoridades consideran que la estabilidad de precios es condición previa para la recuperación sostenible.</p><p>El mercado reaccionó con cautela ante el anuncio: el peso se fortaleció 0,4% en operaciones interbancarias, aunque los analistas advierten sobre la sostenibilidad de estas alzas de tasas si la inflación no comienza a ceder en las próximas semanas. Economistas privados estimaban una suba de 150 a 200 puntos básicos, por lo que el resultado se ubicó en línea con expectativas.</p>`
+    },
+    congreso_debate_impuestos: {
+      cat:'Política · Congreso', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg',
+      titulo:`Bloques parlamentarios debaten propuestas de reforma tributaria`,
+      bajada:`UCR, PRO y LLA presentan alternativas mientras sectores productivos advierten sobre competitividad. Negociaciones se intensifican en comisiones.`,
+      cuerpo:`<p>En el Congreso Nacional, los tres principales bloques de oposición presentaron ayer sus propias alternativas de reforma tributaria, divergiendo del proyecto oficialista. <strong>El radicalismo propone una estructura más progresiva con mayores cargas a ingresos altos</strong>, mientras que PRO y La Libertad Avanza buscan reducir presión fiscal general sin crear nuevos impuestos.</p><p>La Cámara de Diputados abrió un debate público donde representantes de cámaras empresariales advirtieron sobre los riesgos de una reforma tributaria que aumente costos de producción. <strong>La CONINAGRO alertó sobre impacto de subas en retenciones agrícolas</strong>, mientras que la Unión Industrial cuestionó la ampliación de la base del IVA a servicios hoy exentos.</p><p>El senador radical <strong>Daniel Kroneberger participó en las sesiones informativas</strong> desde el Senado, enfatizando la necesidad de consenso para una reforma que tenga sustentabilidad política. La UCR plantea que <strong>la progresividad tributaria genera mayor legitimidad social</strong> para ajustes fiscales de envergadura.</p><p>Se espera que las comisiones de Presupuesto y Hacienda comiencen a procesar los proyectos la próxima semana. Analistas políticos señalan que el Gobierno necesita al menos 128 votos en Diputados, umbral que obligaría a negociaciones con bloques opositores. El plazo límite para aprobación en primera cámara es el 31 de julio, según el cronograma legislativo establecido.</p>`
+    },
+    inflacion_servicios: {
+      cat:'Economía · Costo de vida', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png',
+      titulo:`Inflación de servicios marca récord en segundo trimestre`,
+      bajada:`Aumentos en energía, agua y transporte impactan presupuestos de hogares de todo el país. INDEC reporta variación superior a media general.`,
+      cuerpo:`<p>El Instituto Nacional de Estadística y Censos (INDEC) reportó ayer que <strong>la inflación de servicios alcanzó 7,2% en el segundo trimestre de 2026</strong>, marcando el nivel más alto registrado en los últimos dieciocho meses. El incremento fue liderado por aumentos en energía eléctrica (8,9%), agua y saneamiento (7,5%) y transporte público (6,8%).</p><p><strong>Estos aumentos impactaron desproporcionadamente en hogares de menores ingresos</strong>, para quienes los servicios representan una mayor proporción del gasto total. La combinación de subas en servicios básicos con inflación general de alimentos genera presiones sobre el poder adquisitivo de amplios sectores de la población.</p><p>El análisis del INDEC señala que la inflación de servicios anticipó los movimientos que se esperan en bienes y otros rubros, sugiriendo que <strong>las presiones inflacionarias son más amplias que las captadas por el índice general</strong>. Economistas advierten que si los servicios continúan liderando aumentos, la inercia inflacionaria podría prolongarse más allá de lo previsto.</p><p>Las autoridades monetarias consideran que los datos de servicios justifican una política más restrictiva. El Banco Central ya elevó tasas de interés como respuesta, buscando reducir demanda agregada sin generar mayor desempleo. Sin embargo, analistas señalan que <strong>aumentos de servicios básicos están parcialmente fuera del control de la política monetaria</strong>, siendo resultado de ajustes regulatorios y presiones de costos de insumos importados.</p>`
+    },
+    sector_agricola_nacional: {
+      cat:'Economía · Agro', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/9/97/Loading_wheat_at_Rosario_Argentina_%286964413258%29.jpg',
+      titulo:`Exportaciones agrícolas argentinas crecen 8% interanual`,
+      bajada:`Demanda mundial sostiene precios de granos y abre oportunidades para el sector productivo. Analistas proyectan cosecha récord para la temporada.`,
+      cuerpo:`<p>Las <strong>exportaciones agrícolas argentinas crecieron 8% en volumen durante el primer semestre de 2026</strong>, según reportes del Ministerio de Economía. El incremento fue impulsado por demanda sostenida de soja, maíz y trigo en mercados asiáticos y europeos, que mantienen precios internacionales en niveles atractivos para productores locales.</p><p>La Bolsa de Comercio de Rosario estima que <strong>la campaña 2025-2026 cerrará con rendimientos superiores al promedio histórico</strong>, beneficiada por condiciones climáticas favorables y menores presiones fitosanitarias. Los analistas proyectan que Argentina podría alcanzar un récord en volumen de exportaciones agrícolas para la temporada.</p><p>Este desempeño contrasta con presiones que enfrenta el sector en otros rubros. Mientras que <strong>la ganadería bovina continúa en contracción por falta de financiamiento</strong>, el complejo sojero dinamiza la economía y genera divisas para el país. Las inversiones en infraestructura portuaria y logística se aceleran en respuesta a la oportunidad exportadora.</p><p>Economistas advierten que la dependencia de un sector commodity expone a la economía argentina a volatilidad de precios internacionales. Sin embargo, reconocen que <strong>el desempeño agrícola actual proporciona aire fiscal</strong> para que el Gobierno implemente reformas estructurales, incluyendo la reforma tributaria que avanza en el Congreso.</p>`
+    },
+    empleo_nacional: {
+      cat:'Economía · Trabajo', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Cartel_ministerio_de_trabajo_y_empleo_argentina.jpg/960px-Cartel_ministerio_de_trabajo_y_empleo_argentina.jpg',
+      titulo:`Desempleo nacional se mantiene en 9,2% según últimos datos`,
+      bajada:`Recuperación gradual del mercado laboral genera optimismo en sectores vinculados a consumo. Empleo registrado crece pero informal se contrae.`,
+      cuerpo:`<p>La tasa de desempleo nacional se mantuvo en <strong>9,2% en mayo de 2026</strong>, según datos del INDEC, reflejando una <strong>estabilización en el mercado laboral después de volatilidad registrada en trimestres anteriores</strong>. Aunque la cifra sigue siendo elevada en términos históricos, analistas señalan una tendencia de recuperación gradual.</p><p><strong>El empleo registrado creció 1,4% interanual</strong>, impulsado por sectores de servicios, comercio y construcción. Sin embargo, el empleo informal continuó contrayéndose, sugiriendo que la recuperación del mercado laboral se concentra en empleos de mayor calidad y formalización. Este patrón es consistente con una economía que se reorienta tras períodos de volatilidad.</p><p>Las expectativas de consumo mejoraron levemente con noticias de recuperación laboral. <strong>Empresas del sector retail y servicios reportan intención de expandir plantillas</strong> en los próximos seis meses, particularmente en regiones metropolitanas y centros urbanos de tamaño medio.</p><p>Economistas advierten que la recuperación laboral enfrenta riesgos si las políticas de estabilización macroeconómica (particularmente suba de tasas de interés) resultan demasiado restrictivas. Un crecimiento económico débil podría revertir ganancias laborales. Sin embargo, el consenso es que <strong>la recuperación gradual del empleo es condición necesaria para la estabilidad política y social</strong> en el mediano plazo.</p>`
+    },
+    ziliotto_presupuesto: {
+      cat:'Política · Provincia', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'img/politicos/zillioto.webp',
+      titulo:`Ziliotto busca consenso en presupuesto provincial 2027`,
+      bajada:`El gobernador inicia ronda de conversaciones con bloques opositores para viabilizar las cuentas del próximo año. Presiones fiscales demandan acuerdos amplios.`,
+      cuerpo:`<p>El gobernador <strong>Sergio Ziliotto inició una ronda de conversaciones con los bloques opositores de la Legislatura provincial</strong> para construir consenso alrededor del presupuesto 2027 de La Pampa. La iniciativa responde a presiones fiscales que demandan acuerdos políticos amplios para viabilizar las cuentas públicas provinciales.</p><p>Ziliotto se reunió con referentes de la UCR, PRO y La Libertad Avanza en encuentros bilaterales durante esta semana. <strong>El tema central ha sido la necesidad de equilibrar inversión pública con austeridad fiscal</strong>, sin deteriorar servicios esenciales. El Ejecutivo provincial enfrenta limitaciones de ingresos derivadas de transferencias nacionales y presiones de gasto en sueldos de personal.</p><p>Desde la oposición se han presentado demandas variadas: mientras que la UCR enfatiza inversión en infraestructura vial del interior, <strong>el senador Daniel Kroneberger ha insistido en equilibrio fiscal con protección social</strong>. PRO y LLA exigen mayor eficiencia en gasto administrativo como condición para acompañar recursos presupuestarios adicionales.</p><p>Analistas políticos señalan que el consenso presupuestario es herramienta clave en La Pampa para evitar conflictividad con opositores. Si Ziliotto consigue acuerdos con al menos uno de los bloques opositores, la aprobación en Legislatura sería más expedita. El presupuesto debe tratarse en comisiones durante julio para aprobación antes del receso legislativo.</p>`
+    },
+    di_napoli_infraestructura: {
+      cat:'Gobierno · Santa Rosa', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg/960px-Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg',
+      titulo:`Di Nápoli acelera obras de ampliación vial en Santa Rosa`,
+      bajada:`La intendencia avanza con proyectos de mejora urbana para descongestionamiento de tráfico en la capital provincial. Inversión municipal apunta a mobilidad urbana.`,
+      cuerpo:`<p>La intendencia de Santa Rosa, encabezada por <strong>Luciano Di Nápoli</strong>, aceleró los trabajos en los proyectos de ampliación vial que buscan descongestionamientos de tráfico en la capital provincial. <strong>Las obras abarcan mejoras en eje Av. San Martín – Av. Magallanes y conexión hacia ruta nacional 35</strong>, con presupuesto municipal redestinado a infraestructura vial.</p><p>Di Nápoli ha enfatizado que <strong>la inversión en movilidad urbana es clave para atraer inversión privada y mejorar competitividad de Santa Rosa</strong> como centro administrativo y comercial. Las obras se ejecutan en coordinación con proveedores locales, generando empleo en el sector construcción, estrategia que el intendente ha destacado en comunicaciones públicas.</p><p>La viceintendenta <strong>Romina Montes de Oca</strong>, quien preside el Concejo Deliberante santarrosino, ha acompañado las iniciativas de infraestructura. El Concejo aprobó redestinación presupuestaria mediante ordenanza que permitió acelerar cronograma de obras.</p><p>Se espera que <strong>las obras principales se completen antes del cierre de mandato en 2027</strong>, posicionando al Di Nápoli como gestor de modernización urbana. Analistas señalan que visibilidad de obras termales en Santa Rosa puede ser activo político importante de cara a próximas elecciones municipales.</p>`
+    },
+    alonso_seguridad_pico: {
+      cat:'Gobierno · General Pico', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Calle_de_Gral._Pico.JPG/960px-Calle_de_Gral._Pico.JPG',
+      titulo:`Alonso refuerza estrategia de seguridad en General Pico`,
+      bajada:`La intendenta presenta nuevo plan de patrullaje conjunto con Policía provincial para reducir delitos. Coordinación municipal-provincial busca mejorar percepciones.`,
+      cuerpo:`<p>La intendenta <strong>Fernanda Alonso</strong> presentó ayer un plan integral de seguridad que combina patrullaje municipal reforzado con coordinación con fuerzas de seguridad provincial. <strong>La estrategia busca reducir delitos de robo a comercios y hurtos en transporte público</strong>, que registran tendencia al alza en General Pico desde principios de año.</p><p>El plan incluye <strong>inversión municipal en equipamiento tecnológico para vigilancia</strong>, capacitación de efectivos municipales en procedimientos de control, y establecimiento de centros de monitoreo coordinados con Policía provincial. Alonso ha enfatizado que la seguridad es responsabilidad compartida entre municipio, provincia y ciudadanía.</p><p>El viceintendente <strong>Alberto Ramón Campo</strong>, presidente del Concejo Deliberante piquense, respaldó públicamente la iniciativa. El Concejo aprobó partida de fondos para implementación del plan durante sesión ordinaria celebrada ayer, en votación con apoyo mayoritario.</p><p><strong>Analistas políticos señalan que énfasis en seguridad responde a demandas ciudadanas en General Pico</strong>, donde la inseguridad ha generado conflictividad electoral. Alonso, como primera mujer intendenta de la ciudad, ha priorizado temas de seguridad ciudadana como diferencial de su gestión. El plan se ejecutará en fases, con evaluación de resultados a los tres meses.</p>`
+    },
+    economia_la_pampa: {
+      cat:'Economía · Provincia', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/9/97/Loading_wheat_at_Rosario_Argentina_%286964413258%29.jpg',
+      titulo:`Sector agrícola reporta buena cosecha de trigo en La Pampa`,
+      bajada:`Condiciones climáticas favorables permiten proyectar uno de los mejores rendimientos de los últimos cinco años. Agricultores optimistas por perspectivas.`,
+      cuerpo:`<p>Productores agrícolas de La Pampa reportan resultados positivos en la cosecha de trigo 2026, impulsados por <strong>condiciones climáticas favorables durante los meses críticos de desarrollo del cultivo</strong>. Lluvias oportunas y ausencia de heladas tardías generaron rendimientos superiores al promedio histórico provincial.</p><p><strong>Se proyecta que La Pampa coseche aproximadamente 1,8 millones de toneladas de trigo</strong>, cifra que ubicaría a la provincia como uno de los mayores productores de la campaña nacional. Estos volúmenes se traducen en ingresos adicionales para agricultores y mayores recaudos por retenciones para el fisco provincial.</p><p>Cooperativas agrícolas y exportadores han comunicado que precios internacionales del trigo se mantienen en niveles atractivos, especialmente por demanda desde mercados europeos y asiáticos. <strong>El sector agrícola pampeano espera una campaña record en términos de volumen y valor</strong>, similar a años de bonanza agrícola registrados en décadas anteriores.</p><p>Sin embargo, analistas advierten sobre la vulnerabilidad de La Pampa a volatilidad de precios de commodities. <strong>Una caída abrupta de cotizaciones internacionales podría revertir mejoras de ingresos agrícolas</strong>. El Gobierno provincial ha enfatizado la importancia de invertir estos ingresos extraordinarios en diversificación económica y ahorro contracíclico, aunque tensiones presupuestarias pueden limitar márgenes de maniobra fiscal.</p>`
+    },
+    salud_provincia: {
+      cat:'Salud · Provincia', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Cristina_baston_Kirchner.jpg/960px-Cristina_baston_Kirchner.jpg',
+      titulo:`Salud provincial realiza jornada de prevención oncológica`,
+      bajada:`Campañas gratuitas de detección temprana llegan a municipios del interior de La Pampa. Iniciativa busca reducir mortalidad por cáncer.`,
+      cuerpo:`<p>El Ministerio de Salud provincial <strong>realizó ayer el lanzamiento de una campaña integral de prevención y detección oncológica</strong> que llegará a municipios del interior de La Pampa durante los próximos tres meses. La iniciativa ofrece estudios de screening gratuitos para cánceres de mama, próstata y colorrectal, enfocados en poblaciones de riesgo.</p><p><strong>La campaña responde a datos de mortalidad por cáncer que evidencian diagnósticos tardíos en regiones alejadas de Santa Rosa</strong>, donde acceso a servicios especializados es limitado. El Ministerio ha articulado con municipios locales para habilitar centros de atención temporal y coordinar derivaciones hacia centros especializados de diagnóstico.</p><p>Autoridades sanitarias enfatizaron que <strong>la detección temprana reduce significativamente tasas de mortalidad e incrementa posibilidades de tratamiento exitoso</strong>. Se espera que la campaña beneficie a aproximadamente 15.000 ciudadanos en una primera etapa, con posible extensión en función de demanda.</p><p>La iniciativa forma parte de una estrategia provincial de fortalecimiento de atención primaria de salud. <strong>Analistas del sector destacan que campañas de prevención son inversión clave en salud pública</strong>, generando retornos significativos en términos de años de vida ganados. Se prevé que resultados de la campaña sean reportados públicamente para evaluación de impacto.</p>`
+    },
+    cultura_santa_rosa: {
+      cat:'Cultura · Santa Rosa', fecha:'26 junio 2026', fuente:'LLANO\u00b7',
+      fuenteUrl:'', foto:'https://upload.wikimedia.org/wikipedia/commons/d/d2/Festival_de_Cosqu%C3%ADn_1970_ca.jpg',
+      titulo:`Biblioteca Pública lanza muestra de autores pampeanos`,
+      bajada:`Exhibición de obras literarias locales busca promocionar talentos regionales y fortalecer identidad cultural. Muestra permanecerá hasta fin de mes.`,
+      cuerpo:`<p>La Biblioteca Pública de Santa Rosa inauguró ayer una <strong>exposición dedicada a autores literarios pampeanos contemporáneos</strong>, buscando visibilizar el talento creativo regional y fortalecer vinculación entre ciudadanía e instituciones culturales. La muestra incluye obras de narrativa, poesía y ensayo publicadas en los últimos diez años.</p><p>La exhibición presenta <strong>más de 150 volúmenes de autores vinculados a La Pampa</strong>, con énfasis en escritores emergentes y nuevas voces que han ganado reconocimiento nacional en ferias del libro y espacios académicos. Se complementa con ciclos de lectura y encuentros entre autores y público, programados para los próximos viernes.</p><p><strong>Autoridades municipales destacaron la importancia de iniciativas que posicionen a La Pampa como polo cultural</strong>, subrayando que inversión en patrimonio literario regional fortalece identidad colectiva. La muestra también busca promover lectura entre público joven, con actividades especiales para estudiantes de nivel secundario.</p><p>La Biblioteca reporta que <strong>esta es la tercera edición de la muestra anual de autores pampeanos</strong>, iniciativa que ha ganado relevancia y participación ciudadana. Se espera que los volúmenes exhibidos generen nuevas adquisiciones para acervo bibliotecario local, fortaleciendo disponibilidad de literatura regional para ciudadanía.</p>`
+    }
+  };
+  // AUTO:ARTS:END
+
+
+  function findArtByTitle(title) {
+    const t = (title || '').trim();
+    const match = Object.entries(ARTS).find(([, art]) =>
+      art.titulo === t ||
+      t.startsWith(art.titulo.substring(0, 50)) ||
+      art.titulo.startsWith(t.substring(0, 50))
+    );
+    return match ? match[0] : null;
+  }
+
+  function openArticle(id) {
+    const a = ARTS[id]; if (!a) return;
+    const ov = document.getElementById('art-overlay');
+    document.getElementById('art-cat-lbl').textContent = a.cat;
+    document.getElementById('art-fecha-lbl').textContent = a.fecha;
+    document.getElementById('art-h1').textContent = a.titulo;
+    document.getElementById('art-bajada').textContent = a.bajada;
+    document.getElementById('art-cuerpo').innerHTML = a.cuerpo;
+    document.getElementById('art-src-txt').textContent = 'LLANO· · Diario Digital IA · La Pampa';
+    document.getElementById('art-src-lnk').style.display = 'none';
+    const img = document.getElementById('art-cover-img');
+    const ph  = document.getElementById('art-cover-ph');
+    if (a.foto) { img.src = a.foto; img.alt = a.titulo; img.style.display = 'block'; ph.style.display = 'none'; }
+    else        { img.style.display = 'none'; ph.style.display = 'flex'; }
+    document.getElementById('art-foot-src').innerHTML = '<strong>LLANO·</strong> · Primer diario digital IA de La Pampa';
+    ov.classList.add('art-open');
+    ov.scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+    history.pushState({artId: id}, '', '#' + id);
+  }
+
+  function closeArticle() {
+    document.getElementById('art-overlay').classList.remove('art-open');
+    document.body.style.overflow = '';
+    history.pushState(null, '', window.location.pathname);
+  }
+
+  function compartirNota() {
+    const url = window.location.href;
+    const btn = document.getElementById('art-share-btn');
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(() => {
+        btn.textContent = '¡Copiado!';
+        setTimeout(() => { btn.textContent = 'Compartir'; }, 2000);
+      });
+    } else {
+      prompt('Copiá este enlace:', url);
+    }
+  }
+
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeArticle(); });
+
+  window.addEventListener('popstate', function() {
+    const hash = window.location.hash.slice(1);
+    if (hash && ARTS[hash]) openArticle(hash);
+    else document.getElementById('art-overlay').classList.remove('art-open');
+  });
+
+  // Abrir articulo si la URL ya tiene hash al cargar
+  (function() {
+    const hash = window.location.hash.slice(1);
+    if (hash && ARTS[hash]) openArticle(hash);
+  })();
+
+  // Card & list-item clicks → article reader
+  document.querySelectorAll('.card, .li').forEach(card => {
+    card.addEventListener('click', function(e) {
+      if (e.target.closest('a')) return;
+      const h = this.querySelector('h3, h4');
+      if (!h) return;
+      const id = findArtByTitle(h.textContent);
+      if (id) openArticle(id);
+    });
+  });
+
+  // Paneles del hero (lead + secundarios) → buscar por titulo dinamicamente
+  document.querySelectorAll('.hero-panel').forEach(el => {
+    el.addEventListener('click', e => {
+      if (!e.target.closest('a')) {
+        const h = el.querySelector('.hero-panel-title');
+        const id = h ? findArtByTitle(h.textContent) : null;
+        if (id) openArticle(id);
+      }
+    });
+  });
+
+  // Cards de secciones (h3) → abrir articulo
+  document.querySelectorAll('.card').forEach(el => {
+    el.addEventListener('click', e => {
+      if (!e.target.closest('a')) {
+        const h = el.querySelector('h3');
+        const id = h ? findArtByTitle(h.textContent) : null;
+        if (id) openArticle(id);
+      }
+    });
+  });
+
+  // Lista de noticias .li (h4) → abrir articulo
+  document.querySelectorAll('.li').forEach(el => {
+    el.addEventListener('click', e => {
+      if (!e.target.closest('a')) {
+        const h = el.querySelector('h4');
+        const id = h ? findArtByTitle(h.textContent) : null;
+        if (id) openArticle(id);
+      }
+    });
+  });
+
+  // ─── INFO PANELS ───
+  const PANEL_TITLES = { nosotros:'Nosotros', ia:'Cómo funciona la IA', editorial:'Política editorial', contacto:'Contacto' };
+  function openPanel(id) {
+    document.querySelectorAll('.panel-content').forEach(el => el.classList.remove('active'));
+    const target = document.getElementById('panel-' + id);
+    if (target) target.classList.add('active');
+    const tit = document.getElementById('panel-titulo-top');
+    if (tit) tit.textContent = PANEL_TITLES[id] || '';
+    document.getElementById('panel-overlay').classList.add('open');
+    document.getElementById('panel-overlay').scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+  }
+  function closePanel() {
+    document.getElementById('panel-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+</script>
+
+<!-- ─── LECTOR DE ARTÍCULOS ─── -->
+<div id="art-overlay" class="art-overlay">
+  <div class="art-topbar">
+    <button class="art-back" onclick="closeArticle()">
+      <svg viewBox="0 0 24 24"><path d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"/></svg>
+      LLANO<span class="art-back-dot">·</span>
+    </button>
+    <div class="art-src-bar">
+      <span id="art-src-txt"></span>
+      <a id="art-src-lnk" href="#" target="_blank" rel="noopener noreferrer" style="display:none;">Ver nota original ↗</a>
+    </div>
+    <button id="art-share-btn" onclick="compartirNota()" style="background:none;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.7);padding:.3rem .75rem;border-radius:99px;font-size:.72rem;cursor:pointer;letter-spacing:.04em;white-space:nowrap;">Compartir</button>
+  </div>
+  <div class="art-inner">
+    <img id="art-cover-img" class="art-cover" src="" alt="" style="display:none;" loading="lazy" />
+    <div id="art-cover-ph" class="art-nocover" style="display:none;"><span>LLANO · Diario Digital IA · La Pampa</span></div>
+    <div class="art-meta-row">
+      <span id="art-cat-lbl" class="cat"></span>
+      <span id="art-fecha-lbl" class="ts"></span>
+      <span class="ia-badge">✦ LLANO· IA</span>
+    </div>
+    <h2 id="art-h1" class="art-title"></h2>
+    <p id="art-bajada" class="art-bajada"></p>
+    <div id="art-cuerpo" class="art-body"></div>
+    <div class="art-foot">
+      <span id="art-foot-src" class="art-foot-src"></span>
+      <span class="ia-badge" style="margin-left:auto;">✦ Editado por IA · LLANO·</span>
+    </div>
+  </div>
+</div>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>

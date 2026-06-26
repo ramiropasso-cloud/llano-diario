@@ -321,6 +321,8 @@ TOPIC_LOCAL = [
      [f'{_W}/9/97/Loading_wheat_at_Rosario_Argentina_%286964413258%29.jpg']),
     (['deuda', 'acreedores', 'bolsa', 'refinanciamiento', 'coparticipacion', 'coparticipación'],
      [f'{_W}/c/ca/Bolsa_de_Comercio_%28Buenos_Aires%29.jpg']),
+    (['empleo', 'desempleo', 'trabajo', 'ministerio de trabajo', 'mercado laboral'],
+     [f'{_W}/thumb/c/ce/Cartel_ministerio_de_trabajo_y_empleo_argentina.jpg/960px-Cartel_ministerio_de_trabajo_y_empleo_argentina.jpg']),
 ]
 
 # Fallback para noticias genericas de La Pampa (sin persona ni foto APN) que el
@@ -1100,13 +1102,37 @@ sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://llano.it.com/nosotros.html</loc>
+    <lastmod>{fecha_iso_hoy}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://llano.it.com/como-funciona-la-ia.html</loc>
+    <lastmod>{fecha_iso_hoy}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://llano.it.com/politica-editorial.html</loc>
+    <lastmod>{fecha_iso_hoy}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
 """
 with open(sitemap_path, "w", encoding="utf-8") as f:
     f.write(sitemap_xml)
 
 # ── GUARDAR ──
+# Se escribe tanto en llano.html como en index.html (la raiz del sitio) para que
+# "/" sirva el contenido real en lugar de depender de un redirect meta-refresh,
+# que generaba un canonical apuntando a una pagina practicamente vacia.
 with open(html_path, "w", encoding="utf-8") as f:
+    f.write(llano)
+index_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "index.html")
+with open(index_path, "w", encoding="utf-8") as f:
     f.write(llano)
 
 new_size = len(llano)
