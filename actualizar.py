@@ -160,6 +160,8 @@ FOTO_LOCAL = [
     (['mayoral'],                         'img/politicos/mayoral.jpg'),
     (['verna'],                           'img/politicos/verna.jpg'),
     (['rauschenberger'],                  'img/politicos/rauschenberger.png'),
+    (['insaurralde'],                     'https://upload.wikimedia.org/wikipedia/commons/2/2e/Insaurralde_%28cropped%29.jpg'),
+    (['tosso'],                           'img/politicos/tosso.jpg'),
 ]
 
 def buscar_foto_local(titulo, resumen=''):
