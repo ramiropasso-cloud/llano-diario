@@ -144,7 +144,7 @@ def apn_cuerpo(url):
 
 # Mapeo keyword → foto local (img/politicos/)
 FOTO_LOCAL = [
-    (['adorni'],                          'img/politicos/ardo.webp'),
+    (['adorni'],                          'img/politicos/adorni.avif'),
     (['berhongaray'],                     'img/politicos/berhongaray.webp'),
     (['huala'],                           'img/politicos/huala.webp'),
     (['kroneberger'],                     'img/politicos/krone.webp'),
@@ -160,7 +160,7 @@ FOTO_LOCAL = [
     (['mayoral'],                         'img/politicos/mayoral.jpg'),
     (['verna'],                           'img/politicos/verna.jpg'),
     (['rauschenberger'],                  'img/politicos/rauschenberger.png'),
-    (['insaurralde'],                     'https://upload.wikimedia.org/wikipedia/commons/2/2e/Insaurralde_%28cropped%29.jpg'),
+    (['insaurralde'],                     'https://upload.wikimedia.org/wikipedia/commons/a/aa/Manzur_e_Insaurralde_%28cropped%29.jpg'),
     (['tosso'],                           'img/politicos/tosso.jpg'),
 ]
 
@@ -303,35 +303,37 @@ _W = 'https://upload.wikimedia.org/wikipedia/commons'
 
 # Cada tema mapea a una LISTA de fotos candidatas (no una sola), para poder
 # rotar y evitar que dos noticias distintas terminen mostrando la misma imagen.
+_ECONOMIA_BUILDING = f'{_W}/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg'
+
+# IMPORTANTE: todas las URLs de este mapa deben ser fotos reales y recientes
+# (verificadas, no de archivo/stock viejo) — si no se encuentra una foto actual
+# confiable para un tema, se omite el tema (el pipeline cae al placeholder con
+# gradiente) en vez de usar una foto vieja o de un lugar/persona distinto.
 TOPIC_LOCAL = [
     (['congreso', 'diputados', 'camara baja', 'camara de diputados'],
-     [f'{_W}/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg']),
+     [f'{_W}/thumb/d/d2/144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg/960px-144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg']),
     (['senado', 'senadores nacionales', 'camara alta'],
-     [f'{_W}/1/15/Recinto_del_Senado_de_la_Naci%C3%B3n_Argentina.jpg',
-      f'{_W}/thumb/3/3f/Congreso-sol_cupula-TM.jpg/960px-Congreso-sol_cupula-TM.jpg']),
+     [f'{_W}/6/61/Fin_PASO_01.jpg']),
     (['casa rosada', 'gobierno nacional', 'presidencia', 'poder ejecutivo', 'vocero presidencial', 'voceria'],
-     [f'{_W}/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG']),
+     [f'{_W}/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg']),
     (['banco central', 'bcra'],
-     [f'{_W}/thumb/3/30/Banco_Central_de_la_Rep%C3%BAblica_Argentina_en_2016.jpg/960px-Banco_Central_de_la_Rep%C3%BAblica_Argentina_en_2016.jpg']),
+     [_ECONOMIA_BUILDING]),
     (['inflación', 'inflacion', 'economía nacional', 'economia nacional', 'dólar', 'dolar',
       'ministerio de economía', 'ministerio de economia', 'tasas de interés', 'tasas de interes',
       'mercados', 'bonos argentinos'],
-     [f'{_W}/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png']),
+     [f'{_W}/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png',
+      _ECONOMIA_BUILDING]),
     (['pyme', 'pymes', 'crédito', 'creditos', 'créditos', 'financiamiento'],
-     [f'{_W}/thumb/d/db/Banco_de_la_Naci%C3%B3n_argentina_-_panoramio.jpg/960px-Banco_de_la_Naci%C3%B3n_argentina_-_panoramio.jpg']),
-    (['cosecha', 'agro', 'agroindustria', 'agricultura', 'trigo', 'soja', 'granos'],
-     [f'{_W}/9/97/Loading_wheat_at_Rosario_Argentina_%286964413258%29.jpg']),
-    (['deuda', 'acreedores', 'bolsa', 'refinanciamiento', 'coparticipacion', 'coparticipación'],
-     [f'{_W}/c/ca/Bolsa_de_Comercio_%28Buenos_Aires%29.jpg']),
+     [_ECONOMIA_BUILDING]),
     (['empleo', 'desempleo', 'trabajo', 'ministerio de trabajo', 'mercado laboral'],
      [f'{_W}/thumb/c/ce/Cartel_ministerio_de_trabajo_y_empleo_argentina.jpg/960px-Cartel_ministerio_de_trabajo_y_empleo_argentina.jpg']),
+    # cosecha/agro y deuda/bolsa: sin foto reciente confiable disponible — se omiten
+    # a proposito para no caer en fotos viejas (ver comentario arriba).
 ]
 
 # Fallback para noticias genericas de La Pampa (sin persona ni foto APN) que el
 # resto del pipeline (foto local / persona / wikipedia) no logra resolver.
 PAMPA_LOCAL = [
-    (['salud', 'hospital', 'sanitari'],
-     [f'{_W}/1/18/Hospital_Regional.jpg']),
     (['cultura', 'patrimonio', 'museo'],
      [f'{_W}/thumb/6/6f/Entrada_al_Museo_Provincial_de_Historia_Natural_de_La_Pampa_1.jpg/960px-Entrada_al_Museo_Provincial_de_Historia_Natural_de_La_Pampa_1.jpg']),
     (['educación', 'educacion', 'escuela', 'digital', 'tecnologia', 'tecnología', 'universidad'],
@@ -340,8 +342,8 @@ PAMPA_LOCAL = [
      [f'{_W}/thumb/f/f3/Camara_de_diputados_de_La_Pampa_05.jpg/960px-Camara_de_diputados_de_La_Pampa_05.jpg']),
     (['santa rosa', 'municipal', 'intendencia'],
      [f'{_W}/thumb/9/9d/Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg/960px-Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg']),
-    (['general pico'],
-     [f'{_W}/thumb/d/db/Calle_de_Gral._Pico.JPG/960px-Calle_de_Gral._Pico.JPG']),
+    # salud/hospital y general pico: sin foto reciente confiable disponible — se omiten
+    # (la unica de Hospital Regional encontrada es de 1930-1950; la de Gral. Pico es de 2009).
 ]
 
 TOPIC_LOCAL_ALL = TOPIC_LOCAL + PAMPA_LOCAL
