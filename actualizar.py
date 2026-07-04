@@ -510,6 +510,40 @@ pampa_sin_fuentes = (len(apn_items) + len(dip_items) < 3)
 if pampa_sin_fuentes:
     print("Pocas/ninguna noticia provincial disponible (APN/Diputados) — se prioriza nacional/internacional este turno.")
 
+# ── CHEQUEO DE NOVEDAD: no publicar si APN no tiene noticias nuevas ──
+def _titulos_sec01_actuales():
+    """Extrae los titulos h4 del bloque sec01_list en llano.html (para detectar novedad)"""
+    html_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "llano.html")
+    try:
+        with open(html_path, 'r', encoding='utf-8') as _fh:
+            _txt = _fh.read()
+        _m = re.search(r'<!-- AUTO:SEC01-LIST:START -->(.*?)<!-- AUTO:SEC01-LIST:END -->', _txt, re.DOTALL)
+        if not _m:
+            return set()
+        return set(t.lower().strip() for t in re.findall(r'<h4[^>]*>([^<]{10,120})</h4>', _m.group(1)))
+    except Exception:
+        return set()
+
+def _titulos_hero_actual():
+    html_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "llano.html")
+    try:
+        with open(html_path, 'r', encoding='utf-8') as _fh:
+            _txt = _fh.read()
+        _m = re.search(r'<!-- AUTO:HERO:START -->.*?<h2[^>]*>([^<]{10,150})</h2>', _txt, re.DOTALL)
+        return _m.group(1).lower().strip() if _m else ''
+    except Exception:
+        return ''
+
+if not pampa_sin_fuentes:
+    _titulos_pub = _titulos_sec01_actuales()
+    _hero_pub    = _titulos_hero_actual()
+    _apn_nuevos  = [it for it in apn_items if it['titulo'][:50].lower() not in (t[:50] for t in _titulos_pub)]
+    _hero_nuevo  = apn_items[0]['titulo'][:50].lower() != _hero_pub[:50] if apn_items else False
+    print(f"  Novedad APN: {len(_apn_nuevos)}/{len(apn_items)} titulos nuevos vs llano.html publicado")
+    if len(_apn_nuevos) < 2 and not _hero_nuevo:
+        print("Sin noticias nuevas de La Pampa (APN no actualizo desde la ultima corrida) — saltando turno.")
+        sys.exit(0)
+
 # ── CONSTRUIR CONTEXTO PARA CLAUDE ──
 apn_texto = ""
 for it in apn_items:
