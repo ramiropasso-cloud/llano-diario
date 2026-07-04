@@ -399,6 +399,78 @@ def diputados_noticias(max_items=4):
     return items
 
 
+def rss_items(url, max_items=10):
+    """Parsea un feed RSS/Atom y devuelve lista de {titulo, url, descripcion}"""
+    import xml.etree.ElementTree as ET
+    raw = fetch(url, timeout=15)
+    if not raw:
+        return []
+    items = []
+    try:
+        # Quitar namespace para simplificar XPath
+        raw_clean = re.sub(r' xmlns[^"]*"[^"]*"', '', raw)
+        root = ET.fromstring(raw_clean)
+        # RSS 2.0
+        for it in root.findall('.//item')[:max_items]:
+            titulo = (it.findtext('title') or '').strip()
+            link   = (it.findtext('link') or it.findtext('guid') or '').strip()
+            desc   = re.sub(r'<[^>]+>', '', it.findtext('description') or '')[:250].strip()
+            if titulo and len(titulo) > 10:
+                items.append({'titulo': titulo, 'url': link, 'desc': desc})
+        # Atom
+        if not items:
+            ns = {'a': 'http://www.w3.org/2005/Atom'}
+            for it in root.findall('.//a:entry', ns)[:max_items]:
+                titulo = (it.findtext('a:title', namespaces=ns) or '').strip()
+                link_el = it.find('a:link', ns)
+                link = (link_el.get('href', '') if link_el is not None else '').strip()
+                desc = re.sub(r'<[^>]+>', '', it.findtext('a:summary', namespaces=ns) or '')[:250].strip()
+                if titulo and len(titulo) > 10:
+                    items.append({'titulo': titulo, 'url': link, 'desc': desc})
+    except Exception as e:
+        print(f"  [rss parse error] {url}: {e}")
+    return items
+
+
+def noticias_nacionales_rss(max_items=10):
+    """Intenta varios feeds RSS nacionales y devuelve las noticias mas frescas"""
+    FUENTES = [
+        "https://www.lanacion.com.ar/arc/outboundfeeds/rss/",
+        "https://www.ambito.com/rss/home.xml",
+        "https://www.infobae.com/feeds/rss/",
+        "https://www.pagina12.com.ar/rss/portada",
+    ]
+    for url in FUENTES:
+        items = rss_items(url, max_items)
+        if len(items) >= 3:
+            print(f"  Nacionales RSS: {len(items)} items de {url}")
+            return items
+        elif items:
+            print(f"  Nacionales RSS parcial: {len(items)} items de {url}")
+        else:
+            print(f"  [nac rss fallo] {url}")
+    return []
+
+
+def noticias_internacionales_rss(max_items=8):
+    """Intenta varios feeds RSS internacionales en espanol"""
+    FUENTES = [
+        "https://feeds.bbci.co.uk/mundo/rss.xml",
+        "https://rss.dw.com/xml/rss-es-all",
+        "https://www.swissinfo.ch/spa/temas-del-d%C3%ADa/rss.xml",
+    ]
+    for url in FUENTES:
+        items = rss_items(url, max_items)
+        if len(items) >= 3:
+            print(f"  Internacionales RSS: {len(items)} items de {url}")
+            return items
+        elif items:
+            print(f"  Internacionales RSS parcial: {len(items)} items de {url}")
+        else:
+            print(f"  [intl rss fallo] {url}")
+    return []
+
+
 # ── CARGAR REFERENTES PROVINCIALES ──
 referentes_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "referentes.txt")
 try:
@@ -426,9 +498,14 @@ print("Obteniendo noticias de Diputados...")
 dip_items = diputados_noticias(4)
 print(f"  {len(dip_items)} noticias encontradas en Diputados")
 
-# Si las fuentes provinciales (APN/Diputados) no respondieron, no abortamos toda la
-# actualizacion: nacional e internacional se redactan con el conocimiento de la IA y
-# no dependen de estas fuentes. Solo avisamos al prompt para que no invente La Pampa.
+print("Obteniendo noticias nacionales (RSS)...")
+nac_items = noticias_nacionales_rss(10)
+print(f"  {len(nac_items)} noticias nacionales via RSS")
+
+print("Obteniendo noticias internacionales (RSS)...")
+intl_items = noticias_internacionales_rss(8)
+print(f"  {len(intl_items)} noticias internacionales via RSS")
+
 pampa_sin_fuentes = (len(apn_items) + len(dip_items) < 3)
 if pampa_sin_fuentes:
     print("Pocas/ninguna noticia provincial disponible (APN/Diputados) — se prioriza nacional/internacional este turno.")
@@ -442,6 +519,14 @@ dip_texto = ""
 for it in dip_items:
     dip_texto += f"\n• TITULO: {it['titulo']}\n  URL: {it['url']}\n"
 
+nac_texto = ""
+for it in nac_items:
+    nac_texto += f"\n• {it['titulo']}\n  {it.get('desc','')[:200]}\n  URL: {it.get('url','')}\n"
+
+intl_texto = ""
+for it in intl_items:
+    intl_texto += f"\n• {it['titulo']}\n  {it.get('desc','')[:200]}\n  URL: {it.get('url','')}\n"
+
 aviso_sin_fuentes_pampa = ""
 if pampa_sin_fuentes:
     aviso_sin_fuentes_pampa = "ATENCION — HOY NO HAY FUENTES PROVINCIALES FRESCAS (APN y Diputados no respondieron): NO inventes noticias puntuales, anuncios, declaraciones ni hechos nuevos de La Pampa. En este turno: el hero principal y hero_side deben centrarse en la noticia nacional o internacional mas importante del dia (no en La Pampa). sec01_list puede tener menos de 6 items si no hay nada seguro que contar — preferi 1-3 items de seguimiento institucional ya conocido y verificable (continuidad de gestion, sin hechos puntuales inventados) antes que rellenar con noticias falsas. dato_dia y cita_dia tambien pueden referirse a nacional/internacional si no hay nada confiable de La Pampa hoy."
@@ -451,6 +536,18 @@ Fecha: {fecha_display} — {turno_label}
 
 NOTICIAS DISPONIBLES HOY (FUENTES OFICIALES PROVINCIALES):
 {apn_texto if apn_texto.strip() else "No disponible hoy."}
+
+NOTICIAS NACIONALES — RSS REAL DE HOY:
+{nac_texto if nac_texto.strip() else "RSS nacional no disponible en este turno."}
+
+NOTICIAS INTERNACIONALES — RSS REAL DE HOY:
+{intl_texto if intl_texto.strip() else "RSS internacional no disponible en este turno."}
+
+REGLA FUNDAMENTAL — NUNCA INVENTAR:
+- sec03 (nacional) SOLO puede cubrir noticias que aparecen en la seccion "NOTICIAS NACIONALES" de arriba. Si hay pocas, pone menos items — preferi 2-3 items reales a 6 inventados.
+- sec04 (internacional) SOLO puede cubrir noticias que aparecen en la seccion "NOTICIAS INTERNACIONALES" de arriba. Si hay pocas, pone menos items — preferi 2-3 items reales a 5 inventados.
+- NUNCA uses tu entrenamiento para inventar noticias de hoy en sec03 ni sec04. Las noticias de hoy solo pueden venir de las fuentes RSS de arriba.
+{aviso_sin_fuentes_pampa}
 
 PRINCIPIOS EDITORIALES:
 1. OBJETIVIDAD ABSOLUTA — cobertura igual para PJ, UCR, LLA y todos los partidos. Sin sesgo.
@@ -464,13 +561,10 @@ PRINCIPIOS EDITORIALES:
 
 DEFINICION ESTRICTA DE SECCIONES:
 - sec01_list = 6 noticias de LA PAMPA en formato lista (gobierno provincial, municipios, politica pampeana, economia, salud, cultura, obra publica) — NO repetir los temas/protagonistas ya cubiertos en hero o hero_side, deben ser noticias distintas
-- sec03 (cards) = 6 noticias de ARGENTINA NACIONAL (Casa Rosada, Congreso, economia nacional, partidos nacionales) — NADA de La Pampa
-- sec04 (lista) = 5 noticias INTERNACIONALES (otros paises, organismos mundiales) — NADA de Argentina
+- sec03 (cards) = noticias de ARGENTINA NACIONAL basadas en RSS de arriba (Casa Rosada, Congreso, economia nacional, partidos nacionales) — NADA de La Pampa — puede tener menos de 6 si el RSS tiene pocos items hoy
+- sec04 (lista) = noticias INTERNACIONALES basadas en RSS de arriba (otros paises, organismos mundiales) — NADA de Argentina — puede tener menos de 5 si el RSS tiene pocos items hoy
 - dato_dia = el dato estadistico/cifra mas importante del dia en La Pampa
 - cita_dia = la frase textual mas relevante del dia en la politica pampeana
-
-Para sec03 y sec04 usa tu conocimiento del contexto mundial y nacional de hoy {fecha_display}.
-{aviso_sin_fuentes_pampa}
 
 ARTICULO COMPLETO OBLIGATORIO PARA TODAS LAS NOTAS — NO SOLO LAS PRINCIPALES:
 El array "arts" debe incluir UN articulo completo por CADA noticia que aparece en sec01_list, sec03 y hero_side (NO es necesario para sec04, que es solo lista internacional sin clic). Es decir: 6 (sec01_list) + 6 (sec03) + 2 (hero_side) = 14 articulos en total. El campo "titulo" de cada entrada en "arts" debe coincidir EXACTAMENTE con el "titulo" de la noticia correspondiente en su seccion de origen, porque el sitio usa ese texto para abrir el articulo al hacer clic. Ninguna noticia debe quedar sin articulo completo: ningun lector debe hacer clic y que no pase nada. Para cada articulo escribe 4 parrafos completos en HTML con etiquetas p y strong.
@@ -689,7 +783,7 @@ if not isinstance(data.get('hero'), dict):
     print("ERROR: hero malformado en la respuesta — abortando sin modificar llano.html")
     sys.exit(1)
 
-if not data.get('sec01_list') or len(data.get('sec03', [])) < 6 or not data.get('sec04'):
+if not data.get('sec01_list') or len(data.get('sec03', [])) < 2 or not data.get('sec04'):
     print(f"ERROR: respuesta insuficiente (sec01_list={len(data.get('sec01_list',[]))}, sec03={len(data.get('sec03',[]))}, sec04={len(data.get('sec04',[]))}) — abortando sin modificar llano.html")
     sys.exit(1)
 
