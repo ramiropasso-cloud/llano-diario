@@ -966,11 +966,11 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     <div style="display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:1.5rem;align-items:start;" class="video-grid">
 
       <!-- EMBED DEL VIDEO — cambiar VIDEO_ID en src y en el onclick para actualizar -->
-      <div id=”yt-facade” onclick=”llanoYT()” style=”border-radius:var(--r-lg);overflow:hidden;background:#000;position:relative;aspect-ratio:16/9;width:100%;cursor:pointer;”>
+      <div id=”yt-facade” onclick=”llanoYT()” style=”border-radius:var(--r-lg);overflow:hidden;background:#000;position:relative;cursor:pointer;”>
         <img src=”https://img.youtube.com/vi/kgwzHK_l0ak/maxresdefault.jpg”
              onerror=”this.src='https://img.youtube.com/vi/kgwzHK_l0ak/hqdefault.jpg'”
              alt=”Vista previa”
-             style=”position:absolute;inset:0;width:100%;height:100%;object-fit:cover;”>
+             style=”width:100%;display:block;aspect-ratio:16/9;object-fit:cover;”>
         <div style=”position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.2);”>
           <div style=”width:72px;height:50px;background:#ff0000;border-radius:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 24px rgba(0,0,0,.55);”>
             <svg viewBox=”0 0 24 24” style=”width:30px;fill:#fff;margin-left:5px;”><path d=”M8 5v14l11-7z”/></svg>
@@ -1078,7 +1078,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       <div class="card-meta"><span class="ts">5 jul 2026 · LLANO·</span></div>
     </div>
     <div class="card">
-      <div class="card-img" style="background:#111;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Donald_Trump_official_portrait.jpg/640px-Donald_Trump_official_portrait.jpg" alt="Donald Trump retrato oficial" loading="lazy" /></div>
+      <div class="card-img" style="background:#111;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg" alt="Donald Trump retrato oficial" loading="lazy" /></div>
       <div class="card-meta"><span class="cat">Política Internacional · Estados Unidos</span><span class="ia-badge">&#10022; IA</span></div>
       <h3>Trump agradeció a la FIFA por dejar jugar a Balogun: escándalo en los octavos de final</h3>
       <p>El presidente estadounidense intervino públicamente para que se levantara la sanción al delantero de EE.UU. antes del partido ante Bélgica. La FIFA suspendió la suspensión tras presión política.</p>
@@ -1448,7 +1448,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     trump_fifa_balogun: {
       cat:'Política Internacional · Estados Unidos', fecha:'5 jul 2026', fuente:'LLANO·',
       fuenteUrl:'https://www.ambito.com/deportes/escandalo-el-mundial-donald-trump-le-agradecio-la-fifa-dejar-jugar-folarin-balogun-frente-belgica-n6296388',
-      foto:'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Donald_Trump_official_portrait.jpg/640px-Donald_Trump_official_portrait.jpg',
+      foto:'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg/960px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg',
       titulo:`Trump agradeció a la FIFA por dejar jugar a Balogun: escándalo en los octavos de final`,
       bajada:`El presidente estadounidense intervino públicamente para que se levantara la sanción al delantero de Estados Unidos antes del partido ante Bélgica. La FIFA suspendió la suspensión tras la presión política y Trump lo celebró en redes.`,
       cuerpo:`<p>Uno de los escándalos del Mundial 2026 tiene nombre propio: Folarin Balogun, delantero de la selección de Estados Unidos, acumuló una tarjeta amarilla en la fase de grupos que lo dejaba automáticamente suspendido para el partido de octavos de final ante Bélgica. Sin embargo, la intervención de <strong>Donald Trump, presidente de Estados Unidos y anfitrión político del torneo, cambió el curso de los hechos</strong>: el mandatario presionó públicamente a la FIFA para que revisara la sanción, y la FIFA cedió.</p><p>La FIFA accedió a levantar la suspensión de Balogun argumentando una revisión técnica del procedimiento disciplinario, en lo que fue interpretado globalmente como una capitulación ante la presión política del gobierno anfitrión. <strong>Trump celebró la decisión en sus redes sociales con un mensaje de agradecimiento explícito a la FIFA</strong>, escena que generó críticas de federaciones de todo el mundo por el peligroso precedente de permitir que un gobierno influya en decisiones deportivas de un organismo internacional que supone ser autónomo.</p><p>El caso Balogun reactiva el debate permanente sobre la independencia de la FIFA frente a los intereses de los países sedes de los grandes torneos. <strong>Las críticas más duras llegaron desde Europa y Sudamérica, donde dirigentes deportivos cuestionaron abiertamente si la FIFA aplicaría el mismo criterio flexible si la presión viniera de un gobierno africano, asiático o latinoamericano</strong> en lugar del presidente de la potencia anfitriona.</p><p>Para Estados Unidos, tener a Balogun disponible para el partido ante Bélgica cambia significativamente las perspectivas del equipo en esta instancia del torneo. El delantero, nacido en Nueva York de padres nigerianos y formado en las academias de Arsenal en Inglaterra, <strong>es uno de los jugadores más desequilibrantes de la Concacaf y su presencia en cancha representa un factor diferencial</strong> que el cuerpo técnico estadounidense no quería resignar en octavos de un Mundial que su país organiza y en el que la presión local por avanzar es enorme.</p>`
