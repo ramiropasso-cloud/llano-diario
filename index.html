@@ -740,7 +740,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 <div class="meta-bar">
   <div class="mb-l">
     <span class="mb-date">Domingo, 5 de julio de 2026 · La Pampa</span>
-    <span class="mb-focus">La Pampa perdió $99.500 millones en coparticipación federal respecto a 2023 · Braquiterapia habilitada en Radio Oncología · Brasil eliminado del Mundial</span>
+    <span class="mb-focus" id="dolar-strip">Dólar · cargando...</span>
     <span class="ai-tag-sm">100% IA</span>
   </div>
   <div class="mb-r">El primer diario digital IA de La Pampa</div>
@@ -1616,5 +1616,30 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 </div>
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<script>
+(function(){
+  var el = document.getElementById('dolar-strip');
+  if(!el) return;
+  fetch('https://dolarapi.com/v1/dolares')
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      function find(casa){ return data.find(function(d){ return d.casa === casa; }); }
+      function fmt(item){ return item ? '$' + Math.round(item.venta).toLocaleString('es-AR') : '—'; }
+      var oficial = find('oficial');
+      var blue    = find('blue');
+      var mep     = find('bolsa');
+      var cripto  = find('cripto');
+      var partes  = [];
+      if(oficial) partes.push('Oficial ' + fmt(oficial));
+      if(blue)    partes.push('Blue '    + fmt(blue));
+      if(mep)     partes.push('MEP '     + fmt(mep));
+      if(cripto)  partes.push('Cripto '  + fmt(cripto));
+      el.textContent = 'Dólar hoy · ' + partes.join(' · ');
+    })
+    .catch(function(){
+      el.textContent = 'Dólar · sin datos';
+    });
+})();
+</script>
 </body>
 </html>
