@@ -963,17 +963,17 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   </div>
 
   <div class="fade-in" style="margin-bottom:3rem;">
-    <div style="display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:1.5rem;align-items:start;" class="video-grid">
+    <div style=”display:grid;grid-template-columns:320px 1fr;gap:1.5rem;align-items:start;” class=”video-grid”>
 
       <!-- EMBED DEL VIDEO — cambiar VIDEO_ID en src y en el onclick para actualizar -->
       <div id=”yt-facade” onclick=”llanoYT()” style=”border-radius:var(--r-lg);overflow:hidden;background:#000;position:relative;cursor:pointer;”>
-        <img src=”https://img.youtube.com/vi/kgwzHK_l0ak/maxresdefault.jpg”
-             onerror=”this.src='https://img.youtube.com/vi/kgwzHK_l0ak/hqdefault.jpg'”
+        <img src=”https://img.youtube.com/vi/mxn6H27wBAA/maxresdefault.jpg”
+             onerror=”this.src='https://img.youtube.com/vi/mxn6H27wBAA/hqdefault.jpg'”
              alt=”Vista previa”
-             style=”width:100%;display:block;aspect-ratio:16/9;object-fit:cover;”>
+             style=”width:100%;display:block;aspect-ratio:9/16;object-fit:cover;”>
         <div style=”position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(0,0,0,.2);”>
-          <div style=”width:72px;height:50px;background:#ff0000;border-radius:14px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 24px rgba(0,0,0,.55);”>
-            <svg viewBox=”0 0 24 24” style=”width:30px;fill:#fff;margin-left:5px;”><path d=”M8 5v14l11-7z”/></svg>
+          <div style=”width:64px;height:64px;background:#ff0000;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 24px rgba(0,0,0,.55);”>
+            <svg viewBox=”0 0 24 24” style=”width:28px;fill:#fff;margin-left:4px;”><path d=”M8 5v14l11-7z”/></svg>
           </div>
         </div>
       </div>
@@ -982,11 +982,11 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       <div style=”display:flex;flex-direction:column;gap:1rem;”>
         <div class=”ab”>
           <div class=”card-meta” style=”margin-bottom:.5rem;”>
-            <span class=”cat” id=”video-plataforma”>YouTube · Infobae</span>
+            <span class=”cat” id=”video-plataforma”>YouTube Shorts · LLANO·</span>
             <span class=”ia-badge”>&#10022; Video</span>
           </div>
-          <h4 id=”video-titulo” style=”font-size:1rem;line-height:1.4;margin:0 0 .6rem;”>”Milei hará todas las reformas necesarias”: Diego Santilli en exclusiva con Luis Majul</h4>
-          <p id=”video-desc” style=”font-size:.8rem;color:var(--fg-2);line-height:1.5;margin:0 0 .8rem;”>El jefe de Gabinete habló en exclusiva con Luis Majul sobre el rumbo económico del Gobierno, las reformas pendientes y su rol en la conducción política del Ejecutivo.</p>
+          <h4 id=”video-titulo” style=”font-size:1rem;line-height:1.4;margin:0 0 .6rem;”>Short del día</h4>
+          <p id=”video-desc” style=”font-size:.8rem;color:var(--fg-2);line-height:1.5;margin:0 0 .8rem;”>Selección diaria de LLANO· en formato corto.</p>
           <span class=”ts” id=”video-fecha”>5 jul 2026 · LLANO·</span>
         </div>
         <div class="ab">
@@ -1594,7 +1594,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   function llanoYT() {
     var f = document.getElementById('yt-facade');
     if (!f) return;
-    f.innerHTML = '<iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/kgwzHK_l0ak?rel=0&modestbranding=1&autoplay=1" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share" allowfullscreen></iframe>';
+    f.innerHTML = '<iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/mxn6H27wBAA?rel=0&modestbranding=1&autoplay=1" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share" allowfullscreen></iframe>';
     f.style.cursor = 'default';
     f.onclick = null;
   }
