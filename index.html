@@ -962,11 +962,13 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   </div>
 
   <div class=”fade-in” style=”margin-bottom:3rem;”>
-    <!-- EMBED DEL VIDEO — reemplazar VIDEO_ID en el src para actualizar -->
+    <!-- VIDEO: se actualiza automático con el último video del canal. Cambiar LLANO_YT_FALLBACK para forzar uno específico -->
     <div style=”position:relative;aspect-ratio:16/9;border-radius:var(--r-lg);overflow:hidden;”>
-      <iframe style=”position:absolute;inset:0;width:100%;height:100%;border:0;”
-              src=”https://www.youtube.com/embed/BANL3oXPwVg?rel=0&modestbranding=1”
+      <iframe id=”llano-yt-iframe”
+              style=”position:absolute;inset:0;width:100%;height:100%;border:0;”
+              src=”https://www.youtube.com/embed/CZyemcwKgjM?rel=0”
               allow=”accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share”
+              referrerpolicy=”strict-origin-when-cross-origin”
               allowfullscreen></iframe>
     </div>
   </div>
@@ -1685,6 +1687,24 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     })
     .catch(function(){
       el.textContent = 'Dólar · sin datos';
+    });
+})();
+
+// Auto-carga el último video del canal LLANO en YouTube
+(function(){
+  var CHANNEL = 'UCj6PcyLvpnIRT_2W_mwa9Aw';
+  var FALLBACK = 'CZyemcwKgjM';
+  var iframe = document.getElementById('llano-yt-iframe');
+  if (!iframe) return;
+  fetch('https://www.youtube.com/feeds/videos.xml?channel_id=' + CHANNEL, {cache: 'no-cache'})
+    .then(function(r){ return r.text(); })
+    .then(function(xml){
+      var m = xml.match(/<yt:videoId>([A-Za-z0-9_-]{11})<\/yt:videoId>/);
+      var id = (m && m[1]) ? m[1] : FALLBACK;
+      iframe.src = 'https://www.youtube.com/embed/' + id + '?rel=0';
+    })
+    .catch(function(){
+      iframe.src = 'https://www.youtube.com/embed/' + FALLBACK + '?rel=0';
     });
 })();
 </script>
