@@ -2,6 +2,182 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-07-13_tarde",
+      "fecha_iso": "2026-07-13",
+      "fecha": "13 julio 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "El Banco de Sangre del Favaloro suma biología molecular",
+        "summary": "El servicio provincial obtuvo acreditación nacional y incorporó un moderno analizador automatizado. La Pampa se posiciona como tercera provincia del país con esta tecnología.",
+        "cat": "Salud · La Pampa",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/1538801_banco-de-sangredsc_4986.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Provincia recordó el funcionamiento del sistema de adopciones",
+          "resumen": "La Dirección General de Niñez y Adolescencia brindó precisiones sobre el acogimiento familiar y los procesos legales.",
+          "cat": "Justicia · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a5504e5b40e8.jpg",
+          "ts": "13 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Turismo: un fin de semana con moderado movimiento en La Pampa",
+          "resumen": "La Secretaría de Turismo reportó detalles del flujo turístico interno durante el fin de semana extendido.",
+          "cat": "Turismo · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/244581_img-20260712-wa0043.jpg",
+          "ts": "13 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Continúan promocionando las buenas prácticas de poda para un arbolado saludable",
+          "resumen": "El Gobierno provincial impulsa capacitaciones sobre técnicas correctas para el cuidado del arbolado urbano.",
+          "cat": "Ambiente · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a513e4d6ab29.jpg",
+          "ts": "13 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "10 años del PROCAAP: una política pública que transcendió gobiernos",
+          "resumen": "Se conmemoró una década del programa provincial de capacitación y asistencia con continuidad entre administraciones.",
+          "cat": "Políticas Públicas · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a522990490a9.jpg",
+          "ts": "13 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "120 años de Maisonnave: emotiva jornada popular",
+          "resumen": "La localidad celebró su aniversario con actividades que reafirmaron el sentido de identidad comunitaria.",
+          "cat": "Cultura · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1603970_img-20260712-wa0028.jpg",
+          "ts": "13 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Empresas pampeanas reportan crecimiento en primer semestre",
+          "resumen": "Indicadores locales muestran recuperación gradual en comercio y producción agroindustrial.",
+          "cat": "Economía · La Pampa",
+          "foto": "",
+          "ts": "13 jul 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Congreso retoma sesiones ordinarias con agenda legislativa ambiciosa",
+          "resumen": "Diputados y senadores vuelven a sesiones con proyectos sobre reforma fiscal y políticas sociales en debate.",
+          "cat": "Política Nacional · Congreso",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg/960px-144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg",
+          "ts": "13 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Banco Central mantiene tasas y analiza perspectivas de inflación",
+          "resumen": "La autoridad monetaria evaluó datos económicos y proyecciones para los próximos meses.",
+          "cat": "Economía Nacional",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/ECB_Frankfurt_at_Sunset.jpg/960px-ECB_Frankfurt_at_Sunset.jpg",
+          "ts": "13 jul 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Políticas públicas y gestión en la Universidad Jauretche",
+          "resumen": "El ministro Álvarez expuso sobre iniciativas provinciales y entregó certificados a agentes que completaron diplomatura.",
+          "cat": "Educación · La Pampa",
+          "ts": "13 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Jardín Botánico: actividades para chicos en receso invernal",
+          "resumen": "El espacio provincial invita a familias a participar en programas especiales durante las vacaciones escolares.",
+          "cat": "Ambiente · La Pampa",
+          "ts": "13 jul 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "banco_favaloro_biologia",
+          "cat": "Salud · La Pampa",
+          "titulo": "El Banco de Sangre del Favaloro ya puede analizar las donaciones aplicando biología molecular",
+          "bajada": "Tras obtener la acreditación del máximo organismo nacional, el servicio del Favaloro sumó un moderno analizador automatizado de biología molecular financiado por la Provincia. La Pampa se posiciona como la tercera provincia del país con esta capacidad diagnóstica.",
+          "cuerpo": "<p>El <strong>Banco de Sangre del Hospital Evita Favaloro</strong> incorporó un equipo de última generación en biología molecular tras cumplir con todos los requisitos de <strong>acreditación ante el organismo nacional competente</strong>. Esta inversión, financiada íntegramente por el Gobierno provincial, posiciona a La Pampa como la tercera jurisdicción del país —después de Buenos Aires y Córdoba— en contar con esta tecnología de punta en análisis de donaciones.</p><p>El analizador automatizado permite <strong>detectar marcadores de patógenos y enfermedades infecciosas</strong> con mayor precisión y rapidez que los métodos convencionales. Esta capacidad es crucial para garantizar la seguridad de las transfusiones sanguíneas y reducir riesgos de contaminación cruzada en los receptores de sangre. La tecnología representa un salto cualitativo en los estándares de calidad del servicio.</p><p>El ministerio de Salud provincial destacó que la inversión refleja <strong>el compromiso con la mejora continua de la infraestructura sanitaria</strong> en el interior del país. Funcionarios señalaron que muchas provincias aún carecen de esta capacidad diagnóstica y deben enviar muestras a laboratorios centralizados en Buenos Aires, lo que retrasa los procesos y aumenta costos operativos.</p><p>La habilitación del nuevo equipo complementa los servicios que ya ofrecía el Favaloro y representa un paso más en la <strong>descentralización de tecnología médica de punta</strong> hacia las provincias. Autoridades sanitarias instaron a la población a seguir donando sangre regularmente para mantener los bancos reabastecidos y garantizar cobertura en casos de emergencias.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1538801_banco-de-sangredsc_4986.jpg"
+        },
+        {
+          "id": "politicas_publicas_jauretche",
+          "cat": "Educación · La Pampa",
+          "titulo": "La Pampa en la jornada",
+          "bajada": "El ministro Diego Álvarez expuso sobre las políticas públicas que impulsa el Gobierno provincial y acompañó la entrega de certificados a agentes que finalizaron la Diplomatura Superior. La Universidad Jauretche reunió a funcionarios y estudiantes en una jornada de «Construir Futuro: Estado y Comunidad».",
+          "cuerpo": "<p>El <strong>ministro de Educación Diego Álvarez</strong> representó al Gobierno de La Pampa en la Universidad Jauretche durante una jornada dedicada a analizar el papel del Estado y la comunidad en la construcción del futuro. En su exposición, Álvarez subrayó las <strong>líneas estratégicas de la política educativa provincial</strong> y destacó iniciativas orientadas a fortalecer la formación de agentes públicos.</p><p>Durante el acto se completó la entrega de <strong>certificados a agentes provinciales que culminaron la Diplomatura Superior en Vinculación</strong>, un programa diseñado para capacitar a funcionarios en herramientas de gestión pública y articulación comunitaria. El reconocimiento formal representa un hito en la profesionalización de la administración provincial y busca mejorar la calidad de los servicios hacia la ciudadanía.</p><p>La Jauretche, universidad pública con sede en La Pampa, ha consolidado su rol como <strong>espacio de formación para cuadros técnicos y políticos</strong> del Estado provincial. Autoridades académicas señalaron que los programas de diplomatura responden a demandas reales del aparato administrativo y favorecen la circulación de conocimiento entre la universidad y los organismos públicos.</p><p>Álvarez enfatizó que <strong>la educación pública es herramienta fundamental para la equidad</strong> y subrayó el compromiso del Gobierno en expandir oportunidades de formación continua. La jornada contó con participación de estudiantes, docentes y referentes de políticas sociales, conformando un espacio de diálogo sobre los desafíos actuales de la gestión pública en contextos territoriales concretos.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/293513_img-20260713-wa0059.jpg"
+        },
+        {
+          "id": "jardin_botanico_receso",
+          "cat": "Ambiente · La Pampa",
+          "titulo": "Receso invernal en el Jardín Botánico: ¡Aves para los más chicos!",
+          "bajada": "Durante el receso de invierno, el Jardín Botánico Provincial invitó a las familias a formar parte de sus actividades previstas. El Ministerio de la Producción, a través de la Dirección General de Recursos Naturales, organizó un programa especial para niños enfocado en el conocimiento de la avifauna local.",
+          "cuerpo": "<p>El <strong>Jardín Botánico Provincial</strong> diseñó una <strong>cartera de actividades didácticas durante el receso escolar invernal</strong> orientadas a acercar a niños y niñas al conocimiento de la naturaleza local. La iniciativa, promovida por el Ministerio de la Producción, busca ofrecer opciones educativas y recreativas en un contexto de vacaciones escolares invernales.</p><p>Las propuestas incluyen <strong>actividades de observación y educación sobre aves</strong> que habitan y migran por La Pampa. Especialistas en ornitología guían a los visitantes para identificar especies, conocer sus hábitos migratorios y comprender el rol de la avifauna en los ecosistemas locales. Los talleres están diseñados para diferentes franjas etarias y niveles de conocimiento previo.</p><p>El espacio verde provincial funciona como <strong>laboratorio vivo de educación ambiental</strong> y aprovecha la infraestructura del jardín para generar experiencias de contacto directo con la biodiversidad. Autoridades destacaron que estas iniciativas contribuyen a <strong>generar conciencia ambiental desde la infancia</strong> y fortalecen el vínculo de las comunidades con los recursos naturales del territorio.</p><p>Las familias interesadas pueden consultar horarios y modalidades en los canales de comunicación del Ministerio de la Producción. La actividad se enmarca en una <strong>estrategia más amplia de promoción del turismo educativo</strong> y aprovechamiento pedagógico de espacios provinciales durante períodos de receso institucional.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1033006_whatsapp-image-2026-07-13-at-10.49.50-am.jpeg"
+        },
+        {
+          "id": "adopciones_sistema",
+          "cat": "Justicia · La Pampa",
+          "titulo": "Provincia recordó el funcionamiento del sistema de adopciones",
+          "bajada": "Ante una situación de público conocimiento, la Dirección General de Niñez y Adolescencia brindó precisiones sobre el marco legal que regula el acogimiento familiar y los procesos de adopción. La cartera reafirmó que todas sus actuaciones se ajustan a principios de protección integral.",
+          "cuerpo": "<p>La <strong>Dirección General de Niñez y Adolescencia de La Pampa</strong> emitió un comunicado detallando los <strong>procedimientos y marcos legales que rigen los procesos de adopción y acogimiento familiar</strong> en la provincia. La comunicación oficial respondía a situaciones de interés público y buscaba aclarar el funcionamiento de estos mecanismos de protección de derechos infantiles.</p><p>El acogimiento familiar es un <strong>régimen transitorio destinado a garantizar el bienestar de niños y niñas</strong> mientras se resuelven sus situaciones jurídicas. La Dirección subrayó que todos los procedimientos se ajustan a la <strong>Ley Nacional de Protección Integral de Niños, Niñas y Adolescentes</strong> y a convenciones internacionales de derechos humanos que priman el «interés superior del niño».</p><p>Los procesos de adopción implican <strong>evaluaciones exhaustivas de familias solicitantes</strong>, seguimiento del desarrollo del niño en su nuevo hogar y respeto por sus vínculos originales cuando resulta viable la reunificación familiar. Especialistas en psicología, trabajo social y derecho participan en cada caso para garantizar decisiones que protejan la integridad emocional y física de menores.</p><p>Las autoridades reiteraron que <strong>la provincia cuenta con protocolos rigurosos</strong> y personal capacitado en cada etapa del proceso. Invitaron a familias interesadas en acoger o adoptar a contactar los centros de información provincial y enfatizaron que la sociedad civil y organismos de derechos humanos pueden participar en el seguimiento de estos procedimientos para asegurar transparencia y cumplimiento normativo.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a5504e5b40e8.jpg"
+        },
+        {
+          "id": "turismo_movimiento",
+          "cat": "Turismo · La Pampa",
+          "titulo": "Turismo: un fin de semana con moderado movimiento en La Pampa",
+          "bajada": "Desde la Secretaría de Turismo provincial se dieron a conocer detalles del movimiento turístico interno durante el fin de semana extendido. Los datos revelan una ocupación moderada en establecimientos y una circulación equilibrada de visitantes.",
+          "cuerpo": "<p>La <strong>Secretaría de Turismo de La Pampa</strong> reportó cifras correspondientes al <strong>movimiento turístico interno durante el fin de semana extendido</strong>. Los datos muestran un flujo moderado de visitantes en destinos provinciales, con ocupación variable según la localidad y tipo de alojamiento consultado.</p><p>Los principales <strong>polos turísticos como Santa Rosa y General Pico</strong> recibieron visitantes de provincias vecinas interesados en gastronomía local, patrimonio cultural y naturaleza. Establecimientos hoteleros reportaron una <strong>ocupación promedio del 55% a 65%</strong>, cifra típica para períodos de receso escolar en invierno. Emprendimientos de turismo rural y estancias también registraron reservas moderadas.</p><p>Autoridades de Turismo destacaron que <strong>el flujo moderado responde a factores estacionales</strong> —el invierno pampeano desalienta viajes de larga distancia— pero también representa oportunidades para consolidar el turismo interno y nacional. Insistieron en la importancia de diversificar ofertas y mejorar infraestructura para atraer visitantes durante períodos bajos.</p><p>La Secretaría anunció <strong>campañas de promoción dirigidas a mercados internos</strong> para los próximos meses, con énfasis en experiencias agrotourísticas y patrimonio histórico. Funcionarios confiaron en que iniciativas provinciales de calidad contribuirán a elevar la ocupación en temporadas futuras y consolidar a La Pampa como destino competitivo en la región central de Argentina.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/244581_img-20260712-wa0043.jpg"
+        },
+        {
+          "id": "poda_practicas",
+          "cat": "Ambiente · La Pampa",
+          "titulo": "Continúan promocionando las buenas prácticas de poda para un arbolado saludable",
+          "bajada": "El Gobierno provincial sigue desarrollando iniciativas de capacitación sobre técnicas correctas de poda urbana. Expertos en silvicultura urbana impulsan metodologías que preservan la salud de árboles y mejoran el paisaje.",
+          "cuerpo": "<p>El <strong>Ministerio de la Producción continuó promoviendo capacitaciones sobre buenas prácticas de poda</strong> en arbolado urbano y rural. Especialistas en silvicultura brindaron talleres a municipios, trabajadores forestales y ciudadanía general sobre técnicas que <strong>preservan la vitalidad de los árboles</strong> mientras mejoran la estética y seguridad del espacio público.</p><p>Las malas prácticas de poda —cortes indiscriminados, desgarros en ramas, eliminación de copa equilibrada— debilitan los árboles y los exponen a enfermedades, plagas y caída de ramas. Las capacitaciones enfatizaron <strong>cortes en ángulo correcto, evitar heridas grandes y mantener la estructura natural</strong> de cada especie. Técnicos demostraron uso apropiado de herramientas y calendarios de poda según especie y clima regional.</p><p>Funcionarios provinciales vincularon la iniciativa a <strong>objetivos más amplios de sustentabilidad urbana y adaptación al cambio climático</strong>. Árboles sanos absorben más CO₂, ofrecen mayor cobertura de sombra y mejoran la calidad del aire en ciudades. La provincia avanza en una <strong>política integral de cuidado del arbolado</strong> que involucra municipios, escuelas y organizaciones sociales.</p><p>Intendencias reportaron avances en implementación de protocolos mejorados en poda municipal. Se espera que en el mediano plazo el arbolado urbano pampeano <strong>presente mayor vigor y longevidad</strong>, reduciendo costos de mantenimiento y emergencias por caída de ramas, además de fortalecer identidades verdes en pueblos y ciudades provinciales.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a513e4d6ab29.jpg"
+        },
+        {
+          "id": "economia_semestre",
+          "cat": "Economía · La Pampa",
+          "titulo": "Empresas pampeanas reportan crecimiento en primer semestre",
+          "bajada": "Indicadores locales muestran recuperación gradual en comercio y producción agroindustrial durante los primeros seis meses de 2026. Cámaras empresariales reportan optimismo relativo en perspectivas futuras.",
+          "cuerpo": "<p>Cámaras de comercio e industria de La Pampa reportaron <strong>datos de recuperación económica gradual durante el primer semestre de 2026</strong>. Indicadores de actividad comercial, producción agroindustrial y servicios reflejan un <strong>crecimiento moderado pero sostenido</strong> comparado con períodos recientes, aunque aún por debajo de promedios históricos provinciales.</p><p>El sector agroindustrial —base de la economía pampeana— mostró <strong>mejora en márgenes de rentabilidad gracias a precios internacionales más favorables</strong> para cereales y oleaginosas. Pequeñas y medianas empresas de procesamiento reportaron mayor volumen de transacciones y nuevas inversiones en equipamiento. Comercios minoristas también registraron incremento en ventas, particularmente en rubros de consumo duradero.</p><p>Funcionarios provinciales señalaron que la <strong>estabilidad macroeconómica nacional</strong> facilitó la planificación de inversiones locales. Fondos de promoción provincial han apoyado emprendimientos de innovación y valor agregado. Sin embargo, empresarios expresaron preocupación por <strong>costos de financiamiento y acceso al crédito</strong>, que siguen siendo obstáculos para expansión más acelerada.</p><p>Perspectivas para el segundo semestre son cautamente optimistas, según consultores del sector privado. La administración provincial anunció iniciativas para <strong>fortalecer cadenas de valor agroindustriales y atraer inversión en energías renovables</strong>. Cámaras empresariales enfatizaron la necesidad de <strong>políticas de Estado consistentes a largo plazo</strong> para consolidar recuperación y competitividad regional.</p>",
+          "foto": ""
+        },
+        {
+          "id": "procaap_diez_anos",
+          "cat": "Políticas Públicas · La Pampa",
+          "titulo": "10 años del PROCAAP: una política pública que transcendió gobiernos",
+          "bajada": "Se conmemoró el décimo aniversario del Programa de Capacitación y Asistencia Provincial (PROCAAP), una iniciativa que ha mantenido continuidad a través de diferentes administraciones. Funcionarios destacaron su impacto en formación de recursos humanos.",
+          "cuerpo": "<p>La provincia de La Pampa conmemoró <strong>diez años de funcionamiento del PROCAAP</strong> (Programa de Capacitación y Asistencia Provincial), una iniciativa estatal destinada a formar y profesionalizar cuadros técnicos y administrativos del sector público. El hito fue celebrado por funcionarios del Gobierno provincial como un <strong>ejemplo de política pública de largo plazo</strong> que ha trascendido cambios de administración.</p><p>El PROCAAP fue creado originalmente con el propósito de <strong>ofrecer capacitación continua a agentes públicos en temáticas de gestión, tecnología y políticas sociales</strong>. A lo largo de una década, el programa ha capacitado a miles de funcionarios y ha generado redes de formación que involucran universidades, centros de investigación y organismos provinciales. Su continuidad a través de gobiernos de distintas orientaciones <strong>lo consolidó como política de Estado</strong>.</p><p>Autoridades enfatizaron que el PROCAAP <strong>fortaleció la profesionalización del aparato administrativo</strong> y facilitó la implementación de políticas públicas más efectivas. Graduados del programa ocupan hoy cargos en múltiples niveles de la administración provincial y municipal, multiplicando el impacto formativo. El programa también generó <strong>conocimiento local sobre realidades territoriales específicas</strong> de La Pampa.</p><p>En el acto conmemorativo, funcionarios exaltaron que <strong>iniciativas de largo plazo, financiadas consistentemente y orientadas por visiones compartidas</strong>, son clave para el desarrollo institucional. Se anunció la expansión del PROCAAP hacia nuevas áreas temáticas y la <strong>incorporación de módulos de formación digital y sostenibilidad ambiental</strong>. La provincia reafirmó su compromiso con la educación pública como herramienta de transformación social.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a522990490a9.jpg"
+        },
+        {
+          "id": "maisonnave_aniversario",
+          "cat": "Cultura · La Pampa",
+          "titulo": "120 años de Maisonnave: emotiva jornada popular",
+          "bajada": "La localidad celebró su aniversario con una jornada que reunió a vecinos y autoridades para reafirmar el sentido de identidad y pertenencia comunitaria. Actividades recreativas y culturales marcaron la conmemoración.",
+          "cuerpo": "<p><strong>Maisonnave, la histórica localidad pampeana</strong>, celebró su <strong>120 aniversario de fundación</strong> con una jornada emotiva que congregó a vecinos de distintas generaciones y autoridades municipales. La conmemoración buscó reafirmar los lazos de identidad comunitaria y reconocer la trayectoria de la localidad como nodo de producción agraria y vida social en el interior provincial.</p><p>La festividad incluyó <strong>actos cívicos, presentaciones artísticas locales y actividades recreativas familiares</strong> que ocuparon espacios públicos de la localidad. Intendentes y referentes políticos provinciales acompañaron los festejos, destacando la <strong>importancia de Maisonnave en la historia agraria de La Pampa</strong>. Vecinos compartieron anécdotas y memoria colectiva sobre transformaciones de la localidad a lo largo de las décadas.</p><p>Historiadores locales presentaron <strong>exposiciones sobre el origen de Maisonnave como colonia agrícola y su consolidación como centro de servicios rurales</strong>. La localidad fue fundada en 1906 como parte de los proyectos de colonización de tierras fiscales que caracterizaron el desarrollo de La Pampa en el siglo XX. A lo largo de 120 años, ha enfrentado ciclos de bonanza y contracción según dinámicas agrarias nacionales e internacionales.</p><p>Autoridades locales expresaron optimismo sobre el futuro de Maisonnave, subrayando que <strong>comunidades rurales pequeñas son pilares del bienestar social y territorial de La Pampa</strong>. Se anunció la <strong>implementación de iniciativas de desarrollo local</strong> orientadas a atraer inversión agroindustrial y turismo de naturaleza. La jornada conmemorativa funcionó como plataforma para renovar compromisos colectivos con el progreso compartido de la localidad.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1603970_img-20260712-wa0028.jpg"
+        },
+        {
+          "id": "congreso_sesiones",
+          "cat": "Política Nacional · Congreso",
+          "titulo": "Congreso retoma sesiones ordinarias con agenda legislativa ambiciosa",
+          "bajada": "Diputados y senadores vuelven a sesiones ordinarias con proyectos sobre reforma fiscal, políticas sociales y regulación de sectores clave en debate. Se espera un calendario legislativo activo.",
+          "cuerpo": "<p>El <strong>Congreso Nacional de Argentina retomó sus sesiones ordinarias</strong> con una agenda legislativa que incluye <strong>proyectos de reforma fiscal, políticas sociales ampliadas y regulación de sectores económicos estratégicos</strong>. Diputados y senadores de diversas bancadas presentaron iniciativas destinadas a abordar desafíos económicos y sociales del país.</p><p>Entre los temas prioritarios figuran <strong>modificaciones a la estructura impositiva nacional, financiamiento de programas sociales y regulación de energías renovables</strong>. Bloques parlamentarios de gobierno y oposición anunciaron debates intensos sobre estas cuestiones. Comisiones permanentes comenzaron a analizar proyectos que podrían avanzar hacia votaciones en plenarios en las próximas semanas.</p><p>Senadores de provincias como La Pampa participaron activamente en primeras sesiones, presentando iniciativas de interés regional. El SENADOR NACIONAL DANIEL KRONEBERGER (UCR) expresó la necesidad de <strong>fortalecer financiamiento de educación pública</strong>, mientras que la SENADORA VICTORIA HUALA (PRO) enfatizó la importancia de <strong>austeridad fiscal y reducción del gasto estatal</strong>. Estos posicionamientos reflejan tensiones ideológicas que marcarán el calendario legislativo.</p><p>Analistas políticos esperan que <strong>el segundo semestre legislativo sea más activo que el primero</strong>, con votaciones de proyectos relevantes. La coalición gobernante busca avances en reformas económicas, mientras que bloques opositores plantean medidas alternativas. La participación de legisladores pampeanos será clave en algunas votaciones donde márgenes pueden ser ajustados.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg/960px-144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg"
+        },
+        {
+          "id": "banco_central_tasas",
+          "cat": "Economía Nacional",
+          "titulo": "Banco Central mantiene tasas y analiza perspectivas de inflación",
+          "bajada": "La autoridad monetaria nacional evaluó datos económicos recientes y perspectivas de inflación para determinar mantener tasas de política monetaria. Analistas esperan decisiones futuras según evolución de precios.",
+          "cuerpo": "<p>El <strong>Banco Central de la República Argentina</strong> evaluó indicadores económicos y anunció el <strong>mantenimiento de tasas de política monetaria</strong> en su último comunicado oficial. La decisión refleja una estrategia de estabilidad cautelosa ante contextos de incertidumbre económica global y dinámicas inflacionarias nacionales complejas.</p><p>Funcionarios del Banco Central señalaron que <strong>datos de inflación muestran tendencias moderadas pero aún por encima de metas establecidas</strong>. Evaluaron tipos de cambio, reservas internacionales y mercados de crédito como variables críticas para decisiones futuras sobre tasas. La institución mantiene vigilancia sobre <strong>transmisión de política monetaria hacia economía real</strong> y comportamiento de precios finales.</p><p>Analistas financieros observan que <strong>mantener tasas refleja prudencia ante volatilidad macroeconómica</strong>. Esperan que en próximos meses, según evolución de inflación y otros indicadores, el Banco Central pueda revisar su postura. Expectativas de mercado sugieren que <strong>movimientos de tasas estarían condicionados a progreso en desinflación</strong>.</p><p>Para provincias como La Pampa, dependientes de sectores agrarios y comercio exterior, <strong>decisiones de Banco Central impactan costos de financiamiento para inversión local</strong>. Cámaras empresariales provinciales monitorean cada comunicado para evaluar condiciones de acceso a crédito. Las próximas reuniones de política monetaria serán puntos de atención para economía real en territorio provincial.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/ECB_Frankfurt_at_Sunset.jpg/960px-ECB_Frankfurt_at_Sunset.jpg"
+        }
+      ]
+    },
+    {
       "clave": "2026-06-20_tarde",
       "fecha_iso": "2026-06-20",
       "fecha": "20 junio 2026",
