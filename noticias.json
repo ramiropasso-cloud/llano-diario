@@ -2,6 +2,234 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-07-14_mediodia",
+      "fecha_iso": "2026-07-14",
+      "fecha": "14 julio 2026",
+      "turno": "Edición Mediodía · 11:00",
+      "hero": {
+        "titulo": "Banco de Sangre del Favaloro avanza con biología molecular",
+        "summary": "La Pampa se posiciona como la tercera provincia del país con análisis de donaciones por biología molecular. El Banco de Sangre del Favaloro sumó un moderno analizador automatizado financiado por la Provincia.",
+        "cat": "Salud · La Pampa",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/1538801_banco-de-sangredsc_4986.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Provincia recordó el funcionamiento del sistema de adopciones",
+          "resumen": "La Dirección General de Niñez y Adolescencia aclaró los marcos legales que regulan el acogimiento familiar y los procesos de adopción.",
+          "cat": "Familia y Derechos · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a5504e5b40e8.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Pampa en la jornada: Estado y Comunidad en la Universidad Jauretche",
+          "resumen": "El ministro Diego Álvarez expuso sobre políticas públicas y entregó certificados a agentes provinciales que completaron diplomatura.",
+          "cat": "Educación · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/293513_img-20260713-wa0059.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Receso invernal en el Jardín Botánico: ¡Aves para los más chicos!",
+          "resumen": "El Ministerio de la Producción invita a familias a participar de actividades educativas sobre fauna local durante el receso.",
+          "cat": "Educación y Medio Ambiente · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1033006_whatsapp-image-2026-07-13-at-10.49.50-am.jpeg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Turismo: un fin de semana con moderado movimiento en La Pampa",
+          "resumen": "La Secretaría de Turismo provincial reportó un flujo turístico interno moderado durante el fin de semana extendido.",
+          "cat": "Turismo · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/244581_img-20260712-wa0043.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "10 años del PROCAAP: Una política pública que transcendió a distintos gobiernos",
+          "resumen": "Se conmemoró una década del Programa de Capacitación y Acceso al Primer Empleo, que trasciende administraciones de distintos signos políticos.",
+          "cat": "Políticas Sociales · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a522990490a9.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Continúan promocionando las buenas prácticas de poda para un arbolado saludable",
+          "resumen": "El Ministerio de la Producción sigue difundiendo técnicas de podado que preservan la salud de los árboles urbanos.",
+          "cat": "Medio Ambiente · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a513e4d6ab29.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "IBM se desploma en Wall Street con caída de casi 25% en su peor jornada en 40 años",
+          "resumen": "La tecnológica sufrió un fuerte castigo bursátil tras anticipar resultados trimestrales por debajo de las expectativas.",
+          "cat": "Economía · Estados Unidos",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Photos_NewYork1_032.jpg/960px-Photos_NewYork1_032.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Inflación de EE.UU. se desacelera al 3,5% en junio tras caída de precios de nafta",
+          "resumen": "La reducción de precios energéticos —la mayor desde 2020— impulsa la desaceleración inflacionaria en el mercado estadounidense.",
+          "cat": "Economía · Estados Unidos",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Inflación de junio: cuál fue el IPC acumulado y qué proyectan las consultoras",
+          "resumen": "Se conocerá hoy la cifra oficial de IPC de junio; en mayo la alza fue del 2,1% con variación interanual del 14,7%.",
+          "cat": "Economía · Argentina",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "La insólita idea de Toyota para que manejar un eléctrico se sienta como un auto manual",
+          "resumen": "La automotriz japonesa patentó un sistema que simula transmisión manual con embrague y palanca de cambios en vehículos eléctricos.",
+          "cat": "Tecnología · Automovilismo",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Universidad_Nacional_de_La_Pampa_2.jpg/960px-Universidad_Nacional_de_La_Pampa_2.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Un informe revela cuánto puede desvalorizarse un auto híbrido y un eléctrico en cinco años",
+          "resumen": "Análisis de más de 950.000 vehículos usados de cinco años en EE.UU. muestra la depreciación de autos alternativos.",
+          "cat": "Economía · Automovilismo",
+          "foto": "",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Según la psicología tener miedo a manejar esconde una historia de vida o un sueño postergado",
+          "resumen": "La fobia al manejo actúa como barrera para la independencia y autoconfianza de quienes la padecen.",
+          "cat": "Salud Mental · Psicología",
+          "foto": "",
+          "ts": "14 jul 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "120 años de Maisonnave: jornada para reafirmar sentido de pertenencia",
+          "resumen": "La localidad celebró su aniversario con una emotiva jornada popular que ratificó los lazos comunitarios.",
+          "cat": "Educación y Cultura · La Pampa",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Mundial 2026: Argentina llega a Atlanta para duelo con Inglaterra",
+          "resumen": "La selección campeona defensora se prepara para enfrentar a los británicos en una de las semifinales.",
+          "cat": "Deportes · Nacional",
+          "ts": "14 jul 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "adopciones_provincia",
+          "cat": "Familia y Derechos · La Pampa",
+          "titulo": "Provincia recordó el funcionamiento del sistema de adopciones",
+          "bajada": "Ante situaciones de público conocimiento, la Dirección General de Niñez y Adolescencia brindó precisiones sobre los marcos legales que regulan el acogimiento familiar y los procesos de adopción. La provincia ratificó que todas sus actuaciones se ajustan al interés superior de los menores.",
+          "cuerpo": "<p>La Dirección General de Niñez y Adolescencia de La Pampa emitió un comunicado oficial con el propósito de esclarecer los procedimientos y marcos normativos que rigen tanto el acogimiento familiar como los procesos de adopción en la provincia. Esta aclaración surge en respuesta a cuestiones de público conocimiento que generaron interrogantes sobre el funcionamiento del sistema.</p><p><strong>El organismo provincial ratificó que todas sus actuaciones se encuentran alineadas con el principio del interés superior del niño</strong>, establecido como eje fundamental en la legislación nacional e internacional sobre derechos de menores. Esto implica que cada decisión, evaluación y gestión administrativa prioriza el bienestar integral, la seguridad emocional y el desarrollo óptimo de los menores involucrados en procesos de cuidado alternativo.</p><p>Los procedimientos de acogimiento familiar y adopción en La Pampa cuentan con supervisión judicial y protocolos de seguimiento que garantizan el acompañamiento continuo de los niños y niñas durante todas las etapas del proceso. <strong>La provincia dispone de equipos interdisciplinarios que realizan evaluaciones psicosociales, valoración de familias receptoras y monitoreo periódico una vez concretadas las medidas de cuidado</strong>.</p><p>La comunicación oficial también enfatizó que los marcos legales vigentes —tanto la Convención sobre los Derechos del Niño como la legislación nacional de Protección Integral de Niños, Niñas y Adolescentes— orientan todas las prácticas institucionales de La Pampa. La provincia continúa reforzando su compromiso con la protección de menores a través del funcionamiento transparente y controlado de estos sistemas.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a5504e5b40e8.jpg"
+        },
+        {
+          "id": "ministro_alvarez_universidad_jauretche",
+          "cat": "Educación · La Pampa",
+          "titulo": "La Pampa en la jornada: Estado y Comunidad en la Universidad Jauretche",
+          "bajada": "El ministro Diego Álvarez expuso sobre las políticas públicas que impulsa el Gobierno de La Pampa ante audiencia de agentes provinciales. El evento incluyó la entrega de certificados a quienes completaron la Diplomatura Superior en Gestión Pública.",
+          "cuerpo": "<p>El ministro Diego Álvarez representó al Gobierno de La Pampa en la jornada de cierre de actividades académicas de la Universidad Jauretche, donde expuso sobre el conjunto de políticas públicas que impulsa la administración provincial. El acto reunió a agentes estatales, docentes y funcionarios de distintas dependencias en un espacio de intercambio sobre el rol del Estado en la construcción comunitaria.</p><p><strong>Durante su exposición, el ministro enfatizó el vínculo entre las decisiones de gobierno y el impacto territorial en la vida cotidiana de los ciudadanos</strong>. Álvarez repassó iniciativas provinciales en educación, economía social, infraestructura y servicios, subrayando la continuidad de programas que cruzan distintas administraciones cuando responden a necesidades estructurales de la comunidad.</p><p>El Gobierno provincial acompañó la entrega de certificados de finalización a agentes estatales que completaron la Diplomatura Superior en Gestión Pública y programas de Vinculación Territorial. <strong>Este tipo de capacitación refleja la apuesta del Estado por fortalecer las competencias de sus funcionarios y mejorar la calidad de la gestión pública</strong>, reconociendo que la modernización administrativa requiere actualización permanente de quienes trabajan en el sector público.</p><p>La iniciativa se enmarca en el esfuerzo más amplio del Gobierno provincial por profundizar el diálogo con instituciones académicas y construir espacios de reflexión sobre el papel del Estado en territorios concretos, más allá de las enunciaciones retóricas, procurando conectar decisiones de política pública con demandas reales de la población.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/293513_img-20260713-wa0059.jpg"
+        },
+        {
+          "id": "jardin_botanico_receso_aves",
+          "cat": "Educación y Medio Ambiente · La Pampa",
+          "titulo": "Receso invernal en el Jardín Botánico: ¡Aves para los más chicos!",
+          "bajada": "Durante el período de receso escolar de invierno, el Jardín Botánico Provincial abre sus puertas a familias con propuestas educativas centradas en la observación de fauna local. El Ministerio de la Producción organiza actividades didácticas sobre avifauna para menores.",
+          "cuerpo": "<p>El Jardín Botánico Provincial convoca a familias pampeanas a participar de sus actividades especiales durante el receso invernal escolar. El Ministerio de la Producción, a través de la Dirección General de Recursos Naturales, ha diseñado una programación de experiencias educativas que aprovecha el espacio verde para acercar a niños y niñas a la biodiversidad local.</p><p><strong>Las actividades de este período se centran en la observación y estudio de aves autóctonas de La Pampa, ofreciendo a los menores la oportunidad de aprender sobre especies locales, sus hábitats, comportamientos migratorios y rol ecológico</strong>. Esta propuesta combina aprendizaje experiencial con recreación, permitiendo que las familias disfruten del espacio natural mientras acceden a contenidos sobre conservación ambiental.</p><p>La iniciativa forma parte de la política institucional del Ministerio de la Producción de favorecer el acceso público a los espacios verdes protegidos y fortalecer la educación ambiental desde la infancia. <strong>El Jardín Botánico se ha consolidado como un espacio de encuentro comunitario donde se entrelazan la investigación, la preservación de flora nativa y la sensibilización sobre la importancia de los ecosistemas locales</strong>.</p><p>Las familias interesadas en participar pueden consultar el cronograma de actividades en los canales oficiales del Ministerio de la Producción. El receso invernal es una oportunidad para que menores de distintas edades desarrollen conexiones significativas con la naturaleza y comprendan desde temprano la relevancia de la conservación ambiental en sus propios territorios.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1033006_whatsapp-image-2026-07-13-at-10.49.50-am.jpeg"
+        },
+        {
+          "id": "turismo_fin_semana_movimiento",
+          "cat": "Turismo · La Pampa",
+          "titulo": "Turismo: un fin de semana con moderado movimiento en La Pampa",
+          "bajada": "La Secretaría de Turismo provincial informó sobre el flujo de visitantes durante el fin de semana extendido. Los datos revelan un movimiento turístico interno moderado en los principales destinos provinciales.",
+          "cuerpo": "<p>La Secretaría de Turismo de La Pampa divulgó un informe sobre el movimiento turístico registrado durante el fin de semana extendido recientemente concluido. Los datos compilados permiten evaluar el desempeño del turismo interno en la provincia y las dinámicas de ocupación en los principales destinos y servicios de hospedaje.</p><p><strong>El informe indica un movimiento turístico moderado en comparación con períodos previos o expectativas estacionales</strong>. Este comportamiento refleja patrones típicos de transición entre temporadas turísticas, con menor presencia de visitantes internacionales y un flujo doméstico más selectivo según disponibilidad de tiempo y presupuesto de los viajeros.</p><p>Las ciudades cabecera como General Pico, Santa Rosa y otros centros turísticos de La Pampa registraron ocupación parcial en hoteles, hospedajes y servicios de gastronomía. <strong>La Secretaría de Turismo continúa ejecutando estrategias de promoción de destinos, atractivos culturales y naturales para fortalecer la competitividad de La Pampa en el mercado turístico nacional e internacional</strong>.</p><p>Estos datos son relevantes para la planificación de futuras campañas de promoción y para el análisis de tendencias en el comportamiento de turistas. La provincia mantiene su apuesta por diversificar la oferta turística y mejorar la experiencia del visitante, considerando que el turismo constituye un vector importante de desarrollo económico y generación de empleo en territorios específicos.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/244581_img-20260712-wa0043.jpg"
+        },
+        {
+          "id": "procaap_10_anos",
+          "cat": "Políticas Sociales · La Pampa",
+          "titulo": "10 años del PROCAAP: Una política pública que transcendió a distintos gobiernos",
+          "bajada": "Se conmemoró una década del Programa de Capacitación y Acceso al Primer Empleo de La Pampa. Funcionarios destacaron que la política trasciende administraciones de distintos signos políticos, evidenciando consenso sobre su valor.",
+          "cuerpo": "<p>El Gobierno de La Pampa conmemoró diez años del Programa de Capacitación y Acceso al Primer Empleo (PROCAAP), una iniciativa que ha permitido capacitar y facilitar la inserción laboral de miles de jóvenes y ciudadanos en riesgo de vulnerabilidad. La efeméride fue celebrada en un acto que reunió a funcionarios, beneficiarios y referentes del programa.</p><p><strong>El PROCAAP se ha distinguido por su sostenibilidad institucional, permaneciendo activo y relevante a través de sucesivas administraciones provinciales de distinto signo político</strong>. Este hecho habla de la capacidad de la política para generar consenso sobre su pertinencia y valor público, trascendiendo las dinámicas típicamente partidarias que marcan otras iniciativas de gobierno.</p><p>Durante la jornada, funcionarios provinciales enfatizaron que el programa representa un modelo de política de empleo e inserción laboral que combina capacitación técnica con acompañamiento integral de beneficiarios. <strong>El PROCAAP ha permitido que sectores de la población con menores oportunidades accedieran a herramientas educativas y conexiones laborales que les abrieron caminos de autonomía económica</strong>.</p><p>Los datos de cobertura y alcance del PROCAAP durante sus diez años reflejan su importancia en la estructura de políticas sociales y de empleo de La Pampa. La conmemoración fue también una ocasión para evaluar lecciones aprendidas y proyectar mejoras futuras del programa, considerando cambios en el mercado laboral y nuevas demandas de capacitación en un contexto de transformación tecnológica.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a522990490a9.jpg"
+        },
+        {
+          "id": "buenas_practicas_poda_arbolado",
+          "cat": "Medio Ambiente · La Pampa",
+          "titulo": "Continúan promocionando las buenas prácticas de poda para un arbolado saludable",
+          "bajada": "El Ministerio de la Producción mantiene su labor de difusión de técnicas adecuadas de podado en el arbolado urbano. La iniciativa busca que ciudadanos y municipios apliquen prácticas que preserven la salud de los árboles.",
+          "cuerpo": "<p>El Ministerio de la Producción de La Pampa continúa desarrollando una campaña permanente de promoción de buenas prácticas de poda en el arbolado urbano provincial. Esta iniciativa se enmarca en la responsabilidad estatal de garantizar la salud y sostenibilidad de los espacios verdes públicos y privados en ciudades y localidades.</p><p><strong>Las buenas prácticas de poda incluyen técnicas específicas de corte que evitan dañar la estructura del árbol, permiten una cicatrización adecuada, previenen enfermedades y fomentan un crecimiento equilibrado de la copa</strong>. El Ministerio de la Producción ha elaborado materiales educativos, realizado capacitaciones con municipios y difundido información sobre cuándo, cómo y por qué podar correctamente.</p><p>La labor de promoción se dirige tanto a intendencias y administraciones municipales como a vecinos y propietarios de terrenos privados. Un arbolado mal podado no solo pierde capacidad estética sino que experimenta estrés fisiológico, mayor vulnerabilidad a plagas, enfermedades fúngicas y deterioro acelerado de su estructura.</p><p><strong>Esta política ambiental contribuye a mantener la calidad de vida urbana, mejorar la absorción de dióxido de carbono, favorecer la regulación térmica en ciudades y preservar el patrimonio arbóreo local</strong>. El Ministerio de la Producción refuerza su compromiso con la sostenibilidad ambiental a través de iniciativas que combinan educación comunitaria con regulación adecuada de prácticas silvícolas en espacios urbanos.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a513e4d6ab29.jpg"
+        },
+        {
+          "id": "ibm_bolsa_caida",
+          "cat": "Economía · Estados Unidos",
+          "titulo": "IBM se desploma en Wall Street con caída de casi 25% en su peor jornada en 40 años",
+          "bajada": "Las acciones de la gigante tecnológica IBM sufrieron un castigo bursátil histórico tras anunciar resultados trimestrales por debajo de expectativas. La caída de casi 25% marca la peor jornada de la compañía en cuatro décadas.",
+          "cuerpo": "<p>IBM experimentó el viernes un desplome histórico en Wall Street, con sus acciones llegando a perder casi un 25% en una sola sesión de operaciones. Se trata de la peor jornada de la compañía tecnológica en aproximadamente 40 años, evidenciando un castigo bursátil severo por parte de inversores y analistas de mercado.</p><p><strong>El derrumbe accionario se produjo tras el anuncio de resultados trimestrales que quedaron significativamente por debajo de las expectativas del mercado</strong>. La compañía no logró cumplir con las proyecciones de ganancias que había guiado previamente, generando incertidumbre sobre la trayectoria futura de IBM en un contexto de transformación digital y competencia intensificada en el sector tecnológico.</p><p>Los inversores interpretaron los resultados deficitarios como señal de debilidad competitiva o problemas operacionales internos en IBM. La tecnológica enfrenta una industria en constante evolución donde empresas emergentes de inteligencia artificial y computación en la nube han ganado participación de mercado a costa de compañías tradicionales.</p><p><strong>Este evento bursátil representa un recordatorio de la volatilidad de los mercados de capitales y la dependencia de las valuaciones tecnológicas respecto de la capacidad corporativa de sostener crecimiento y rentabilidad</strong>. IBM deberá comunicar una estrategia clara de recuperación y ajuste operacional para restaurar confianza de inversores y analistas en sus perspectivas futuras.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Photos_NewYork1_032.jpg/960px-Photos_NewYork1_032.jpg"
+        },
+        {
+          "id": "inflacion_eeuu_junio",
+          "cat": "Economía · Estados Unidos",
+          "titulo": "Inflación de EE.UU. se desacelera al 3,5% en junio tras caída de precios de nafta",
+          "bajada": "La inflación estadounidense mostró una desaceleración importante en junio, alcanzando el 3,5% anual. La caída de precios energéticos —la más pronunciada desde 2020— fue el principal factor detrás de la moderación inflacionaria.",
+          "cuerpo": "<p>La inflación en Estados Unidos se desaceleró a una tasa anual del 3,5% en junio, mostrando una tendencia moderadora en el índice de precios al consumidor (IPC) estadounidense. Este descenso representa un alivio para la Reserva Federal y una señal de que las presiones inflacionarias que caracterizaron años anteriores están perdiendo intensidad.</p><p><strong>El factor principal detrás de la desaceleración inflacionaria fue la pronunciada caída en los precios de la energía y, en particular, de los combustibles</strong>. Los precios de la gasolina y otros productos petrolíferos bajaron 0,4% entre mayo y junio, marcando la mayor caída en términos absolutos desde 2020. Esta reducción en costos energéticos se trasladó al índice general de precios al consumidor.</p><p>La desaceleración inflacionaria en EE.UU. ocurre en un contexto geopolítico complejo, con conflictos regionales que afectan la oferta global de petróleo y la cadena de suministros internacional. Sin embargo, la abundancia relativa de oferta energética en el mercado global ha permitido que los precios bajen, beneficiando a consumidores y empresas estadounidenses.</p><p><strong>Este dato de inflación moderada tiene implicaciones importantes para la política monetaria de la Reserva Federal, que ha mantenido tasas de interés elevadas para combatir la inflación</strong>. Si la tendencia desaceleratoria se sostiene en los próximos meses, podría crear presión para que la Fed revise a la baja sus proyecciones de tasas futuras, afectando la dinámica de mercados de capitales globales.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png"
+        },
+        {
+          "id": "ipc_junio_argentina",
+          "cat": "Economía · Argentina",
+          "titulo": "Inflación de junio: cuál fue el IPC acumulado y qué proyectan las consultoras",
+          "bajada": "Argentina conocerá hoy la cifra oficial del IPC de junio. En mayo el índice fue del 2,1% mensual con variación interanual del 14,7%, un indicador relevante para evaluar la trayectoria inflacionaria del año.",
+          "cuerpo": "<p>El Instituto Nacional de Estadística y Censos (INDEC) revelará esta tarde la cifra oficial del Índice de Precios al Consumidor (IPC) correspondiente al mes de junio de 2026. Este dato es aguardado con especial atención por economistas, inversores, trabajadores y formuladores de política pública, dado que proporciona una medida central de la evolución de precios en la economía argentina.</p><p><strong>En mayo de 2026, el IPC mensual registró un alza del 2,1%, con una variación interanual acumulada del 14,7% durante el período enero-junio</strong>. Estos números evidencian que aunque la inflación mensual se ha moderado respecto de períodos anteriores, la acumulación de aumentos de precios sigue siendo significativa cuando se calcula en términos anuales.</p><p>Las consultoras económicas tienen proyecciones variadas sobre cuál será la cifra de junio y cómo evolucionará la inflación durante el resto del año 2026. Algunos analistas anticipan una desaceleración gradual si las condiciones monetarias y de oferta se mantienen estables; otros advierten sobre riesgos inflacionarios si factores externos o internos generan presiones en precios de insumos, energía o bienes transables.</p><p><strong>La trayectoria inflacionaria de 2026 es un parámetro crítico para las decisiones de consumo, inversión, ahorro y política laboral en Argentina</strong>. Un IPC de junio elevado podría reforzar expectativas inflacionarias en el mercado y presionar por aumentos salariales y tarifas en sectores regulados; un dato moderado, en cambio, podría favorecer una mayor estabilidad de expectativas y menor conflictividad distributiva.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg"
+        },
+        {
+          "id": "toyota_auto_electrico_manual",
+          "cat": "Tecnología · Automovilismo",
+          "titulo": "La insólita idea de Toyota para que manejar un eléctrico se sienta como un auto manual",
+          "bajada": "La automotriz japonesa patentó un sistema innovador que simula la experiencia de conducir un vehículo con transmisión manual tradicional en autos eléctricos. La invención busca satisfacer el deseo de conductores nostálgicos de mantener la experiencia de cambio de marchas.",
+          "cuerpo": "<p>Toyota ha patentado un sistema tecnológico único que permite a conductores de vehículos eléctricos experimentar la sensación de manejar un auto con transmisión manual tradicional. El invento incluye una palanca de cambios virtual y un simulador de embrague, buscando combinar la eficiencia de los eléctricos con la experiencia de conducción nostálgica de los autos manuales.</p><p><strong>El sistema patentado por Toyota consiste en una interfaz que interpreta los movimientos del conductor en una palanca de cambios simulada y traduce esas acciones a ajustes de potencia y aceleración del motor eléctrico</strong>. Aunque un vehículo eléctrico no requiere cambio de marchas tradicionales por su arquitectura mecánica, el sistema genera una experiencia sensorial similar a la de conducir un manual convencional.</p><p>La innovación responde a un segmento de consumidores que valora la experiencia tactil y el control manual de la conducción, considerada por muchos entusiastas como más placentera o auténtica que la conducción automática. En un contexto de masiva transición hacia vehículos eléctricos, Toyota busca retener a conductores apegados a la experiencia manual ofreciendo una alternativa que satisface ambas preferencias.</p><p><strong>Este tipo de innovación refleja cómo la industria automotriz está pensando formas creativas de adaptar tradiciones de conducción a nuevas tecnologías ecológicas</strong>. Si bien es incierto si esta solución llegará a producción masiva, la patente de Toyota evidencia el esfuerzo de fabricantes por hacer la transición a vehículos eléctricos atractiva para distintos tipos de conductores, desde quienes buscan máxima eficiencia hasta aquellos que valoran la experiencia táctil tradicional.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Universidad_Nacional_de_La_Pampa_2.jpg/960px-Universidad_Nacional_de_La_Pampa_2.jpg"
+        },
+        {
+          "id": "deprecacion_autos_hibridos_electricos",
+          "cat": "Economía · Automovilismo",
+          "titulo": "Un informe revela cuánto puede desvalorizarse un auto híbrido y un eléctrico en cinco años",
+          "bajada": "Un análisis de más de 950.000 vehículos usados de cinco años de antigüedad vendidos en Estados Unidos reveló información sobre la depreciación de autos híbridos y eléctricos. Los datos permiten evaluar costos reales de posesión a largo plazo.",
+          "cuerpo": "<p>Un informe exhaustivo que analizó datos de más de 950.000 vehículos usados de aproximadamente cinco años de antigüedad vendidos entre marzo de 2025 y febrero de 2026 en el mercado estadounidense reveló patrones significativos de depreciación en autos híbridos y eléctricos. El estudio proporciona información valiosa para consumidores que evalúan el costo total de propiedad de vehículos alternativos.</p><p><strong>Los resultados muestran que vehículos eléctricos e híbridos experimentan depreciación diferenciada respecto de autos de combustión convencional, con factores como tecnología de batería, carga disponible de infraestructura local y volatilidad de políticas de incentivos afectando sus valuaciones futuras</strong>. La depreciación de eléctricos fue particularmente pronunciada en regiones sin infraestructura de carga desarrollada.</p><p>El análisis de costos de depreciación es un parámetro crítico para decisiones de compra de vehículos, ya que la depreciación representa típicamente el mayor componente del costo total de propiedad después de cinco años. Consumidores evaluando la compra de un híbrido o eléctrico deben considerar que la reventa futura dependerá del estado del mercado secundario de esos vehículos.</p><p><strong>Los datos del informe sugieren que aunque los costos operacionales de eléctricos son menores (menos combustible, menos mantenimiento), la depreciación puede compensar parcialmente esos ahorros en el corto y mediano plazo</strong>. La industria automotriz y los gobiernos enfrentan el desafío de estabilizar los valores de mercado de vehículos alternativos para hacer más atractiva la transición hacia flotas de menor emisión.</p>",
+          "foto": ""
+        },
+        {
+          "id": "miedo_manejar_psicologia",
+          "cat": "Salud Mental · Psicología",
+          "titulo": "Según la psicología tener miedo a manejar esconde una historia de vida o un sueño postergado",
+          "bajada": "Estudios de psicología revelan que la fobia a manejar no es una simple aversión mecánica, sino que actúa como barrera psicológica para la independencia y la autoconfianza. Los terapeutas analizan las raíces emocionales detrás del miedo.",
+          "cuerpo": "<p>Investigaciones en psicología clínica han identificado que la fobia a manejar —o amaxofobia— no se reduce a un miedo superficial a vehículos o accidentes, sino que frecuentemente encubre historias de vida complejas, traumas emocionales o sueños postergados de autonomía. La fobia actúa como mecanismo defensivo psicológico con raíces profundas en la subjetividad del individuo.</p><p><strong>Para muchas personas que padecen miedo a manejar, la conducción representa un símbolo de independencia, libertad y toma de decisiones autónoma que, por diversas razones psicológicas o históricas, generan ansiedad o inseguridad</strong>. Terapeutas encuentran que detrás de la fobia a manejar frecuentemente hay experiencias de abuso, control parental excesivo, accidentes traumáticos o pérdidas significativas asociadas con vehículos.</p><p>La fobia se manifiesta como un obstáculo concreto para la autonomía personal, limitando la capacidad de la persona de acceder a empleos, relaciones o espacios sociales que requieren movilidad independiente. Este círculo vicioso de evitación refuerza la ansiedad y perpetúa la limitación de libertad personal del individuo afectado.</p><p><strong>El tratamiento psicológico de la amaxofobia requiere no solo técnicas de desensibilización gradual a la conducción, sino también exploración de las narrativas emocionales y experiencias de vida que sustentan el miedo</strong>. Terapeutas enfatizan que tratar la fobia a manejar implica ayudar al individuo a reconectar con su capacidad de agencia personal y confrontar creencias limitantes sobre su propia seguridad y competencia.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cloth_embroidered_by_a_schizophrenia_sufferer.jpg/960px-Cloth_embroidered_by_a_schizophrenia_sufferer.jpg"
+        },
+        {
+          "id": "120_anos_maisonnave",
+          "cat": "Educación y Cultura · La Pampa",
+          "titulo": "120 años de Maisonnave: jornada para reafirmar sentido de pertenencia",
+          "bajada": "Maisonnave celebró una emotiva jornada por su aniversario, reafirmando los vínculos comunitarios que caracterizan a la localidad. El evento reunió a ciudadanos para recordar la historia e identidad de la comunidad.",
+          "cuerpo": "<p>La localidad de Maisonnave en La Pampa celebró con una jornada popular sus 120 años de existencia, un hito que reunió a ciudadanos en torno a la reafirmación del sentido de pertenencia e identidad comunitaria. El evento fue una ocasión para recordar la trayectoria de la localidad, sus raíces, sus logros y los vínculos que mantienen cohesionada a la comunidad.</p><p><strong>Maisonnave es una localidad rural de La Pampa que ha mantenido a lo largo de más de un siglo una fuerte identidad comunitaria basada en valores de reciprocidad, cooperación y solidaridad entre sus habitantes</strong>. La conmemoración de 120 años permitió a ciudadanos repasar esa memoria colectiva y proyectar hacia el futuro el legado de convivencia que caracteriza a la comunidad.</p><p>Durante la jornada se realizaron actividades que incluyeron reconocimientos a familias fundadoras, rememoración de hitos históricos de la localidad, presentaciones culturales y espacios de encuentro intergeneracional. Estas prácticas de celebración comunitaria juegan un rol importante en la reproducción de identidades locales y el fortalecimiento de lazos entre generaciones.</p><p><strong>Para localidades pequeñas como Maisonnave, la celebración de aniversarios constituye una ocasión central para reafirmar la cohesión comunitaria en contextos de cambio y migración</strong>. El evento evidencia que a pesar de presiones modernizadoras y flujos migratorios que caracterizan territorios rurales, existen espacios de resistencia del sentido de pertenencia local y la memoria colectiva de comunidades históricamente constituidas.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1603970_img-20260712-wa0028.jpg"
+        },
+        {
+          "id": "mundial_2026_argentina_inglaterra",
+          "cat": "Deportes · Nacional",
+          "titulo": "Mundial 2026: Argentina llega a Atlanta para duelo con Inglaterra",
+          "bajada": "La selección argentina, campeona defensora del torneo, se prepara para viajar a Atlanta en Estados Unidos para enfrentar a Inglaterra en una de las semifinales del Mundial 2026. El equipo buscará continuar su camino hacia la final.",
+          "cuerpo": "<p>La selección argentina de fútbol se prepara para viajar a Atlanta, Estados Unidos, donde enfrentará a Inglaterra en una de las semifinales del Mundial de la FIFA 2026. Argentina llega al partido como campeona defensora del torneo, habiendo ganado Qatar 2022, y busca continuar su trayectoria victoriosa en el campeonato mundial.</p><p><strong>El enfrentamiento entre Argentina e Inglaterra representa un duelo clásico en la historia del fútbol internacional, con un trasfondo de rivalidades históricas y momentos icónicos en competiciones anteriores</strong>. Ambas selecciones son consideradas candidatas serias para llegar a la final del torneo, lo que eleva la importancia y la expectativa en torno al partido.</p><p>El equipo argentino viajará con la confianza que le proporciona su condición de defensor del título y su desempeño en las etapas previas del torneo. Los jugadores, técnicos y cuerpo técnico se preparan intensamente para optimizar su rendimiento físico, táctico y mental en un encuentro que definirá el acceso a la final.</p><p><strong>El partido entre Argentina e Inglaterra será seguido con atención masiva en Argentina y en todo el mundo, consolidándose como uno de los encuentros decisivos de la Copa del Mundo 2026</strong>. La victoriosa accederá a la final del torneo, mientras que la perdedora disputará el tercer puesto. El campeonato mundial continúa ofreciendo momentos de máxima intensidad competitiva y emotividad para fans de todo el planeta.</p>",
+          "foto": ""
+        }
+      ]
+    },
+    {
       "clave": "2026-07-14_manana",
       "fecha_iso": "2026-07-14",
       "fecha": "14 julio 2026",

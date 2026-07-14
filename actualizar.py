@@ -407,8 +407,9 @@ def rss_items(url, max_items=10):
         return []
     items = []
     try:
-        # Quitar namespace para simplificar XPath
-        raw_clean = re.sub(r' xmlns[^"]*"[^"]*"', '', raw)
+        # Quitar namespace declarations Y prefijos en nombres de elementos
+        raw_clean = re.sub(r' xmlns(?::[a-zA-Z0-9_]+)?="[^"]*"', '', raw)
+        raw_clean = re.sub(r'<(/?)([a-zA-Z0-9_-]+):([a-zA-Z0-9_-]+)', r'<\1\3', raw_clean)
         root = ET.fromstring(raw_clean)
         # RSS 2.0
         for it in root.findall('.//item')[:max_items]:
@@ -437,6 +438,8 @@ def noticias_nacionales_rss(max_items=10):
     FUENTES = [
         "https://www.lanacion.com.ar/arc/outboundfeeds/rss/",
         "https://www.ambito.com/rss/home.xml",
+        "https://www.clarin.com/rss/politica/",
+        "https://www.clarin.com/rss/ultimas-noticias/",
         "https://www.infobae.com/feeds/rss/",
         "https://www.pagina12.com.ar/rss/portada",
     ]
@@ -456,6 +459,8 @@ def noticias_internacionales_rss(max_items=8):
     """Intenta varios feeds RSS internacionales en espanol"""
     FUENTES = [
         "https://feeds.bbci.co.uk/mundo/rss.xml",
+        "https://www.elpais.com/rss/internacional/",
+        "https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/internacional/portada",
         "https://rss.dw.com/xml/rss-es-all",
         "https://www.swissinfo.ch/spa/temas-del-d%C3%ADa/rss.xml",
     ]
