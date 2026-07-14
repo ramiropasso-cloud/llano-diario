@@ -434,24 +434,35 @@ def rss_items(url, max_items=10):
 
 
 def noticias_nacionales_rss(max_items=10):
-    """Intenta varios feeds RSS nacionales y devuelve las noticias mas frescas"""
+    """Combina feeds de politica/economia nacionales, filtrando lifestyle/autos"""
     FUENTES = [
-        "https://www.lanacion.com.ar/arc/outboundfeeds/rss/",
         "https://www.ambito.com/rss/home.xml",
         "https://www.clarin.com/rss/politica/",
+        "https://www.clarin.com/rss/economia/",
+        "https://www.lanacion.com.ar/arc/outboundfeeds/rss/",
         "https://www.clarin.com/rss/ultimas-noticias/",
         "https://www.infobae.com/feeds/rss/",
         "https://www.pagina12.com.ar/rss/portada",
     ]
+    # Palabras clave que indican contenido lifestyle/autos a descartar en sec03
+    EXCLUIR = ['toyota', 'auto ', 'autos ', 'hibrid', 'electrico', 'manejar',
+               'psicolog', 'belleza', 'horoscopo', 'cocina', 'receta']
+    todos = []
     for url in FUENTES:
         items = rss_items(url, max_items)
-        if len(items) >= 3:
+        if items:
             print(f"  Nacionales RSS: {len(items)} items de {url}")
-            return items
-        elif items:
-            print(f"  Nacionales RSS parcial: {len(items)} items de {url}")
+            todos.extend(items)
         else:
             print(f"  [nac rss fallo] {url}")
+        if len(todos) >= max_items * 2:
+            break
+    # Filtrar lifestyle
+    filtrados = [it for it in todos
+                 if not any(x in (it['titulo']+it.get('desc','')).lower() for x in EXCLUIR)]
+    resultado = filtrados[:max_items] if filtrados else todos[:max_items]
+    print(f"  {len(resultado)} noticias nacionales seleccionadas")
+    return resultado
     return []
 
 

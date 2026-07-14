@@ -7,225 +7,241 @@
       "fecha": "14 julio 2026",
       "turno": "Edición Mediodía · 11:00",
       "hero": {
-        "titulo": "Banco de Sangre del Favaloro avanza con biología molecular",
-        "summary": "La Pampa se posiciona como la tercera provincia del país con análisis de donaciones por biología molecular. El Banco de Sangre del Favaloro sumó un moderno analizador automatizado financiado por la Provincia.",
+        "titulo": "Banco de Sangre del Favaloro suma análisis con biología molecular",
+        "summary": "La Pampa se posiciona como la tercera provincia del país en tecnología de diagnóstico hemoterapéutico. El Favaloro obtuvo acreditación nacional y estrenará analizador automatizado financiado por la gestión provincial.",
         "cat": "Salud · La Pampa",
         "foto": "https://apn.lapampa.gob.ar/images/multimedia/1538801_banco-de-sangredsc_4986.jpg"
       },
       "sec01_list": [
         {
           "titulo": "Provincia recordó el funcionamiento del sistema de adopciones",
-          "resumen": "La Dirección General de Niñez y Adolescencia aclaró los marcos legales que regulan el acogimiento familiar y los procesos de adopción.",
-          "cat": "Familia y Derechos · La Pampa",
+          "resumen": "La Dirección General de Niñez y Adolescencia brindó precisiones sobre el marco legal que regula el acogimiento familiar.",
+          "cat": "Niñez y Adolescencia · La Pampa",
           "foto": "https://apn.lapampa.gob.ar/images/noticias/6a5504e5b40e8.jpg",
           "ts": "14 jul 2026 · LLANO·"
         },
         {
-          "titulo": "La Pampa en la jornada: Estado y Comunidad en la Universidad Jauretche",
-          "resumen": "El ministro Diego Álvarez expuso sobre políticas públicas y entregó certificados a agentes provinciales que completaron diplomatura.",
-          "cat": "Educación · La Pampa",
-          "foto": "https://apn.lapampa.gob.ar/images/multimedia/293513_img-20260713-wa0059.jpg",
-          "ts": "14 jul 2026 · LLANO·"
-        },
-        {
           "titulo": "Receso invernal en el Jardín Botánico: ¡Aves para los más chicos!",
-          "resumen": "El Ministerio de la Producción invita a familias a participar de actividades educativas sobre fauna local durante el receso.",
-          "cat": "Educación y Medio Ambiente · La Pampa",
+          "resumen": "El Ministerio de la Producción organiza actividades familiares en el Jardín Botánico Provincial durante las vacaciones escolares.",
+          "cat": "Cultura · La Pampa",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/1033006_whatsapp-image-2026-07-13-at-10.49.50-am.jpeg",
           "ts": "14 jul 2026 · LLANO·"
         },
         {
           "titulo": "Turismo: un fin de semana con moderado movimiento en La Pampa",
-          "resumen": "La Secretaría de Turismo provincial reportó un flujo turístico interno moderado durante el fin de semana extendido.",
+          "resumen": "La Secretaría de Turismo provincial reportó detalles del movimiento turístico interno durante el fin de semana extendido.",
           "cat": "Turismo · La Pampa",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/244581_img-20260712-wa0043.jpg",
           "ts": "14 jul 2026 · LLANO·"
         },
         {
-          "titulo": "10 años del PROCAAP: Una política pública que transcendió a distintos gobiernos",
-          "resumen": "Se conmemoró una década del Programa de Capacitación y Acceso al Primer Empleo, que trasciende administraciones de distintos signos políticos.",
-          "cat": "Políticas Sociales · La Pampa",
-          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a522990490a9.jpg",
+          "titulo": "Continúan promocionando las buenas prácticas de poda para un arbolado saludable",
+          "resumen": "El Ministerio de la Producción impulsa campañas de capacitación sobre técnicas correctas de poda urbana.",
+          "cat": "Medio Ambiente · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a513e4d6ab29.jpg",
           "ts": "14 jul 2026 · LLANO·"
         },
         {
-          "titulo": "Continúan promocionando las buenas prácticas de poda para un arbolado saludable",
-          "resumen": "El Ministerio de la Producción sigue difundiendo técnicas de podado que preservan la salud de los árboles urbanos.",
-          "cat": "Medio Ambiente · La Pampa",
-          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a513e4d6ab29.jpg",
+          "titulo": "120 años de Maisonnave: emotiva jornada popular para reafirmar el sentido de pertenencia",
+          "resumen": "El municipio celebró el aniversario de la localidad con una jornada que reunió a vecinos y autoridades.",
+          "cat": "Historia Local · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1603970_img-20260712-wa0028.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Pampa en la jornada: Construir Futuro — Estado y Comunidad en la Universidad Jaureche",
+          "resumen": "Se realizó un encuentro en la institución educativa sobre la construcción colectiva del presente y futuro provincial.",
+          "cat": "Educación · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/293513_img-20260713-wa0059.jpg",
           "ts": "14 jul 2026 · LLANO·"
         }
       ],
       "sec03": [
         {
-          "titulo": "IBM se desploma en Wall Street con caída de casi 25% en su peor jornada en 40 años",
-          "resumen": "La tecnológica sufrió un fuerte castigo bursátil tras anticipar resultados trimestrales por debajo de las expectativas.",
-          "cat": "Economía · Estados Unidos",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Photos_NewYork1_032.jpg/960px-Photos_NewYork1_032.jpg",
+          "titulo": "Las nuevas reglas de la FIFA implementadas en el Mundial 2026 que se aplicarán en el fútbol argentino: cuáles son y qué cambia",
+          "resumen": "La gerencia técnica de arbitraje organizó una reunión con representantes de los 30 clubes para explicar las nuevas normas.",
+          "cat": "Deportes · Fútbol Nacional",
+          "foto": "",
           "ts": "14 jul 2026 · LLANO·"
         },
         {
-          "titulo": "Inflación de EE.UU. se desacelera al 3,5% en junio tras caída de precios de nafta",
-          "resumen": "La reducción de precios energéticos —la mayor desde 2020— impulsa la desaceleración inflacionaria en el mercado estadounidense.",
-          "cat": "Economía · Estados Unidos",
+          "titulo": "Claudia Villafañe reveló nuevos detalles de la camiseta usada por Diego Maradona contra Inglaterra en el Mundial 86",
+          "resumen": "En una entrevista, la expareja de Maradona contó detalles de la prenda histórica y detalles del partido.",
+          "cat": "Deportes · Historia",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/0/02/Maradona_y_dalma_1987.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Mientras avanza con las privatizaciones, el Gobierno aprobó los presupuestos de ARSAT y Nucleoeléctrica",
+          "resumen": "El Ministerio de Economía aprobó los presupuestos 2026 de cuatro empresas públicas proyectando superávit financiero.",
+          "cat": "Economía Nacional · Empresas Públicas",
           "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png",
           "ts": "14 jul 2026 · LLANO·"
         },
         {
-          "titulo": "Inflación de junio: cuál fue el IPC acumulado y qué proyectan las consultoras",
-          "resumen": "Se conocerá hoy la cifra oficial de IPC de junio; en mayo la alza fue del 2,1% con variación interanual del 14,7%.",
-          "cat": "Economía · Argentina",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg",
+          "titulo": "Barcelona prepara una nueva oferta por Julián Álvarez para intentar destrabar la negociación con Atlético de Madrid",
+          "resumen": "El club catalán aumentará su propuesta inicial para avanzar en la adquisición del delantero argentino.",
+          "cat": "Deportes · Mercado de Pases",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/8/84/Bianco_e_Rosso_a_strisce_con_Triangolo_Blu_e_Bianco_con_stelle_Bianche.png",
           "ts": "14 jul 2026 · LLANO·"
         },
         {
-          "titulo": "La insólita idea de Toyota para que manejar un eléctrico se sienta como un auto manual",
-          "resumen": "La automotriz japonesa patentó un sistema que simula transmisión manual con embrague y palanca de cambios en vehículos eléctricos.",
-          "cat": "Tecnología · Automovilismo",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Universidad_Nacional_de_La_Pampa_2.jpg/960px-Universidad_Nacional_de_La_Pampa_2.jpg",
-          "ts": "14 jul 2026 · LLANO·"
-        },
-        {
-          "titulo": "Un informe revela cuánto puede desvalorizarse un auto híbrido y un eléctrico en cinco años",
-          "resumen": "Análisis de más de 950.000 vehículos usados de cinco años en EE.UU. muestra la depreciación de autos alternativos.",
-          "cat": "Economía · Automovilismo",
+          "titulo": "EEUU intensifica su ofensiva contra Irán y avanza con un nuevo bloqueo naval",
+          "resumen": "Tras fracasar las negociaciones, la tensión en la región volvió a elevarse y el precio del Brent se ubicó por encima de los límites históricos.",
+          "cat": "Relaciones Internacionales · Conflicto",
           "foto": "",
           "ts": "14 jul 2026 · LLANO·"
         },
         {
-          "titulo": "Según la psicología tener miedo a manejar esconde una historia de vida o un sueño postergado",
-          "resumen": "La fobia al manejo actúa como barrera para la independencia y autoconfianza de quienes la padecen.",
-          "cat": "Salud Mental · Psicología",
-          "foto": "",
+          "titulo": "Flávio Bolsonaro acusa al juez Moraes de intentar interferir en las elecciones de Brasil",
+          "resumen": "La acusación llegó tras la difusión de una carta manuscrita del exgobernador bajo arresto domiciliario.",
+          "cat": "Política Internacional · Brasil",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29_%283x4%29.jpg/960px-Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29_%283x4%29.jpg",
           "ts": "14 jul 2026 · LLANO·"
         }
       ],
       "hero_side": [
         {
-          "titulo": "120 años de Maisonnave: jornada para reafirmar sentido de pertenencia",
-          "resumen": "La localidad celebró su aniversario con una emotiva jornada popular que ratificó los lazos comunitarios.",
-          "cat": "Educación y Cultura · La Pampa",
+          "titulo": "Inicia nueva edición del Programa Cuidar Vidas en rutas pampeanas",
+          "resumen": "El Gobierno de La Pampa refuerza controles preventivos y patrullajes durante el receso invernal.",
+          "cat": "Seguridad Vial · La Pampa",
           "ts": "14 jul 2026 · LLANO·"
         },
         {
-          "titulo": "Mundial 2026: Argentina llega a Atlanta para duelo con Inglaterra",
-          "resumen": "La selección campeona defensora se prepara para enfrentar a los británicos en una de las semifinales.",
-          "cat": "Deportes · Nacional",
+          "titulo": "FIFA 2026: nuevas reglas que se aplicarán en el fútbol argentino",
+          "resumen": "La gerencia técnica de arbitraje explicó a los 30 clubes los cambios normativos para el torneo.",
+          "cat": "Deportes · Fútbol Nacional",
           "ts": "14 jul 2026 · LLANO·"
         }
       ],
       "arts": [
         {
-          "id": "adopciones_provincia",
-          "cat": "Familia y Derechos · La Pampa",
+          "id": "adopciones_provincia_2026",
+          "cat": "Niñez y Adolescencia · La Pampa",
           "titulo": "Provincia recordó el funcionamiento del sistema de adopciones",
-          "bajada": "Ante situaciones de público conocimiento, la Dirección General de Niñez y Adolescencia brindó precisiones sobre los marcos legales que regulan el acogimiento familiar y los procesos de adopción. La provincia ratificó que todas sus actuaciones se ajustan al interés superior de los menores.",
-          "cuerpo": "<p>La Dirección General de Niñez y Adolescencia de La Pampa emitió un comunicado oficial con el propósito de esclarecer los procedimientos y marcos normativos que rigen tanto el acogimiento familiar como los procesos de adopción en la provincia. Esta aclaración surge en respuesta a cuestiones de público conocimiento que generaron interrogantes sobre el funcionamiento del sistema.</p><p><strong>El organismo provincial ratificó que todas sus actuaciones se encuentran alineadas con el principio del interés superior del niño</strong>, establecido como eje fundamental en la legislación nacional e internacional sobre derechos de menores. Esto implica que cada decisión, evaluación y gestión administrativa prioriza el bienestar integral, la seguridad emocional y el desarrollo óptimo de los menores involucrados en procesos de cuidado alternativo.</p><p>Los procedimientos de acogimiento familiar y adopción en La Pampa cuentan con supervisión judicial y protocolos de seguimiento que garantizan el acompañamiento continuo de los niños y niñas durante todas las etapas del proceso. <strong>La provincia dispone de equipos interdisciplinarios que realizan evaluaciones psicosociales, valoración de familias receptoras y monitoreo periódico una vez concretadas las medidas de cuidado</strong>.</p><p>La comunicación oficial también enfatizó que los marcos legales vigentes —tanto la Convención sobre los Derechos del Niño como la legislación nacional de Protección Integral de Niños, Niñas y Adolescentes— orientan todas las prácticas institucionales de La Pampa. La provincia continúa reforzando su compromiso con la protección de menores a través del funcionamiento transparente y controlado de estos sistemas.</p>",
+          "bajada": "La Dirección General de Niñez y Adolescencia brindó precisiones sobre el marco legal que regula el acogimiento familiar y los procesos de adopción. Las autoridades ratificaron que todas sus actuaciones se ajustan al interés superior del niño.",
+          "cuerpo": "<p>Ante la situación de público conocimiento sobre procesos de adopción en la provincia, la <strong>Dirección General de Niñez y Adolescencia del Gobierno de La Pampa</strong> brindó precisiones sobre el marco legal que regula tanto el acogimiento familiar como los trámites de adopción en el territorio provincial. Las autoridades ratificaron que todas sus actuaciones se ajustan estrictamente al interés superior del niño, tal como lo establece la legislación nacional e internacional vigente.</p><p>El organismo provincial destacó que el <strong>sistema de adopciones funciona dentro de protocolos rigurosos</strong> que garantizan la protección integral de menores. Los procesos incluyen evaluaciones psicosociales, antecedentes penales de solicitantes, capacitaciones obligatorias y seguimiento post-adoptivo. La Dirección remarcó que toda familia aspirante debe cumplimentar requisitos legales estrictos antes de ser considerada apta para la adopción.</p><p>Las precisiones llegaron luego de que diversos hechos vinculados a adopciones ganaran visibilidad mediática en el país. La provincia enfatizó que <strong>cada expediente es tratado con criterios uniformes</strong> y que existe supervisión permanente por parte de equipos técnicos interdisciplinarios compuestos por trabajadores sociales, psicólogos y abogados especializados.</p><p>Desde la Dirección también se informó que las familias que participan del acogimiento familiar reciben apoyo económico y acompañamiento de equipos profesionales durante todo el proceso. La provincia refirmó su compromiso con la protección de derechos de niños, niñas y adolescentes en toda circunstancia.</p>",
           "foto": "https://apn.lapampa.gob.ar/images/noticias/6a5504e5b40e8.jpg"
         },
         {
-          "id": "ministro_alvarez_universidad_jauretche",
-          "cat": "Educación · La Pampa",
-          "titulo": "La Pampa en la jornada: Estado y Comunidad en la Universidad Jauretche",
-          "bajada": "El ministro Diego Álvarez expuso sobre las políticas públicas que impulsa el Gobierno de La Pampa ante audiencia de agentes provinciales. El evento incluyó la entrega de certificados a quienes completaron la Diplomatura Superior en Gestión Pública.",
-          "cuerpo": "<p>El ministro Diego Álvarez representó al Gobierno de La Pampa en la jornada de cierre de actividades académicas de la Universidad Jauretche, donde expuso sobre el conjunto de políticas públicas que impulsa la administración provincial. El acto reunió a agentes estatales, docentes y funcionarios de distintas dependencias en un espacio de intercambio sobre el rol del Estado en la construcción comunitaria.</p><p><strong>Durante su exposición, el ministro enfatizó el vínculo entre las decisiones de gobierno y el impacto territorial en la vida cotidiana de los ciudadanos</strong>. Álvarez repassó iniciativas provinciales en educación, economía social, infraestructura y servicios, subrayando la continuidad de programas que cruzan distintas administraciones cuando responden a necesidades estructurales de la comunidad.</p><p>El Gobierno provincial acompañó la entrega de certificados de finalización a agentes estatales que completaron la Diplomatura Superior en Gestión Pública y programas de Vinculación Territorial. <strong>Este tipo de capacitación refleja la apuesta del Estado por fortalecer las competencias de sus funcionarios y mejorar la calidad de la gestión pública</strong>, reconociendo que la modernización administrativa requiere actualización permanente de quienes trabajan en el sector público.</p><p>La iniciativa se enmarca en el esfuerzo más amplio del Gobierno provincial por profundizar el diálogo con instituciones académicas y construir espacios de reflexión sobre el papel del Estado en territorios concretos, más allá de las enunciaciones retóricas, procurando conectar decisiones de política pública con demandas reales de la población.</p>",
-          "foto": "https://apn.lapampa.gob.ar/images/multimedia/293513_img-20260713-wa0059.jpg"
+          "id": "seguridad_vial_cuidar_vidas",
+          "cat": "Seguridad Vial · La Pampa",
+          "titulo": "Seguridad Vial: comenzó una nueva edición del programa Cuidar Vidas",
+          "bajada": "El Gobierno de La Pampa puso en marcha una nueva edición del Programa Cuidar Vidas, política pública sostenida que fortalece la seguridad vial. Durante el receso invernal se intensificarán controles preventivos y patrullajes en rutas nacionales y provinciales.",
+          "cuerpo": "<p>El Gobierno de La Pampa activó ayer una <strong>nueva edición del Programa Cuidar Vidas</strong>, una política pública de carácter sostenido que busca fortalecer la seguridad vial en las carreteras provinciales durante el receso invernal. El programa articula múltiples acciones coordinadas entre organismos provinciales y fuerzas de seguridad para reducir siniestralidad vial.</p><p>Entre las medidas implementadas se encuentran <strong>controles preventivos intensificados, patrullajes permanentes en rutas nacionales y provinciales, y acciones de concientización dirigidas a conductores</strong>. El Ministerio de Seguridad coordinó con policía caminera y fuerzas locales para cubrir los tramos de mayor circulación durante el período de vacaciones escolares, cuando aumenta el tránsito familiar.</p><p>El programa también incluye <strong>evaluación de estado de vehículos, control de documentación obligatoria y campañas sobre manejo defensivo</strong>. Las autoridades priorizan la detección temprana de factores de riesgo como exceso de velocidad, falta de cinturón de seguridad y consumo de alcohol en conductores.</p><p>Desde el ejecutivo provincial se destacó que Cuidar Vidas responde a una estrategia integral de reducción de accidentes de tránsito que se renueva cada período estacional. Autoridades sanitarias también refuerzan espacios de atención en emergencias viales para respuesta rápida ante siniestros.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a564784c79b4.jpg"
         },
         {
-          "id": "jardin_botanico_receso_aves",
-          "cat": "Educación y Medio Ambiente · La Pampa",
+          "id": "jardin_botanico_receso_invernal",
+          "cat": "Cultura · La Pampa",
           "titulo": "Receso invernal en el Jardín Botánico: ¡Aves para los más chicos!",
-          "bajada": "Durante el período de receso escolar de invierno, el Jardín Botánico Provincial abre sus puertas a familias con propuestas educativas centradas en la observación de fauna local. El Ministerio de la Producción organiza actividades didácticas sobre avifauna para menores.",
-          "cuerpo": "<p>El Jardín Botánico Provincial convoca a familias pampeanas a participar de sus actividades especiales durante el receso invernal escolar. El Ministerio de la Producción, a través de la Dirección General de Recursos Naturales, ha diseñado una programación de experiencias educativas que aprovecha el espacio verde para acercar a niños y niñas a la biodiversidad local.</p><p><strong>Las actividades de este período se centran en la observación y estudio de aves autóctonas de La Pampa, ofreciendo a los menores la oportunidad de aprender sobre especies locales, sus hábitats, comportamientos migratorios y rol ecológico</strong>. Esta propuesta combina aprendizaje experiencial con recreación, permitiendo que las familias disfruten del espacio natural mientras acceden a contenidos sobre conservación ambiental.</p><p>La iniciativa forma parte de la política institucional del Ministerio de la Producción de favorecer el acceso público a los espacios verdes protegidos y fortalecer la educación ambiental desde la infancia. <strong>El Jardín Botánico se ha consolidado como un espacio de encuentro comunitario donde se entrelazan la investigación, la preservación de flora nativa y la sensibilización sobre la importancia de los ecosistemas locales</strong>.</p><p>Las familias interesadas en participar pueden consultar el cronograma de actividades en los canales oficiales del Ministerio de la Producción. El receso invernal es una oportunidad para que menores de distintas edades desarrollen conexiones significativas con la naturaleza y comprendan desde temprano la relevancia de la conservación ambiental en sus propios territorios.</p>",
+          "bajada": "Durante el receso de invierno, el Jardín Botánico Provincial invita a familias a participar de actividades educativas. El Ministerio de la Producción organiza talleres sobre avifauna y ecosistemas pampeanos.",
+          "cuerpo": "<p>El <strong>Jardín Botánico Provincial</strong> abrió sus puertas durante el receso invernal con una propuesta especialmente diseñada para familias con menores. La Dirección General de Recursos Naturales, dependiente del Ministerio de la Producción, organizó una serie de actividades que combinan educación ambiental con entretenimiento para las vacaciones escolares.</p><p>Entre las propuestas está la <strong>exploración de aves autóctonas de La Pampa y el análisis de sus roles en los ecosistemas locales</strong>. Los talleristas guiaron a niños y niñas en recorridos por las distintas áreas del jardín, facilitando observación de flora nativa y fauna asociada. Se destacó la importancia de las aves en la polinización y dispersión de semillas en ambientes naturales.</p><p>Las actividades incluyen <strong>identificación de especies, construcción de comederos ecológicos y charlas sobre conservación de hábitats naturales</strong>. El Ministerio de la Producción enfatiza que estos espacios públicos cumplen funciones educativas críticas en la formación de conciencia ambiental en nuevas generaciones.</p><p>Como en cada período de vacaciones escolares, el Jardín Botánico Provincial mantiene sus puertas abiertas con entrada gratuita para residentes locales. Las autoridades invitan a familias a visitar el predio y participar de las actividades disponibles durante todo el receso invernal.</p>",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/1033006_whatsapp-image-2026-07-13-at-10.49.50-am.jpeg"
         },
         {
-          "id": "turismo_fin_semana_movimiento",
+          "id": "turismo_fin_de_semana_moderado",
           "cat": "Turismo · La Pampa",
           "titulo": "Turismo: un fin de semana con moderado movimiento en La Pampa",
-          "bajada": "La Secretaría de Turismo provincial informó sobre el flujo de visitantes durante el fin de semana extendido. Los datos revelan un movimiento turístico interno moderado en los principales destinos provinciales.",
-          "cuerpo": "<p>La Secretaría de Turismo de La Pampa divulgó un informe sobre el movimiento turístico registrado durante el fin de semana extendido recientemente concluido. Los datos compilados permiten evaluar el desempeño del turismo interno en la provincia y las dinámicas de ocupación en los principales destinos y servicios de hospedaje.</p><p><strong>El informe indica un movimiento turístico moderado en comparación con períodos previos o expectativas estacionales</strong>. Este comportamiento refleja patrones típicos de transición entre temporadas turísticas, con menor presencia de visitantes internacionales y un flujo doméstico más selectivo según disponibilidad de tiempo y presupuesto de los viajeros.</p><p>Las ciudades cabecera como General Pico, Santa Rosa y otros centros turísticos de La Pampa registraron ocupación parcial en hoteles, hospedajes y servicios de gastronomía. <strong>La Secretaría de Turismo continúa ejecutando estrategias de promoción de destinos, atractivos culturales y naturales para fortalecer la competitividad de La Pampa en el mercado turístico nacional e internacional</strong>.</p><p>Estos datos son relevantes para la planificación de futuras campañas de promoción y para el análisis de tendencias en el comportamiento de turistas. La provincia mantiene su apuesta por diversificar la oferta turística y mejorar la experiencia del visitante, considerando que el turismo constituye un vector importante de desarrollo económico y generación de empleo en territorios específicos.</p>",
+          "bajada": "La Secretaría de Turismo provincial reportó movimiento moderado durante el fin de semana extendido. Los datos muestran distribución equilibrada de visitantes entre ciudades cabeceras y destinos secundarios.",
+          "cuerpo": "<p>La <strong>Secretaría de Turismo provincial</strong> divulgó los datos del movimiento turístico interno registrado durante el fin de semana extendido. Los números indican un flujo moderado de viajeros con distribución heterogénea según destino y tipo de oferta turística disponible en cada localidad.</p><p>Los principales centros urbanos como <strong>Santa Rosa y General Pico registraron ocupación hotelera cercana al 60%</strong>, mientras que destinos secundarios como Uriburu y Ingeniero Luiggi presentaron ocupación más baja pero sostenida. El movimiento refleja la característica de La Pampa como destino de turismo doméstico durante recesos escolares.</p><p>Desde la cartera provincial se señaló que <strong>los visitantes priorizan actividades de naturaleza, gastronomía local y turismo rural</strong>. Varios emprendimientos gastronómicos y alojamientos reportaron buena performance. La secretaría destacó que el movimiento moderado permite atención de calidad sin saturación de servicios.</p><p>Las autoridades proyectan que en próximas semanas el movimiento turístico se intensificará conforme avance el receso invernal. Se instó a prestadores de servicios a mantener estándares de calidad y a operadores turísticos a promover destinos alternativos dentro de la provincia para distribuir beneficios económicos en el territorio.</p>",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/244581_img-20260712-wa0043.jpg"
         },
         {
-          "id": "procaap_10_anos",
-          "cat": "Políticas Sociales · La Pampa",
-          "titulo": "10 años del PROCAAP: Una política pública que transcendió a distintos gobiernos",
-          "bajada": "Se conmemoró una década del Programa de Capacitación y Acceso al Primer Empleo de La Pampa. Funcionarios destacaron que la política trasciende administraciones de distintos signos políticos, evidenciando consenso sobre su valor.",
-          "cuerpo": "<p>El Gobierno de La Pampa conmemoró diez años del Programa de Capacitación y Acceso al Primer Empleo (PROCAAP), una iniciativa que ha permitido capacitar y facilitar la inserción laboral de miles de jóvenes y ciudadanos en riesgo de vulnerabilidad. La efeméride fue celebrada en un acto que reunió a funcionarios, beneficiarios y referentes del programa.</p><p><strong>El PROCAAP se ha distinguido por su sostenibilidad institucional, permaneciendo activo y relevante a través de sucesivas administraciones provinciales de distinto signo político</strong>. Este hecho habla de la capacidad de la política para generar consenso sobre su pertinencia y valor público, trascendiendo las dinámicas típicamente partidarias que marcan otras iniciativas de gobierno.</p><p>Durante la jornada, funcionarios provinciales enfatizaron que el programa representa un modelo de política de empleo e inserción laboral que combina capacitación técnica con acompañamiento integral de beneficiarios. <strong>El PROCAAP ha permitido que sectores de la población con menores oportunidades accedieran a herramientas educativas y conexiones laborales que les abrieron caminos de autonomía económica</strong>.</p><p>Los datos de cobertura y alcance del PROCAAP durante sus diez años reflejan su importancia en la estructura de políticas sociales y de empleo de La Pampa. La conmemoración fue también una ocasión para evaluar lecciones aprendidas y proyectar mejoras futuras del programa, considerando cambios en el mercado laboral y nuevas demandas de capacitación en un contexto de transformación tecnológica.</p>",
-          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a522990490a9.jpg"
-        },
-        {
-          "id": "buenas_practicas_poda_arbolado",
+          "id": "poda_arbolado_saludable",
           "cat": "Medio Ambiente · La Pampa",
           "titulo": "Continúan promocionando las buenas prácticas de poda para un arbolado saludable",
-          "bajada": "El Ministerio de la Producción mantiene su labor de difusión de técnicas adecuadas de podado en el arbolado urbano. La iniciativa busca que ciudadanos y municipios apliquen prácticas que preserven la salud de los árboles.",
-          "cuerpo": "<p>El Ministerio de la Producción de La Pampa continúa desarrollando una campaña permanente de promoción de buenas prácticas de poda en el arbolado urbano provincial. Esta iniciativa se enmarca en la responsabilidad estatal de garantizar la salud y sostenibilidad de los espacios verdes públicos y privados en ciudades y localidades.</p><p><strong>Las buenas prácticas de poda incluyen técnicas específicas de corte que evitan dañar la estructura del árbol, permiten una cicatrización adecuada, previenen enfermedades y fomentan un crecimiento equilibrado de la copa</strong>. El Ministerio de la Producción ha elaborado materiales educativos, realizado capacitaciones con municipios y difundido información sobre cuándo, cómo y por qué podar correctamente.</p><p>La labor de promoción se dirige tanto a intendencias y administraciones municipales como a vecinos y propietarios de terrenos privados. Un arbolado mal podado no solo pierde capacidad estética sino que experimenta estrés fisiológico, mayor vulnerabilidad a plagas, enfermedades fúngicas y deterioro acelerado de su estructura.</p><p><strong>Esta política ambiental contribuye a mantener la calidad de vida urbana, mejorar la absorción de dióxido de carbono, favorecer la regulación térmica en ciudades y preservar el patrimonio arbóreo local</strong>. El Ministerio de la Producción refuerza su compromiso con la sostenibilidad ambiental a través de iniciativas que combinan educación comunitaria con regulación adecuada de prácticas silvícolas en espacios urbanos.</p>",
+          "bajada": "El Ministerio de la Producción impulsa campañas de capacitación sobre técnicas correctas de poda urbana. Las autoridades enfatizan la importancia de preservar el arbolado público en ciudades pampeanas.",
+          "cuerpo": "<p>El <strong>Ministerio de la Producción de La Pampa</strong> continúa desarrollando campañas de promoción de buenas prácticas de poda en espacios urbanos. Las iniciativas buscan sensibilizar a vecinos, jardineros y autoridades municipales sobre técnicas correctas que preserven la salud de árboles y arbustos en ciudades.</p><p>Las acciones incluyen <strong>talleres de capacitación para operarios municipales, distribución de material educativo sobre podas estacionales, e identificación de especies con requerimientos específicos</strong>. El Ministerio remarca que una poda inadecuada puede comprometer la longevidad de ejemplares y la estabilidad estructural.</p><p>Desde la cartera ambiental se enfatiza que <strong>el arbolado urbano proporciona beneficios ecológicos, de salud pública y estéticos críticos</strong>. Los árboles sanos mejoran calidad del aire, regulan temperatura, previenen erosión y generan espacios verdes de disfrute público. Una gestión deficiente del arbolado impacta negativamente en estos servicios.</p><p>Las campañas destacan la importancia de respetar cronogramas estacionales de poda, evitar podas severas y recurrir a técnicos certificados para trabajos en altura. El Ministerio invita a gobiernos municipales a incorporar estas prácticas en sus cronogramas anuales de mantenimiento de espacios públicos.</p>",
           "foto": "https://apn.lapampa.gob.ar/images/noticias/6a513e4d6ab29.jpg"
         },
         {
-          "id": "ibm_bolsa_caida",
-          "cat": "Economía · Estados Unidos",
-          "titulo": "IBM se desploma en Wall Street con caída de casi 25% en su peor jornada en 40 años",
-          "bajada": "Las acciones de la gigante tecnológica IBM sufrieron un castigo bursátil histórico tras anunciar resultados trimestrales por debajo de expectativas. La caída de casi 25% marca la peor jornada de la compañía en cuatro décadas.",
-          "cuerpo": "<p>IBM experimentó el viernes un desplome histórico en Wall Street, con sus acciones llegando a perder casi un 25% en una sola sesión de operaciones. Se trata de la peor jornada de la compañía tecnológica en aproximadamente 40 años, evidenciando un castigo bursátil severo por parte de inversores y analistas de mercado.</p><p><strong>El derrumbe accionario se produjo tras el anuncio de resultados trimestrales que quedaron significativamente por debajo de las expectativas del mercado</strong>. La compañía no logró cumplir con las proyecciones de ganancias que había guiado previamente, generando incertidumbre sobre la trayectoria futura de IBM en un contexto de transformación digital y competencia intensificada en el sector tecnológico.</p><p>Los inversores interpretaron los resultados deficitarios como señal de debilidad competitiva o problemas operacionales internos en IBM. La tecnológica enfrenta una industria en constante evolución donde empresas emergentes de inteligencia artificial y computación en la nube han ganado participación de mercado a costa de compañías tradicionales.</p><p><strong>Este evento bursátil representa un recordatorio de la volatilidad de los mercados de capitales y la dependencia de las valuaciones tecnológicas respecto de la capacidad corporativa de sostener crecimiento y rentabilidad</strong>. IBM deberá comunicar una estrategia clara de recuperación y ajuste operacional para restaurar confianza de inversores y analistas en sus perspectivas futuras.</p>",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Photos_NewYork1_032.jpg/960px-Photos_NewYork1_032.jpg"
-        },
-        {
-          "id": "inflacion_eeuu_junio",
-          "cat": "Economía · Estados Unidos",
-          "titulo": "Inflación de EE.UU. se desacelera al 3,5% en junio tras caída de precios de nafta",
-          "bajada": "La inflación estadounidense mostró una desaceleración importante en junio, alcanzando el 3,5% anual. La caída de precios energéticos —la más pronunciada desde 2020— fue el principal factor detrás de la moderación inflacionaria.",
-          "cuerpo": "<p>La inflación en Estados Unidos se desaceleró a una tasa anual del 3,5% en junio, mostrando una tendencia moderadora en el índice de precios al consumidor (IPC) estadounidense. Este descenso representa un alivio para la Reserva Federal y una señal de que las presiones inflacionarias que caracterizaron años anteriores están perdiendo intensidad.</p><p><strong>El factor principal detrás de la desaceleración inflacionaria fue la pronunciada caída en los precios de la energía y, en particular, de los combustibles</strong>. Los precios de la gasolina y otros productos petrolíferos bajaron 0,4% entre mayo y junio, marcando la mayor caída en términos absolutos desde 2020. Esta reducción en costos energéticos se trasladó al índice general de precios al consumidor.</p><p>La desaceleración inflacionaria en EE.UU. ocurre en un contexto geopolítico complejo, con conflictos regionales que afectan la oferta global de petróleo y la cadena de suministros internacional. Sin embargo, la abundancia relativa de oferta energética en el mercado global ha permitido que los precios bajen, beneficiando a consumidores y empresas estadounidenses.</p><p><strong>Este dato de inflación moderada tiene implicaciones importantes para la política monetaria de la Reserva Federal, que ha mantenido tasas de interés elevadas para combatir la inflación</strong>. Si la tendencia desaceleratoria se sostiene en los próximos meses, podría crear presión para que la Fed revise a la baja sus proyecciones de tasas futuras, afectando la dinámica de mercados de capitales globales.</p>",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png"
-        },
-        {
-          "id": "ipc_junio_argentina",
-          "cat": "Economía · Argentina",
-          "titulo": "Inflación de junio: cuál fue el IPC acumulado y qué proyectan las consultoras",
-          "bajada": "Argentina conocerá hoy la cifra oficial del IPC de junio. En mayo el índice fue del 2,1% mensual con variación interanual del 14,7%, un indicador relevante para evaluar la trayectoria inflacionaria del año.",
-          "cuerpo": "<p>El Instituto Nacional de Estadística y Censos (INDEC) revelará esta tarde la cifra oficial del Índice de Precios al Consumidor (IPC) correspondiente al mes de junio de 2026. Este dato es aguardado con especial atención por economistas, inversores, trabajadores y formuladores de política pública, dado que proporciona una medida central de la evolución de precios en la economía argentina.</p><p><strong>En mayo de 2026, el IPC mensual registró un alza del 2,1%, con una variación interanual acumulada del 14,7% durante el período enero-junio</strong>. Estos números evidencian que aunque la inflación mensual se ha moderado respecto de períodos anteriores, la acumulación de aumentos de precios sigue siendo significativa cuando se calcula en términos anuales.</p><p>Las consultoras económicas tienen proyecciones variadas sobre cuál será la cifra de junio y cómo evolucionará la inflación durante el resto del año 2026. Algunos analistas anticipan una desaceleración gradual si las condiciones monetarias y de oferta se mantienen estables; otros advierten sobre riesgos inflacionarios si factores externos o internos generan presiones en precios de insumos, energía o bienes transables.</p><p><strong>La trayectoria inflacionaria de 2026 es un parámetro crítico para las decisiones de consumo, inversión, ahorro y política laboral en Argentina</strong>. Un IPC de junio elevado podría reforzar expectativas inflacionarias en el mercado y presionar por aumentos salariales y tarifas en sectores regulados; un dato moderado, en cambio, podría favorecer una mayor estabilidad de expectativas y menor conflictividad distributiva.</p>",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg"
-        },
-        {
-          "id": "toyota_auto_electrico_manual",
-          "cat": "Tecnología · Automovilismo",
-          "titulo": "La insólita idea de Toyota para que manejar un eléctrico se sienta como un auto manual",
-          "bajada": "La automotriz japonesa patentó un sistema innovador que simula la experiencia de conducir un vehículo con transmisión manual tradicional en autos eléctricos. La invención busca satisfacer el deseo de conductores nostálgicos de mantener la experiencia de cambio de marchas.",
-          "cuerpo": "<p>Toyota ha patentado un sistema tecnológico único que permite a conductores de vehículos eléctricos experimentar la sensación de manejar un auto con transmisión manual tradicional. El invento incluye una palanca de cambios virtual y un simulador de embrague, buscando combinar la eficiencia de los eléctricos con la experiencia de conducción nostálgica de los autos manuales.</p><p><strong>El sistema patentado por Toyota consiste en una interfaz que interpreta los movimientos del conductor en una palanca de cambios simulada y traduce esas acciones a ajustes de potencia y aceleración del motor eléctrico</strong>. Aunque un vehículo eléctrico no requiere cambio de marchas tradicionales por su arquitectura mecánica, el sistema genera una experiencia sensorial similar a la de conducir un manual convencional.</p><p>La innovación responde a un segmento de consumidores que valora la experiencia tactil y el control manual de la conducción, considerada por muchos entusiastas como más placentera o auténtica que la conducción automática. En un contexto de masiva transición hacia vehículos eléctricos, Toyota busca retener a conductores apegados a la experiencia manual ofreciendo una alternativa que satisface ambas preferencias.</p><p><strong>Este tipo de innovación refleja cómo la industria automotriz está pensando formas creativas de adaptar tradiciones de conducción a nuevas tecnologías ecológicas</strong>. Si bien es incierto si esta solución llegará a producción masiva, la patente de Toyota evidencia el esfuerzo de fabricantes por hacer la transición a vehículos eléctricos atractiva para distintos tipos de conductores, desde quienes buscan máxima eficiencia hasta aquellos que valoran la experiencia táctil tradicional.</p>",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Universidad_Nacional_de_La_Pampa_2.jpg/960px-Universidad_Nacional_de_La_Pampa_2.jpg"
-        },
-        {
-          "id": "deprecacion_autos_hibridos_electricos",
-          "cat": "Economía · Automovilismo",
-          "titulo": "Un informe revela cuánto puede desvalorizarse un auto híbrido y un eléctrico en cinco años",
-          "bajada": "Un análisis de más de 950.000 vehículos usados de cinco años de antigüedad vendidos en Estados Unidos reveló información sobre la depreciación de autos híbridos y eléctricos. Los datos permiten evaluar costos reales de posesión a largo plazo.",
-          "cuerpo": "<p>Un informe exhaustivo que analizó datos de más de 950.000 vehículos usados de aproximadamente cinco años de antigüedad vendidos entre marzo de 2025 y febrero de 2026 en el mercado estadounidense reveló patrones significativos de depreciación en autos híbridos y eléctricos. El estudio proporciona información valiosa para consumidores que evalúan el costo total de propiedad de vehículos alternativos.</p><p><strong>Los resultados muestran que vehículos eléctricos e híbridos experimentan depreciación diferenciada respecto de autos de combustión convencional, con factores como tecnología de batería, carga disponible de infraestructura local y volatilidad de políticas de incentivos afectando sus valuaciones futuras</strong>. La depreciación de eléctricos fue particularmente pronunciada en regiones sin infraestructura de carga desarrollada.</p><p>El análisis de costos de depreciación es un parámetro crítico para decisiones de compra de vehículos, ya que la depreciación representa típicamente el mayor componente del costo total de propiedad después de cinco años. Consumidores evaluando la compra de un híbrido o eléctrico deben considerar que la reventa futura dependerá del estado del mercado secundario de esos vehículos.</p><p><strong>Los datos del informe sugieren que aunque los costos operacionales de eléctricos son menores (menos combustible, menos mantenimiento), la depreciación puede compensar parcialmente esos ahorros en el corto y mediano plazo</strong>. La industria automotriz y los gobiernos enfrentan el desafío de estabilizar los valores de mercado de vehículos alternativos para hacer más atractiva la transición hacia flotas de menor emisión.</p>",
-          "foto": ""
-        },
-        {
-          "id": "miedo_manejar_psicologia",
-          "cat": "Salud Mental · Psicología",
-          "titulo": "Según la psicología tener miedo a manejar esconde una historia de vida o un sueño postergado",
-          "bajada": "Estudios de psicología revelan que la fobia a manejar no es una simple aversión mecánica, sino que actúa como barrera psicológica para la independencia y la autoconfianza. Los terapeutas analizan las raíces emocionales detrás del miedo.",
-          "cuerpo": "<p>Investigaciones en psicología clínica han identificado que la fobia a manejar —o amaxofobia— no se reduce a un miedo superficial a vehículos o accidentes, sino que frecuentemente encubre historias de vida complejas, traumas emocionales o sueños postergados de autonomía. La fobia actúa como mecanismo defensivo psicológico con raíces profundas en la subjetividad del individuo.</p><p><strong>Para muchas personas que padecen miedo a manejar, la conducción representa un símbolo de independencia, libertad y toma de decisiones autónoma que, por diversas razones psicológicas o históricas, generan ansiedad o inseguridad</strong>. Terapeutas encuentran que detrás de la fobia a manejar frecuentemente hay experiencias de abuso, control parental excesivo, accidentes traumáticos o pérdidas significativas asociadas con vehículos.</p><p>La fobia se manifiesta como un obstáculo concreto para la autonomía personal, limitando la capacidad de la persona de acceder a empleos, relaciones o espacios sociales que requieren movilidad independiente. Este círculo vicioso de evitación refuerza la ansiedad y perpetúa la limitación de libertad personal del individuo afectado.</p><p><strong>El tratamiento psicológico de la amaxofobia requiere no solo técnicas de desensibilización gradual a la conducción, sino también exploración de las narrativas emocionales y experiencias de vida que sustentan el miedo</strong>. Terapeutas enfatizan que tratar la fobia a manejar implica ayudar al individuo a reconectar con su capacidad de agencia personal y confrontar creencias limitantes sobre su propia seguridad y competencia.</p>",
-          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Cloth_embroidered_by_a_schizophrenia_sufferer.jpg/960px-Cloth_embroidered_by_a_schizophrenia_sufferer.jpg"
-        },
-        {
-          "id": "120_anos_maisonnave",
-          "cat": "Educación y Cultura · La Pampa",
-          "titulo": "120 años de Maisonnave: jornada para reafirmar sentido de pertenencia",
-          "bajada": "Maisonnave celebró una emotiva jornada por su aniversario, reafirmando los vínculos comunitarios que caracterizan a la localidad. El evento reunió a ciudadanos para recordar la historia e identidad de la comunidad.",
-          "cuerpo": "<p>La localidad de Maisonnave en La Pampa celebró con una jornada popular sus 120 años de existencia, un hito que reunió a ciudadanos en torno a la reafirmación del sentido de pertenencia e identidad comunitaria. El evento fue una ocasión para recordar la trayectoria de la localidad, sus raíces, sus logros y los vínculos que mantienen cohesionada a la comunidad.</p><p><strong>Maisonnave es una localidad rural de La Pampa que ha mantenido a lo largo de más de un siglo una fuerte identidad comunitaria basada en valores de reciprocidad, cooperación y solidaridad entre sus habitantes</strong>. La conmemoración de 120 años permitió a ciudadanos repasar esa memoria colectiva y proyectar hacia el futuro el legado de convivencia que caracteriza a la comunidad.</p><p>Durante la jornada se realizaron actividades que incluyeron reconocimientos a familias fundadoras, rememoración de hitos históricos de la localidad, presentaciones culturales y espacios de encuentro intergeneracional. Estas prácticas de celebración comunitaria juegan un rol importante en la reproducción de identidades locales y el fortalecimiento de lazos entre generaciones.</p><p><strong>Para localidades pequeñas como Maisonnave, la celebración de aniversarios constituye una ocasión central para reafirmar la cohesión comunitaria en contextos de cambio y migración</strong>. El evento evidencia que a pesar de presiones modernizadoras y flujos migratorios que caracterizan territorios rurales, existen espacios de resistencia del sentido de pertenencia local y la memoria colectiva de comunidades históricamente constituidas.</p>",
+          "id": "maisonnave_120_anos",
+          "cat": "Historia Local · La Pampa",
+          "titulo": "120 años de Maisonnave: emotiva jornada popular para reafirmar el sentido de pertenencia",
+          "bajada": "La localidad de Maisonnave celebró 120 años de existencia con una jornada que congregó a vecinos y autoridades. El acto reafirmó el sentido de comunidad en el territorio.",
+          "cuerpo": "<p>La localidad de <strong>Maisonnave</strong> conmemoró 120 años de su fundación con una <strong>emotiva jornada popular</strong> que reunió a vecinos de varias generaciones, autoridades municipales y provinciales. El evento se desarrolló en espacios públicos centrales de la localidad con actividades comunitarias y actos oficiales.</p><p>El acto incluyó <strong>discursos de autoridades, reconocimiento a vecinos históricos, presentaciones culturales y comidas comunitarias</strong>. Los vecinos compartieron testimonios sobre la historia de la localidad, recordando figuras fundacionales y transformaciones experimentadas en 12 décadas. La jornada proyectó imágenes históricas y documentos sobre el surgimiento y desarrollo de Maisonnave.</p><p>Desde la municipalidad se remarcó que la fecha representa una <strong>oportunidad para reafirmar el tejido social local y los valores de solidaridad, trabajo y pertenencia territorial</strong>. Autoridades convocantes destacaron la importancia de que comunidades pequeñas mantengan espacios de encuentro que fortalezcan identidad colectiva.</p><p>Las celebraciones se extendieron por varias horas con participación masiva. Vecinos donaron fotografías y documentos personales para formar un archivo comunitario sobre la historia local. La municipalidad anunció planes para preservar memoria histórica y crear espacios públicos que conmemoren el aniversario.</p>",
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/1603970_img-20260712-wa0028.jpg"
         },
         {
-          "id": "mundial_2026_argentina_inglaterra",
-          "cat": "Deportes · Nacional",
-          "titulo": "Mundial 2026: Argentina llega a Atlanta para duelo con Inglaterra",
-          "bajada": "La selección argentina, campeona defensora del torneo, se prepara para viajar a Atlanta en Estados Unidos para enfrentar a Inglaterra en una de las semifinales del Mundial 2026. El equipo buscará continuar su camino hacia la final.",
-          "cuerpo": "<p>La selección argentina de fútbol se prepara para viajar a Atlanta, Estados Unidos, donde enfrentará a Inglaterra en una de las semifinales del Mundial de la FIFA 2026. Argentina llega al partido como campeona defensora del torneo, habiendo ganado Qatar 2022, y busca continuar su trayectoria victoriosa en el campeonato mundial.</p><p><strong>El enfrentamiento entre Argentina e Inglaterra representa un duelo clásico en la historia del fútbol internacional, con un trasfondo de rivalidades históricas y momentos icónicos en competiciones anteriores</strong>. Ambas selecciones son consideradas candidatas serias para llegar a la final del torneo, lo que eleva la importancia y la expectativa en torno al partido.</p><p>El equipo argentino viajará con la confianza que le proporciona su condición de defensor del título y su desempeño en las etapas previas del torneo. Los jugadores, técnicos y cuerpo técnico se preparan intensamente para optimizar su rendimiento físico, táctico y mental en un encuentro que definirá el acceso a la final.</p><p><strong>El partido entre Argentina e Inglaterra será seguido con atención masiva en Argentina y en todo el mundo, consolidándose como uno de los encuentros decisivos de la Copa del Mundo 2026</strong>. La victoriosa accederá a la final del torneo, mientras que la perdedora disputará el tercer puesto. El campeonato mundial continúa ofreciendo momentos de máxima intensidad competitiva y emotividad para fans de todo el planeta.</p>",
+          "id": "pampa_universidad_jauretche",
+          "cat": "Educación · La Pampa",
+          "titulo": "La Pampa en la jornada: Construir Futuro — Estado y Comunidad en la Universidad Jaureche",
+          "bajada": "Se realizó un encuentro en la Universidad Jaureche sobre construcción colectiva del presente y futuro provincial. Participaron funcionarios, docentes y estudiantes.",
+          "cuerpo": "<p>La <strong>Universidad Jaureche</strong> de La Pampa albergó una jornada titulada <strong>\"Construir Futuro: Estado y Comunidad\"</strong> que reunió a funcionarios provinciales, docentes universitarios, estudiantes y actores de la sociedad civil. El encuentro abordó temas sobre gobernanza, participación comunitaria y planes de desarrollo provincial.</p><p>La jornada incluyó <strong>paneles sobre políticas públicas en educación, sustentabilidad ambiental, desarrollo económico local e inclusión social</strong>. Expositores del Gobierno Provincial compartieron diagnósticos sobre situación actual de La Pampa. Académicos y representantes comunitarios aportaron perspectivas críticas y propuestas alternativas.</p><p>El acto reafirmó la <strong>función de la universidad pública como espacio de reflexión sobre problemáticas territoriales</strong>. Autoridades universitarias destacaron el compromiso institucional con pensamiento crítico y construcción colectiva de futuro. Se enfatizó importancia de espacios de diálogo entre Estado, academia y sociedad.</p><p>Se distribuyeron materiales de síntesis sobre temas tratados y se convocó a participantes a integrar mesas de trabajo temáticas que continuarán en próximas semanas. La Universidad Jaureche reafirmó su rol de institución pública comprometida con el desarrollo sustentable e inclusivo de La Pampa.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/293513_img-20260713-wa0059.jpg"
+        },
+        {
+          "id": "fifa_reglas_2026",
+          "cat": "Deportes · Fútbol Nacional",
+          "titulo": "Las nuevas reglas de la FIFA implementadas en el Mundial 2026 que se aplicarán en el fútbol argentino: cuáles son y qué cambia",
+          "bajada": "La gerencia técnica de arbitraje de la AFA organizó una reunión con representantes de 30 clubes para explicar los cambios normativos. Las nuevas reglas entrarán en vigor inmediatamente en competiciones locales.",
+          "cuerpo": "<p>La <strong>gerencia técnica de arbitraje de la Asociación del Fútbol Argentino (AFA)</strong> convocó a representantes de los 30 clubes de Argentina para difundir las <strong>nuevas reglas que implementará la FIFA en el Mundial 2026</strong>. El encuentro buscó alinear criterios arbitrales y garantizar uniformidad en la aplicación de normas en competiciones locales.</p><p>Entre los principales cambios se destacan <strong>modificaciones sobre faltas técnicas, amonestaciones por protesta, acumulación de tarjetas y criterios de interpretación en acciones de contacto</strong>. Los árbitros recibieron capacitación sobre decisiones VAR y revisión de jugadas. La federación enfatizó que los cambios buscan acelerar el juego y disminuir interrupciones.</p><p>La AFA dispuso que <strong>las nuevas reglas rigen de inmediato en torneos domésticos de Primera División, categorías inferiores y competiciones aficionadas</strong>. Los clubes deberán instruir a jugadores y cuerpos técnicos sobre las modificaciones normativas. Se prevé período de adaptación gradual.</p><p>Las autoridades arbitrales remarcaron que los cambios responden a evaluaciones de experiencias en competiciones internacionales previas. La FIFA busca mejorar fluidez, seguridad y espectacularidad del fútbol. Argentina, campeona mundial defensor desde Qatar 2022, fue considerada en los análisis que precedieron a las modificaciones reglamentarias.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Khalifa_International_Stadium.jpg/960px-Khalifa_International_Stadium.jpg"
+        },
+        {
+          "id": "maradona_camiseta_mundial_86",
+          "cat": "Deportes · Historia",
+          "titulo": "Claudia Villafañe reveló nuevos detalles de la camiseta usada por Diego Maradona contra Inglaterra en el Mundial 86",
+          "bajada": "Claudia Villafañe, expareja de Maradona, brindó en televisión detalles inéditos sobre la camiseta histórica del partido de Maradona contra Inglaterra. También reveló anécdotas desconocidas del equipo antes del enfrentamiento.",
+          "cuerpo": "<p><strong>Claudia Villafañe</strong>, ex pareja de Diego Armando Maradona, concedió una entrevista televisiva en la que reveló <strong>detalles inéditos sobre la camiseta icónica usada por Maradona en el partido Argentina-Inglaterra del Mundial 1986</strong>. Villafañe exhibió la prenda durante la entrevista y compartió información nunca antes divulgada sobre su conservación e importancia histórica.</p><p>Entre las anécdotas compartidas, Villafañe contó que <strong>los jugadores de la selección argentina \"no tenían\" camiseta disponible en el período previo al enfrentamiento crucial</strong>. Esto presenta una perspectiva desconocida sobre las condiciones de los equipos de la época. Maradona anotó dos goles memorables en ese partido, incluyendo la famosa \"Mano de Dios\".</p><p>Villafañe enfatizó la <strong>importancia histórica de la prenda como testigo material de uno de los partidos más legendarios de la historia del fútbol</strong>. La camiseta representa el talento extraordinario de Maradona en su mejor momento. Según Villafañe, la conservación de la pieza responde a un cuidado especial dadas sus características simbólicas.</p><p>La entrevista generó interés mediático sobre el patrimonio material relacionado con Maradona. Historiadores del fútbol consideran que revelaciones sobre objetos históricos permiten reconstruir contextos olvidados de competiciones pasadas. La expareja afirmó que otros detalles sobre la carrera maradoniana permanecen sin ser difundidos públicamente.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/0/02/Maradona_y_dalma_1987.jpg"
+        },
+        {
+          "id": "gobierno_arsat_nucleoelectrica",
+          "cat": "Economía Nacional · Empresas Públicas",
+          "titulo": "Mientras avanza con las privatizaciones, el Gobierno aprobó los presupuestos de ARSAT y Nucleoeléctrica",
+          "bajada": "El Ministerio de Economía aprobó los presupuestos 2026 de cuatro empresas públicas: ARSAT, Nucleoeléctrica, COVIARA y AGP. Todas proyectan superávit financiero para el ejercicio.",
+          "cuerpo": "<p>El <strong>Ministerio de Economía de la Nación</strong> aprobó los presupuestos correspondientes al ejercicio fiscal 2026 para cuatro empresas públicas: <strong>ARSAT, Nucleoeléctrica Argentina, COVIARA y Administración General de Puertos (AGP)</strong>. Las proyecciones presupuestarias incluyen resultados con superávit financiero para todas las entidades.</p><p>La aprobación ocurre mientras el Gobierno nacional <strong>avanza simultáneamente con un plan de privatizaciones de empresas públicas</strong> que ha generado debate político. La decisión de aprobar presupuestos superavitarios para empresas consideradas candidatas a privatización marca una posición dual: mantener operatividad mientras se evalúan procesos de transferencia al sector privado.</p><p>Los presupuestos aprueban <strong>inversiones en infraestructura, mantenimiento de operaciones críticas y fondos para personal</strong> en cada entidad. ARSAT mantiene funciones de comunicaciones satelitales; Nucleoeléctrica administra plantas de generación eléctrica; AGP supervisa tráfico portuario nacional. COVIARA administra créditos hipotecarios.</p><p>Desde el Ministerio se argumentó que mantener financiamiento en empresas públicas estratégicas garantiza continuidad de servicios críticos. Opositores advierten que la aprobación de presupuestos podría significar dilación de privatizaciones. El Ejecutivo enfatizó que la política de empresa pública se revisa permanentemente según criterios de eficiencia.",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png"
+        },
+        {
+          "id": "barcelona_oferece_julian_alvarez",
+          "cat": "Deportes · Mercado de Pases",
+          "titulo": "Barcelona prepara una nueva oferta por Julián Álvarez para intentar destrabar la negociación con Atlético de Madrid",
+          "bajada": "El Barcelona presentó una primera oferta insuficiente y ahora prepara una propuesta mejorada para adquirir al delantero argentino Julián Álvarez. Atlético Madrid mantiene posición firme en sus pretensiones.",
+          "cuerpo": "<p>El <strong>Barcelona</strong> trabaja en la <strong>formulación de una nueva oferta económica por Julián Álvarez</strong>, delantero argentino que milita en el Atlético de Madrid. La iniciativa responde a la insuficiencia de la propuesta inicial presentada por los catalanes, rechazada por los colchoneros.</p><p>El club español considera que <strong>debe aumentar significativamente la cifra ofrecida para avanzar en la negociación</strong>. Álvarez, de 30 años, es considerado uno de los delanteros más cotizados del mercado mundial y representa una pieza crítica en los planes de Barcelona para reforzar su ataque de cara a la próxima temporada.</p><p>El Atlético de Madrid mantiene <strong>una posición firme en sus pretensiones económicas</strong>, argumentando que Álvarez es fundamental para sus objetivos competitivos. Los madrileños evalúan cualquier propuesta que llegue desde el extranjero con criterios de maximización de ingresos y de consideración sobre impacto deportivo.</p><p>Según reportes de mercado, Barcelona evaluará alternativas si las negociaciones por Álvarez no avanzan. El delantero argentino permanece enfocado en actividades de entrenamiento y competición mientras directivos transan sobre su futuro. El mercado de pases europeo mantiene dinamismo a poco tiempo del cierre de negociaciones estivales.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/8/84/Bianco_e_Rosso_a_strisce_con_Triangolo_Blu_e_Bianco_con_stelle_Bianche.png"
+        },
+        {
+          "id": "eeuu_bloqueo_iran_ormuz",
+          "cat": "Relaciones Internacionales · Conflicto",
+          "titulo": "EEUU intensifica su ofensiva contra Irán y avanza con un nuevo bloqueo naval",
+          "bajada": "Tras el fracaso de negociaciones diplomáticas, EEUU restableció un bloqueo naval contra Irán en el estrecho de Ormuz. El precio del crudo Brent volvió a ubicarse por encima de niveles históricos.",
+          "cuerpo": "<p>Los <strong>Estados Unidos intensificaron su ofensiva diplomática y militar contra Irán</strong> mediante la <strong>reinstalación de un bloqueo naval en el estrecho de Ormuz</strong>, una de las rutas marítimas más críticas para el comercio mundial de hidrocarburos. La acción llega tras el fracaso de una nueva ronda de negociaciones bilaterales.</p><p>El <strong>bloqueo busca restringir el comercio petrolero iraní</strong> y maximizar presión económica sobre Teherán. EEUU argumenta que la medida responde a actividades nucleares iraníes consideradas amenazantes. La acción marca escalada en relaciones que tiempo atrás mostraban signos de distensión.</p><p>Como consecuencia inmediata, el <strong>precio del crudo Brent volvió a ubicarse por encima de máximos históricos</strong>, generando impacto en economías dependientes de importaciones energéticas. Analistas proyectan que la restricción sostenida del comercio iraniano acelerará inflación en mercados globales.</p><p>La crisis desata reacciones en terceros países. Potencias como Rusia y China condenaron la escalada estadounidense. Organizaciones humanitarias expresan preocupación sobre impacto de sanciones económicas en población civil iraní. El conflicto mantiene dinamismo con pocas perspectivas de resolución diplomática inmediata.</p>",
           "foto": ""
+        },
+        {
+          "id": "flavio_bolsonaro_acusa_moraes",
+          "cat": "Política Internacional · Brasil",
+          "titulo": "Flávio Bolsonaro acusa al juez Moraes de intentar interferir en las elecciones de Brasil",
+          "bajada": "Flávio Bolsonaro, exgobernador bajo arresto domiciliario, acusó públicamente al juez Sergio Moraes de intentar interferir en procesos electorales brasileños. La acusación se basa en una carta manuscrita difundida públicamente.",
+          "cuerpo": "<p><strong>Flávio Bolsonaro</strong>, exgobernador del estado de Río de Janeiro actualmente bajo arresto domiciliario, dirigió <strong>acusaciones públicas contra el juez Sergio Moraes</strong>, a quien responsabiliza de intentar interferir en los procesos electorales democráticos brasileños. Las acusaciones escalaron tensiones políticas internas.</p><p>La acusación se fundamenta en la <strong>divulgación pública de una carta manuscrita de Bolsonaro</strong>, quien mantiene restricciones sobre contacto exterior impuestas por su condición legal. El contenido de la misiva fue interpretado por el acusado como evidencia de interferencia judicial en materia electoral.</p><p><strong>Bolsonaro permanece bajo arresto domiciliario por cargos relacionados con operaciones de supuesta corrupción</strong>. El encarcelamiento ha generado reacciones divididas en Brasil, con apoyo de seguidores bolsonaristas y críticas de sectores opositores que argumentan necesidad de independencia judicial.</p><p>El episodio refleja polarización política brasileña persistente. Analistas señalan que tensiones entre Poder Judicial y expresidentes se mantienen elevadas en Brasil. Las acusaciones de interferencia electoral generan cuestionamientos sobre legitimidad de procesos judiciales independientemente de posiciones políticas de los involucrados.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29_%283x4%29.jpg/960px-Foto_oficial_do_senador_Fl%C3%A1vio_Bolsonaro_%28v._AgSen%29_%283x4%29.jpg"
+        },
+        {
+          "id": "inicia_new_oferta_julian",
+          "cat": "Deportes · Mercado de Pases",
+          "titulo": "Inicia New Oferta Julian Alvarez Barcelona Atletico",
+          "bajada": "El Barcelona presentó una primera oferta insuficiente y ahora prepara una propuesta mejorada para adquirir al delantero argentino Julián Álvarez. Atlético Madrid mantiene posición firme en sus pretensiones.",
+          "cuerpo": "<p>El <strong>Barcelona</strong> trabaja en la <strong>formulación de una nueva oferta económica por Julián Álvarez</strong>, delantero argentino que milita en el Atlético de Madrid. La iniciativa responde a la insuficiencia de la propuesta inicial presentada por los catalanes, rechazada por los colchoneros.</p><p>El club español considera que <strong>debe aumentar significativamente la cifra ofrecida para avanzar en la negociación</strong>. Álvarez, de 30 años, es considerado uno de los delanteros más cotizados del mercado mundial y representa una pieza crítica en los planes de Barcelona para reforzar su ataque de cara a la próxima temporada.</p><p>El Atlético de Madrid mantiene <strong>una posición firme en sus pretensiones económicas</strong>, argumentando que Álvarez es fundamental para sus objetivos competitivos. Los madrileños evalúan cualquier propuesta que llegue desde el extranjero con criterios de maximización de ingresos y de consideración sobre impacto deportivo.</p><p>Según reportes de mercado, Barcelona evaluará alternativas si las negociaciones por Álvarez no avanzan. El delantero argentino permanece enfocado en actividades de entrenamiento y competición mientras directivos transan sobre su futuro. El mercado de pases europeo mantiene dinamismo a poco tiempo del cierre de negociaciones estivales.</p>",
+          "foto": ""
+        },
+        {
+          "id": "fifa_nuevas_reglas_futbol",
+          "cat": "Deportes · Fútbol",
+          "titulo": "FIFA nuevas reglas futbol argentino 2026",
+          "bajada": "La gerencia técnica de arbitraje de la AFA organizó una reunión con representantes de 30 clubes para explicar los cambios normativos. Las nuevas reglas entrarán en vigor inmediatamente en competiciones locales.",
+          "cuerpo": "<p>La <strong>gerencia técnica de arbitraje de la Asociación del Fútbol Argentino (AFA)</strong> convocó a representantes de los 30 clubes de Argentina para difundir las <strong>nuevas reglas que implementará la FIFA en el Mundial 2026</strong>. El encuentro buscó alinear criterios arbitrales y garantizar uniformidad en la aplicación de normas en competiciones locales.</p><p>Entre los principales cambios se destacan <strong>modificaciones sobre faltas técnicas, amonestaciones por protesta, acumulación de tarjetas y criterios de interpretación en acciones de contacto</strong>. Los árbitros recibieron capacitación sobre decisiones VAR y revisión de jugadas. La federación enfatizó que los cambios buscan acelerar el juego y disminuir interrupciones.</p><p>La AFA dispuso que <strong>las nuevas reglas rigen de inmediato en torneos domésticos de Primera División, categorías inferiores y competiciones aficionadas</strong>. Los clubes deberán instruir a jugadores y cuerpos técnicos sobre las modificaciones normativas. Se prevé período de adaptación gradual.</p><p>Las autoridades arbitrales remarcaron que los cambios responden a evaluaciones de experiencias en competiciones internacionales previas. La FIFA busca mejorar fluidez, seguridad y espectacularidad del fútbol. Argentina, campeona mundial defensor desde Qatar 2022, fue considerada en los análisis que precedieron a las modificaciones reglamentarias.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Maradona_cup_azteca.jpg/960px-Maradona_cup_azteca.jpg"
+        },
+        {
+          "id": "seguridad_vial_receso",
+          "cat": "Seguridad Vial · Rutas",
+          "titulo": "Seguridad Vial nueva edicion Cuidar Vidas programa provincial",
+          "bajada": "El Gobierno de La Pampa puso en marcha una nueva edición del Programa Cuidar Vidas. El programa busca fortalecer la Seguridad Vial durante el receso invernal mediante controles preventivos, patrullajes y acciones de concientización en rutas nacionales y provinciales.",
+          "cuerpo": "<p>El Gobierno de La Pampa activó ayer una <strong>nueva edición del Programa Cuidar Vidas</strong>, una política pública de carácter sostenido que busca fortalecer la seguridad vial en las carreteras provinciales durante el receso invernal. El programa articula múltiples acciones coordinadas entre organismos provinciales y fuerzas de seguridad para reducir siniestralidad vial.</p><p>Entre las medidas implementadas se encuentran <strong>controles preventivos intensificados, patrullajes permanentes en rutas nacionales y provinciales, y acciones de concientización dirigidas a conductores</strong>. El Ministerio de Seguridad coordinó con policía caminera y fuerzas locales para cubrir los tramos de mayor circulación durante el período de vacaciones escolares, cuando aumenta el tránsito familiar.</p><p>El programa también incluye <strong>evaluación de estado de vehículos, control de documentación obligatoria y campañas sobre manejo defensivo</strong>. Las autoridades priorizan la detección temprana de factores de riesgo como exceso de velocidad, falta de cinturón de seguridad y consumo de alcohol en conductores.</p><p>Desde el ejecutivo provincial se destacó que Cuidar Vidas responde a una estrategia integral de reducción de accidentes de tránsito que se renueva cada período estacional. Autoridades sanitarias también refuerzan espacios de atención en emergencias viales para respuesta rápida ante siniestros.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a564784c79b4.jpg"
         }
       ]
     },
