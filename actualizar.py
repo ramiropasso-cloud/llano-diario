@@ -599,19 +599,21 @@ REGLA FUNDAMENTAL — NUNCA INVENTAR:
 - NUNCA uses tu entrenamiento para inventar noticias de hoy en sec03 ni sec04. Las noticias de hoy solo pueden venir de las fuentes RSS de arriba.
 {aviso_sin_fuentes_pampa}
 
-PRINCIPIOS EDITORIALES:
+MODO FACTUAL — SOLO NOTICIAS DE FUENTES REALES (hasta nuevo aviso):
+- SOLO escribir noticias basadas en los textos literales de APN y RSS provistos arriba.
+- PROHIBIDO escribir columnas de opinion, analisis editorial, interpretaciones politicas o "entre telones" inventados.
+- Si una noticia de APN/RSS dice X, escribir X con precision. No agregar interpretacion propia ni "trasfondo" especulativo.
+- Los articulos en "arts" deben ser resumen factual de la noticia fuente, sin editorializacion.
+
+PRINCIPIOS:
 1. OBJETIVIDAD ABSOLUTA — cobertura igual para PJ, UCR, LLA y todos los partidos. Sin sesgo.
-2. SEGUIMIENTO EQUILIBRADO DE TODA LA OPOSICION Y EL OFICIALISMO — no concentrar la cobertura en un solo referente opositor. Cubrir segun peso institucional real:
-   OFICIALISMO: Ziliotto (GOBERNADOR PJ), Di Napoli (intendente Santa Rosa, PJ/La Campora), Alonso (intendenta Gral. Pico, vernismo/PJ).
-   OPOSICION (cubrir el conjunto, sin sobre-representar a uno solo): Kroneberger (SENADOR NACIONAL UCR), Huala (SENADORA NACIONAL PRO), Ardohain (DIPUTADO NACIONAL PRO), Ravier (DIPUTADO NACIONAL LLA — viene ganando protagonismo politico, cubrir con la misma intensidad que a los demas referentes opositores, no menos), Berhongaray (presidente Comite UCR provincial, conduccion partidaria sin banca), Altolaguirre (EX INTENDENTE Santa Rosa UCR, sin cargo actual).
-3. FUENTE EN CAMPO TS: el campo ts SIEMPRE debe ser exactamente "{fecha_corta} · LLANO·". NUNCA poner La Arena, El Diario de La Pampa, Diarionoticias, Ambito, ni ningún otro medio en ningún campo.
-4. VOZ: Clara, directa, rioplatense, sin sesgo partidario.
-5. FOTOS: APN es fuente de texto/notas oficiales, NO la fuente de fotos. Si el contexto trae una URL de foto de APN, usala; si no, deja el campo vacio y NO inventes ni busques fotos por tu cuenta — el sistema completa automaticamente con foto local del archivo o foto verificada de Wikipedia.
-6. PROFUNDIDAD Y TRASFONDO: ademas del anuncio o hecho del dia, buscar el "entre telones" — alianzas, tensiones internas, operadores y conectores que explican por que pasa lo que pasa en la politica pampeana. Priorizar notas que muestren el juego de poder y los vinculos entre actores, no solo la gacetilla oficial.
+2. FUENTE EN CAMPO TS: el campo ts SIEMPRE debe ser exactamente "{fecha_corta} · LLANO·". NUNCA poner La Arena, El Diario de La Pampa, Diarionoticias, Ambito, ni ningún otro medio en ningún campo.
+3. VOZ: Clara, directa, rioplatense, sin sesgo partidario.
+4. FOTOS: APN es fuente de texto/notas oficiales, NO la fuente de fotos. Si el contexto trae una URL de foto de APN, usala; si no, deja el campo vacio y NO inventes ni busques fotos por tu cuenta — el sistema completa automaticamente con foto local del archivo o foto verificada de Wikipedia.
 
 DEFINICION ESTRICTA DE SECCIONES:
 - sec01_list = 6 noticias de LA PAMPA en formato lista (gobierno provincial, municipios, politica pampeana, economia, salud, cultura, obra publica) — NO repetir los temas/protagonistas ya cubiertos en hero o hero_side, deben ser noticias distintas
-- sec03 (cards) = noticias de ARGENTINA NACIONAL basadas en RSS de arriba (Casa Rosada, Congreso, economia nacional, partidos nacionales) — NADA de La Pampa — puede tener menos de 6 si el RSS tiene pocos items hoy
+- sec03 (cards) = noticias de ARGENTINA NACIONAL basadas en RSS de arriba (Casa Rosada, Congreso, economia nacional, partidos nacionales) — NADA de La Pampa — NADA de otros paises (EEUU, Brasil, Iran, Venezuela, etc van en sec04) — puede tener menos de 6 si el RSS tiene pocos items hoy
 - sec04 (lista) = noticias INTERNACIONALES basadas en RSS de arriba (otros paises, organismos mundiales) — NADA de Argentina — puede tener menos de 5 si el RSS tiene pocos items hoy
 - dato_dia = el dato estadistico/cifra mas importante del dia en La Pampa
 - cita_dia = la frase textual mas relevante del dia en la politica pampeana
