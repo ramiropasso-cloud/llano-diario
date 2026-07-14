@@ -1101,7 +1101,7 @@ print(f"  Meta tags OG actualizados — foto: {'hero' if og_foto != 'https://lla
 # ── REEMPLAZAR SEC03 ──
 sec03 = data.get("sec03", [])[:6]
 sec03_cards = "\n".join(card_html(c) for c in sec03)
-sec03_bloque = f'<!-- AUTO:SEC03:START -->\n  <div class="g3 fade-in">\n{sec03_cards}\n  </div>\n  <!-- AUTO:SEC03:END -->'
+sec03_bloque = f'<!-- AUTO:SEC03:START -->\n  <div class="g3">\n{sec03_cards}\n  </div>\n  <!-- AUTO:SEC03:END -->'
 llano = safe_sub(r'<!-- AUTO:SEC03:START -->[\s\S]*?<!-- AUTO:SEC03:END -->', sec03_bloque, llano)
 
 # ── REEMPLAZAR SEC01-LIST ──
@@ -1136,7 +1136,7 @@ llano = safe_sub(r'<!-- AUTO:DATOS:START -->[\s\S]*?<!-- AUTO:DATOS:END -->', da
 sec04 = data.get("sec04", [])[:5]
 sec04_rows = intl_html(sec04)
 sec04_bloque = f"""<!-- AUTO:SEC04:START -->
-  <div class="lay fade-in" style="margin-bottom:3rem;">
+  <div class="lay" style="margin-bottom:3rem;">
     <div class="intl-list">
 {sec04_rows}    </div>
     <aside>
