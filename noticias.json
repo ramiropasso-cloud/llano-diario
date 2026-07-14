@@ -2,6 +2,174 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-07-14_manana",
+      "fecha_iso": "2026-07-14",
+      "fecha": "14 julio 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "El Banco de Sangre del Favaloro suma biología molecular",
+        "summary": "La Pampa se posiciona como tercera provincia del país en tecnología de análisis de donaciones. El Hospital Favaloro completó su acreditación nacional con un moderno analizador automatizado.",
+        "cat": "Salud · La Pampa",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/1538801_banco-de-sangredsc_4986.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Receso invernal en el Jardín Botánico: ¡Aves para los más chicos!",
+          "resumen": "El Jardín Botánico Provincial ofrece actividades para familias durante el receso de invierno con talleres sobre avifauna.",
+          "cat": "Cultura · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1033006_whatsapp-image-2026-07-13-at-10.49.50-am.jpeg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Turismo: un fin de semana con moderado movimiento en La Pampa",
+          "resumen": "La Secretaría de Turismo reportó actividad interna equilibrada durante el fin de semana extendido.",
+          "cat": "Economía · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/244581_img-20260712-wa0043.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Continúan promocionando las buenas prácticas de poda para un arbolado saludable",
+          "resumen": "El Gobierno provincial sigue difundiendo técnicas de poda correcta para mantener la salud del arbolado urbano.",
+          "cat": "Ambiente · La Pampa",
+          "foto": "",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "120 años de Maisonnave: emotiva jornada popular para reafirmar el sentido de pertenencia",
+          "resumen": "La localidad celebró su aniversario con una jornada que reunió a vecinos para fortalecer el vínculo comunitario.",
+          "cat": "Comunidad · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1603970_img-20260712-wa0028.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "10 años del PROCAAP: \"Una política pública que transcendió a distintos gobiernos y nos enorgullece\"",
+          "resumen": "El Programa Provincial de Capacitación cumple una década de trayectoria, consolidándose como iniciativa transversal.",
+          "cat": "Políticas Públicas · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a522990490a9.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gobierno provincial refuerza mecanismos de protección al consumidor",
+          "resumen": "Se han intensificado los controles y acciones de defensa del consumidor en comercios de la provincia.",
+          "cat": "Administración · La Pampa",
+          "foto": "",
+          "ts": "14 jul 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Casa Rosada refuerza agenda legislativa ante Congreso",
+          "resumen": "El Ejecutivo nacional propone acelerar debate de proyectos clave para el segundo semestre.",
+          "cat": "Gobierno Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "BCRA mantiene política de tasas en contexto de estabilidad",
+          "resumen": "El Banco Central sostiene su posición en materia monetaria ante indicadores de inflación contenida.",
+          "cat": "Economía Nacional · BCRA",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/ECB_Frankfurt_at_Sunset.jpg/960px-ECB_Frankfurt_at_Sunset.jpg",
+          "ts": "14 jul 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Provincia precisó el marco legal de adopciones y acogimiento",
+          "resumen": "La Dirección de Niñez y Adolescencia ratificó que todas las actuaciones responden al interés superior del niño.",
+          "cat": "Infancia · La Pampa",
+          "ts": "14 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Ziliotto ratificó políticas públicas de La Pampa en Universidad",
+          "resumen": "El ministro Diego Álvarez presentó avances provinciales y entregó certificados a agentes que completaron diplomatura.",
+          "cat": "Educación · La Pampa",
+          "ts": "14 jul 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "banco_sangre_favaloro",
+          "cat": "Salud · Infraestructura",
+          "titulo": "El Banco de Sangre del Favaloro ya puede analizar las donaciones aplicando biología molecular",
+          "bajada": "Tras obtener la acreditación del máximo organismo nacional, el servicio completó su equipamiento con un moderno analizador automatizado. La Pampa se posiciona como la tercera provincia del país en esta capacidad tecnológica.",
+          "cuerpo": "<p>El Banco de Sangre del Hospital Favaloro culminó su proceso de acreditación ante los organismos nacionales de control, sumando un <strong>moderno analizador automatizado de biología molecular</strong> que permite ampliar significativamente la capacidad de análisis de las donaciones de sangre. La inversión fue financiada directamente por el Gobierno de La Pampa, a través de partidas presupuestarias destinadas al fortalecimiento de infraestructura sanitaria.</p><p>Con esta incorporación tecnológica, La Pampa se convierte en la <strong>tercera provincia del país</strong> —después de Buenos Aires y Córdoba— que cuenta con esta herramienta de diagnóstico de alto nivel. El equipamiento permite detectar con mayor precisión la presencia de agentes infecciosos en las muestras de sangre, elevando los estándares de seguridad transfusional y reduciendo riesgos para los receptores.</p><p>La medida responde a la política provincial de modernización de servicios de salud y se enmarca en los esfuerzos del ministerio correspondiente por garantizar que La Pampa mantenga estándares de atención equiparables a los principales centros del país. El director del Favaloro destacó que esta capacidad de análisis local optimiza los tiempos de respuesta y reduce la dependencia de centros especializados en otras provincias.</p><p>El Banco de Sangre atiende la demanda transfusional de toda la región sanitaria del sur provincial y ha venido consolidándose como un eje clave en la red de servicios hematológicos. La incorporación de biología molecular amplía las posibilidades diagnósticas y posiciona a La Pampa como referente en materia de seguridad transfusional a nivel nacional.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1538801_banco-de-sangredsc_4986.jpg"
+        },
+        {
+          "id": "provincia_adoptaciones_marco",
+          "cat": "Infancia · Derecho de Familia",
+          "titulo": "Provincia recordó el funcionamiento del sistema de adopciones",
+          "bajada": "La Dirección General de Niñez y Adolescencia brindó precisiones sobre el marco legal que regula el acogimiento familiar. Ratificó que todas las actuaciones se ajustan al interés superior del niño.",
+          "cuerpo": "<p>La Dirección General de Niñez y Adolescencia emitió un comunicado detallando los procedimientos y principios rectores del sistema provincial de adopciones y acogimiento familiar, ante una situación de públic conocimiento que generó inquietud en sectores de la comunidad. El organismo reafirmó su compromiso con el <strong>cumplimiento estricto del marco legal nacional e internacional</strong> que protege los derechos de la infancia.</p><p>El comunicado enfatizó que toda actuación de la Dirección responde al <strong>principio del interés superior del niño</strong>, consagrado en la Convención Internacional de Derechos del Niño y en la legislación civil argentina. Los procesos de acogimiento familiar y adopción son supervisados por equipos interdisciplinarios que evalúan en cada caso las condiciones óptimas para el bienestar y desarrollo del menor.</p><p>La provincia cuenta con protocolos de seguimiento que incluyen evaluaciones psicosociales, análisis de idoneidad de familias acogedoras y monitoreo continuo durante el periodo de adaptación. La Dirección también indicó que existe estrecha coordinación con el Poder Judicial provincial y los juzgados de familia, garantizando transparencia y devido proceso en cada trámite.</p><p>El comunicado exhortó a la ciudadanía a consultar directamente con el organismo ante dudas sobre procesos de adopción y acogimiento. La Dirección General mantiene canales de atención abiertos para recibir consultas, denuncias y requiere la colaboración de la sociedad para identificar situaciones que requieran intervención. La institución reitero su compromiso de <strong>proteger a los niños y adolescentes</strong> y garantizar sus derechos fundamentales en toda circunstancia.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a5504e5b40e8.jpg"
+        },
+        {
+          "id": "ziliotto_universidad_jauretche",
+          "cat": "Educación · Políticas Públicas",
+          "titulo": "La Pampa en la jornada Construir Futuro Estado y Comunidad en la Universidad Jauretche",
+          "bajada": "El ministro Diego Álvarez expuso las políticas públicas impulsadas por el Gobierno provincial y entregó certificados a agentes que finalizaron la Diplomatura Superior. La Jauretche ratificó su rol como espacio de formación estatal.",
+          "cuerpo": "<p>En representación del Gobierno de La Pampa, el ministro Diego Álvarez participó en la jornada \"Construir Futuro Estado y Comunidad\" organizada por la Universidad Nacional Arturo Jauretche, donde presentó los ejes de política pública que impulsa la administración provincial en materia educativa, de gestión territorial y vinculación comunitaria. La actividad reconoció el egreso de agentes provinciales que completaron la <strong>Diplomatura Superior en Gestión Pública</strong>.</p><p>El acto se realizó en el contexto del fortalecimiento de los lazos entre la Universidad Jauretche y el Gobierno provincial, consolidando una alianza estratégica en la formación de recursos humanos para la administración pública. Los certificados entregados corresponden a funcionarios y empleados provinciales que participaron de una propuesta académica diseñada para potenciar competencias gerenciales y de liderazgo en el sector estatal.</p><p>El ministro Álvarez destacó la importancia de <strong>articular académia y gestión pública</strong> para generar políticas más informadas y eficaces. Enfatizó que la capacitación continua de agentes estatales fortalece la calidad de los servicios ofrecidos a la ciudadanía y contribuye a modernizar la administración provincial. La iniciativa es parte de la estrategia de desarrollo institucional impulsada por el Gobierno.</p><p>La Universidad Jauretche, creada como institución pública federal, ha venido posicionándose como un espacio de formación orientado a la realidad social y política argentina. La jornada reafirmó el compromiso de ambas instituciones en <strong>construir espacios de aprendizaje comunitario</strong> y formar profesionales comprometidos con el bien público y el desarrollo territorial.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/293513_img-20260713-wa0059.jpg"
+        },
+        {
+          "id": "receso_jardin_botanico_aves",
+          "cat": "Cultura · Educación Ambiental",
+          "titulo": "Receso invernal en el Jardín Botánico: ¡Aves para los más chicos!",
+          "bajada": "Durante el receso de invierno, el Jardín Botánico Provincial invita a las familias a participar de actividades educativas centradas en avifauna. El Ministerio de Producción lidera la iniciativa a través de la Dirección de Recursos Naturales.",
+          "cuerpo": "<p>El Jardín Botánico Provincial diseñó una propuesta especial para las familias durante el receso invernal escolar, ofreciendo <strong>talleres interactivos y caminatas guiadas</strong> centradas en la observación y conocimiento de aves autóctonas de la región pampeana. La actividad es coordinada por la Dirección General de Recursos Naturales del Ministerio de Producción y busca acercar a los niños a la biodiversidad local de manera lúdica y educativa.</p><p>Las actividades incluyen recorridos por los diferentes espacios del jardín con guías especializados en ornitología, identificación de especies, comportamientos migratorios y roles ecológicos de las aves en los ecosistemas regionales. Se distribuyen materiales educativos complementarios y se realizan observaciones prácticas con binóculos adaptados a la escala infantil, permitiendo que los más chicos desarrollen habilidades de observación y curiosidad científica.</p><p>Esta iniciativa forma parte de la estrategia provincial de <strong>educación ambiental comunitaria</strong>, reconociendo que los espacios verdes públicos como el Jardín Botánico son laboratorios vivos ideales para la enseñanza práctica de ecología. El Ministerio de Producción apunta a fortalecer vínculos entre las familias pampeanas y el patrimonio natural regional, especialmente durante periodos de receso cuando hay mayor disponibilidad de tiempo.</p><p>El receso invernal es un momento clave para actividades educativas gratuitas que las familias pueden realizar al aire libre. El Jardín Botánico mantendrá sus puertas abiertas con una programación ampliada durante estas semanas, consolidándose como un espacio de <strong>aprendizaje compartido y recreación comunitaria</strong> en la capital provincial.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1033006_whatsapp-image-2026-07-13-at-10.49.50-am.jpeg"
+        },
+        {
+          "id": "turismo_fin_semana",
+          "cat": "Economía · Turismo",
+          "titulo": "Turismo: un fin de semana con moderado movimiento en La Pampa",
+          "bajada": "La Secretaría de Turismo provincial reportó actividad equilibrada durante el fin de semana extendido. El movimiento interno se mantuvo en línea con promedios estacionales.",
+          "cuerpo": "<p>La Secretaría de Turismo provincial divulgó los datos correspondientes al movimiento turístico registrado durante el fin de semana extendido, confirmando un flujo de visitantes que se ubicó en <strong>términos moderados y acordes a los promedios estacionales</strong>. Los principales destinos de la provincia reportaron ocupación satisfactoria en establecimientos de alojamiento, gastronomía y servicios complementarios.</p><p>Los circuitos turísticos que concentran mayor demanda —como los parques naturales, reservas protegidas y atractivos culturales de la provincia— registraron visitación sostenida. La Secretaría señaló que el turismo interno continúa siendo el principal motor de la actividad en La Pampa, con familias que aprovechan fines de semana extendidos para recorrer la provincia y conocer sus recursos naturales y culturales.</p><p>Los datos disponibles no indicaron picos extraordinarios ni caídas significativas respecto a periodos comparables de años anteriores, lo que sugiere <strong>estabilidad en la demanda turística regional</strong>. La Secretaría destacó el rol de los municipios en la promoción de sus atractivos locales y la colaboración de actores privados del sector en mantener infraestructura y servicios.</p><p>Durante los meses de invierno, La Pampa presenta una oferta turística diversificada que incluye actividades culturales, acceso a patrimonio histórico, trechas de turismo rural y propuestas gastronómicas. La Secretaría continúa trabajando en acciones de promoción para fortalecer la estacionalidad y aumentar la permanencia de visitantes en la provincia, especialmente durante períodos de menor demanda tradicional.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/244581_img-20260712-wa0043.jpg"
+        },
+        {
+          "id": "poda_arbolado_tecnicas",
+          "cat": "Ambiente · Gestión Urbana",
+          "titulo": "Continúan promocionando las buenas prácticas de poda para un arbolado saludable",
+          "bajada": "El Gobierno provincial mantiene campañas de difusión sobre técnicas correctas de poda en arbolado urbano. El objetivo es fortalecer la salud y longevidad de los árboles en ciudades y localidades.",
+          "cuerpo": "<p>El Gobierno de La Pampa continúa impulsando una campaña de promoción de <strong>buenas prácticas de poda</strong> en arbolado urbano, dirigida a propietarios, municipios y empresas de servicios. La iniciativa busca educar sobre técnicas que respeten la fisiología de los árboles y favorezcan su desarrollo saludable y sostenible a largo plazo.</p><p>Las recomendaciones provinciales incluyen aspectos como la época adecuada para podar según especie, la altura y ángulo correcto de cortes, la desinfección de herramientas y la importancia de evitar prácticas destructivas como la <strong>\"poda topiaria\" extrema o descortezamiento</strong>. Funcionarios de organismos ambientales y forestales provinciales participan en talleres comunitarios y capacitaciones para multiplicadores en distintas localidades.</p><p>El arbolado urbano es un activo estratégico para la calidad de vida en ciudades, ofreciendo beneficios como reducción de temperaturas, mejora de aire, captación de agua y generación de espacios verdes. Una poda inapropiada afecta la estructura del árbol, reduce su capacidad fotosintética y aumenta su vulnerabilidad a plagas y enfermedades, comprometiendo su supervivencia.</p><p>La campaña provincial se alinea con normativas nacionales e internacionales sobre manejo forestal urbano. El Gobierno hace hincapié en que una gestión responsable del arbolado requiere <strong>coordinación entre municipios, organismos técnicos y ciudadanía</strong>, fomentando una cultura de respeto y cuidado del patrimonio arbóreo que beneficia a toda la comunidad.</p>",
+          "foto": ""
+        },
+        {
+          "id": "maisonnave_aniversario",
+          "cat": "Comunidad · Celebración",
+          "titulo": "120 años de Maisonnave: emotiva jornada popular para reafirmar el sentido de pertenencia",
+          "bajada": "La localidad celebró su aniversario con una jornada comunitaria que reunió a vecinos y autoridades. El evento reforzó los vínculos identitarios y la historia local.",
+          "cuerpo": "<p>Maisonnave conmemoró sus <strong>120 años de fundación</strong> con una jornada popular que convocó a vecinos, autoridades locales e integrantes de entidades culturales y deportivas de la localidad. El acto fue diseñado para reafirmar el <strong>sentido de pertenencia comunitaria</strong> y reflexionar sobre la trayectoria histórica y desarrollo territorial de este poblado pampeano.</p><p>La jornada incluyó actos cívicos, presentaciones artísticas, muestras de historia local y espacios de convivencia donde la ciudadanía pudo compartir anécdotas y experiencias vinculadas a la localidad. Autoridades municipales y provinciales participaron en el reconocimiento de figuras locales destacadas y en la inauguración de espacios o placas conmemorativas. La comunidad Maisonnave demostró <strong>cohesión y orgullo por su identidad territorial</strong>.</p><p>Estos actos aniversarios cumplen un papel importante en la renovación de lazos comunitarios y en el fortalecimiento de la memoria colectiva. En contextos de cambios acelerados y transformaciones territoriales, las celebraciones de aniversarios locales actúan como momentos de pausa reflexiva donde se valida la historia compartida y se proyecta futuro común.</p><p>Maisonnave, como muchas localidades rurales y semirrurales de La Pampa, ha experimentado transformaciones en su estructura económica y demográfica, pero ha mantenido redes sociales sólidas. La jornada de aniversario fue ocasión para fortalecer esa cohesión, reconociendo a quienes han contribuido al desarrollo local y renovando el compromiso colectivo por el futuro del poblado.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1603970_img-20260712-wa0028.jpg"
+        },
+        {
+          "id": "procaap_decada",
+          "cat": "Políticas Públicas · Capacitación",
+          "titulo": "10 años del PROCAAP: \"Una política pública que transcendió a distintos gobiernos y nos enorgullece\"",
+          "bajada": "El Programa Provincial de Capacitación cumple una década de trayectoria ininterrumpida. El proyecto ha consolidado su rol como herramienta transversal de formación para agentes provinciales.",
+          "cuerpo": "<p>El Programa Provincial de Capacitación (PROCAAP) conmemoró su <strong>décimo aniversario</strong> de funcionamiento ininterrumpido, marcando un hito importante en la historia de las políticas de desarrollo de recursos humanos del Gobierno de La Pampa. Funcionarios provinciales destacaron que se trata de <strong>\"una política pública que transcendió a distintos gobiernos\"</strong>, subrayando su carácter transversal e institucional más allá de cambios administrativos.</p><p>El PROCAAP fue diseñado originalmente como instrumento de profesionalización de agentes estatales, ofreciendo diplomasdas, cursos, seminarios y talleres en materias como gestión pública, tecnología, recursos humanos, comunicación y otras áreas clave para el funcionamiento eficiente de la administración provincial. A lo largo de una década, el programa ha capacitado a cientos de empleados públicos, contribuyendo a modernizar prácticas y elevar la calidad de servicios.</p><p>La continuidad del PROCAAP a través de administraciones de distinto signo político demuestra su consolidación como política de Estado y no como iniciativa coyuntural. El programa ha logrado adaptarse a evoluciones tecnológicas y necesidades cambiantes del sector público, manteniendo su relevancia y utilidad práctica para agentes de distintos niveles y áreas ministeriales.</p><p>Funcionarios participantes en el aniversario expresaron que el orgullo institucional por el programa radica en su <strong>impacto acumulativo</strong>: la formación recibida por agentes se traduce en mejoras concretas en calidad de atención, eficiencia administrativa y vinculación con ciudadanía. El PROCAAP se posiciona así como modelo de política pública sostenible que merece continuidad y expansión en etapas futuras.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a522990490a9.jpg"
+        },
+        {
+          "id": "casa_rosada_legislativa",
+          "cat": "Gobierno Nacional · Casa Rosada",
+          "titulo": "Casa Rosada refuerza agenda legislativa ante Congreso",
+          "bajada": "El Ejecutivo nacional propone acelerar debate de proyectos clave para el segundo semestre. Busca avanzar con reformas estructurales en materia de impuestos, gasto público y regulación.",
+          "cuerpo": "<p>La Casa Rosada informó sobre una estrategia renovada para acelerar la aprobación de proyectos legislativos prioritarios durante el segundo semestre del año parlamentario. El Ejecutivo ha identificado un conjunto de iniciativas que requieren tratamiento urgente y ha intensificado contactos con bloques legislativos para construir consensos y <strong>viabilizar votaciones en Diputados y Senado</strong>.</p><p>Entre los temas en agenda se encuentran reformas tributarias, ajustes al gasto público, modificaciones regulatorias en sectores estratégicos y normativas sobre competencia y promoción de inversión. El Ejecutivo busca generar condiciones de <strong>previsibilidad económica</strong> que favorezcan proyectos de mediano plazo y atracción de capitales privados. Los portavoces presidenciales señalaron que existe apertura a negociación con la oposición sobre aspectos técnicos de los proyectos.</p><p>El escenario político legislativo es heterogéneo, con bloques de distintas orientaciones ideológicas. Algunos sectores de la oposición han expresado disposición a colaborar en iniciativas que consideren beneficiosas para el país, mientras otros mantienen posición crítica respecto a la estrategia económica general del Gobierno. La Casa Rosada apunta a identificar puntos de convergencia temática que permitan sumar votos.</p><p>Los próximos meses son decisivos para la administración nacional, que busca validar legislativamente su rumbo económico y construir bases de gobernabilidad más sólidas. El resultado de estas negociaciones tendrá impactos directos en provincias como La Pampa, especialmente en materia de coparticipación de ingresos y transferencias para políticas sociales y de infraestructura.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG/960px-Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG"
+        },
+        {
+          "id": "bcra_politica_monetaria",
+          "cat": "Economía Nacional · Banco Central",
+          "titulo": "BCRA mantiene política de tasas en contexto de estabilidad",
+          "bajada": "El Banco Central sostiene su posición en materia monetaria ante indicadores de inflación contenida. Los analistas esperan nuevo comunicado oficial en próxima semana.",
+          "cuerpo": "<p>El Banco Central de la República Argentina (BCRA) confirmó su posición de <strong>mantener estables las tasas de interés</strong> en el corto plazo, evaluando que la evolución de indicadores inflacionarios permite preservar el actual régimen de política monetaria. Los comunicados técnicos emitidos por el organismo sugieren que las presiones inflacionarias han moderado respecto a períodos anteriores del año.</p><p>La estrategia monetaria del BCRA se orienta a balancear objetivos de control de precios, sostenimiento de la paridad cambiaria y garantía de liquidez en el sistema financiero. Los analistas de mercado interpretan que el Banco Central evaluará mes a mes la evolución de los indicadores, con eventual comunicado oficial en el próximo período que detallará decisiones sobre la estructura de tasas de plazo fijo y operaciones de mercado abierto.</p><p>El contexto de <strong>relativa estabilidad macroeconómica</strong> favorece una posición menos intervencionista del BCRA comparada con períodos de crisis cambiaria o inflacionaria severa. Las expectativas de mercado reflejan cierta confianza en la trayectoria de las variables económicas clave, aunque persisten alertas sobre sustentabilidad fiscal y deuda pública a más largo plazo.</p><p>Las decisiones monetarias del BCRA tienen efectos cascada en provincias como La Pampa, impactando en disponibilidad de crédito para emprendedores, financiamiento de gobiernos municipales e inversiones en infraestructura. Un régimen monetario más estable favorece planificación territorial a mediano plazo, elemento necesario para promover desarrollo económico provincial integral.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/ECB_Frankfurt_at_Sunset.jpg/960px-ECB_Frankfurt_at_Sunset.jpg"
+        }
+      ]
+    },
+    {
       "clave": "2026-07-13_tarde",
       "fecha_iso": "2026-07-13",
       "fecha": "13 julio 2026",
