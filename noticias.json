@@ -2,6 +2,242 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-07-15_manana",
+      "fecha_iso": "2026-07-15",
+      "fecha": "15 julio 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "La Pampa invierte $117 mil millones en obras viales sin endeudarse",
+        "summary": "El Gobierno provincial inicia cinco intervenciones en rutas provinciales financiadas con recursos propios a través de licitaciones públicas. La decisión ratifica la política de mantención de infraestructura vial bajo la gestión Ziliotto.",
+        "cat": "Infraestructura · La Pampa",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/697434_img-20251007-wa0020.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Entra en vigencia una amplia línea crediticia para productores agropecuarios",
+          "resumen": "El Ministerio de la Producción y el Consejo Federal de Inversiones pusieron en marcha una línea crediticia de hasta 200 millones de pesos para ganadería e infraestructura del sector.",
+          "cat": "Economía · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a56503a3e607.jpg",
+          "ts": "15 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Seguridad Vial: comenzó una nueva edición del programa",
+          "resumen": "El Gobierno puso en marcha el Programa Cuidar Vidas con controles preventivos, patrullajes y acciones de concientización en rutas nacionales durante el receso invernal.",
+          "cat": "Seguridad · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a564784c79b4.jpg",
+          "ts": "15 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Receso invernal en el Jardín Botánico: ¡Aves para los más chicos!",
+          "resumen": "Durante el receso de invierno, el Jardín Botánico Provincial organiza actividades para familias enfocadas en la observación de aves.",
+          "cat": "Cultura · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1033006_whatsapp-image-2026-07-13-at-10.49.50-am.jpeg",
+          "ts": "15 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Provincia recordó el funcionamiento del sistema de adopciones",
+          "resumen": "El Gobierno provincial reafirmó los mecanismos y procedimientos para que familias puedan acceder a adopciones en la provincia.",
+          "cat": "Políticas Sociales · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a5504e5b40e8.jpg",
+          "ts": "15 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Pampa en la jornada Construir Futuro: Estado y Comunidad en la Universidad Jaureche",
+          "resumen": "La provincia participó en una jornada de debate sobre construcción de futuro, estado y comunidad en la Universidad Jaureche.",
+          "cat": "Educación · La Pampa",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/293513_img-20260713-wa0059.jpg",
+          "ts": "15 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "ANMAT modificó el régimen para autorizar cambios en vacunas y medicamentos biológicos",
+          "resumen": "La autoridad sanitaria simplificó procedimientos para evaluar modificaciones en medicamentos biológicos registrados e incorporó el mecanismo de reliance.",
+          "cat": "Salud · Nacional",
+          "foto": "",
+          "ts": "15 jul 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "El Gobierno designó a Ana Juan como jueza federal de Hurlingham",
+          "resumen": "Ana María Cristina Juan fue designada mediante decreto como jueza federal de Primera Instancia en lo Criminal y Correccional de Hurlingham.",
+          "cat": "Justicia · Nacional",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/9/99/AnaJuan.Foto.LauraMLombardia.jpg",
+          "ts": "15 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Consejo de la Magistratura: la Justicia habilitó a Diego Barroetaveña a competir por la reelección",
+          "resumen": "La decisión judicial permite al consejero representante de los jueces presentarse como candidato para integrar el órgano en el período 2026-2030.",
+          "cat": "Justicia · Nacional",
+          "foto": "",
+          "ts": "15 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Personal aeronáutico alerta por posibles fallas del servicio en aeropuertos durante vacaciones de invierno",
+          "resumen": "ATE ANAC advirtió sobre problemas del Servicio de Extinción de Incendios en aeropuertos y reclamó mayor inversión para evitar inconvenientes operativos.",
+          "cat": "Transporte · Nacional",
+          "foto": "",
+          "ts": "15 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "Plazo fijo: cuánto se obtiene al invertir $250.000",
+          "resumen": "Las Tasas Nominales Anuales vigentes permiten proyectar rentabilidad en colocaciones de plazo fijo según cada entidad bancaria.",
+          "cat": "Economía · Nacional",
+          "foto": "",
+          "ts": "15 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "El rincón cordobés al pie de los cerros que combina naturaleza y leyendas espaciales",
+          "resumen": "Un destino turístico cordobés ofrece atractivos naturales y actividades peculiares vinculadas a leyendas espaciales.",
+          "cat": "Turismo · Nacional",
+          "foto": "",
+          "ts": "15 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "La vicegobernadora de Mendoza volvió a apuntar contra Francia tras su eliminación del Mundial",
+          "resumen": "Hebe Casado publicó un mensaje en redes tras la derrota francesa ante España en semifinales, reabriendo una polémica diplomática anterior.",
+          "cat": "Política · Nacional",
+          "foto": "",
+          "ts": "15 jul 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "El Museo de Historia Natural presenta su 4ta edición de revista",
+          "resumen": "En su 90° aniversario, la institución lanzó su revista institucional y abrió su archivo editorial al público.",
+          "cat": "Cultura · La Pampa",
+          "ts": "15 jul 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Pampa reafirma su compromiso con derechos humanos",
+          "resumen": "La provincia ratificó que los derechos humanos constituyen una política de Estado permanente.",
+          "cat": "Derechos Humanos · La Pampa",
+          "ts": "15 jul 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "ruta_provincial_117mil",
+          "cat": "Infraestructura · La Pampa",
+          "titulo": "Con recursos propios y sin endeudarse, La Pampa inicia más obras en rutas provinciales por $117.000 millones",
+          "bajada": "El Gobierno provincial lanzó cinco intervenciones en rutas provinciales financiadas exclusivamente con fondos provinciales. Las obras fueron contratadas mediante licitaciones públicas por un total de $117.051.460.948.",
+          "cuerpo": "<p>La decisión política del gobernador Sergio Ziliotto de sostener la infraestructura vial provincial se concretó con la contratación de cinco intervenciones viales a través de licitaciones públicas. El monto total alcanza <strong>$117.051.460.948</strong>, recursos que serán financiados íntegramente con fondos provinciales sin generar endeudamiento adicional.</p><p>Las obras representan un compromiso con el mantenimiento y mejoramiento de la red vial provincial, que resulta fundamental para la conectividad territorial y el desarrollo económico de La Pampa. La modalidad de licitación pública garantiza <strong>transparencia y competencia en los procesos de contratación</strong>, permitiendo que empresas constructoras presenten sus propuestas conforme a normativas de contrataciones estatales.</p><p>El financiamiento con recursos propios refleja la gestión fiscal responsable del Gobierno provincial, evitando la contratación de deuda que hipotecaría presupuestos futuros. Esta estrategia contrasta con otros períodos de la administración provincial y reafirma el modelo de finanzas provinciales sostenibles.</p><p>Las intervenciones incluyen trabajos de mantenimiento, reparación y mejora de diferentes tramos de rutas provinciales, mejorando las condiciones de circulación y seguridad vial en toda la región. La ejecución de estas obras contribuye a dinamizar la economía local y genera empleo en el sector de la construcción.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/697434_img-20251007-wa0020.jpg"
+        },
+        {
+          "id": "museo_historia_natural_revista",
+          "cat": "Cultura · La Pampa",
+          "titulo": "El Museo de Historia Natural presentó la 4ta. edición de su revista y ofrece su archivo editorial",
+          "bajada": "En el marco de su 90° aniversario, el Museo Provincial de Historia Natural lanzó su revista institucional. La institución pone a disposición del público su archivo editorial completo.",
+          "cuerpo": "<p>El Museo Provincial de Historia Natural (MPHN) celebró su 90° aniversario el pasado 9 de julio con la presentación de la <strong>cuarta edición de su revista institucional</strong>. Esta publicación periódica constituye una herramienta importante para la difusión de investigaciones, estudios naturalistas y patrimonio cultural de la institución.</p><p>En paralelo con el lanzamiento de la revista, el MPHN abrió el acceso a su <strong>archivo editorial al público en general</strong>. Esta decisión democratiza el acceso a documentación histórica, investigaciones científicas y registros que forman parte del acervo institucional acumulado durante nueve décadas de funcionamiento.</p><p>La revista institucional representa un espacio para que investigadores, científicos y especialistas en historia natural compartan hallazgos, análisis y contribuciones académicas. Mediante sus ediciones, el museo mantiene vínculo permanente con la comunidad científica provincial y nacional.</p><p>La disponibilidad del archivo editorial refuerza el rol del MPHN como institución de referencia en La Pampa para el estudio y preservación del patrimonio natural, biológico e histórico de la región. El acceso público a estos materiales fortalece la investigación científica independiente y el conocimiento compartido.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a56630bbed4f.jpg"
+        },
+        {
+          "id": "linea_crediticia_agro",
+          "cat": "Economía · La Pampa",
+          "titulo": "Entra en vigencia una amplia línea crediticia para productores agropecuarios",
+          "bajada": "El Ministerio de la Producción y el Consejo Federal de Inversiones pusieron en marcha una línea crediticia de alcance provincial. El financiamiento comprende hasta $200 millones para ganadería e infraestructura sectorial.",
+          "cuerpo": "<p>El Ministerio de la Producción de La Pampa, en articulación con el Consejo Federal de Inversiones, puso en vigencia una <strong>amplia línea crediticia destinada a productores agropecuarios</strong>. La medida busca acompañar al sector ganadero y productivo provincial con herramientas de financiamiento accesibles.</p><p>La línea crediticia comprende <strong>hasta $200 millones</strong> y está diseñada para financiar tanto actividades ganaderas como <strong>infraestructura productiva y tecnología</strong> vinculada al sector agrario. Esta estructura permite que productores accedan a capital de trabajo e inversión en mejoras estructurales.</p><p>El financiamiento se concreta a través de mecanismos de cooperación entre el gobierno provincial y organismos federales de inversión, lo que amplía las posibilidades de acceso para las pequeñas, medianas y grandes explotaciones agropecuarias. Las tasas y plazos de amortización se adecúan a la realidad de los ciclos productivos provinciales.</p><p>La iniciativa responde a la demanda histórica del sector productivo pampeano de contar con fuentes de crédito que financien inversiones sin generar encarecimiento excesivo de costos. La disponibilidad de capital productivo en condiciones razonables resulta fundamental para la competitividad y desarrollo del agro provincial.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a56503a3e607.jpg"
+        },
+        {
+          "id": "seguridad_vial_cuidar_vidas",
+          "cat": "Seguridad · La Pampa",
+          "titulo": "Seguridad Vial: comenzó una nueva edición del programa",
+          "bajada": "El Gobierno de La Pampa lanzó una nueva etapa del Programa Cuidar Vidas enfocada en el receso invernal. Las acciones incluyen controles preventivos, patrullajes intensivos y campañas de concientización en rutas.",
+          "cuerpo": "<p>El Gobierno de La Pampa puso en marcha una <strong>nueva edición del Programa Cuidar Vidas</strong>, una política pública sostenida de carácter preventivo. La iniciativa busca <strong>fortalecer la seguridad vial durante el receso invernal</strong> mediante una estrategia integral que combina vigilancia, educación vial y atención a riesgos específicos de la estación.</p><p>El programa contempla <strong>controles preventivos, patrullajes intensivos y acciones de concientización en rutas nacionales y provinciales</strong>. Estos operativos se enfocan en detectar conductas de riesgo, verificar condiciones mecánicas de vehículos y transmitir mensajes de prevención a conductores y pasajeros.</p><p>Durante el receso invernal, la demanda de circulación aumenta significativamente por desplazamientos de familias hacia destinos turísticos. Este contexto exige refuerzo de presencia institucional en rutas para reducir siniestros viales y garantizar tránsito seguro. Los operativos se coordinan con policía vial, municipios y organismos de seguridad.</p><p>La política de Cuidar Vidas constituye un esfuerzo continuo de la provincia por reducir morbilidad y mortalidad en siniestros de tránsito. El énfasis en prevención mediante educación y vigilancia ha demostrado eficacia en períodos anteriores, consolidando esta iniciativa como referencia provincial en seguridad vial.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a564784c79b4.jpg"
+        },
+        {
+          "id": "jardin_botanico_receso_invernal",
+          "cat": "Cultura · La Pampa",
+          "titulo": "Receso invernal en el Jardín Botánico: ¡Aves para los más chicos!",
+          "bajada": "Durante el receso de invierno, el Jardín Botánico Provincial organiza actividades para familias. Las propuestas incluyen observación de aves y actividades educativas en espacios naturales.",
+          "cuerpo": "<p>El Ministerio de la Producción, a través de la Dirección General de Recursos Naturales, organizó para el <strong>receso de invierno una serie de actividades en el Jardín Botánico Provincial</strong>. Las iniciativas invitan a familias a participar de experiencias educativas en contacto directo con la naturaleza durante el período vacacional.</p><p>Las actividades incluyen sesiones de <strong>observación de aves</strong>, una propuesta educativa diseñada especialmente para el público infantil. Esta actividad combina entretenimiento, aprendizaje científico y valoración del patrimonio natural provincial, permitiendo que niños descubran la biodiversidad local.</p><p>El Jardín Botánico Provincial funciona como espacio de recreación y educación ambiental durante todo el año. Durante el receso invernal, la institución intensifica su calendario de actividades para ofrecer opciones de ocio pedagógico a familias que permanecen en la región durante las vacaciones escolares.</p><p>Las propuestas educativas en espacios naturales fortalecen la conexión de niños y adolescentes con el medio ambiente, promoviendo conciencia ecológica y aprecio por la conservación de ecosistemas locales. El Gobierno provincial considera estas iniciativas fundamentales para la formación integral de ciudadanos comprometidos con la sustentabilidad.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1033006_whatsapp-image-2026-07-13-at-10.49.50-am.jpeg"
+        },
+        {
+          "id": "provincia_adopciones_sistema",
+          "cat": "Políticas Sociales · La Pampa",
+          "titulo": "Provincia recordó el funcionamiento del sistema de adopciones",
+          "bajada": "El Gobierno provincial reafirmó los mecanismos e instituciones que intervienen en procesos de adopción. La comunicación busca informar a ciudadanos sobre cómo acceder a este derecho fundamental.",
+          "cuerpo": "<p>El Gobierno de La Pampa emitió una comunicación institucional recordando <strong>el funcionamiento del sistema provincial de adopciones</strong>. La medida responde a la necesidad de mantener informada a la ciudadanía sobre los mecanismos existentes para que familias puedan acceder legalmente a la adopción de menores.</p><p>El sistema de adopciones en La Pampa se estructura a través de organismos especializados, juzgados de familia y organismos de protección de derechos. Los procedimientos siguen protocolos legales establecidos por el Código Civil provincial y normativas de protección de infancia, garantizando que toda adopción sea realizada en beneficio del interés superior del niño.</p><p>La información difundida aclara los pasos, requisitos y tiempos involucrados en un proceso de adopción, desmitificando procedimientos que muchas veces generan dudas o temores en potenciales familias adoptantes. El acceso a información clara facilita que ciudadanos ejerciten este derecho.</p><p>El Gobierno provincial considera que recordar y difundir mecanismos de adopción constituye una política de protección de derechos infantiles. Familias que pueden ofertar amor y contención a menores en situación de vulnerabilidad requieren información clara y procesos justos que garanticen inclusión y protección.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a5504e5b40e8.jpg"
+        },
+        {
+          "id": "lapampa_construir_futuro",
+          "cat": "Educación · La Pampa",
+          "titulo": "La Pampa en la jornada Construir Futuro: Estado y Comunidad en la Universidad Jaureche",
+          "bajada": "La provincia participó en una jornada de debate sobre construcción de futuro, estado y comunidad realizada en la Universidad Nacional Arturo Jauretche. El evento convocó a referentes provinciales y académicos.",
+          "cuerpo": "<p>La provincia de La Pampa participó en la <strong>jornada 'Construir Futuro: Estado y Comunidad en la Universidad Jauretche'</strong>, un espacio de debate y reflexión sobre políticas públicas, rol del estado provincial y articulación comunitaria. El evento se desarrolló en la Universidad Nacional Arturo Jauretche, institución referente en formación de recursos humanos para la región.</p><p>La jornada reunió a representantes gubernamentales, académicos, investigadores y actores comunitarios para debatir desafíos y oportunidades en la construcción de futuro provincial. Los temas abordados incluyeron desarrollo territorial, economía sostenible, educación pública y fortalecimiento institucional.</p><p>La participación provincial en este tipo de espacios refleja el <strong>compromiso del Gobierno con el diálogo abierto y la construcción de consensos</strong> sobre políticas de largo plazo. La academia y la comunidad constituyen actores clave en la formulación de agendas que transciendan ciclos electorales.</p><p>La Universidad Jauretche, como institución pública de educación superior con fuerte enraizamiento territorial, proporciona un espacio privilegiado para estas reflexiones. El debate entre estado, comunidad y academia fortalece la calidad y legitimidad de decisiones públicas que afecten el presente y futuro provincial.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/293513_img-20260713-wa0059.jpg"
+        },
+        {
+          "id": "derechos_humanos_pampa",
+          "cat": "Derechos Humanos · La Pampa",
+          "titulo": "La Pampa reafirmó su compromiso con los derechos humanos",
+          "bajada": "El Gobierno provincial reafirmó públicamente que los derechos humanos constituyen una política de Estado permanente e irrenunciable. La declaración subraya el compromiso institucional con la protección y promoción de derechos fundamentales.",
+          "cuerpo": "<p>El Gobierno de La Pampa emitió una <strong>reafirmación pública de su compromiso con los derechos humanos</strong>, declarando que su protección y promoción constituyen <strong>una política de Estado permanente</strong>. La manifestación institucional subraya que los derechos humanos no son materia de negociación política coyuntural, sino principios fundamentales que sustentan la convivencia democrática.</p><p>La declaración ratifica el compromiso provincial con los tratados internacionales de derechos humanos, la Constitución Nacional Argentina y las normativas provinciales que garantizan libertades fundamentales, igualdad de trato y dignidad de todas las personas sin distinción alguna.</p><p>La reafirmación provincial se produce en un contexto nacional donde debates sobre memoria, verdad y justicia mantienen vigencia pública. La Pampa, como jurisdicción, expresa su posición de que la protección de derechos humanos trasciende gobiernos específicos y constituye responsabilidad permanente de las instituciones democráticas.</p><p>El Gobierno provincial señala que el compromiso con derechos humanos se concreta en políticas públicas de seguridad institucional, acceso a justicia, protección de libertades de expresión y asociación, y garantía de participación ciudadana. La educación en derechos humanos también forma parte de la estrategia provincial de fortalecimiento institucional y democrático.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/571189_img-20260714-wa0021.jpg"
+        },
+        {
+          "id": "anmat_medicamentos_biologicos",
+          "cat": "Salud · Nacional",
+          "titulo": "ANMAT modificó el régimen para autorizar cambios en vacunas y otros medicamentos biológicos",
+          "bajada": "La Administración Nacional de Medicamentos, Alimentos y Tecnología Médica modificó procedimientos regulatorios para medicamentos biológicos. La medida incorpora mecanismos de reliance respecto a organismos regulatorios internacionales.",
+          "cuerpo": "<p>La Administración Nacional de Medicamentos, Alimentos y Tecnología Médica (ANMAT) <strong>modificó el régimen normativo para autorizar cambios en medicamentos biológicos ya registrados</strong>. La decisión busca <strong>simplificar procedimientos de evaluación</strong> para modificaciones técnicas, de presentación o de proceso productivo en productos biológicos como vacunas y medicamentos biotecnológicos.</p><p>Entre las modificaciones incorporadas, ANMAT estableció <strong>el mecanismo de reliance</strong>, que permite a la autoridad sanitaria argentina considerar y validar evaluaciones técnicas realizadas por organismos regulatorios internacionales reconocidos. Esta armonización regulatory reduce tiempos de evaluación sin comprometer estándares de seguridad y eficacia.</p><p>El cambio de régimen refleja la integración creciente de la autoridad sanitaria nacional en redes regulatorias internacionales. La confianza mutua entre agencias facilita acceso más rápido a medicamentos biológicos innovadores y permite que Argentina mantenga estándares comparables con países desarrollados.</p><p>La modificación afecta especialmente a empresas farmacéuticas que producen biológicos en Argentina o importan estos productos. La simplificación de trámites genera incentivos para radicación de industria biotecnológica y mejora competitividad del sector farmacéutico nacional en mercados internacionales.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Universidad_Nacional_de_La_Pampa_2.jpg/960px-Universidad_Nacional_de_La_Pampa_2.jpg"
+        },
+        {
+          "id": "gobierno_ana_juan_jueza_hurlingham",
+          "cat": "Justicia · Nacional",
+          "titulo": "El Gobierno designó a Ana Juan como jueza federal de Hurlingham",
+          "bajada": "Ana María Cristina Juan fue designada como jueza federal de Primera Instancia en lo Criminal y Correccional de Hurlingham. La designación se formalizó mediante decreto presidencial publicado en el Boletín Oficial.",
+          "cuerpo": "<p>El Poder Ejecutivo Nacional designó a <strong>Ana María Cristina Juan como jueza federal de Primera Instancia en lo Criminal y Correccional de Hurlingham</strong>. La medida se formalizó a través de un decreto presidencial publicado en el Boletín Oficial de la República Argentina, cumpliendo con los procedimientos legales de designación de magistrados federales.</p><p>El juzgado federal de Hurlingham forma parte de la estructura de justicia federal con competencia territorial en el municipio del mismo nombre, ubicado en la provincia de Buenos Aires. La jurisdicción abarca asuntos de naturaleza criminal y correccional de relevancia federal, incluyendo delitos previstos en códigos federales.</p><p>La designación de Juan en este cargo representa <strong>el acceso de una mujer a la magistratura federal</strong>, reflejando avances en paridad de género en el Poder Judicial argentino. La incorporación de jueces y juezas en la estructura federal constituye proceso continuo de renovación institucional.</p><p>La designación fue publicada formalmente en el Boletín Oficial, asegurando transparencia y legalidad del procedimiento. Juan asumirá las responsabilidades inherentes a la magistratura federal, resolviendo causas conforme a derecho y contribuyendo a la administración de justicia en su jurisdicción.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/9/99/AnaJuan.Foto.LauraMLombardia.jpg"
+        },
+        {
+          "id": "consejo_magistratura_barroetavena",
+          "cat": "Justicia · Nacional",
+          "titulo": "Consejo de la Magistratura: la Justicia habilitó a Diego Barroetaveña a competir por la reelección",
+          "bajada": "Una decisión judicial habilitó provisoriamente al consejero Diego Barroetaveña, representante de los jueces, a competir nuevamente para integrar el Consejo de la Magistratura en el período 2026-2030.",
+          "cuerpo": "<p>El Poder Judicial dictó una resolución que <strong>habilitó provisoriamente a Diego Barroetaveña a competir por su reelección</strong> como miembro del Consejo de la Magistratura. Barroetaveña es el consejero representante de los jueces federales, cargo que ocupa actualmente.</p><p>La habilitación permite que Barroetaveña sea candidato en los procedimientos de selección para integrar el Consejo de la Magistratura en <strong>el período 2026-2030</strong>. La decisión judicial resultaba necesaria para resolver cuestiones de elegibilidad que había cuestionado su candidatura.</p><p>El Consejo de la Magistratura es un órgano fundamental de la estructura judicial argentina, responsable de cuestiones disciplinarias, de carrera y administrativas respecto al Poder Judicial federal. La integración del consejo combina representantes de jueces, abogados, académicos y poder político.</p><p>La habilitación de Barroetaveña para competir nuevamente refleja la continuidad en procesos de renovación institucional del consejo. Los procedimientos de selección de miembros del consejo son regulados por normativa específica y supervisados por órganos judiciales para garantizar legalidad y transparencia.</p>",
+          "foto": ""
+        },
+        {
+          "id": "aeronutico_alerta_aeropuertos_vacaciones",
+          "cat": "Transporte · Nacional",
+          "titulo": "Personal aeronáutico alerta por posibles fallas del servicio en aeropuertos durante vacaciones de invierno",
+          "bajada": "ATE ANAC advirtió sobre problemas en el Servicio de Extinción de Incendios (SSEI) en diversos aeropuertos nacionales. El gremio reclamó mayor inversión para evitar fallos operativos durante la temporada vacacional.",
+          "cuerpo": "<p>La Asociación de Trabajadores del Estado (ATE) de la Administración Nacional de Aviación Civil (ANAC) <strong>emitió una alerta sobre posibles fallas en el servicio de aeropuertos</strong> durante el receso invernal. La preocupación se centra en el <strong>Servicio de Extinción de Incendios (SSEI)</strong> en distintos aeropuertos del país, que según el gremio enfrenta deficiencias operativas por falta de inversión.</p><p>ATE ANAC señaló que la situación actual del SSEI presenta <strong>riesgos operativos significativos</strong> que podrían afectar la seguridad durante la temporada vacacional de invierno, cuando la demanda de vuelos se intensifica. El servicio de extinción de incendios es crítico para la operación segura de cualquier aeropuerto.</p><p>El gremio reclamó una <strong>mayor inversión de recursos federales</strong> en infraestructura, equipamiento y personal dedicado al SSEI. La demanda busca que el Estado nacional priorice la seguridad operativa como requisito fundamental para garantizar tránsito aéreo seguro.</p><p>La alerta sindical refleja tensiones persistentes entre trabajadores del sector aeroportuario y autoridades nacionales sobre dotación de recursos. Las vacaciones de invierno representan un pico de demanda que exige máxima eficiencia operativa en todo el sistema aeroportuario nacional.</p>",
+          "foto": ""
+        },
+        {
+          "id": "plazo_fijo_250mil",
+          "cat": "Economía · Nacional",
+          "titulo": "Plazo fijo: cuánto se obtiene al invertir $250.000",
+          "bajada": "Las Tasas Nominales Anuales (TNA) vigentes en instituciones bancarias permiten proyectar rentabilidad en colocaciones de plazo fijo. La información varía según cada entidad y condiciones de mercado.",
+          "cuerpo": "<p>Ciudadanos e inversores que consideran colocar fondos en <strong>plazo fijo de $250.000</strong> pueden conocer los retornos potenciales conforme a <strong>las Tasas Nominales Anuales (TNA)</strong> vigentes en el mercado financiero. Las tasas varían según cada institución bancaria y las condiciones actuales de política monetaria.</p><p>El plazo fijo constituye uno de los instrumentos de inversión más tradicionales y accesibles en Argentina para ciudadanos de ingresos medios y medio-altos. La rentabilidad ofrecida en plazo fijo busca compensar al inversor por el dinero inmovilizado durante el período de colocación, típicamente entre 30 y 180 días.</p><p>Las tasas nominales anuales publicadas por entidades bancarias representan <strong>rentabilidades brutas antes de impuestos</strong> como el impuesto a las ganancias. Los inversores deben considerar que la rentabilidad neta será menor tras aplicar cargas fiscales correspondientes.</p><p>Consultar tasas en diferentes bancos resulta recomendable para optimizar retorno de inversiones. Las instituciones financieras compiten por colocaciones de fondos, ofreciendo TNA que varían según tamaño de depósito, plazo elegido y políticas comerciales específicas de cada entidad.</p>",
+          "foto": ""
+        },
+        {
+          "id": "cordoba_naturaleza_leyendas_espaciales",
+          "cat": "Turismo · Nacional",
+          "titulo": "El rincón cordobés al pie de los cerros que combina naturaleza y leyendas espaciales",
+          "bajada": "Un destino turístico cordobés ofrece combinación de atractivos naturales y propuestas peculiares vinculadas a leyendas espaciales. El lugar despierta interés del turismo nacional e internacional.",
+          "cuerpo": "<p>En la provincia de Córdoba existe un destino turístico singular que <strong>combina naturaleza en espacios montañosos con atractivos vinculados a leyendas espaciales</strong>. El rincón se ubica al pie de cerros con ecosistemas de interés científico y ambiental que complementan propuestas innovadoras de turismo experiencial.</p><p>El lugar atrae a turistas interesados tanto en <strong>naturaleza y senderismo</strong> como en temáticas de ciencia ficción y fenómenos no identificados. La combinación de estas propuestas ha permitido que el destino se destaque entre opciones turísticas tradicionales de la región montañosa cordobesa.</p><p>Las leyendas espaciales que caracterizan el sitio generan atracción especial entre públicos diversos, desde familias jóvenes hasta investigadores de fenómenos OVNI y entusiastas de astronomía. Las actividades complementarias integran educación científica, entretenimiento y reflexión sobre lo desconocido.</p><p>El destino representa ejemplo de <strong>diversificación de opciones turísticas</strong> en zonas montañosas cordobesas, agregando valor a comunidades locales mediante actividades de ocio que escapan a circuitos tradicionales. El turismo combinado naturaleza-misticismo ha demostrado viabilidad económica en distintas regiones argentinas.</p>",
+          "foto": ""
+        },
+        {
+          "id": "vicegobernadora_mendoza_francia_mundial",
+          "cat": "Política · Nacional",
+          "titulo": "La vicegobernadora de Mendoza volvió a apuntar contra Francia tras su eliminación del Mundial",
+          "bajada": "Hebe Casado, vicegobernadora de Mendoza, publicó un mensaje en redes sociales tras la derrota francesa ante España en semifinales. La declaración reabre polémica diplomática anterior con Francia.",
+          "cuerpo": "<p>La vicegobernadora de Mendoza, <strong>Hebe Casado</strong>, publicó un mensaje en redes sociales luego de la <strong>derrota del seleccionado francés ante España</strong> en las semifinales del Mundial 2026. La publicación volvió a apuntar contra Francia, reabriendo controversia diplomática que había generado tensiones anteriores.</p><p>Los comentarios de Casado no constituyen posición oficial del Gobierno nacional argentino, pero reflejan tensiones que han caracterizado la relación entre Argentina y Francia en el contexto del Mundial. Previamente, autoridades francesas habían generado controversia con declaraciones que fueron interpretadas como desrespetosas hacia Argentina.</p><p>Las palabras de Casado fueron publicadas en un contexto donde la derrota francesa ante España cerró el camino de Francia a la final. España avanzó a jugar la final del campeonato tras vencer 2-0 a Francia en semifinales, con goles de Oyarzabal y Porro.</p><p>El episodio refleja cómo en contextos deportivos internacionales, figuras políticas a veces utilizan redes sociales para expresar posiciones que pueden generar fricción diplomática. El evento del Mundial, siendo de alcance global, amplifica visibilidad de estos comentarios más allá de ámbitos estrictamente deportivos.</p>",
+          "foto": ""
+        }
+      ]
+    },
+    {
       "clave": "2026-07-14_tarde",
       "fecha_iso": "2026-07-14",
       "fecha": "14 julio 2026",
