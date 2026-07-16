@@ -2,3 +2,51 @@
 15/07/2026 11:01:14 Disparando corrida de las 11:00
 15/07/2026 11:01:17 actualizar.py salida: Turno 'mediodia' de hoy ya esta publicado (clave=2026-07-15_mediodia) â€” nada que hacer.
 15/07/2026 11:01:17 Corrida 2026-07-15_1100 completada OK
+16/07/2026 17:09:45 Disparando corrida de las 17:00
+16/07/2026 17:10:44 actualizar.py salida: LLANOÂ· Actualizacion automatica â€” 16 julio 2026 â€” Turno: EdiciÃ³n Tarde Â· 17:00
+Obteniendo noticias de APN La Pampa...
+  [fetch reintento 1/3] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  [fetch reintento 2/3] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  [fetch error] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  0 noticias encontradas en APN
+Obteniendo noticias de Diputados...
+  [fetch rei
+16/07/2026 17:10:44 Corrida 2026-07-16_1700 fallo, reintentara en proximo ciclo
+16/07/2026 17:15:44 Disparando corrida de las 17:00
+16/07/2026 17:15:57 actualizar.py salida: LLANOÂ· Actualizacion automatica â€” 16 julio 2026 â€” Turno: EdiciÃ³n Tarde Â· 17:00
+Obteniendo noticias de APN La Pampa...
+  8 noticias encontradas en APN
+Obteniendo noticias de Diputados...
+  0 noticias encontradas en Diputados
+Obteniendo noticias nacionales (RSS)...
+  Nacionales RSS: 10 items de https://www.ambito.com/rss/home.xml
+  Nacionales RSS: 10 items de https://www.clarin.com/rss/politica/
+  10 noticias nacionales seleccionadas
+  10 noticias nacionales via RSS
+Obteniendo noticias inte
+16/07/2026 17:15:57 Corrida 2026-07-16_1700 fallo, reintentara en proximo ciclo
+16/07/2026 17:20:57 Disparando corrida de las 17:00
+16/07/2026 17:21:28 actualizar.py salida: LLANOÂ· Actualizacion automatica â€” 16 julio 2026 â€” Turno: EdiciÃ³n Tarde Â· 17:00
+Obteniendo noticias de APN La Pampa...
+  8 noticias encontradas en APN
+Obteniendo noticias de Diputados...
+  [fetch reintento 1/3] https://www.diputados.gob.ar/prensa/: The read operation timed out
+  0 noticias encontradas en Diputados
+Obteniendo noticias nacionales (RSS)...
+  Nacionales RSS: 10 items de https://www.ambito.com/rss/home.xml
+  Nacionales RSS: 10 items de https://www.clarin.com/rss/politica/
+  10 
+16/07/2026 17:21:28 Corrida 2026-07-16_1700 fallo, reintentara en proximo ciclo
+16/07/2026 17:26:28 Disparando corrida de las 17:00
+16/07/2026 17:26:44 actualizar.py salida: LLANOÂ· Actualizacion automatica â€” 16 julio 2026 â€” Turno: EdiciÃ³n Tarde Â· 17:00
+Obteniendo noticias de APN La Pampa...
+  8 noticias encontradas en APN
+Obteniendo noticias de Diputados...
+  0 noticias encontradas en Diputados
+Obteniendo noticias nacionales (RSS)...
+  Nacionales RSS: 10 items de https://www.ambito.com/rss/home.xml
+  Nacionales RSS: 10 items de https://www.clarin.com/rss/politica/
+  10 noticias nacionales seleccionadas
+  10 noticias nacionales via RSS
+Obteniendo noticias inte
+16/07/2026 17:26:44 Corrida 2026-07-16_1700 fallo, reintentara en proximo ciclo
