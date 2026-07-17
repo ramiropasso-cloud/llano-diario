@@ -1538,8 +1538,8 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     document.getElementById('art-src-lnk').style.display = 'none';
     const img = document.getElementById('art-cover-img');
     const ph  = document.getElementById('art-cover-ph');
-    if (a.foto) { img.src = a.foto; img.alt = a.titulo; img.style.display = 'block'; ph.style.display = 'none'; }
-    else        { img.style.display = 'none'; ph.style.display = 'flex'; }
+    if (a.foto) { img.src = ''; img.src = a.foto; img.alt = a.titulo; img.style.display = 'block'; ph.style.display = 'none'; }
+    else        { img.src = ''; img.style.display = 'none'; ph.style.display = 'flex'; }
     document.getElementById('art-foot-src').innerHTML = '<strong>LLANO·</strong> · Primer diario digital IA de La Pampa';
     ov.classList.add('art-open');
     ov.scrollTop = 0;
@@ -1665,7 +1665,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     <button id="art-share-btn" onclick="compartirNota()" style="background:none;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.7);padding:.3rem .75rem;border-radius:99px;font-size:.72rem;cursor:pointer;letter-spacing:.04em;white-space:nowrap;">Compartir</button>
   </div>
   <div class="art-inner">
-    <img id="art-cover-img" class="art-cover" src="" alt="" style="display:none;" loading="lazy" />
+    <img id="art-cover-img" class="art-cover" src="" alt="" style="display:none;" />
     <div id="art-cover-ph" class="art-nocover" style="display:none;"><span>LLANO · Diario Digital IA · La Pampa</span></div>
     <div class="art-meta-row">
       <span id="art-cat-lbl" class="cat"></span>
