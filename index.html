@@ -740,7 +740,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 <!-- ─── META BAR ─── -->
 <div class="meta-bar">
   <div class="mb-l">
-    <span class="mb-date">Sábado, 18 de julio de 2026 · La Pampa</span>
+    <span class="mb-date" id="mb-date-auto"></span>
     <span class="mb-focus" id="dolar-strip">Dólar · cargando...</span>
     <span class="ai-tag-sm">100% IA</span>
   </div>
@@ -1593,6 +1593,13 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     });
 })();
 
+(function(){
+  const dias = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+  const meses = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+  const hoy = new Date();
+  document.getElementById('mb-date-auto').textContent =
+    dias[hoy.getDay()] + ', ' + hoy.getDate() + ' de ' + meses[hoy.getMonth()] + ' de ' + hoy.getFullYear() + ' · La Pampa';
+})();
 
 </script>
 </body>
