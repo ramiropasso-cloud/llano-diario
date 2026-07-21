@@ -222,3 +222,44 @@ Obteniendo noticias nacionales (RSS)...
 Obteniendo noticias 
 20/07/2026 11:29:34 Corrida 2026-07-20_1100 fallo, reintentara en proximo ciclo
 20/07/2026 17:46:23 === DAEMON INICIADO ===
+21/07/2026 11:04:03 === DAEMON INICIADO ===
+21/07/2026 11:04:03 Disparando corrida de las 11:00
+21/07/2026 11:05:42 actualizar.py salida: LLANOÂ· Actualizacion automatica â€” 21 julio 2026 â€” Turno: EdiciÃ³n MediodÃ­a Â· 11:00
+Obteniendo noticias de APN La Pampa...
+  [fetch reintento 1/3] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  [fetch reintento 2/3] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  [fetch error] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  0 noticias encontradas en APN
+Obteniendo noticias de Diputados...
+  [fetch
+21/07/2026 11:05:42 Corrida 2026-07-21_1100 fallo, reintentara en proximo ciclo
+21/07/2026 11:10:42 Disparando corrida de las 11:00
+21/07/2026 11:12:12 actualizar.py salida: LLANOÂ· Actualizacion automatica â€” 21 julio 2026 â€” Turno: EdiciÃ³n MediodÃ­a Â· 11:00
+Obteniendo noticias de APN La Pampa...
+  [fetch reintento 1/3] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  [fetch reintento 2/3] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  [fetch error] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  0 noticias encontradas en APN
+Obteniendo noticias de Diputados...
+  [fetch
+21/07/2026 11:12:12 Corrida 2026-07-21_1100 fallo, reintentara en proximo ciclo
+21/07/2026 11:17:12 Disparando corrida de las 11:00
+21/07/2026 11:18:43 actualizar.py salida: LLANOÂ· Actualizacion automatica â€” 21 julio 2026 â€” Turno: EdiciÃ³n MediodÃ­a Â· 11:00
+Obteniendo noticias de APN La Pampa...
+  [fetch reintento 1/3] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  [fetch reintento 2/3] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  [fetch error] https://apn.lapampa.gob.ar: <urlopen error [Errno 11001] getaddrinfo failed>
+  0 noticias encontradas en APN
+Obteniendo noticias de Diputados...
+  [fetch
+21/07/2026 11:18:43 Corrida 2026-07-21_1100 fallo, reintentara en proximo ciclo
+21/07/2026 11:23:43 Disparando corrida de las 11:00
+21/07/2026 11:29:57 actualizar.py salida: LLANOÂ· Actualizacion automatica â€” 21 julio 2026 â€” Turno: EdiciÃ³n MediodÃ­a Â· 11:00
+Obteniendo noticias de APN La Pampa...
+  [fetch reintento 1/3] https://apn.lapampa.gob.ar: <urlopen error timed out>
+  [fetch reintento 2/3] https://apn.lapampa.gob.ar: <urlopen error timed out>
+  [fetch error] https://apn.lapampa.gob.ar: <urlopen error timed out>
+  0 noticias encontradas en APN
+Obteniendo noticias de Diputados...
+  [fetch reintento 1/3] https://www.diputados.gob.ar/prensa/: <urlopen error 
+21/07/2026 11:29:57 Corrida 2026-07-21_1100 fallo, reintentara en proximo ciclo
