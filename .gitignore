@@ -8,3 +8,10 @@ auto.log
 # Local Netlify folder
 .netlify
 __pycache__/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
