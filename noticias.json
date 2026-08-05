@@ -2,6 +2,137 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-08-05_manana",
+      "fecha_iso": "2026-08-05",
+      "fecha": "5 agosto 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "Alerta climática: Provincia crea Unidad de Gestión por el fenómeno El Niño",
+        "summary": "El Gobierno de La Pampa creó la Unidad de Gestión de Contingencias Hidrometeorológicas para anticiparse a los efectos del fenómeno ENOS, que según los pronósticos alcanzará alta intensidad hacia fines de 2026 y comienzos de 2027.",
+        "cat": "La Pampa · Ambiente",
+        "foto": "https://apn.lapampa.gob.ar/images/noticias/6a726bcfd299a.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "EMPATEL y la Facultad de Ingeniería firmaron convenio para hacer prácticas profesionales",
+          "resumen": "El acuerdo permitirá a estudiantes de Ingeniería realizar experiencias asistidas y supervisadas en la empresa, para potenciar su perfil profesional.",
+          "cat": "La Pampa · Educación",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a72502143e40.jpg",
+          "ts": "5 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Convocan a empresas pampeanas a participar de ronda de negocios",
+          "resumen": "La Ronda Interprovincial de Negocios La Pampa-Buenos Aires 2026 se realizará el 27 de agosto en Carlos Casares, con inscripción gratuita hasta el 19 de agosto.",
+          "cat": "La Pampa · Economía",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a723b5d9f2e0.jpg",
+          "ts": "5 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Agentes públicos se capacitaron sobre prevención de la violencia laboral",
+          "resumen": "70 agentes participaron de la capacitación \"Prevención y abordaje de la violencia en el ámbito laboral\", enmarcada en el Convenio 190 de la OIT.",
+          "cat": "La Pampa · Gobierno",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a7203261df35.jpg",
+          "ts": "5 ago 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "El papa León XIV visitará la Argentina en noviembre, confirmó el Gobierno",
+          "resumen": "El canciller Pablo Quirno confirmó que León XIV visitará el país del 8 al 11 de noviembre.",
+          "cat": "Política Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg",
+          "ts": "5 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Javier Milei celebró el anuncio de la visita del Papa y la definió como \"histórica para todos los argentinos\"",
+          "resumen": "El Presidente celebró la confirmación del viaje de León XIV a la Argentina entre el 8 y el 11 de noviembre.",
+          "cat": "Política Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/2/25/Retrato_oficial_Presidente_Milei.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "ts": "5 ago 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "El Gobierno provincial fortalece el desarrollo oesteño con obras estratégicas en Algarrobo del Águila",
+          "resumen": "El ministro Alfredo Intronati y el intendente Oscar Gatica recorrieron obras educativas, viales y de protección climática, incluida una obra anti aluvional en la Ruta Provincial N° 10.",
+          "cat": "La Pampa · Obra Pública",
+          "ts": "5 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Detectan un nuevo caso de triquinosis proveniente de la actividad cinegética",
+          "resumen": "El caso fue diagnosticado en el laboratorio móvil de la Facultad de Ciencias Veterinarias de la UNLPam tras un torneo de caza realizado el 2 de agosto en Santa Rosa.",
+          "cat": "La Pampa · Salud",
+          "ts": "5 ago 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "unidad_gestion_el_nino",
+          "cat": "La Pampa · Ambiente",
+          "titulo": "Alerta climática: Provincia crea Unidad de Gestión por el fenómeno El Niño",
+          "bajada": "La nueva unidad busca fortalecer la capacidad de respuesta estatal y coordinar acciones entre gobiernos locales, el sector productivo y provincias vecinas.",
+          "cuerpo": "<p>El Gobierno de La Pampa creó la <strong>Unidad de Gestión de Contingencias Hidrometeorológicas</strong> con el objetivo de anticiparse a los posibles efectos del fenómeno climático El Niño mediante una estrategia basada en la prevención, la planificación y la organización.</p><p>La decisión responde a los pronósticos que advierten sobre un escenario de <strong>alta intensidad del fenómeno ENOS</strong> (El Niño-Oscilación del Sur) hacia fines de 2026 y comienzos de 2027, y busca fortalecer la capacidad de respuesta del Estado antes de que se produzcan eventuales contingencias.</p><p>La iniciativa apunta a coordinar acciones entre gobiernos locales, el sector productivo y provincias vecinas, en un cambio de paradigma que va de un modelo reactivo a la emergencia hacia uno de <strong>gestión integral del riesgo</strong>, sustentado en la anticipación y la planificación.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a726bcfd299a.jpg"
+        },
+        {
+          "id": "obras_algarrobo_del_aguila",
+          "cat": "La Pampa · Obra Pública",
+          "titulo": "El Gobierno provincial fortalece el desarrollo oesteño con obras estratégicas en Algarrobo del Águila",
+          "bajada": "Las obras incluyen la ampliación de una escuela, una obra anti aluvional en la Ruta Provincial N° 10 y la recuperación de un camino rural.",
+          "cuerpo": "<p>El ministro de Obras y Servicios Públicos, <strong>Alfredo Intronati</strong>, y el intendente de Algarrobo del Águila, <strong>Oscar Gatica</strong>, recorrieron las obras que el Gobierno pampeano ejecuta en la localidad y analizaron nuevas prioridades de infraestructura.</p><p>Entre los trabajos se destaca la ampliación de la Escuela N° 129, con la construcción de dos aulas nuevas, un núcleo sanitario adaptado, patio cubierto y sistemas de energías renovables. En materia vial se ejecuta una <strong>obra anti aluvional</strong> en la Ruta Provincial N° 10, entre Algarrobo del Águila y Bajada de la Barda, con elevación de rasante, disipadores de energía y un anillo de protección contra inundaciones, además de la recuperación del camino rural Picada 121.</p><p>En materia de conectividad, el Gobierno provincial gestiona una intervención integral en la <strong>Ruta Nacional N° 151</strong>, una demanda histórica de la zona por su deterioro.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/499215_f2d2f62d-3063-4b5c-9254-80533ad65179.jpeg"
+        },
+        {
+          "id": "triquinosis_actividad_cinegetica",
+          "cat": "La Pampa · Salud",
+          "titulo": "Detectan un nuevo caso de triquinosis proveniente de la actividad cinegética",
+          "bajada": "El jabalí positivo había sido cazado en un establecimiento rural del departamento Avellaneda, en la provincia de Río Negro.",
+          "cuerpo": "<p>Un nuevo caso de <strong>triquinosis</strong> fue detectado a partir de la actividad cinegética, en el marco de un torneo de caza desarrollado el pasado 2 de agosto en la ciudad de Santa Rosa.</p><p>El análisis se realizó en el laboratorio móvil de la Facultad de Ciencias Veterinarias de la Universidad Nacional de La Pampa (UNLPam), mediante la técnica de <strong>Digestión Artificial</strong>. El animal positivo, un jabalí, había sido cazado en un establecimiento rural ubicado en el departamento Avellaneda, provincia de Río Negro.</p>",
+          "foto": ""
+        },
+        {
+          "id": "empatel_facultad_ingenieria_convenio",
+          "cat": "La Pampa · Educación",
+          "titulo": "EMPATEL y la Facultad de Ingeniería firmaron convenio para hacer prácticas profesionales",
+          "bajada": "El convenio fue firmado por el presidente de EMPATEL, Andrés Zulueta, y el decano de la Facultad de Ingeniería, Daniel Alberto Mandrile.",
+          "cuerpo": "<p>La Empresa Pampeana de Telecomunicaciones (EMPATEL) y la Facultad de Ingeniería de la Universidad Nacional de La Pampa (UNLPam) firmaron un convenio marco para desarrollar <strong>prácticas profesionales asistidas y supervisadas</strong>, con el objetivo de potenciar el perfil de los futuros profesionales de acuerdo con las metas académicas de las carreras.</p><p>El acuerdo fue rubricado por el presidente de EMPATEL, Andrés Zulueta; el decano de la Facultad de Ingeniería, Daniel Alberto Mandrile; el director de EMPATEL y presidente de Corpico, Miguel Prieto; y el secretario académico, Andrés García. Se suma a relaciones institucionales previas que incluyen pasantías educativas, cooperación académica y donaciones de equipamiento.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a72502143e40.jpg"
+        },
+        {
+          "id": "ronda_negocios_pampa_buenos_aires",
+          "cat": "La Pampa · Economía",
+          "titulo": "Convocan a empresas pampeanas a participar de ronda de negocios",
+          "bajada": "La iniciativa busca promover el intercambio comercial y fortalecer la articulación entre el sector productivo de ambas jurisdicciones.",
+          "cuerpo": "<p>El Gobierno de La Pampa convocó a pymes, cooperativas, emprendedores, profesionales y empresas de la provincia a participar de la <strong>Ronda Interprovincial de Negocios La Pampa-Buenos Aires 2026</strong>, coordinada junto al Ministerio de Producción bonaerense y con apoyo de la Agencia I-COMEX.</p><p>El encuentro se realizará el jueves 27 de agosto desde las 9:30 en el Salón de Eventos Lence de Carlos Casares, Buenos Aires. La inscripción es gratuita, con cupos limitados, y podrá realizarse hasta el miércoles 19 de agosto a las 15:00 a través de la plataforma de la Provincia de Buenos Aires.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a723b5d9f2e0.jpg"
+        },
+        {
+          "id": "capacitacion_prevencion_violencia_laboral",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "Agentes públicos se capacitaron sobre prevención de la violencia laboral",
+          "bajada": "La actividad, realizada en el Salón de Acuerdos de la Casa de Gobierno, fue organizada por cuatro áreas del Gobierno provincial en el marco del programa PROCAAP.",
+          "cuerpo": "<p>En el marco del Programa de Capacitación para la Administración Pública Provincial (PROCAAP) y con la asistencia de <strong>70 agentes públicos</strong>, se realizó en el Salón de Acuerdos de la Casa de Gobierno la capacitación \"Prevención y abordaje de la violencia en el ámbito laboral\".</p><p>La actividad fue organizada por la Subsecretaría de Modernización del Ministerio de Conectividad y Modernización, la Secretaría de Trabajo y Promoción del Empleo, la Fiscalía de Investigaciones Administrativas (FIA) y la Secretaría de la Mujer, Géneros y Diversidad, con referencia al <strong>Convenio 190 de la OIT</strong> y su Recomendación 206. El objetivo declarado es promover espacios laborales libres de violencia y fortalecer las relaciones entre quienes integran la Administración Pública provincial.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a7203261df35.jpg"
+        },
+        {
+          "id": "papa_leon_xiv_visita_confirmada",
+          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "El papa León XIV visitará la Argentina en noviembre, confirmó el Gobierno",
+          "bajada": "La visita cumple un anhelo del papa Francisco, antecesor de León XIV, y fue confirmada tras la invitación cursada por el Gobierno a principios de año.",
+          "cuerpo": "<p>El Gobierno argentino confirmó que el papa <strong>León XIV</strong> visitará la Argentina entre el 8 y el 11 de noviembre. El anuncio fue realizado por el canciller Pablo Quirno.</p><p>La invitación había sido cursada por el Gobierno a principios de año. Con esta visita, León XIV cumplirá un anhelo de su predecesor, el papa Francisco.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg"
+        },
+        {
+          "id": "milei_celebra_visita_papa",
+          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "Javier Milei celebró el anuncio de la visita del Papa y la definió como \"histórica para todos los argentinos\"",
+          "bajada": "Milei calificó el anuncio como un hecho histórico tras la confirmación oficial del Gobierno.",
+          "cuerpo": "<p>El presidente <strong>Javier Milei</strong> celebró el anuncio de la visita del papa León XIV a la Argentina y la definió como <strong>\"histórica para todos los argentinos\"</strong>.</p><p>El pontífice visitará el país entre el 8 y el 11 de noviembre, según confirmó el Gobierno nacional.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/2/25/Retrato_oficial_Presidente_Milei.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        }
+      ]
+    },
+    {
       "clave": "2026-08-04_tarde",
       "fecha_iso": "2026-08-04",
       "fecha": "4 agosto 2026",

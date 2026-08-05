@@ -47,7 +47,7 @@ else:
 _archivo_path_check = os.path.join(os.path.dirname(os.path.abspath(__file__)), "noticias.json")
 _clave_hoy = f"{ahora.strftime('%Y-%m-%d')}_{turno}"
 try:
-    with open(_archivo_path_check, "r", encoding="utf-8") as _f:
+    with open(_archivo_path_check, "r", encoding="utf-8-sig") as _f:
         _archivo_check = json.load(_f)
     if any(c.get("clave") == _clave_hoy for c in _archivo_check.get("corridas", [])):
         print(f"Turno '{turno}' de hoy ya esta publicado (clave={_clave_hoy}) — nada que hacer.")
@@ -239,7 +239,9 @@ def buscar_foto_wikipedia(titulo, lang='es', contexto=''):
 _STOPWORDS_INICIALES = {'el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas', 'este', 'esta', 'estos', 'estas'}
 
 def extraer_nombre_propio(texto):
-    """Extrae la secuencia de palabras capitalizadas mas larga (candidato a nombre de persona).
+    """Extrae la primera secuencia de palabras capitalizadas (candidato a nombre de persona) —
+    el sujeto de la noticia suele nombrarse primero en el titulo, a diferencia de otras personas
+    mencionadas de paso mas adelante (que antes ganaban si su nombre era mas largo).
     Descarta candidatos como 'El Gobierno' o 'El Congreso', que son mayuscula de inicio de oracion
     seguida de un sustantivo comun, no un nombre propio real."""
     candidatos = re.findall(
@@ -253,7 +255,7 @@ def extraer_nombre_propio(texto):
             palabras = palabras[1:]
         if len(palabras) >= 2:
             limpios.append(' '.join(palabras))
-    return max(limpios, key=len) if limpios else ''
+    return limpios[0] if limpios else ''
 
 
 def _nombre_coincide(nombre, titulo_wiki):
@@ -974,7 +976,7 @@ def arts_entry(item):
     cuerpo = cuerpo.replace("`", "'").replace("\\", "\\\\")
     titulo = item.get("titulo", "").replace("`", "'")
     bajada = item.get("bajada", "").replace("`", "'")
-    return f"""    {item['id']}: {{
+    return f"""    "{item['id']}": {{
       cat:'{e(item.get("cat",""))}', fecha:'{e(item.get("fecha",""))}', fuente:'LLANO\\u00b7',
       fuenteUrl:'', foto:'{item.get("foto","")}',
       titulo:`{titulo}`,
@@ -1199,7 +1201,7 @@ llano = safe_sub(
 # ── ARCHIVAR EN NOTICIAS.JSON ──
 archivo_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "noticias.json")
 try:
-    with open(archivo_path, "r", encoding="utf-8") as f:
+    with open(archivo_path, "r", encoding="utf-8-sig") as f:
         noticias_archivo = json.load(f)
 except (FileNotFoundError, json.JSONDecodeError):
     noticias_archivo = {"version": 1, "corridas": []}
