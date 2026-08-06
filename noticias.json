@@ -2,6 +2,197 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-08-06_mediodia",
+      "fecha_iso": "2026-08-06",
+      "fecha": "6 agosto 2026",
+      "turno": "Edición Mediodía · 11:00",
+      "hero": {
+        "titulo": "La Pampa presentó la licitación de El Medanito ante representaciones diplomáticas",
+        "summary": "El Gobierno provincial, junto a la Cancillería argentina, presentó ante más de 20 representaciones diplomáticas la Licitación Pública Nacional e Internacional N° 1/2026 para la concesión del área hidrocarburífera El Medanito, que en 2025 representó el 30,3% de la producción de petróleo y el 56,6% de la de gas de la provincia.",
+        "cat": "La Pampa · Energía",
+        "foto": "https://apn.lapampa.gob.ar/images/noticias/6a746aa5c83f4.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Movimientos docentes 2027: inicia inscripción a Traslados Definitivo y Transitorio",
+          "resumen": "Los traslados definitivos se inscriben del 10 al 24 de agosto y los transitorios del 1 de octubre al 13 de noviembre, para docentes titulares de gestión estatal.",
+          "cat": "La Pampa · Educación",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a7489f6ae4c4.jpg",
+          "ts": "6 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Realizaron taller para emprendedores sobre multiplicación y cultivo de aromáticas",
+          "resumen": "El Gobierno provincial, junto a la Asociación Horizonte Pampa y el portal Weni, capacitó a emprendedores en cultivo de plantas aromáticas para uso familiar y comercial.",
+          "cat": "La Pampa · Producción",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/102283_img-20260805-wa0049.jpg",
+          "ts": "6 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Ente adelantó el inicio del Provincial de fútbol",
+          "resumen": "El Torneo Provincial de Fútbol 2026 arrancará el 13 de septiembre, tras un pedido expreso de la Liga Pampeana; el sorteo de grupos será el 3 de septiembre.",
+          "cat": "La Pampa · Deportes",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/246426_img-20260805-wa0053.jpg",
+          "ts": "6 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gobierno acompaña una nueva edición de la tradicional Expo Apícola de Doblas",
+          "resumen": "La 29ª edición de la muestra se realizará el 21 y 22 de agosto en Doblas, con expositores, disertaciones técnicas y feria de emprendedores.",
+          "cat": "La Pampa · Producción",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a738ebf5e7d3.jpg",
+          "ts": "6 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "General Pico: más de 100 personas recibieron su certificación en Cuidados Profesionales",
+          "resumen": "102 personas completaron la capacitación en Cuidados Profesionales de niñas, niños, adolescentes, personas mayores y personas con discapacidad, de un total de 211 inscriptas.",
+          "cat": "La Pampa · Desarrollo Social",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a7365da2f005.jpg",
+          "ts": "6 ago 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Alerta meteorológica nacional: más de 10 provincias bajo amenaza por tormentas y fuertes vientos",
+          "resumen": "El Servicio Meteorológico Nacional emitió alertas amarilla y naranja por intensas lluvias en el norte del país, mientras el AMBA registrará marcas entre 9 y 14 grados.",
+          "cat": "Política Nacional · Clima",
+          "foto": "",
+          "ts": "6 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Pedro Nicolás Di Nezio fue designado al frente del Servicio Meteorológico Nacional tras la salida de Antonio José Mauad",
+          "resumen": "El Gobierno oficializó el nombramiento del científico por un período de cuatro años y aceptó la renuncia de Antonio José Mauad, quien encabezaba el organismo desde comienzos de 2026.",
+          "cat": "Política Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg",
+          "ts": "6 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Científicos de todo el país repudiaron las declaraciones de Javier Milei: rechazaron que calificara de \"terroristas\" a investigadores, estudiantes y docentes",
+          "resumen": "La Red de Directores y Directoras de los Centros Científicos Tecnológicos del CONICET calificó los dichos presidenciales como \"un ataque institucional de extrema gravedad\".",
+          "cat": "Política Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/2/25/Retrato_oficial_Presidente_Milei.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "ts": "6 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Juicio por la muerte de Diego Maradona: declara por primera vez el enfermero acusado",
+          "resumen": "Ricardo Almirón, encargado de controlar los signos vitales del astro del fútbol, declaró por primera vez ante los Tribunales de San Isidro.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/960px-Maradona-Mundial_86_con_la_copa.JPG?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "ts": "6 ago 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "\"La Odisea\": una propuesta para fortalecer la comprensión lectora desde todas las áreas del conocimiento",
+          "resumen": "El Colegio Secundario Julio Colombato convirtió a La Odisea en eje articulador de aprendizajes interdisciplinarios entre mayo y julio, con estudiantes de primero a sexto año.",
+          "cat": "La Pampa · Educación",
+          "ts": "6 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Ofrecen capacitar a DT de plantas de faena o elaboradoras de productos cárnicos",
+          "resumen": "El Ministerio de la Producción, junto a la Facultad de Ciencias Veterinarias de la UNLPam, ofrece dos encuentros virtuales el 19 de agosto y el 17 de septiembre para directores técnicos del sector cárnico.",
+          "cat": "La Pampa · Producción",
+          "ts": "6 ago 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "el_medanito_licitacion_diplomatica",
+          "cat": "La Pampa · Energía",
+          "titulo": "La Pampa presentó la licitación de El Medanito ante representaciones diplomáticas",
+          "bajada": "El área, de 828 km² y con una concesión a 25 años, se licitó ante embajadas y consulados argentinos en el exterior para ampliar la difusión internacional del proceso.",
+          "cuerpo": "<p>El Gobierno de La Pampa, junto a la Cancillería argentina, presentó la <strong>Licitación Pública Nacional e Internacional N° 1/2026</strong> para la concesión del Área Hidrocarburífera El Medanito ante más de 20 representaciones diplomáticas argentinas en el exterior, con el objetivo de ampliar la difusión internacional del proceso y promover la llegada de inversiones.</p><p>El área abarca <strong>828 kilómetros cuadrados</strong> y la concesión tendrá una duración de 25 años, con el 80% operado por el oferente que resulte ganador y el 20% restante en manos de Pampetrol SAPEM. La convocatoria llegó a 13 embajadas y 7 consulados que representan a 17 países, además de agencias especializadas en promoción de inversiones y empresas del sector hidrocarburífero.</p><p>El Medanito es uno de los principales activos energéticos de la provincia: en 2025 representó el <strong>30,3% de la producción de petróleo</strong> y el <strong>56,6% de la producción de gas</strong> pampeana. Está previsto un roadshow en Buenos Aires el 11 de agosto.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a746aa5c83f4.jpg"
+        },
+        {
+          "id": "la_odisea_comprension_lectora",
+          "cat": "La Pampa · Educación",
+          "titulo": "\"La Odisea\": una propuesta para fortalecer la comprensión lectora desde todas las áreas del conocimiento",
+          "bajada": "El proyecto, acompañado por el Ministerio de Educación, tuvo como objetivo fortalecer la comprensión lectora como capacidad transversal.",
+          "cuerpo": "<p>En el Colegio Secundario Julio Colombato, un proyecto institucional convirtió a <strong>La Odisea</strong> en el eje articulador de aprendizajes desarrollados por estudiantes de primero a sexto año, integrando todas las áreas del conocimiento.</p><p>La propuesta, desarrollada entre mayo y julio con el acompañamiento del Ministerio de Educación a través de la Dirección General de Educación Secundaria, tuvo como principal objetivo <strong>fortalecer la comprensión lectora</strong> como una capacidad transversal. Una muestra institucional permitió compartir con toda la comunidad educativa el recorrido realizado por los estudiantes, a partir de la adaptación \"El regreso de Odiseo\".</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a74889538dae.jpg"
+        },
+        {
+          "id": "capacitacion_dt_plantas_carnicas",
+          "cat": "La Pampa · Producción",
+          "titulo": "Ofrecen capacitar a DT de plantas de faena o elaboradoras de productos cárnicos",
+          "bajada": "La capacitación abordará normativa de inocuidad alimentaria, buenas prácticas de manufactura y elaboración de alimentos libres de gluten.",
+          "cuerpo": "<p>El Ministerio de la Producción de La Pampa, con el apoyo de la Facultad de Ciencias Veterinarias de la UNLPam y el Colegio Médico Veterinario provincial, ofrece un nuevo espacio de formación para <strong>directores técnicos de plantas de faena</strong> y establecimientos elaboradores de productos de origen cárnico.</p><p>Los encuentros, con modalidad virtual, se realizarán el 19 de agosto y el 17 de septiembre, de 9:00 a 11:30. Los contenidos incluyen normativa provincial de inocuidad alimentaria, el Código Alimentario Argentino, buenas prácticas de manufactura, manejo integral de plagas y elaboración de alimentos libres de gluten.</p>",
+          "foto": ""
+        },
+        {
+          "id": "movimientos_docentes_2027",
+          "cat": "La Pampa · Educación",
+          "titulo": "Movimientos docentes 2027: inicia inscripción a Traslados Definitivo y Transitorio",
+          "bajada": "La convocatoria alcanza al personal titular de los niveles inicial, primario, secundario y de educación permanente de jóvenes y adultos.",
+          "cuerpo": "<p>El Ministerio de Educación de La Pampa informó que el próximo lunes 10 de agosto inicia el período de solicitudes de <strong>traslados definitivos</strong>, que se extenderá hasta el 24 de agosto inclusive. A partir del 1 de octubre y hasta el 13 de noviembre se abrirán las inscripciones a traslados transitorios.</p><p>La convocatoria involucra al personal docente titular en instituciones de gestión estatal de la Subsecretaría de Educación Técnico Profesional y de las direcciones generales de Educación Inicial, Primaria, Secundaria, Transversalidad de la Educación Inclusiva, y de la Dirección de Educación Permanente de Jóvenes y Adultos.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a7489f6ae4c4.jpg"
+        },
+        {
+          "id": "taller_multiplicacion_aromaticas",
+          "cat": "La Pampa · Producción",
+          "titulo": "Realizaron taller para emprendedores sobre multiplicación y cultivo de aromáticas",
+          "bajada": "Los participantes recibieron asesoramiento técnico y veinte plantines de distintas variedades aromáticas.",
+          "cuerpo": "<p>El Gobierno de La Pampa, junto a la Asociación Horizonte Pampa y el portal Weni, realizó un taller sobre <strong>multiplicación y cultivo de plantas aromáticas</strong> para emprendedores, orientado tanto al uso familiar como a la salida laboral.</p><p>El encuentro se realizó en la sede del Registro de Entidades de Bien Público de Santa Rosa, con la presencia de los ministros de Gobierno y de Desarrollo Social y el subsecretario de Registros Públicos. Los participantes recibieron asesoramiento técnico, credenciales de validación y veinte plantines de diversas variedades. El ministro <strong>Pascual Fernández</strong> destacó que \"las políticas que impulsan el trabajo y la producción, la capacitación, en todo el territorio provincial\" requieren articulación interinstitucional.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/102283_img-20260805-wa0049.jpg"
+        },
+        {
+          "id": "provincial_futbol_adelantado",
+          "cat": "La Pampa · Deportes",
+          "titulo": "El Ente adelantó el inicio del Provincial de fútbol",
+          "bajada": "Competirán los 16 equipos más destacados del fútbol pampeano.",
+          "cuerpo": "<p>El Torneo Provincial de Fútbol 2026 se pondrá en marcha el <strong>13 de septiembre</strong>, según resolvió el Ente Provincial a partir de un pedido expreso de la Liga Pampeana de fútbol, que solicitó que el inicio no fuera aplazado más allá de esa fecha.</p><p>El sorteo de los grupos y del fixture se realizará el jueves 3 de septiembre. Del torneo participarán los <strong>16 equipos más destacados</strong> del fútbol pampeano.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/246426_img-20260805-wa0053.jpg"
+        },
+        {
+          "id": "expo_apicola_doblas",
+          "cat": "La Pampa · Producción",
+          "titulo": "Gobierno acompaña una nueva edición de la tradicional Expo Apícola de Doblas",
+          "bajada": "La provincia cuenta actualmente con más de 200 mil colmenas, y la actividad apícola es un generador clave de empleo local.",
+          "cuerpo": "<p>La 29ª edición de la <strong>Expo Apícola de Doblas</strong> se realizará el 21 y 22 de agosto, organizada por la Cooperativa de Servicios de Doblas (COSEDO), el municipio local y el Gobierno provincial.</p><p>La muestra reunirá a expositores del sector apícola, paneles con organismos especializados y productores, una feria de emprendedores pampeanos, disertaciones técnicas y patio gastronómico. La provincia cuenta actualmente con <strong>más de 200 mil colmenas</strong>, y la actividad apícola es un generador importante de empleo y desarrollo empresarial local.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a738ebf5e7d3.jpg"
+        },
+        {
+          "id": "cuidados_profesionales_general_pico",
+          "cat": "La Pampa · Desarrollo Social",
+          "titulo": "General Pico: más de 100 personas recibieron su certificación en Cuidados Profesionales",
+          "bajada": "Participaron más de 200 asistentes de General Pico y localidades como Trenel, Metileo, Dorila y Rancul, entre otras.",
+          "cuerpo": "<p>El Gobierno de La Pampa culminó en General Pico una nueva capacitación en <strong>Cuidados Profesionales</strong> de niñas, niños, adolescentes, personas mayores y personas con discapacidad, con una fuerte apuesta a la profesionalización de las tareas de cuidado.</p><p>De 211 personas inscriptas, <strong>102 completaron</strong> los requisitos y recibieron su certificación. Participaron más de 200 asistentes de General Pico y de localidades como Trenel, Monte Nievas, Metileo, Dorila, Vértiz, Speluzzi, Alta Italia, Falucho y Rancul. La actividad, organizada por varios ministerios provinciales, contó con la presencia del ministro Diego Álvarez y la intendenta Fernanda Alonso.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a7365da2f005.jpg"
+        },
+        {
+          "id": "alerta_meteorologica_nacional",
+          "cat": "Política Nacional · Clima",
+          "titulo": "Alerta meteorológica nacional: más de 10 provincias bajo amenaza por tormentas y fuertes vientos",
+          "bajada": "El Servicio Meteorológico Nacional anunció lluvias intensas para distintas regiones del país en los próximos días.",
+          "cuerpo": "<p>Más de <strong>10 provincias</strong> se encuentran bajo amenaza por tormentas y fuertes vientos, según el último parte del Servicio Meteorológico Nacional (SMN).</p><p>El organismo anunció alertas amarilla y naranja por lluvias intensas para el norte del país, mientras el AMBA registrará marcas de entre 9 y 14 grados.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/A_tornado_near_Anadarko%2C_Oklahoma%2C_on_May_3%2C_1999.jpg/960px-A_tornado_near_Anadarko%2C_Oklahoma%2C_on_May_3%2C_1999.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        },
+        {
+          "id": "di_nezio_smn",
+          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "Pedro Nicolás Di Nezio fue designado al frente del Servicio Meteorológico Nacional tras la salida de Antonio José Mauad",
+          "bajada": "El nombramiento se da en medio de una intensa actividad del Servicio Meteorológico Nacional por las alertas climáticas vigentes en el país.",
+          "cuerpo": "<p>El Gobierno nacional oficializó el nombramiento de <strong>Pedro Nicolás Di Nezio</strong> al frente del Servicio Meteorológico Nacional, por un período de cuatro años.</p><p>La designación se produce tras aceptar la renuncia de <strong>Antonio José Mauad</strong>, quien encabezaba el organismo desde comienzos de 2026.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg"
+        },
+        {
+          "id": "cientificos_repudian_milei",
+          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "Científicos de todo el país repudiaron las declaraciones de Javier Milei: rechazaron que calificara de \"terroristas\" a investigadores, estudiantes y docentes",
+          "bajada": "El repudio fue exhibido por la Red de Directores y Directoras de los Centros Científicos Tecnológicos del CONICET.",
+          "cuerpo": "<p>Científicos de todo el país repudiaron declaraciones del presidente <strong>Javier Milei</strong> en las que calificó de \"terroristas\" a investigadores, estudiantes y docentes.</p><p>El repudio fue exhibido por la Red de Directores y Directoras de los Centros Científicos Tecnológicos del CONICET, que consideró que los dichos presidenciales son <strong>\"un ataque institucional de extrema gravedad\"</strong>.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/2/25/Retrato_oficial_Presidente_Milei.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        },
+        {
+          "id": "juicio_maradona_enfermero",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "Juicio por la muerte de Diego Maradona: declara por primera vez el enfermero acusado",
+          "bajada": "Ricardo Almirón, encargado de controlar los signos vitales del astro del fútbol, declaró por primera vez ante los Tribunales de San Isidro.",
+          "cuerpo": "<p>El enfermero <strong>Ricardo Almirón</strong>, acusado en la causa por la muerte de Diego Maradona, declaró por primera vez ante los Tribunales de San Isidro.</p><p>Almirón era el encargado de controlar los signos vitales del astro del fútbol y ya había asistido anteriormente a los tribunales en el marco del proceso judicial.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Maradona-Mundial_86_con_la_copa.JPG/960px-Maradona-Mundial_86_con_la_copa.JPG?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        }
+      ]
+    },
+    {
       "clave": "2026-08-05_manana",
       "fecha_iso": "2026-08-05",
       "fecha": "5 agosto 2026",
