@@ -2,6 +2,182 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-08-13_manana",
+      "fecha_iso": "2026-08-13",
+      "fecha": "13 agosto 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "La Provincia fortalece el abastecimiento eléctrico del Parque Agroalimentario de Santa Rosa",
+        "summary": "El Gobierno provincial invirtió más de $242 millones en la ampliación de las redes de media y baja tensión del parque, en el marco del Plan Estratégico de Energía del Sistema Eléctrico Provincial.",
+        "cat": "La Pampa · Energía",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/135589_17.jpeg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Liga de la Eficiencia: Médanos Verdes inauguró nueva iluminación LED",
+          "resumen": "El club santarroseño incorporó iluminación LED en su cancha de fútbol 5 con un aporte provincial de $20,6 millones, dentro del Plan de Iluminación Eficiente en Espacios Deportivos.",
+          "cat": "La Pampa · Deportes",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/163072_18.jpeg",
+          "ts": "13 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Cultura presenta la agenda semanal con actividades libres y gratuitas en la Provincia",
+          "resumen": "La semana incluye un acto patrio en Ataliva Roca, muestra fotográfica y presentación de libro en el Centro de Artes, arte patagónico en el MPArtes y canto coral en Alta Italia, entre otras propuestas.",
+          "cat": "La Pampa · Cultura",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a7c81cc642bb.jpg",
+          "ts": "13 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Impulsan jornadas de forestación para fortalecer la adaptación al cambio climático en escuelas pampeanas",
+          "resumen": "Las jornadas se realizarán el 28 de agosto en Puelches y el 2 de septiembre en Rancul, con charlas, diagnóstico participativo del arbolado y plantación de árboles.",
+          "cat": "La Pampa · Educación",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a7c821aea17d.jpg",
+          "ts": "13 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Pablo Rivero Maldonado presenta \"Hombres de Hierro\"",
+          "resumen": "El ensayo fotográfico, con 22 imágenes, documenta la lucha de los trabajadores de La Histórica, la emblemática fábrica de General Pico. Se inaugura el viernes 14 en el Centro de Artes de Santa Rosa.",
+          "cat": "La Pampa · Cultura",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/273641_whatsapp-image-2026-08-11-at-11.41.33.jpeg",
+          "ts": "13 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Acha celebró sus 144 años con un acto oficial en el Parque Campos",
+          "resumen": "General Acha conmemoró su aniversario con un acto oficial y un desfile posterior en la plaza Belgrano.",
+          "cat": "La Pampa · Sociedad",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/130021_img-20260812-wa0060.jpg",
+          "ts": "13 ago 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Cambios en el Gabinete: Adriana Baravalle fue designada como secretaria de Innovación, Ciencia y Tecnología de la Nación",
+          "resumen": "La especialista en inteligencia artificial y ciencia de datos asume la cartera en reemplazo de Darío Genua.",
+          "cat": "Política Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg",
+          "ts": "13 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Caso Loan: un policía reveló irregularidades en el manejo de pruebas durante las primeras horas",
+          "resumen": "Eduardo Torres declaró durante casi cuatro horas y reconoció que se revisaron celulares sin testigos y que no quedaron registrados los horarios de algunos secuestros.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "",
+          "ts": "13 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Nuevo paro universitario: gremios exigieron una recomposición salarial y más fondos para las casas de estudio",
+          "resumen": "La medida de 24 horas reclamó la aplicación de la Ley de Financiamiento Universitario, recomposición salarial y fondos para hospitales universitarios.",
+          "cat": "Política Nacional · Educación",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg",
+          "ts": "13 ago 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Gobierno provincial y la UNLPam se unen para recuperar 50 años de historia vinculada al agua y al desarrollo",
+          "resumen": "El proyecto reconstruirá cinco décadas de la Administración Provincial del Agua (APA) a través de un libro histórico que se presentará en mayo de 2027, coincidiendo con su aniversario.",
+          "cat": "La Pampa · Cultura",
+          "ts": "13 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "\"Contextos diferentes, aspiraciones comunes\": se conmemora el Día Internacional de la Juventud",
+          "resumen": "La Subsecretaría de Juventud anunció la entrega de herramientas de primera escucha para que jóvenes acompañen a sus pares, en el marco del Plan Provincial de Emergencia en Salud Mental.",
+          "cat": "La Pampa · Juventud",
+          "ts": "13 ago 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "parque_agroalimentario_electrico",
+          "cat": "La Pampa · Energía",
+          "titulo": "La Provincia fortalece el abastecimiento eléctrico del Parque Agroalimentario de Santa Rosa",
+          "bajada": "La obra, ejecutada por la CPE con subsidio de la APE, busca garantizar la energía necesaria para acompañar el crecimiento del parque.",
+          "cuerpo": "<p>En el marco del Plan Estratégico de Energía y de la política de inversión sostenida en el Sistema Eléctrico Provincial (SEP), el Gobierno de La Pampa invirtió más de <strong>$242.289.504</strong> en la ampliación de las redes de media y baja tensión del Parque Agroalimentario de Santa Rosa.</p><p>Los aportes están destinados a garantizar la energía necesaria para acompañar el crecimiento y desarrollo productivo del parque, y responder a las demandas actuales y futuras de las actividades que allí se desarrollan. La obra fue ejecutada por la <strong>Cooperativa Popular de Electricidad, Obras y Servicios Públicos de Santa Rosa (CPE)</strong>, con subsidio de la Administración Provincial de Energía (APE).</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/135589_17.jpeg"
+        },
+        {
+          "id": "apa_50_anos_libro",
+          "cat": "La Pampa · Cultura",
+          "titulo": "Gobierno provincial y la UNLPam se unen para recuperar 50 años de historia vinculada al agua y al desarrollo",
+          "bajada": "El libro se presentará en mayo de 2027, coincidiendo con el 50º aniversario de la Administración Provincial del Agua.",
+          "cuerpo": "<p>El Gobierno provincial y la Universidad Nacional de La Pampa trabajarán en la elaboración de un libro histórico y conmemorativo que reconstruirá los <strong>50 años de la Administración Provincial del Agua (APA)</strong>, creada en 1977. La iniciativa busca recuperar la memoria de una institución fundamental para la provincia a través de sus protagonistas, sus experiencias y las políticas que durante cinco décadas acompañaron el crecimiento de las comunidades pampeanas y el acceso a un recurso esencial.</p><p>El proyecto, impulsado junto al Ministerio de Obras y Servicios Públicos y la Facultad de Ciencias Humanas de la UNLPam, incluirá la recopilación de documentación, testimonios, fotografías y registros audiovisuales de trabajadores, profesionales y comunidades. Más allá de la cronología institucional, se busca contar cómo las políticas de agua y saneamiento mejoraron la calidad de vida en la provincia. La presentación está prevista para mayo de 2027.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/158022_img-20260812-wa0048.jpg"
+        },
+        {
+          "id": "dia_internacional_juventud",
+          "cat": "La Pampa · Juventud",
+          "titulo": "\"Contextos diferentes, aspiraciones comunes\": se conmemora el Día Internacional de la Juventud",
+          "bajada": "La capacitación en escucha activa se dirigirá a agentes juveniles municipales de las 80 localidades de la provincia.",
+          "cuerpo": "<p>La Subsecretaría de Juventud del Ministerio de Desarrollo Social y Derechos Humanos conmemoró el 12 de agosto el Día Internacional de la Juventud, efeméride proclamada por Naciones Unidas, bajo el lema <strong>\"Contextos diferentes, aspiraciones comunes\"</strong>.</p><p>La Subsecretaría anunció la entrega de herramientas de primera escucha para que las y los jóvenes puedan acompañar a sus pares, en el marco del Plan Provincial de Emergencia en Salud Mental. El objetivo es capacitar en técnicas de escucha activa —sin diagnosticar ni resolver— para sostener conversaciones difíciles y ofrecer líneas de contención (136 y 132) cuando sea necesario. La capacitación se dirigirá a agentes juveniles municipales de las <strong>80 localidades</strong> de la provincia.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg/960px-Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg"
+        },
+        {
+          "id": "medanos_verdes_led",
+          "cat": "La Pampa · Deportes",
+          "titulo": "Liga de la Eficiencia: Médanos Verdes inauguró nueva iluminación LED",
+          "bajada": "La instalación incluyó seis columnas y 12 proyectores LED, y se completó con una jornada de concientización sobre consumo energético responsable.",
+          "cuerpo": "<p>La Secretaría de Energía y Minería acompañó la inauguración de la iluminación LED de la cancha de fútbol 5 del Club Médanos Verdes de Santa Rosa, una obra concretada con un aporte de <strong>$20.653.740,87</strong> del Gobierno de La Pampa en el marco del Plan de Iluminación Eficiente en Espacios Deportivos.</p><p>La instalación incluyó seis columnas, 12 proyectores LED, tablero eléctrico y las protecciones de seguridad correspondientes, y permite ampliar los horarios de uso de la cancha. Con esta incorporación, Médanos Verdes se suma a la <strong>\"Liga de la Eficiencia\"</strong>, integrada por instituciones deportivas pampeanas que modernizan sus instalaciones lumínicas. El evento incluyó además una jornada de \"Guardianes de la Energía\" con más de 30 deportistas sobre consumo energético responsable.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/163072_18.jpeg"
+        },
+        {
+          "id": "cultura_agenda_semanal",
+          "cat": "La Pampa · Cultura",
+          "titulo": "Cultura presenta la agenda semanal con actividades libres y gratuitas en la Provincia",
+          "bajada": "Entre las propuestas figuran un acto patrio en Ataliva Roca, arte patagónico en el MPArtes y un encuentro por la defensa del agua en Santa Isabel.",
+          "cuerpo": "<p>El Gobierno de La Pampa presentó la agenda semanal de actividades culturales libres y gratuitas en la provincia. Entre los destacados figuran un acto patrio por el fallecimiento del General San Martín en Ataliva Roca, una nueva muestra fotográfica y presentación de libro en el Centro de Artes, arte patagónico en el MPArtes, canto coral en Alta Italia y los festejos por el aniversario de General Acha.</p><p>La grilla incluye además una actividad por el Día de las Infancias, un encuentro por la defensa del agua en Santa Isabel y una nueva cita en la biblioteca Olga Orozco.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a7c81cc642bb.jpg"
+        },
+        {
+          "id": "jornadas_forestacion_escuelas",
+          "cat": "La Pampa · Educación",
+          "titulo": "Impulsan jornadas de forestación para fortalecer la adaptación al cambio climático en escuelas pampeanas",
+          "bajada": "Las jornadas incluyen diagnóstico participativo del arbolado escolar y plantación de árboles con capacitación en buenas prácticas.",
+          "cuerpo": "<p>En el marco del Día Nacional del Árbol, que se conmemora cada 29 de agosto, el Ministerio de Educación de La Pampa llevará adelante dos jornadas de la <strong>Estrategia Provincial de Forestación en Instituciones Educativas</strong>, orientada a fortalecer la educación ambiental y promover escuelas más resilientes frente al cambio climático.</p><p>Los encuentros se realizarán el 28 de agosto en la Escuela Primaria N° 102 \"Silvio Bianchetti\" de Puelches, y el 2 de septiembre en la Escuela N° 234 \"Ministro Jorge Agustín Picca\" de Rancul. Incluyen una charla sobre \"La Pampa frente al cambio climático\", presentación del Programa Provincial de Forestación, diagnóstico participativo del arbolado y plantación de árboles con capacitación en buenas prácticas. Participan los ministerios de Educación y de la Producción, la Secretaría de Ambiente y Cambio Climático y la Comisión Mixta de Salud y Seguridad en el Trabajo.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a7c821aea17d.jpg"
+        },
+        {
+          "id": "hombres_de_hierro_expo",
+          "cat": "La Pampa · Cultura",
+          "titulo": "Pablo Rivero Maldonado presenta \"Hombres de Hierro\"",
+          "bajada": "La muestra reúne 22 imágenes de trabajadores de la Cooperativa de Trabajo La Histórica, en distintas épocas, junto a sus máquinas y herramientas.",
+          "cuerpo": "<p>El fotoperiodista pampeano Pablo Rivero Maldonado presenta <strong>\"Hombres de Hierro\"</strong>, un ensayo fotográfico de 22 imágenes que documenta la lucha de los trabajadores de La Histórica, la emblemática fábrica de General Pico, retratados junto a sus máquinas y herramientas de trabajo.</p><p>La muestra, con curaduría de Julieta Mansilla, se inaugura el viernes 14 de agosto a las 20 en la Sala Marta Arangoa del Centro de Artes de Santa Rosa. El proyecto se desarrolló con apoyo del Consejo Federal de Inversiones, una beca del Fondo Nacional de las Artes y en el marco de una diplomatura en Fotografía Documental y Curaduría de la UBA.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/273641_whatsapp-image-2026-08-11-at-11.41.33.jpeg"
+        },
+        {
+          "id": "acha_144_anos",
+          "cat": "La Pampa · Sociedad",
+          "titulo": "Acha celebró sus 144 años con un acto oficial en el Parque Campos",
+          "bajada": "Al acto oficial le siguió el tradicional desfile en la plaza Belgrano.",
+          "cuerpo": "<p>General Acha conmemoró este miércoles sus <strong>144 años</strong> con un acto oficial realizado en el Parque Campos. Posteriormente, se desarrolló el tradicional desfile en la plaza Belgrano.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/130021_img-20260812-wa0060.jpg"
+        },
+        {
+          "id": "baravalle_secretaria_ciencia_tecnologia",
+          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "Cambios en el Gabinete: Adriana Baravalle fue designada como secretaria de Innovación, Ciencia y Tecnología de la Nación",
+          "bajada": "La funcionaria, especialista en inteligencia artificial y ciencia de datos, reemplaza a Darío Genua al frente de la cartera.",
+          "cuerpo": "<p>El Gobierno nacional designó a <strong>Adriana Baravalle</strong> como secretaria de Innovación, Ciencia y Tecnología de la Nación, en reemplazo del licenciado Darío Genua.</p><p>Baravalle es especialista en inteligencia artificial y ciencia de datos, y asume la conducción de la cartera en el marco de un cambio de gabinete anunciado por el Gobierno nacional.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg"
+        },
+        {
+          "id": "caso_loan_irregularidades_pruebas",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "Caso Loan: un policía reveló irregularidades en el manejo de pruebas durante las primeras horas",
+          "bajada": "El efectivo reconoció que se revisaron celulares sin testigos y que no quedaron registrados los horarios de algunos secuestros.",
+          "cuerpo": "<p>En el juicio por la desaparición de Loan, el policía <strong>Eduardo Torres</strong> declaró durante casi cuatro horas y reveló irregularidades en el manejo de pruebas durante las primeras horas de la investigación.</p><p>Torres reconoció que se revisaron celulares sin la presencia de testigos y que no quedaron registrados los horarios en que se secuestraron algunos elementos, un dato que podría ser clave para reconstruir la cadena de custodia de la prueba en la causa.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/4/44/Retrato_oficial_del_Presidente_Mauricio_Macri.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        },
+        {
+          "id": "paro_universitario_agosto",
+          "cat": "Política Nacional · Educación",
+          "titulo": "Nuevo paro universitario: gremios exigieron una recomposición salarial y más fondos para las casas de estudio",
+          "bajada": "La medida de fuerza de 24 horas se realizó sin concurrencia a los lugares de trabajo.",
+          "cuerpo": "<p>Gremios universitarios realizaron un nuevo paro de <strong>24 horas</strong>, sin concurrencia a los lugares de trabajo, para reclamar la aplicación de la Ley de Financiamiento Universitario, una recomposición salarial y el envío de fondos para las casas de estudio y los hospitales universitarios.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg"
+        }
+      ]
+    },
+    {
       "clave": "2026-08-08_tarde",
       "fecha_iso": "2026-08-08",
       "fecha": "8 agosto 2026",
