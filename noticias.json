@@ -2,6 +2,182 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-08-18_manana",
+      "fecha_iso": "2026-08-18",
+      "fecha": "18 agosto 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "Finalizó obra millonaria que fortalecerá el sistema del Acueducto del Río Colorado",
+        "summary": "La obra, ubicada a 29 km de Pichi Mahuida, demandó una inversión de $48.449 millones a valores actuales e incluye una nueva estación de bombeo, una cisterna de reserva de 2.500 m³ y 29 km de línea eléctrica de media tensión.",
+        "cat": "La Pampa · Infraestructura",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/2486114_img-20260816-wa0017.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Río V: La Pampa propondrá a Buenos Aires un plan conjunto para mejorar el escurrimiento",
+          "resumen": "El gobernador Ziliotto recorrió la zona del río V en Bernardo Larroudé y definió una propuesta conjunta con Buenos Aires para aumentar la capacidad de desagüe ante crecidas.",
+          "cat": "La Pampa · Ambiente",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/160880_img-20260816-wa0008.jpg",
+          "ts": "18 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Pampa en el CIMOP: una mirada federal sobre la realidad de la obra pública nacional",
+          "resumen": "El ministro Alfredo Intronati, integrante del Comité Ejecutivo del organismo, participó de una nueva reunión del Consejo Interprovincial de Ministros de Obras Públicas.",
+          "cat": "La Pampa · Gobierno",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1229556_img-20260815-wa0117.jpg",
+          "ts": "18 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Cuando el campo le habla al campo: en Santa Rosa, productores comparten su experiencia con el carbono",
+          "resumen": "La 1ra. Jornada de Carbono, Sustentabilidad y Nuevas Oportunidades para el Agro Pampeano se realizará el 21 de agosto en La Campiña, con acceso libre y gratuito.",
+          "cat": "La Pampa · Producción",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/212609_img-20260816-wa0014.jpg",
+          "ts": "18 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Ascensos policiales: se desarrollan los cursos previstos con nuevos contenidos y modalidad semipresencial",
+          "resumen": "186 efectivos de toda la provincia participan de cinco cursos de formación para ascensos, con instancias presenciales y trabajo en plataforma virtual.",
+          "cat": "La Pampa · Seguridad",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/142186_img-20260817-wa0044.jpg",
+          "ts": "18 ago 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Victoria Villarruel criticó al Gobierno por la economía: \"Estoy preocupada por los argentinos que no llegan a fin de mes\"",
+          "resumen": "La vicepresidenta se refirió a la situación de quienes no tienen empleo y no logran cubrir sus necesidades básicas con el salario que perciben.",
+          "cat": "Política Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg",
+          "ts": "18 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Grieta en el PRO por las negociaciones con LLA: el jefe del bloque en el Senado rechazó una alianza y defendió las PASO",
+          "resumen": "El senador misionero Martín Goerling se desmarcó de los intentos de acercamiento del macrismo con los libertarios y pidió presentar un candidato propio en 2027.",
+          "cat": "Política Nacional · Congreso",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg/960px-144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg",
+          "ts": "18 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Desde plantar candidatos a ir a la Corte contra una re-reelección: el peronismo sube la presión a los gobernadores por las PASO",
+          "resumen": "Fue uno de los puntos acordados en una cumbre reciente en Retiro, donde se apura una definición a los mandatarios aliados al oficialismo.",
+          "cat": "Política Nacional · PJ",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Camara_de_diputados_de_La_Pampa_05.jpg/960px-Camara_de_diputados_de_La_Pampa_05.jpg",
+          "ts": "18 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Cuándo cobro ANSES: jubilados, AUH, desempleo y el resto de las prestaciones del martes 18 de agosto",
+          "resumen": "La ANSES confirmó su calendario de pagos para agosto 2026; las prestaciones aumentarán 1,89% según la fórmula de movilidad, en línea con la inflación medida por el INDEC.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png",
+          "ts": "18 ago 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Ataliva Roca rindió homenaje a San Martín en el emotivo acto central por el 17 de Agosto",
+          "resumen": "El intendente Gustavo Barreiro y la ministra de Educación, Marcela Feuerschvenger, encabezaron la conmemoración del 176° aniversario del Pase a la Inmortalidad del General San Martín.",
+          "cat": "La Pampa · Sociedad",
+          "ts": "18 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Humada: el Centro de Salud incorporó un moderno equipo móvil de rayos X digitalizado",
+          "resumen": "El nuevo equipo, de tecnología de baja dosis e integrado a la plataforma de Telemedicina, evita traslados innecesarios en una localidad a más de 400 km de Santa Rosa.",
+          "cat": "La Pampa · Salud",
+          "ts": "18 ago 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "acueducto_rio_colorado_obra",
+          "cat": "La Pampa · Infraestructura",
+          "titulo": "Finalizó obra millonaria que fortalecerá el sistema del Acueducto del Río Colorado",
+          "bajada": "El sistema incorpora tres bombas centrífugas de 560 kW cada una, con capacidad de impulsar 1.200 metros cúbicos de agua por hora cada una.",
+          "cuerpo": "<p>Finalizó la obra que fortalece el sistema del <strong>Acueducto del Río Colorado</strong>, ubicada a 29 kilómetros de Pichi Mahuida, en cercanías de la planta potabilizadora. La intervención demandó una inversión de <strong>$48.449 millones</strong>, a valores actuales.</p><p>La nueva estación de bombeo incorpora tres bombas centrífugas de 560 kW cada una, con capacidad de impulsar 1.200 metros cúbicos de agua por hora cada una. Se sumó además una <strong>cisterna de reserva de 2.500 metros cúbicos</strong> y una línea eléctrica de media tensión de 29 kilómetros, junto con las estaciones transformadoras correspondientes.</p><p>El objetivo de la obra es fortalecer la capacidad operativa del sistema, mejorar las condiciones de funcionamiento, reducir la presión sobre la cañería y prolongar su vida útil.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/2486114_img-20260816-wa0017.jpg"
+        },
+        {
+          "id": "ataliva_roca_17_agosto",
+          "cat": "La Pampa · Sociedad",
+          "titulo": "Ataliva Roca rindió homenaje a San Martín en el emotivo acto central por el 17 de Agosto",
+          "bajada": "\"La independencia no es una consigna vacía\", señaló la ministra Feuerschvenger al recordar la faceta de San Martín como gobernante.",
+          "cuerpo": "<p>Ataliva Roca fue sede del acto central por el 176° aniversario del Pase a la Inmortalidad del General <strong>José de San Martín</strong>. El intendente local, <strong>Gustavo Barreiro</strong>, destacó que San Martín fue \"un hombre fundamental de nuestra historia\", cuya lucha \"no estuvo guiada por un beneficio personal\" sino que puso su capacidad, esfuerzo y hasta su propia vida al servicio de una causa colectiva.</p><p>En representación del gobernador Sergio Ziliotto, la ministra de Educación, <strong>Marcela Feuerschvenger</strong>, remarcó que San Martín no solo fue estratega militar sino también gobernante, y que \"comprendió que la independencia no es una consigna vacía\": como gobernante \"impulsó la educación, como herramienta para la emancipación, promovió la salud\" y fortaleció la producción. El acto fue organizado en conjunto por el Gobierno de La Pampa, la Municipalidad de Ataliva Roca y el Ejército Argentino.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a836ddfb2d06.jpg"
+        },
+        {
+          "id": "la_humada_rayos_x",
+          "cat": "La Pampa · Salud",
+          "titulo": "La Humada: el Centro de Salud incorporó un moderno equipo móvil de rayos X digitalizado",
+          "bajada": "El Centro de Salud de La Humada garantiza atención los 365 días del año con dos médicos y ocho profesionales de enfermería.",
+          "cuerpo": "<p>El Centro de Salud de La Humada incorporó un equipo móvil de rayos X digital, marca Fuyi, ultraliviano y de <strong>tecnología de baja dosis</strong>, con detectores avanzados e integración con la plataforma provincial de Telemedicina.</p><p>El nuevo equipo reemplaza al anterior y mejora la capacidad diagnóstica local, evitando traslados innecesarios en una localidad ubicada a más de <strong>400 kilómetros de Santa Rosa</strong>, 130 km de Santa Isabel y con 90 km de caminos de tierra de acceso. El Centro garantiza atención médica los 365 días del año con dos médicos y ocho profesionales de enfermería, y a partir de septiembre sumará dos días semanales a la kinesióloga Agustina Maure.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Universidad_Nacional_de_La_Pampa_2.jpg/960px-Universidad_Nacional_de_La_Pampa_2.jpg"
+        },
+        {
+          "id": "rio_v_escurrimiento_bonaerense",
+          "cat": "La Pampa · Ambiente",
+          "titulo": "Río V: La Pampa propondrá a Buenos Aires un plan conjunto para mejorar el escurrimiento",
+          "bajada": "La iniciativa se enmarca en el Programa Provincial de Prevención y Gestión Integral de Riesgos ante Eventos Hidrometeorológicos, ante los pronósticos vinculados a El Niño.",
+          "cuerpo": "<p>El gobernador Sergio Ziliotto encabezó una recorrida por la zona del río V en Bernardo Larroudé y definió una propuesta para mejorar la eficiencia del escurrimiento que será trasladada a la provincia de Buenos Aires.</p><p>La iniciativa busca avanzar de manera coordinada en nuevas intervenciones para aumentar la capacidad de desagüe ante crecidas, evaluando la incorporación de nuevas alcantarillas. Se enmarca en el <strong>Programa Provincial de Prevención y Gestión Integral de Riesgos ante Eventos Hidrometeorológicos</strong>, presentado a intendentes y presidentes de comisiones de fomento ante los pronósticos vinculados al fenómeno de El Niño.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/160880_img-20260816-wa0008.jpg"
+        },
+        {
+          "id": "la_pampa_cimop_obra_publica",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "La Pampa en el CIMOP: una mirada federal sobre la realidad de la obra pública nacional",
+          "bajada": "\"El CIMOP nos permite sentarnos en una misma mesa con representantes de las distintas provincias\", señaló Intronati.",
+          "cuerpo": "<p>El ministro de Obras y Servicios Públicos de La Pampa, <strong>Alfredo Intronati</strong>, participó de una nueva reunión del Consejo Interprovincial de Ministros de Obras Públicas (CIMOP), organismo federal constituido desde 1965 que reúne a las máximas autoridades del sector de las distintas jurisdicciones del país. Intronati integra actualmente el Comité Ejecutivo como vocal.</p><p>En el encuentro se abordó el estado de los proyectos de infraestructura vial, hídrica, sanitaria, educativa, habitacional y de servicios en cada provincia, las dificultades enfrentadas y las alternativas de financiamiento. \"El CIMOP nos permite sentarnos en una misma mesa con representantes de las distintas provincias\", señaló el ministro.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1229556_img-20260815-wa0117.jpg"
+        },
+        {
+          "id": "jornada_carbono_agro_pampeano",
+          "cat": "La Pampa · Producción",
+          "titulo": "Cuando el campo le habla al campo: en Santa Rosa, productores comparten su experiencia con el carbono",
+          "bajada": "El panel central reunirá a productores pampeanos que compartirán en primera persona su experiencia con el manejo regenerativo.",
+          "cuerpo": "<p>El Ministerio de la Producción de La Pampa, junto a instituciones públicas, ambientales, gremiales y empresariales, organiza la <strong>1ra. Jornada de Carbono, Sustentabilidad, Agregado de Valor y Nuevas Oportunidades para el Agro Pampeano</strong>, el viernes 21 de agosto de 8:15 a 13:30 en La Campiña, sobre la Ruta Nacional N° 5, km 604, en Santa Rosa.</p><p>El panel central, \"El carbono en la práctica. Experiencias y aprendizajes en primera persona\", reunirá a productores pampeanos que compartirán qué los llevó a animarse al <strong>manejo regenerativo</strong>, qué dificultades encontraron en el camino y qué resultados obtuvieron. La actividad es de acceso libre y gratuito, con inscripción previa.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/212609_img-20260816-wa0014.jpg"
+        },
+        {
+          "id": "ascensos_policiales_cursos",
+          "cat": "La Pampa · Seguridad",
+          "titulo": "Ascensos policiales: se desarrollan los cursos previstos con nuevos contenidos y modalidad semipresencial",
+          "bajada": "El programa incrementó la presencialidad e incorporó seminarios de integración profesional dictados por personal policial y docentes universitarios.",
+          "cuerpo": "<p>La Subsecretaría de Formación del Ministerio de Seguridad y Justicia, junto al Instituto Superior Policial y la Jefatura de Policía, iniciaron los cursos de ascensos previstos para el segundo semestre, con <strong>186 efectivos</strong> de toda la provincia.</p><p>El programa contempla cinco cursos —tres para el escalafón de oficiales y dos para personal subalterno—, entre ellos oficiales principales (31 cursantes), comisarios (13 efectivos) y el segundo tramo del curso para ascenso a sargento. La modalidad combina instancias presenciales con trabajo en plataforma virtual, con una duración de entre 15 y 20 semanas según el curso, e incluye alojamiento y racionamiento para los efectivos del interior provincial.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/142186_img-20260817-wa0044.jpg"
+        },
+        {
+          "id": "villarruel_critica_economia",
+          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "Victoria Villarruel criticó al Gobierno por la economía: \"Estoy preocupada por los argentinos que no llegan a fin de mes\"",
+          "bajada": "La vicepresidenta volvió a marcar diferencias con la conducción económica del Gobierno nacional.",
+          "cuerpo": "<p>La vicepresidenta <strong>Victoria Villarruel</strong> criticó al Gobierno por la situación económica y aseguró: \"Estoy preocupada por los argentinos que no llegan a fin de mes\".</p><p>Villarruel se refirió a la acuciante situación que atraviesan quienes no tienen empleo y quienes no logran cubrir sus necesidades básicas con el salario que perciben.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg"
+        },
+        {
+          "id": "grieta_pro_lla_paso",
+          "cat": "Política Nacional · Congreso",
+          "titulo": "Grieta en el PRO por las negociaciones con LLA: el jefe del bloque en el Senado rechazó una alianza y defendió las PASO",
+          "bajada": "Goerling rechazó la propuesta del oficialismo de eliminar las primarias y pidió presentar un candidato propio del PRO en 2027.",
+          "cuerpo": "<p>Una grieta se abrió en el PRO por las negociaciones con La Libertad Avanza. El senador misionero <strong>Martín Goerling</strong>, jefe del bloque del PRO en el Senado, se desmarcó de los intentos de acercamiento del macrismo con los libertarios.</p><p>Goerling pidió presentar un candidato propio del PRO en 2027 y rechazó la propuesta del oficialismo de eliminar las <strong>PASO</strong>.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg/960px-144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg"
+        },
+        {
+          "id": "peronismo_presiona_gobernadores_paso",
+          "cat": "Política Nacional · PJ",
+          "titulo": "Desde plantar candidatos a ir a la Corte contra una re-reelección: el peronismo sube la presión a los gobernadores por las PASO",
+          "bajada": "\"¿Van a jugar con nosotros o no?\", apuran desde el peronismo la definición a los gobernadores aliados al oficialismo.",
+          "cuerpo": "<p>El peronismo subió la presión sobre los gobernadores por la definición de las <strong>PASO</strong>, con la amenaza de plantar candidatos propios e incluso recurrir a la Corte Suprema contra intentos de re-reelección.</p><p>La estrategia fue uno de los puntos acordados en una cumbre reciente en Retiro. \"¿Van a jugar con nosotros o no?\", apuran desde el espacio la definición a los mandatarios aliados al oficialismo.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Camara_de_diputados_de_La_Pampa_05.jpg/960px-Camara_de_diputados_de_La_Pampa_05.jpg"
+        },
+        {
+          "id": "anses_calendario_agosto",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Cuándo cobro ANSES: jubilados, AUH, desempleo y el resto de las prestaciones del martes 18 de agosto",
+          "bajada": "El incremento corresponde al dato de inflación relevado por el INDEC bajo la fórmula de movilidad vigente.",
+          "cuerpo": "<p>La ANSES confirmó su calendario de pagos para agosto de 2026. De acuerdo con la fórmula de movilidad vigente, las prestaciones aumentarán un <strong>1,89%</strong>, en línea con el dato de inflación relevado por el INDEC.</p><p>El cronograma incluye los pagos correspondientes a jubilaciones, la Asignación Universal por Hijo (AUH), el seguro de desempleo y el resto de las prestaciones sociales administradas por el organismo.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png"
+        }
+      ]
+    },
+    {
       "clave": "2026-08-13_manana",
       "fecha_iso": "2026-08-13",
       "fecha": "13 agosto 2026",
