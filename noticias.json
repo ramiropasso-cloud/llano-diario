@@ -2,6 +2,197 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-08-19_manana",
+      "fecha_iso": "2026-08-19",
+      "fecha": "19 agosto 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "Durante la puesta en marcha de las nuevas obras del Acueducto mermará la provisión de agua",
+        "summary": "Los trabajos de conexión a la nueva estación de bombeo y las cisternas del Acueducto del Río Colorado comenzarán el viernes 21 de agosto y se prolongarán tres días, con corte del suministro.",
+        "cat": "La Pampa · Servicios",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/178734_img-20260818-wa0009.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Se realizaron los Juegos Intercolegiales organizados por la UES",
+          "resumen": "Colegios de Santa Rosa compitieron en fútbol y vóley en el Polideportivo Butaló, con actividades culturales y stands de acompañamiento provincial.",
+          "cat": "La Pampa · Deportes",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/251477_img-20260818-wa0065.jpg",
+          "ts": "19 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Cierra la inscripción para la Ronda de Negocios La Pampa – Buenos Aires 2026",
+          "resumen": "El plazo vence hoy 19 de agosto para participar del encuentro que se realizará el 27 de agosto en Carlos Casares, destinado a pymes, cooperativas y emprendedores.",
+          "cat": "La Pampa · Economía",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a84c7cf28be7.jpg",
+          "ts": "19 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Educación: anticiparon los Profesorados y las Tecnicaturas que llegarán en 2027",
+          "resumen": "Las inscripciones para las nuevas ofertas de nivel superior, entre ellas Desarrollo de Software con IA y Gestión de Energías Renovables, se abrirán el 3 de noviembre a través del sistema Voz por Vos.",
+          "cat": "La Pampa · Educación",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1227804_placa-apn-min-educaci--n.jpg",
+          "ts": "19 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "SEMPRE actualizó los valores de medicamentos",
+          "resumen": "Desde el 15 de agosto rigen los nuevos valores del Formulario Terapéutico, con el objetivo de reducir el impacto de los aumentos de precios en el presupuesto familiar de los afiliados.",
+          "cat": "La Pampa · Salud",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8445106c569.jpg",
+          "ts": "19 ago 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Qué se sabe del ataque de Fernando Cerimedo a Nadia Beller en Bolivia: hipótesis, investigación, detenidos y novedades del caso",
+          "resumen": "La mujer recibió tres disparos en plena vía pública. El caso derivó en la detención de Fernando Cerimedo, exasesor del presidente Javier Milei.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "",
+          "ts": "19 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Diputados piden investigar a billeteras digitales por presuntas conductas anticompetitivas",
+          "resumen": "Legisladores del Peronismo Federal denunciaron posibles prácticas contra la competencia y reclamaron auditar tasas, créditos, algoritmos y uso de datos de 91 billeteras digitales.",
+          "cat": "Política Nacional · Congreso",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg/960px-144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg",
+          "ts": "19 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Karina Milei se reunió con la Iglesia y avanzó en la organización de la visita del papa León XIV",
+          "resumen": "La secretaria general de la Presidencia encabezó en Casa Rosada la primera reunión de coordinación; el 30 de agosto llegará una nueva avanzada de la Santa Sede.",
+          "cat": "Política Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg",
+          "ts": "19 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "La canasta de crianza subió por encima de la inflación en julio: cuánto cuesta mantener a un hijo",
+          "resumen": "El costo mensual de criar a un niño se ubicó entre $545.683 y $697.268 según la edad, con aumentos superiores al IPC del 2,1% de julio.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png",
+          "ts": "19 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Argentina enviará ayuda humanitaria a Colombia tras el terremoto",
+          "resumen": "El equipamiento estará integrado por 32 efectivos y medios del Ejército Argentino, con capacidades para potabilización de agua y apoyo logístico para hospitales.",
+          "cat": "Política Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg",
+          "ts": "19 ago 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "La Escuela N° 113 de Guatraché celebró su Centenario",
+          "resumen": "El acto conmemorativo, realizado el domingo, reunió a autoridades, docentes, exalumnos y familias en la localidad de Guatraché.",
+          "cat": "La Pampa · Educación",
+          "ts": "19 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "De la asistencia técnica a la exportación: Maxepa abre un nuevo mercado en Paraguay",
+          "resumen": "La firma pampeana, radicada en General Pico, completó su primera exportación de 30 tanques de rotomoldeo, fabricados en 14 días, a través del programa Argentina Exporta.",
+          "cat": "La Pampa · Producción",
+          "ts": "19 ago 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "acueducto_corte_obras",
+          "cat": "La Pampa · Servicios",
+          "titulo": "Durante la puesta en marcha de las nuevas obras del Acueducto mermará la provisión de agua",
+          "bajada": "Se solicita un uso racional del agua para evitar agotar las reservas mientras duren las tareas.",
+          "cuerpo": "<p>Los trabajos para la puesta en marcha de las nuevas obras sobre el <strong>Acueducto del Río Colorado</strong> se iniciarán el viernes 21 de agosto y se prolongarán durante tres días.</p><p>La conexión a la nueva estación de bombeo y a las cisternas incorporadas al sistema requerirá el corte del acueducto, por lo que se solicita expresamente un <strong>uso racional y responsable del agua</strong> disponible, priorizando el consumo esencial y evitando durante esos días actividades que impliquen una utilización elevada del recurso.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/178734_img-20260818-wa0009.jpg"
+        },
+        {
+          "id": "escuela_113_guatrache_centenario",
+          "cat": "La Pampa · Educación",
+          "titulo": "La Escuela N° 113 de Guatraché celebró su Centenario",
+          "bajada": "\"Cuando una escuela cumple 100 años no es un día más para la Provincia\", señaló la ministra de Educación, Marcela Feuerschvenger.",
+          "cuerpo": "<p>La Escuela N° 113 de la localidad de Guatraché celebró su <strong>Centenario</strong> con un acto conmemorativo realizado el domingo, que reunió a autoridades, docentes, ex docentes, exalumnas y exalumnos, familias y representantes de distintas instituciones de la comunidad.</p><p>Participaron la ministra de Educación, <strong>Marcela Feuerschvenger</strong>; la directora de Nivel Primario, María Magdalena Godoy; la diputada provincial Celeste Rivas; el intendente Sergio Arrese; y la directora del establecimiento, Valeria Roth. \"Cuando una escuela cumple 100 años no es un día más para la Provincia. Es parte de nuestra historia educativa\", señaló Feuerschvenger. Roth remarcó que \"recibir una escuela con 100 años implica recibir una historia, una identidad y una comunidad\" que hizo crecer la institución.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a84c665bdf53.jpg"
+        },
+        {
+          "id": "maxepa_exportacion_paraguay",
+          "cat": "La Pampa · Producción",
+          "titulo": "De la asistencia técnica a la exportación: Maxepa abre un nuevo mercado en Paraguay",
+          "bajada": "La empresa, que ya exporta a Chile desde hace seis años, identificó a Uruguay y Brasil como próximos mercados potenciales.",
+          "cuerpo": "<p>La empresa pampeana <strong>Maxepa SRL</strong>, con más de 20 años de trayectoria y radicada en General Pico, abrió un nuevo mercado en Paraguay a partir del trabajo realizado en el programa Argentina Exporta, en el marco del Desafío Exportador Pampeano que lleva adelante la Agencia I-COMEX La Pampa.</p><p>La firma, que fabrica tanques para almacenamiento y transporte de líquidos mediante tecnología de rotomoldeo, completó su primera exportación al país vecino: <strong>30 tanques fabricados en 14 días</strong>. El proceso comenzó con un diagnóstico empresarial y un estudio de mercados, y un importador paraguayo se contactó tras mejoras en el sitio web y acciones de promoción digital. Maxepa ya exporta a Chile desde hace unos seis años, y identificó a Uruguay y Brasil como próximos mercados potenciales.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg"
+        },
+        {
+          "id": "juegos_intercolegiales_ues",
+          "cat": "La Pampa · Deportes",
+          "titulo": "Se realizaron los Juegos Intercolegiales organizados por la UES",
+          "bajada": "El Colegio Nervi, la Escuela Normal y el Colegio de la UNLPam se repartieron los primeros puestos en las distintas categorías.",
+          "cuerpo": "<p>La Unión de Estudiantes Secundarios (UES) realizó los Juegos Intercolegiales el domingo 16 y el lunes 17 de agosto en el <strong>Polideportivo Butaló</strong> de Santa Rosa, con la participación de los colegios Juan Ricardo Nervi, Clemente José Andrada (Escuela Normal) y el Colegio de la Universidad Nacional de La Pampa.</p><p>En fútbol y vóley por ciclo básico y orientado, el Colegio Nervi se impuso en el turno mañana de fútbol del ciclo básico, la UNLPam se quedó con el vóley en ambos ciclos y la Escuela Normal ganó el fútbol del turno mañana en el ciclo orientado. El encuentro incluyó cantina, espacio cultural, ajedrez, truco, speedcubing y presentaciones artísticas, además de un stand de \"primera escucha\" de la Subsecretaría de Juventud y Salud Mental.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/251477_img-20260818-wa0065.jpg"
+        },
+        {
+          "id": "cierra_inscripcion_ronda_negocios",
+          "cat": "La Pampa · Economía",
+          "titulo": "Cierra la inscripción para la Ronda de Negocios La Pampa – Buenos Aires 2026",
+          "bajada": "La inscripción se completa en tres pasos a través de la plataforma del Ministerio de Producción bonaerense.",
+          "cuerpo": "<p>El Ministerio de la Producción de La Pampa recordó que este miércoles vence el plazo de inscripción para participar de la <strong>Ronda Interprovincial de Negocios La Pampa – Buenos Aires 2026</strong>, que se desarrollará el 27 de agosto en la ciudad de Carlos Casares.</p><p>Dirigida a pymes, cooperativas, emprendedores, profesionales y empresas de la provincia, la inscripción se completa registrándose y validando el correo electrónico, completando un formulario con los datos de la empresa y reingresando a la plataforma para finalizar el trámite.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a84c7cf28be7.jpg"
+        },
+        {
+          "id": "profesorados_tecnicaturas_2027",
+          "cat": "La Pampa · Educación",
+          "titulo": "Educación: anticiparon los Profesorados y las Tecnicaturas que llegarán en 2027",
+          "bajada": "La oferta incluye profesorados de Danza, Artes Visuales y Música, y tecnicaturas en Gestión Digital de Empresas y Acompañante Terapéutico, distribuidas en distintas localidades.",
+          "cuerpo": "<p>La Subsecretaría de Educación Técnico Profesional y la Dirección General de Educación Superior anticiparon las nuevas ofertas educativas de nivel superior que se implementarán en <strong>2027</strong>. Las inscripciones se realizarán a través del sistema Voz por Vos a partir del 3 de noviembre de 2026.</p><p>Entre los profesorados se incluyen Educación Primaria (Santa Rosa, Colonia Barón, General Acha), Danza y Música (Santa Rosa y General Pico), Artes Visuales y Educación Inicial. Entre las tecnicaturas superiores figuran Gestión Digital de Empresas, Turismo Recreativo y Cultural, Acompañante Terapéutico, <strong>Desarrollo de Software con IA</strong> y Gestión de Energías Renovables, distribuidas entre Santa Rosa, General Pico, Eduardo Castex, General Acha, Macachín y Toay.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1227804_placa-apn-min-educaci--n.jpg"
+        },
+        {
+          "id": "sempre_actualizo_medicamentos",
+          "cat": "La Pampa · Salud",
+          "titulo": "SEMPRE actualizó los valores de medicamentos",
+          "bajada": "Los afiliados pueden elegir cualquier marca comercial y consultar coberturas en la web del organismo.",
+          "cuerpo": "<p>El Servicio Médico Previsional (SEMPRE) informó que, a partir del <strong>15 de agosto</strong>, comenzaron a regir los nuevos valores de medicamentos correspondientes al nuevo Formulario Terapéutico, con el objetivo de reducir el impacto de los aumentos de precios farmacéuticos en el presupuesto familiar de los afiliados.</p><p>El sistema continúa autorizando medicamentos por principio activo con un monto fijo de cobertura. Los afiliados pueden elegir libremente cualquier marca comercial según sus necesidades y capacidad económica —con copagos que varían según la opción elegida, pudiendo alcanzar hasta el 100% de cobertura en algunos casos— y consultar las alternativas disponibles en <strong>www.isslapampa.gov.ar</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8445106c569.jpg"
+        },
+        {
+          "id": "ataque_cerimedo_nadia_beller",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "Qué se sabe del ataque de Fernando Cerimedo a Nadia Beller en Bolivia: hipótesis, investigación, detenidos y novedades del caso",
+          "bajada": "La investigación avanza en Bolivia tras el ataque a balazos contra Nadia Beller.",
+          "cuerpo": "<p>Continúa la investigación por el ataque a balazos sufrido por <strong>Nadia Beller</strong> en Bolivia, quien recibió tres disparos en plena vía pública.</p><p>El caso derivó en la detención de <strong>Fernando Cerimedo</strong>, exasesor del presidente Javier Milei, en el marco de una causa que sigue sumando novedades.</p>",
+          "foto": ""
+        },
+        {
+          "id": "diputados_billeteras_digitales",
+          "cat": "Política Nacional · Congreso",
+          "titulo": "Diputados piden investigar a billeteras digitales por presuntas conductas anticompetitivas",
+          "bajada": "La presentación busca que se analice la conducta de 91 billeteras digitales y 687 proveedores no bancarios.",
+          "cuerpo": "<p>Legisladores del <strong>Peronismo Federal</strong> pidieron investigar a las billeteras digitales por presuntas conductas anticompetitivas, y reclamaron auditar tasas, créditos, algoritmos y uso de datos.</p><p>La presentación busca que se analice la conducta de <strong>91 billeteras digitales</strong> y 687 proveedores no bancarios que operan en el sistema financiero argentino.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg/960px-144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg"
+        },
+        {
+          "id": "karina_milei_iglesia_visita_papa",
+          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "Karina Milei se reunió con la Iglesia y avanzó en la organización de la visita del papa León XIV",
+          "bajada": "El 30 de agosto llegará una nueva avanzada de la Santa Sede para evaluar los posibles escenarios de las actividades.",
+          "cuerpo": "<p>La secretaria general de la Presidencia, <strong>Karina Milei</strong>, encabezó en Casa Rosada la primera reunión de coordinación con autoridades de la Iglesia para avanzar en la organización de la visita del papa <strong>León XIV</strong> a la Argentina.</p><p>El 30 de agosto llegará una nueva avanzada de la Santa Sede para evaluar los posibles escenarios de las actividades previstas durante la visita papal.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg"
+        },
+        {
+          "id": "canasta_crianza_julio",
+          "cat": "Política Nacional · Economía",
+          "titulo": "La canasta de crianza subió por encima de la inflación en julio: cuánto cuesta mantener a un hijo",
+          "bajada": "Todas las franjas etarias registraron incrementos superiores al índice de inflación del séptimo mes del año.",
+          "cuerpo": "<p>El costo mensual de criar a un hijo en la Argentina se ubicó entre <strong>$545.683 y $697.268</strong>, según la edad, de acuerdo con la Canasta de Crianza de julio.</p><p>Todas las franjas etarias registraron aumentos superiores al <strong>IPC del 2,1%</strong> informado por el INDEC para el séptimo mes del año.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png/960px-Sello_Ministerio_de_Econom%C3%ADa_-_Argentina.png"
+        },
+        {
+          "id": "argentina_ayuda_humanitaria_colombia",
+          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "La Argentina enviará ayuda humanitaria a Colombia tras el terremoto",
+          "bajada": "La misión contará con capacidades para la captación, potabilización y distribución de agua, y apoyo logístico para hospitales.",
+          "cuerpo": "<p>El Gobierno argentino confirmó el envío de <strong>ayuda humanitaria</strong> a Colombia tras el terremoto que afectó al país. El equipamiento estará integrado por 32 efectivos y medios del Ejército Argentino.</p><p>La misión contará con capacidades para la captación, potabilización y distribución de agua, y apoyo logístico para hospitales, entre otras prestaciones.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg/960px-Casa_Rosada_frente_a_Plaza_de_Mayo%2C_en_el_centro_de_Buenos_Aires%2C_Argentina.jpg"
+        }
+      ]
+    },
+    {
       "clave": "2026-08-18_manana",
       "fecha_iso": "2026-08-18",
       "fecha": "18 agosto 2026",
