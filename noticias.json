@@ -2,6 +2,197 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-08-20_manana",
+      "fecha_iso": "2026-08-20",
+      "fecha": "20 agosto 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "Acueducto: habrá 43,5 millones de litros de reserva mientras se conectan las nuevas obras el fin de semana",
+        "summary": "Aguas del Colorado dispone de 43,5 millones de litros distribuidos estratégicamente en el sistema para afrontar el corte de este fin de semana, cuando se conecte la nueva estación de bombeo del Acueducto del Río Colorado.",
+        "cat": "La Pampa · Servicios",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/247418_img-20260819-wa0012.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "El CERET realizó su primera Jornada Hortícola Invernal",
+          "resumen": "El Centro Regional de Educación Tecnológica de General Pico exhibió cultivos de hoja bajo invernadero, en una iniciativa articulada entre los ministerios de Producción y Educación junto al INTA.",
+          "cat": "La Pampa · Producción",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/4816896_img_9868.jpg.jpeg",
+          "ts": "20 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "4 Ríos Larroudé recibe la posta bajo la premisa \"La gestión de los excesos\"",
+          "resumen": "Tras su inicio en Algarrobo del Águila, el circuito que une actividad física con la defensa de la soberanía hídrica llegará a Bernardo Larroudé el domingo 6 de septiembre.",
+          "cat": "La Pampa · Deportes",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/145609_whatsapp-image-2026-08-19-at-09.52.13.jpeg",
+          "ts": "20 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Fue designado el representante docente en el Directorio del ISS",
+          "resumen": "El gobernador Ziliotto designó a Fabio Rodolfo Zeballos como vocal titular, tras las elecciones de UTELPa en las que votaron 2.691 docentes.",
+          "cat": "La Pampa · Gobierno",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a85ca0567fcf.jpg",
+          "ts": "20 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Fiesta deportiva y disfrute intenso de personas mayores en Puelches",
+          "resumen": "Siete localidades participaron de la instancia zonal de los Juegos Deportivos para Personas Mayores, con competencias, música, comida y baile.",
+          "cat": "La Pampa · Deportes",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/3111936_puelches-02.-.jpg",
+          "ts": "20 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Coros, propuestas para la niñez, arte patagónico y fotoperiodismo en la Agenda Cultural",
+          "resumen": "La XXIV Coral de La Pampa recorrerá Arata, General Acha, Falucho y Trenel, mientras Santa Rosa suma un encuentro sensorial para la primera infancia y muestras fotográficas y patagónicas.",
+          "cat": "La Pampa · Cultura",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a85c3e96866a.jpg",
+          "ts": "20 ago 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Se conoció el parte médico de Nadia Beller: heridas múltiples y embarazo de cinco semanas",
+          "resumen": "La Clínica de las Américas informó que permanece estable tras ser operada de urgencia; Fernando Cerimedo se encuentra detenido e imputado por tentativa de femicidio.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "",
+          "ts": "20 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Gobierno le transferirá inmuebles del exProcrear a Neuquén como pago de deudas",
+          "resumen": "Lo acordó el ministro Luis Caputo con el gobernador Rolando Figueroa, en el marco del Régimen de Extinción de Obligaciones Recíprocas impulsado por Nación.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Luis_Caputo_-_Retrato_Oficial_2024.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "ts": "20 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Morosidad récord en las familias: qué hacer cuando se acumulan las deudas y cuándo conviene refinanciar un crédito",
+          "resumen": "La expansión de las billeteras digitales facilitó el acceso a préstamos, pero también aumentó el riesgo de tomar financiamiento sin dimensionar su costo, advierten especialistas.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg",
+          "ts": "20 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "La ANMAT prohibió un equipo de depilación láser por irregularidades en su ingreso al país",
+          "resumen": "Se trata de un Alma Lasers Soprano Ice, denunciado por su presunto ingreso ilegal y que no pudo ser localizado durante una inspección en Rosario.",
+          "cat": "Política Nacional · Salud",
+          "foto": "",
+          "ts": "20 ago 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Paritaria estatal: el Gobierno ofreció un 3% para agosto y cláusula gatillo hasta septiembre",
+          "resumen": "La negociación pasó a un cuarto intermedio hasta el viernes 21, para que los gremios analicen la propuesta que aplica cláusula gatillo durante julio, agosto y septiembre.",
+          "cat": "La Pampa · Gobierno",
+          "ts": "20 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Fiesta Provincial del Agricultor: nueva edición del evento que moviliza a Arata y zona",
+          "resumen": "La 28ª edición se realizará los sábados 5 y 12 de septiembre, con festival cultural, elección de representante y el tradicional desfile de carrozas.",
+          "cat": "La Pampa · Cultura",
+          "ts": "20 ago 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "acueducto_reservas_fin_semana",
+          "cat": "La Pampa · Servicios",
+          "titulo": "Acueducto: habrá 43,5 millones de litros de reserva mientras se conectan las nuevas obras el fin de semana",
+          "bajada": "Santa Rosa concentra 31 millones de litros entre las reservas provinciales y municipales; el resto se reparte entre Colonia Santa María y Cuchillo Có.",
+          "cuerpo": "<p>La puesta en funcionamiento de la nueva infraestructura construida sobre el <strong>Acueducto del Río Colorado</strong> hará que merme la provisión de agua durante el próximo fin de semana. Para afrontar ese período, Aguas del Colorado dispone de <strong>43,5 millones de litros</strong> de reserva distribuidos estratégicamente a lo largo del sistema.</p><p>En Santa Rosa hay 15 millones de litros en tres cisternas de Aguas del Colorado, a los que se suman más de 16 millones de litros del sistema de reservas municipal, un total de 31 millones de litros en la capital pampeana. Los 12,5 millones de litros restantes se distribuyen entre Colonia Santa María (5 millones) y Cuchillo Có (7,5 millones).</p><p>Los trabajos, que comenzarán el viernes 21 de agosto, permitirán conectar la nueva estación de bombeo ubicada en el kilómetro 29, una cisterna de reserva de 2.500 metros cúbicos y una línea eléctrica de 29 kilómetros. Se recomienda un <strong>uso racional del agua</strong>, priorizando las necesidades esenciales.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/247418_img-20260819-wa0012.jpg"
+        },
+        {
+          "id": "paritaria_estatal_3_agosto",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "Paritaria estatal: el Gobierno ofreció un 3% para agosto y cláusula gatillo hasta septiembre",
+          "bajada": "La oferta mantiene el compromiso de sostener los salarios por encima de la línea de pobreza a partir de las asignaciones familiares.",
+          "cuerpo": "<p>El Gobierno de La Pampa propuso aplicar la <strong>cláusula gatillo</strong> durante julio, agosto y septiembre, de acuerdo con el Índice de Precios al Consumidor de julio para la Región Pampeana que informa el INDEC, y adelantar un punto porcentual adicional al 2% correspondiente a agosto, llevando el incremento de ese mes al <strong>3%</strong>.</p><p>La negociación pasó a un cuarto intermedio hasta el viernes 21, para que las entidades sindicales analicen la propuesta con sus estructuras internas. La oferta mantiene el compromiso de sostener los salarios por encima de la línea de pobreza a partir de las asignaciones familiares.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/2286062__jng7608.jpg"
+        },
+        {
+          "id": "fiesta_agricultor_arata",
+          "cat": "La Pampa · Cultura",
+          "titulo": "Fiesta Provincial del Agricultor: nueva edición del evento que moviliza a Arata y zona",
+          "bajada": "La organización está a cargo de la Asociación Cooperadora del Colegio Secundario Agropecuario local.",
+          "cuerpo": "<p>La 28ª edición de la <strong>Fiesta Provincial del Agricultor</strong> se realizará en dos jornadas, los sábados 5 y 12 de septiembre, en Arata.</p><p>La primera jornada, el 5 de septiembre a las 20:30 en el Salón de Usos Múltiples Municipal, incluirá un festival cultural y popular con elección de la nueva representante, con la actuación del grupo La Buskada y otros artistas provinciales, y entrada gratuita para menores de 12 años. La segunda jornada, el 12 de septiembre, contará con el tradicional desfile de carrozas elaboradas por alumnos de la institución educativa. La fiesta, organizada por la Asociación Cooperadora del Colegio Secundario Agropecuario local, busca \"reunir a la comunidad y poner en valor la identidad productiva de Arata\".</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Entrada_al_Museo_Provincial_de_Historia_Natural_de_La_Pampa_1.jpg/960px-Entrada_al_Museo_Provincial_de_Historia_Natural_de_La_Pampa_1.jpg"
+        },
+        {
+          "id": "ceret_jornada_horticola_invernal",
+          "cat": "La Pampa · Producción",
+          "titulo": "El CERET realizó su primera Jornada Hortícola Invernal",
+          "bajada": "Productores, profesionales, técnicos y delegaciones escolares recorrieron los invernaderos del predio.",
+          "cuerpo": "<p>A través del trabajo articulado entre los ministerios de la Producción y de Educación, junto con el INTA, el <strong>CERET</strong> presentó en sus instalaciones de General Pico el desarrollo de cultivos de hoja bajo invernadero durante la temporada invernal.</p><p>La iniciativa se suma a las tradicionales jornadas estivales que la institución realiza desde hace años, con el objetivo de exhibir innovaciones y transferir conocimientos técnicos al sector hortícola regional. Productores, profesionales, técnicos y delegaciones escolares realizaron un recorrido guiado por los distintos invernaderos del predio, donde observaron el comportamiento agronómico y la sanidad vegetal de los cultivos bajo cubierta.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/4816896_img_9868.jpg.jpeg"
+        },
+        {
+          "id": "cuatro_rios_larroude_posta",
+          "cat": "La Pampa · Deportes",
+          "titulo": "4 Ríos Larroudé recibe la posta bajo la premisa \"La gestión de los excesos\"",
+          "bajada": "La etapa busca visibilizar la urgencia de manejar coordinadamente los excedentes hídricos interprovinciales.",
+          "cuerpo": "<p>Tras un exitoso inicio en Algarrobo del Águila, el circuito <strong>\"4 Ríos: Un Desafío Original\"</strong> desembarcará en el norte provincial el domingo 6 de septiembre, en Bernardo Larroudé, sobre el río Quinto.</p><p>Esta etapa, bajo la premisa \"La gestión de los excesos\", busca visibilizar la urgencia de manejar coordinadamente los excedentes hídricos interprovinciales para prevenir inundaciones y transformar el agua en una oportunidad de desarrollo turístico y económico. La participación es gratuita, con inscripción por WhatsApp.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/145609_whatsapp-image-2026-08-19-at-09.52.13.jpeg"
+        },
+        {
+          "id": "representante_docente_directorio_iss",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "Fue designado el representante docente en el Directorio del ISS",
+          "bajada": "La terna encabezada por Zeballos obtuvo 1.829 votos en las elecciones realizadas el 30 de julio.",
+          "cuerpo": "<p>El gobernador Sergio Ziliotto designó a <strong>Fabio Rodolfo Zeballos</strong> como vocal titular del Directorio del Instituto de Seguridad Social (ISS), en representación del personal docente en actividad, con vigencia desde el 6 de agosto.</p><p>La designación se concretó a partir de la terna ganadora en las elecciones realizadas por UTELPa el 30 de julio, en las que participaron <strong>2.691 docentes afiliados</strong> de un padrón de 4.717, y que obtuvo 1.829 votos. La terna la completan Miriam Marcela Calvente y María Soledad Olivero.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a85ca0567fcf.jpg"
+        },
+        {
+          "id": "juegos_deportivos_adultos_mayores_puelches",
+          "cat": "La Pampa · Deportes",
+          "titulo": "Fiesta deportiva y disfrute intenso de personas mayores en Puelches",
+          "bajada": "\"Fue un hermoso día para realizar todas las actividades y competencias zonales\", destacó el intendente Julio Gerez.",
+          "cuerpo": "<p>Puelches fue sede de la instancia zonal de los <strong>Juegos Deportivos para Personas Mayores</strong>, con la participación de siete localidades: la anfitriona, Cumelén de Santa Isabel, Algarrobo del Águila, 25 de Mayo, La Reforma, Chacharramendi y Gobernador Duval.</p><p>Además de las competencias deportivas, la jornada incluyó música, comida y baile. \"Fue un hermoso día para realizar todas las actividades y competencias zonales\", destacó el intendente <strong>Julio Gerez</strong>. Del encuentro se seleccionaron los representantes de la Zona X que participarán en la instancia superior de los Juegos Deportivos de Adultos Mayores.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/3111936_puelches-02.-.jpg"
+        },
+        {
+          "id": "agenda_cultural_semanal_coros",
+          "cat": "La Pampa · Cultura",
+          "titulo": "Coros, propuestas para la niñez, arte patagónico y fotoperiodismo en la Agenda Cultural",
+          "bajada": "Todas las actividades tienen acceso libre y gratuito.",
+          "cuerpo": "<p>La agenda cultural de la semana incluye a la <strong>XXIV Coral de La Pampa</strong>, que se presentará el viernes 21 en Arata, el sábado 22 en General Acha y Falucho, y el domingo 23 en Trenel.</p><p>En Santa Rosa, el Centro Cultural MEDASUR ofrece un encuentro sensorial para la primera infancia el viernes 21, mientras continúan en cartel la muestra fotográfica \"Hombres de Hierro\" sobre resistencia obrera en la Sala Marta Arangoa y \"Habitar Patagonia(S)\" en el MPArtes. En Toay, la Casa Museo Olga Orozco ofrece recorridos autoguiados diarios. Todas las actividades tienen <strong>acceso libre y gratuito</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a85c3e96866a.jpg"
+        },
+        {
+          "id": "parte_medico_nadia_beller",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "Se conoció el parte médico de Nadia Beller: heridas múltiples y embarazo de cinco semanas",
+          "bajada": "El exasesor de Milei enfrenta cargos por tentativa de femicidio en el marco de la causa.",
+          "cuerpo": "<p>Se conoció el parte médico de <strong>Nadia Beller</strong>, quien sufrió heridas múltiples en el ataque ocurrido en Bolivia y transita un embarazo de cinco semanas. La Clínica de las Américas informó que permanece estable, luego de ser operada de urgencia.</p><p>Mientras tanto, <strong>Fernando Cerimedo</strong>, exasesor del presidente Javier Milei, se encuentra detenido e imputado por <strong>tentativa de femicidio</strong> en el marco de la causa.</p>",
+          "foto": ""
+        },
+        {
+          "id": "gobierno_procrear_neuquen",
+          "cat": "Política Nacional · Economía",
+          "titulo": "El Gobierno le transferirá inmuebles del exProcrear a Neuquén como pago de deudas",
+          "bajada": "Nación confirmó además que la zona fría continuará vigente para la Patagonia.",
+          "cuerpo": "<p>El Gobierno nacional le transferirá inmuebles del ex Procrear a la provincia de Neuquén como pago de deudas. El acuerdo fue alcanzado entre el ministro de Economía, <strong>Luis Caputo</strong>, y el gobernador <strong>Rolando Figueroa</strong>.</p><p>La medida forma parte del <strong>Régimen de Extinción de Obligaciones Recíprocas</strong> impulsado por Nación. Además, el Gobierno confirmó que la zona fría continuará vigente para la Patagonia.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Luis_Caputo_-_Retrato_Oficial_2024.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        },
+        {
+          "id": "morosidad_record_familias",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Morosidad récord en las familias: qué hacer cuando se acumulan las deudas y cuándo conviene refinanciar un crédito",
+          "bajada": "Los expertos recomiendan identificar todas las obligaciones, priorizar las de mayor tasa y negociar con los acreedores.",
+          "cuerpo": "<p>La morosidad de las familias argentinas alcanzó niveles récord. La expansión de las billeteras digitales facilitó el acceso a préstamos, pero también aumentó el riesgo de tomar financiamiento sin dimensionar su costo, advierten especialistas consultados.</p><p>Los expertos recomiendan identificar todas las obligaciones pendientes, priorizar el pago de las deudas con mayor tasa de interés y negociar con los acreedores antes de que la situación se agrave.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg"
+        },
+        {
+          "id": "anmat_prohibio_depilacion_laser",
+          "cat": "Política Nacional · Salud",
+          "titulo": "La ANMAT prohibió un equipo de depilación láser por irregularidades en su ingreso al país",
+          "bajada": "El organismo actuó tras no poder localizar el dispositivo durante una inspección realizada en la ciudad de Rosario.",
+          "cuerpo": "<p>La ANMAT prohibió el uso de un equipo de depilación láser <strong>Alma Lasers Soprano Ice</strong> por irregularidades detectadas en su ingreso al país.</p><p>El dispositivo había sido denunciado por su presunto ingreso ilegal a la Argentina y no pudo ser localizado durante una inspección realizada en la ciudad de Rosario.</p>",
+          "foto": ""
+        }
+      ]
+    },
+    {
       "clave": "2026-08-19_manana",
       "fecha_iso": "2026-08-19",
       "fecha": "19 agosto 2026",
