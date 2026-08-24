@@ -2,6 +2,182 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-08-24_tarde",
+      "fecha_iso": "2026-08-24",
+      "fecha": "24 agosto 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "Paritaria estatal: acuerdo con la Intersindical",
+        "summary": "El Gobierno provincial y los gremios de la Mesa Intersindical alcanzaron un acuerdo salarial para el trimestre julio-agosto-septiembre, con un aumento del 3% en agosto que lleva el incremento acumulado 2026 al 22,54%, por encima del 18,97% de inflación registrado en la Región Pampeana.",
+        "cat": "La Pampa · Gobierno",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/1513692__jng7653.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Vino, cultura y turismo; una alquimia perfecta para disfrutar en Winifreda",
+          "resumen": "La segunda edición de la Wini Wine Fest se realizará el 3 de octubre en el Club Social y Deportivo Winifreda, con bodegas pampeanas, gastronomía y música en vivo.",
+          "cat": "La Pampa · Turismo",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/135673_whatsapp-image-2026-08-24-at-17.02.32.jpeg",
+          "ts": "24 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Expo Apícola: \"cuando el objetivo es el crecimiento estamos todos alineados\"",
+          "resumen": "La ministra Fernanda González destacó el esfuerzo cooperativo del sector en la 29ª edición del evento en Doblas, que sostiene unos 130 puestos de trabajo directos e indirectos.",
+          "cat": "La Pampa · Producción",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/2104542_img_0180.jpg",
+          "ts": "24 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Banda Sinfónica presentará \"Música de Cámara\" en su Gala de agosto",
+          "resumen": "El concierto, con entrada libre y gratuita, se realizará el viernes 28 en el Teatro Español de Santa Rosa, con obras de compositores internacionales y locales.",
+          "cat": "La Pampa · Cultura",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8c3c48e832b.jpg",
+          "ts": "24 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Presentación del libro \"PRANA\" en el Centro de Artes",
+          "resumen": "La escritora Marisa Isabel Medrano presenta su quinto libro el sábado 29 de agosto, con acceso libre y gratuito.",
+          "cat": "La Pampa · Cultura",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8c1a9e52805.jpg",
+          "ts": "24 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Afecto, juegos y cultura para celebrar el Mes de la Niñez",
+          "resumen": "\"Melodías y abrazos para las infancias\" ofreció una experiencia sensorial para bebés de 6 a 24 meses y sus familias en el Centro Cultural MEDASUR.",
+          "cat": "La Pampa · Cultura",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/126654_img_1274.jpeg",
+          "ts": "24 ago 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Megaoperativo en Núñez: desalojan y recuperan un edificio tomado hace 30 años",
+          "resumen": "Un operativo en la zona norte del Gran Buenos Aires permitió recuperar un inmueble tomado hacía tres décadas.",
+          "cat": "Política Nacional · Seguridad",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/f/f4/NASA_ISS006-E-24987.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "ts": "24 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Justicia intimó a Chubut a comprar carne para los presos y el gobernador Ignacio Torres anticipó que apelará",
+          "resumen": "Un juez le dio 72 horas a la provincia para reforzar las viandas de los internos en dos unidades penitenciarias.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "",
+          "ts": "24 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Libertad Avanza presentó un proyecto para suprimir un impuesto que cobran los municipios en la provincia de Buenos Aires",
+          "resumen": "El diputado provincial Oscar Liberman impulsa modificar la ley de Hábitat bonaerense para terminar con una contribución que cobran los municipios.",
+          "cat": "Política Nacional · Buenos Aires",
+          "foto": "",
+          "ts": "24 ago 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Aguas del Colorado garantizó el abastecimiento durante la puesta en marcha de la nueva estación de bombeo",
+          "resumen": "La empresa respondió a versiones sobre la normalización del Acueducto y aseguró que se proveyó agua a todas las localidades conectadas durante los trabajos en la estación EB22.",
+          "cat": "La Pampa · Servicios",
+          "ts": "24 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Realizaron 62 trámites de DNI gratis en un operativo barrial de Pico",
+          "resumen": "La campaña, centrada en el barrio El Molino, permitió actualizar domicilios de familias adjudicatarias de viviendas provinciales; el próximo operativo será el jueves en Santa Rosa.",
+          "cat": "La Pampa · Gobierno",
+          "ts": "24 ago 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "paritaria_acuerdo_intersindical",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "Paritaria estatal: acuerdo con la Intersindical",
+          "bajada": "El Mínimo Garantizado acumula un aumento del 32% en 2026 y en septiembre se activará la cláusula gatillo vinculada al IPC de agosto.",
+          "cuerpo": "<p>El Gobierno provincial y los gremios de la Mesa Intersindical alcanzaron un acuerdo salarial para el trimestre julio-agosto-septiembre, con los mismos términos pactados días atrás con el sector docente. El incremento de agosto será del <strong>3%</strong> sobre las escalas salariales.</p><p>Con esta actualización, el aumento acumulado en 2026 llega al <strong>22,54%</strong>, frente a una inflación del 18,97% registrada en la Región Pampeana, una diferencia favorable de 3,57 puntos. El Mínimo Garantizado, que en agosto se ubica en $1.318.988, acumula un aumento del 32% en el año, y el ingreso de un trabajador con familia tipo asciende a $1.671.012.</p><p>El Ejecutivo ratificó que ningún agente público, en forma individual o con su grupo familiar, percibirá ingresos inferiores a la Canasta Básica Total que establece el INDEC, y anticipó que en septiembre se activará la <strong>cláusula gatillo</strong> vinculada al IPC de agosto.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1513692__jng7653.jpg"
+        },
+        {
+          "id": "aguas_colorado_garantiza_abastecimiento",
+          "cat": "La Pampa · Servicios",
+          "titulo": "Aguas del Colorado garantizó el abastecimiento durante la puesta en marcha de la nueva estación de bombeo",
+          "bajada": "El caudal mínimo promedio entregado durante los trabajos fue de 230 metros cúbicos por hora, y el municipio de Toay confirmó que \"nunca faltó agua\".",
+          "cuerpo": "<p>Ante versiones y operaciones mediáticas vinculadas a la normalización del funcionamiento del Acueducto, Aguas del Colorado informó que durante los trabajos de puesta en marcha de la nueva estación de bombeo <strong>EB22</strong>, ubicada a 29 kilómetros de Pichi Mahuida, se proveyó agua a todas las localidades conectadas al sistema en todo momento.</p><p>La empresa señaló que los trabajos se completaron en menos tiempo del previsto, con un caudal mínimo promedio entregado de <strong>230 metros cúbicos por hora</strong>, y que las maniobras fueron consensuadas con las áreas técnicas de los municipios. El municipio de Toay ratificó que \"nunca faltó agua\", pese a contar con reservas mínimas, y calificó el operativo como \"un éxito\".</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8b7062598fb.jpg"
+        },
+        {
+          "id": "dni_gratis_operativo_pico",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "Realizaron 62 trámites de DNI gratis en un operativo barrial de Pico",
+          "bajada": "El objetivo del operativo es evitar traslados y reducir costos para los ciudadanos; las campañas continuarán en otros puntos de la provincia.",
+          "cuerpo": "<p>Una nueva campaña documentaria del Ministerio de Gobierno y Asuntos Municipales, a través de la Dirección General del Registro Civil, permitió realizar <strong>62 trámites</strong> en el barrio El Molino de General Pico, principalmente cambios de domicilio de familias adjudicatarias de viviendas provinciales y actualizaciones de DNI para niñas, niños y adolescentes.</p><p>El próximo operativo se realizará este jueves en el Centro de Salud del barrio Villa Santillán de Santa Rosa. El objetivo es evitar traslados y reducir costos para los vecinos; las campañas ya se realizaron en otros barrios y continuarán en distintos puntos de la provincia.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Cristina_baston_Kirchner.jpg/960px-Cristina_baston_Kirchner.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        },
+        {
+          "id": "wini_wine_fest_winifreda",
+          "cat": "La Pampa · Turismo",
+          "titulo": "Vino, cultura y turismo; una alquimia perfecta para disfrutar en Winifreda",
+          "bajada": "La propuesta incluye la participación de bodegas pampeanas y de otras regiones, banda en vivo y cierre con DJ.",
+          "cuerpo": "<p>Se presentó la segunda edición de la <strong>Wini Wine Fest</strong>, que se realizará el sábado 3 de octubre desde las 21:00 en el Club Social y Deportivo Winifreda. La propuesta tiene al vino como eje central, pero también incluye paseos culturales, recorridos turísticos, gastronomía y música en vivo.</p><p>El evento contará con la participación de bodegas pampeanas y de otras regiones, ofertas de gin y vermut, la banda Bandidos Urbanos y cierre con DJ. Los organizadores esperan reunir a más de <strong>400 visitantes</strong>, frente a los 220 que asistieron a la primera edición.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/135673_whatsapp-image-2026-08-24-at-17.02.32.jpeg"
+        },
+        {
+          "id": "expo_apicola_doblas_29",
+          "cat": "La Pampa · Producción",
+          "titulo": "Expo Apícola: \"cuando el objetivo es el crecimiento estamos todos alineados\"",
+          "bajada": "La ministra Fernanda González destacó el esfuerzo cooperativo del sector, que sustenta unos 130 puestos de trabajo directos e indirectos.",
+          "cuerpo": "<p>Doblas fue una vez más epicentro de la apicultura regional y nacional con la 29ª edición de la <strong>Expo Apícola</strong>, un evento que este año pone la mirada en los desafíos globales y el desarrollo asociativo del sector.</p><p>La ministra de la Producción, <strong>Fernanda González</strong>, resaltó el trabajo articulado entre jurisdicciones e ideologías: \"Se ve el esfuerzo, la perseverancia y el arraigo que tienen con su pueblo\", señaló, y afirmó que la actividad genera un \"movimiento económico enorme\" que sostiene alrededor de 130 puestos de trabajo directos e indirectos.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/2104542_img_0180.jpg"
+        },
+        {
+          "id": "banda_sinfonica_gala_agosto",
+          "cat": "La Pampa · Cultura",
+          "titulo": "La Banda Sinfónica presentará \"Música de Cámara\" en su Gala de agosto",
+          "bajada": "El programa incluye obras de compositores internacionales y locales, con entradas disponibles desde el 25 de agosto.",
+          "cuerpo": "<p>La Banda Sinfónica de La Pampa presentará <strong>\"Música de Cámara\"</strong> en su Gala de agosto, el viernes 28 a las 21:00 en el Teatro Español de Santa Rosa, con entrada libre y gratuita.</p><p>El concierto incluye obras de compositores internacionales y locales —entre ellos Anthony O'Toole, George Gershwin, Satoshi Yagisawa, Aubert Lemeland, Guillermo Schiavi Gon y Jared Spears— y destacará las secciones de vientos de madera, vientos de metal y percusión en formaciones reducidas. Las entradas estarán disponibles desde el martes 25 de agosto, de 8:30 a 13:00, en la boletería del teatro.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8c3c48e832b.jpg"
+        },
+        {
+          "id": "presentacion_libro_prana",
+          "cat": "La Pampa · Cultura",
+          "titulo": "Presentación del libro \"PRANA\" en el Centro de Artes",
+          "bajada": "La obra de Marisa Isabel Medrano propone un recorrido entre la práctica del yoga y la expresión poética.",
+          "cuerpo": "<p>La escritora <strong>Marisa Isabel Medrano</strong> presentará su quinto libro, <strong>\"PRANA\"</strong>, el sábado 29 de agosto a las 17:00 en la Sala \"Aldo Umazano\" del Centro de Artes.</p><p>La obra propone un recorrido sensible que invita a leer con todos los sentidos, explorando la conexión entre la práctica del yoga y la expresión poética. Contará con la presentación de Stella Maris Gamba y una intervención de la Escuela de Danzas \"Noemí Chejolán\". Acceso libre y gratuito.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8c1a9e52805.jpg"
+        },
+        {
+          "id": "melodias_abrazos_infancias",
+          "cat": "La Pampa · Cultura",
+          "titulo": "Afecto, juegos y cultura para celebrar el Mes de la Niñez",
+          "bajada": "Cada familia recibió un libro de regalo, con la intención de seguir disfrutando de la lectura en el hogar.",
+          "cuerpo": "<p>En el marco del Mes de la Niñez, se realizó en el Centro Cultural MEDASUR de Santa Rosa la actividad <strong>\"Melodías y abrazos para las infancias\"</strong>, una experiencia pensada para bebés de 6 a 24 meses y los adultos que los acompañaron.</p><p>La propuesta, organizada por la Dirección de Primera Infancia del Ministerio de Desarrollo Social y Derechos Humanos junto a la Secretaría de Cultura, incluyó música, movimiento, texturas e iluminación en un espacio acondicionado para favorecer la exploración y el encuentro. Cada familia recibió un libro de regalo, con la intención de que puedan seguir disfrutando de la lectura junto a las infancias en sus hogares.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/126654_img_1274.jpeg"
+        },
+        {
+          "id": "megaoperativo_nunez_desalojo",
+          "cat": "Política Nacional · Seguridad",
+          "titulo": "Megaoperativo en Núñez: desalojan y recuperan un edificio tomado hace 30 años",
+          "bajada": "El edificio estuvo tomado durante tres décadas en el barrio porteño de Núñez.",
+          "cuerpo": "<p>Un megaoperativo permitió desalojar y recuperar un edificio tomado hacía <strong>30 años</strong> en el barrio de Núñez, en la zona norte de la Ciudad de Buenos Aires.</p><p>Tras el operativo, los vecinos de la zona señalaron que podrán volver a estar en calma después de décadas de inseguridad vinculadas al inmueble.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/f/f4/NASA_ISS006-E-24987.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        },
+        {
+          "id": "chubut_carne_presos_torres",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "La Justicia intimó a Chubut a comprar carne para los presos y el gobernador Ignacio Torres anticipó que apelará",
+          "bajada": "\"No vamos a acatar la medida de tener que darles asado a los presos todos los días\", respondió el mandatario.",
+          "cuerpo": "<p>La Justicia intimó a la provincia de Chubut a comprar carne para los presos de dos unidades penitenciarias, con un plazo de <strong>72 horas</strong> para reforzar las viandas de los internos.</p><p>El gobernador <strong>Ignacio Torres</strong> anticipó que apelará la medida. \"No vamos a acatar la medida de tener que darles asado a los presos todos los días\", respondió el mandatario.</p>",
+          "foto": ""
+        },
+        {
+          "id": "lla_proyecto_impuesto_municipal_pba",
+          "cat": "Política Nacional · Buenos Aires",
+          "titulo": "La Libertad Avanza presentó un proyecto para suprimir un impuesto que cobran los municipios en la provincia de Buenos Aires",
+          "bajada": "La iniciativa busca terminar con la obligación que tienen las intendencias de cobrar una contribución cuando una decisión del propio gobierno local hace que un inmueble se revalorice.",
+          "cuerpo": "<p>La Libertad Avanza presentó en la Legislatura bonaerense un proyecto para suprimir un impuesto que cobran los municipios de la provincia de Buenos Aires. La iniciativa es del diputado provincial <strong>Oscar Liberman</strong>.</p><p>El proyecto propone modificar la ley de Hábitat bonaerense y terminar con la obligación que tienen las intendencias de cobrar una contribución cuando una decisión del propio gobierno local hace que un inmueble se revalorice.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg/960px-Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg"
+        }
+      ]
+    },
+    {
       "clave": "2026-08-20_manana",
       "fecha_iso": "2026-08-20",
       "fecha": "20 agosto 2026",
