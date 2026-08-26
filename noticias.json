@@ -2,6 +2,197 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-08-26_tarde",
+      "fecha_iso": "2026-08-26",
+      "fecha": "26 agosto 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "Prevención por El Niño: Ziliotto y Kicillof acuerdan acciones conjuntas",
+        "summary": "Los gobernadores de La Pampa y Buenos Aires firmarán el lunes un convenio para planificar acciones conjuntas ante los efectos del fenómeno El Niño, en el marco del acuerdo interprovincial que también incluye a San Luis, Córdoba y Santa Fe.",
+        "cat": "La Pampa · Ambiente",
+        "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8ed3da49368.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "El Gobierno provincial consolida obras para la salud y el desarrollo productivo castense",
+          "resumen": "Los ministerios de Obras Públicas y de la Producción recorrieron el Hospital Lacoste, remodelado, y la Planta de Faena de Pequeños Animales en construcción, en el marco de la próxima Expo Castex 2026.",
+          "cat": "La Pampa · Obra Pública",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/150064_whatsapp-image-2026-08-26-at-08.18.14.jpeg",
+          "ts": "26 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Provincia entregó importante aporte a Ferro C.O. de Pico",
+          "resumen": "El aporte, dentro del Programa de Mejoramiento de Infraestructura Deportiva, financiará un playón multifuncional que estará listo para la FEPICO de octubre.",
+          "cat": "La Pampa · Deportes",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8ecc44c7359.jpg",
+          "ts": "26 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Empresas pampeanas continúan generando vínculos comerciales en Vaca Muerta",
+          "resumen": "Las empresas CONDALIA y Frigorífico Atreu-Co concretaron ocho reuniones comerciales en Neuquén; uno de los contactos realizó un pedido inicial de 500 kilos de harinas.",
+          "cat": "La Pampa · Producción",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8dbce402ccd.jpg",
+          "ts": "26 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Inscriben para cubrir espacios curriculares en ITES Santa Rosa",
+          "resumen": "La inscripción para cubrir espacios curriculares de la Tecnicatura Superior en Desarrollo de Software se recibe del 27 de agosto al 3 de septiembre.",
+          "cat": "La Pampa · Educación",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1227804_placa-apn-min-educaci--n.jpg",
+          "ts": "26 ago 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Martín Llaryora presentó \"Alivio Cordobés\", un programa de asistencia a familias endeudadas",
+          "resumen": "El gobernador cordobés envió a la Legislatura un programa de asistencia a familias endeudadas, con baja de tasas y reordenamiento de pasivos.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/2/23/MartinLlaryoraGob.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "ts": "26 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Créditos hipotecarios UVA: qué son, cómo funcionan y por qué vuelven a estar en el centro de la escena",
+          "resumen": "El Gobierno lanzó un plan de $2 billones con fondos de la ANSES para reactivar el crédito hipotecario.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg",
+          "ts": "26 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Tensión en Recoleta: una persona se atrincheró en un departamento y desplegaron un fuerte operativo policial",
+          "resumen": "El episodio se registró en la intersección de Montevideo y Paraguay tras una alerta recibida por el 911.",
+          "cat": "Política Nacional · Seguridad",
+          "foto": "",
+          "ts": "26 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Congelan precios de la pick up más vendida del país",
+          "resumen": "El modelo, líder del ranking general en 2026, refuerza su competitividad con una política de precios sin cambios en gran parte de su gama.",
+          "cat": "Política Nacional · Economía",
+          "foto": "",
+          "ts": "26 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "\"Ya ni intentamos refinanciar la deuda porque es impagable\": los millones de argentinos que se han convertido en morosos",
+          "resumen": "Una de cada tres personas en Argentina tiene problemas para cancelar deudas tomadas con bancos, billeteras virtuales o prestamistas.",
+          "cat": "Política Nacional · Economía",
+          "foto": "",
+          "ts": "26 ago 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Día del Vacunador: destacan el impacto de la inmunización y el trabajo de los equipos de Salud",
+          "resumen": "En el Día Nacional del Vacunador, la directora de Epidemiología, Ana Bertone, remarcó que la vacunación \"representa una de las estrategias más efectivas que tenemos\".",
+          "cat": "La Pampa · Salud",
+          "ts": "26 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "CITIA: en marcha los talleres presenciales del Programa de Adopción de IA",
+          "resumen": "El Ministerio de la Producción y la Agencia CITIA, junto a HeyBeta, iniciaron talleres en Santa Rosa y General Pico para acompañar a pymes en la incorporación de inteligencia artificial.",
+          "cat": "La Pampa · Producción",
+          "ts": "26 ago 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "ziliotto_kicillof_el_nino",
+          "cat": "La Pampa · Ambiente",
+          "titulo": "Prevención por El Niño: Ziliotto y Kicillof acuerdan acciones conjuntas",
+          "bajada": "El convenio complementa la decisión del CIRHNOP de establecer un sistema de alertas tempranas en la cuenca compartida entre las cinco provincias.",
+          "cuerpo": "<p>Los gobernadores Sergio Ziliotto y Axel Kicillof firmarán el próximo lunes, en el Salón de Acuerdos, un convenio para planificar acciones conjuntas de prevención y respuesta ante los efectos del fenómeno climático <strong>El Niño-Oscilación del Sur (ENOS)</strong>.</p><p>El acuerdo complementa la decisión del CIRHNOP de establecer un sistema de alertas tempranas en la cuenca compartida entre La Pampa, Buenos Aires, San Luis, Córdoba y Santa Fe. También se firmarán otros convenios vinculados a temáticas de gestión de gobierno, en el marco del acuerdo marco suscripto por ambas provincias el 28 de junio de 2024.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8ed3da49368.jpg"
+        },
+        {
+          "id": "dia_del_vacunador",
+          "cat": "La Pampa · Salud",
+          "titulo": "Día del Vacunador: destacan el impacto de la inmunización y el trabajo de los equipos de Salud",
+          "bajada": "Bertone alertó además sobre la fragmentación en la coordinación del programa nacional de vacunación.",
+          "cuerpo": "<p>En el Día Nacional del Vacunador y la Vacunadora, que se celebra cada 26 de agosto por la Ley 27.491 en homenaje al nacimiento del doctor Albert Sabin, creador de la vacuna oral contra la poliomielitis, la directora de Epidemiología de La Pampa, <strong>Ana Bertone</strong>, destacó el valor de las vacunas para prevenir enfermedades.</p><p>\"La vacunación representa una de las estrategias más efectivas que tenemos\", afirmó Bertone, y señaló que según la Organización Mundial de la Salud la inmunización salva entre <strong>3,5 y 5 millones de vidas anuales</strong>, y que por cada dólar invertido en vacunas se ahorran hasta 44 dólares en cuidados. La funcionaria alertó además sobre la fragmentación en la coordinación del programa nacional, que debilitó la articulación histórica entre jurisdicciones, y valoró el compromiso de los equipos sanitarios provinciales.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/311924_whatsapp-image-2026-08-26-at-09.08.29.jpeg"
+        },
+        {
+          "id": "citia_talleres_ia",
+          "cat": "La Pampa · Producción",
+          "titulo": "CITIA: en marcha los talleres presenciales del Programa de Adopción de IA",
+          "bajada": "Los talleres abordan bases de conocimiento, extracción de información, elaboración de documentos y tableros de control.",
+          "cuerpo": "<p>El Ministerio de la Producción, a través de la Agencia CITIA y la Subsecretaría de Industria, Comercio y PyMEs, junto a HeyBeta, dieron inicio a la etapa presencial del <strong>Programa de Adopción de Inteligencia Artificial \"Del diagnóstico a la acción\"</strong>.</p><p>Los talleres, dirigidos a empresas de distintos sectores y localidades de la provincia, se desarrollan en Santa Rosa y en la sede de CITIA en General Pico, y abordan contenidos como bases de conocimiento, extracción de información, elaboración de documentos, gestión presupuestaria y tableros de control, aplicados a las necesidades específicas de cada organización.</p>",
+          "foto": ""
+        },
+        {
+          "id": "castex_hospital_frigorifico_expo",
+          "cat": "La Pampa · Obra Pública",
+          "titulo": "El Gobierno provincial consolida obras para la salud y el desarrollo productivo castense",
+          "bajada": "El frigorífico complementará las operaciones del recientemente inaugurado en Winifreda y generará entre 10 y 25 empleos según la etapa constructiva.",
+          "cuerpo": "<p>El ministro de Obras y Servicios Públicos, <strong>Alfredo Intronati</strong>, recorrió en Eduardo Castex las obras de refuncionalización, remodelación y ampliación del Hospital Dr. Pablo Federico Lacoste, con cerca de 76 metros cuadrados refaccionados y 80 de ampliación, que incluyeron un nuevo acceso, la reorganización del laboratorio y la modernización de instalaciones eléctricas, sanitarias, de gas y calefacción.</p><p>En la misma localidad avanza la construcción de la <strong>Planta de Faena de Pequeños Animales</strong>, que realizará cuarteo, desposte y envasado al vacío, complementará las operaciones del frigorífico recientemente puesto en marcha en Winifreda y generará entre 10 y 25 empleos según la etapa constructiva. La ministra de la Producción, <strong>Fernanda González</strong>, encabezó además una visita centrada en la próxima <strong>Expo Castex 2026</strong>, organizada por el Club Estudiantil para el 9, 10 y 11 de octubre, que convocará a productores ganaderos, emprendedores e industria pampeana.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/150064_whatsapp-image-2026-08-26-at-08.18.14.jpeg"
+        },
+        {
+          "id": "ferro_co_pico_aporte",
+          "cat": "La Pampa · Deportes",
+          "titulo": "Provincia entregó importante aporte a Ferro C.O. de Pico",
+          "bajada": "El playón se utilizará para actividades deportivas y eventos comunitarios en General Pico.",
+          "cuerpo": "<p>El Gobierno provincial, a través del subsecretario de Deportes, <strong>Ceferino Almudévar</strong>, entregó a directivos del Club Ferro Carril Oeste de General Pico la documentación que formaliza un aporte de fondos en el marco del <strong>Programa de Mejoramiento de Infraestructura Deportiva</strong>.</p><p>Los fondos se destinarán a la construcción de un playón multifuncional para actividades deportivas y eventos comunitarios, que estará listo para la FEPICO (Feria de la Construcción y el Hábitat), programada del 9 al 11 de octubre. Participaron también el presidente del club, Walter Gonzalo, y la intendenta de General Pico, Fernanda Alonso.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8ecc44c7359.jpg"
+        },
+        {
+          "id": "empresas_pampeanas_vaca_muerta",
+          "cat": "La Pampa · Producción",
+          "titulo": "Empresas pampeanas continúan generando vínculos comerciales en Vaca Muerta",
+          "bajada": "Las acciones se enmarcan en el Plan de Desarrollo Económico y Productivo 2026-2030 del gobernador Sergio Ziliotto.",
+          "cuerpo": "<p>Las empresas pampeanas <strong>CONDALIA</strong> y <strong>Frigorífico Atreu-Co</strong> participaron de nuevas rondas de vinculación comercial organizadas por el Centro de Negocios de La Pampa en Neuquén, con el objetivo de insertarse en el mercado patagónico.</p><p>Atreu-Co, de Macachín, realizó tres reuniones con operadores de comercialización y distribución de carnes, mientras que CONDALIA concretó cinco encuentros con dietéticas, distribuidores y comercios de productos naturales; uno de los contactos efectuó un pedido inicial de <strong>500 kilos de harinas</strong>. Las acciones se enmarcan en el Plan de Desarrollo Económico y Productivo 2026-2030 del gobernador Sergio Ziliotto.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a8dbce402ccd.jpg"
+        },
+        {
+          "id": "ites_santa_rosa_inscripcion",
+          "cat": "La Pampa · Educación",
+          "titulo": "Inscriben para cubrir espacios curriculares en ITES Santa Rosa",
+          "bajada": "La convocatoria es para el Instituto Tecnológico de Educación Superior de Santa Rosa.",
+          "cuerpo": "<p>La Subsecretaría de Educación Técnico Profesional informó que desde el 27 de agosto hasta el 3 de septiembre inclusive se convoca a la inscripción para cubrir espacios curriculares de la <strong>Tecnicatura Superior en Desarrollo de Software</strong> en el Instituto Tecnológico de Educación Superior (ITES) de Santa Rosa.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1227804_placa-apn-min-educaci--n.jpg"
+        },
+        {
+          "id": "llaryora_alivio_cordobes",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Martín Llaryora presentó \"Alivio Cordobés\", un programa de asistencia a familias endeudadas",
+          "bajada": "El proyecto está abierto a la adhesión de los bancos.",
+          "cuerpo": "<p>El gobernador de Córdoba, <strong>Martín Llaryora</strong>, presentó \"Alivio Cordobés\", un programa de asistencia a familias endeudadas enviado a la Legislatura provincial.</p><p>La iniciativa incluye baja de tasas y unificación y reordenamiento de pasivos, entre otros puntos, y está abierta a la adhesión de los bancos.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/2/23/MartinLlaryoraGob.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        },
+        {
+          "id": "creditos_hipotecarios_uva",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Créditos hipotecarios UVA: qué son, cómo funcionan y por qué vuelven a estar en el centro de la escena",
+          "bajada": "El esquema generó fuertes cuestionamientos en el pasado por el desfasaje entre las cuotas indexadas y los salarios.",
+          "cuerpo": "<p>El Gobierno nacional lanzó un plan de <strong>$2 billones</strong> con fondos de la ANSES para reactivar el crédito hipotecario, un esquema que vuelve a poner a los créditos <strong>UVA</strong> (Unidad de Valor Adquisitivo) en el centro de la escena.</p><p>Los préstamos UVA ajustan sus cuotas por inflación, un mecanismo que generó fuertes cuestionamientos en el pasado por el desfasaje entre las cuotas indexadas y la evolución de los salarios.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Edificio_del_Ministerio_de_Econom%C3%ADa_de_la_Naci%C3%B3n_Argentina%2C_ubicado_sobre_la_calle_Hip%C3%B3lito_Yrigoyen%2C_frente_al_entorno_de_Plaza_de_Mayo%2C_en_la_Ciudad_de_Buenos_Aires.jpg/960px-thumbnail.jpg"
+        },
+        {
+          "id": "tension_recoleta_atrincherado",
+          "cat": "Política Nacional · Seguridad",
+          "titulo": "Tensión en Recoleta: una persona se atrincheró en un departamento y desplegaron un fuerte operativo policial",
+          "bajada": "El episodio se habría iniciado alrededor del mediodía.",
+          "cuerpo": "<p>Una persona se atrincheró en un departamento del barrio porteño de Recoleta, en la intersección de las calles Montevideo y Paraguay, lo que generó el despliegue de un fuerte operativo policial.</p><p>El episodio se habría iniciado alrededor del mediodía, tras una alerta recibida por el 911.</p>",
+          "foto": ""
+        },
+        {
+          "id": "congelan_precios_pickup",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Congelan precios de la pick up más vendida del país",
+          "bajada": "La medida busca sostener el liderazgo de ventas del segmento.",
+          "cuerpo": "<p>La pick up más vendida del país congeló sus precios, en una medida que refuerza su competitividad y busca sostener su liderazgo en el ranking general de ventas de 2026.</p><p>La política de precios sin cambios se mantiene en gran parte de la gama del modelo.</p>",
+          "foto": ""
+        },
+        {
+          "id": "argentinos_morosos_deuda",
+          "cat": "Política Nacional · Economía",
+          "titulo": "\"Ya ni intentamos refinanciar la deuda porque es impagable\": los millones de argentinos que se han convertido en morosos",
+          "bajada": "\"Ya ni intentamos refinanciar la deuda porque es impagable\", relatan algunos de los millones de argentinos que se convirtieron en morosos.",
+          "cuerpo": "<p>Una de cada tres personas en Argentina tiene problemas para cancelar las deudas que tomó con bancos, billeteras virtuales o prestamistas, según un relevamiento sobre la morosidad en el país.</p><p>\"Ya ni intentamos refinanciar la deuda porque es impagable\", relatan algunos de los millones de argentinos que se convirtieron en morosos, un fenómeno que refleja las dificultades económicas que atraviesan los hogares.</p>",
+          "foto": ""
+        }
+      ]
+    },
+    {
       "clave": "2026-08-24_tarde",
       "fecha_iso": "2026-08-24",
       "fecha": "24 agosto 2026",
