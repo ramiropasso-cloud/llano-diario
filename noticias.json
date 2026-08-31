@@ -2,6 +2,182 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-08-31_manana",
+      "fecha_iso": "2026-08-31",
+      "fecha": "31 agosto 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "Ziliotto y Kicillof firmarán convenios de cooperación entre La Pampa y Buenos Aires",
+        "summary": "Los gobernadores encabezarán hoy a las 12 un acto de firma en el Salón de Acuerdos de Casa de Gobierno, con un convenio destacado para coordinar acciones de prevención ante el fenómeno El Niño.",
+        "cat": "La Pampa · Gobierno",
+        "foto": "https://apn.lapampa.gob.ar/images/noticias/6a955b06915ea.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Provincia invierte casi $ 800 millones para aplicar a la prevención de incendios rurales",
+          "resumen": "El Gobierno licitó trabajos de rastreo y mantenimiento de picadas contrafuego en 3.274 hectáreas de todo el territorio provincial y áreas protegidas.",
+          "cat": "La Pampa · Ambiente",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/173693_img-20260830-wa0011.jpg",
+          "ts": "31 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "El programa de refinanciación del BLP ya alcanzó los $5.350 millones",
+          "resumen": "El Banco de La Pampa reorganizó deudas por ese monto desde la puesta en marcha del programa, con tasas inferiores a las del mercado y plazos más extensos.",
+          "cat": "La Pampa · Economía",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/383001_img-20260829-wa0021.jpg",
+          "ts": "31 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Síndrome Urémico Hemolítico: acciones de prevención y concientización comunitaria",
+          "resumen": "La Mesa Provincial de Zoonosis difundió recomendaciones para reducir el impacto de esta patología endémica que afecta principalmente a la infancia.",
+          "cat": "La Pampa · Salud",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/291427_img-20260830-wa0019.jpg",
+          "ts": "31 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Caleufú: dictaron capacitación en Manipulación de Alimentos",
+          "resumen": "Más de 40 personas de Caleufú, Arata, La Maruja y Pichi Huinca obtuvieron el carnet nacional de manipulador de alimentos.",
+          "cat": "La Pampa · Producción",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/330246_1000619480.jpeg",
+          "ts": "31 ago 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "La Corte Suprema fijó su presupuesto para 2027 en casi $495.000 millones",
+          "resumen": "La Acordada 22/2026 estableció en $495.049.855.166 los gastos del máximo tribunal y fijó en 4.732 los cargos de su planta de personal.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/ID_472_Palacio_de_Justicia_de_la_Naci%C3%B3n_5006.jpg/960px-ID_472_Palacio_de_Justicia_de_la_Naci%C3%B3n_5006.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "ts": "31 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "ANSES: el Gobierno confirmó el bono de $70.000 para jubilados y pensionados en septiembre",
+          "resumen": "El refuerzo previsional alcanzará a jubilados, pensionados y titulares de prestaciones sociales de ANSES.",
+          "cat": "Política Nacional · Economía",
+          "foto": "",
+          "ts": "31 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Gobierno oficializó un nuevo aumento de salarios para militares, fuerzas de seguridad y empleados públicos: de cuánto será",
+          "resumen": "Las subas se aplicarán en cuatro etapas entre septiembre y diciembre, y también alcanzarán a docentes y personal de la Antártida.",
+          "cat": "Política Nacional · Economía",
+          "foto": "",
+          "ts": "31 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Luis Caputo viajó a Estados Unidos para participar de la cumbre del G20 y buscará reunirse con Scott Bessent",
+          "resumen": "El ministro de Economía expondrá ante representantes de las principales potencias las políticas implementadas para alcanzar la estabilidad macroeconómica.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Luis_Caputo_-_Retrato_Oficial_2024.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "ts": "31 ago 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "La Policía de La Pampa celebró 140 años de historia, compromiso y servicio",
+          "resumen": "El acto central, realizado el domingo en Avenida Belgrano, incluyó desfile, recreación histórica y el anuncio de 31 nuevos patrulleros y equipamiento de videovigilancia.",
+          "cat": "La Pampa · Seguridad",
+          "ts": "31 ago 2026 · LLANO·"
+        },
+        {
+          "titulo": "Casa de Piedra celebró 30 años de generación hidroeléctrica",
+          "resumen": "La Central Hidroeléctrica conmemoró tres décadas de operación comercial, consolidada como activo estratégico para la energía y la gestión del recurso hídrico compartido por tres provincias.",
+          "cat": "La Pampa · Energía",
+          "ts": "31 ago 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "ziliotto_kicillof_convenios",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "Ziliotto y Kicillof firmarán convenios de cooperación entre La Pampa y Buenos Aires",
+          "bajada": "Entre los acuerdos se destaca la coordinación de acciones de prevención y respuesta ante posibles efectos del fenómeno El Niño.",
+          "cuerpo": "<p>Los gobernadores Sergio Ziliotto y Axel Kicillof encabezan hoy, a las 12, un acto de firma de convenios de cooperación entre La Pampa y Buenos Aires, en el Salón de Acuerdos de Casa de Gobierno.</p><p>Entre los acuerdos se destaca la coordinación de acciones de prevención y respuesta ante posibles efectos del fenómeno <strong>El Niño</strong>, para fortalecer la planificación conjunta ante contingencias climáticas. Los convenios buscan además profundizar los vínculos institucionales y desarrollar una agenda común de trabajo entre ambas provincias.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a955b06915ea.jpg"
+        },
+        {
+          "id": "policia_140_anos",
+          "cat": "La Pampa · Seguridad",
+          "titulo": "La Policía de La Pampa celebró 140 años de historia, compromiso y servicio",
+          "bajada": "El acto incluyó una recreación histórica con efectivos retirados uniformados de época y el reconocimiento a un suboficial y sus canes de trabajo.",
+          "cuerpo": "<p>La Policía de La Pampa conmemoró el domingo el 140° aniversario de la creación del servicio policial en el territorio provincial, con un acto central en Avenida Belgrano que reunió a autoridades, personal en actividad y retiro, delegaciones de las policías de Río Negro y San Luis, familiares y vecinos.</p><p>Participaron el ministro de Seguridad y Justicia, <strong>Horacio di Nápoli</strong>, y el jefe de Policía, <strong>Darío Cano</strong>. El acto incluyó un desfile con las distintas áreas y especialidades de la institución y una recreación histórica con efectivos retirados uniformados de época. Se anunciaron además inversiones en <strong>31 nuevos patrulleros</strong>, equipamiento de videovigilancia, chalecos antibalas y drones con cámaras térmicas, junto con 56 capacitaciones especiales que alcanzaron a 1.148 cursantes.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/2050242_eddsc_6034.jpg"
+        },
+        {
+          "id": "casa_de_piedra_30_anos",
+          "cat": "La Pampa · Energía",
+          "titulo": "Casa de Piedra celebró 30 años de generación hidroeléctrica",
+          "bajada": "La central mantiene una articulación permanente con el Comité Interjurisdiccional del Río Colorado para la gestión hídrica equilibrada entre las provincias.",
+          "cuerpo": "<p>La Central Hidroeléctrica Casa de Piedra conmemoró treinta años desde el inicio de su generación comercial, consolidada como un activo estratégico para la producción de energía, la gestión del recurso hídrico y el desarrollo regional compartido por tres provincias.</p><p>El ministro de Obras y Servicios Públicos y presidente del Directorio del Ente Ejecutivo, <strong>Alfredo Intronati</strong>, participó de los festejos, en los que se reconoció la trayectoria de trabajadores con más de dos décadas de servicio. La central mantiene una articulación permanente con el <strong>Comité Interjurisdiccional del Río Colorado (COIRCO)</strong> para la gestión hídrica equilibrada de la cuenca.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Patagonia1.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        },
+        {
+          "id": "incendios_rurales_prevencion_800m",
+          "cat": "La Pampa · Ambiente",
+          "titulo": "Provincia invierte casi $ 800 millones para aplicar a la prevención de incendios rurales",
+          "bajada": "El plan cubre 3.274 hectáreas, entre la red de picadas de Defensa Civil y las reservas provinciales protegidas.",
+          "cuerpo": "<p>El Gobierno de La Pampa licitó trabajos de rastreo y mantenimiento de picadas contrafuego que alcanzarán distintos puntos del territorio provincial y áreas protegidas, con una inversión oficial actualizada de <strong>$799.319.598,40</strong>.</p><p>El plan cubre un total de <strong>3.274 hectáreas</strong> en 2026: 2.846 hectáreas corresponden a la red de picadas de Defensa Civil, distribuidas en las zonas norte, centro y sur de la provincia, y 428 hectáreas a reservas protegidas como Parque Luro, Pichi Mahuida, Limay Mahuida, La Reforma y La Humada.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/173693_img-20260830-wa0011.jpg"
+        },
+        {
+          "id": "refinanciacion_blp_5350m",
+          "cat": "La Pampa · Economía",
+          "titulo": "El programa de refinanciación del BLP ya alcanzó los $5.350 millones",
+          "bajada": "El gobernador Ziliotto eximió del Impuesto de Sellos los actos y contratos relacionados con esta operatoria.",
+          "cuerpo": "<p>El Programa de Refinanciación Especial del Banco de La Pampa ya permitió reorganizar deudas por <strong>$5.350 millones</strong> desde su puesta en marcha, implementado para acompañar a personas, familias y empresas que atraviesan dificultades para afrontar sus compromisos financieros.</p><p>La herramienta ofrece \"condiciones más convenientes que las ofrecidas habitualmente por el sistema financiero\", con tasas inferiores a las del mercado y plazos más extensos. El gobernador Sergio Ziliotto eximió además del <strong>Impuesto de Sellos</strong> los actos y contratos relacionados con esta operatoria.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/383001_img-20260829-wa0021.jpg"
+        },
+        {
+          "id": "suh_prevencion_concientizacion",
+          "cat": "La Pampa · Salud",
+          "titulo": "Síndrome Urémico Hemolítico: acciones de prevención y concientización comunitaria",
+          "bajada": "Las recomendaciones apuntan especialmente a niñas y niños menores de cinco años, el grupo de mayor incidencia de esta patología.",
+          "cuerpo": "<p>La Mesa Provincial de Zoonosis del Gobierno de La Pampa, coordinada con la Dirección de Epidemiología del Ministerio de Salud, difundió pautas clave para reducir el impacto del <strong>Síndrome Urémico Hemolítico</strong>, una patología endémica que afecta principalmente a la infancia.</p><p>Entre las recomendaciones figuran asegurar la cocción completa de las carnes hasta que no queden zonas rosadas, evitar la contaminación cruzada entre alimentos crudos y cocidos, lavarse las manos antes de manipular alimentos, usar únicamente agua potable, consumir lácteos pasteurizados y respetar la cadena de frío. La población de mayor riesgo incluye a niñas y niños menores de cinco años, personas mayores, embarazadas y pacientes inmunodeprimidos.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/291427_img-20260830-wa0019.jpg"
+        },
+        {
+          "id": "caleufu_capacitacion_alimentos",
+          "cat": "La Pampa · Producción",
+          "titulo": "Caleufú: dictaron capacitación en Manipulación de Alimentos",
+          "bajada": "Participaron emprendedores, trabajadores, productores y comerciantes de la cadena agroalimentaria de cuatro localidades.",
+          "cuerpo": "<p>En una actividad conjunta entre el Ministerio de Desarrollo Social y Derechos Humanos y el Ministerio de Salud, con los equipos de Bromatología y la Dirección de Agricultura Familiar, se dictó en Caleufú una capacitación en <strong>Manipulación de Alimentos</strong> para la entrega del carnet nacional correspondiente.</p><p>Más de <strong>40 personas</strong> de Caleufú, Arata, La Maruja y Pichi Huinca participaron de la actividad, entre emprendedores, trabajadores, productores y comerciantes de la cadena agroalimentaria, y tras dos días de capacitación obtuvieron el carnet de manipulador de alimentos.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/330246_1000619480.jpeg"
+        },
+        {
+          "id": "corte_suprema_presupuesto_2027",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "La Corte Suprema fijó su presupuesto para 2027 en casi $495.000 millones",
+          "bajada": "La Acordada 22/2026 fijó también en 4.732 los cargos de la planta de personal del máximo tribunal.",
+          "cuerpo": "<p>La Corte Suprema de Justicia de la Nación fijó su presupuesto para 2027 en <strong>$495.049.855.166</strong>, según estableció la Acordada 22/2026.</p><p>La normativa fijó además en <strong>4.732</strong> los cargos de la planta de personal del máximo tribunal de Justicia de la Nación para el próximo ejercicio.</p>",
+          "foto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/ID_472_Palacio_de_Justicia_de_la_Naci%C3%B3n_5006.jpg/960px-ID_472_Palacio_de_Justicia_de_la_Naci%C3%B3n_5006.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        },
+        {
+          "id": "anses_bono_70000_septiembre",
+          "cat": "Política Nacional · Economía",
+          "titulo": "ANSES: el Gobierno confirmó el bono de $70.000 para jubilados y pensionados en septiembre",
+          "bajada": "El refuerzo alcanzará a jubilados, pensionados y titulares de prestaciones sociales de ANSES.",
+          "cuerpo": "<p>El Gobierno nacional confirmó un bono de <strong>$70.000</strong> para jubilados y pensionados en septiembre, a través de la ANSES.</p><p>El refuerzo previsional alcanzará a jubilados, pensionados y titulares de prestaciones sociales del organismo, con un esquema diferenciado para quienes superen el haber mínimo.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/4/44/Retrato_oficial_del_Presidente_Mauricio_Macri.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        },
+        {
+          "id": "aumento_salarios_fuerzas_seguridad",
+          "cat": "Política Nacional · Economía",
+          "titulo": "El Gobierno oficializó un nuevo aumento de salarios para militares, fuerzas de seguridad y empleados públicos: de cuánto será",
+          "bajada": "También se actualizaron los haberes de docentes, personal de la Antártida y trabajadores alcanzados por regímenes especiales.",
+          "cuerpo": "<p>El Gobierno nacional oficializó un nuevo aumento de salarios para militares, fuerzas de seguridad y empleados públicos, que se aplicará en <strong>cuatro etapas</strong> entre septiembre y diciembre.</p><p>La medida también actualiza los haberes de docentes, personal de la Antártida y trabajadores alcanzados por regímenes especiales.</p>",
+          "foto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/1818_Pinkerton_Map_of_of_La_Plata_%28Southern_South_America%2C_Argentina%2C_Chile%2C_Bolivia%29_-_Geographicus_-_LaPlata-pinkerton-1818.jpg/960px-1818_Pinkerton_Map_of_of_La_Plata_%28Southern_South_America%2C_Argentina%2C_Chile%2C_Bolivia%29_-_Geographicus_-_LaPlata-pinkerton-1818.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        },
+        {
+          "id": "caputo_g20_bessent",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Luis Caputo viajó a Estados Unidos para participar de la cumbre del G20 y buscará reunirse con Scott Bessent",
+          "bajada": "El funcionario expondrá ante representantes de las principales potencias las políticas implementadas para alcanzar la estabilidad macroeconómica.",
+          "cuerpo": "<p>El ministro de Economía, <strong>Luis Caputo</strong>, viajó a Estados Unidos para participar de la cumbre del G20 y buscará reunirse con el secretario del Tesoro estadounidense, <strong>Scott Bessent</strong>.</p><p>Caputo expondrá ante representantes de las principales potencias las políticas implementadas por el Gobierno argentino para alcanzar la estabilidad macroeconómica.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Luis_Caputo_-_Retrato_Oficial_2024.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        }
+      ]
+    },
+    {
       "clave": "2026-08-26_tarde",
       "fecha_iso": "2026-08-26",
       "fecha": "26 agosto 2026",
