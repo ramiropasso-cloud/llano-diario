@@ -2,6 +2,152 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-09-01_tarde",
+      "fecha_iso": "2026-09-01",
+      "fecha": "1 septiembre 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "\"Será una realidad\" había anticipado Ziliotto: Gobierno licitó el SUM para Anguil",
+        "summary": "El Gobierno provincial licitó la construcción de un nuevo Salón de Usos Múltiples para Anguil, a poco más de un mes de que el gobernador lo anunciara durante una visita a la localidad.",
+        "cat": "La Pampa · Obra Pública",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a95d5141bae3.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Anunciaron el Festival Pastiche 2026 – Edición Stickers",
+          "resumen": "El sábado 31 de octubre, el festival celebrará el 3er aniversario de la Sala Marta Arangoa con una gran intervención colectiva de calcos y stickers.",
+          "cat": "La Pampa · Cultura",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/347308_festival-pastiche-2026-apn.jpg",
+          "ts": "1 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Anunciaron el Mes de la Modernización de la Administración Pública Provincial",
+          "resumen": "El Ministerio de Conectividad y Modernización presenta en septiembre capacitaciones, firma digital y jornadas de transparencia para mostrar los avances de los últimos seis años.",
+          "cat": "La Pampa · Gobierno",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a96ce16a5aa2.jpg",
+          "ts": "1 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "19 proyectos representarán a La Pampa en las Ferias Nacionales de Ciencias, Arte y Tecnología",
+          "resumen": "La provincia participará de las instancias nacionales en San Luis, Jujuy y Córdoba, tras una edición provincial que reunió más de 150 trabajos.",
+          "cat": "La Pampa · Educación",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a96ab647ba6c.jpg",
+          "ts": "1 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "A tres años de la muerte de Silvina Luna: la junta médica culpó el metacrilato de Aníbal Lotocki",
+          "resumen": "El material que le inyectó el cirujano habría tenido una relación directa con la muerte de la modelo, según el análisis de al menos 10 profesionales de la salud.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Silvina_Luna_5.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "ts": "1 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Causa ANDIS: una vez más, Diego Spagnuolo fue a la Justicia para frenar el peritaje de los audios",
+          "resumen": "La pericia de Gendarmería sobre los audios ya está en marcha; el exdirector de la Agencia Nacional de Discapacidad cuestionó el análisis de 58 archivos de un pendrive entregado por un periodista.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "",
+          "ts": "1 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Presentaron el proyecto de ley Agostina en la Legislatura de Córdoba: sus principales puntos",
+          "resumen": "La iniciativa es impulsada por Gabriel Vega, padre de la adolescente asesinada hace más de tres meses en esa provincia, e impulsa políticas para prevenir, detectar y proteger a niños.",
+          "cat": "Política Nacional · Congreso",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg/960px-144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg",
+          "ts": "1 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Intendentes celebraron los acuerdos entre La Pampa y Buenos Aires por El Niño",
+          "resumen": "Los jefes comunales de Salliqueló, Intendente Alvear y Bernardo Larroudé valoraron la cooperación entre ambas provincias y reclamaron al Gobierno nacional por los recursos coparticipables.",
+          "cat": "La Pampa · Gobierno",
+          "ts": "1 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Coordinan acciones conjuntas para la temporada de pesca en el Embalse Casa de Piedra",
+          "resumen": "Autoridades de La Pampa y Río Negro trabajan en unificar criterios y normativas para la próxima temporada de pesca deportiva en el lago compartido entre ambas provincias.",
+          "cat": "La Pampa · Ambiente",
+          "ts": "1 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "sum_anguil_licitacion",
+          "cat": "La Pampa · Obra Pública",
+          "titulo": "\"Será una realidad\" había anticipado Ziliotto: Gobierno licitó el SUM para Anguil",
+          "bajada": "La obra permitirá seguir fortaleciendo los espacios de encuentro de la comunidad, según había adelantado el gobernador.",
+          "cuerpo": "<p>El Gobierno provincial licitó la construcción de un nuevo Salón de Usos Múltiples para Anguil. El acto se concretó a poco más de un mes de que el gobernador Sergio Ziliotto lo anunciara en una visita a la localidad.</p><p>\"Va a ser una realidad y permitirá seguir fortaleciendo los espacios de encuentro de la comunidad\", había afirmado el mandatario en esa oportunidad.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a95d5141bae3.jpg"
+        },
+        {
+          "id": "intendentes_el_nino_reacciones",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "Intendentes celebraron los acuerdos entre La Pampa y Buenos Aires por El Niño",
+          "bajada": "\"La gente nos pide obras: asfalto, cloacas, viviendas, centros de salud\", planteó el intendente de Salliqueló.",
+          "cuerpo": "<p>Distintos intendentes de la provincia valoraron los convenios firmados entre los gobernadores Sergio Ziliotto y Axel Kicillof para fortalecer la gestión hídrica y prevenir inundaciones ante el escenario de El Niño.</p><p>El intendente de Salliqueló, <strong>Ariel Succurro</strong>, calificó el acuerdo como \"sumamente importante\" y afirmó: \"que dos gobernadores trabajen juntos es la antítesis de lo que propone Nación\". Respaldó además el reclamo por los recursos coparticipables: \"tenemos dos gobernadores responsables que están reclamándole al Gobierno nacional todos los recursos que nos corresponden por coparticipación\", y cuestionó la paralización de obras estratégicas: \"la gente nos pide obras: asfalto, cloacas, viviendas, centros de salud\".</p><p>La intendenta de Intendente Alvear, <strong>Agustina García</strong>, sostuvo que \"el acuerdo con Buenos Aires nos tranquiliza\", en una localidad que ya superó los 700 milímetros de precipitaciones en el año. El intendente de Bernardo Larroudé, <strong>José Luis Gallotti</strong>, también celebró la firma de los convenios y advirtió: \"nosotros estamos en riesgo como localidad\".</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/768573_whatsapp-image-2026-09-01-at-10.12.55.jpg"
+        },
+        {
+          "id": "pesca_embalse_casa_de_piedra",
+          "cat": "La Pampa · Ambiente",
+          "titulo": "Coordinan acciones conjuntas para la temporada de pesca en el Embalse Casa de Piedra",
+          "bajada": "El eje del encuentro fue homologar las fechas de inicio y cierre de la temporada y definir los períodos de veda biológica.",
+          "cuerpo": "<p>Autoridades de las provincias de La Pampa y Río Negro mantuvieron un encuentro de trabajo con el objetivo de unificar criterios y normativas para la próxima temporada de pesca deportiva en el Lago Casa de Piedra, un recurso hídrico compartido entre ambas jurisdicciones.</p><p>De la reunión participaron el delegado comunal de la Villa Turística Casa de Piedra, Roberto Bigorito; el director General de Recursos Naturales, <strong>Carlos Bonnemezón</strong>, y el subdirector de Fauna, Federico Pelizzari, del Ministerio de la Producción de La Pampa; y el director de Acuicultura del Ministerio de Desarrollo Económico y Productivo de Río Negro, Pablo Javier Felipe. El eje del encuentro fue establecer un esquema de trabajo articulado para homologar las fechas de inicio y cierre de la temporada de pesca y definir los períodos de veda biológica.</p>",
+          "foto": ""
+        },
+        {
+          "id": "festival_pastiche_2026_stickers",
+          "cat": "La Pampa · Cultura",
+          "titulo": "Anunciaron el Festival Pastiche 2026 – Edición Stickers",
+          "bajada": "Las paredes del lugar y las calles del barrio se transformarán en una gran intervención colectiva.",
+          "cuerpo": "<p>El sábado 31 de octubre, el Festival Pastiche celebrará el 3er aniversario de la Sala <strong>\"Marta Arangoa\"</strong> del Centro de Artes. Para festejarlo, las paredes del lugar y las calles del barrio se transformarán en una gran intervención colectiva de calcos y stickers.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/347308_festival-pastiche-2026-apn.jpg"
+        },
+        {
+          "id": "mes_modernizacion_administracion_publica",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "Anunciaron el Mes de la Modernización de la Administración Pública Provincial",
+          "bajada": "El programa incluye capacitaciones, un operativo de firma digital y una jornada interjurisdiccional de monitoreo del plan estratégico.",
+          "cuerpo": "<p>El Ministerio de Conectividad y Modernización presentó el <strong>\"Mes de la Modernización de la Administración Pública Provincial\"</strong>, que incluirá actividades, talleres, operativos de trabajo y propuestas destinadas a mostrar los avances digitales alcanzados en los últimos seis años.</p><p>La agenda de septiembre contempla capacitaciones en ciberseguridad, administración electrónica e inteligencia artificial en la gestión pública, un operativo de firma digital el 11 de septiembre, la presentación de un manual de transparencia activa, la consolidación del Sistema de Gestión Documental Electrónica (GDE) y una convocatoria a un banco de proyectos de modernización administrativa, entre otras actividades.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a96ce16a5aa2.jpg"
+        },
+        {
+          "id": "19_proyectos_ferias_nacionales_ciencias",
+          "cat": "La Pampa · Educación",
+          "titulo": "19 proyectos representarán a La Pampa en las Ferias Nacionales de Ciencias, Arte y Tecnología",
+          "bajada": "La convocatoria provincial contó con la participación de más de 150 trabajos de todos los niveles y modalidades del sistema educativo.",
+          "cuerpo": "<p>Durante todo el mes de agosto se llevaron adelante, con sede en General Pico y Santa Rosa, las tres instancias de la edición XXXVI de la Feria Provincial de Ciencias, Arte y Tecnología. La convocatoria contó con la participación de más de <strong>150 trabajos</strong> de diversas localidades, representando a todos los niveles y modalidades del sistema educativo.</p><p>La etapa que sigue es la representación de la provincia en las distintas ferias nacionales, que tendrán como sedes a San Luis, Jujuy y Córdoba en los próximos meses, con <strong>19 proyectos</strong> pampeanos seleccionados.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a96ab647ba6c.jpg"
+        },
+        {
+          "id": "silvina_luna_junta_medica_lotocki",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "A tres años de la muerte de Silvina Luna: la junta médica culpó el metacrilato de Aníbal Lotocki",
+          "bajada": "La determinación surgió del análisis de al menos 10 profesionales de la salud.",
+          "cuerpo": "<p>A tres años de la muerte de <strong>Silvina Luna</strong>, una junta médica culpó al metacrilato que le inyectó el cirujano <strong>Aníbal Lotocki</strong> como responsable directo del fallecimiento de la modelo.</p><p>La determinación surgió del análisis de al menos 10 profesionales de la salud, que establecieron una relación directa entre el material inyectado y la muerte de Luna.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Silvina_Luna_5.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        },
+        {
+          "id": "causa_andis_spagnuolo_peritaje",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "Causa ANDIS: una vez más, Diego Spagnuolo fue a la Justicia para frenar el peritaje de los audios",
+          "bajada": "El exfuncionario cuestionó el análisis de 58 archivos contenidos en un pendrive entregado por un periodista.",
+          "cuerpo": "<p>El exdirector de la Agencia Nacional de Discapacidad, <strong>Diego Spagnuolo</strong>, volvió a recurrir a la Justicia para frenar el peritaje de los audios en el marco de la causa ANDIS, mientras la pericia de Gendarmería sobre el material ya está en marcha.</p><p>Spagnuolo cuestionó el análisis de <strong>58 archivos</strong> contenidos en un pendrive entregado por el periodista Mauro Federico.</p>",
+          "foto": ""
+        },
+        {
+          "id": "ley_agostina_cordoba",
+          "cat": "Política Nacional · Congreso",
+          "titulo": "Presentaron el proyecto de ley Agostina en la Legislatura de Córdoba: sus principales puntos",
+          "bajada": "El texto impulsa distintas políticas para prevenir, detectar y proteger a niños.",
+          "cuerpo": "<p>Se presentó en la Legislatura de Córdoba el proyecto de <strong>ley Agostina</strong>, impulsado por Gabriel Vega, padre de la adolescente asesinada hace más de tres meses en esa provincia.</p><p>El texto impulsa distintas políticas para prevenir, detectar y proteger a niños.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg/960px-144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg"
+        }
+      ]
+    },
+    {
       "clave": "2026-08-31_tarde",
       "fecha_iso": "2026-08-31",
       "fecha": "31 agosto 2026",
