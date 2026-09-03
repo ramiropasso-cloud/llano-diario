@@ -2,6 +2,197 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-09-03_manana",
+      "fecha_iso": "2026-09-03",
+      "fecha": "3 septiembre 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "Emergencia agropecuaria: La Pampa recibió ATN de $ 3.500 millones",
+        "summary": "El Gobierno nacional envió a la provincia el dinero desde el Fondo de Aportes del Tesoro Nacional, en virtud de la ayuda solicitada por el gobernador Sergio Ziliotto en su reunión con el jefe de Gabinete, Diego Santilli.",
+        "cat": "La Pampa · Economía",
+        "foto": "https://apn.lapampa.gob.ar/images/noticias/6a98a1fb1e616.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "\"Pasan Cosas Buenas\", lo nuevo de Educación por streaming",
+          "resumen": "El Ministerio de Educación transmitirá los viernes a las 10 un nuevo programa para visibilizar acciones escolares e historias de vida de la comunidad educativa pampeana.",
+          "cat": "La Pampa · Educación",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a9952893e66c.jpg",
+          "ts": "3 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Prevención del suicidio: agenda de sensibilización y trabajo territorial en septiembre",
+          "resumen": "El Ministerio de Salud y la Subsecretaría de Salud Mental y Adicciones impulsan una agenda provincial de cara al Día Mundial para la Prevención del Suicidio, el 10 de septiembre.",
+          "cat": "La Pampa · Salud",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/147899_whatsapp-image-2026-09-02-at-10.19.01.jpeg",
+          "ts": "3 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Música, poesía, patrimonio y fiestas populares en la agenda cultural de septiembre",
+          "resumen": "La Secretaría de Cultura presenta una programación que incluye el Coral de La Pampa, la Fiesta Provincial del Agricultor, el Poesía Pampa Fest y las Jornadas de Patrimonio Cultural.",
+          "cat": "La Pampa · Cultura",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a98435a81a53.jpg",
+          "ts": "3 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Juez pampeano acusado de maltrato laboral podrá volver a su cargo: rechazaron destituirlo",
+          "resumen": "El Jurado de Enjuiciamiento consideró por unanimidad que la remoción de Pablo Díaz Lacava sería un \"desenlace desproporcionado\"; el magistrado había sido suspendido en abril.",
+          "cat": "La Pampa · Justicia",
+          "foto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Cristina_baston_Kirchner.jpg/960px-Cristina_baston_Kirchner.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "ts": "3 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Axel Kicillof cargó contra el Gobierno: \"Si le va mal al sector industrial es responsabilidad de Milei\"",
+          "resumen": "El gobernador bonaerense habló en el acto por el Día de la Industria en Morón y calificó la política económica nacional como un \"plan de exterminio\".",
+          "cat": "Política Nacional · Economía",
+          "foto": "",
+          "ts": "3 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "La CGT reclamó por \"una Argentina con producción nacional\" en el Día de la Industria",
+          "resumen": "Los triunviros Jorge Sola, Octavio Argüello y Cristian Jerónimo encabezaron un acto en el que defendieron la importancia de una industria nacional fuerte.",
+          "cat": "Política Nacional · Economía",
+          "foto": "",
+          "ts": "3 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "San Luis aprobó la reforma constitucional: prohíbe la reelección indefinida y suprime los comicios de medio término",
+          "resumen": "El proyecto del gobernador Claudio Poggi obtuvo sanción definitiva en Diputados con 30 votos a favor y 13 en contra; la provincia elegirá 52 convencionales constituyentes.",
+          "cat": "Política Nacional · Congreso",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg/960px-144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg",
+          "ts": "3 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Caso Loan: excomisario pidió declarar y será el primer acusado en romper el silencio",
+          "resumen": "Walter Maciel solicitó prestar testimonio la próxima semana ante el Tribunal Oral Federal.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "",
+          "ts": "3 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "ANMAT prohibió marcas de productos de limpieza, médicos y de estética: cuáles son y por qué las retiró del mercado",
+          "resumen": "El organismo dispuso el retiro y la prohibición de uso, comercialización y distribución de distintos productos por falta de registro, presunta falsificación y pérdida de trazabilidad.",
+          "cat": "Política Nacional · Salud",
+          "foto": "",
+          "ts": "3 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Riboyra: \"Escuchamos a todos los pampeanos y damos las respuestas posibles ante el brutal ajuste nacional\"",
+          "resumen": "La presidenta del IPAV afirmó que la Provincia continúa trabajando para dar respuesta a las familias que necesitan una vivienda, pese a la paralización de la política habitacional nacional.",
+          "cat": "La Pampa · Gobierno",
+          "ts": "3 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Día de la Industria: reconocimiento a empresas, emprendedores y profesionales pampeanos",
+          "resumen": "La ministra Fernanda González, el titular de UNILPa y un empresario piquense coincidieron en el rol clave de la industria para el desarrollo provincial pese al escenario nacional adverso.",
+          "cat": "La Pampa · Producción",
+          "ts": "3 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "emergencia_agropecuaria_atn",
+          "cat": "La Pampa · Economía",
+          "titulo": "Emergencia agropecuaria: La Pampa recibió ATN de $ 3.500 millones",
+          "bajada": "El envío se concretó en virtud de la ayuda solicitada por el gobernador Ziliotto en su reunión con el jefe de Gabinete, Diego Santilli.",
+          "cuerpo": "<p>El Gobierno nacional envió a la provincia de La Pampa <strong>$3.500 millones</strong> desde el Fondo de Aportes del Tesoro Nacional (ATN), en el marco de la emergencia agropecuaria declarada en el territorio provincial.</p><p>El envío se concretó en virtud de la ayuda solicitada por el gobernador <strong>Sergio Ziliotto</strong> en ocasión de reunirse con el jefe de Gabinete, <strong>Diego Santilli</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a98a1fb1e616.jpg"
+        },
+        {
+          "id": "riboyra_ipav_ajuste_nacional",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "Riboyra: \"Escuchamos a todos los pampeanos y damos las respuestas posibles ante el brutal ajuste nacional\"",
+          "bajada": "La funcionaria remarcó que la Provincia continúa trabajando pese a la paralización de la política habitacional del Gobierno nacional.",
+          "cuerpo": "<p>La presidenta del Instituto Provincial Autárquico de Vivienda (IPAV), <strong>Erica Riboyra</strong>, afirmó que la Provincia continúa trabajando para dar respuesta a las familias que necesitan una vivienda, pese a la paralización de la política habitacional del Gobierno nacional.</p><p>\"Escuchamos a todos los pampeanos y damos las respuestas posibles ante el brutal ajuste nacional\", sostuvo la funcionaria.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a98a9cc3dd9d.jpg"
+        },
+        {
+          "id": "dia_industria_pampeana_reconocimiento",
+          "cat": "La Pampa · Producción",
+          "titulo": "Día de la Industria: reconocimiento a empresas, emprendedores y profesionales pampeanos",
+          "bajada": "\"En La Pampa no esperamos que las inversiones lleguen solas: las buscamos y generamos las condiciones para que se concreten\", señaló la ministra González.",
+          "cuerpo": "<p>En el marco del Día de la Industria, el Gobierno de La Pampa, a través del Ministerio de la Producción, reconoció a empresarios, emprendedores, técnicos y profesionales que sostienen la actividad industrial provincial.</p><p>La ministra de la Producción, <strong>Fernanda González</strong>, sostuvo que \"defender la industria significa acompañar a quienes producen y generan empleo\" y afirmó: \"en La Pampa no esperamos que las inversiones lleguen solas: las buscamos y generamos las condiciones para que se concreten\". Según datos oficiales, en 2026 se movilizaron más de <strong>$45.000 millones</strong> en inversiones privadas en la provincia.</p><p>El presidente de la Unión de Industriales de La Pampa (UNILPa), <strong>Miguel Iglesias</strong>, reconoció que el sector enfrenta dificultades por la caída del consumo, la reducción de volúmenes y los altos costos financieros, pero valoró que \"La Pampa ha tomado medidas de amortiguación acertadas para nuestras empresas\", como las líneas de crédito subsidiado y el desarrollo del nuevo parque industrial de General Pico. En General Pico, el empresario <strong>Agustín Cayre</strong>, de tercera generación en la firma Ascheri, remarcó que \"el desarrollo de un país tiene que estar necesariamente ligado al desarrollo industrial\".</p>",
+          "foto": ""
+        },
+        {
+          "id": "pasan_cosas_buenas_streaming",
+          "cat": "La Pampa · Educación",
+          "titulo": "\"Pasan Cosas Buenas\", lo nuevo de Educación por streaming",
+          "bajada": "El programa está dirigido a toda la comunidad educativa: docentes, equipos directivos, estudiantes, familias y público general.",
+          "cuerpo": "<p>A través del canal de YouTube @educa-me, el Ministerio de Educación de La Pampa transmitirá en vivo un nuevo programa los viernes a las 10, con el objetivo de poner en valor acciones escolares e historias de vida de los establecimientos educativos pampeanos.</p><p><strong>\"Pasan Cosas Buenas\"</strong> comienza el viernes 4 de septiembre, con la conducción de Cristian Guiñez y Valeria Torres Ramos, y busca consolidarse como un espacio de comunicación semanal dirigido a toda la comunidad educativa: docentes, equipos directivos, personal auxiliar, estudiantes de todos los niveles, familias y público general.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a9952893e66c.jpg"
+        },
+        {
+          "id": "prevencion_suicidio_agenda_septiembre",
+          "cat": "La Pampa · Salud",
+          "titulo": "Prevención del suicidio: agenda de sensibilización y trabajo territorial en septiembre",
+          "bajada": "La agenda se enmarca en el Día Mundial para la Prevención del Suicidio, que se conmemora cada 10 de septiembre.",
+          "cuerpo": "<p>El Gobierno provincial, a través del Ministerio de Salud y la Subsecretaría de Salud Mental y Adicciones, impulsa una agenda provincial de acciones de sensibilización y trabajo territorial durante todo el mes de septiembre.</p><p>La iniciativa se enmarca en el <strong>Día Mundial para la Prevención del Suicidio</strong>, que se conmemora cada 10 de septiembre.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/147899_whatsapp-image-2026-09-02-at-10.19.01.jpeg"
+        },
+        {
+          "id": "agenda_cultural_septiembre",
+          "cat": "La Pampa · Cultura",
+          "titulo": "Música, poesía, patrimonio y fiestas populares en la agenda cultural de septiembre",
+          "bajada": "La programación incluye talleres, exposiciones y canto lírico en distintos puntos de la provincia.",
+          "cuerpo": "<p>Con el Coral de La Pampa en pleno desarrollo, la celebración de la Riwwel Kuchen en Perú, la Fiesta Provincial del Agricultor en Arata, la VIII edición del Poesía Pampa Fest y las Segundas Jornadas Provinciales de Patrimonio Cultural, la Secretaría de Cultura presenta una variada programación para septiembre que incluye talleres, exposiciones y canto lírico.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/noticias/6a98435a81a53.jpg"
+        },
+        {
+          "id": "juez_pampeano_no_destituido",
+          "cat": "La Pampa · Justicia",
+          "titulo": "Juez pampeano acusado de maltrato laboral podrá volver a su cargo: rechazaron destituirlo",
+          "bajada": "El magistrado había sido suspendido en abril tras las denuncias por maltrato laboral.",
+          "cuerpo": "<p>El Jurado de Enjuiciamiento consideró por unanimidad que la remoción del juez <strong>Pablo Díaz Lacava</strong>, acusado de maltrato laboral, sería un \"desenlace desproporcionado\", por lo que rechazó destituirlo y podrá volver a su cargo.</p><p>El magistrado había sido suspendido en abril a raíz de las denuncias en su contra.</p>",
+          "foto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Cristina_baston_Kirchner.jpg/960px-Cristina_baston_Kirchner.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        },
+        {
+          "id": "kicillof_industria_milei",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Axel Kicillof cargó contra el Gobierno: \"Si le va mal al sector industrial es responsabilidad de Milei\"",
+          "bajada": "El gobernador bonaerense calificó la política económica nacional como un \"plan de exterminio\".",
+          "cuerpo": "<p>El gobernador bonaerense <strong>Axel Kicillof</strong> cargó contra el Gobierno nacional durante un acto por el Día de la Industria en Morón: \"si le va mal al sector industrial es responsabilidad de Milei\", afirmó.</p><p>Kicillof calificó la política económica del Gobierno nacional como un <strong>\"plan de exterminio\"</strong> para el entramado productivo argentino.</p>",
+          "foto": ""
+        },
+        {
+          "id": "cgt_reclamo_produccion_nacional",
+          "cat": "Política Nacional · Economía",
+          "titulo": "La CGT reclamó por \"una Argentina con producción nacional\" en el Día de la Industria",
+          "bajada": "En paralelo, presentaron un proyecto para defender el entramado productivo local.",
+          "cuerpo": "<p>Los triunviros de la CGT, <strong>Jorge Sola</strong>, <strong>Octavio Argüello</strong> y <strong>Cristian Jerónimo</strong>, encabezaron un acto a puertas cerradas por el Día de la Industria en el que defendieron la importancia de contar con una industria nacional \"fuerte\".</p><p>En paralelo, la central obrera presentó un proyecto para defender el entramado productivo local.</p>",
+          "foto": ""
+        },
+        {
+          "id": "san_luis_reforma_constitucional",
+          "cat": "Política Nacional · Congreso",
+          "titulo": "San Luis aprobó la reforma constitucional: prohíbe la reelección indefinida y suprime los comicios de medio término",
+          "bajada": "La provincia elegirá 52 convencionales constituyentes encargados de modificar la Carta Magna provincial.",
+          "cuerpo": "<p>El proyecto de reforma constitucional impulsado por el gobernador <strong>Claudio Poggi</strong> obtuvo sanción definitiva en la Cámara de Diputados de San Luis, con 30 votos a favor y 13 en contra.</p><p>La reforma prohíbe la <strong>reelección indefinida</strong> y suprime los comicios de medio término. La provincia elegirá 52 convencionales constituyentes encargados de modificar la Carta Magna provincial.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg/960px-144_PER%C3%8DODO_DE_SESIONES_ORDINARIAS_EN_EL_CONGRESO_DE_LA_NACI%C3%93N.jpg"
+        },
+        {
+          "id": "caso_loan_excomisario_declarar",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "Caso Loan: excomisario pidió declarar y será el primer acusado en romper el silencio",
+          "bajada": "Durante la audiencia declararon cuatro prefectos sobre los movimientos de \"El Americano\" y los falsos integrantes de la Fundación Lucio Dupuy.",
+          "cuerpo": "<p>El excomisario <strong>Walter Maciel</strong> solicitó prestar testimonio la próxima semana ante el Tribunal Oral Federal en el juicio por la desaparición de Loan, y será el primer acusado en romper el silencio en la causa.</p><p>Durante la última audiencia declararon cuatro prefectos sobre los movimientos de \"El Americano\" y los falsos integrantes de la Fundación Lucio Dupuy.</p>",
+          "foto": ""
+        },
+        {
+          "id": "anmat_prohibio_marcas_productos",
+          "cat": "Política Nacional · Salud",
+          "titulo": "ANMAT prohibió marcas de productos de limpieza, médicos y de estética: cuáles son y por qué las retiró del mercado",
+          "bajada": "La medida se tomó por falta de registro, presunta falsificación y pérdida de trazabilidad de los productos.",
+          "cuerpo": "<p>La ANMAT dispuso el retiro y la prohibición de uso, comercialización y distribución de distintas marcas de productos de limpieza, médicos y de estética.</p><p>La medida se tomó por falta de registro, presunta falsificación y pérdida de trazabilidad de los productos alcanzados.</p>",
+          "foto": ""
+        }
+      ]
+    },
+    {
       "clave": "2026-09-01_tarde",
       "fecha_iso": "2026-09-01",
       "fecha": "1 septiembre 2026",
