@@ -2,6 +2,197 @@
   "version": 1,
   "corridas": [
     {
+      "clave": "2026-09-05_mediodia",
+      "fecha_iso": "2026-09-05",
+      "fecha": "5 septiembre 2026",
+      "turno": "Edición Mediodía · 11:00",
+      "hero": {
+        "titulo": "La UCR pampeana define hoy su convención: habilitaría negociar una alianza con LLA, PRO y Comunidad Organizada",
+        "summary": "La Convención Provincial se reúne este sábado a las 14 en el Comité Provincia (Pellegrini 534, Santa Rosa) y luego una Asamblea Extraordinaria pondrá a votación autorizar negociaciones de cara a las elecciones de 2027.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg/960px-Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "EMPATEL: se aprobó el balance 2026 que registra el 5to. año consecutivo con resultado positivo",
+          "resumen": "Los accionistas aprobaron por unanimidad un resultado favorable de $33.961.588,52 y un patrimonio neto de $7.502.918.792,68.",
+          "cat": "La Pampa · Economía",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a9b0ae61d923.jpg",
+          "ts": "5 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Promoción del Estado pampeano por el Día Mundial de la Salud Sexual",
+          "resumen": "El Ministerio de Salud llevó a cabo una jornada abierta a la comunidad en la Plaza San Martín de Santa Rosa.",
+          "cat": "La Pampa · Salud",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/325911_ff2f9aa3-0f5b-45c7-a440-698a3d50091f.jpeg",
+          "ts": "5 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gobierno puso en marcha la estrategia de forestación en instituciones educativas en Rancul",
+          "resumen": "Bajo el lema \"Sembramos hoy el futuro de nuestras escuelas y de La Pampa\", la jornada promueve la educación ambiental y la adaptación al cambio climático.",
+          "cat": "La Pampa · Educación",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a9b46064f1ce.jpg",
+          "ts": "5 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Producción mantiene activos los programas de forestación",
+          "resumen": "La Dirección General de Recursos Naturales recuerda la vigencia de programas destinados a fomentar la plantación de árboles en todo el territorio provincial.",
+          "cat": "La Pampa · Producción",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/3478120_ph---pitu-sarale-233.jpg",
+          "ts": "5 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Deporte y turismo en Uriburu: carrera de fondo y caminata recreativa",
+          "resumen": "Este domingo se disputa la tercera fecha del Campeonato Regional de Fondo, con pruebas de 5 y 10 kilómetros y una caminata participativa.",
+          "cat": "La Pampa · Deportes",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1851076_campeonato-uriburudsc_6699.jpg",
+          "ts": "5 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Aspirantes a agentes y cadetes del ISP se capacitan en el Centro de Simulación Clínica",
+          "resumen": "La capacitación práctica junto a CODES se desarrolla en el Complejo Hospitalario Favaloro-Molas, como parte de la formación integral de la Policía de La Pampa.",
+          "cat": "La Pampa · Seguridad",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/117476_whatsapp-image-2026-09-04-at-11.56.17--1-.jpeg",
+          "ts": "5 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "La Provincia dictó la conciliación obligatoria por 1.200 despidos en Granja Tres Arroyos",
+          "resumen": "La medida regirá durante 15 días hábiles y contempla la reincorporación de los trabajadores; las partes volverán a reunirse el jueves.",
+          "cat": "Política Nacional · Economía",
+          "foto": "",
+          "ts": "5 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Sin mencionar los anuncios de Javier Milei, Victoria Villarruel encabezó un homenaje por Malvinas en el Senado",
+          "resumen": "La vicepresidenta entregó 50 ejemplares de \"Malvinas: epopeya nacional\" a excombatientes en un acto en el Salón Azul.",
+          "cat": "Política Nacional · Casa Rosada",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/2/25/Retrato_oficial_Presidente_Milei.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+          "ts": "5 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Banco Nación bajó hasta 10 puntos las tasas de sus préstamos personales: quiénes pueden acceder",
+          "resumen": "La reducción está dirigida a trabajadores y jubilados que cobran sus haberes en la entidad.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Buenos_Aires-2672f-Banco_de_la_Naci%C3%B3n_Argentina.jpg/960px-Buenos_Aires-2672f-Banco_de_la_Naci%C3%B3n_Argentina.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+          "ts": "5 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "La Pampa y Buenos Aires: más cooperación y más herramientas para fortalecer la seguridad",
+          "resumen": "La prórroga por otros 24 meses del convenio firmado en 2024 permitirá profundizar operativos conjuntos, vigilancia aérea y controles en zonas limítrofes.",
+          "cat": "La Pampa · Seguridad",
+          "ts": "5 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "En La Pampa será obligatoria la capacitación en derechos de infancias y adolescencias",
+          "resumen": "El Programa Provincial de Capacitación alcanzará a más de 20 mil agentes públicos y funcionarios con formación continua y permanente.",
+          "cat": "La Pampa · Gobierno",
+          "ts": "5 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "ucr_convencion_alianza_2027",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La UCR pampeana define hoy su convención: habilitaría negociar una alianza con LLA, PRO y Comunidad Organizada",
+          "bajada": "La autorización no cierra ninguna alianza ni define candidaturas: solo habilita a la conducción partidaria a iniciar negociaciones formales.",
+          "cuerpo": "<p>La Convención Provincial de la UCR se reúne este sábado desde las 14 en la sede del Comité Provincia (Pellegrini 534, Santa Rosa). El primer punto del orden del día es la constitución de la nueva Mesa Directiva del cuerpo, además de la integración del Tribunal de Conducta, el Tribunal de Cuentas y la Junta Electoral partidaria.</p><p>A continuación, una <strong>Asamblea Extraordinaria</strong> pondrá a consideración de la Convención y el Comité en pleno la posibilidad de que el radicalismo se alíe o confedere con otros partidos nacionales y provinciales para competir en las elecciones de 2027, y podría autorizar a los organismos partidarios a avanzar en las negociaciones. Entre los espacios que aparecen en esa discusión están <strong>La Libertad Avanza</strong>, el <strong>PRO</strong> y <strong>Comunidad Organizada</strong>, con la eventual inclusión del MOFEPA y el MID.</p><p>La autorización que se somete a votación no cierra ninguna alianza, no define candidaturas ni reparto de espacios: solo habilita a la conducción partidaria, a través de una comisión de tres integrantes, a iniciar negociaciones formales. Entre los referentes mencionados en la discusión figuran el presidente del Comité Provincia UCR, <strong>Martín Berhongaray</strong>; el fundador de Comunidad Organizada y exintendente de Santa Rosa, <strong>Juan Carlos Tierno</strong>; el vocero presidencial <strong>Adrián Ravier</strong>, como referencia libertaria; y los dirigentes de la Línea Azul, Francisco Torroba y Abel Sabarots.</p><p>La UCR gobierna actualmente <strong>28 intendencias</strong> en la provincia. Según trascendió, un dirigente radical resumió el clima interno: \"hay que tragarse el sapo si queremos ganarle al peronismo\".</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg/960px-Municipalidad_de_Santa_Rosa%2C_La_Pampa.jpg"
+        },
+        {
+          "id": "la_pampa_bsas_seguridad_convenio",
+          "cat": "La Pampa · Seguridad",
+          "titulo": "La Pampa y Buenos Aires: más cooperación y más herramientas para fortalecer la seguridad",
+          "bajada": "El convenio ya se tradujo en operativos conjuntos, vigilancia aérea con tecnología de última generación y controles en zonas limítrofes.",
+          "cuerpo": "<p>La prórroga por otros 24 meses del convenio de seguridad suscripto entre La Pampa y Buenos Aires en 2024 permitirá profundizar una política de cooperación que ya se tradujo en operativos conjuntos, vigilancia aérea con tecnología de última generación, controles en zonas limítrofes y capacitación de personal policial.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/591074_img-20260904-wa0028.jpg"
+        },
+        {
+          "id": "capacitacion_obligatoria_derechos_infancias",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "En La Pampa será obligatoria la capacitación en derechos de infancias y adolescencias",
+          "bajada": "La formación será continua, obligatoria y permanente para agentes públicos y funcionarios de toda la provincia.",
+          "cuerpo": "<p>El Gobierno provincial presentó el Programa Provincial de Capacitación en Derechos de Niñas, Niños y Adolescentes. Con esta iniciativa se brindará formación continua, obligatoria y permanente en derechos de infancias y adolescencias a más de <strong>20 mil agentes públicos y funcionarios</strong>.</p>",
+          "foto": ""
+        },
+        {
+          "id": "empatel_balance_2026_quinto_ano",
+          "cat": "La Pampa · Economía",
+          "titulo": "EMPATEL: se aprobó el balance 2026 que registra el 5to. año consecutivo con resultado positivo",
+          "bajada": "El ejercicio finalizó el 31 de marzo de 2026, marcando el quinto período consecutivo con superávit desde la creación de la empresa.",
+          "cuerpo": "<p>Los accionistas de EMPATEL SAPEM aprobaron por unanimidad en Asamblea Ordinaria el balance correspondiente al ejercicio económico finalizado el 31 de marzo de 2026.</p><p>La presentación arrojó un resultado favorable de <strong>$33.961.588,52</strong>, marcando el quinto período consecutivo con superávit desde la creación de la empresa y consolidando un patrimonio neto de <strong>$7.502.918.792,68</strong>.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a9b0ae61d923.jpg"
+        },
+        {
+          "id": "salud_sexual_dia_mundial_promocion",
+          "cat": "La Pampa · Salud",
+          "titulo": "Promoción del Estado pampeano por el Día Mundial de la Salud Sexual",
+          "bajada": "La jornada abierta a la comunidad se realizó en la Plaza San Martín de la capital provincial.",
+          "cuerpo": "<p>En el marco del Día Mundial de la Salud Sexual, que se conmemora cada 4 de septiembre para promover el ejercicio pleno de los derechos sexuales, el Ministerio de Salud, a través de la Subsecretaría de Salud Social y Comunitaria, llevó a cabo una jornada abierta a la comunidad en la Plaza San Martín de la capital provincial.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/325911_ff2f9aa3-0f5b-45c7-a440-698a3d50091f.jpeg"
+        },
+        {
+          "id": "forestacion_escuelas_rancul",
+          "cat": "La Pampa · Educación",
+          "titulo": "Gobierno puso en marcha la estrategia de forestación en instituciones educativas en Rancul",
+          "bajada": "La jornada promueve la educación ambiental y la adaptación al cambio climático en las escuelas pampeanas.",
+          "cuerpo": "<p>Bajo el lema \"sembramos hoy el futuro de nuestras escuelas y de La Pampa\", autoridades provinciales, especialistas técnicos y la comunidad educativa de Rancul formaron parte de la jornada que promueve la educación ambiental y la adaptación al cambio climático.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/6a9b46064f1ce.jpg"
+        },
+        {
+          "id": "produccion_programas_forestacion_vigentes",
+          "cat": "La Pampa · Producción",
+          "titulo": "Producción mantiene activos los programas de forestación",
+          "bajada": "Los programas están destinados a fomentar la plantación de árboles en todo el territorio provincial.",
+          "cuerpo": "<p>El Ministerio de la Producción de La Pampa, a través de la Dirección General de Recursos Naturales, recuerda la vigencia de diversos programas destinados a fomentar la plantación de árboles en todo el territorio provincial.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/3478120_ph---pitu-sarale-233.jpg"
+        },
+        {
+          "id": "campeonato_fondo_uriburu",
+          "cat": "La Pampa · Deportes",
+          "titulo": "Deporte y turismo en Uriburu: carrera de fondo y caminata recreativa",
+          "bajada": "Habrá pruebas de 5 y 10 kilómetros y propuestas para niñas y niños.",
+          "cuerpo": "<p>Este domingo se disputará en Uriburu la tercera fecha del Campeonato Regional de Fondo 2026, con pruebas de 5 y 10 kilómetros, una caminata participativa de 5 kilómetros y propuestas para niñas y niños.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1851076_campeonato-uriburudsc_6699.jpg"
+        },
+        {
+          "id": "isp_capacitacion_codes_simulacion",
+          "cat": "La Pampa · Seguridad",
+          "titulo": "Aspirantes a agentes y cadetes del ISP se capacitan en el Centro de Simulación Clínica",
+          "bajada": "La actividad se desarrolla junto a la Coordinación de Desastres y Emergencias Sanitarias (CODES).",
+          "cuerpo": "<p>Como parte de la formación integral que reciben quienes se preparan para incorporarse a la Policía de La Pampa, aspirantes a agentes y cadetes del Instituto Superior Policial (ISP) participan de una capacitación práctica junto a la Coordinación de Desastres y Emergencias Sanitarias (CODES), en el Centro de Simulación Clínica del Complejo Hospitalario Favaloro-Molas.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/117476_whatsapp-image-2026-09-04-at-11.56.17--1-.jpeg"
+        },
+        {
+          "id": "conciliacion_granja_tres_arroyos",
+          "cat": "Política Nacional · Economía",
+          "titulo": "La Provincia dictó la conciliación obligatoria por 1.200 despidos en Granja Tres Arroyos",
+          "bajada": "Las partes volverán a reunirse el jueves para intentar alcanzar un acuerdo.",
+          "cuerpo": "<p>La provincia de Buenos Aires dictó la conciliación obligatoria por <strong>1.200 despidos</strong> en Granja Tres Arroyos. La medida regirá durante 15 días hábiles y contempla la reincorporación de los trabajadores.</p><p>Las partes volverán a reunirse el jueves para intentar alcanzar un acuerdo.</p>",
+          "foto": ""
+        },
+        {
+          "id": "villarruel_homenaje_malvinas_senado",
+          "cat": "Política Nacional · Casa Rosada",
+          "titulo": "Sin mencionar los anuncios de Javier Milei, Victoria Villarruel encabezó un homenaje por Malvinas en el Senado",
+          "bajada": "La vicepresidenta entregó 50 ejemplares de \"Malvinas: epopeya nacional\" a excombatientes durante el acto.",
+          "cuerpo": "<p>La vicepresidenta <strong>Victoria Villarruel</strong> encabezó un homenaje por Malvinas en el Senado, en el Salón Azul, sin mencionar los anuncios del presidente Javier Milei.</p><p>Villarruel entregó 50 ejemplares del libro \"Malvinas: epopeya nacional\" a excombatientes. Aunque estaba previsto que hablara, decidió no pronunciarse.</p>",
+          "foto": "https://upload.wikimedia.org/wikipedia/commons/2/25/Retrato_oficial_Presidente_Milei.png?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled"
+        },
+        {
+          "id": "banco_nacion_baja_tasas_prestamos",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Banco Nación bajó hasta 10 puntos las tasas de sus préstamos personales: quiénes pueden acceder",
+          "bajada": "Para un crédito de $10 millones, la cuota inicial disminuye más de $64.000.",
+          "cuerpo": "<p>El Banco Nación bajó hasta <strong>10 puntos</strong> las tasas de sus préstamos personales, en una reducción dirigida a trabajadores y jubilados que cobran sus haberes en la entidad.</p><p>Para un crédito de $10 millones, la cuota inicial disminuye más de $64.000.</p>",
+          "foto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Buenos_Aires-2672f-Banco_de_la_Naci%C3%B3n_Argentina.jpg/960px-Buenos_Aires-2672f-Banco_de_la_Naci%C3%B3n_Argentina.jpg?utm_source=es.wikipedia.org&utm_campaign=api&utm_content=thumbnail"
+        }
+      ]
+    },
+    {
       "clave": "2026-09-03_manana",
       "fecha_iso": "2026-09-03",
       "fecha": "3 septiembre 2026",
