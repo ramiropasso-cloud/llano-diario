@@ -5741,6 +5741,371 @@
           "foto": "https://apn.lapampa.gob.ar/images/multimedia/154360_img-20260613-wa0047.jpg"
         }
       ]
+    },
+    {
+      "clave": "2026-09-11_tarde",
+      "fecha_iso": "2026-09-11",
+      "fecha": "11 septiembre 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "Nación le quita a La Pampa las regalías de Los Nihuiles y crece el pedido de renuncia a Ravier",
+        "summary": "El Decreto 982/2026 transfiere a Mendoza el 100% de las regalías hidroeléctricas que La Pampa recibía desde 1973. Ziliotto anunció una demanda judicial y el intendente Di Nápoli exigió la renuncia del vocero presidencial Adrián Ravier.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://apn.lapampa.gob.ar/images/multimedia/2107320__jng7121.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "La Pampa adhirió al Régimen Penal Juvenil y bajó la imputabilidad a 14 años",
+          "resumen": "La Cámara de Diputados aprobó modificaciones a tres leyes locales para adaptarse a la normativa nacional, con la creación de diez nuevos cargos judiciales.",
+          "cat": "La Pampa · Diputados",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/08/27/alta/2154769.jpg",
+          "ts": "11 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Taxistas protestaron frente a la Municipalidad e irrumpieron en el Concejo Deliberante",
+          "resumen": "Reclamaron regulación de aplicaciones como Uber y Didi y pidieron ser recibidos por el intendente Di Nápoli, sin éxito.",
+          "cat": "La Pampa · Santa Rosa",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/10/alta/980080-t.jpg",
+          "ts": "11 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Golpiza a un docente: identificaron a los 6 policías, serían formalizados la semana próxima",
+          "resumen": "El fiscal general Guillermo Sancho calificó el ataque contra Lautaro Ruiz como un caso \"extraordinario\" por su nivel de violencia.",
+          "cat": "La Pampa · Justicia",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/11/alta/2156059.jpg",
+          "ts": "11 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Incertidumbre en Bernasconi por el posible cierre del frigorífico local",
+          "resumen": "Unos 40 operarios de la firma Metatech SA enfrentan un panorama crítico ante el anuncio del cese de actividades y denuncian atrasos salariales.",
+          "cat": "La Pampa · Economía",
+          "foto": "https://diarionoticias.com.ar/media/k2/items/cache/bb89930705a5c5a62efa069d6cb8c27b_XL.jpg",
+          "ts": "11 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Ziliotto creó el Campus de Salud, un polo sanitario y académico estratégico",
+          "resumen": "El decreto unifica el Hospital Favaloro, el Molas y el Centro Oncológico, e incluirá la futura Facultad de Ciencias de la Salud de la UNLPam.",
+          "cat": "La Pampa · Salud",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1391735_img-20260903-wa0021.jpg",
+          "ts": "11 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "La foto que ordena el libreto: Verna, Di Nápoli y el pragmatismo del PJ hacia 2027",
+          "resumen": "La reaparición pública de Carlos Verna junto al intendente de Santa Rosa precipitó los tiempos de la interna oficialista, en un peronismo que necesita diseñar la unidad.",
+          "cat": "La Pampa · Política Pampeana",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/10/alta/2155990.jpg",
+          "ts": "11 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Duros cruces entre Mendoza y La Pampa tras el decreto por las regalías de Los Nihuiles",
+          "resumen": "El Gobierno nacional dispuso que Mendoza recupere el 100% de las regalías hidroeléctricas, una medida celebrada por Cornejo y repudiada por Ziliotto.",
+          "cat": "Política Nacional · Federalismo",
+          "foto": "https://media.ambito.com/p/98ea6397836ab3ca6f4386af8bdb16ec/adjuntos/239/imagenes/043/637/0043637498/655x368/smart/ziliotto-cornejo.jpg",
+          "ts": "11 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Gobierno compra cuatro helicópteros Black Hawk a EEUU y profundiza el giro en Defensa",
+          "resumen": "La operación, de unos u$s140 millones, incluye motores, sistemas de navegación y soporte técnico; el primer aparato llegaría en diciembre.",
+          "cat": "Política Nacional · Defensa",
+          "foto": "https://media.ambito.com/p/d5c27270b85888da3aeb75dfe3246686/adjuntos/239/imagenes/043/637/0043637037/black-hawk-helicoptero.jpg",
+          "ts": "11 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Senado avanza con un nuevo régimen de incentivo a inversiones, con impulso radical",
+          "resumen": "El Régimen de Incentivo para las Inversiones Relevantes (RIIR) apunta a empresas medianas que no acceden a otros programas como el RIGI.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://media.ambito.com/p/a10361cdc464474d5b6d42c405da9353/adjuntos/239/imagenes/043/635/0043635487/655x368/smart/eduardo-vischi-senado.jpg",
+          "ts": "11 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Di Nápoli se sumó al reclamo por Los Nihuiles y le exigió la renuncia a Ravier",
+          "resumen": "El intendente de Santa Rosa respaldó la ofensiva judicial provincial y apuntó contra el vocero presidencial y economista pampeano Adrián Ravier.",
+          "cat": "La Pampa · Política Nacional",
+          "ts": "11 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Kroneberger advirtió que los intereses pampeanos están por encima de cualquier gestión nacional",
+          "resumen": "El senador nacional (UCR) pidió encauzar el conflicto por las regalías de Los Nihuiles \"bajo la Carta Magna\" y reclamó diálogo entre Nación y provincias.",
+          "cat": "La Pampa · Política Nacional",
+          "ts": "11 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "nihuiles_milei_quita_regalias_ravier",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Nación le quita a La Pampa las regalías de Los Nihuiles y crece el pedido de renuncia a Ravier",
+          "bajada": "El Decreto 982/2026 transfiere a Mendoza el 100% de las regalías hidroeléctricas que La Pampa recibía desde 1973. Ziliotto anunció una demanda judicial y el intendente Di Nápoli exigió la renuncia del vocero presidencial Adrián Ravier.",
+          "cuerpo": "<p>El Gobierno nacional oficializó el <strong>Decreto 982/2026</strong>, que deroga el histórico Decreto 1560/73 y transfiere a Mendoza el 100% de las regalías generadas por el complejo hidroeléctrico Los Nihuiles, un recurso que La Pampa venía percibiendo de manera ininterrumpida desde 1973.</p><p>El gobernador <strong>Sergio Ziliotto</strong> respondió de inmediato: \"No solo Mendoza nos robó un río. Ahora, junto al Gobierno de Milei, que deroga el Decreto 1560/73, nos quitan sus regalías. ¡No nos quedaremos quietos!\". La Fiscalía de Estado provincial ya trabaja en una presentación judicial para revertir la medida.</p><p>El intendente de Santa Rosa, <strong>Luciano di Nápoli</strong>, se sumó al reclamo y apuntó contra el vocero presidencial y economista pampeano <strong>Adrián Ravier</strong>: \"Si le queda algo de dignidad tiene que renunciar inmediatamente a este gobierno que despoja a los pampeanos\". Consultado por la prensa, Ravier evitó pronunciarse: \"Por el momento el vocero no va a hacer declaraciones\".</p><p>El senador nacional <strong>Daniel Kroneberger</strong> (UCR) pidió encauzar la disputa \"bajo la Carta Magna, la legislación y los pactos establecidos\" y afirmó que los intereses pampeanos \"están por encima de cualquier gestión de gobierno\".</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/2107320__jng7121.jpg"
+        },
+        {
+          "id": "di_napoli_reclamo_nihuiles_renuncia_ravier",
+          "cat": "La Pampa · Política Nacional",
+          "titulo": "Di Nápoli se sumó al reclamo por Los Nihuiles y le exigió la renuncia a Ravier",
+          "bajada": "El intendente de Santa Rosa respaldó la ofensiva judicial provincial y apuntó contra el vocero presidencial y economista pampeano Adrián Ravier.",
+          "cuerpo": "<p>El intendente de Santa Rosa, <strong>Luciano di Nápoli</strong>, se alineó con el reclamo provincial tras la publicación del Decreto 982/2026, que transfiere a Mendoza el 50% de las regalías del complejo hidroeléctrico El Nihuil que correspondía a La Pampa.</p><p>\"El presidente de la Nación y su ministro de economía acaban de quitarle a La Pampa las regalías por la represa El Nihuil\", afirmó, y agregó: \"A los pampeanos ya nos robaron un río incumpliendo, incluso, lo establecido por la CSJN; ahora nos vuelven a despojar del recurso\".</p><p>Di Nápoli confirmó que la comuna respaldará la estrategia legal provincial y dirigió su reclamo más directo al vocero presidencial <strong>Adrián Ravier</strong>: \"Si le queda algo de dignidad tiene que renunciar inmediatamente a este gobierno que despoja a los pampeanos\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/11/alta/2156071.jpg"
+        },
+        {
+          "id": "kroneberger_nihuiles_intereses_pampeanos",
+          "cat": "La Pampa · Política Nacional",
+          "titulo": "Kroneberger advirtió que los intereses pampeanos están por encima de cualquier gestión nacional",
+          "bajada": "El senador nacional (UCR) pidió encauzar el conflicto por las regalías de Los Nihuiles \"bajo la Carta Magna\" y reclamó diálogo entre Nación y provincias.",
+          "cuerpo": "<p>El senador nacional <strong>Daniel Kroneberger</strong> (UCR) se refirió a la quita de las regalías de Los Nihuiles a La Pampa y sostuvo que la provincia debe utilizar \"todas las herramientas institucionales\" para proteger sus recursos.</p><p>El legislador remarcó que la protección del río Atuel, los recursos hídricos y las regalías históricas \"no deben tratarse de asuntos partidarios, sino constituir una política de Estado provincial\", y pidió que las disputas entre el Estado federal y las provincias se encaucen \"bajo la Carta Magna, la legislación y los pactos establecidos\".</p><p>\"Cuando está en juego un recurso tan importante como el agua, el diálogo no puede ser una opción: debe ser el camino\", afirmó, y remarcó que los intereses de La Pampa se ubican por encima de cualquier gestión de gobierno.</p>",
+          "foto": ""
+        },
+        {
+          "id": "regimen_penal_juvenil_adhesion",
+          "cat": "La Pampa · Diputados",
+          "titulo": "La Pampa adhirió al Régimen Penal Juvenil y bajó la imputabilidad a 14 años",
+          "bajada": "La Cámara de Diputados aprobó modificaciones a tres leyes locales para adaptarse a la normativa nacional, con la creación de diez nuevos cargos judiciales.",
+          "cuerpo": "<p>La Cámara de Diputados de La Pampa aprobó la adhesión provincial al Régimen Penal Juvenil, que reduce la edad de imputabilidad de 16 a 14 años, y sancionó modificaciones a tres leyes locales para adaptarse a la normativa nacional.</p><p>El diputado <strong>Hernán Pérez Araujo</strong> (PJ) señaló que \"entendemos que no es un problema en nuestra provincia el delito en menores de 14 años\", aunque remarcó que la provincia debía adecuarse legalmente, y destacó que los delitos adolescentes representan \"menos del 3%\" de los hechos delictivos a nivel nacional. La reforma crea diez cargos judiciales: cinco defensores y cinco fiscales adjuntos.</p><p>La diputada <strong>Andrea Valderrama</strong> (UCR) cuestionó esa estructura por \"desproporcionada\" frente a las estadísticas locales, y su bloque no acompañó algunos artículos del proyecto.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/08/27/alta/2154769.jpg"
+        },
+        {
+          "id": "taxistas_protesta_concejo_deliberante",
+          "cat": "La Pampa · Santa Rosa",
+          "titulo": "Taxistas protestaron frente a la Municipalidad e irrumpieron en el Concejo Deliberante",
+          "bajada": "Reclamaron regulación de aplicaciones como Uber y Didi y pidieron ser recibidos por el intendente Di Nápoli, sin éxito.",
+          "cuerpo": "<p>Representantes del Sindicato de Peones de Taxis y la Cámara de Propietarios de Taxis protagonizaron una protesta en la avenida San Martín, frente a la Municipalidad de Santa Rosa, para reclamar la regulación de plataformas de transporte como Uber y Didi.</p><p>Aunque el municipio había anunciado la apertura de un Registro de Permisionarios de transporte privado, los trabajadores mantuvieron la movilización y luego irrumpieron en la sesión del Concejo Deliberante, interrumpiendo los trabajos legislativos durante dos horas. Un forcejeo entre taxistas y un chofer de aplicación no pasó a mayores.</p><p>Los manifestantes reclamaron ser recibidos por el intendente <strong>Luciano di Nápoli</strong>, sin éxito. Uno de los taxistas, Martín Muñíz, cuestionó: \"Acá tenemos a una multinacional operando sin obligaciones\" y remarcó que \"la Constitución Nacional plantea una igualdad ante la ley\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/10/alta/980080-t.jpg"
+        },
+        {
+          "id": "golpiza_docente_policias_indagados",
+          "cat": "La Pampa · Justicia",
+          "titulo": "Golpiza a un docente: identificaron a los 6 policías, serían formalizados la semana próxima",
+          "bajada": "El fiscal general Guillermo Sancho calificó el ataque contra Lautaro Ruiz como un caso \"extraordinario\" por su nivel de violencia.",
+          "cuerpo": "<p>El fiscal general <strong>Guillermo Sancho</strong> describió como \"extraordinario\" el ataque contra el docente Lautaro Ruiz por el nivel de violencia policial empleado, e indicó que se realizará una investigación exhaustiva.</p><p>Fueron interrogados seis policías: Javier Regiart, Carolina Titunik, Eric Assel, Sabrina Suhurt, Daiana Cerda y Luciano Carmona, desplegados en la Terminal e involucrados en la identificación del docente en calle Maestros Pampeanos y su posterior traslado a la Seccional Primera. Solo uno de los seis prestó declaración.</p><p>Según la denuncia, Ruiz no sufrió agresión en la Terminal sino durante el traslado y al ingresar a la Seccional Primera. Sancho aclaró: \"No hay que hablar de la Policía de La Pampa por este hecho, sino de algún integrante de la Policía\", y remarcó que \"nada justifica la acción policial de esta manera\". Los efectivos serían formalizados la semana próxima.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/11/alta/2156059.jpg"
+        },
+        {
+          "id": "bernasconi_frigorifico_incertidumbre",
+          "cat": "La Pampa · Economía",
+          "titulo": "Incertidumbre en Bernasconi por el posible cierre del frigorífico local",
+          "bajada": "Unos 40 operarios de la firma Metatech SA enfrentan un panorama crítico ante el anuncio del cese de actividades y denuncian atrasos salariales.",
+          "cuerpo": "<p>La incertidumbre se instaló en Bernasconi luego de que operarios del frigorífico local advirtieran que la empresa arrendataria, <strong>Metatech SA</strong>, notificó la clausura de la planta. Actualmente emplea a entre 40 y 50 trabajadores, con salarios de alrededor de $850.000 mensuales, aunque parte del personal no cobra desde agosto.</p><p>\"Nos avisaron que iban a cerrar, no sabemos cuándo\", relató un operario, quien señaló que la actividad productiva fue escasa durante el último trimestre. El sindicato de la Carne no formuló declaraciones.</p><p>El establecimiento pertenece a Frigorífico HV SA, que paralizó su operación en noviembre; en enero se acordó el alquiler con Metatech (capitales chinos), que se formalizó en febrero y obtuvo la habilitación oficial para faena, desposte y empaque en abril. La empresa incorporó solo un grupo reducido de trabajadores, sin reincorporar al personal histórico.</p>",
+          "foto": "https://diarionoticias.com.ar/media/k2/items/cache/bb89930705a5c5a62efa069d6cb8c27b_XL.jpg"
+        },
+        {
+          "id": "campus_salud_ziliotto",
+          "cat": "La Pampa · Salud",
+          "titulo": "Ziliotto creó el Campus de Salud, un polo sanitario y académico estratégico",
+          "bajada": "El decreto unifica el Hospital Favaloro, el Molas y el Centro Oncológico, e incluirá la futura Facultad de Ciencias de la Salud de la UNLPam.",
+          "cuerpo": "<p>El gobernador <strong>Sergio Ziliotto</strong> formalizó mediante decreto la creación del Campus de Salud de La Pampa, que integra el Hospital de Complejidad Creciente Dr. René Favaloro, el Hospital Lucio Molas y el Centro Regional Radio Oncológico en un mismo espacio, junto a la futura sede de la Facultad de Ciencias de la Salud de la Universidad Nacional de La Pampa.</p><p>El Favaloro funcionará como ámbito de formación y residencia profesional; el Molas concentrará diagnóstico y atención ambulatoria; y el Centro Oncológico continuará con tratamientos especializados para evitar traslados fuera de la provincia. La Universidad cedió 8.500 metros cuadrados entre ambos hospitales para la nueva facultad.</p><p>\"Se unificarán estructuras directivas y se centralizará la organización y las decisiones, dando mayor eficiencia al uso de recursos humanos y económicos\", señaló el Gobierno provincial al presentar la iniciativa.</p>",
+          "foto": "https://apn.lapampa.gob.ar/images/multimedia/1391735_img-20260903-wa0021.jpg"
+        },
+        {
+          "id": "verna_dinapoli_foto_pj_2027",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La foto que ordena el libreto: Verna, Di Nápoli y el pragmatismo del PJ hacia 2027",
+          "bajada": "La reaparición pública de Carlos Verna junto al intendente de Santa Rosa precipitó los tiempos de la interna oficialista, en un peronismo que necesita diseñar la unidad.",
+          "cuerpo": "<p>La reaparición pública de <strong>Carlos Verna</strong> junto al intendente de Santa Rosa, Luciano di Nápoli, funcionó como la \"avant-première de una alianza que llevaba meses ensayándose en la intimidad\", según el análisis de El Diario de La Pampa.</p><p>Detrás del gesto conviven la amenaza de un frente opositor unificado en la UCR y la necesidad del peronismo pampeano de diseñar su propia unidad de cara a 2027, con di Nápoli perfilado como candidato a gobernador mientras Verna conserva un liderazgo real que, según el análisis, \"prescinde del organigrama formal\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/10/alta/2155990.jpg"
+        },
+        {
+          "id": "mendoza_lapampa_cruce_nihuiles_cornejo",
+          "cat": "Política Nacional · Federalismo",
+          "titulo": "Duros cruces entre Mendoza y La Pampa tras el decreto por las regalías de Los Nihuiles",
+          "bajada": "El Gobierno nacional dispuso que Mendoza recupere el 100% de las regalías hidroeléctricas, una medida celebrada por Cornejo y repudiada por Ziliotto.",
+          "cuerpo": "<p>El decreto nacional que transfiere a Mendoza el 100% de las regalías del complejo hidroeléctrico Los Nihuiles reactivó la tensión interprovincial por los recursos hídricos del río Atuel. El gobernador mendocino <strong>Alfredo Cornejo</strong> celebró la medida: \"Mendoza recupera lo que legítimamente le pertenece\" tras más de 50 años bajo un régimen compartido con La Pampa.</p><p>Su par pampeano, <strong>Sergio Ziliotto</strong>, respondió: \"No solo Mendoza nos robó un río. Ahora junto al Gobierno de Milei... nos quitan sus regalías\" y afirmó que \"no nos quedaremos quietos\".</p><p>La disputa tiene raíces históricas: desde los años 40 el complejo Los Nihuiles reguló el caudal del Atuel, expandiendo el oasis mendocino y reduciendo el agua hacia La Pampa. La Corte Suprema intervino en varias oportunidades, fijando en 2020 un caudal mínimo de 3,2 metros cúbicos por segundo. El senador peronista <strong>Daniel Bensusán</strong> calificó el decreto como \"un nuevo atropello contra las y los pampeanos\", recordando que un acuerdo de 1992 homologado por la Corte repartía las regalías entre ambas provincias.</p>",
+          "foto": "https://media.ambito.com/p/98ea6397836ab3ca6f4386af8bdb16ec/adjuntos/239/imagenes/043/637/0043637498/655x368/smart/ziliotto-cornejo.jpg"
+        },
+        {
+          "id": "black_hawk_helicopteros_defensa",
+          "cat": "Política Nacional · Defensa",
+          "titulo": "El Gobierno compra cuatro helicópteros Black Hawk a EEUU y profundiza el giro en Defensa",
+          "bajada": "La operación, de unos u$s140 millones, incluye motores, sistemas de navegación y soporte técnico; el primer aparato llegaría en diciembre.",
+          "cuerpo": "<p>El Departamento de Estado de EE.UU. autorizó la venta a la Argentina de cuatro helicópteros <strong>UH-60L Black Hawk</strong> por unos u$s140 millones, en un paso más de la cooperación estratégica en defensa entre Buenos Aires y Washington.</p><p>El acuerdo incluye dos motores T700-GE-701D, sistemas de navegación, equipos de comunicación y soporte técnico. El ministro <strong>Carlos Presti</strong> indicó que el primer aparato podría llegar en diciembre. El embajador estadounidense <strong>Peter Lamelas</strong> remarcó que la compra va más allá de lo militar: \"se trata de llegar a tiempo y salvar vidas\", en referencia a su uso en emergencias.</p><p>La adquisición se suma a la estrategia de modernización militar del Gobierno, que ya incluye aviones de combate F-16, aviones de reconocimiento P-3 Orion y vehículos blindados Stryker, todos de fabricación estadounidense.</p>",
+          "foto": "https://media.ambito.com/p/d5c27270b85888da3aeb75dfe3246686/adjuntos/239/imagenes/043/637/0043637037/black-hawk-helicoptero.jpg"
+        },
+        {
+          "id": "senado_riir_impulso_radical",
+          "cat": "Política Nacional · Economía",
+          "titulo": "El Senado avanza con un nuevo régimen de incentivo a inversiones, con impulso radical",
+          "bajada": "El Régimen de Incentivo para las Inversiones Relevantes (RIIR) apunta a empresas medianas que no acceden a otros programas como el RIGI.",
+          "cuerpo": "<p>El Senado aprobó en comisión el dictamen del <strong>Régimen de Incentivo para las Inversiones Relevantes (RIIR)</strong>, un nuevo esquema para atraer inversiones de empresas medianas que no pueden acceder a los programas vigentes, con un piso de <strong>u$s12 millones</strong>.</p><p>El proyecto contempla amortización acelerada en Ganancias y devolución anticipada de créditos fiscales de IVA para empresas que produzcan bienes muebles nuevos —excluidos los automotores— o realicen obras productivas. El presidente del bloque UCR, <strong>Eduardo Vischi</strong> (Corrientes), impulsó la iniciativa con el objetivo de \"industrializar materias primas\" y promover el desarrollo regional.</p><p>El RIIR se suma a los regímenes vigentes RIGI (piso de u$s200 millones) y RIMI (para empresas más chicas), mientras sigue pendiente el \"Super RIGI\" (piso de u$s1.000 millones). La próxima semana el Senado podría tratar también la reforma de la Carta Orgánica del BCRA y el proyecto de \"Inocencia Fiscal II\".</p>",
+          "foto": "https://media.ambito.com/p/a10361cdc464474d5b6d42c405da9353/adjuntos/239/imagenes/043/635/0043635487/655x368/smart/eduardo-vischi-senado.jpg"
+        }
+      ]
+    },
+    {
+      "clave": "2026-09-15_tarde",
+      "fecha_iso": "2026-09-15",
+      "fecha": "15 septiembre 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "La Pampa presentó una cautelar ante la Corte Suprema por Los Nihuiles y Ziliotto llevó el Atuel a la Corte Interamericana",
+        "summary": "La provincia pidió suspender el Decreto 982/2026 mientras la Justicia resuelve, y el gobernador expuso los litigios pampeanos ante el presidente de la Corte Interamericana, Ricardo Pérez Manrique, en medio del cruce público con el gobernador mendocino Alfredo Cornejo.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/15/alta/2156368.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Asfalto en el Plan 5.000: la pavimentación de 13 cuadras clave entra en su etapa final",
+          "resumen": "La obra estará concluida a fines de septiembre y mejorará la conectividad en el sur de la ciudad y el acceso al hospital Evita.",
+          "cat": "La Pampa · Santa Rosa",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/14/alta/2156315.jpg",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Condenaron al hombre que mató a \"Tomasito\", el caballo de Acha",
+          "resumen": "La jueza Laura Moscoso Mendieta condenó a Ricardo Daniel Brañas a tres años de prisión en suspenso por el delito de abigeato.",
+          "cat": "La Pampa · Justicia",
+          "foto": "https://static.wixstatic.com/media/4e4f43_57e8bf05ec9a4a919e01d53f59574877~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/4e4f43_57e8bf05ec9a4a919e01d53f59574877~mv2.jpg",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "El 9° Encuentro Nacional reunió a más de 200 artesanos en Pico",
+          "resumen": "La intendenta Fernanda Alonso visitó la feria y entregó a sus organizadores la declaración de interés municipal.",
+          "cat": "La Pampa · General Pico",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/15/alta/2156328.jpg",
+          "ts": "15 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Senadores de la oposición ampliaron la denuncia penal contra Milei, Caputo y Bausili por el oro del BCRA",
+          "resumen": "La AGN contradijo al titular del Banco Central sobre la custodia de las reservas de oro en el exterior.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://media.ambito.com/p/8e55d9cf5e04c743e5b5c8060e5263ba/adjuntos/239/imagenes/041/664/0041664321/caputo-y-mileijpeg.jpeg",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Malvinas: el Gobierno afirmó que el debate territorial dentro del Reino Unido favorece el reclamo argentino",
+          "resumen": "El canciller Pablo Quirno vinculó los reclamos de autodeterminación de Escocia, Gales e Irlanda del Norte con la postura argentina sobre las islas.",
+          "cat": "Política Nacional · Relaciones Exteriores",
+          "foto": "https://media.ambito.com/p/eaa72ba331f8d6b3e3b969462811a12f/adjuntos/239/imagenes/043/253/0043253788/pablo-quirno.jpg",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Revolución Federal: la Justicia descartó el financiamiento de los Caputo y elevó a juicio a Jonathan Morel",
+          "resumen": "El juez Martínez de Giorgi sobreseyó a Flavio, Hugo y Rosana Caputo y envió a juicio a cinco acusados por incitación a la violencia colectiva.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "https://media.ambito.com/p/13b15ebd1276a51259124830da79e289/adjuntos/239/imagenes/040/547/0040547308/655x368/smart/revolucion-federal-jonathan-moreljpg.jpg",
+          "ts": "15 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Tierno acusó a Torroba de ser \"un topo\" y busca romper la interna de la UCR",
+          "resumen": "El exintendente de Santa Rosa apunta contra el sector Celeste de la UCR desde su espacio Comunidad Organizada, con un entendimiento informal con el vocero presidencial Adrián Ravier.",
+          "cat": "La Pampa · Política Pampeana",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Libertad Avanza convoca a su Asamblea Provincial para definir alianzas rumbo a 2027",
+          "resumen": "Los libertarios elegirán primero a sus Congresales Provinciales y al día siguiente debatirán las condiciones para constituir un frente opositor en la provincia.",
+          "cat": "La Pampa · Política Pampeana",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Cornejo y Ziliotto se cruzaron por Los Nihuiles: \"Cumplan las leyes\"",
+          "resumen": "Los gobernadores de Mendoza y La Pampa mantuvieron un fuerte enfrentamiento en redes sociales por las regalías hidroeléctricas y el agua del río Atuel.",
+          "cat": "La Pampa · Política Nacional",
+          "ts": "14 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Pampa presentó su estrategia energética en la Argentina Energy Week 2026",
+          "resumen": "La delegación provincial mostró los avances del Plan Estratégico de Energía y las oportunidades de inversión en generación renovable.",
+          "cat": "La Pampa · Economía",
+          "ts": "14 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "nihuiles_cautelar_corte_suprema_ziliotto_cidh",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La Pampa presentó una cautelar ante la Corte Suprema por Los Nihuiles y Ziliotto llevó el Atuel a la Corte Interamericana",
+          "bajada": "La provincia pidió suspender el Decreto 982/2026 mientras la Justicia resuelve, y el gobernador expuso los litigios pampeanos ante el presidente de la Corte Interamericana, Ricardo Pérez Manrique, en medio del cruce público con el gobernador mendocino Alfredo Cornejo.",
+          "cuerpo": "<p>La Pampa presentó ante la Corte Suprema una medida cautelar autónoma para que se ordene la suspensión inmediata de dos artículos del <strong>Decreto 982/2026</strong>, que el 11 de septiembre eliminó el régimen vigente desde 1973 y asignó la totalidad de las regalías hidroeléctricas de Los Nihuiles a Mendoza. El Gobierno provincial sostuvo que ese derecho se sustenta en un <strong>convenio de 1992</strong> entre Nación, Mendoza y La Pampa, homologado por la Corte, y que \"ninguna de sus partes puede modificar unilateralmente los compromisos asumidos\".</p><p>En paralelo, el gobernador <strong>Sergio Ziliotto</strong> expuso esta mañana ante el presidente de la Corte Interamericana de Derechos Humanos, <strong>Ricardo Pérez Manrique</strong>, los litigios activos de la provincia por los incumplimientos de Mendoza al fallo de la Corte Suprema sobre el río Atuel. Pérez Manrique calificó el encuentro como \"muy constructivo\" pero evitó pronunciarse sobre el fondo: \"si este caso llegara a la Corte tendría que resolverlo\".</p><p>El cruce con Mendoza escaló también en redes: el gobernador mendocino <strong>Alfredo Cornejo</strong> argumentó que \"la fuente hidroeléctrica que genera la energía está íntegramente en Mendoza\" y que \"para generar energía no basta con el agua, necesita pendiente e infraestructura\". Ziliotto respondió exigiendo que \"se cumplan las leyes, los acuerdos y los fallos de la Corte Suprema\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/15/alta/2156368.jpg"
+        },
+        {
+          "id": "tierno_ataca_torroba_topo_ucr",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Tierno acusó a Torroba de ser \"un topo\" y busca romper la interna de la UCR",
+          "bajada": "El exintendente de Santa Rosa apunta contra el sector Celeste de la UCR desde su espacio Comunidad Organizada, con un entendimiento informal con el vocero presidencial Adrián Ravier.",
+          "cuerpo": "<p><strong>Juan Carlos Tierno</strong>, exintendente de Santa Rosa, redobló sus críticas contra la Unión Cívica Radical a través de sus redes sociales, con ataques dirigidos especialmente a <strong>Francisco Torroba</strong>, a quien acusó de ser \"un topo\" del peronismo.</p><p>Desde su espacio Comunidad Organizada, Tierno busca generar división dentro del sector Celeste de la UCR, liderado por Martín Berhongaray y Poli Altolaguirre, quienes consideran que el exintendente representa \"un límite desde lo político e incluso desde lo ético\". El conflicto tiene raíces históricas: Torroba derrotó a Tierno en las elecciones de 2008 en Santa Rosa, tras una intervención derivada de un caso de abuso de autoridad.</p><p>La estrategia de Comunidad Organizada incluye un entendimiento informal con el vocero presidencial <strong>Adrián Ravier</strong>, aunque esa alianza carece del respaldo de la conducción nacional de La Libertad Avanza. La UCR, además, rechaza una eventual candidatura de Tierno por sus antecedentes penales.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/15/alta/2156362.jpg"
+        },
+        {
+          "id": "lla_asamblea_alianzas_2027",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La Libertad Avanza convoca a su Asamblea Provincial para definir alianzas rumbo a 2027",
+          "bajada": "Los libertarios elegirán primero a sus Congresales Provinciales y al día siguiente debatirán las condiciones para constituir un frente opositor en la provincia.",
+          "cuerpo": "<p>La Junta Promotora de La Libertad Avanza en La Pampa convocó a la <strong>Primera Asamblea Extraordinaria del Congreso Provincial</strong> para el sábado 19 de septiembre a las 14, en una quinta de la calle Guido al 1236, Santa Rosa. El encuentro es un hito para la normalización del movimiento libertario en la provincia y la conformación de sus autoridades definitivas.</p><p>Los congresales tratarán \"la ratificación de la Carta Orgánica, la Declaración de Principios y las Bases de Acción Política\" del espacio, elegirán autoridades del Congreso Provincial y del Consejo Ejecutivo, y debatirán \"los lineamientos político-electorales con vistas al proceso electoral del año 2027\", incluyendo posibles acuerdos con otras fuerzas provinciales.</p><p>Previamente, este viernes 18 se realizará la elección interna de Congresales Provinciales, en la que se presentó una sola lista de candidatos, que será homologada antes de la asamblea del sábado.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/15/alta/2156364.jpg"
+        },
+        {
+          "id": "cornejo_ziliotto_cruce_nihuiles_cumplan_leyes",
+          "cat": "La Pampa · Política Nacional",
+          "titulo": "Cornejo y Ziliotto se cruzaron por Los Nihuiles: \"Cumplan las leyes\"",
+          "bajada": "Los gobernadores de Mendoza y La Pampa mantuvieron un fuerte enfrentamiento en redes sociales por las regalías hidroeléctricas y el agua del río Atuel.",
+          "cuerpo": "<p>Los gobernadores <strong>Alfredo Cornejo</strong> (Mendoza) y <strong>Sergio Ziliotto</strong> (La Pampa) protagonizaron un fuerte cruce público luego de que el presidente Javier Milei decretara que Mendoza perciba el 100% de las regalías de Los Nihuiles, decisión que La Pampa impugnó judicialmente.</p><p>Cornejo argumentó que \"la fuente hidroeléctrica que genera la energía está íntegramente en Mendoza\" y que \"para generar energía no basta con el agua, necesita pendiente e infraestructura\". Ziliotto respondió que reclama simplemente \"que se cumplan las leyes, los acuerdos y los fallos de la Corte Suprema\", y remarcó que Mendoza incumple desde hace años la orden de garantizar el caudal del Atuel hacia La Pampa.</p>",
+          "foto": ""
+        },
+        {
+          "id": "la_pampa_energia_argentina_energy_week",
+          "cat": "La Pampa · Economía",
+          "titulo": "La Pampa presentó su estrategia energética en la Argentina Energy Week 2026",
+          "bajada": "La delegación provincial mostró los avances del Plan Estratégico de Energía y las oportunidades de inversión en generación renovable.",
+          "cuerpo": "<p>La Pampa participó de la Argentina Energy Week 2026 en Buenos Aires, uno de los principales encuentros del sector energético nacional, con una delegación encabezada por el secretario de Energía y Minería, <strong>Matías Toso</strong>, y la presidenta de Pampetrol, <strong>María de los Ángeles Roveda</strong>, entre otros funcionarios.</p><p>Toso destacó que \"la responsabilidad está cada vez más en cabeza de las provincias\" para desarrollar estrategias de abastecimiento energético, y remarcó que La Pampa implementa su Plan Estratégico de Energía desde 2020. La provincia presentó el Parque Solar Fotovoltaico de Victorica, ya operativo, y el Parque Solar de General Pico, con su primera etapa al 55% de avance (15 MW) y una segunda etapa proyectada de 30 MW.</p><p>Pampetrol impulsa además una Convocatoria a Manifestaciones de Interés sobre 13 nodos estratégicos que totalizan 53,5 MW de potencial, con compra de energía renovable garantizada por hasta 20 años para dar certidumbre a la inversión privada.</p>",
+          "foto": ""
+        },
+        {
+          "id": "plan_5000_asfalto_etapa_final",
+          "cat": "La Pampa · Santa Rosa",
+          "titulo": "Asfalto en el Plan 5.000: la pavimentación de 13 cuadras clave entra en su etapa final",
+          "bajada": "La obra estará concluida a fines de septiembre y mejorará la conectividad en el sur de la ciudad y el acceso al hospital Evita.",
+          "cuerpo": "<p>El municipio de Santa Rosa avanza en su plan de pavimentación urbana con obras en <strong>13 cuadras</strong> del barrio Plan 5.000, que incluyen la calle Rodríguez y diez cuadras sobre Ferrando, desde avenida México hasta Bertera. En el tramo de Ferrando entre México y Mariano Pascual, la construcción de cordón cuneta y la preparación de la base registran un 90% de avance, mientras que el asfaltado ya superó el 75% de ejecución.</p><p>El intendente <strong>Luciano di Nápoli</strong> supervisó los trabajos y confirmó que se incorporarán dos cuadras más sobre Mariano Pascual. La finalización está programada para fines de septiembre. La intervención forma parte de un plan integral de 79 cuadras de asfalto en ocho barrios, que beneficiará a más de 1.500 familias y ya alcanza un avance global del 60%.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/14/alta/2156315.jpg"
+        },
+        {
+          "id": "tomasito_caballo_acha_condena",
+          "cat": "La Pampa · Justicia",
+          "titulo": "Condenaron al hombre que mató a \"Tomasito\", el caballo de Acha",
+          "bajada": "La jueza Laura Moscoso Mendieta condenó a Ricardo Daniel Brañas a tres años de prisión en suspenso por el delito de abigeato.",
+          "cuerpo": "<p>Un tribunal de General Acha condenó a <strong>Ricardo Daniel Brañas</strong>, de 28 años, a tres años de prisión en suspenso por matar a \"Tomasito\", un caballo mestizo de 500 kilos perteneciente a la familia Quiroga y valuado en 10 millones de pesos. El animal fue faenado el 28 de septiembre del año anterior en el predio municipal donde funciona el stud \"El Remate\".</p><p>La sentencia incluye reglas de conducta: presentarse mensualmente ante entidades de políticas sociales, no aproximarse al stud ni al domicilio de la víctima, abstenerse de todo contacto con ella y su familia, y completar una capacitación en derecho animal. \"La pena acordada se encuentra dentro de la escala penal prevista para este tipo de delitos\", señaló la jueza. El delito de abigeato contempla penas de dos a seis años de cárcel.</p>",
+          "foto": "https://static.wixstatic.com/media/4e4f43_57e8bf05ec9a4a919e01d53f59574877~mv2.jpg/v1/fill/w_980,h_653,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/4e4f43_57e8bf05ec9a4a919e01d53f59574877~mv2.jpg"
+        },
+        {
+          "id": "artesanos_general_pico_encuentro",
+          "cat": "La Pampa · General Pico",
+          "titulo": "El 9° Encuentro Nacional reunió a más de 200 artesanos en Pico",
+          "bajada": "La intendenta Fernanda Alonso visitó la feria y entregó a sus organizadores la declaración de interés municipal.",
+          "cuerpo": "<p>Con más de 200 expositores de distintos puntos del país, se desarrolló en General Pico el 9° Encuentro Nacional de Artesanos, en la Plaza San Martín. La propuesta, de acceso libre y gratuito, se extendió durante tres jornadas e incluyó talleres de cincelado en metal, platería criolla, tallado en madera y soguería, además de espectáculos musicales y propuestas gastronómicas.</p><p>La intendenta <strong>Fernanda Alonso</strong> visitó la feria y entregó a sus organizadores la declaración de interés municipal. \"Tenemos una plaza colmada de artesanos de distintos puntos del país\", destacó, y remarcó que el municipio está \"convencido de que el camino es seguir generando oportunidades para que nuestros hacedores locales puedan crecer, intercambiar, vender\". El piquense Adalberto \"Coco\" Sanez recibió una distinción por su trayectoria.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/15/alta/2156328.jpg"
+        },
+        {
+          "id": "oro_bcra_denuncia_penal_ampliada",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Senadores de la oposición ampliaron la denuncia penal contra Milei, Caputo y Bausili por el oro del BCRA",
+          "bajada": "La AGN contradijo al titular del Banco Central sobre la custodia de las reservas de oro en el exterior.",
+          "cuerpo": "<p>Los senadores <strong>Martín Soria</strong>, <strong>Juliana Di Tullio</strong> y <strong>María Florencia López</strong> ampliaron la denuncia penal presentada en abril de 2026 contra el presidente Javier Milei, el ministro de Economía Luis Caputo y el titular del Banco Central Santiago Bausili, incorporando nueva evidencia sobre \"el destino, la custodia y la trazabilidad de las reservas de oro\". Alegan posibles delitos de abuso de autoridad, incumplimiento de deberes de funcionario público y malversación de caudales públicos.</p><p>Bausili había declarado ante el Senado que las reservas de oro estaban depositadas en el Banco de Pagos Internacionales (BIS) en Suiza, pero la Auditoría General de la Nación contradijo esa versión al no poder verificar los traslados ni la existencia de contratos de custodia con depositarias extranjeras al 31 de diciembre de 2024. La denuncia ampliada también hace referencia a información que ubicaría parte de las reservas en Londres. El bloque peronista pidió que Bausili vuelva a las comisiones de Economía y Presupuesto para explicar el paradero del oro.</p>",
+          "foto": "https://media.ambito.com/p/8e55d9cf5e04c743e5b5c8060e5263ba/adjuntos/239/imagenes/041/664/0041664321/caputo-y-mileijpeg.jpeg"
+        },
+        {
+          "id": "malvinas_debate_territorial_uk_quirno",
+          "cat": "Política Nacional · Relaciones Exteriores",
+          "titulo": "Malvinas: el Gobierno afirmó que el debate territorial dentro del Reino Unido favorece el reclamo argentino",
+          "bajada": "El canciller Pablo Quirno vinculó los reclamos de autodeterminación de Escocia, Gales e Irlanda del Norte con la postura argentina sobre las islas.",
+          "cuerpo": "<p>El canciller <strong>Pablo Quirno</strong> sostuvo que el debate territorial dentro del Reino Unido —con los reclamos de autodeterminación de Escocia, Gales e Irlanda del Norte— aporta argumentos favorables al reclamo argentino por Malvinas. \"Que el Reino Unido defienda la integridad territorial es una excelente noticia, porque es lo que nosotros también hemos reclamado siempre\", afirmó.</p><p>Consultado por las sanciones contra las petroleras involucradas en el proyecto Sea Lion, Quirno sostuvo que \"Argentina está a derecho, cumpliendo con su legislación\" y que no recibió quejas diplomáticas por esas acciones. El funcionario también destacó que Argentina pasó de acuerdos comerciales que cubrían el 10% del PBI mundial al 30% en menos de tres años, con exportaciones de bienes por más de u$s58.000 millones entre enero y julio, un alza cercana al 23%.</p>",
+          "foto": "https://media.ambito.com/p/eaa72ba331f8d6b3e3b969462811a12f/adjuntos/239/imagenes/043/253/0043253788/pablo-quirno.jpg"
+        },
+        {
+          "id": "revolucion_federal_caputo_sobreseidos_juicio",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "Revolución Federal: la Justicia descartó el financiamiento de los Caputo y elevó a juicio a Jonathan Morel",
+          "bajada": "El juez Martínez de Giorgi sobreseyó a Flavio, Hugo y Rosana Caputo y envió a juicio a cinco acusados por incitación a la violencia colectiva.",
+          "cuerpo": "<p>El juez federal <strong>Marcelo Martínez de Giorgi</strong> dictó dos resoluciones clave en la causa Revolución Federal. Por un lado, sobreseyó a Flavio, Hugo y Rosana Caputo al no encontrar pruebas suficientes de que hubieran financiado las actividades del grupo, pese a transferencias por más de $6,5 millones detectadas por organismos financieros. El juez sostuvo que la relación comercial entre los Caputo y Jonathan Morel, vinculada a la provisión de muebles para emprendimientos inmobiliarios, correspondía a \"negocios genuinos\" y no a una fachada de financiamiento: \"No se encuentra probada una participación criminal\", afirmó.</p><p>Por otro lado, elevó a juicio a <strong>Jonathan Morel</strong>, Leonardo Sosa, Sabrina Basile, Gastón Guerra y Lidia Casciano, que enfrentarán proceso por hechos de violencia e intimidación, con los cargos recalificados como \"incitación a la violencia colectiva\".</p>",
+          "foto": "https://media.ambito.com/p/13b15ebd1276a51259124830da79e289/adjuntos/239/imagenes/040/547/0040547308/655x368/smart/revolucion-federal-jonathan-moreljpg.jpg"
+        }
+      ]
     }
   ]
 }
