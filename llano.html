@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="es" data-theme="dark">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,10 +18,10 @@
   <meta property="og:site_name" content="LLANO·" />
   <meta property="og:url" content="https://llano.it.com/" />
 
-  <meta property="og:title" content="UCR pampeana aprobó la gran alianza: UCR, LLA y PRO negociarán para disputar la gobernación en 2027" />
-  <meta property="og:description" content="La Convención radical aprobó ayer por amplia mayoría habilitar negociaciones con LLA, PRO y Comunidad Organizada. Berhongaray conducirá el proceso. El objetivo: quebrar 36 años de hegemonía peronista." />
+  <meta property="og:title" content="Nación le quita a La Pampa las regalías de Los Nihuiles y crece el pedido de renuncia a Ravier" />
+  <meta property="og:description" content="El Decreto 982/2026 transfiere a Mendoza el 100% de las regalías hidroeléctricas que La Pampa recibía desde 1973. Ziliotto anunció una demanda judicial y Di Nápoli exigió la renuncia del vocero presidencial Adrián Ravier." />
 
-  <meta property="og:image" content="img/politicos/berhongaray.webp" />
+  <meta property="og:image" content="https://llano.it.com/img/noticias/nihuiles-2026-09-11.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="LLANO· — Diario Digital IA La Pampa" />
@@ -29,9 +29,9 @@
   <!-- ── TWITTER / X CARD ── -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@llanodiario" />
-  <meta name="twitter:title" content="UCR pampeana aprobó la gran alianza: UCR, LLA y PRO negociarán para disputar la gobernación en 2027" />
-  <meta name="twitter:description" content="La Convención radical aprobó ayer por amplia mayoría habilitar negociaciones con LLA, PRO y Comunidad Organizada. Berhongaray conducirá el proceso. El objetivo: quebrar 36 años de hegemonía peronista." />
-  <meta name="twitter:image" content="img/politicos/berhongaray.webp" />
+  <meta name="twitter:title" content="Nación le quita a La Pampa las regalías de Los Nihuiles y crece el pedido de renuncia a Ravier" />
+  <meta name="twitter:description" content="El Decreto 982/2026 transfiere a Mendoza el 100% de las regalías hidroeléctricas que La Pampa recibía desde 1973. Ziliotto anunció una demanda judicial y Di Nápoli exigió la renuncia del vocero presidencial Adrián Ravier." />
+  <meta name="twitter:image" content="https://llano.it.com/img/noticias/nihuiles-2026-09-11.jpg" />
 
   <!-- ── JSON-LD SCHEMA ── -->
   <script type="application/ld+json">
@@ -78,708 +78,355 @@
   <!-- ── PERFORMANCE: PRECONNECT ── -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
   <style>
 
 /* ─── RESET + TOKENS ─── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  /* modo "lectura" claro — frío, sin crema/naranja */
-  --bg:        #f4f6f8;
-  --bg-2:      #e8ecf0;
-  --bg-3:      #dce1e6;
-  --fg:        #0d1117;
-  --fg-2:      #46505c;
-  --fg-3:      #8893a0;
-  --fg-4:      #c3c9d1;
-  --accent:    #0090e0;
-  --accent-2:  #0077c2;
-  --accent-bg: #e3f3fd;
-  --border:    #d5dae0;
-  --border-2:  #c0c7d0;
-  --ink:       #0d1117;
-  --red:       #d92b2b;
-  --green:     #16804a;
-  --blue:      #1a5dbf;
-  --shadow-s:  0 1px 2px rgba(13,17,23,.06);
-  --shadow-m:  0 2px 8px rgba(13,17,23,.08), 0 1px 2px rgba(13,17,23,.04);
-  --r:         5px;
-  --r-lg:      10px;
-  --transition: .18s cubic-bezier(.4,0,.2,1);
-  --font-mono: 'Space Mono', 'SF Mono', Consolas, monospace;
-}
+  --paper:#ffffff;
+  --ink:#201e1d;
+  --ink-2:#444141;
+  --ink-3:#605d5d;
+  --ink-4:#7d7979;
+  --rule: rgba(32,30,29,.18);
+  --rule-2: rgba(32,30,29,.28);
+  --accent:#ec3013;
+  --accent-ink:#ae1800;
+  --accent-bg:#fdeae6;
+  --ph:#d7d3d3;
 
-[data-theme="dark"] {
-  /* modo default — negro espacial + acento azul-cian */
-  --bg:        #050608;
-  --bg-2:      #0a0d12;
-  --bg-3:      #12161d;
-  --fg:        #f5f7fa;
-  --fg-2:      #9aa3b2;
-  --fg-3:      #5d6573;
-  --fg-4:      #383d47;
-  --accent:    #2ea8ff;
-  --accent-2:  #6fd0ff;
-  --accent-bg: rgba(46,168,255,.10);
-  --border:    rgba(255,255,255,.08);
-  --border-2:  rgba(255,255,255,.14);
-  --ink:       #f5f7fa;
-  --red:       #ff3b3b;
-  --green:     #2ee07a;
-  --blue:      #4d8dff;
-  --shadow-s:  0 1px 2px rgba(0,0,0,.4);
-  --shadow-m:  0 4px 16px rgba(0,0,0,.5), 0 1px 2px rgba(0,0,0,.3);
+  /* alias — mantienen compatibilidad con componentes que ya usaban estos tokens (lector, paneles, footer) */
+  --bg: var(--paper);
+  --bg-2: #f5f3f2;
+  --bg-3: var(--ph);
+  --fg: var(--ink);
+  --fg-2: var(--ink-2);
+  --fg-3: var(--ink-3);
+  --fg-4: #bab6b6;
+  --accent-2: var(--accent-ink);
+  --border: var(--rule);
+  --border-2: var(--rule-2);
+  --red: var(--accent);
+  --green: #16804a;
+  --blue: #1a5dbf;
+  --shadow-s: none;
+  --shadow-m: none;
+  --r: 0px;
+  --r-lg: 0px;
+  --font-mono: 'Archivo', system-ui, sans-serif;
+  --transition: .15s ease;
 }
 
 html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
 
 body {
-  font-family: 'Inter', system-ui, sans-serif;
-  background: var(--bg);
-  color: var(--fg);
+  font-family: 'Archivo', system-ui, sans-serif;
+  background: var(--paper);
+  color: var(--ink);
   line-height: 1.5;
-  transition: background var(--transition), color var(--transition);
 }
 
 a { color: inherit; text-decoration: none; }
 img { display: block; max-width: 100%; }
+h1, h2, h3, h4 { text-wrap: pretty; }
 
-/* ─── UTILITIES ─── */
+/* ─── UTILIDADES COMPARTIDAS ─── */
 .cat {
   display: inline-block;
   font-family: var(--font-mono);
-  font-size: .6rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  font-size: .625rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase;
   color: var(--accent);
 }
 .ia-badge {
   display: inline-flex; align-items: center; gap: .3rem;
   font-family: var(--font-mono);
   background: var(--accent-bg); border: 1px solid var(--accent);
-  color: var(--accent); font-size: .58rem; font-weight: 700;
-  letter-spacing: .06em; padding: .16rem .45rem; border-radius: 3px;
+  color: var(--accent-ink); font-size: .58rem; font-weight: 700;
+  letter-spacing: .06em; padding: .16rem .5rem;
 }
-.ts { font-family: var(--font-mono); font-size: .66rem; color: var(--fg-3); }
-.divider { border: none; border-top: 1px solid var(--border); }
+.ts { font-family: var(--font-mono); font-size: .68rem; font-weight: 500; color: var(--ink-4); }
+.card-meta { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
 
 .live-dot {
   display: inline-flex; align-items: center; gap: .35rem;
   font-family: var(--font-mono);
-  font-size: .6rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--red);
+  font-size: .62rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--accent);
 }
 .live-dot::before {
-  content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--red);
+  content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--accent);
   animation: blink 1.4s ease-in-out infinite;
 }
 @keyframes blink { 0%,100%{opacity:1} 50%{opacity:.25} }
 
-/* Status chips */
-.chip {
-  display: inline-block; font-size: .58rem; font-weight: 700; letter-spacing: .08em;
-  text-transform: uppercase; padding: .16rem .5rem; border-radius: 3px;
+/* ─── BARRA DE DATOS ─── */
+.databar {
+  background: var(--ink); color: #fff;
+  font: 600 11px/1 'Archivo', system-ui, sans-serif; letter-spacing: .04em;
+  padding: 8px 24px;
+  display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;
 }
-.chip-r { background: #fdecea; color: var(--red); }
-.chip-g { background: #e6f4ec; color: var(--green); }
-.chip-b { background: #e6edf8; color: var(--blue); }
-.chip-a { background: var(--accent-bg); color: var(--accent); }
+.databar .db-fx b { color: #ff9783; }
 
-[data-theme="dark"] .chip-r { background: #2a1010; }
-[data-theme="dark"] .chip-g { background: #0e2018; }
-[data-theme="dark"] .chip-b { background: #0e1828; }
-[data-theme="dark"] .chip-a { background: var(--accent-bg); }
+/* ─── MANCHETA ─── */
+.masthead {
+  max-width: 1040px; margin: 0 auto;
+  display: flex; align-items: flex-end; justify-content: space-between; gap: 24px;
+  padding: 22px 24px 16px; border-bottom: 2px solid var(--ink);
+}
+.masthead-logo { font: 800 40px/.85 'Archivo', system-ui, sans-serif; letter-spacing: -.03em; color: var(--ink); flex-shrink: 0; }
+.masthead-logo .dot { color: var(--accent); }
+.masthead-desc { font: 500 11px/1.4 'Archivo', system-ui, sans-serif; color: var(--ink-3); max-width: 260px; padding-bottom: 4px; }
+.masthead-actions { display: flex; gap: 8px; padding-bottom: 4px; flex-shrink: 0; }
+.mh-btn {
+  font: 600 12px/1 'Archivo', system-ui, sans-serif; padding: 7px 12px; cursor: pointer;
+  border: 1px solid var(--ink); background: transparent; color: var(--ink);
+}
+.mh-btn.primary { background: var(--ink); color: #fff; }
+.mh-btn:hover { opacity: .78; }
 
-/* ─── META BAR ─── */
-.meta-bar {
-  background: var(--fg); color: var(--bg);
-  font-size: .66rem; letter-spacing: .055em;
-  padding: .38rem 2rem;
-  display: flex; justify-content: space-between; align-items: center;
+/* ─── NAV ─── */
+.navbar {
+  max-width: 1040px; margin: 0 auto;
+  display: flex; gap: 26px; padding: 10px 24px;
+  border-bottom: 1px solid var(--rule);
+  font: 600 12px/1 'Archivo', system-ui, sans-serif; color: var(--ink);
 }
-.mb-l { display: flex; align-items: center; gap: 1.4rem; }
-.mb-date { opacity: .55; }
-.mb-focus {
-  display: flex; align-items: center; gap: .4rem;
-  font-weight: 600; font-size: .62rem;
-}
-.mb-focus::before { content: ''; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
-.ai-tag-sm {
-  background: var(--accent); color: #fff;
-  padding: .12rem .55rem; border-radius: 999px;
-  font-weight: 700; font-size: .58rem; letter-spacing: .1em;
-}
-.mb-r { opacity: .4; font-size: .62rem; }
-
-/* ─── HEADER ─── */
-header {
-  position: sticky; top: 0; z-index: 300;
-  background: transparent;
-  backdrop-filter: none; -webkit-backdrop-filter: none;
-  border-bottom: 1px solid transparent;
-  transition: background var(--transition), border-color var(--transition), backdrop-filter var(--transition);
-}
-header.header--solid {
-  background: rgba(250,250,248,.95);
-  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
-  border-bottom-color: var(--border);
-}
-[data-theme="dark"] header.header--solid { background: rgba(5,6,8,.92); }
-
-.h-inner {
-  max-width: 1280px; margin: 0 auto;
-  padding: 0 2rem; height: 56px;
-  display: flex; align-items: center; gap: 2rem;
-}
-
-.logo {
-  font-size: 1.65rem; font-weight: 900; letter-spacing: -.08em;
-  line-height: 1; flex-shrink: 0; display: flex; align-items: baseline; gap: .05em;
-}
-.logo-dot { color: var(--accent); font-size: 1.9rem; line-height: 0; }
-
-.h-nav { display: flex; align-items: center; gap: 0; flex: 1; }
-.h-nav a {
-  font-size: .72rem; font-weight: 600; color: var(--fg-2);
-  padding: .38rem .7rem; border-radius: var(--r);
-  letter-spacing: .05em; text-transform: uppercase; white-space: nowrap;
-  transition: color var(--transition), background var(--transition);
-}
-.h-nav a:hover { color: var(--fg); background: var(--bg-2); }
-.h-nav a.active { color: var(--fg); font-weight: 600; }
-.h-nav .sep { width: 1px; height: 14px; background: var(--border-2); margin: 0 .5rem; }
-.h-nav .ia-link {
-  background: var(--fg); color: var(--bg) !important;
-  font-size: .7rem; font-weight: 700; border-radius: var(--r);
-  margin-left: .5rem;
-}
-.h-nav .ia-link:hover { opacity: .85; background: var(--fg); }
-
-.h-right { display: flex; align-items: center; gap: .5rem; margin-left: auto; }
-.icon-btn {
-  width: 32px; height: 32px; border-radius: 50%;
-  border: 1px solid var(--border); background: transparent;
-  cursor: pointer; display: flex; align-items: center; justify-content: center;
-  color: var(--fg-3); transition: background var(--transition), color var(--transition);
-  flex-shrink: 0;
-}
-.icon-btn:hover { background: var(--bg-2); color: var(--fg); }
-.icon-btn svg { width: 14px; height: 14px; fill: currentColor; }
-
-/* header flotante sobre el hero (sin fondo): texto siempre claro, el hero es siempre oscuro */
-header:not(.header--solid) .logo,
-header:not(.header--solid) .h-nav a,
-header:not(.header--solid) .icon-btn { color: rgba(255,255,255,.82); }
-header:not(.header--solid) .icon-btn { border-color: rgba(255,255,255,.25); }
-header:not(.header--solid) .h-nav a:hover,
-header:not(.header--solid) .icon-btn:hover { color: #fff; background: rgba(255,255,255,.08); }
-header:not(.header--solid) .h-nav a.active { color: #fff; }
-header:not(.header--solid) .h-nav .sep { background: rgba(255,255,255,.25); }
+.navbar a { padding-bottom: 9px; margin-bottom: -10px; border-bottom: 2px solid transparent; }
+.navbar a.active { color: var(--accent); border-color: var(--accent); }
+.navbar a:hover { color: var(--accent); }
 
 /* ─── TICKER ─── */
-/* siempre oscuro/invertido (franja "telemetría"), independiente del tema del sitio */
 .ticker {
-  background: #0a0d12; overflow: hidden; position: relative; height: 36px;
+  max-width: 1040px; margin: 0 auto;
   display: flex; align-items: center;
+  padding: 9px 24px; border-bottom: 2px solid var(--ink);
+  overflow: hidden; position: relative;
 }
 .ticker-label {
-  position: absolute; left: 0; top: 0; bottom: 0; z-index: 3;
-  display: flex; align-items: center; padding: 0 .9rem;
-  background: var(--accent); font-size: .58rem; font-weight: 800;
-  letter-spacing: .12em; color: #fff; white-space: nowrap;
-  gap: .4rem;
+  position: absolute; left: 24px; top: 0; bottom: 0; z-index: 3;
+  flex: none; background: var(--accent); color: #fff;
+  font: 700 10px/1 'Archivo', system-ui, sans-serif; letter-spacing: .14em; padding: 0 7px;
+  display: flex; align-items: center; gap: .4rem;
 }
-.ticker-fade { position: absolute; top: 0; bottom: 0; width: 50px; z-index: 2; }
-.ticker-fade-l { left: 88px; background: linear-gradient(to right, #0a0d12, transparent); }
-.ticker-fade-r { right: 0; background: linear-gradient(to left, #0a0d12, transparent); }
+.ticker-fade-l {
+  position: absolute; left: 100px; top: 0; bottom: 0; width: 40px; z-index: 2; pointer-events: none;
+  background: linear-gradient(to right, #fff, transparent);
+}
 .ticker-track {
-  display: flex; gap: 2.5rem; white-space: nowrap;
-  padding-left: 100px;
-  animation: tickerMove 50s linear infinite;
+  display: flex; gap: 0; white-space: nowrap; padding-left: 108px;
+  font: 500 12px/1 'Archivo', system-ui, sans-serif; color: var(--ink);
+  animation: tickerMove 55s linear infinite;
 }
-.ticker-track .ti { font-family: var(--font-mono); font-size: .72rem; color: rgba(255,255,255,.75); letter-spacing: .01em; }
-.ticker-track .ti strong { color: #fff; font-weight: 600; }
-.ticker-track .ti-sep { color: var(--accent); }
-@keyframes tickerMove {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
+.ticker-track .ti { padding-right: 2.2rem; }
+.ticker-track .ti strong { font-weight: 700; }
+.ticker-track .ti-sep { color: var(--accent); margin-right: .5rem; }
+@keyframes tickerMove { 0%{transform:translateX(0)} 100%{transform:translateX(-50%)} }
+.ticker-fade { position:absolute; top:0; bottom:0; width:40px; z-index:2; pointer-events:none; }
+.ticker-fade-r { right:0; background: linear-gradient(to left, #fff, transparent); }
 
-/* ─── HERO — paneles estilo "Apple" (fondo solido + foto a color sangrando abajo) ─── */
-.hero {
-  border-bottom: 1px solid var(--border);
-  background: var(--bg);
-  padding: 1.5rem 2rem 2.5rem;
+/* ─── CUERPO PRINCIPAL: APERTURA + ÚLTIMAS ─── */
+.frontgrid {
+  max-width: 1040px; margin: 0 auto;
+  display: grid; grid-template-columns: minmax(0,1.62fr) minmax(0,1fr); gap: 0;
 }
-.hero-panels {
-  max-width: 1280px; margin: 0 auto;
-  display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem;
-}
-.hero-panel {
-  position: relative; overflow: hidden; cursor: pointer;
-  border-radius: 28px; background: #0b0e14;
-  min-height: 480px;
-  transition: transform var(--transition), box-shadow var(--transition);
-}
-.hero-panel:hover { transform: translateY(-3px); box-shadow: var(--shadow-m); }
+.opening { padding: 24px; border-right: 1px solid var(--rule); cursor: pointer; }
+.opening-kicker { font: 700 10px/1 'Archivo', system-ui, sans-serif; letter-spacing: .14em; color: var(--accent); margin-bottom: 12px; text-transform: uppercase; }
+.opening-photo { width: 100%; height: 290px; background: var(--ph); overflow: hidden; margin-bottom: 16px; }
+.opening-photo img { width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(1); }
+.opening h1 { margin: 0 0 12px; font: 800 40px/1.02 'Archivo', system-ui, sans-serif; letter-spacing: -.025em; color: var(--ink); }
+.opening p { margin: 0 0 14px; font: 400 16px/1.5 'Archivo', system-ui, sans-serif; color: var(--ink-2); max-width: 56ch; }
 
-/* panel ancho de abajo — sin foto, fondo claro para contraste y respiro visual */
-.hero-panel--wide {
-  grid-column: 1 / -1; min-height: 220px;
-  background: #fff; display: flex; align-items: center;
-  box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 10px 26px rgba(0,0,0,.07);
-}
-.hero-panel--wide:hover { box-shadow: 0 1px 2px rgba(0,0,0,.05), 0 14px 32px rgba(0,0,0,.1); }
-.hero-panel--wide .hero-panel-top { width: 100%; padding: 2rem 2.4rem; }
-.hero-panel--wide .hero-panel-cat { color: rgba(13,17,23,.45); }
-.hero-panel--wide .hero-panel-title { color: #0d1117; }
-.hero-panel--wide .hero-panel-sub { color: rgba(13,17,23,.6); }
-.hero-panel--wide .ts { color: rgba(13,17,23,.42); }
-.hero-panel--wide .chip-r { background: #fdecea; color: #c0392b; }
-.hero-panel--wide .chip-b { background: #e6edf8; color: #0090e0; }
+.latest-col { padding: 24px; }
+.latest-hd { font: 700 10px/1 'Archivo', system-ui, sans-serif; letter-spacing: .14em; color: var(--ink); padding-bottom: 10px; border-bottom: 2px solid var(--ink); text-transform: uppercase; }
+.ult { display: block; padding: 14px 0; border-bottom: 1px solid var(--rule); cursor: pointer; }
+.ult:last-of-type { border-bottom: none; padding-bottom: 18px; }
+.ult-kicker { font: 600 10px/1 'Archivo', system-ui, sans-serif; letter-spacing: .1em; color: var(--accent); margin-bottom: 6px; text-transform: uppercase; }
+.ult h3 { margin: 0 0 6px; font: 700 17px/1.18 'Archivo', system-ui, sans-serif; letter-spacing: -.015em; color: var(--ink); }
 
-.hero-panel-photo {
-  position: absolute; left: 0; right: 0; bottom: 0; height: 58%;
-  background-size: cover; background-position: center 18%;
-  -webkit-mask-image: linear-gradient(to bottom, transparent 0%, #000 26%);
-          mask-image: linear-gradient(to bottom, transparent 0%, #000 26%);
-}
+.datoday { border-top: 2px solid var(--ink); padding-top: 16px; margin-top: 4px; }
+.datoday-hd { font: 700 10px/1 'Archivo', system-ui, sans-serif; letter-spacing: .14em; color: var(--ink-4); margin-bottom: 8px; text-transform: uppercase; }
+.datoday-num { font: 800 76px/.8 'Archivo', system-ui, sans-serif; letter-spacing: -.045em; color: var(--accent); margin-bottom: 10px; }
+.datoday p { margin: 0; font: 400 13px/1.45 'Archivo', system-ui, sans-serif; color: var(--ink-2); }
+.datoday cite { display: block; margin-top: .4rem; font: 500 11px/1 'Archivo', system-ui, sans-serif; color: var(--ink-4); font-style: normal; }
 
-.hero-panel-top { position: relative; z-index: 2; padding: 2.5rem 2.2rem 0; text-align: center; }
-.hero-panel-kicker { display: flex; align-items: center; justify-content: center; gap: .65rem; margin-bottom: 1rem; flex-wrap: wrap; }
-.hero-panel-cat {
-  font-size: .62rem; letter-spacing: .1em; text-transform: uppercase;
-  color: rgba(255,255,255,.45); font-weight: 600;
-}
-.hero-panel-title {
-  font-size: 1.85rem; font-weight: 800; letter-spacing: -.03em; line-height: 1.12;
-  color: #fff; margin-bottom: .6rem;
-}
-.hero-panel--lead .hero-panel-title { font-size: 2.25rem; }
-.hero-panel-sub {
-  font-size: .85rem; line-height: 1.6; color: rgba(255,255,255,.55);
-  font-weight: 300; max-width: 440px; margin: 0 auto 1.2rem;
-}
-.hero-panel-foot { display: flex; align-items: center; justify-content: center; gap: .65rem; }
-.hero-panel .ts { color: rgba(255,255,255,.42); }
-.hero-panel .chip-r { background: rgba(255,59,59,.16); color: #ff6b6b; }
-.hero-panel .chip-b { background: rgba(46,168,255,.14); color: #6fd0ff; }
+/* ─── BANDA DE SECCIÓN (Política Pampeana / Política Nacional) ─── */
+.band { max-width: 1040px; margin: 0 auto; border-top: 2px solid var(--ink); padding: 20px 24px 26px; }
+.band-hd { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 16px; }
+.band-hd h2 { font: 800 18px/1 'Archivo', system-ui, sans-serif; letter-spacing: -.01em; color: var(--ink); }
+.band-hd a { font: 600 11px/1 'Archivo', system-ui, sans-serif; color: var(--accent); }
+.band-hd a:hover { color: var(--accent-ink); }
+.band-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 22px; }
+.bandcard { display: flex; flex-direction: column; gap: 10px; cursor: pointer; }
+.bandcard-photo { height: 132px; background: var(--ph); overflow: hidden; }
+.bandcard-photo img { width: 100%; height: 100%; object-fit: cover; display: block; filter: grayscale(1); }
+.bandcard-kicker { font: 600 10px/1 'Archivo', system-ui, sans-serif; letter-spacing: .1em; color: var(--accent); text-transform: uppercase; }
+.bandcard h4 { margin: 0; font: 700 17px/1.2 'Archivo', system-ui, sans-serif; letter-spacing: -.015em; color: var(--ink); }
 
-@media (prefers-reduced-motion: no-preference) {
-  @keyframes panelUp { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
-  .hero-panel { opacity: 0; animation: panelUp .65s cubic-bezier(.16,1,.3,1) forwards; }
-  .hero-panel:nth-child(1) { animation-delay: .05s; }
-  .hero-panel:nth-child(2) { animation-delay: .16s; }
-  .hero-panel:nth-child(3) { animation-delay: .3s; }
-}
-.btn-primary {
-  display: inline-flex; align-items: center; gap: .4rem;
-  font-size: .78rem; font-weight: 600; color: #fff;
-  padding-bottom: 2px; border-bottom: 1.5px solid var(--accent);
-  transition: color var(--transition), border-color var(--transition);
-}
-.btn-primary:hover { color: var(--accent); }
+/* ─── INTERNACIONAL AL PIE ─── */
+.intlfoot { max-width: 1040px; margin: 0 auto; border-top: 2px solid var(--ink); padding: 20px 24px 26px; }
+.intlfoot-hd { font: 700 10px/1 'Archivo', system-ui, sans-serif; letter-spacing: .14em; color: var(--ink-4); margin-bottom: 12px; text-transform: uppercase; }
+.intlfoot-list { display: flex; flex-direction: column; gap: 10px; }
+.intlfoot-item { display: flex; gap: 12px; font: 600 14px/1.3 'Archivo', system-ui, sans-serif; color: var(--ink); }
+.intlfoot-num { color: #bab6b6; flex-shrink: 0; }
 
-/* ─── MAIN LAYOUT ─── */
-.main-wrap { max-width: 1280px; margin: 0 auto; padding: 2.5rem 2rem; }
-
-/* Section headings — editorial style */
-.sec-hd {
-  display: flex; align-items: baseline; gap: 1rem;
-  margin-bottom: 1.75rem; padding-bottom: .65rem;
-  border-bottom: 1.5px solid var(--fg);
-}
-.sec-num { font-family: var(--font-mono); font-size: .6rem; font-weight: 700; color: var(--accent); letter-spacing: .08em; }
-.sec-name { font-size: .7rem; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+/* ─── MAIN WRAP (resto de secciones — Voces·X) ─── */
+.main-wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+.sec-hd { display: flex; align-items: baseline; gap: 1rem; margin: 0 0 1.5rem; padding: 26px 0 .65rem; border-top: 2px solid var(--ink); }
+.sec-num { font-family: var(--font-mono); font-size: .62rem; font-weight: 700; color: var(--accent); letter-spacing: .08em; }
+.sec-name { font-size: .78rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--ink); }
 .sec-hd-right { margin-left: auto; display: flex; align-items: center; gap: 1rem; }
 .ver-mas { font-size: .7rem; font-weight: 600; color: var(--accent); letter-spacing: .03em; }
-.ver-mas:hover { opacity: .75; }
+.ver-mas:hover { color: var(--accent-ink); }
 
-/* Grid layouts */
-.g3 { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.75rem; margin-bottom: 3rem; }
-.g4 { display: grid; grid-template-columns: repeat(4,1fr); gap: 1.5rem; margin-bottom: 3rem; }
-.g2 { display: grid; grid-template-columns: repeat(2,1fr); gap: 1.75rem; margin-bottom: 3rem; }
-
-/* News card */
-.card {
-  cursor: pointer; display: flex; flex-direction: column; gap: .7rem;
-  padding: .85rem;
-  border-radius: var(--r-lg); border: 1px solid transparent;
-  transition: background var(--transition), border-color var(--transition), box-shadow var(--transition);
-}
-.card:hover { background: var(--bg-2); border-color: var(--border); box-shadow: var(--shadow-s); }
-
-.card-img {
-  width: 100%; aspect-ratio: 16/9; border-radius: var(--r);
-  overflow: hidden; display: flex; align-items: center; justify-content: center;
-  position: relative;
-}
-.card-img svg { opacity: 1; position: relative; z-index: 1; }
-.card-img .illus-label {
-  position: absolute; bottom: .4rem; right: .6rem; z-index: 2;
-  font-size: .44rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
-  color: rgba(255,255,255,.22); pointer-events: none; font-family: 'Inter', sans-serif;
-}
-.card-img .illus-glow {
-  position: absolute; inset: 0; z-index: 0; pointer-events: none;
-}
-/* li-img ilustraciones */
-.li-img { border-radius: var(--r); flex-shrink: 0; display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden; }
-.li-img svg { opacity: 1; position: relative; z-index:1; }
-/* Fotos reales dentro de card-img / li-img */
-.card-img img, .li-img img { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:1; display:block; border-radius:0; }
-.src-link-nota { font-size:.68rem; color:var(--accent); font-weight:600; margin-left:auto; }
-.src-link-nota:hover { opacity:.7; }
-.card-img-wide { aspect-ratio: 21/9; }
-.card-img-sq { aspect-ratio: 1; }
-
-.card-meta { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; }
-.card h3 { font-size: .97rem; font-weight: 600; line-height: 1.32; letter-spacing: -.018em; }
-.card h3.lg { font-size: 1.15rem; font-weight: 700; letter-spacing: -.025em; }
-.card p { font-size: .8rem; color: var(--fg-2); line-height: 1.62; font-weight: 300; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden; }
-/* Bloquear salida a sitios externos desde cards — todo abre en lector interno */
-.card .src-link-nota, .li .src-link-nota { pointer-events:none; cursor:default; color:var(--fg-3); text-decoration:none; }
-
-/* Compact list item */
-.li {
-  display: grid; grid-template-columns: 88px 1fr; gap: .9rem;
-  padding: 1rem 0; border-bottom: 1px solid var(--border);
-  cursor: pointer; transition: opacity var(--transition);
-}
-.li:first-child { padding-top: 0; }
-.li:hover { opacity: .7; }
-.li-img { width: 88px; height: 58px; border-radius: var(--r); flex-shrink: 0; }
-.li h4 { font-size: .88rem; font-weight: 600; letter-spacing: -.016em; line-height: 1.3; margin-bottom: .28rem; }
-.li p  { font-size: .75rem; color: var(--fg-2); line-height: 1.5; }
-.li-meta { display: flex; align-items: center; gap: .5rem; margin-top: .3rem; }
-
-/* ─── LAYOUT: MAIN + SIDEBAR ─── */
-.lay { display: grid; grid-template-columns: 1fr 300px; gap: 2.5rem; margin-bottom: 3rem; }
-
-aside { border-left: 1px solid var(--border); padding-left: 2rem; }
+aside { border-left: 1px solid var(--rule); padding-left: 2rem; }
 .ab { margin-bottom: 2.5rem; }
-.ab-hd {
-  font-size: .6rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
-  border-bottom: 2px solid var(--fg); padding-bottom: .55rem; margin-bottom: 1rem;
-}
-.ai-item { padding: .85rem 0; border-bottom: 1px solid var(--border); cursor: pointer; transition: opacity var(--transition); }
-.ai-item:hover { opacity: .7; }
-.ai-item:last-child { border-bottom: none; }
-.ai-item h5 { font-size: .82rem; font-weight: 600; letter-spacing: -.012em; line-height: 1.3; margin-bottom: .2rem; }
-.ai-item .meta { font-size: .65rem; color: var(--fg-3); }
-.rank { font-size: 2rem; font-weight: 900; color: var(--bg-3); letter-spacing: -.06em; line-height: 1; margin-bottom: .2rem; }
+.ab-hd { font-size: .6rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; border-bottom: 2px solid var(--ink); padding-bottom: .55rem; margin-bottom: 1rem; color: var(--ink-4); }
 
-.dato-box {
-  background: var(--accent-bg); border: 1px solid var(--accent);
-  border-radius: var(--r-lg); padding: 1.2rem;
-}
-.dato-box .num { font-family: var(--font-mono); font-size: 2.4rem; font-weight: 900; letter-spacing: -.06em; color: var(--accent); line-height: 1; }
-.dato-box .label { font-size: .75rem; color: var(--fg-2); margin-top: .4rem; line-height: 1.5; }
-.dato-box .src  { font-size: .62rem; color: var(--fg-3); margin-top: .25rem; }
-
-.quote-box {
-  background: var(--bg-2); border-left: 3px solid var(--accent);
-  border-radius: 0 var(--r-lg) var(--r-lg) 0;
-  padding: 1.1rem 1.2rem; margin-bottom: 1.25rem;
-}
-.quote-box blockquote { font-size: .85rem; font-style: italic; line-height: 1.6; color: var(--fg); margin-bottom: .5rem; }
-.quote-box cite { font-size: .68rem; color: var(--fg-3); font-style: normal; font-weight: 600; }
-
-/* ─── TRACKER (eliminado) ─── */
-.tracker-card {
-  background: var(--bg); border: 1px solid var(--border);
-  border-radius: var(--r-lg); overflow: hidden;
-  transition: box-shadow var(--transition), border-color var(--transition);
-  cursor: pointer;
-}
-.tracker-card:hover { box-shadow: var(--shadow-m); border-color: var(--border-2); }
-.tc-header {
-  padding: .85rem 1.1rem;
-  border-bottom: 1px solid var(--border);
-  display: flex; align-items: center; justify-content: space-between;
-}
-.tc-body { padding: 1.1rem; }
-.tc-body h4 { font-size: .9rem; font-weight: 700; letter-spacing: -.02em; line-height: 1.3; margin-bottom: .5rem; }
-.tc-body p  { font-size: .78rem; color: var(--fg-2); line-height: 1.58; margin-bottom: .75rem; }
-.tc-footer { border-top: 1px solid var(--border); padding: .7rem 1.1rem; display: flex; align-items: center; justify-content: space-between; }
-.tc-footer span { font-size: .65rem; color: var(--fg-3); }
-.tc-footer a { font-size: .65rem; font-weight: 600; color: var(--accent); }
-.tc-progress { height: 3px; background: var(--bg-3); position: relative; margin: .6rem 0; }
-.tc-progress-fill { position: absolute; left: 0; top: 0; bottom: 0; background: var(--accent); border-radius: 999px; }
-.tc-tags { display: flex; gap: .35rem; flex-wrap: wrap; }
-
-/* ─── IA EXPLICA ─── */
-.ia-sec {
-  background: var(--bg-2); border: 1px solid var(--border);
-  border-radius: 14px; padding: 2rem; margin-bottom: 3rem;
-}
-.ia-sec-hd { display: flex; align-items: center; gap: .8rem; margin-bottom: 1.5rem; }
-.ia-sec-hd .badge { background: var(--fg); color: var(--bg); font-size: .58rem; font-weight: 800; letter-spacing: .12em; padding: .28rem .75rem; border-radius: 999px; }
-.ia-sec-hd p { font-size: .85rem; color: var(--fg-2); font-weight: 400; }
-.ia-cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.1rem; }
-.ia-card {
-  background: var(--bg); border: 1px solid var(--border);
-  border-radius: var(--r-lg); padding: 1.2rem;
-  cursor: pointer; transition: box-shadow var(--transition), transform var(--transition);
-}
-.ia-card:hover { box-shadow: var(--shadow-m); transform: translateY(-2px); }
-.ia-icon {
-  width: 32px; height: 32px; background: var(--accent); border-radius: 7px;
-  display: flex; align-items: center; justify-content: center; margin-bottom: .8rem;
-}
-.ia-icon svg { width: 15px; fill: #fff; }
-.ia-card h4 { font-size: .85rem; font-weight: 700; letter-spacing: -.018em; line-height: 1.3; margin-bottom: .35rem; }
-.ia-card p  { font-size: .75rem; color: var(--fg-2); line-height: 1.55; }
-.ia-card .min { font-size: .62rem; color: var(--accent); font-weight: 700; letter-spacing: .04em; margin-top: .65rem; }
-
-/* ─── SEPARADOR SECCIÓN ─── */
-.sec-divider { height: 1px; background: var(--border); margin: 2rem 0; }
-
-/* ─── INTERNACIONAL - COMPACT ─── */
-.intl-list { display: flex; flex-direction: column; }
-.intl-item {
-  display: flex; align-items: baseline; gap: .8rem;
-  padding: .8rem 0; border-bottom: 1px solid var(--border); cursor: pointer;
-  transition: opacity var(--transition);
-}
-.intl-item:hover { opacity: .7; }
-.intl-item:last-child { border-bottom: none; }
-.intl-num { font-size: .62rem; font-weight: 700; color: var(--fg-4); min-width: 18px; }
-.intl-item h4 { font-size: .88rem; font-weight: 600; letter-spacing: -.015em; line-height: 1.3; flex: 1; }
-.intl-item .ts { flex-shrink: 0; }
-
-/* ─── SOCIAL STRIP ─── */
-.social-strip { background: var(--fg); padding: 3rem 2rem; }
+/* ─── SOCIAL STRIP / FOOTER ─── */
+.social-strip { background: var(--ink); padding: 3rem 2rem; }
 .ss-inner { max-width: 720px; margin: 0 auto; text-align: center; }
-.social-strip h2 { color: var(--bg); font-size: 1.45rem; font-weight: 800; letter-spacing: -.03em; margin-bottom: .45rem; }
-.social-strip > .ss-inner > p { color: var(--fg-3); font-size: .85rem; font-weight: 300; margin-bottom: 1.75rem; }
+.social-strip h2 { color: #fff; font-size: 1.45rem; font-weight: 800; letter-spacing: -.03em; margin-bottom: .45rem; }
+.social-strip > .ss-inner > p { color: var(--ink-4); font-size: .85rem; font-weight: 400; margin-bottom: 1.75rem; }
 .ss-btns { display: flex; justify-content: center; flex-wrap: wrap; gap: .65rem; }
-.sbtn {
-  display: inline-flex; align-items: center; gap: .5rem;
-  padding: .65rem 1.35rem; border-radius: 8px;
-  font-size: .78rem; font-weight: 700; letter-spacing: .01em;
-  transition: opacity .2s, transform var(--transition);
-}
-.sbtn:hover { opacity: .82; transform: translateY(-1px); }
+.sbtn { display: inline-flex; align-items: center; gap: .5rem; padding: .65rem 1.35rem; font-size: .78rem; font-weight: 700; letter-spacing: .01em; }
+.sbtn:hover { opacity: .82; }
 .sbtn svg { width: 16px; height: 16px; fill: currentColor; flex-shrink: 0; }
 .sb-yt  { background: #FF0000; color: #fff; }
-.sb-tk  { background: #1a1a1a; color: #fff; border: 1px solid #2a2a2a; }
+.sb-tk  { background: #1a1a1a; color: #fff; }
 .sb-ig  { background: linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888); color: #fff; }
 .sb-web { background: var(--accent); color: #fff; }
 
-/* ─── FOOTER ─── */
-footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
-.f-grid {
-  max-width: 1280px; margin: 0 auto;
-  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
-  gap: 2.5rem; margin-bottom: 2rem;
-}
-.f-brand .flogo { font-size: 1.35rem; font-weight: 900; letter-spacing: -.07em; margin-bottom: .65rem; }
+footer { border-top: 2px solid var(--ink); padding: 2.5rem 2rem 1.5rem; }
+.f-grid { max-width: 1040px; margin: 0 auto; display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 2.5rem; margin-bottom: 2rem; }
+.f-brand .flogo { font-size: 1.35rem; font-weight: 900; letter-spacing: -.03em; margin-bottom: .65rem; font-family: 'Archivo', system-ui, sans-serif; }
 .f-brand .flogo .dot { color: var(--accent); }
-.f-brand p { font-size: .78rem; color: var(--fg-2); line-height: 1.75; font-weight: 300; max-width: 280px; }
-.f-col h6 { font-size: .6rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; margin-bottom: .85rem; color: var(--fg-3); }
-.f-col a { display: block; font-size: .8rem; color: var(--fg-2); padding: .18rem 0; transition: color var(--transition); }
-.f-col a:hover { color: var(--fg); }
-.f-bottom {
-  max-width: 1280px; margin: 0 auto;
-  border-top: 1px solid var(--border); padding-top: 1.2rem;
-  display: flex; justify-content: space-between;
-  font-size: .67rem; color: var(--fg-3); letter-spacing: .02em;
-}
+.f-brand p { font-size: .78rem; color: var(--ink-2); line-height: 1.75; max-width: 280px; }
+.f-col h6 { font-size: .6rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; margin-bottom: .85rem; color: var(--ink-4); }
+.f-col a { display: block; font-size: .8rem; color: var(--ink-2); padding: .18rem 0; }
+.f-col a:hover { color: var(--accent); }
+.f-bottom { max-width: 1040px; margin: 0 auto; border-top: 1px solid var(--rule); padding-top: 1.2rem; display: flex; justify-content: space-between; font-size: .67rem; color: var(--ink-4); letter-spacing: .02em; }
 
 /* ─── RESPONSIVE ─── */
-@media (max-width: 1100px) {
-  .g3 { grid-template-columns: repeat(2,1fr); }
-  .g4 { grid-template-columns: repeat(2,1fr); }
-  .tracker-grid { grid-template-columns: repeat(2,1fr); }
-  .ia-cards { grid-template-columns: repeat(2,1fr); }
+@media (max-width: 900px) {
+  .frontgrid { grid-template-columns: 1fr; }
+  .opening { border-right: none; border-bottom: 1px solid var(--rule); }
   .f-grid { grid-template-columns: 1fr 1fr; gap: 2rem; }
-  .hero-panel-title { font-size: 1.6rem; }
-  .hero-panel--lead .hero-panel-title { font-size: 1.9rem; }
 }
-@media (max-width: 768px) {
-  .meta-bar .mb-r { display: none; }
-  .h-inner { padding: 0 1rem; }
-  .h-nav { display: none; }
-  .hero { padding: 1rem 1rem 1.75rem; }
-  .hero-panels { grid-template-columns: 1fr; gap: 1rem; }
-  .hero-panel { min-height: 380px; }
-  .hero-panel--wide { min-height: auto; }
-  .hero-panel-top { padding: 1.75rem 1.4rem 0; }
-  .hero-panel--wide .hero-panel-top { padding: 1.75rem 1.4rem; }
-  .hero-panel-title { font-size: 1.5rem; }
-  .hero-panel--lead .hero-panel-title { font-size: 1.65rem; }
-  .main-wrap { padding: 1.5rem 1rem; }
-  .g3, .g2, .g4 { grid-template-columns: 1fr; gap: 1.25rem; }
-  .lay { grid-template-columns: 1fr; }
-  aside { border-left: none; padding-left: 0; border-top: 1px solid var(--border); padding-top: 2rem; }
-  .tracker-grid { grid-template-columns: 1fr; }
-  .ia-cards { grid-template-columns: 1fr; }
-  .ia-sec { padding: 1.25rem; }
+@media (max-width: 700px) {
+  .band-grid { grid-template-columns: 1fr; }
+  .masthead-desc { display: none; }
+}
+@media (max-width: 560px) {
+  .databar { padding: 7px 16px; font-size: 10px; }
+  .databar .db-fx { display: none; }
+  .masthead, .navbar, .ticker, .frontgrid, .band, .intlfoot { padding-left: 16px; padding-right: 16px; }
+  .masthead-logo { font-size: 30px; }
+  .opening h1 { font-size: 30px; }
+  .opening-photo { height: 200px; }
+  .navbar { gap: 16px; overflow-x: auto; }
+  .datoday-num { font-size: 56px; }
   .f-grid { grid-template-columns: 1fr; gap: 1.5rem; }
   .f-bottom { flex-direction: column; gap: .3rem; }
-  .video-grid { grid-template-columns: 1fr; }
 }
 
 /* ─── SCROLL ANIMATION ─── */
 .fade-in { opacity: 0; transform: translateY(14px); transition: opacity .5s ease, transform .5s ease; }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
-
-/* stagger por sección: las cards/items dentro de un .fade-in aparecen en cascada */
-.g3.fade-in > .card,
-.lay.fade-in .li,
-.lay.fade-in .intl-item {
-  opacity: 0; transform: translateY(10px);
-  transition: opacity .45s ease, transform .45s ease;
-}
-.g3.fade-in.visible > .card,
-.lay.fade-in.visible .li,
-.lay.fade-in.visible .intl-item {
-  opacity: 1; transform: translateY(0);
-}
-.g3.fade-in.visible > .card:nth-child(1), .lay.fade-in.visible .li:nth-child(1), .lay.fade-in.visible .intl-item:nth-child(1) { transition-delay: 0ms; }
-.g3.fade-in.visible > .card:nth-child(2), .lay.fade-in.visible .li:nth-child(2), .lay.fade-in.visible .intl-item:nth-child(2) { transition-delay: 70ms; }
-.g3.fade-in.visible > .card:nth-child(3), .lay.fade-in.visible .li:nth-child(3), .lay.fade-in.visible .intl-item:nth-child(3) { transition-delay: 140ms; }
-.g3.fade-in.visible > .card:nth-child(4), .lay.fade-in.visible .li:nth-child(4), .lay.fade-in.visible .intl-item:nth-child(4) { transition-delay: 210ms; }
-.g3.fade-in.visible > .card:nth-child(5), .lay.fade-in.visible .li:nth-child(5), .lay.fade-in.visible .intl-item:nth-child(5) { transition-delay: 280ms; }
-.g3.fade-in.visible > .card:nth-child(6), .lay.fade-in.visible .li:nth-child(6), .lay.fade-in.visible .intl-item:nth-child(6) { transition-delay: 350ms; }
+.band-grid.fade-in > .bandcard { opacity: 0; transform: translateY(10px); transition: opacity .45s ease, transform .45s ease; }
+.band-grid.fade-in.visible > .bandcard { opacity: 1; transform: translateY(0); }
+.band-grid.fade-in.visible > .bandcard:nth-child(1) { transition-delay: 0ms; }
+.band-grid.fade-in.visible > .bandcard:nth-child(2) { transition-delay: 70ms; }
+.band-grid.fade-in.visible > .bandcard:nth-child(3) { transition-delay: 140ms; }
 
 /* ─── LECTOR DE ARTÍCULOS ─── */
-.art-overlay {
-  display: none; position: fixed; inset: 0; z-index: 500;
-  background: var(--bg); overflow-y: auto;
-}
+.art-overlay { display: none; position: fixed; inset: 0; z-index: 500; background: var(--paper); overflow-y: auto; }
 .art-overlay.art-open { display: block; animation: artIn .2s ease; }
 @keyframes artIn { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
 
 .art-topbar {
   position: sticky; top: 0; z-index: 10;
-  background: rgba(250,250,248,.95); backdrop-filter: blur(20px);
-  border-bottom: 1px solid var(--border);
+  background: rgba(255,255,255,.95); backdrop-filter: blur(20px);
+  border-bottom: 2px solid var(--ink);
   padding: 0 2rem; height: 52px;
   display: flex; align-items: center; justify-content: space-between;
 }
-[data-theme="dark"] .art-topbar { background: rgba(5,6,8,.92); }
-
-.art-back {
-  display: inline-flex; align-items: center; gap: .5rem;
-  font-size: .82rem; font-weight: 700; color: var(--fg);
-  cursor: pointer; border: none; background: transparent;
-  font-family: inherit; padding: .4rem .7rem; border-radius: var(--r);
-  transition: background var(--transition);
-}
-.art-back:hover { background: var(--bg-2); }
+.art-back { display: inline-flex; align-items: center; gap: .5rem; font: 800 16px/1 'Archivo',system-ui,sans-serif; color: var(--ink); cursor: pointer; border: none; background: transparent; padding: .4rem .7rem; }
+.art-back:hover { color: var(--accent); }
 .art-back svg { width: 16px; fill: currentColor; }
 .art-back-dot { color: var(--accent); }
-
-.art-src-bar { font-size: .63rem; color: var(--fg-3); display: flex; align-items: center; gap: .5rem; }
+.art-src-bar { font-size: .63rem; color: var(--ink-4); display: flex; align-items: center; gap: .5rem; }
 .art-src-bar a { color: var(--accent); font-weight: 600; }
-.art-src-bar a:hover { opacity: .75; }
 
-.art-inner { max-width: 720px; margin: 0 auto; padding: 0 2rem 5rem; }
-
-.art-cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; background: var(--bg-3); }
-.art-nocover {
-  width: 100%; aspect-ratio: 21/9;
-  background: linear-gradient(160deg, #0a0909, #1e1a14);
-  display: flex; align-items: center; justify-content: center;
-}
-.art-nocover span { font-size: .65rem; font-weight: 800; letter-spacing: .22em; color: rgba(255,255,255,.1); text-transform: uppercase; }
+.art-inner { max-width: 640px; margin: 0 auto; padding: 0 2rem 5rem; }
+.art-cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; background: var(--ph); filter: grayscale(1); }
+.art-nocover { width: 100%; aspect-ratio: 21/9; background: var(--ph); display: flex; align-items: center; justify-content: center; }
+.art-nocover span { font-size: .65rem; font-weight: 800; letter-spacing: .22em; color: rgba(32,30,29,.3); text-transform: uppercase; }
 
 .art-meta-row { padding: 1.5rem 0 .9rem; display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; }
-.art-title {
-  font-size: 2rem; font-weight: 800; line-height: 1.14;
-  letter-spacing: -.045em; margin-bottom: 1rem; color: var(--fg);
-}
-@media(max-width:640px) { .art-title { font-size: 1.5rem; } }
-.art-bajada {
-  font-size: 1.05rem; color: var(--fg-2); line-height: 1.7;
-  font-weight: 300; margin-bottom: 1.75rem;
-  border-bottom: 1px solid var(--border); padding-bottom: 1.75rem;
-}
-.art-body { font-size: .95rem; line-height: 1.88; color: var(--fg-2); }
-.art-body p { margin-bottom: 1.35rem; }
-.art-body strong { color: var(--fg); font-weight: 600; }
+.art-title { font: 800 40px/1.02 'Archivo',system-ui,sans-serif; letter-spacing: -.03em; margin-bottom: 1rem; color: var(--ink); }
+@media(max-width:640px) { .art-title { font-size: 1.7rem; } }
+.art-bajada { font: 400 18px/1.45 'Archivo',system-ui,sans-serif; color: var(--ink-2); margin-bottom: 1.5rem; border-bottom: 1px solid var(--rule); padding-bottom: 1.5rem; }
+.art-body { font: 400 17px/1.6 'Archivo',system-ui,sans-serif; color: var(--ink); }
+.art-body p { margin-bottom: 1.2rem; }
+.art-body strong { font-weight: 700; }
 
-.art-foot {
-  margin-top: 2.5rem; padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
-  display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .75rem;
-}
-.art-foot-src { font-size: .7rem; color: var(--fg-3); }
+.art-foot { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .75rem; }
+.art-foot-src { font-size: .7rem; color: var(--ink-4); }
 .art-foot-src a { color: var(--accent); font-weight: 600; }
-.art-foot-src a:hover { opacity: .75; }
 
-.hero-panel,.card,.li { cursor: pointer; }
+/* ─── INFO PANELS ─── */
+#panel-overlay { display:none; position:fixed; inset:0; z-index:600; background:var(--paper); overflow-y:auto; animation:artIn .2s ease; }
+#panel-overlay.open { display:block; }
+.panel-topbar { position:sticky; top:0; z-index:10; background:rgba(255,255,255,.95); backdrop-filter:blur(20px); border-bottom:2px solid var(--ink); display:flex; align-items:center; justify-content:space-between; padding:.75rem 1.5rem; }
+.panel-back { display:flex; align-items:center; gap:.5rem; background:none; border:none; color:var(--ink-2); cursor:pointer; font-size:.8rem; font-weight:600; letter-spacing:.06em; text-transform:uppercase; font-family:'Archivo',system-ui,sans-serif; }
+.panel-back:hover { color:var(--ink); }
+.panel-inner { max-width:640px; margin:0 auto; padding:2.5rem 1.5rem 4rem; }
+.panel-content { display:none; }
+.panel-content.active { display:block; }
+.panel-content h2 { font-size:1.6rem; font-weight:800; letter-spacing:-.02em; color:var(--ink); margin:0 0 1.5rem; line-height:1.2; }
+.panel-content h3 { font-size:.75rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); margin:2rem 0 .6rem; border-top:1px solid var(--rule); padding-top:1.25rem; }
+.panel-content p { font-size:.9rem; color:var(--ink-2); line-height:1.75; margin:0 0 1rem; }
+.panel-content p:last-child { margin-bottom:0; }
+.panel-tag { display:inline-block; font-size:.6rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--accent-ink); background:var(--accent-bg); border:1px solid var(--accent); padding:.25rem .7rem; margin-bottom:1.25rem; }
 
-  
-  /* Dato del dia — strip prominente */
-  .dato-strip { display:flex; align-items:center; gap:1.5rem; background:linear-gradient(90deg,rgba(46,168,255,.10) 0%,transparent 100%); border-left:4px solid var(--accent); border-radius:0 var(--r-lg) var(--r-lg) 0; padding:1.1rem 1.5rem; margin:1.5rem 0; }
-  .dato-strip-badge { font-size:.55rem; font-weight:800; letter-spacing:.16em; text-transform:uppercase; color:var(--accent); white-space:nowrap; writing-mode:vertical-rl; transform:rotate(180deg); }
-  .dato-strip-num { font-size:3rem; font-weight:900; letter-spacing:-.06em; color:var(--accent); line-height:1; white-space:nowrap; flex-shrink:0; }
-  .dato-strip-txt p { margin:0 0 .3rem; font-size:.82rem; color:var(--fg-2); }
-  .dato-strip-txt cite { font-size:.65rem; color:var(--fg-3); font-style:normal; }
-  .cita-strip { background:var(--bg-2); border-left:4px solid var(--accent); border-radius:0 var(--r-lg) var(--r-lg) 0; padding:1rem 1.5rem; margin:0 0 1.5rem; }
-  .cita-strip blockquote { margin:0 0 .4rem; font-size:.92rem; font-style:italic; color:var(--fg-1); line-height:1.5; }
-  .cita-strip cite { font-size:.68rem; color:var(--fg-3); font-style:normal; }
-
-  /* ─── INFO PANELS ─── */
-  #panel-overlay { display:none; position:fixed; inset:0; z-index:600; background:var(--bg); overflow-y:auto; animation:artIn .2s ease; }
-  #panel-overlay.open { display:block; }
-  .panel-topbar { position:sticky; top:0; z-index:10; background:rgba(5,6,8,.92); backdrop-filter:blur(20px); border-bottom:1px solid var(--border-1); display:flex; align-items:center; justify-content:space-between; padding:.75rem 1.5rem; }
-  .panel-back { display:flex; align-items:center; gap:.5rem; background:none; border:none; color:var(--fg-2); cursor:pointer; font-size:.8rem; font-weight:600; letter-spacing:.06em; text-transform:uppercase; }
-  .panel-back:hover { color:var(--fg-1); }
-  .panel-inner { max-width:700px; margin:0 auto; padding:2.5rem 1.5rem 4rem; }
-  .panel-content { display:none; }
-  .panel-content.active { display:block; }
-  .panel-content h2 { font-size:1.6rem; font-weight:900; letter-spacing:-.04em; color:var(--fg-1); margin:0 0 1.5rem; line-height:1.2; }
-  .panel-content h3 { font-size:.75rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--accent); margin:2rem 0 .6rem; border-top:1px solid var(--border-1); padding-top:1.25rem; }
-  .panel-content p { font-size:.9rem; color:var(--fg-2); line-height:1.75; margin:0 0 1rem; }
-  .panel-content p:last-child { margin-bottom:0; }
-  .panel-tag { display:inline-block; font-size:.6rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--accent); background:rgba(46,168,255,.1); border:1px solid rgba(46,168,255,.25); border-radius:99px; padding:.25rem .7rem; margin-bottom:1.25rem; }
 </style>
 </head>
 <body>
 
-<!-- ─── META BAR ─── -->
-<div class="meta-bar">
-  <div class="mb-l">
-    <span class="mb-date" id="mb-date-auto"></span>
-    <span class="mb-focus" id="dolar-strip">Dólar · cargando...</span>
-    <span class="ai-tag-sm">100% IA</span>
-  </div>
-  <div class="mb-r">El primer diario digital IA de La Pampa</div>
+<!-- ─── BARRA DE DATOS ─── -->
+<div class="databar">
+  <span id="mb-date-auto"></span>
+  <span class="db-fx" id="dolar-strip">Dólar · cargando...</span>
 </div>
 
-<!-- ─── HEADER ─── -->
-<header>
-  <div class="h-inner">
-    <a href="https://llano.it.com/" class="logo">LLANO<span class="logo-dot">·</span></a>
-    <nav class="h-nav">
-      <a href="#" class="active">Inicio</a>
-      <a href="#pol-prov">Política Pampeana</a>
-      <a href="#video">Video</a>
-      <a href="#voces-x">Voces · X</a>
-      <a href="#pol-nac">Nacional</a>
-      <a href="#intl">Internacional</a>
-      <span class="sep"></span>
-      <a href="archivo.html" style="font-size:.72rem;color:rgba(255,255,255,.45);letter-spacing:.06em;" title="Archivo de noticias">Archivo</a>
-      <a href="#ia" class="ia-link">✦ IA Explica</a>
-    </nav>
-    <div class="h-right">
-      <button class="icon-btn" onclick="toggleTheme()" aria-label="Cambiar tema">
-        <svg id="icon-theme" viewBox="0 0 24 24"><path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z"/></svg>
-      </button>
-    </div>
+<!-- ─── MANCHETA ─── -->
+<div class="masthead">
+  <a href="https://llano.it.com/" class="masthead-logo">LLANO<span class="dot">·</span></a>
+  <div class="masthead-desc">Política y poder en La Pampa. Diario digital.</div>
+  <div class="masthead-actions">
+    <button class="mh-btn">Buscar</button>
+    <button class="mh-btn primary">Suscribirse</button>
   </div>
-</header>
+</div>
+
+<!-- ─── NAV ─── -->
+<nav class="navbar">
+  <a href="#" class="active">Portada</a>
+  <a href="#pol-prov">La Pampa</a>
+  <a href="#pol-nac">Nacional</a>
+  <a href="#intl">Internacional</a>
+  <a href="#voces-x">Voces</a>
+  <a href="archivo.html">Archivo</a>
+</nav>
 
 <!-- ─── TICKER ─── -->
 <div class="ticker" aria-hidden="true">
-  <div class="ticker-label">
+  <span class="ticker-label">
     <svg width="8" height="8" viewBox="0 0 8 8" fill="white"><circle cx="4" cy="4" r="4"/></svg>
     EN VIVO
-  </div>
-  <div class="ticker-fade ticker-fade-l"></div>
-  <div class="ticker-fade ticker-fade-r"></div>
+  </span>
   <div class="ticker-track">
     <!-- AUTO:TICKER:START -->
     <span class="ti"><span class="ti-sep">●</span> <strong>NIHUILES</strong> Nación le quita a La Pampa las regalías y crece el pedido de renuncia a Ravier</span>
@@ -796,167 +443,134 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     <span class="ti"><span class="ti-sep">●</span> <strong>INTERNACIONAL</strong> Hong Kong condenó a prisión a activistas de las vigilias de Tiananmen</span>
     <!-- AUTO:TICKER:END -->
   </div>
+  <div class="ticker-fade ticker-fade-r"></div>
 </div>
 
-<!-- ─── HERO ─── -->
-<section class="hero">
-  <div class="hero-panels">
+<!-- ─── CUERPO PRINCIPAL: APERTURA + ÚLTIMAS ─── -->
+<div class="frontgrid">
 
 <!-- AUTO:HERO:START -->
-      <div class="hero-panel hero-panel--lead">
-        <div class="hero-panel-top">
-          <div class="hero-panel-kicker">
-            <span class="live-dot">SEGUIMIENTO</span>
-            <span class="hero-panel-cat">La Pampa · Política Pampeana</span>
-          </div>
-          <h1 class="hero-panel-title">Nación le quita a La Pampa las regalías de Los Nihuiles y crece el pedido de renuncia a Ravier</h1>
-          <p class="hero-panel-sub">El Decreto 982/2026 transfiere a Mendoza el 100% de las regalías hidroeléctricas que La Pampa recibía desde 1973. Ziliotto anunció una demanda judicial y el intendente Di Nápoli exigió la renuncia del vocero presidencial Adrián Ravier.</p>
-          <div class="hero-panel-foot">
-            <span class="ts">11 septiembre 2026 &#183; LLANO&#183;</span>
-            <span class="ia-badge">&#10022; Analisis IA</span>
-          </div>
-        </div>
-        <div class="hero-panel-photo" style="background-image:url('https://apn.lapampa.gob.ar/images/multimedia/2107320__jng7121.jpg');"></div>
-      </div>
+  <div class="hero-panel opening">
+    <div class="opening-kicker">Seguimiento · Política Pampeana</div>
+    <div class="opening-photo"><img src="img/noticias/nihuiles-2026-09-11.jpg" alt="Nación le quita a La Pampa las regalías de Los Nihuiles" loading="lazy" /></div>
+    <h1 class="hero-panel-title">Nación le quita a La Pampa las regalías de Los Nihuiles y crece el pedido de renuncia a Ravier</h1>
+    <p>El Decreto 982/2026 transfiere a Mendoza el 100% de las regalías hidroeléctricas que La Pampa recibía desde 1973. Ziliotto anunció una demanda judicial y el intendente Di Nápoli exigió la renuncia del vocero presidencial Adrián Ravier.</p>
+    <span class="ts">11 sep 2026 · LLANO·</span>
+  </div>
 <!-- AUTO:HERO:END -->
 
+  <div class="latest-col">
+    <div class="latest-hd">Últimas</div>
+    <div class="latest-list">
 <!-- AUTO:HERO-SIDE:START -->
-      <div class="hero-panel">
-        <div class="hero-panel-top">
-          <div class="hero-panel-kicker">
-            <span class="hero-panel-cat">La Pampa · Política Nacional</span>
-          </div>
-          <h2 class="hero-panel-title">Di Nápoli se sumó al reclamo por Los Nihuiles y le exigió la renuncia a Ravier</h2>
-          <p class="hero-panel-sub">El intendente de Santa Rosa respaldó la ofensiva judicial provincial y apuntó contra el vocero presidencial y economista pampeano Adrián Ravier.</p>
-          <div class="hero-panel-foot">
-            <span class="ts">11 sep 2026 · LLANO·</span>
-            <span class="chip chip-a">Hoy</span>
-          </div>
-        </div>
-        <div class="hero-panel-photo" style="background-image:url('https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/11/alta/2156071.jpg');"></div>
-      </div>
-      <div class="hero-panel hero-panel--wide">
-        <div class="hero-panel-top">
-          <div class="hero-panel-kicker">
-            <span class="hero-panel-cat">La Pampa · Política Nacional</span>
-          </div>
-          <h2 class="hero-panel-title">Kroneberger advirtió que los intereses pampeanos están por encima de cualquier gestión nacional</h2>
-          <p class="hero-panel-sub">El senador nacional (UCR) pidió encauzar el conflicto por las regalías de Los Nihuiles "bajo la Carta Magna" y reclamó diálogo entre Nación y provincias.</p>
-          <div class="hero-panel-foot">
-            <span class="ts">11 sep 2026 · LLANO·</span>
-            <span class="chip chip-b">Info</span>
-          </div>
-        </div>
-
-      </div>
-      <!-- AUTO:HERO-SIDE:END -->
-
-  </div>
-</section>
-
-<!-- ─── MAIN ─── -->
-<div class="main-wrap">
-
-  <!-- ── 01 POLÍTICA PAMPEANA ── -->
-  <div id="pol-prov" class="sec-hd fade-in" style="margin-top:.5rem;">
-    <span class="sec-num">01</span>
-    <h2 class="sec-name">Política Pampeana</h2>
-    <div class="sec-hd-right">
-      <span class="live-dot" style="font-size:.58rem;">Actualización continua</span>
-      <a href="archivo.html" class="ver-mas">Ver todo →</a>
+      <article class="ult">
+        <div class="ult-kicker">Santa Rosa</div>
+        <h3>Di Nápoli se sumó al reclamo por Los Nihuiles y le exigió la renuncia a Ravier</h3>
+        <span class="ts">11 sep 2026</span>
+      </article>
+      <article class="ult">
+        <div class="ult-kicker">Senado</div>
+        <h3>Kroneberger advirtió que los intereses pampeanos están por encima de cualquier gestión nacional</h3>
+        <span class="ts">11 sep 2026</span>
+      </article>
+      <article class="ult">
+        <div class="ult-kicker">Justicia</div>
+        <h3>Golpiza a un docente: identificaron a los 6 policías, serían formalizados la semana próxima</h3>
+        <span class="ts">11 sep 2026</span>
+      </article>
+      <article class="ult">
+        <div class="ult-kicker">Bernasconi</div>
+        <h3>Incertidumbre en Bernasconi por el posible cierre del frigorífico local</h3>
+        <span class="ts">11 sep 2026</span>
+      </article>
+<!-- AUTO:HERO-SIDE:END -->
     </div>
-  </div>
-
-  <!-- Política prov. + sidebar —>
-  <div class="lay fade-in">
-    <div>
-      <div style="display:flex;flex-direction:column;">
-
-                <!-- AUTO:SEC01-LIST:START -->
-        <div class="li">
-          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/08/27/alta/2154769.jpg" alt="La Pampa adhirió al Régimen Penal Juvenil y bajó la imputabilidad a 14 años" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
-          <div>
-            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">La Pampa · Diputados</span></div>
-            <h4>La Pampa adhirió al Régimen Penal Juvenil y bajó la imputabilidad a 14 años</h4>
-            <p>La Cámara de Diputados aprobó modificaciones a tres leyes locales para adaptarse a la normativa nacional, con la creación de diez nuevos cargos judiciales.</p>
-            <div class="li-meta"><span class="ts">11 sep 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
-          </div>
-        </div>
-        <div class="li">
-          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/10/alta/980080-t.jpg" alt="Taxistas protestaron frente a la Municipalidad e irrumpieron en el Concejo Deliberante" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
-          <div>
-            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">La Pampa · Santa Rosa</span></div>
-            <h4>Taxistas protestaron frente a la Municipalidad e irrumpieron en el Concejo Deliberante</h4>
-            <p>Reclamaron regulación de aplicaciones como Uber y Didi y pidieron ser recibidos por el intendente Di Nápoli, sin éxito.</p>
-            <div class="li-meta"><span class="ts">11 sep 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
-          </div>
-        </div>
-        <div class="li">
-          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/11/alta/2156059.jpg" alt="Golpiza a un docente: identificaron a los 6 policías, serían formalizados la semana próxima" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
-          <div>
-            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">La Pampa · Justicia</span></div>
-            <h4>Golpiza a un docente: identificaron a los 6 policías, serían formalizados la semana próxima</h4>
-            <p>El fiscal general Guillermo Sancho calificó el ataque contra Lautaro Ruiz como un caso "extraordinario" por su nivel de violencia.</p>
-            <div class="li-meta"><span class="ts">11 sep 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
-          </div>
-        </div>
-        <div class="li">
-          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="https://diarionoticias.com.ar/media/k2/items/cache/bb89930705a5c5a62efa069d6cb8c27b_XL.jpg" alt="Incertidumbre en Bernasconi por el posible cierre del frigorífico local" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
-          <div>
-            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">La Pampa · Economía</span></div>
-            <h4>Incertidumbre en Bernasconi por el posible cierre del frigorífico local</h4>
-            <p>Unos 40 operarios de la firma Metatech SA enfrentan un panorama crítico ante el anuncio del cese de actividades y denuncian atrasos salariales.</p>
-            <div class="li-meta"><span class="ts">11 sep 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
-          </div>
-        </div>
-        <div class="li">
-          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="https://apn.lapampa.gob.ar/images/multimedia/1391735_img-20260903-wa0021.jpg" alt="Ziliotto creó el Campus de Salud, un polo sanitario y académico estratégico" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
-          <div>
-            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">La Pampa · Salud</span></div>
-            <h4>Ziliotto creó el Campus de Salud, un polo sanitario y académico estratégico</h4>
-            <p>El decreto unifica el Hospital Favaloro, el Molas y el Centro Oncológico, e incluirá la futura Facultad de Ciencias de la Salud de la UNLPam.</p>
-            <div class="li-meta"><span class="ts">3 sep 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
-          </div>
-        </div>
-        <div class="li">
-          <div class="li-img" style="width:88px;height:58px;background:#111;position:relative;overflow:hidden;border-radius:var(--r);"><img src="https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/10/alta/2155990.jpg" alt="La foto que ordena el libreto: Verna, Di Nápoli y el pragmatismo del PJ hacia 2027" loading="lazy" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;" /></div>
-          <div>
-            <div class="card-meta" style="margin-bottom:.3rem;"><span class="cat">La Pampa · Política Pampeana</span></div>
-            <h4>La foto que ordena el libreto: Verna, Di Nápoli y el pragmatismo del PJ hacia 2027</h4>
-            <p>La reaparición pública de Carlos Verna junto al intendente de Santa Rosa precipitó los tiempos de la interna oficialista.</p>
-            <div class="li-meta"><span class="ts">10 sep 2026 · LLANO·</span><span class="ia-badge">&#10022; IA</span></div>
-          </div>
-        </div>
-        <!-- AUTO:SEC01-LIST:END -->
-
-      </div>
-    </div>
-
-    <aside>
-
-    </aside>
-  </div>
 
 <!-- AUTO:DATOS:START -->
-  <div class="dato-strip fade-in">
-    <span class="dato-strip-badge">Dato del día</span>
-    <div class="dato-strip-num">53</div>
-    <div class="dato-strip-txt">
+    <div class="datoday">
+      <div class="datoday-hd">Dato del día</div>
+      <div class="datoday-num">53</div>
       <p>Es la cantidad de años que La Pampa recibió sin interrupciones las regalías del complejo hidroeléctrico Los Nihuiles, desde 1973, hasta que el Decreto 982/2026 se las transfirió íntegramente a Mendoza.</p>
       <cite>LLANO· · 11 sep 2026</cite>
     </div>
+<!-- AUTO:DATOS:END -->
   </div>
-  <div class="cita-strip fade-in">
-    <blockquote>"No solo Mendoza nos robó un río. Ahora, junto al Gobierno de Milei, que deroga el Decreto 1560/73, nos quitan sus regalías. ¡No nos quedaremos quietos!"</blockquote>
-    <cite>— Sergio Ziliotto, gobernador de La Pampa, según El Diario de La Pampa · 11 sep 2026</cite>
-  </div>
-  <!-- AUTO:DATOS:END -->
 
-    <!-- ── VOCES · X ── -->
+</div>
+
+<!-- ── POLÍTICA PAMPEANA ── -->
+<div id="pol-prov" class="band">
+  <div class="band-hd">
+    <h2>Política Pampeana</h2>
+    <a href="archivo.html" class="ver-mas">Ver todo →</a>
+  </div>
+<!-- AUTO:SEC01-LIST:START -->
+  <div class="band-grid fade-in">
+    <div class="bandcard">
+      <div class="bandcard-photo"><img src="https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/08/27/alta/2154769.jpg" alt="La Pampa adhirió al Régimen Penal Juvenil y bajó la imputabilidad a 14 años" loading="lazy" /></div>
+      <div class="bandcard-kicker">Diputados</div>
+      <h4>La Pampa adhirió al Régimen Penal Juvenil y bajó la imputabilidad a 14 años</h4>
+    </div>
+    <div class="bandcard">
+      <div class="bandcard-photo"><img src="https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/10/alta/980080-t.jpg" alt="Taxistas protestaron frente a la Municipalidad e irrumpieron en el Concejo Deliberante" loading="lazy" /></div>
+      <div class="bandcard-kicker">Santa Rosa</div>
+      <h4>Taxistas protestaron frente a la Municipalidad e irrumpieron en el Concejo Deliberante</h4>
+    </div>
+    <div class="bandcard">
+      <div class="bandcard-photo"><img src="img/noticias/campus-salud-2026-09-03.jpg" alt="Ziliotto creó el Campus de Salud, un polo sanitario y académico estratégico" loading="lazy" /></div>
+      <div class="bandcard-kicker">Salud</div>
+      <h4>Ziliotto creó el Campus de Salud, un polo sanitario y académico estratégico</h4>
+    </div>
+  </div>
+<!-- AUTO:SEC01-LIST:END -->
+</div>
+
+<!-- ── POLÍTICA NACIONAL ── -->
+<div id="pol-nac" class="band">
+  <div class="band-hd">
+    <h2>Política Nacional</h2>
+    <a href="archivo.html" class="ver-mas">Ver todo →</a>
+  </div>
+<!-- AUTO:SEC03:START -->
+  <div class="band-grid fade-in">
+    <div class="bandcard">
+      <div class="bandcard-photo"><img src="https://media.ambito.com/p/98ea6397836ab3ca6f4386af8bdb16ec/adjuntos/239/imagenes/043/637/0043637498/655x368/smart/ziliotto-cornejo.jpg" alt="Duros cruces entre Mendoza y La Pampa tras el decreto por las regalías de Los Nihuiles" loading="lazy" /></div>
+      <div class="bandcard-kicker">Federalismo</div>
+      <h4>Duros cruces entre Mendoza y La Pampa tras el decreto por las regalías de Los Nihuiles</h4>
+    </div>
+    <div class="bandcard">
+      <div class="bandcard-photo"><img src="https://media.ambito.com/p/d5c27270b85888da3aeb75dfe3246686/adjuntos/239/imagenes/043/637/0043637037/black-hawk-helicoptero.jpg" alt="El Gobierno compra cuatro helicópteros Black Hawk a EEUU y profundiza el giro en Defensa" loading="lazy" /></div>
+      <div class="bandcard-kicker">Defensa</div>
+      <h4>El Gobierno compra cuatro helicópteros Black Hawk a EEUU y profundiza el giro en Defensa</h4>
+    </div>
+    <div class="bandcard">
+      <div class="bandcard-photo"><img src="https://media.ambito.com/p/a10361cdc464474d5b6d42c405da9353/adjuntos/239/imagenes/043/635/0043635487/655x368/smart/eduardo-vischi-senado.jpg" alt="El Senado avanza con un nuevo régimen de incentivo a inversiones, con impulso radical" loading="lazy" /></div>
+      <div class="bandcard-kicker">Economía</div>
+      <h4>El Senado avanza con un nuevo régimen de incentivo a inversiones, con impulso radical</h4>
+    </div>
+  </div>
+<!-- AUTO:SEC03:END -->
+</div>
+
+<!-- ── INTERNACIONAL AL PIE ── -->
+<div id="intl" class="intlfoot">
+  <div class="intlfoot-hd">Internacional</div>
+<!-- AUTO:SEC04:START -->
+  <div class="intlfoot-list fade-in">
+    <div class="intlfoot-item"><span class="intlfoot-num">01</span><span>Nueva York conmemoró el 25° aniversario del 11-S con un acto de Trump en el Pentágono</span></div>
+    <div class="intlfoot-item"><span class="intlfoot-num">02</span><span>Hong Kong condenó a prisión a activistas de las vigilias por la masacre de Tiananmen</span></div>
+    <div class="intlfoot-item"><span class="intlfoot-num">03</span><span>Rusia intensificó los ataques con drones sobre Ucrania mientras la UE destraba fondos para misiles Patriot</span></div>
+  </div>
+<!-- AUTO:SEC04:END -->
+</div>
+
+<div class="main-wrap">
+
+  <!-- ── VOCES · X ── -->
   <div id="voces-x" class="sec-hd fade-in">
     <span class="sec-num" style="font-weight:900;font-style:normal;letter-spacing:0;">𝕏</span>
     <h2 class="sec-name">Voces · X</h2>
-    <div class="sec-hd-right"><span style="font-size:.65rem;color:var(--fg-3);">Lo que dicen los dirigentes · LLANO·</span></div>
+    <div class="sec-hd-right"><span style="font-size:.65rem;color:var(--ink-4);">Lo que dicen los dirigentes · LLANO·</span></div>
   </div>
 
   <!-- AUTO:TWEETS:START -->
@@ -965,10 +579,10 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 
       <!-- Columna tweets -->
       <div>
-        <p style="font-size:.8rem;color:var(--fg-2);margin:0 0 1.2rem;line-height:1.5;">El tuit del día — @ZiliottoSergio, Sergio Ziliotto</p>
+        <p style="font-size:.8rem;color:var(--ink-2);margin:0 0 1.2rem;line-height:1.5;">El tuit del día — @ZiliottoSergio, Sergio Ziliotto</p>
 
         <!-- Tweet: @ZiliottoSergio -->
-        <blockquote class="twitter-tweet" data-theme="dark" data-lang="es">
+        <blockquote class="twitter-tweet" data-lang="es">
           <p lang="es" dir="ltr">No solo Mendoza nos robó un río. Ahora, junto al Gobierno de Milei, que deroga el Decreto 1560/73, nos quitan sus regalías. ¡No nos quedaremos quietos! El Río Atuel también es pampeano!!!</p>
           &mdash; Sergio Ziliotto (@ZiliottoSergio)
           <a href="https://x.com/ZiliottoSergio/status/2098359639876243671">11 sep 2026</a>
@@ -984,12 +598,12 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
             <span class="ia-badge">&#10022; Voces</span>
           </div>
           <h4 style="font-size:1rem;line-height:1.4;margin:0 0 .6rem;">Sergio Ziliotto en X</h4>
-          <p style="font-size:.8rem;color:var(--fg-2);line-height:1.5;margin:0 0 .8rem;">@ZiliottoSergio es el gobernador de La Pampa. Publicó este mensaje horas después de que el Gobierno nacional oficializara el Decreto 982/2026, que le transfiere a Mendoza el 100% de las regalías del complejo hidroeléctrico Los Nihuiles que la provincia recibía desde 1973.</p>
+          <p style="font-size:.8rem;color:var(--ink-2);line-height:1.5;margin:0 0 .8rem;">@ZiliottoSergio es el gobernador de La Pampa. Publicó este mensaje horas después de que el Gobierno nacional oficializara el Decreto 982/2026, que le transfiere a Mendoza el 100% de las regalías del complejo hidroeléctrico Los Nihuiles que la provincia recibía desde 1973.</p>
           <span class="ts">11 sep 2026 · LLANO·</span>
         </div>
         <div class="ab">
           <h6 class="ab-hd">Contexto</h6>
-          <p style="font-size:.75rem;color:var(--fg-3);line-height:1.5;margin:0;">El Decreto 982/2026 deroga el Decreto 1560/73 y termina con más de 50 años de reparto de regalías hidroeléctricas entre La Pampa y Mendoza por el complejo Los Nihuiles. Se suma al histórico conflicto por el río Atuel, cuyo caudal hacia La Pampa la Corte Suprema fijó en 2020 en un mínimo de 3,2 m³/s.</p>
+          <p style="font-size:.75rem;color:var(--ink-3);line-height:1.5;margin:0;">El Decreto 982/2026 deroga el Decreto 1560/73 y termina con más de 50 años de reparto de regalías hidroeléctricas entre La Pampa y Mendoza por el complejo Los Nihuiles. Se suma al histórico conflicto por el río Atuel, cuyo caudal hacia La Pampa la Corte Suprema fijó en 2020 en un mínimo de 3,2 m³/s.</p>
         </div>
       </div>
 
@@ -997,85 +611,9 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   </div>
   <!-- AUTO:TWEETS:END -->
 
-  <!-- ── 03 POLÍTICA NACIONAL ── -->
-  <div id="pol-nac" class="sec-hd fade-in">
-    <span class="sec-num">03</span>
-    <h2 class="sec-name">Política Nacional</h2>
-    <div class="sec-hd-right"><a href="archivo.html" class="ver-mas">Ver todo →</a></div>
-  </div>
-  <!-- AUTO:SEC03:START -->
-  <div class="g3">
-    <div class="card">
-      <div class="card-img" style="background:#111;"><img src="https://media.ambito.com/p/98ea6397836ab3ca6f4386af8bdb16ec/adjuntos/239/imagenes/043/637/0043637498/655x368/smart/ziliotto-cornejo.jpg" alt="Duros cruces entre Mendoza y La Pampa tras el decreto por las regalías de Los Nihuiles" loading="lazy" /></div>
-      <div class="card-meta"><span class="cat">Política Nacional · Federalismo</span><span class="ia-badge">&#10022; IA</span></div>
-      <h3>Duros cruces entre Mendoza y La Pampa tras el decreto por las regalías de Los Nihuiles</h3>
-      <p>El Gobierno nacional dispuso que Mendoza recupere el 100% de las regalías hidroeléctricas, una medida celebrada por Cornejo y repudiada por Ziliotto.</p>
-      <div class="card-meta"><span class="ts">11 sep 2026 · LLANO·</span></div>
-    </div>
-    <div class="card">
-      <div class="card-img" style="background:#111;"><img src="https://media.ambito.com/p/d5c27270b85888da3aeb75dfe3246686/adjuntos/239/imagenes/043/637/0043637037/black-hawk-helicoptero.jpg" alt="El Gobierno compra cuatro helicópteros Black Hawk a EEUU y profundiza el giro en Defensa" loading="lazy" /></div>
-      <div class="card-meta"><span class="cat">Política Nacional · Defensa</span><span class="ia-badge">&#10022; IA</span></div>
-      <h3>El Gobierno compra cuatro helicópteros Black Hawk a EEUU y profundiza el giro en Defensa</h3>
-      <p>La operación, de unos u$s140 millones, incluye motores, sistemas de navegación y soporte técnico; el primer aparato llegaría en diciembre.</p>
-      <div class="card-meta"><span class="ts">11 sep 2026 · LLANO·</span></div>
-    </div>
-    <div class="card">
-      <div class="card-img" style="background:#111;"><img src="https://media.ambito.com/p/a10361cdc464474d5b6d42c405da9353/adjuntos/239/imagenes/043/635/0043635487/655x368/smart/eduardo-vischi-senado.jpg" alt="El Senado avanza con un nuevo régimen de incentivo a inversiones, con impulso radical" loading="lazy" /></div>
-      <div class="card-meta"><span class="cat">Política Nacional · Economía</span><span class="ia-badge">&#10022; IA</span></div>
-      <h3>El Senado avanza con un nuevo régimen de incentivo a inversiones, con impulso radical</h3>
-      <p>El Régimen de Incentivo para las Inversiones Relevantes (RIIR) apunta a empresas medianas que no acceden a otros programas como el RIGI.</p>
-      <div class="card-meta"><span class="ts">10 sep 2026 · LLANO·</span></div>
-    </div>
-  </div>
-  <!-- AUTO:SEC03:END -->
+</div><!-- /main-wrap -->
 
-  <!-- ── 04 INTERNACIONAL ── -->
-  <div id="intl" class="sec-hd fade-in">
-    <span class="sec-num">04</span>
-    <h2 class="sec-name">Internacional</h2>
-    <div class="sec-hd-right"><a href="archivo.html" class="ver-mas">Ver todo →</a></div>
-  </div>
-  <!-- AUTO:SEC04:START -->
-  <div class="lay" style="margin-bottom:3rem;">
-    <div class="intl-list">
-      <div class="intl-item">
-        <span class="intl-num">01</span>
-        <h4>Nueva York conmemoró el 25° aniversario del 11-S con un acto de Trump en el Pentágono</h4>
-        <span class="ts ia-badge" style="flex-shrink:0;">&#10022; IA</span>
-      </div>
-      <div class="intl-item">
-        <span class="intl-num">02</span>
-        <h4>Hong Kong condenó a prisión a activistas de las vigilias por la masacre de Tiananmen</h4>
-        <span class="ts ia-badge" style="flex-shrink:0;">&#10022; IA</span>
-      </div>
-      <div class="intl-item">
-        <span class="intl-num">03</span>
-        <h4>Rusia intensificó los ataques con drones sobre Ucrania mientras la UE destraba fondos para misiles Patriot</h4>
-        <span class="ts ia-badge" style="flex-shrink:0;">&#10022; IA</span>
-      </div>
-      <div class="intl-item">
-        <span class="intl-num">04</span>
-        <h4>El Banco Central Europeo subió los tipos de interés al 2,5%, el segundo aumento del ciclo</h4>
-        <span class="ts ia-badge" style="flex-shrink:0;">&#10022; IA</span>
-      </div>
-      <div class="intl-item">
-        <span class="intl-num">05</span>
-        <h4>Los bonos del Tesoro de EEUU rozan el 5% y encienden alertas sobre la Reserva Federal</h4>
-        <span class="ts ia-badge" style="flex-shrink:0;">&#10022; IA</span>
-      </div>
-    </div>
-    <aside>
-      <div class="ab">
-        <h6 class="ab-hd">Contexto global hoy</h6>
-        <div class="dato-box">
-          <div class="num">53</div>
-          <div class="label">Es la cantidad de años que La Pampa recibió sin interrupciones las regalías del complejo hidroeléctrico Los Nihuiles, desde 1973, hasta que el Decreto 982/2026 se las transfirió íntegramente a Mendoza.</div>
-          <div class="src">LLANO· · 11 sep 2026</div>
-        </div>
-      </div>
-    </aside>
-  </div>
-  <!-- AUTO:SEC04:END -->
+
 
 
 </div><!-- /main-wrap -->
@@ -1116,10 +654,9 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     <div class="f-col">
       <h6>Secciones</h6>
       <a href="#pol-prov">Política Pampeana</a>
-      <a href="#video">Video del día</a>
       <a href="#pol-nac">Nacional</a>
       <a href="#intl">Internacional</a>
-
+      <a href="#voces-x">Voces · X</a>
     </div>
     <div class="f-col">
       <h6>Plataformas</h6>
@@ -1213,16 +750,6 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
 
 
 <script>
-  // Dark mode
-  function toggleTheme() {
-    const html = document.documentElement;
-    const dark = html.getAttribute('data-theme') === 'dark';
-    html.setAttribute('data-theme', dark ? 'light' : 'dark');
-    document.getElementById('icon-theme').innerHTML = dark
-      ? '<path d="M12 3a9 9 0 100 18A9 9 0 0012 3zm0 2a7 7 0 010 14V5z"/>'
-      : '<path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79 1.42-1.41zM4 10.5H1v2h3v-2zm9-9.95h-2V3.5h2V.55zm7.45 3.91l-1.41-1.41-1.79 1.79 1.41 1.41 1.79-1.79zm-3.21 13.7l1.79 1.8 1.41-1.41-1.8-1.79-1.4 1.4zM20 10.5v2h3v-2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm-1 16.95h2V19.5h-2v2.95zm-7.45-3.91l1.41 1.41 1.79-1.8-1.41-1.41-1.79 1.8z"/>';
-  }
-
   // Scroll-triggered fade-in
   const observer = new IntersectionObserver(
     entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }),
@@ -1230,7 +757,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   );
   document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-  // Contador animado para los datos numéricos del día (dato-strip / dato-box)
+  // Contador animado para el número del Dato del día
   function animateCount(el) {
     const raw = el.textContent;
     const m = raw.match(/[\d][\d.,]*/);
@@ -1255,11 +782,10 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       if (e.isIntersecting) { animateCount(e.target); countObserver.unobserve(e.target); }
     });
   }, { threshold: 0.4 });
-  document.querySelectorAll('.dato-strip-num, .dato-box .num').forEach(el => countObserver.observe(el));
+  document.querySelectorAll('.datoday-num').forEach(el => countObserver.observe(el));
 
-  // Nav scroll spy + header solid-on-scroll
-  const navLinks = document.querySelectorAll('.h-nav a');
-  const headerEl = document.querySelector('header');
+  // Nav scroll spy
+  const navLinks = document.querySelectorAll('.navbar a');
   window.addEventListener('scroll', () => {
     let cur = '';
     document.querySelectorAll('[id]').forEach(s => {
@@ -1270,7 +796,6 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
         a.getAttribute('href') === '#' + cur || (cur === '' && a.getAttribute('href') === '#')
       );
     });
-    headerEl.classList.toggle('header--solid', window.scrollY > 24);
   }, { passive: true });
 
   // ─── ARTICLE READER ───
@@ -1278,7 +803,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
   const ARTS = {
     "nihuiles_milei_quita_regalias_ravier": {
       cat:'La Pampa · Política Pampeana', fecha:'11 sep 2026', fuente:'El Diario de La Pampa',
-      fuenteUrl:'https://www.eldiariodelapampa.com.ar/la-pampa/80083/milei-le-quita-a-la-pampa-las-regalias-de-los-nihuiles-y-se-las-cede-al-100-en-porciento--a-mendoza', foto:'https://apn.lapampa.gob.ar/images/multimedia/2107320__jng7121.jpg',
+      fuenteUrl:'https://www.eldiariodelapampa.com.ar/la-pampa/80083/milei-le-quita-a-la-pampa-las-regalias-de-los-nihuiles-y-se-las-cede-al-100-en-porciento--a-mendoza', foto:'img/noticias/nihuiles-2026-09-11.jpg',
       titulo:`Nación le quita a La Pampa las regalías de Los Nihuiles y crece el pedido de renuncia a Ravier`,
       bajada:`El Decreto 982/2026 transfiere a Mendoza el 100% de las regalías hidroeléctricas que La Pampa recibía desde 1973. Ziliotto anunció una demanda judicial y el intendente Di Nápoli exigió la renuncia del vocero presidencial Adrián Ravier.`,
       cuerpo:`<p>El Gobierno nacional oficializó el <strong>Decreto 982/2026</strong>, que deroga el histórico Decreto 1560/73 y transfiere a Mendoza el 100% de las regalías generadas por el complejo hidroeléctrico Los Nihuiles, un recurso que La Pampa venía percibiendo de manera ininterrumpida desde 1973.</p><p>El gobernador <strong>Sergio Ziliotto</strong> respondió de inmediato: "No solo Mendoza nos robó un río. Ahora, junto al Gobierno de Milei, que deroga el Decreto 1560/73, nos quitan sus regalías. ¡No nos quedaremos quietos!". La Fiscalía de Estado provincial ya trabaja en una presentación judicial para revertir la medida.</p><p>El intendente de Santa Rosa, <strong>Luciano di Nápoli</strong>, se sumó al reclamo y apuntó contra el vocero presidencial y economista pampeano <strong>Adrián Ravier</strong>: "Si le queda algo de dignidad tiene que renunciar inmediatamente a este gobierno que despoja a los pampeanos". Consultado por la prensa, Ravier evitó pronunciarse: "Por el momento el vocero no va a hacer declaraciones".</p><p>El senador nacional <strong>Daniel Kroneberger</strong> (UCR) pidió encauzar la disputa "bajo la Carta Magna, la legislación y los pactos establecidos" y afirmó que los intereses pampeanos "están por encima de cualquier gestión de gobierno".</p>`
@@ -1327,7 +852,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     },
     "campus_salud_ziliotto": {
       cat:'La Pampa · Salud', fecha:'3 sep 2026', fuente:'APN La Pampa',
-      fuenteUrl:'https://apn.lapampa.gob.ar/nota/detalle/id/30720/Ziliotto-cre-el-Campus-de-Salud-un-polo-sanitario-y-acadmico-estratgico-para-La-Pampa', foto:'https://apn.lapampa.gob.ar/images/multimedia/1391735_img-20260903-wa0021.jpg',
+      fuenteUrl:'https://apn.lapampa.gob.ar/nota/detalle/id/30720/Ziliotto-cre-el-Campus-de-Salud-un-polo-sanitario-y-acadmico-estratgico-para-La-Pampa', foto:'img/noticias/campus-salud-2026-09-03.jpg',
       titulo:`Ziliotto creó el Campus de Salud, un polo sanitario y académico estratégico`,
       bajada:`El decreto unifica el Hospital Favaloro, el Molas y el Centro Oncológico, e incluirá la futura Facultad de Ciencias de la Salud de la UNLPam.`,
       cuerpo:`<p>El gobernador <strong>Sergio Ziliotto</strong> formalizó mediante decreto la creación del Campus de Salud de La Pampa, que integra el Hospital de Complejidad Creciente Dr. René Favaloro, el Hospital Lucio Molas y el Centro Regional Radio Oncológico en un mismo espacio, junto a la futura sede de la Facultad de Ciencias de la Salud de la Universidad Nacional de La Pampa.</p><p>El Favaloro funcionará como ámbito de formación y residencia profesional; el Molas concentrará diagnóstico y atención ambulatoria; y el Centro Oncológico continuará con tratamientos especializados para evitar traslados fuera de la provincia. La Universidad cedió 8.500 metros cuadrados entre ambos hospitales para la nueva facultad.</p><p>"Se unificarán estructuras directivas y se centralizará la organización y las decisiones, dando mayor eficiencia al uso de recursos humanos y económicos", señaló el Gobierno provincial al presentar la iniciativa.</p>`
@@ -1429,8 +954,8 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     if (hash && ARTS[hash]) openArticle(hash);
   })();
 
-  // Card & list-item clicks → article reader
-  document.querySelectorAll('.card, .li').forEach(card => {
+  // Cards de banda de sección + items de "Últimas" → abrir articulo
+  document.querySelectorAll('.bandcard, .ult').forEach(card => {
     card.addEventListener('click', function(e) {
       if (e.target.closest('a')) return;
       const h = this.querySelector('h3, h4');
@@ -1440,33 +965,11 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     });
   });
 
-  // Paneles del hero (lead + secundarios) → buscar por titulo dinamicamente
+  // Apertura del hero → buscar por titulo dinamicamente
   document.querySelectorAll('.hero-panel').forEach(el => {
     el.addEventListener('click', e => {
       if (!e.target.closest('a')) {
         const h = el.querySelector('.hero-panel-title');
-        const id = h ? findArtByTitle(h.textContent) : null;
-        if (id) openArticle(id);
-      }
-    });
-  });
-
-  // Cards de secciones (h3) → abrir articulo
-  document.querySelectorAll('.card').forEach(el => {
-    el.addEventListener('click', e => {
-      if (!e.target.closest('a')) {
-        const h = el.querySelector('h3');
-        const id = h ? findArtByTitle(h.textContent) : null;
-        if (id) openArticle(id);
-      }
-    });
-  });
-
-  // Lista de noticias .li (h4) → abrir articulo
-  document.querySelectorAll('.li').forEach(el => {
-    el.addEventListener('click', e => {
-      if (!e.target.closest('a')) {
-        const h = el.querySelector('h4');
         const id = h ? findArtByTitle(h.textContent) : null;
         if (id) openArticle(id);
       }
@@ -1490,13 +993,6 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     document.body.style.overflow = '';
   }
 
-  function llanoYT() {
-    var f = document.getElementById('yt-facade');
-    if (!f) return;
-    f.innerHTML = '<iframe style="position:absolute;inset:0;width:100%;height:100%;border:0" src="https://www.youtube.com/embed/BANL3oXPwVg?rel=0&modestbranding=1&autoplay=1" allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture;web-share" allowfullscreen></iframe>';
-    f.style.cursor = 'default';
-    f.onclick = null;
-  }
 
 </script>
 
@@ -1511,7 +1007,7 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
       <span id="art-src-txt"></span>
       <a id="art-src-lnk" href="#" target="_blank" rel="noopener noreferrer" style="display:none;">Ver nota original ↗</a>
     </div>
-    <button id="art-share-btn" onclick="compartirNota()" style="background:none;border:1px solid rgba(255,255,255,.15);color:rgba(255,255,255,.7);padding:.3rem .75rem;border-radius:99px;font-size:.72rem;cursor:pointer;letter-spacing:.04em;white-space:nowrap;">Compartir</button>
+    <button id="art-share-btn" onclick="compartirNota()" style="background:none;border:1px solid var(--rule);color:var(--ink-2);padding:.3rem .75rem;font-size:.72rem;cursor:pointer;letter-spacing:.04em;white-space:nowrap;font-family:'Archivo',system-ui,sans-serif;">Compartir</button>
   </div>
   <div class="art-inner">
     <img id="art-cover-img" class="art-cover" src="" alt="" style="display:none;" />
@@ -1519,14 +1015,13 @@ footer { border-top: 1px solid var(--border); padding: 2.5rem 2rem 1.5rem; }
     <div class="art-meta-row">
       <span id="art-cat-lbl" class="cat"></span>
       <span id="art-fecha-lbl" class="ts"></span>
-      <span class="ia-badge">✦ LLANO· IA</span>
+      <span class="ia-badge">✦ IA</span>
     </div>
     <h2 id="art-h1" class="art-title"></h2>
     <p id="art-bajada" class="art-bajada"></p>
     <div id="art-cuerpo" class="art-body"></div>
     <div class="art-foot">
       <span id="art-foot-src" class="art-foot-src"></span>
-      <span class="ia-badge" style="margin-left:auto;">✦ Editado por IA · LLANO·</span>
     </div>
   </div>
 </div>
