@@ -5993,7 +5993,7 @@
       "hero_side": [
         {
           "titulo": "Tierno acusó a Torroba de ser \"un topo\" y busca romper la interna de la UCR",
-          "resumen": "El exintendente de Santa Rosa apunta contra el sector Celeste de la UCR desde su espacio Comunidad Organizada, con un entendimiento informal con el vocero presidencial Adrián Ravier.",
+          "resumen": "El exintendente de Santa Rosa vuelve a apuntar contra Francisco Torroba y busca generar una cuña con el sector Celeste de la UCR, aunque es el propio Torroba —de la Línea Azul— quien considera que Comunidad Organizada es \"un límite\" político y ético.",
           "cat": "La Pampa · Política Pampeana",
           "ts": "15 sep 2026 · LLANO·"
         },
@@ -6029,8 +6029,8 @@
           "id": "tierno_ataca_torroba_topo_ucr",
           "cat": "La Pampa · Política Pampeana",
           "titulo": "Tierno acusó a Torroba de ser \"un topo\" y busca romper la interna de la UCR",
-          "bajada": "El exintendente de Santa Rosa apunta contra el sector Celeste de la UCR desde su espacio Comunidad Organizada, con un entendimiento informal con el vocero presidencial Adrián Ravier.",
-          "cuerpo": "<p><strong>Juan Carlos Tierno</strong>, exintendente de Santa Rosa, redobló sus críticas contra la Unión Cívica Radical a través de sus redes sociales, con ataques dirigidos especialmente a <strong>Francisco Torroba</strong>, a quien acusó de ser \"un topo\" del peronismo.</p><p>Desde su espacio Comunidad Organizada, Tierno busca generar división dentro del sector Celeste de la UCR, liderado por Martín Berhongaray y Poli Altolaguirre, quienes consideran que el exintendente representa \"un límite desde lo político e incluso desde lo ético\". El conflicto tiene raíces históricas: Torroba derrotó a Tierno en las elecciones de 2008 en Santa Rosa, tras una intervención derivada de un caso de abuso de autoridad.</p><p>La estrategia de Comunidad Organizada incluye un entendimiento informal con el vocero presidencial <strong>Adrián Ravier</strong>, aunque esa alianza carece del respaldo de la conducción nacional de La Libertad Avanza. La UCR, además, rechaza una eventual candidatura de Tierno por sus antecedentes penales.</p>",
+          "bajada": "El exintendente de Santa Rosa vuelve a apuntar contra Francisco Torroba y busca generar una cuña con el sector Celeste de la UCR, aunque es el propio Torroba —de la Línea Azul— quien considera que Comunidad Organizada es \"un límite\" político y ético.",
+          "cuerpo": "<p><strong>Juan Carlos Tierno</strong>, exintendente de Santa Rosa, redobló sus críticas contra la Unión Cívica Radical a través de sus redes sociales, con un nuevo ataque a <strong>Francisco Torroba</strong>, a quien acusó de ser \"un topo\" del peronismo y comparó con personajes del espionaje. Desde su espacio Comunidad Organizada, Tierno busca generar una cuña con el sector Celeste de la UCR, que comandan Martín Berhongaray y Poli Altolaguirre.</p><p><strong>Torroba</strong> —dirigente de la Línea Azul y el radical que más alto llegó en la provincia, como intendente de Santa Rosa— y otros dirigentes boinablancas aceptaron explorar una alianza ampliada para competir contra el PJ, pero consideran que Comunidad Organizada, y especialmente Tierno, \"es un límite desde lo político e incluso desde lo ético\", y que ese acercamiento puede ser contraproducente electoralmente.</p><p>El conflicto tiene raíces históricas: Torroba derrotó a Tierno en las elecciones de 2008 en Santa Rosa, tras una intervención derivada de un caso de abuso de autoridad. La estrategia de Comunidad Organizada incluye además un entendimiento informal con el vocero presidencial <strong>Adrián Ravier</strong>, sin el aval de la conducción nacional de La Libertad Avanza; y la UCR ya descartó que Tierno pueda ser candidato por sus antecedentes penales.</p>",
           "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/15/alta/2156362.jpg"
         },
         {
@@ -6104,6 +6104,180 @@
           "bajada": "El juez Martínez de Giorgi sobreseyó a Flavio, Hugo y Rosana Caputo y envió a juicio a cinco acusados por incitación a la violencia colectiva.",
           "cuerpo": "<p>El juez federal <strong>Marcelo Martínez de Giorgi</strong> dictó dos resoluciones clave en la causa Revolución Federal. Por un lado, sobreseyó a Flavio, Hugo y Rosana Caputo al no encontrar pruebas suficientes de que hubieran financiado las actividades del grupo, pese a transferencias por más de $6,5 millones detectadas por organismos financieros. El juez sostuvo que la relación comercial entre los Caputo y Jonathan Morel, vinculada a la provisión de muebles para emprendimientos inmobiliarios, correspondía a \"negocios genuinos\" y no a una fachada de financiamiento: \"No se encuentra probada una participación criminal\", afirmó.</p><p>Por otro lado, elevó a juicio a <strong>Jonathan Morel</strong>, Leonardo Sosa, Sabrina Basile, Gastón Guerra y Lidia Casciano, que enfrentarán proceso por hechos de violencia e intimidación, con los cargos recalificados como \"incitación a la violencia colectiva\".</p>",
           "foto": "https://media.ambito.com/p/13b15ebd1276a51259124830da79e289/adjuntos/239/imagenes/040/547/0040547308/655x368/smart/revolucion-federal-jonathan-moreljpg.jpg"
+        }
+      ]
+    },
+    {
+      "clave": "2026-09-16_manana",
+      "fecha_iso": "2026-09-16",
+      "fecha": "16 septiembre 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "La CIDH emplazó al Gobierno nacional a explicar el incumplimiento del fallo del Atuel",
+        "summary": "La Comisión Interamericana le dio a la Nación tres meses, más una prórroga, para responder por qué no garantiza el caudal mínimo hacia La Pampa. La fiscal de Estado Romina Schmidt advirtió, además, que Nación y Mendoza aceleran los pliegos de la licitación de Los Nihuiles para dejar afuera a la provincia antes de que falle la Corte Suprema.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/R%C3%ADo_Atuel_en_El_Sosneado.jpg/960px-R%C3%ADo_Atuel_en_El_Sosneado.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Policía desarticuló un punto de comercialización de drogas en Santa Rosa",
+          "resumen": "Una investigación de la Fiscalía Federal, junto a la Policía de La Pampa, permitió detener a un hombre vinculado a la venta de cocaína en la capital provincial.",
+          "cat": "La Pampa · Santa Rosa",
+          "foto": "img/noticias/drogas-santa-rosa-2026-09-15.jpg",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Gobierno entregó fondos de Desarrollo de la Economía Social a 73 emprendedores de Santa Rosa",
+          "resumen": "Los créditos a tasa cero, por un total de $235,9 millones presupuestados para el año, sirven para la compra de herramientas y equipamiento.",
+          "cat": "La Pampa · Economía",
+          "foto": "img/noticias/economia-social-santa-rosa-2026-09-15.jpg",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Un proyecto de Victorica ganó la edición 2026 del \"Aprender a Gobernar\"",
+          "resumen": "\"Escuchar también es cuidar\", del Colegio Secundario Félix Romero, se impuso entre 72 proyectos debatidos por 173 estudiantes de 29 localidades.",
+          "cat": "La Pampa · Educación",
+          "foto": "img/noticias/aprender-a-gobernar-victorica-2026-09-15.jpg",
+          "ts": "15 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Presupuesto 2027: el Gobierno fijó fecha para iniciar el debate en el Congreso",
+          "resumen": "El oficialismo prevé la primera reunión de comisión para el 7 de octubre, con el secretario de Finanzas Federico Furiase a cargo de la defensa inicial.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://media.ambito.com/p/43d3a095d330a5fe602b48158c7afd93/adjuntos/239/imagenes/043/449/0043449216/655x368/smart/plenario-diputados.jpeg",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Con desafíos para la oposición y el oficialismo, empezó el debate en comisión por endeudamiento",
+          "resumen": "Casi 80 proyectos buscan dar respuesta a la situación de 20 millones de argentinos endeudados; las comisiones deben emitir dictamen antes del 29 de septiembre.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://media.ambito.com/p/05c24b4c024f745aa098aa6aa2017fbc/adjuntos/239/imagenes/043/644/0043644842/655x368/smart/img_5032.JPG",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Carne vacuna: el Gobierno anunció que agotó antes de lo previsto el cupo ampliado para exportar a EEUU",
+          "resumen": "El acuerdo firmado con Washington había elevado de 20.000 a 100.000 toneladas el acceso preferencial de carne bovina argentina durante 2026.",
+          "cat": "Política Nacional · Comercio Exterior",
+          "foto": "https://media.ambito.com/p/d00d184d5db23dc804d0349da10b0a29/adjuntos/239/imagenes/040/613/0040613797/655x368/smart/carne-vacunajpg.jpg",
+          "ts": "15 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "La trampa de los pliegos: la maniobra de Nación y Mendoza para dejar afuera a La Pampa de Los Nihuiles",
+          "resumen": "El apuro de Javier Milei por firmar el Decreto 982/2026 busca blindar la licitación de las represas a favor del gobierno de Alfredo Cornejo, antes de que la Corte Suprema falle sobre las regalías.",
+          "cat": "La Pampa · Política Pampeana",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "El juego de las fotos de Verna: la pasarela de candidatos a la gobernación en General Pico",
+          "resumen": "El exgobernador utiliza reuniones en General Pico para consolidar su influencia dentro del peronismo provincial, de cara al ordenamiento del PJ rumbo a 2027.",
+          "cat": "La Pampa · Política Pampeana",
+          "ts": "16 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Pérez Araujo: \"El peronismo tiene que llegar unido a 2027\"",
+          "resumen": "El diputado provincial del Frejupa considera que el peronismo debe priorizar un proyecto común y sumar a Fuerza Pampa para enfrentar al frente antiperonista.",
+          "cat": "La Pampa · Política Pampeana",
+          "ts": "16 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Ziliotto: \"Nuestro objetivo es ver cómo la gente llega a fin de mes\"",
+          "resumen": "El gobernador afirmó que su gestión prioriza sostener políticas públicas y amortiguar el impacto del modelo económico nacional en La Pampa, antes que la discusión electoral.",
+          "cat": "La Pampa · Economía",
+          "ts": "16 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "cidh_emplazo_gobierno_nacional_atuel",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La CIDH emplazó al Gobierno nacional a explicar el incumplimiento del fallo del Atuel",
+          "bajada": "La Comisión Interamericana le dio a la Nación tres meses, más una prórroga, para responder por qué no garantiza el caudal mínimo hacia La Pampa. La fiscal de Estado Romina Schmidt advirtió, además, que Nación y Mendoza aceleran los pliegos de la licitación de Los Nihuiles para dejar afuera a la provincia antes de que falle la Corte Suprema.",
+          "cuerpo": "<p>El abogado <strong>Omar Gebruers</strong>, que patrocina a dos productoras ganaderas del oeste pampeano afectadas por el corte del río Atuel, confirmó que la <strong>Comisión Interamericana de Derechos Humanos</strong> emplazó al Estado argentino para que responda por el incumplimiento del fallo de la Corte Suprema de 2020, que obliga a Mendoza a garantizar un caudal mínimo de <strong>3,2 metros cúbicos por segundo</strong> hacia La Pampa. \"Le dieron inicialmente tres meses y luego una pequeña prórroga de un mes más\", explicó Gebruers, quien representa a las crianceras caprineras Alejandra Domínguez y Elsa Monzón.</p><p>Sobre el decreto presidencial que le quitó a La Pampa las regalías de Los Nihuiles, el abogado sostuvo: \"creo que esto de las regalías es una contraofensiva, con la que buscan embarrar la cancha para no hablar de la escorrentía obligatoria\". Gebruers pidió además que la CIDH convoque a una reunión con representantes de ambas provincias, la Cancillería y los peticionantes.</p><p>En paralelo, la fiscal de Estado <strong>Romina Schmidt</strong> advirtió que el apuro del presidente Javier Milei por firmar el Decreto 982/2026 responde a una maniobra coordinada con el gobierno de Alfredo Cornejo para \"blindar\" la licitación de las represas de Los Nihuiles antes de que la Corte Suprema se expida: \"Lo que quieren es dejar afuera a La Pampa de esos pliegos, porque en las bases se tiene que establecer que la empresa ganadora le tiene que pagar regalías a nuestra provincia\". Según Schmidt, si los pliegos avanzan sin contemplar los derechos pampeanos, revertir la situación tras un fallo favorable sería \"mucho más difícil\".</p>",
+          "foto": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/R%C3%ADo_Atuel_en_El_Sosneado.jpg/960px-R%C3%ADo_Atuel_en_El_Sosneado.jpg"
+        },
+        {
+          "id": "trampa_pliegos_nihuiles_schmidt",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La trampa de los pliegos: la maniobra de Nación y Mendoza para dejar afuera a La Pampa de Los Nihuiles",
+          "bajada": "El apuro de Javier Milei por firmar el Decreto 982/2026 busca blindar la licitación de las represas a favor del gobierno de Alfredo Cornejo, antes de que la Corte Suprema falle sobre las regalías.",
+          "cuerpo": "<p>El Decreto 982/2026, firmado por el presidente <strong>Javier Milei</strong>, busca despojar a La Pampa del 50% histórico de las regalías del complejo Los Nihuiles mediante una estrategia coordinada entre la Casa Rosada y el gobierno mendocino. Según la fiscal de Estado pampeana <strong>Romina Schmidt</strong>, la táctica consiste en acelerar la redacción de los pliegos de la licitación de las represas para excluir a la provincia antes de que la Corte Suprema se expida nuevamente sobre el caso.</p><p>\"Lo que quieren es dejar afuera a La Pampa de esos pliegos, porque en las bases se tiene que establecer que la empresa ganadora le tiene que pagar regalías a nuestra provincia\", explicó Schmidt. La funcionaria advirtió que si los pliegos se aprueban sin contemplar los derechos pampeanos, revertir la situación tras un eventual fallo favorable de la Corte sería \"mucho más difícil\", con una licitación ya avanzada y una empresa adjudicataria.</p><p>La provincia ya interpuso una medida cautelar autónoma para frenar los efectos del decreto mientras se redacta la demanda principal.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/15/alta/2156384.jpg"
+        },
+        {
+          "id": "verna_fotos_pj_general_pico_candidatos",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "El juego de las fotos de Verna: la pasarela de candidatos a la gobernación en General Pico",
+          "bajada": "El exgobernador utiliza reuniones en General Pico para consolidar su influencia dentro del peronismo provincial, de cara al ordenamiento del PJ rumbo a 2027.",
+          "cuerpo": "<p>El exgobernador <strong>Carlos Verna</strong>, sin cargo ejecutivo pero con liderazgo político dentro del peronismo pampeano, utiliza reuniones en General Pico para consolidar su influencia interna. \"El ordenamiento del peronismo se teje en el norte\", señala el análisis de El Diario de La Pampa, que describe una secuencia fotográfica de encuentros con la vicegobernadora <strong>Alicia Mayoral</strong>, el intendente de Santa Rosa <strong>Luciano di Nápoli</strong> y la intendenta de General Pico <strong>Fernanda Alonso</strong>.</p><p>Según el análisis, no se trata simplemente de un casting de candidatos, sino \"el laboratorio donde se busca un ordenamiento general del PJ\". Resultan significativas las ausencias en la galería política: ni <strong>Ariel Rauschenberger</strong> ni <strong>Daniel Bensusán</strong> fueron fotografiados aún, lo que sugiere negociaciones inconclusas.</p><p>La incógnita central pasa por si el gobernador <strong>Sergio Ziliotto</strong> aceptará encabezar la nómina de senadores nacionales sin mayor protagonismo en la fórmula electoral. El próximo retrato que se imprima en Pico, señala el texto, podría marcar el verdadero desenlace de la interna oficialista.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/16/alta/2156436.jpg"
+        },
+        {
+          "id": "perez_araujo_peronismo_unido_2027",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Pérez Araujo: \"El peronismo tiene que llegar unido a 2027\"",
+          "bajada": "El diputado provincial del Frejupa considera que el peronismo debe priorizar un proyecto común y sumar a Fuerza Pampa para enfrentar al frente antiperonista.",
+          "cuerpo": "<p>El legislador vernista <strong>Hernán Pérez Araujo</strong> sostuvo que la estructura peronista pampeana debe trabajar para llegar unida a las elecciones de 2027. \"Yo creo que todo se va encaminando a que estemos todos dentro del peronismo y a que el peronismo llegue unido a la elección de 2027. Todavía falta muchísimo, no tenemos ni siquiera fecha\", afirmó, y remarcó que la discusión debe centrarse primero en un proyecto compartido: \"primero hay que hablar de proyecto, hay que hablar del modelo\".</p><p>El diputado respaldó las recientes fotografías de Carlos Verna con dirigentes de distintos sectores peronistas, y ubicó la disputa de 2027 como una polarización entre dos grandes bloques: \"Hay un gran frente peronista y seguramente habrá un gran frente antiperonista\". Sobre Fuerza Pampa —el espacio de dirigentes que no se sienten contenidos en la estructura del PJ pero \"reivindican su pertenencia al peronismo\"— dijo que los va a invitar \"a que estén dentro del frente, que, además, va a tener que jugar una gran partida contra un frente antiperonista\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/16/alta/2156366.jpg"
+        },
+        {
+          "id": "ziliotto_fin_de_mes_prioridad",
+          "cat": "La Pampa · Economía",
+          "titulo": "Ziliotto: \"Nuestro objetivo es ver cómo la gente llega a fin de mes\"",
+          "bajada": "El gobernador afirmó que su gestión prioriza sostener políticas públicas y amortiguar el impacto del modelo económico nacional en La Pampa, antes que la discusión electoral.",
+          "cuerpo": "<p>El gobernador <strong>Sergio Ziliotto</strong> sostuvo que su administración se enfoca en absorber los efectos de la situación económica actual, priorizando que la población acceda a servicios básicos, por sobre la agenda electoral de cara a 2027. Destacó que la provincia busca amortiguar las consecuencias del modelo nacional mediante la continuidad de la atención sanitaria, el funcionamiento escolar y las políticas del Banco de La Pampa para sostener el empleo y los salarios.</p><p>Respecto de la presión tributaria empresarial, cuestionó que las provincias carguen con el impacto de las reducciones impositivas nacionales, considerando que ellas \"sostienen el federalismo en la República Argentina\". Para Ziliotto, la discusión política llegará en su momento, pero hoy la prioridad es mejorar las condiciones de vida, generar empleo y garantizar dignidad salarial.</p>",
+          "foto": ""
+        },
+        {
+          "id": "drogas_santa_rosa_desarticulacion",
+          "cat": "La Pampa · Santa Rosa",
+          "titulo": "Policía desarticuló un punto de comercialización de drogas en Santa Rosa",
+          "bajada": "Una investigación de la Fiscalía Federal, junto a la Policía de La Pampa, permitió detener a un hombre vinculado a la venta de cocaína en la capital provincial.",
+          "cuerpo": "<p>Una investigación de la Fiscalía Federal de Santa Rosa, en conjunto con la Oficina de Inteligencia Criminal de la Policía de La Pampa, permitió detener a un hombre vinculado al fraccionamiento y la comercialización de estupefacientes en distintos sectores de la capital pampeana. El detenido cuenta con antecedentes por infracciones a la Ley Nacional N° 23.737, y quedó además vinculado al principal imputado de una organización desarticulada en marzo pasado, cuando se secuestraron 3,324 kilogramos de cocaína que se trasladaban hacia La Pampa.</p><p>Durante el procedimiento se incautaron 302 gramos de cocaína compacta, dos balanzas de precisión, elementos de fraccionamiento, cuatro teléfonos celulares, $1.359.250 en efectivo, un revólver calibre 38 y nueve municiones. El principal investigado quedó con prisión preventiva, mientras que su pareja recibió prisión domiciliaria.</p>",
+          "foto": "img/noticias/drogas-santa-rosa-2026-09-15.jpg"
+        },
+        {
+          "id": "economia_social_emprendedores_santa_rosa",
+          "cat": "La Pampa · Economía",
+          "titulo": "El Gobierno entregó fondos de Desarrollo de la Economía Social a 73 emprendedores de Santa Rosa",
+          "bajada": "Los créditos a tasa cero, por un total de $235,9 millones presupuestados para el año, sirven para la compra de herramientas y equipamiento.",
+          "cuerpo": "<p>En un acto presidido por el ministro de Desarrollo Social y Derechos Humanos, <strong>Diego Álvarez</strong>, y el intendente <strong>Luciano di Nápoli</strong>, el Gobierno provincial entregó $109.000.000 como primer desembolso 2026 del programa \"Desarrollo de la Economía Social\" a 73 emprendedoras y emprendedores de Santa Rosa. Los créditos, a tasa de interés del 0%, tienen un período de gracia de 6 meses y se devuelven en 54 cuotas mensuales.</p><p>El programa beneficia a emprendimientos de rubros diversos: gastronomía, oficios tradicionales, servicios personales, tecnología e innovación y comercio general. El presupuesto total para Santa Rosa en 2026 es de $235.908.911,77, financiado con fondos del juego registrado en la provincia y distribuido mediante la Ley de Descentralización.</p>",
+          "foto": "img/noticias/economia-social-santa-rosa-2026-09-15.jpg"
+        },
+        {
+          "id": "aprender_a_gobernar_victorica_2026",
+          "cat": "La Pampa · Educación",
+          "titulo": "Un proyecto de Victorica ganó la edición 2026 del \"Aprender a Gobernar\"",
+          "bajada": "\"Escuchar también es cuidar\", del Colegio Secundario Félix Romero, se impuso entre 72 proyectos debatidos por 173 estudiantes de 29 localidades.",
+          "cuerpo": "<p>El proyecto \"Escuchar también es cuidar\", del Colegio Secundario Félix Romero de Victorica, ganó la edición 2026 del programa \"Aprender a Gobernar\", que celebró sus veinte años y se realizó por primera vez en la Casa de Gobierno y sedes provinciales. Un total de 173 estudiantes de 43 instituciones educativas de 29 localidades presentaron 72 propuestas distribuidas en 13 comisiones temáticas.</p><p>El proyecto ganador, elaborado por <strong>Agustín Prost</strong> y <strong>Josefina Sardiña</strong> bajo la asesoría de María Teresa Herner, propone una campaña comunitaria de salud mental sostenida por las propias juventudes de Victorica, con encuentros de escucha en la escuela y espacios comunitarios. La Provincia transferirá $2.500.000 para que se ejecute. Los proyectos abordaron además temas como inclusión, saneamiento, ambiente, infraestructura, seguridad vial, educación financiera, patrimonio local y bienestar animal.</p>",
+          "foto": "img/noticias/aprender-a-gobernar-victorica-2026-09-15.jpg"
+        },
+        {
+          "id": "presupuesto_2027_fecha_debate_congreso",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Presupuesto 2027: el Gobierno fijó fecha para iniciar el debate en el Congreso",
+          "bajada": "El oficialismo prevé la primera reunión de comisión para el 7 de octubre, con el secretario de Finanzas Federico Furiase a cargo de la defensa inicial.",
+          "cuerpo": "<p>El Gobierno nacional fijó la primera semana de octubre para iniciar el debate del <strong>Presupuesto 2027</strong> en el Congreso, con el 7 de octubre como fecha tentativa para la primera reunión de comisión. La defensa inicial del proyecto quedaría a cargo del secretario de Finanzas, <strong>Federico Furiase</strong>.</p><p>Las proyecciones económicas oficiales incluyen un dólar promedio de $1.728, una inflación anual del 21,1%, un crecimiento del PBI del 4% y exportaciones que superarían los u$s130.000 millones, con un saldo comercial favorable de más de u$s15.000 millones. La administración apunta a un resultado fiscal positivo y a sostener cuatro años consecutivos de superávit financiero sin default. Sería la segunda ley de Presupuesto aprobada durante la gestión de Javier Milei, tras años de prórrogas.</p>",
+          "foto": "https://media.ambito.com/p/43d3a095d330a5fe602b48158c7afd93/adjuntos/239/imagenes/043/449/0043449216/655x368/smart/plenario-diputados.jpeg"
+        },
+        {
+          "id": "debate_comision_endeudamiento_diputados",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Con desafíos para la oposición y el oficialismo, empezó el debate en comisión por endeudamiento",
+          "bajada": "Casi 80 proyectos buscan dar respuesta a la situación de 20 millones de argentinos endeudados; las comisiones deben emitir dictamen antes del 29 de septiembre.",
+          "cuerpo": "<p>La Cámara de Diputados inició el debate en comisión sobre el endeudamiento de unos 20 millones de argentinos, en reuniones conjuntas de las comisiones de Finanzas —presidida por <strong>Santiago Pauli</strong> (LLA)— y Defensa del Consumidor —a cargo de <strong>Hugo Yasky</strong> (Unión por la Patria)—, con la participación de representantes de distintos sectores económicos.</p><p>La oposición enfrenta presión para unificar cerca de 80 proyectos antes del 29 de septiembre, fecha límite para el dictamen. Según el Centro de Economía Política Argentina (CEPA), la deuda de los hogares creció 8% entre febrero de 2024 y julio de 2026, con un alza del 80% en la mora durante el mismo período. Entre las iniciativas se destaca la de la diputada <strong>Raquel \"Kelly\" Olmos</strong>, que propone una reestructuración de deudas de hasta 3 Canastas Básicas con quita total de intereses; otras plantean directamente la condonación o la declaración de emergencia crediticia. El mecanismo de \"segunda oportunidad\" —una renegociación prejudicial— reúne el mayor consenso opositor. La Libertad Avanza evalúa presentar su propio dictamen, centrado en la transparencia y la educación financiera antes que en la intervención estatal.</p>",
+          "foto": "https://media.ambito.com/p/05c24b4c024f745aa098aa6aa2017fbc/adjuntos/239/imagenes/043/644/0043644842/655x368/smart/img_5032.JPG"
+        },
+        {
+          "id": "carne_vacuna_cupo_eeuu_agotado",
+          "cat": "Política Nacional · Comercio Exterior",
+          "titulo": "Carne vacuna: el Gobierno anunció que agotó antes de lo previsto el cupo ampliado para exportar a EEUU",
+          "bajada": "El acuerdo firmado con Washington había elevado de 20.000 a 100.000 toneladas el acceso preferencial de carne bovina argentina durante 2026.",
+          "cuerpo": "<p>El Gobierno nacional anunció que ya agotó, antes de lo previsto, el cupo ampliado para exportar carne vacuna a Estados Unidos. El acuerdo comercial firmado con Washington en febrero de 2026 había elevado de 20.000 a <strong>100.000 toneladas</strong> el acceso preferencial de la carne bovina argentina durante el año. \"Argentina finalmente ha logrado vender, ha cumplido con la cuota. Ya se ha vendido todo\", afirmó <strong>Diego Sucalesca</strong>, titular de PromArgentina.</p><p>La ampliación del cupo fue proyectada para generar entre u$s600 y u$s800 millones en ingresos adicionales por exportaciones. Tras la \"Semana de la Carne Argentina\" realizada en mayo en Filadelfia, Chicago y Los Ángeles, con la participación de 15 plantas frigoríficas argentinas y más de 40 importadores estadounidenses, se comercializaron unas 11.000 toneladas.</p>",
+          "foto": "https://media.ambito.com/p/d00d184d5db23dc804d0349da10b0a29/adjuntos/239/imagenes/040/613/0040613797/655x368/smart/carne-vacunajpg.jpg"
         }
       ]
     }
