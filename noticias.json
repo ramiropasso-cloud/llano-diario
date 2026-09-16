@@ -6280,6 +6280,180 @@
           "foto": "https://media.ambito.com/p/d00d184d5db23dc804d0349da10b0a29/adjuntos/239/imagenes/040/613/0040613797/655x368/smart/carne-vacunajpg.jpg"
         }
       ]
+    },
+    {
+      "clave": "2026-09-16_tarde",
+      "fecha_iso": "2026-09-16",
+      "fecha": "16 septiembre 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "La Pampa volverá a cobrar regalías por Los Nihuiles: la Justicia Federal suspendió el decreto de Milei",
+        "summary": "El juez federal de Santa Rosa Juan José Baric hizo lugar a la cautelar provincial y ordenó suspender los artículos 3° y 4° del Decreto 982/2026, que había dejado a la provincia afuera del reparto de regalías vigente desde 1973. Ziliotto: \"Una vez más, luchar por lo que corresponde al pueblo pampeano da sus frutos\".",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "img/noticias/nihuiles-fallo-2026-09-16.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Provincia invertirá más de $4.700 millones para obras de pavimento, badenes y cordón cuneta en Realicó",
+          "resumen": "La obra licitada comprende 51 cuadras, 890 metros del acceso Balbín, casi 5.000 metros de cordón cuneta y 15 badenes, con un plazo de ejecución de 18 meses.",
+          "cat": "La Pampa · Realicó",
+          "foto": "img/noticias/realico-pavimento-2026-09-15.jpg",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Nueva certificación de profesionales de Salud: \"Sin apoyo provincial, la especialización habría sido inviable\", dijo Kohan",
+          "resumen": "Un total de 17 residentes y 4 jefes de residentes completaron su formación de posgrado en servicio en el Campus de Salud, el Hospital Evita y el Gobernador Centeno.",
+          "cat": "La Pampa · Salud",
+          "foto": "img/noticias/certificacion-salud-kohan-2026-09-16.jpg",
+          "ts": "16 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "\"Aprender a Gobernar\" celebró 20 años fortaleciendo la participación de las juventudes pampeanas",
+          "resumen": "Por primera vez, las 13 comisiones temáticas del programa funcionaron dentro de la Casa de Gobierno y organismos provinciales.",
+          "cat": "La Pampa · Educación",
+          "foto": "img/noticias/aprender-a-gobernar-20anios-2026-09-16.jpg",
+          "ts": "16 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Presupuesto 2027: dólar, inflación, PBI y superávit, las claves económicas del Gobierno para el próximo año",
+          "resumen": "El proyecto prevé un crecimiento del 4%, una inflación del 18% y un dólar de $1.847,60, en un esquema que economistas miran con cautela.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://media.ambito.com/p/6fea14d485d0e14fe0a5a7e7573105df/adjuntos/239/imagenes/043/532/0043532258/655x368/smart/ministerio-economia.png",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Escándalo en la Armada: denuncian un sistema de corrupción con la plata de los sueldos por $1.600 millones",
+          "resumen": "Siete oficiales aportaron testimonios sobre irregularidades en la liquidación de haberes, con pagos indebidos y presuntos retornos, en una denuncia presentada ante la Justicia Federal.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "https://media.ambito.com/p/aebbbef17ea985c692289995a234b1aa/adjuntos/239/imagenes/043/645/0043645240/655x368/smart/edificio-libertad-armada.jpeg",
+          "ts": "15 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Gobierno ratificó el reclamo de soberanía en Malvinas pero pidió evitar una escalada con Reino Unido",
+          "resumen": "El ministro de Defensa Carlos Presti calificó de \"legítima, diplomática y pacífica\" la posición argentina, y anunció que en enero comenzará la construcción de una base naval integrada en Ushuaia.",
+          "cat": "Política Nacional · Defensa",
+          "foto": "https://media.ambito.com/p/2126f6309fee3b51d68b5dd83580c32c/adjuntos/239/imagenes/042/971/0042971782/655x368/584x374:604x394/carlos-presti-ministro-defensa.jpg",
+          "ts": "16 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Presupuesto 2027: La Pampa queda relegada con solo cuatro obras",
+          "resumen": "La provincia apenas concentrará $32,4 mil millones en obra pública, menos del 1% del total nacional, mientras otras provincias reciben más de $100 mil millones.",
+          "cat": "La Pampa · Política Nacional",
+          "ts": "16 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gobierno adjudicó viviendas para Realicó y Parera",
+          "resumen": "El IPAV sorteó 33 viviendas del plan \"Mi Casa 3\" para familias de ambas localidades, mediante un sorteo público transmitido por la Lotería de San Luis.",
+          "cat": "La Pampa · Vivienda",
+          "ts": "16 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Controlaron y retuvieron transportes de pasajeros no habilitados en Pico",
+          "resumen": "La Municipalidad retuvo cuatro unidades clandestinas en las últimas semanas, en el marco del Plan Piquense de Seguridad Vial.",
+          "cat": "La Pampa · General Pico",
+          "ts": "16 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "IA: capacitarán a agentes públicos en nuevas herramientas para la gestión",
+          "resumen": "La capacitación se realizará el 22 de septiembre en el Centro Cultural MEDASUR y abordará oportunidades, riesgos y aplicaciones prácticas de la inteligencia artificial en el Estado.",
+          "cat": "La Pampa · Gobierno",
+          "ts": "16 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "nihuiles_fallo_baric_suspende_decreto",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La Pampa volverá a cobrar regalías por Los Nihuiles: la Justicia Federal suspendió el decreto de Milei",
+          "bajada": "El juez federal de Santa Rosa Juan José Baric hizo lugar a la cautelar provincial y ordenó suspender los artículos 3° y 4° del Decreto 982/2026, que había dejado a la provincia afuera del reparto de regalías vigente desde 1973. Ziliotto: \"Una vez más, luchar por lo que corresponde al pueblo pampeano da sus frutos\".",
+          "cuerpo": "<p>La Justicia Federal hizo lugar al planteo de La Pampa mediante una medida cautelar dictada por el juez <strong>Juan José Baric</strong>, del Juzgado Federal de Santa Rosa. El fallo ordena \"la suspensión inmediata de los arts. 3° y 4° del Decreto N° 982/2026\", que había eliminado el régimen de reparto equitativo de las regalías de Los Nihuiles vigente desde 1973.</p><p>El derecho pampeano se sustenta en varios instrumentos: el Decreto 1560/73, que estableció el reparto en partes iguales; la Ley 23.164 de 1984, que elevó las regalías hidroeléctricas al 12% (6% para cada provincia); y sobre todo el <strong>convenio interjurisdiccional de 1992</strong> entre Nación, Mendoza y La Pampa, aprobado por ambas legislaturas y homologado por la Corte Suprema, cuya cláusula quinta contemplaba expresamente \"obligaciones vinculadas con el pago de las regalías hidroeléctricas correspondientes a La Pampa\". La Corte ya había reconocido en 1987 el carácter interjurisdiccional del río Atuel, y el 27 de agosto de 2026 había ordenado la intervención obligada de la provincia en las causas relacionadas.</p><p>El gobernador <strong>Sergio Ziliotto</strong> celebró la decisión: \"La Pampa seguirá cobrando regalías del Río Atuel. Una vez más, luchar por lo que corresponde al pueblo pampeano da sus frutos\". Agradeció además \"a las y los dirigentes y a organizaciones sociales y partidos políticos que apoyaron esta lucha por nuestro río Atuel\".</p>",
+          "foto": "img/noticias/nihuiles-fallo-2026-09-16.jpg"
+        },
+        {
+          "id": "presupuesto_2027_lapampa_relegada_cuatro_obras",
+          "cat": "La Pampa · Política Nacional",
+          "titulo": "Presupuesto 2027: La Pampa queda relegada con solo cuatro obras",
+          "bajada": "La provincia apenas concentrará $32,4 mil millones en obra pública, menos del 1% del total nacional, mientras otras provincias reciben más de $100 mil millones.",
+          "cuerpo": "<p>El proyecto de Ley de Presupuesto Nacional 2027 que el Gobierno presentó ante la Cámara de Diputados impone restricciones significativas a la obra pública en La Pampa. De 67 obras plurianuales contempladas a nivel nacional, la provincia queda en el escalón más bajo, sin grandes emprendimientos de desarrollo ni proyectos productivos estratégicos: apenas <strong>cuatro obras</strong> por un total de <strong>$32.473,4 millones</strong>, menos del 1% del total nacional.</p><p>Las cuatro obras asignadas son la conservación mejorativa de la Ruta Nacional 151 entre el límite con Río Negro y el empalme con la RN 143 ($21.518,6 millones), la ampliación del Juzgado Federal y el Tribunal Oral Criminal Federal de Santa Rosa ($4.909,7 millones), el mantenimiento del puente sobre el Río Colorado en la Ruta Nacional 22 ($3.173,5 millones) y la adecuación del edificio del Juzgado Federal de General Pico ($2.871,7 millones). El monto resulta muy inferior al de otras provincias: el Acueducto Vipos en Tucumán, por ejemplo, está presupuestado en $148.200 millones.</p>",
+          "foto": ""
+        },
+        {
+          "id": "ipav_viviendas_realico_parera",
+          "cat": "La Pampa · Vivienda",
+          "titulo": "Gobierno adjudicó viviendas para Realicó y Parera",
+          "bajada": "El IPAV sorteó 33 viviendas del plan \"Mi Casa 3\" para familias de ambas localidades, mediante un sorteo público transmitido por la Lotería de San Luis.",
+          "cuerpo": "<p>El Instituto Provincial Autárquico de Viviendas (IPAV) adjudicó 33 viviendas para familias de Realicó y Parera mediante un sorteo público realizado desde la Lotería de San Luis, con transmisión televisiva. Se distribuyeron 24 viviendas para Realicó (más una accesible) y 8 para Parera, correspondientes al plan \"Mi Casa 3\" para localidades de hasta 10.000 habitantes.</p><p>La titular del organismo, <strong>Erica Riboyra</strong>, destacó \"la decisión política de no discontinuar la construcción y entrega de viviendas en todas las localidades\". Los intendentes <strong>Facundo Sola</strong> y <strong>Damián Escudero</strong> agradecieron el compromiso provincial con el acceso a la vivienda digna. El acto coincidió con una actividad del programa \"Aprender a Gobernar\" con participación estudiantil, donde Riboyra celebró la primera participación del IPAV en esa iniciativa.</p>",
+          "foto": ""
+        },
+        {
+          "id": "transportes_no_habilitados_pico_control",
+          "cat": "La Pampa · General Pico",
+          "titulo": "Controlaron y retuvieron transportes de pasajeros no habilitados en Pico",
+          "bajada": "La Municipalidad retuvo cuatro unidades clandestinas en las últimas semanas, en el marco del Plan Piquense de Seguridad Vial.",
+          "cuerpo": "<p>En el marco del Plan Piquense de Seguridad Vial, la Municipalidad de General Pico informó sobre tareas de fiscalización que derivaron en la retención preventiva de cuatro unidades de transporte clandestinas durante las últimas semanas. Los vehículos ejercían la actividad de taxi sin autorización, careciendo de la licencia habilitante obligatoria para operar en el ejido urbano.</p><p>Las autoridades señalaron que los operativos buscan proteger a los ciudadanos y regularizar el transporte, ya que los vehículos informales evaden normativas esenciales como la contratación de seguros con cobertura específica para terceros transportados y las revisiones técnicas obligatorias (RTO). Se recordó que los taxis autorizados deben exhibir habilitación municipal, identificación del chofer y reloj taxímetro.</p>",
+          "foto": ""
+        },
+        {
+          "id": "ia_capacitacion_agentes_publicos_medasur",
+          "cat": "La Pampa · Gobierno",
+          "titulo": "IA: capacitarán a agentes públicos en nuevas herramientas para la gestión",
+          "bajada": "La capacitación se realizará el 22 de septiembre en el Centro Cultural MEDASUR y abordará oportunidades, riesgos y aplicaciones prácticas de la inteligencia artificial en el Estado.",
+          "cuerpo": "<p>El Ministerio de Conectividad y Modernización dictará la capacitación \"Inteligencia Artificial en la Administración Pública: oportunidades, riesgos y aplicaciones prácticas\" el 22 de septiembre desde las 8, en el auditorio del Centro Cultural MEDASUR. La propuesta no requiere conocimientos técnicos previos y está abierta a agentes de los poderes ejecutivo, legislativo y judicial de La Pampa, con modalidad remota por Zoom para quienes trabajan en el interior provincial.</p><p>La iniciativa busca brindar a los agentes públicos conocimientos prácticos sobre la implementación de la IA en las tareas cotidianas, con énfasis en su uso responsable y ético. Los participantes conocerán qué es la IA, sus aplicaciones en el ámbito laboral y las consideraciones clave para integrarla a los procesos de gestión, promoviendo una adopción estratégica que fortalezca el criterio profesional y la calidad de las decisiones. La inscripción está disponible en procaapinscripciones.lapampa.gob.ar.</p>",
+          "foto": ""
+        },
+        {
+          "id": "realico_pavimento_licitacion_4700millones",
+          "cat": "La Pampa · Realicó",
+          "titulo": "Provincia invertirá más de $4.700 millones para obras de pavimento, badenes y cordón cuneta en Realicó",
+          "bajada": "La obra licitada comprende 51 cuadras, 890 metros del acceso Balbín, casi 5.000 metros de cordón cuneta y 15 badenes, con un plazo de ejecución de 18 meses.",
+          "cuerpo": "<p>El Gobierno provincial licitó la obra de pavimentación urbana de Realicó, con un presupuesto de <strong>$4.786 millones</strong> y un plazo de 18 meses. El acto se realizó en la sede de la Dirección Provincial de Vialidad, con la presencia del ministro <strong>Alfredo Intronati</strong>, el intendente <strong>Facundo Sola</strong> y autoridades técnicas. Tres empresas presentaron propuestas: Jubete Omar Ángel, Vial A S.A. y Ribeiro S.R.L.</p><p>La intervención contempla nueva carpeta de concreto asfáltico en caliente, trabajos sobre bases, bacheo profundo y la construcción de cordones y badenes, con la incorporación de cordón cuneta para mejorar el escurrimiento hídrico y prevenir anegamientos. \"Esta obra fue ampliada porque buscamos dar respuestas integrales\", señaló el ministro, y remarcó que \"la obra pública también genera trabajo y moviliza las economías locales\".</p>",
+          "foto": "img/noticias/realico-pavimento-2026-09-15.jpg"
+        },
+        {
+          "id": "certificacion_salud_kohan_residencias",
+          "cat": "La Pampa · Salud",
+          "titulo": "Nueva certificación de profesionales de Salud: \"Sin apoyo provincial, la especialización habría sido inviable\", dijo Kohan",
+          "bajada": "Un total de 17 residentes y 4 jefes de residentes completaron su formación de posgrado en servicio en el Campus de Salud, el Hospital Evita y el Gobernador Centeno.",
+          "cuerpo": "<p>Se realizó el acto de entrega de certificados a los profesionales de la salud que culminaron su formación de posgrado en servicio en el Campus de Salud Favaloro-Molas, el Hospital Comunitario Generalista \"Evita\" y el Establecimiento Asistencial Gobernador Centeno. En total, 17 residentes y 4 jefes de residentes completaron su formación en diversas especialidades médicas.</p><p>El ministro de Salud, <strong>Mario Rubén Kohan</strong>, destacó que \"frente a las profundas transformaciones y el desfinanciamiento del esquema nacional\" la provincia asumió un rol fundamental sosteniendo el sistema de residencias, y afirmó que sin ese apoyo \"la especialización habría sido inviable\". Instó a los nuevos especialistas a \"nunca perder la curiosidad\" y a defender la educación y la salud pública. Lucía Brandimarte, egresada de Medicina General y Familiar, destacó que estos tres años le permitieron \"crecer personal y profesionalmente\"; Tomás Passetti, egresado de Kinesiología, valoró \"poder seguir capacitándome cerca de mi familia y mi lugar\".</p>",
+          "foto": "img/noticias/certificacion-salud-kohan-2026-09-16.jpg"
+        },
+        {
+          "id": "aprender_gobernar_20_anios_juventudes",
+          "cat": "La Pampa · Educación",
+          "titulo": "\"Aprender a Gobernar\" celebró 20 años fortaleciendo la participación de las juventudes pampeanas",
+          "bajada": "Por primera vez, las 13 comisiones temáticas del programa funcionaron dentro de la Casa de Gobierno y organismos provinciales.",
+          "cuerpo": "<p>El programa \"Aprender a Gobernar\" celebró sus 20 años desde su creación en 2006, sosteniendo el objetivo de que \"las juventudes no sean solamente consultadas sobre las problemáticas que las atraviesan, sino que ocupen el lugar de quienes deben decidir entre distintas prioridades\". La edición 2026 reunió 72 proyectos de 173 estudiantes de 43 instituciones educativas de 29 localidades, distribuidos en 13 comisiones temáticas correspondientes a ministerios y secretarías provinciales, y por primera vez las comisiones funcionaron dentro de la Casa de Gobierno y organismos provinciales.</p><p>El subsecretario de Juventud destacó que el programa \"es uno de los programas centrales que tiene el Gobierno de La Pampa\" por su carácter federal, que alcanza tanto a las ciudades como a las localidades más pequeñas. La experiencia permitió a los estudiantes conocer el funcionamiento interno del Estado, comprendiendo procesos administrativos, trámites y la estructura burocrática de la gestión pública provincial. El proyecto ganador de esta edición recibirá $2.500.000 para su ejecución.</p>",
+          "foto": "img/noticias/aprender-a-gobernar-20anios-2026-09-16.jpg"
+        },
+        {
+          "id": "presupuesto_2027_claves_economicas_dolar_inflacion",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Presupuesto 2027: dólar, inflación, PBI y superávit, las claves económicas del Gobierno para el próximo año",
+          "bajada": "El proyecto prevé un crecimiento del 4%, una inflación del 18% y un dólar de $1.847,60, en un esquema que economistas miran con cautela.",
+          "cuerpo": "<p>El ministro de Economía <strong>Luis Caputo</strong> presentó ante el Congreso el Presupuesto 2027, con el que el Gobierno busca lograr por segundo año consecutivo la aprobación legislativa. Las proyecciones oficiales prevén un crecimiento del PBI del 4% (el sector privado espera 2,9%), una inflación anual del 18% (el consenso de mercado la ubica en 20,5%), un tipo de cambio de <strong>$1.847,60</strong> a fin de año (frente a una proyección de mercado de $2.016) y un aumento salarial del 25,4%, apuntando a una ganancia real del 3,6%. La meta fiscal es un superávit primario del 1,3% del PBI y financiero del 0,2%.</p><p>El principal interrogante es si la desaceleración de la inflación puede combinarse con un crecimiento del 4% y estabilidad cambiaria en un año electoral: el EMAE mostró apenas 1,9% de crecimiento en el primer semestre de 2026, lo que genera dudas sobre la expansión acumulada del 7% proyectada hasta 2027. Según el propio análisis presupuestario, \"el programa requiere que la actividad se acelere mientras los precios se desaceleran y el tipo de cambio crece por debajo de la inflación\".</p>",
+          "foto": "https://media.ambito.com/p/6fea14d485d0e14fe0a5a7e7573105df/adjuntos/239/imagenes/043/532/0043532258/655x368/smart/ministerio-economia.png"
+        },
+        {
+          "id": "escandalo_armada_corrupcion_sueldos",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "Escándalo en la Armada: denuncian un sistema de corrupción con la plata de los sueldos por $1.600 millones",
+          "bajada": "Siete oficiales aportaron testimonios sobre irregularidades en la liquidación de haberes, con pagos indebidos y presuntos retornos, en una denuncia presentada ante la Justicia Federal.",
+          "cuerpo": "<p>Una denuncia presentada ante el Juzgado Federal N° 2 expone un presunto esquema de malversación dentro de la estructura salarial de la Armada Argentina, según testimonios de militares que trabajaban en el área de liquidación de sueldos. Según las fuentes consultadas, la trama involucraba a unas 25 personas entre oficiales y civiles desde 2022, mediante \"falsas liquidaciones de códigos, de personal retirado y códigos que le liquidan a oficiales en actividad que no le correspondían. Todo, obviamente con retorno incluido\".</p><p>El quiebre en la red ocurrió cuando una teniente se negó a recibir un suplemento del que debía devolver la mitad, lo que derivó en presiones internas y su posterior denuncia. Los oficiales consultados remarcaron que \"no están involucrados solo oficiales sino también civiles\", y que se buscaba garantizar \"el debido proceso y el esclarecimiento de la situación\".</p>",
+          "foto": "https://media.ambito.com/p/aebbbef17ea985c692289995a234b1aa/adjuntos/239/imagenes/043/645/0043645240/655x368/smart/edificio-libertad-armada.jpeg"
+        },
+        {
+          "id": "malvinas_ratifica_soberania_sin_escalada_ru",
+          "cat": "Política Nacional · Defensa",
+          "titulo": "El Gobierno ratificó el reclamo de soberanía en Malvinas pero pidió evitar una escalada con Reino Unido",
+          "bajada": "El ministro de Defensa Carlos Presti calificó de \"legítima, diplomática y pacífica\" la posición argentina, y anunció que en enero comenzará la construcción de una base naval integrada en Ushuaia.",
+          "cuerpo": "<p>El ministro de Defensa <strong>Carlos Presti</strong> ratificó el reclamo de soberanía argentino sobre las islas Malvinas, al tiempo que remarcó la necesidad de evitar una confrontación con el Reino Unido. Sostuvo que la posición argentina es \"totalmente legítima, diplomática y pacífica\", y descartó cualquier idea de escalada armada, señalando que el fortalecimiento de los vínculos con Estados Unidos posiciona a la Argentina \"para lograr la integridad territorial\".</p><p>Presti destacó adquisiciones militares recientes —fusiles, aviones F-16, helicópteros Black Hawk y vehículos Stryker— como medidas defensivas ajenas a la disputa internacional, y anunció que en enero comenzará la construcción de una Base Naval Integrada en Ushuaia, pensada para reforzar la presencia argentina en el Atlántico Sur y facilitar el acceso a la Antártida. Las declaraciones se dieron después de que el Reino Unido publicara una guía de apoyo a empresas que operan en las islas, lo que motivó el \"más enérgico rechazo\" de la Cancillería argentina.</p>",
+          "foto": "https://media.ambito.com/p/2126f6309fee3b51d68b5dd83580c32c/adjuntos/239/imagenes/042/971/0042971782/655x368/584x374:604x394/carlos-presti-ministro-defensa.jpg"
+        }
+      ]
     }
   ]
 }
