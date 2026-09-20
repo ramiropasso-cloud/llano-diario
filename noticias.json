@@ -6454,6 +6454,180 @@
           "foto": "https://media.ambito.com/p/2126f6309fee3b51d68b5dd83580c32c/adjuntos/239/imagenes/042/971/0042971782/655x368/584x374:604x394/carlos-presti-ministro-defensa.jpg"
         }
       ]
+    },
+    {
+      "clave": "2026-09-20_tarde",
+      "fecha_iso": "2026-09-20",
+      "fecha": "20 septiembre 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "Los Nihuiles: Mendoza le pide a la Corte Suprema el pago retroactivo de $67.338 millones y busca apartar al juez que falló a favor de La Pampa",
+        "summary": "El gobierno de Alfredo Cornejo prepara una nueva presentación que exige a la Nación saldar cinco décadas de regalías no percibidas, mientras pide la inhibitoria del juez federal Juan José Baric, autor de la cautelar que restituyó el cobro a la provincia.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/20/alta/2156799.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Proyecto de ley: en La Pampa será obligatoria la educación a los 3 años desde 2027",
+          "resumen": "La iniciativa de Ziliotto garantizará 15 años de escolaridad obligatoria y se implementará en las 80 localidades de la provincia.",
+          "cat": "La Pampa · Educación",
+          "foto": "img/noticias/educacion-3anios-2026-09-20.jpg",
+          "ts": "20 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Presupuesto: La Pampa tendría una suba del 7,7% en las transferencias automáticas, pero seguiría debajo de 2023",
+          "resumen": "Según un informe de Politikon Chaco, la mejora real prevista para 2027 no alcanza a compensar la caída acumulada: los fondos seguirían 0,9% por debajo del nivel de 2023.",
+          "cat": "La Pampa · Economía",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/20/alta/2156551.jpg",
+          "ts": "20 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Juventud Unida festejó sus 67 años con un histórico salto a la iluminación eficiente",
+          "resumen": "El club de Santa Isabel inauguró un nuevo sistema de iluminación de su cancha de fútbol, con una inversión provincial de $29,9 millones.",
+          "cat": "La Pampa · Santa Isabel",
+          "foto": "img/noticias/juventud-unida-iluminacion-2026-09-20.jpg",
+          "ts": "20 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "En modo candidato, Axel Kicillof anunció una gira nacional y llamó a romper la interna: \"El peronismo solo no alcanza\"",
+          "resumen": "El gobernador bonaerense encabezó la primera Asamblea Federal del Movimiento Derecho al Futuro y criticó el modelo económico y social del Gobierno de Milei.",
+          "cat": "Política Nacional · PJ",
+          "foto": "https://media.ambito.com/p/aa30d9b78203f0605298f324c5eda6e7/adjuntos/239/imagenes/043/652/0043652964/655x368/smart/axel-kicillof-mdf.jpeg",
+          "ts": "19 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Sergio Massa también tuvo su acto y apuntó al 2027: \"Se viene una etapa de renovación en el peronismo\"",
+          "resumen": "El referente del Frente Renovador encabezó una actividad con estudiantes en la Facultad de Derecho de la UBA, en el mismo día del lanzamiento nacional de Kicillof.",
+          "cat": "Política Nacional · PJ",
+          "foto": "https://media.ambito.com/p/27b290feefd14b450f2e787894de79ab/adjuntos/239/imagenes/043/653/0043653013/655x368/smart/sergio-massa-facultad-derecho-uba.jpeg",
+          "ts": "19 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Librerías piden declarar la emergencia para el sector por una caída del 41,5% de la facturación",
+          "resumen": "Un relevamiento de FALPA sobre 1.200 comercios registró una baja del 25% en la venta de libros y un alza del 31,1% en los costos operativos.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://media.ambito.com/p/46a5ebba05808daa894e9d736a6024ec/adjuntos/239/imagenes/043/382/0043382830/libreria-hijos-santiago-rodriguez.png",
+          "ts": "19 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Berhongaray, el candidato a gobernador que diseña el frente antiperonista para arrebatarle el poder al PJ",
+          "resumen": "El presidente de la UCR pampeana construye una coalición que amalgama al radicalismo con el PRO, La Libertad Avanza y el espacio de Tierno, para romper más de cuatro décadas de hegemonía peronista.",
+          "cat": "La Pampa · Política Pampeana",
+          "ts": "20 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Rauschenberger: \"Para La Pampa hay demasiado poco\"",
+          "resumen": "El diputado nacional del PJ cuestionó el Presupuesto 2027 de Milei y alertó sobre fondos insuficientes para infraestructura vial en la provincia.",
+          "cat": "La Pampa · Política Nacional",
+          "ts": "20 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Ziliotto y el río Colorado: \"El 66% de la población tomará agua de esa cuenca\"",
+          "resumen": "Ante la prensa nacional, el gobernador ratificó la oposición a Portezuelo del Viento por su impacto en el abastecimiento humano y volvió a reclamar el caudal mínimo del Atuel.",
+          "cat": "La Pampa · Política Pampeana",
+          "ts": "19 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Espartaco Marín y Romina Montes de Oca estuvieron en el acto de lanzamiento de Kicillof",
+          "resumen": "El diputado provincial y la viceintendenta de Santa Rosa participaron del lanzamiento del Movimiento Derecho al Futuro, que el gobernador bonaerense busca proyectar a nivel nacional.",
+          "cat": "La Pampa · Política Nacional",
+          "ts": "20 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "nihuiles_mendoza_retroactivo_inhibitoria",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Los Nihuiles: Mendoza le pide a la Corte Suprema el pago retroactivo de $67.338 millones y busca apartar al juez que falló a favor de La Pampa",
+          "bajada": "El gobierno de Alfredo Cornejo prepara una nueva presentación que exige a la Nación saldar cinco décadas de regalías no percibidas, mientras pide la inhibitoria del juez federal Juan José Baric, autor de la cautelar que restituyó el cobro a la provincia.",
+          "cuerpo": "<p>El gobierno mendocino, encabezado por <strong>Alfredo Cornejo</strong>, prepara una estrategia legal dual ante la Corte Suprema de Justicia de la Nación en su conflicto con La Pampa por las regalías del sistema hidroeléctrico Los Nihuiles. Mendoza formalizará una nueva presentación fundada en el Decreto 982/2026, que dejó sin efecto el esquema vigente desde 1973 y que disponía \"la repartición en partes iguales de los recursos de la represa entre Mendoza y La Pampa\".</p><p>La Fiscalía de Estado mendocina, conducida por <strong>Fernando Simón</strong>, readecuará un reclamo iniciado en 2022: sostiene que \"la nulidad del Decreto 1560/73 debe retrotraerse a su origen\" y que la Nación debe saldar los montos no liquidados durante cinco décadas. A diciembre de 2021 esa masa ascendía a <strong>$67.338 millones</strong>, cifra que ahora será recalculada con los índices de actualización correspondientes.</p><p>En paralelo, Mendoza solicitará formalmente la inhibitoria del juez federal de Santa Rosa, <strong>Juan José Baric</strong> —autor de la cautelar que restituyó a La Pampa el cobro de las regalías—, bajo el argumento de que el fuero federal de primera instancia \"carece de competencia para expedirse sobre una contienda cuya sustancia ya se encuentra sometida a la competencia originaria de la Corte Suprema\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/20/alta/2156799.jpg"
+        },
+        {
+          "id": "berhongaray_candidato_frente_antiperonista",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Berhongaray, el candidato a gobernador que diseña el frente antiperonista para arrebatarle el poder al PJ",
+          "bajada": "El presidente de la UCR pampeana construye una coalición que amalgama al radicalismo con el PRO, La Libertad Avanza y el espacio de Tierno, para romper más de cuatro décadas de hegemonía peronista.",
+          "cuerpo": "<p><strong>Martín Berhongaray</strong>, presidente de la Unión Cívica Radical en La Pampa, construye su candidatura a gobernador mediante una ingeniería política que amalgama fuerzas tradicionalmente antagónicas. Su estrategia se apoya en \"la capilaridad territorial de la Unión Cívica Radical como viga maestra\" para erigir una estructura capaz de romper más de cuatro décadas de hegemonía peronista, sumando al PRO de Marita Mac Allister y a La Libertad Avanza de Adrián Ravier.</p><p>El proyecto genera tensiones internas: la inclusión formal del espacio de <strong>Juan Carlos Tierno</strong> \"encendió las alarmas en el núcleo duro de la UCR, donde lo acusan de dinamitar los límites éticos\" y comprometer principios históricos. Los críticos advierten sobre \"el riesgo de erigir un proyecto sin cimientos doctrinarios, cuyo único sostén sea la acumulación del rechazo al oficialismo\".</p><p>Berhongaray responde que la dispersión opositora en 2023 mantuvo vigente al peronismo, por lo que \"la prioridad matemática clausura cualquier debate de purismo ideológico\". El director periodístico Walter Goñi, autor de la serie de perfiles políticos en la que se enmarca esta nota, señala que todavía promete nuevas figuras del \"cambiante laboratorio del poder pampeano\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/20/alta/2156781.jpg"
+        },
+        {
+          "id": "rauschenberger_presupuesto_demasiado_poco",
+          "cat": "La Pampa · Política Nacional",
+          "titulo": "Rauschenberger: \"Para La Pampa hay demasiado poco\"",
+          "bajada": "El diputado nacional del PJ cuestionó el Presupuesto 2027 de Milei y alertó sobre fondos insuficientes para infraestructura vial en la provincia.",
+          "cuerpo": "<p>El diputado nacional <strong>Ariel Rauschenberger</strong>, integrante de la Comisión de Presupuesto y Hacienda, criticó la propuesta presupuestaria nacional por considerar que contempla partidas exiguas para La Pampa. Señaló que los recursos asignados a Vialidad Nacional permitirían construir apenas \"un poquito más de tres kilómetros de ruta al año\", y cuestionó especialmente la asignación para la Ruta Nacional 151: \"Para esa ruta hay 136 millones de pesos, o sea, ¿qué podés hacer cuando el kilómetro de ruta cuesta 1.500 millones?\".</p><p>También objetó los beneficios tributarios otorgados a las empresas concesionarias de rutas mientras las pequeñas y medianas empresas carecen de alivios similares, y advirtió sobre modificaciones en las asignaciones familiares —que eliminarían las actualizaciones automáticas por inflación— y cambios en la Ley de Emergencia en Discapacidad, que considera insuficientes. Subrayó, finalmente, la necesidad del peronismo de \"construir una alternativa\" que recupere la confianza ciudadana.</p>",
+          "foto": ""
+        },
+        {
+          "id": "ziliotto_rio_colorado_66_por_ciento",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Ziliotto y el río Colorado: \"El 66% de la población tomará agua de esa cuenca\"",
+          "bajada": "Ante la prensa nacional, el gobernador ratificó la oposición a Portezuelo del Viento por su impacto en el abastecimiento humano y volvió a reclamar el caudal mínimo del Atuel.",
+          "cuerpo": "<p>Durante una conferencia con medios nacionales, el gobernador <strong>Sergio Ziliotto</strong> posicionó al río Colorado como eje fundamental para el desarrollo futuro de La Pampa, al enfatizar que la provincia planifica que en las próximas tres décadas \"el 66% de la población de La Pampa tome agua de esa cuenca\". Argumentó que cualquier proyecto hidroeléctrico en la zona —como Portezuelo del Viento— representaría un riesgo para el suministro humano y productivo regional.</p><p>Como referencia histórica, señaló el impacto del corte del río Atuel en Mendoza: localidades como Santa Isabel y General Alvear tenían poblaciones similares, de unos 3.000 habitantes, en 1947, pero divergieron dramáticamente tras la interrupción del caudal. Ziliotto volvió a exigir el cumplimiento de las resoluciones de la Corte Suprema que establecen un caudal ecológico mínimo de 3,2 metros cúbicos por segundo en el Atuel, describiéndolo como necesario para \"restituir el ambiente\" y cumplir con las obligaciones legales de recomposición del ecosistema.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/19/alta/2156703.jpg"
+        },
+        {
+          "id": "espartaco_marin_montes_de_oca_kicillof",
+          "cat": "La Pampa · Política Nacional",
+          "titulo": "Espartaco Marín y Romina Montes de Oca estuvieron en el acto de lanzamiento de Kicillof",
+          "bajada": "El diputado provincial y la viceintendenta de Santa Rosa participaron del lanzamiento del Movimiento Derecho al Futuro, que el gobernador bonaerense busca proyectar a nivel nacional.",
+          "cuerpo": "<p>El gobernador de Buenos Aires, <strong>Axel Kicillof</strong>, presentó formalmente su agrupación \"Movimiento Derecho al Futuro\" en un acto realizado en Avellaneda. Participaron legisladores y funcionarios de La Pampa, entre ellos el diputado provincial <strong>Espartaco Marín</strong> y la viceintendenta de Santa Rosa <strong>Romina Montes de Oca</strong>.</p><p>Montes de Oca compartió en redes sociales: \"Compartimos en Avellaneda una jornada de militancia, debate y construcción colectiva\", y agregó que \"frente al individualismo y la resignación, elegimos la unidad, la esperanza y el federalismo\". Marín, por su parte, publicó una fotografía junto al mandatario bonaerense con el comentario: \"Participamos para debatir un nuevo programa de gobierno que organice la esperanza\".</p>",
+          "foto": ""
+        },
+        {
+          "id": "educacion_obligatoria_3_anios_lapampa",
+          "cat": "La Pampa · Educación",
+          "titulo": "Proyecto de ley: en La Pampa será obligatoria la educación a los 3 años desde 2027",
+          "bajada": "La iniciativa de Ziliotto garantizará 15 años de escolaridad obligatoria y se implementará en las 80 localidades de la provincia.",
+          "cuerpo": "<p>El gobernador <strong>Sergio Ziliotto</strong> enviará a la Legislatura un proyecto para extender la obligatoriedad educativa desde los tres años, modificando la Ley de Educación Provincial N° 2511. Actualmente esa franja etaria no es obligatoria y presenta una cobertura del 75%; la normativa vigente solo considera obligatorios los dos últimos años de educación inicial (salas de 4 y 5 años).</p><p>La iniciativa profundiza las políticas provinciales de primera infancia y garantizaría un mínimo de <strong>15 años</strong> de escolarización obligatoria, implementándose en las 80 localidades de la provincia, incluidas las salas de 3 años de los jardines de infantes privados autorizados. El Gobierno ya avanzó en la creación de salas de 3 años en establecimientos educativos provinciales, sobre la base de que la primera infancia es decisiva para el desarrollo humano y la igualdad de oportunidades.</p>",
+          "foto": "img/noticias/educacion-3anios-2026-09-20.jpg"
+        },
+        {
+          "id": "presupuesto_transferencias_automaticas_7_7",
+          "cat": "La Pampa · Economía",
+          "titulo": "Presupuesto: La Pampa tendría una suba del 7,7% en las transferencias automáticas, pero seguiría debajo de 2023",
+          "bajada": "Según un informe de Politikon Chaco, la mejora real prevista para 2027 no alcanza a compensar la caída acumulada: los fondos seguirían 0,9% por debajo del nivel de 2023.",
+          "cuerpo": "<p>Según un informe de la consultora Politikon Chaco, el proyecto de Presupuesto Nacional 2027 prevé un crecimiento real del <strong>7,7%</strong> en los recursos automáticos para La Pampa respecto de 2026, levemente por encima del promedio nacional del 7,5%. Sin embargo, la perspectiva de mediano plazo es menos favorable: \"los fondos que recibiría la provincia durante 2027 todavía quedarían 0,9% por debajo, en términos reales, de los registrados en 2023\".</p><p>A nivel nacional, las transferencias automáticas alcanzarían $104,03 billones, equivalentes al 7,3% del PBI, sostenidas por mejoras en la recaudación de IVA, Ganancias e impuestos a los combustibles. Las transferencias no automáticas, en cambio, mostrarían una caída real del 1,8% respecto del cierre estimado de 2026, con una reducción del 20% en las transferencias de capital. Para las cajas jubilatorias provinciales se prevé una mejora real del 1,8%, mientras que los Aportes del Tesoro Nacional mostrarían un crecimiento real casi nulo (0,1%), quedando 9,3% por debajo de lo ejecutado en 2025.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/20/alta/2156551.jpg"
+        },
+        {
+          "id": "juventud_unida_iluminacion_67_anios",
+          "cat": "La Pampa · Santa Isabel",
+          "titulo": "Juventud Unida festejó sus 67 años con un histórico salto a la iluminación eficiente",
+          "bajada": "El club de Santa Isabel inauguró un nuevo sistema de iluminación de su cancha de fútbol, con una inversión provincial de $29,9 millones.",
+          "cuerpo": "<p>La Secretaría de Energía y Minería acompañó al Club Social y Deportivo Juventud Unida de Santa Isabel en la inauguración del nuevo sistema de iluminación de su cancha de fútbol, una obra concretada con una inversión provincial de <strong>$29.938.306</strong>, en el marco de la tercera etapa del Plan de Iluminación Eficiente en Espacios Deportivos. La iniciativa incluyó nuevas luminarias, tablero eléctrico, medidas de protección y la adecuación de la instalación eléctrica.</p><p>Con esta modernización, el club se adhirió a la \"Liga de la Eficiencia\", que agrupa instituciones deportivas provinciales que incorporan tecnologías más eficientes. Participaron la subsecretaria de Energías Renovables, Georgina Doroni; el subsecretario de Deportes, Ceferino Almudevar; la intendenta María Cabral; y el presidente del club, Cristian Echegaray, quien destacó que \"el trabajo conjunto nos hace más fuertes y así pudimos cumplir esta meta\".</p>",
+          "foto": "img/noticias/juventud-unida-iluminacion-2026-09-20.jpg"
+        },
+        {
+          "id": "kicillof_gira_nacional_peronismo_no_alcanza",
+          "cat": "Política Nacional · PJ",
+          "titulo": "En modo candidato, Axel Kicillof anunció una gira nacional y llamó a romper la interna: \"El peronismo solo no alcanza\"",
+          "bajada": "El gobernador bonaerense encabezó la primera Asamblea Federal del Movimiento Derecho al Futuro y criticó el modelo económico y social del Gobierno de Milei.",
+          "cuerpo": "<p>El gobernador de Buenos Aires, <strong>Axel Kicillof</strong>, presidió el sábado la primera Asamblea Federal del Movimiento Derecho al Futuro en la Universidad Tecnológica Nacional de Villa Domínico, Avellaneda, en un gesto que lo posiciona de cara a 2027. Sin declarar candidatura explícita, delineó una estrategia expansiva: \"Vamos a recorrer todo el país. Vamos a unir a todas las provincias en un proyecto común\".</p><p>El gobernador remarcó que \"el movimiento peronista tiene que ser la columna vertebral, no hay dudas. Pero el peronismo solo no alcanza. Tenemos que convocar a muchos argentinos de los sectores políticos y sociales\". Cuestionó además la política industrial del Gobierno nacional y advirtió que las economías regionales están \"golpeadas, con la construcción parada y los comercios cerrando\" en todo el país. Calificó el modelo de Milei como \"destructivo y desactualizado\", señalando el aumento de la tasa de suicidios como evidencia del deterioro social causado por las políticas económicas.</p>",
+          "foto": "https://media.ambito.com/p/aa30d9b78203f0605298f324c5eda6e7/adjuntos/239/imagenes/043/652/0043652964/655x368/smart/axel-kicillof-mdf.jpeg"
+        },
+        {
+          "id": "massa_renovacion_peronismo_2027",
+          "cat": "Política Nacional · PJ",
+          "titulo": "Sergio Massa también tuvo su acto y apuntó al 2027: \"Se viene una etapa de renovación en el peronismo\"",
+          "bajada": "El referente del Frente Renovador encabezó una actividad con estudiantes en la Facultad de Derecho de la UBA, en el mismo día del lanzamiento nacional de Kicillof.",
+          "cuerpo": "<p><strong>Sergio Massa</strong> consolidó su reaparición política el sábado en la Facultad de Derecho de la UBA, donde se dirigió a estudiantes universitarios. Aunque aclaró que \"no es hora de candidaturas\", enfatizó que \"se viene una etapa de renovación en el peronismo. Llegó la hora de tomar el bastón de mariscal\". El exministro de Economía justificó su gestión de 2019-2023 destacando su rol crítico en ese período, pero centró su mensaje en 2027: \"No se trata de seguir a un dirigente, esa etapa se terminó. Llegó el momento de armar algo en conjunto\".</p><p>Su acto coincidió con movilizaciones del Frente de Izquierda y con el evento de Axel Kicillof en Avellaneda. Ambos dirigentes peronistas enfatizaron la necesidad de la unidad como premisa fundamental para enfrentar al gobierno de Milei en las próximas elecciones.</p>",
+          "foto": "https://media.ambito.com/p/27b290feefd14b450f2e787894de79ab/adjuntos/239/imagenes/043/653/0043653013/655x368/smart/sergio-massa-facultad-derecho-uba.jpeg"
+        },
+        {
+          "id": "librerias_emergencia_sector_caida_facturacion",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Librerías piden declarar la emergencia para el sector por una caída del 41,5% de la facturación",
+          "bajada": "Un relevamiento de FALPA sobre 1.200 comercios registró una baja del 25% en la venta de libros y un alza del 31,1% en los costos operativos.",
+          "cuerpo": "<p>La Federación Argentina de Librerías, Papelerías y Afines (FALPA) declaró la emergencia del sector tras un relevamiento realizado sobre 1.200 comercios de todo el país, que registró una caída del <strong>41,5%</strong> en la facturación respecto de 2023 y una baja del 25% en el volumen de libros vendidos, mientras los costos operativos subieron un 31,1% en términos reales.</p><p>La entidad sostuvo que \"preservar las librerías es también preservar el acceso al libro y a la lectura en cada ciudad y pueblo del país\", y reclamó medidas urgentes: devolución de créditos fiscales de IVA, líneas de financiamiento a tasas blandas y tarifas de envío federal reducidas para que las editoriales del interior puedan competir con las plataformas de comercio electrónico. La Fundación El Libro respaldó la declaración de emergencia, remarcando que las librerías locales son claves para el desarrollo federal y la democratización del acceso a la lectura.</p>",
+          "foto": "https://media.ambito.com/p/46a5ebba05808daa894e9d736a6024ec/adjuntos/239/imagenes/043/382/0043382830/libreria-hijos-santiago-rodriguez.png"
+        }
+      ]
     }
   ]
 }
