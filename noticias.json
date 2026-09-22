@@ -6802,6 +6802,180 @@
           "foto": "https://media.ambito.com/p/0fab21f211122bdbb18f87858b6c8b58/adjuntos/239/imagenes/043/654/0043654335/belen-agudiez.jpg"
         }
       ]
+    },
+    {
+      "clave": "2026-09-22_manana",
+      "fecha_iso": "2026-09-22",
+      "fecha": "22 septiembre 2026",
+      "turno": "Edición Mañana · 7:00",
+      "hero": {
+        "titulo": "El PJ apela al \"Día de la Lealtad\" para frenar la dispersión y lograr la unidad rumbo a 2027",
+        "summary": "El Consejo Provincial convocó a todas las líneas internas al acto del 17 de octubre, en un peronismo pampeano tensionado por al menos cinco aspirantes a suceder a Ziliotto, la ruptura de Fuerza Pampa y el avance de un frente opositor unificado.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/21/alta/2156891.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "La intendenta Curutchet reivindicó el \"modelo Castex\" en el 118° aniversario",
+          "resumen": "La jefa comunal sostuvo que Castex se convirtió en \"un ejemplo distinto en toda la provincia\" gracias a un municipio que \"se hace cargo, gestiona y resuelve\".",
+          "cat": "La Pampa · Castex",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/22/alta/2156912.jpg",
+          "ts": "22 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Parque Lineal: la segunda etapa ya tiene césped, juegos y luminarias",
+          "resumen": "La histórica calesita del Parque Laguna Don Tomás está siendo recuperada para el nuevo espacio, que conectará la Circunvalación con la laguna en 2.800 metros.",
+          "cat": "La Pampa · Santa Rosa",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/21/alta/2156865.jpg",
+          "ts": "21 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Tomás Anchorena se prepara para celebrar sus Fiestas Patronales",
+          "resumen": "El 27 de septiembre, la localidad festejará en honor a Nuestra Señora de la Merced, con misas, jinetes, danzas folclóricas y un fogón final.",
+          "cat": "La Pampa · Tomás Anchorena",
+          "foto": "img/noticias/anchorena-fiestas-patronales-2026-09-21.jpg",
+          "ts": "21 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Javier Milei partió rumbo a EEUU: la agenda completa del Presidente en Nueva York",
+          "resumen": "El mandatario hablará el miércoles ante la Asamblea General de la ONU y se reunirá con Marco Rubio y Benjamín Netanyahu, en su 18° viaje a Estados Unidos desde 2023.",
+          "cat": "Política Nacional · Internacional",
+          "foto": "https://media.ambito.com/p/195628b8a7e9811759b6dcc67312902f/adjuntos/239/imagenes/043/076/0043076882/milei-viaja.jpg",
+          "ts": "21 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Causa AMIA: el juez Daniel Rafecas procesó y embargó a los ocho ciudadanos iraníes y libaneses",
+          "resumen": "La resolución, de más de 600 páginas, calificó el atentado de 1994 como crimen de lesa humanidad y genocidio, con embargos de $500 millones por acusado.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "https://media.ambito.com/p/945936c76a1a0fb5b9d91975f97929d5/adjuntos/239/imagenes/042/542/0042542270/655x368/smart/amiajpg.jpg",
+          "ts": "21 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Jorge Macri pedirá el juicio político para la jueza porteña que falló contra la baja de la edad de imputabilidad",
+          "resumen": "El jefe de Gobierno porteño instruyó al ministro de Justicia a iniciar el proceso contra la magistrada, tras un fallo que declaró inconstitucional aplicar el nuevo Código Penal Juvenil a un adolescente de 14 años.",
+          "cat": "Política Nacional · CABA",
+          "foto": "https://media.ambito.com/p/53d941726c31dc6867879c6d6721ec27/adjuntos/239/imagenes/043/627/0043627716/655x368/smart/jorge-macri-y-los-cadetes-penitenciarios-2.jpg",
+          "ts": "21 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Cein: \"Fuerza Pampa es un nuevo partido pero no el PJ\"",
+          "resumen": "El intendente de La Maruja sostiene que el justicialismo pampeano llegará unido a 2027, aunque Fuerza Pampa es una agrupación distinta que probablemente conforme un frente electoral conjunto.",
+          "cat": "La Pampa · Política Pampeana",
+          "ts": "22 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Presentaron a Diputados el proyecto para financiar el mantenimiento de las rutas pampeanas",
+          "resumen": "El proyecto crea el \"Fideicomiso Rutas Pampeanas\": el 90% de lo recaudado por peaje irá al Fondo Provincial Vial y el 10% a municipios y comisiones de fomento.",
+          "cat": "La Pampa · Política Pampeana",
+          "ts": "21 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "El plenario provincial de Enfermería definió una jornada de lucha",
+          "resumen": "Habrá una movilización a Casa de Gobierno el 19 de octubre, coincidiendo con la paritaria general, en reclamo de mejoras laborales y jubilatorias.",
+          "cat": "La Pampa · Salud",
+          "ts": "22 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Se presenta el \"PampaDocFest\"",
+          "resumen": "El Festival Internacional de Cine Documental presenta hoy su sexta edición en El Palomar de la Universidad Nacional de La Pampa, con entrada libre y gratuita.",
+          "cat": "La Pampa · Cultura",
+          "ts": "22 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "pj_dia_lealtad_unidad_2027",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "El PJ apela al \"Día de la Lealtad\" para frenar la dispersión y lograr la unidad rumbo a 2027",
+          "bajada": "El Consejo Provincial convocó a todas las líneas internas al acto del 17 de octubre, en un peronismo pampeano tensionado por al menos cinco aspirantes a suceder a Ziliotto, la ruptura de Fuerza Pampa y el avance de un frente opositor unificado.",
+          "cuerpo": "<p>El Partido Justicialista de La Pampa convocó a todas sus líneas internas a un acto unificado para el próximo <strong>17 de octubre</strong>, Día de la Lealtad Peronista, en un intento de la conducción provincial por contener las divisiones internas de cara a las elecciones de 2027. El gobernador <strong>Sergio Ziliotto</strong>, que no puede ser reelegido por límite constitucional, enfrenta un escenario con al menos cinco dirigentes que pugnan por sucederlo: el intendente de Santa Rosa Luciano di Nápoli, la intendenta de General Pico Fernanda Alonso, la vicegobernadora Alicia Mayoral, el senador Daniel Bensusán y el diputado nacional Ariel Rauschenberger.</p><p>La fragmentación se agudiza por las tensiones con el expresidente del PJ y exgobernador <strong>Carlos Verna</strong>, y por la existencia de <strong>Fuerza Pampa</strong>, un espacio que ya obtuvo personería jurídica propia y que reúne a dirigentes peronistas que no se sienten contenidos en la estructura partidaria tradicional.</p><p>La convocatoria a la unidad llega en simultáneo con el avance de la oposición: UCR, PRO y La Libertad Avanza negocian un frente electoral conjunto, liderado en su diseño por el radical Martín Berhongaray, lo que intensifica la presión sobre el peronismo pampeano para mantener la cohesión estratégica de cara a 2027.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/21/alta/2156891.jpg"
+        },
+        {
+          "id": "cein_fuerza_pampa_nuevo_partido",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Cein: \"Fuerza Pampa es un nuevo partido pero no el PJ\"",
+          "bajada": "El intendente de La Maruja sostiene que el justicialismo pampeano llegará unido a 2027, aunque Fuerza Pampa es una agrupación distinta que probablemente conforme un frente electoral conjunto.",
+          "cuerpo": "<p>El intendente de La Maruja, <strong>Gustavo Cein</strong>, se refirió a la relación entre el Partido Justicialista y el espacio Fuerza Pampa, que reúne a varios intendentes peronistas que optaron por una alternativa política propia. \"Es un nuevo partido político en La Pampa\" distinto del PJ, aclaró, aunque consideró que \"seguramente\" ambos espacios terminen compitiendo en un mismo frente electoral de cara a 2027.</p><p>Cein sostuvo que el justicialismo pampeano llegará unido a las próximas elecciones, en línea con la convocatoria del Consejo Provincial del PJ para el acto del 17 de octubre. Su declaración confirma que la diversificación dentro del espacio peronista —con Fuerza Pampa ya con personería jurídica propia— es un dato asumido incluso por los propios intendentes del oficialismo.</p>",
+          "foto": ""
+        },
+        {
+          "id": "fideicomiso_rutas_pampeanas_diputados",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Presentaron a Diputados el proyecto para financiar el mantenimiento de las rutas pampeanas",
+          "bajada": "El proyecto crea el \"Fideicomiso Rutas Pampeanas\": el 90% de lo recaudado por peaje irá al Fondo Provincial Vial y el 10% a municipios y comisiones de fomento.",
+          "cuerpo": "<p>El ministro de Obras y Servicios Públicos, <strong>Alfredo Intronati</strong>, expuso ante la Comisión de Hacienda y Presupuesto de la Legislatura un proyecto del Poder Ejecutivo que crea el \"<strong>Fideicomiso Rutas Pampeanas</strong>\", bajo administración de Fiduciaria La Pampa, para generar financiamiento sostenido de la red vial frente al crecimiento del tránsito pesado.</p><p>El esquema establece que el 90% de la recaudación se destine al Fondo Provincial Vial para obras de construcción, reparación, mantenimiento y conservación de rutas provinciales, mientras que el 10% restante se distribuirá entre municipios y comisiones de fomento para caminos vecinales. El proyecto prevé exenciones para los vehículos radicados en La Pampa sin deuda tributaria, maquinaria agrícola provincial, vehículos de emergencia, transporte público interurbano y vehículos oficiales, y mantiene la administración de los fondos dentro del ámbito estatal, con los recursos transferidos a la Dirección Provincial de Vialidad para ejecutar las obras.</p>",
+          "foto": "img/noticias/fideicomiso-rutas-2026-09-21.jpg"
+        },
+        {
+          "id": "enfermeria_plenario_jornada_lucha",
+          "cat": "La Pampa · Salud",
+          "titulo": "El plenario provincial de Enfermería definió una jornada de lucha",
+          "bajada": "Habrá una movilización a Casa de Gobierno el 19 de octubre, coincidiendo con la paritaria general, en reclamo de mejoras laborales y jubilatorias.",
+          "cuerpo": "<p>El Plenario Provincial de Enfermería y Ayudantes de Enfermería resolvió por unanimidad convocar a una jornada de protesta hacia Casa de Gobierno el próximo <strong>19 de octubre</strong>, coincidiendo con la paritaria general. El encuentro, realizado el lunes con amplia participación de trabajadores de distintos puntos de la provincia, abordó las condiciones laborales y las particularidades del trabajo de enfermería en el sistema público de salud.</p><p>Entre los reclamos centrales figuran la reducción de la jornada laboral a 6 horas diarias sin afectar los salarios, la baja de la edad jubilatoria a 55 años por el desgaste propio de la tarea, el reconocimiento de la actividad como crítica, una licencia profiláctica para quienes todavía no cuentan con ese derecho, y el pasaje del código 037 al sueldo básico. La dirigencia remarcó que \"cuando hay organización y participación desde cada hospital, centro de salud y localidad, es posible construir colectivamente una agenda de reclamos\", y advirtió que, de no obtener respuestas, convocará a un nuevo plenario para evaluar medidas adicionales.</p>",
+          "foto": ""
+        },
+        {
+          "id": "pampadocfest_sexta_edicion_presentacion",
+          "cat": "La Pampa · Cultura",
+          "titulo": "Se presenta el \"PampaDocFest\"",
+          "bajada": "El Festival Internacional de Cine Documental presenta hoy su sexta edición en El Palomar de la Universidad Nacional de La Pampa, con entrada libre y gratuita.",
+          "cuerpo": "<p>El Festival Internacional de Cine Documental <strong>PampaDocFest</strong> presenta hoy a las 19:30 su sexta edición en El Palomar (Mansilla 178), en colaboración con la Secretaría de Cultura y Extensión Universitaria de la Universidad Nacional de La Pampa. Durante el encuentro se anunciará la apertura de la Convocatoria PampaDocFest 6, destinada a producciones documentales, y se presentarán los lineamientos de la próxima edición, programada para abril de 2027.</p><p>La actividad incluye una proyección de Cine en Comunidad con cortometrajes de ediciones anteriores del festival —\"Y acá estoy\" (PampaDocFest 4) y \"¡Qué lindo es bailar! / Wie schön ist tanzen\" (PampaDocFest 5)—, con presencia de los vecinos que participaron en ellos. El festival se realiza en Colonia Santa Teresa y combina exhibición, formación, producción audiovisual y trabajo comunitario.</p>",
+          "foto": ""
+        },
+        {
+          "id": "curutchet_modelo_castex_118_aniversario",
+          "cat": "La Pampa · Castex",
+          "titulo": "La intendenta Curutchet reivindicó el \"modelo Castex\" en el 118° aniversario",
+          "bajada": "La jefa comunal sostuvo que Castex se convirtió en \"un ejemplo distinto en toda la provincia\" gracias a un municipio que \"se hace cargo, gestiona y resuelve\".",
+          "cuerpo": "<p>La intendenta de Castex, <strong>Mónica Curutchet</strong>, reivindicó en el 118° aniversario de la localidad lo que definió como el \"modelo Castex\": una filosofía de gestión municipal basada en la iniciativa propia frente a las dificultades. \"No esperamos a que nos resuelvan las cosas, nos hacemos cargo, gestionamos y resolvemos\", sintetizó, en referencia a la planificación, la austeridad, la autonomía y la innovación como ejes de su gestión.</p><p>La funcionaria sostuvo que la localidad atraviesa \"un tiempo distinto\" en el que \"los gobiernos locales se hacen cargo y son protagonistas\", asumiendo responsabilidades que exceden sus funciones habituales —servicios, desarrollo cultural, turismo y apoyo a emprendedores— con recursos propios, ante lo que describió como ausencia de inversión estatal nacional y provincial.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/22/alta/2156912.jpg"
+        },
+        {
+          "id": "parque_lineal_segunda_etapa_avance",
+          "cat": "La Pampa · Santa Rosa",
+          "titulo": "Parque Lineal: la segunda etapa ya tiene césped, juegos y luminarias",
+          "bajada": "La histórica calesita del Parque Laguna Don Tomás está siendo recuperada para el nuevo espacio, que conectará la Circunvalación con la laguna en 2.800 metros.",
+          "cuerpo": "<p>La segunda etapa del Parque Lineal de Santa Rosa se encuentra en su fase de conclusión. Equipos municipales realizaron tareas de nivelación, colocación de césped, plantación de árboles y limpieza del sector, además de instalar pisos de caucho en las nuevas áreas recreativas y el mobiliario correspondiente, mientras se ajustan los sistemas de riego e iluminación.</p><p>En el sector comprendido entre las calles Diego González, Crispiniano Fernández, Pichihuinca y Lorusso se instalaron siete juegos grandes, sectores de trepa y equilibrio, hamacas, calesitas integradoras, sube y baja, un circuito de calistenia y espacios para fútbol-tenis. La histórica calesita del Parque Laguna Don Tomás, que ya cuenta con base de hormigón, mástil y estructura motriz, será reubicada en el nuevo espacio; esta semana se le instalarán las rejas exteriores y la cubierta de lona. El Paseo Gastronómico, con 24 puestos entre Tomás Mason y avenida Spinetto, ya tiene veredas, canteros, iluminación y redes de agua y cloaca instaladas. Al completarse, el parque tendrá 2.800 metros y conectará la Circunvalación con el Parque Laguna Don Tomás.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/21/alta/2156865.jpg"
+        },
+        {
+          "id": "anchorena_fiestas_patronales_merced",
+          "cat": "La Pampa · Tomás Anchorena",
+          "titulo": "Tomás Anchorena se prepara para celebrar sus Fiestas Patronales",
+          "bajada": "El 27 de septiembre, la localidad festejará en honor a Nuestra Señora de la Merced, con misas, jinetes, danzas folclóricas y un fogón final.",
+          "cuerpo": "<p>La localidad de Tomás Anchorena se prepara para vivir el próximo 27 de septiembre sus Fiestas Patronales, con la Iglesia Nuestra Señora de la Merced —templo neogótico inaugurado en 1918 y conservado casi en su estado original— como escenario principal. La presentación se realizó en la Secretaría de Turismo provincial, con la presencia de su titular, <strong>Saúl Echeveste</strong>, representantes de la Comisión de la Iglesia y el coro Médanos y Luna, de Alberto Carpio.</p><p>El programa incluye misas el jueves, viernes y sábado; un grupo de ciclistas y jinetes el domingo desde las 10; danzas folclóricas españolas; una reseña histórica a las 11:30; la suelta de palomas al mediodía; una procesión a las 14:30 que retorna a las 16 para la misa central, presidida por el obispo Luis Martín con participación del coro Médanos y Luna; y un fogón final con conjuntos folclóricos de Santa Rosa y Anchorena.</p>",
+          "foto": "img/noticias/anchorena-fiestas-patronales-2026-09-21.jpg"
+        },
+        {
+          "id": "milei_eeuu_onu_agenda_nueva_york",
+          "cat": "Política Nacional · Internacional",
+          "titulo": "Javier Milei partió rumbo a EEUU: la agenda completa del Presidente en Nueva York",
+          "bajada": "El mandatario hablará el miércoles ante la Asamblea General de la ONU y se reunirá con Marco Rubio y Benjamín Netanyahu, en su 18° viaje a Estados Unidos desde 2023.",
+          "cuerpo": "<p>El presidente <strong>Javier Milei</strong> partió el lunes por la noche hacia Nueva York, en su decimoctavo viaje a Estados Unidos desde que asumió en diciembre de 2023. El miércoles hablará ante la <strong>Asamblea General de las Naciones Unidas</strong> y participará de conferencias sobre libertad económica y seguridad estratégica, además de recibir una distinción. Regresará a Buenos Aires el viernes por la mañana.</p><p>Entre los encuentros previstos figuran reuniones con el secretario de Estado norteamericano <strong>Marco Rubio</strong> y el primer ministro israelí <strong>Benjamín Netanyahu</strong>. Tras esta gira, Milei viajará a París entre el 30 de septiembre y el 2 de octubre para la Semana Argentina, acompañado por 12 gobernadores provinciales en busca de inversiones y apoyo internacional. Su hermana <strong>Karina Milei</strong>, jefa de Gabinete de asesores, permanecerá en el país por asuntos de política doméstica.</p>",
+          "foto": "https://media.ambito.com/p/195628b8a7e9811759b6dcc67312902f/adjuntos/239/imagenes/043/076/0043076882/milei-viaja.jpg"
+        },
+        {
+          "id": "causa_amia_rafecas_proceso_iranies",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "Causa AMIA: el juez Daniel Rafecas procesó y embargó a los ocho ciudadanos iraníes y libaneses",
+          "bajada": "La resolución, de más de 600 páginas, calificó el atentado de 1994 como crimen de lesa humanidad y genocidio, con embargos de $500 millones por acusado.",
+          "cuerpo": "<p>El juez federal <strong>Daniel Rafecas</strong> ordenó el procesamiento de ocho ciudadanos iraníes y libaneses por su participación en el atentado a la AMIA de 1994, en una resolución de más de 600 páginas que impuso embargos de <strong>$500 millones por acusado</strong> y habilitó el juicio en rebeldía. La resolución atribuyó la autorización del atentado a la cúpula del régimen iraní en agosto de 1993, con la ejecución delegada en Hezbollah: según la reconstrucción judicial, la camioneta Renault Trafic utilizada fue adquirida el 10 de julio y posicionada junto al edificio de la AMIA el 15 de julio, antes de la detonación del 18.</p><p>Fueron procesados como autores principales el exministro de Inteligencia <strong>Ali Fallahijan</strong>, el excanciller <strong>Ali Akbar Velayati</strong>, el comandante de la Guardia Revolucionaria <strong>Mohsen Rezai</strong> y el comandante de la Fuerza Al Quds <strong>Ahmad Vahidi</strong>. Como partícipes necesarios fueron procesados el embajador <strong>Hadi Soleimanpour</strong>, el agregado cultural <strong>Mohsen Rabbani</strong> y el agente de inteligencia <strong>Ahmad Asghari</strong>, mientras que <strong>Salman Raouf Salman</strong> fue acusado de coordinar la etapa final de la operación de Hezbollah. Rafecas calificó el atentado como crimen de lesa humanidad y genocidio bajo el derecho internacional.</p>",
+          "foto": "https://media.ambito.com/p/945936c76a1a0fb5b9d91975f97929d5/adjuntos/239/imagenes/042/542/0042542270/655x368/smart/amiajpg.jpg"
+        },
+        {
+          "id": "macri_juicio_politico_jueza_imputabilidad",
+          "cat": "Política Nacional · CABA",
+          "titulo": "Jorge Macri pedirá el juicio político para la jueza porteña que falló contra la baja de la edad de imputabilidad",
+          "bajada": "El jefe de Gobierno porteño instruyó al ministro de Justicia a iniciar el proceso contra la magistrada, tras un fallo que declaró inconstitucional aplicar el nuevo Código Penal Juvenil a un adolescente de 14 años.",
+          "cuerpo": "<p>El jefe de Gobierno porteño, <strong>Jorge Macri</strong>, instruyó al ministro de Justicia, <strong>Gabino Tapia</strong>, para que inicie el proceso de juicio político contra la jueza <strong>Laura De Marinis</strong>, quien declaró inconstitucional la aplicación de disposiciones del nuevo Código Penal Juvenil, lo que derivó en la absolución de un adolescente de 14 años acusado de robo en grado de tentativa. \"El fallo me parece una barbaridad, una aberración\", cuestionó Macri, al considerar que la jueza excedió sus facultades al reinterpretar la ley en lugar de aplicarla.</p><p>El caso involucró a cuatro adolescentes sospechados de intentar robar un teléfono celular. La jueza consideró que aplicar la ley de forma regresiva no contemplaba el desarrollo neurológico del acusado ni la necesidad de medidas de protección antes que la persecución penal. El ministro Tapia fue categórico: \"CABA no va a tener una Justicia garantista. Un menor de 14 años que roba es un delincuente\". El Gobierno porteño también apelará el fallo.</p>",
+          "foto": "https://media.ambito.com/p/53d941726c31dc6867879c6d6721ec27/adjuntos/239/imagenes/043/627/0043627716/655x368/smart/jorge-macri-y-los-cadetes-penitenciarios-2.jpg"
+        }
+      ]
     }
   ]
 }
