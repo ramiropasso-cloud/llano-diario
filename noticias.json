@@ -6976,6 +6976,180 @@
           "foto": "https://media.ambito.com/p/53d941726c31dc6867879c6d6721ec27/adjuntos/239/imagenes/043/627/0043627716/655x368/smart/jorge-macri-y-los-cadetes-penitenciarios-2.jpg"
         }
       ]
+    },
+    {
+      "clave": "2026-09-23_tarde",
+      "fecha_iso": "2026-09-23",
+      "fecha": "23 septiembre 2026",
+      "turno": "Edición Tarde · 17:00",
+      "hero": {
+        "titulo": "Cornejo calificó de \"manotazo\" el fallo por Los Nihuiles y La Pampa respondió: \"contubernios con Milei\"",
+        "summary": "El gobernador mendocino cuestionó la competencia del Juzgado Federal de Santa Rosa para frenar el decreto de Milei. El secretario general de la Gobernación, José Vanini, le retrucó con dureza, y el constitucionalista Andrés Gil Domínguez le exigió a Cornejo \"respetar el federalismo de concertación\".",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/23/alta/2157019.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Más de 100 empresas se sumaron al impulso de las energías renovables en La Pampa",
+          "resumen": "La primera Jornada Provincial de Energías Renovables ofreció financiamiento de hasta $500 millones; la provincia ya superó los 3 MW de generación distribuida.",
+          "cat": "La Pampa · Energía",
+          "foto": "img/noticias/energias-renovables-100empresas-2026-09-22.jpg",
+          "ts": "22 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gobierno pampeano licitó tareas de mantenimiento en rutas provinciales por más de $3.170 millones",
+          "resumen": "La Dirección Provincial de Vialidad abrió ofertas para el corte de pastos y malezas en diez zonas de la red pavimentada, con cinco empresas oferentes.",
+          "cat": "La Pampa · Vialidad",
+          "foto": "img/noticias/licitacion-rutas-3170millones-2026-09-22.jpg",
+          "ts": "22 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Alpachiri promueve un \"RIGI\" local",
+          "resumen": "El municipio presentó un régimen de promoción para plantas de acopio, cooperativas y ferias ganaderas, y abrió inscripciones para 14 terrenos municipales.",
+          "cat": "La Pampa · Alpachiri",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/23/alta/2157001.jpg",
+          "ts": "23 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Una provincia apuntó contra el Presupuesto 2027 y lo tildó de \"populista de derecha\"",
+          "resumen": "La gestión de Gildo Insfrán en Formosa cuestionó el proyecto por recortar \"lo que tiene reglas\" mientras crece lo que el Gobierno \"puede repartir a dedo\" en año electoral.",
+          "cat": "Política Nacional · Economía",
+          "foto": "https://media.ambito.com/p/eb526637419405b62648b1690fa889d5/adjuntos/239/imagenes/043/660/0043660353/655x368/smart/presupuesto.jpg",
+          "ts": "23 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Presupuesto 2027: La Libertad Avanza cede ante aliados para evitar el veto a Milei",
+          "resumen": "Gobernadores dialoguistas y el PRO rechazan los recortes a discapacidad y universidades; la renuncia del secretario de Discapacidad expuso tensiones entre Bullrich y Santilli.",
+          "cat": "Política Nacional · Congreso",
+          "foto": "https://media.ambito.com/p/35521d38847169b3cdeaa335b4c0c280/adjuntos/239/imagenes/043/161/0043161728/655x368/smart/gabriel-bornoroni-martin-menem-patricia-bullrich.jpeg",
+          "ts": "22 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Justicia intimó al Gobierno a cumplir la ley de Financiamiento Universitario",
+          "resumen": "El juez Martín Cormick dio cinco días al Poder Ejecutivo para actualizar salarios y programas estudiantiles, bajo apercibimiento de multas diarias.",
+          "cat": "Política Nacional · Justicia",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/23/alta/2157034.jpg",
+          "ts": "22 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Marull saludó \"el freno\" judicial al incumplimiento del Gobierno",
+          "resumen": "El rector de la UNLPam celebró que la Justicia intimara al Gobierno nacional a cumplir la Ley de Financiamiento Universitario en 5 días, bajo apercibimiento de multas diarias.",
+          "cat": "La Pampa · Educación",
+          "ts": "23 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Feito: \"No está bien que los intendentes nos enteremos por los diarios\"",
+          "resumen": "El presidente de Fuerza Pampa reclamó mayor participación de los jefes comunales y coincidió con Ziliotto en que el próximo gobernador debería surgir de una intendencia.",
+          "cat": "La Pampa · Política Pampeana",
+          "ts": "23 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Lezcano respaldó la convocatoria de Ziliotto para el 17",
+          "resumen": "Identidad Peronista, el espacio conducido por el sindicalista Jorge Lezcano, confirmó que acompañará el acto del PJ por el Día de la Lealtad.",
+          "cat": "La Pampa · Política Pampeana",
+          "ts": "22 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Piden que los funcionarios viajen en auto y no en avión",
+          "resumen": "La Asociación Civil de Fútbol Catriel propone que los funcionarios no usen aviones dentro del país hasta que se repare la Ruta Nacional 151, en pésimo estado entre Río Negro y La Pampa.",
+          "cat": "La Pampa · Catriel",
+          "ts": "23 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "cornejo_manotazo_vanini_contubernios",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Cornejo calificó de \"manotazo\" el fallo por Los Nihuiles y La Pampa respondió: \"contubernios con Milei\"",
+          "bajada": "El gobernador mendocino cuestionó la competencia del Juzgado Federal de Santa Rosa para frenar el decreto de Milei. El secretario general de la Gobernación, José Vanini, le retrucó con dureza, y el constitucionalista Andrés Gil Domínguez le exigió a Cornejo \"respetar el federalismo de concertación\".",
+          "cuerpo": "<p>El gobernador de Mendoza, <strong>Alfredo Cornejo</strong>, cuestionó la competencia del Juzgado Federal de Santa Rosa para haber dictado la cautelar que frenó el Decreto 982/2026, y calificó la medida como un \"manotazo\". Sostuvo que Mendoza y la Nación ya solicitaron la inhibición del juzgado pampeano, argumentando que \"La Pampa intentó meter por la ventana una disputa que ya habíamos ingresado por la puerta\" ante la Corte Suprema.</p><p>El secretario general de la Gobernación de La Pampa, <strong>José Vanini</strong>, respondió con dureza, cuestionando además cómo Cornejo conocía el contenido de un escrito que la contraparte todavía no había recibido: \"Más grave que una interpretación poco ajustada a derecho es que conozca el contenido de un escrito que la parte aún no conoce\". Cerró acusando al gobierno nacional de intervenir a favor de Mendoza: \"Se ratifica: lo que no pudieron hacer en la Corte, lo hacen mediante llamadas y contubernios con el gobierno de Milei\".</p><p>El constitucionalista pampeano <strong>Andrés Gil Domínguez</strong> también salió al cruce de Cornejo, exigiéndole \"respetar el federalismo de concertación, la división de poderes, el sistema republicano y la independencia del Poder Judicial\", y le pidió \"no sea intermitente\". El jurista aclaró que Mendoza confunde dos vías judiciales distintas: la demanda ante la Corte Suprema, que reclama pagos retroactivos, y la acción ante los tribunales federales de Santa Rosa, que impugna específicamente el decreto de Milei.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/23/alta/2157019.jpg"
+        },
+        {
+          "id": "marull_freno_judicial_financiamiento_universitario",
+          "cat": "La Pampa · Educación",
+          "titulo": "Marull saludó \"el freno\" judicial al incumplimiento del Gobierno",
+          "bajada": "El rector de la UNLPam celebró que la Justicia intimara al Gobierno nacional a cumplir la Ley de Financiamiento Universitario en 5 días, bajo apercibimiento de multas diarias.",
+          "cuerpo": "<p>El rector de la Universidad Nacional de La Pampa, <strong>Francisco Marull</strong>, celebró la decisión del Juzgado Contencioso Administrativo Federal N°11, a cargo del juez <strong>Martín Cormick</strong>, que intimó al Poder Ejecutivo nacional a \"dar efectivo cumplimiento a los artículos quinto y sexto de la Ley de Financiamiento Universitario en un plazo máximo de cinco días\", bajo apercibimiento de multas diarias por cada jornada de demora.</p><p>Marull señaló que el Gobierno había argumentado haber cumplido mediante \"incrementos previos y transferencias a hospitales\", postura que el magistrado rechazó por considerarla inválida, ya que \"aún resta saldar parte de lo adeudado\". El rector remarcó \"la importancia institucional del fallo\" como antecedente para las discusiones presupuestarias en el Congreso, y explicó que los artículos en disputa exigen actualización de partidas según la inflación acumulada y recomposición salarial docente y no docente.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/23/alta/2157034.jpg"
+        },
+        {
+          "id": "feito_intendentes_diarios_fuerza_pampa",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Feito: \"No está bien que los intendentes nos enteremos por los diarios\"",
+          "bajada": "El presidente de Fuerza Pampa reclamó mayor participación de los jefes comunales y coincidió con Ziliotto en que el próximo gobernador debería surgir de una intendencia.",
+          "cuerpo": "<p>El presidente de Fuerza Pampa y jefe comunal de Lonquimay, <strong>Manuel Feito</strong>, sostuvo que el próximo candidato a gobernador del peronismo pampeano debería ser un intendente, y respaldó las críticas del intendente de La Maruja, Gustavo Cein, sobre la exclusión de las autoridades municipales en las decisiones partidarias. \"No está bien que los intendentes nos enteremos por los diarios de decisiones y candidaturas\", afirmó, vinculando el reclamo con el surgimiento de Fuerza Pampa.</p><p>Feito también citó declaraciones del gobernador <strong>Sergio Ziliotto</strong>, quien había señalado que \"la estación previa al gobernador tiene que ser la intendencia\", y remató con ironía: \"Qué manera de coincidir hoy\", marcando una alineación discursiva con el gobernador pese a que Ziliotto llegó a la gobernación sin haber sido intendente.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/23/alta/2157025.jpg"
+        },
+        {
+          "id": "ruta151_funcionarios_auto_no_avion",
+          "cat": "La Pampa · Catriel",
+          "titulo": "Piden que los funcionarios viajen en auto y no en avión",
+          "bajada": "La Asociación Civil de Fútbol Catriel propone que los funcionarios no usen aviones dentro del país hasta que se repare la Ruta Nacional 151, en pésimo estado entre Río Negro y La Pampa.",
+          "cuerpo": "<p>La Asociación Civil de Fútbol Catriel realizó una propuesta inusual ante el deterioro de la <strong>Ruta Nacional 151</strong> entre Cipolletti (Río Negro) y Algarrobo del Águila (La Pampa). Solicitan que \"los funcionarios políticos que ocupan cargos públicos, tanto en el ámbito local como provincial y nacional —salvo excepciones debidamente justificadas—, no utilicen aviones para trasladarse dentro del territorio argentino hasta que se dé una respuesta concreta al grave y deplorable estado de numerosas rutas nacionales\".</p><p>La organización argumenta que quienes toman decisiones sobre infraestructura vial deberían \"conocer de primera mano lo que significa recorrerlas\", ya que miles de argentinos enfrentan diariamente \"pozos, falta de mantenimiento y situaciones que pueden poner en riesgo sus vidas\". Proponen llevar la iniciativa al Congreso Nacional para su debate: \"no pedimos privilegios. Pedimos rutas seguras y transitables para todos\".</p>",
+          "foto": ""
+        },
+        {
+          "id": "lezcano_respaldo_convocatoria_ziliotto_17",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Lezcano respaldó la convocatoria de Ziliotto para el 17",
+          "bajada": "Identidad Peronista, el espacio conducido por el sindicalista Jorge Lezcano, confirmó que acompañará el acto del PJ por el Día de la Lealtad.",
+          "cuerpo": "<p>Identidad Peronista, el espacio conducido por el sindicalista <strong>Jorge Lezcano</strong>, expresó su apoyo a la convocatoria del Partido Justicialista de La Pampa para conmemorar el 17 de octubre, respaldando así al gobernador Sergio Ziliotto. A través de un comunicado, el sector remarcó que esa fecha \"nos conmueve, nos interpela y nos moviliza\" y representa \"la irrupción de los trabajadores y del pueblo como protagonistas de la vida política argentina\".</p><p>El espacio sostuvo que \"la unidad que necesita el peronismo es mucho más que una consigna\" y debe construirse desde \"la participación, la organización, el respeto por todas las expresiones\", y criticó al Gobierno nacional por el impacto en \"trabajadores, jubilados, comerciantes, productores, jóvenes y familias\". Confirmaron su participación en el acto del 17 de octubre como una oportunidad para que \"las diferencias dentro de un movimiento amplio encuentren ámbitos orgánicos de discusión y construcción\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/22/alta/2156949.jpg"
+        },
+        {
+          "id": "energias_renovables_100empresas_jornada",
+          "cat": "La Pampa · Energía",
+          "titulo": "Más de 100 empresas se sumaron al impulso de las energías renovables en La Pampa",
+          "bajada": "La primera Jornada Provincial de Energías Renovables ofreció financiamiento de hasta $500 millones; la provincia ya superó los 3 MW de generación distribuida.",
+          "cuerpo": "<p>Más de 100 empresas industriales, comerciales y de servicios participaron en la primera Jornada de Energías Renovables de La Pampa, organizada por el Gobierno provincial y el Consejo Federal de Inversiones (CFI). El gobernador <strong>Sergio Ziliotto</strong> destacó el objetivo de \"transformar un costo en una herramienta de activación económica\" para alcanzar la soberanía energética, y remarcó que el sector tiene un potencial de crecimiento cercano a los u$s100 millones anuales, equivalente a la energía que hoy la provincia le compra a CAMMESA.</p><p>A través del Programa de Gestión Energética y Ambiental para Pymes, las empresas pueden acceder a financiamiento de hasta $500 millones para cubrir hasta el 80% de cada inversión, con 60 meses de plazo, 12 de gracia y tasa fija del 16,8% los primeros dos años. Hasta el momento, 35 empresas recibieron informes de gestión energética, siete accedieron al financiamiento, 22 se inscribieron para asistencia especializada y 25 personas se capacitaron como gestores energéticos. La provincia ya cuenta con 139 usuarios de generación distribuida y superó los 3 MW de potencia instalada, ubicándose octava en el país por cantidad de usuarios.</p>",
+          "foto": "img/noticias/energias-renovables-100empresas-2026-09-22.jpg"
+        },
+        {
+          "id": "licitacion_rutas_mantenimiento_3170millones",
+          "cat": "La Pampa · Vialidad",
+          "titulo": "Gobierno pampeano licitó tareas de mantenimiento en rutas provinciales por más de $3.170 millones",
+          "bajada": "La Dirección Provincial de Vialidad abrió ofertas para el corte de pastos y malezas en diez zonas de la red pavimentada, con cinco empresas oferentes.",
+          "cuerpo": "<p>El Gobierno de La Pampa, a través de la Dirección Provincial de Vialidad, convocó a licitación pública para tareas de corte de pastos y malezas en distintos corredores pavimentados, con un presupuesto oficial de <strong>$3.170.728.398,80</strong>. La apertura de ofertas se realizó el martes en Santa Rosa, con la participación del presidente de la DPV, <strong>Rodrigo Cadenas</strong>, y el ingeniero Santiago Chaer, entre otros funcionarios. Se presentaron cinco empresas y emprendedores: Fuentes Ismael Higinio, Lira Luis Antonio, La Nueva SRL, Empresa Rigem y Sergio Calo.</p><p>Los trabajos abarcan diez zonas distribuidas en las rutas provinciales 1, 2, 4, 7, 9, 11, 12, 13, 14, 18, 20, 24, 34, 101, 102 y 105, buscando mantener las banquinas en condiciones óptimas y mejorar la visibilidad para una circulación más segura. Cadenas remarcó que \"es una tarea fundamental para la seguridad vial\", que se complementa con intervenciones realizadas por personal propio de la dependencia, dentro de una política más amplia de conservación vial que incluye señalización y rehabilitación de pavimentos en distintos puntos de la provincia.</p>",
+          "foto": "img/noticias/licitacion-rutas-3170millones-2026-09-22.jpg"
+        },
+        {
+          "id": "alpachiri_rigi_local_plantas_acopio",
+          "cat": "La Pampa · Alpachiri",
+          "titulo": "Alpachiri promueve un \"RIGI\" local",
+          "bajada": "El municipio presentó un régimen de promoción para plantas de acopio, cooperativas y ferias ganaderas, y abrió inscripciones para 14 terrenos municipales.",
+          "cuerpo": "<p>El intendente de Alpachiri, <strong>Iván Fuhr</strong>, presentó ante el Concejo Deliberante un proyecto para crear el \"RIGI Alpachirense\", un régimen destinado a promover la instalación de plantas de acopio de cereales, cooperativas agropecuarias y ferias de comercialización ganadera, con el objetivo de atraer inversiones, generar empleo e incorporar tecnología. Para las plantas de acopio, cada guía de cereales tendría un costo reducido con subsidio municipal sobre la diferencia; para las ferias ganaderas, las guías de hacienda tendrían una reducción aproximada del 68%. El beneficio regiría por 15 años, con el compromiso de mantener o incrementar el empleo local.</p><p>En paralelo, el municipio abrió las inscripciones del programa \"Un terreno, un hogar\", que vende 14 terrenos municipales para la construcción de viviendas. Las inscripciones cierran el 9 de octubre, y los requisitos incluyen ser argentino naturalizado, tener entre 18 y 65 años y residir en Alpachiri desde hace al menos tres años.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/23/alta/2157001.jpg"
+        },
+        {
+          "id": "presupuesto_formosa_populismo_derecha",
+          "cat": "Política Nacional · Economía",
+          "titulo": "Una provincia apuntó contra el Presupuesto 2027 y lo tildó de \"populista de derecha\"",
+          "bajada": "La gestión de Gildo Insfrán en Formosa cuestionó el proyecto por recortar \"lo que tiene reglas\" mientras crece lo que el Gobierno \"puede repartir a dedo\" en año electoral.",
+          "cuerpo": "<p>La provincia de Formosa, gobernada por <strong>Gildo Insfrán</strong>, cuestionó duramente el proyecto de Presupuesto 2027 a través de un informe de la consultora Politiké, que sostuvo que la iniciativa \"recorta lo que tiene reglas, provincias, jubilados, universidades\" mientras crece \"lo que el Gobierno puede repartir a dedo en año electoral\", y lo calificó como \"populismo de derecha de manual\".</p><p>El informe destaca que la inversión pública prevista apenas alcanza el 0,3% del PBI, con una caída real del 81,2% en las transferencias no automáticas respecto de 2023. Según el análisis, Formosa dejó de recibir <strong>$586.809 millones</strong> entre 2024 y julio de 2026. El planteo se suma a las críticas de otros gobernadores dialoguistas que también reclaman modificaciones al proyecto antes de su aprobación.</p>",
+          "foto": "https://media.ambito.com/p/eb526637419405b62648b1690fa889d5/adjuntos/239/imagenes/043/660/0043660353/655x368/smart/presupuesto.jpg"
+        },
+        {
+          "id": "lla_cede_aliados_presupuesto_veto",
+          "cat": "Política Nacional · Congreso",
+          "titulo": "Presupuesto 2027: La Libertad Avanza cede ante aliados para evitar el veto a Milei",
+          "bajada": "Gobernadores dialoguistas y el PRO rechazan los recortes a discapacidad y universidades; la renuncia del secretario de Discapacidad expuso tensiones entre Bullrich y Santilli.",
+          "cuerpo": "<p>La Libertad Avanza enfrenta un momento clave de negociación por el Presupuesto 2027, cuyo debate parlamentario comienza el 7 de octubre. El escenario recuerda la crisis presupuestaria del año pasado, cuando gobernadores aliados bloquearon los recortes a discapacidad y universidades. Gobernadores dialoguistas, como <strong>Gustavo Sáenz</strong> (Salta), advirtieron que \"la lealtad es una calle de doble mano\" y amenazan con retirar su apoyo si no hay gestos concretos del Gobierno nacional.</p><p>El bloque del PRO también rechaza la versión original del proyecto, particularmente en lo referido a discapacidad, y afirmó estar \"trabajando para lograr un acuerdo que supere la situación de emergencia\" mientras se garanticen los derechos del sector. La renuncia del secretario Nacional de Discapacidad, Alejandro Vilches, expuso además tensiones internas entre Patricia Bullrich y Diego Santilli. A la presión se suma un nuevo arancel de la ANMAT sobre medicamentos importados de alto costo, que afecta particularmente a pacientes con discapacidad.</p>",
+          "foto": "https://media.ambito.com/p/35521d38847169b3cdeaa335b4c0c280/adjuntos/239/imagenes/043/161/0043161728/655x368/smart/gabriel-bornoroni-martin-menem-patricia-bullrich.jpeg"
+        },
+        {
+          "id": "justicia_intima_financiamiento_universitario",
+          "cat": "Política Nacional · Justicia",
+          "titulo": "La Justicia intimó al Gobierno a cumplir la ley de Financiamiento Universitario",
+          "bajada": "El juez Martín Cormick dio cinco días al Poder Ejecutivo para actualizar salarios y programas estudiantiles, bajo apercibimiento de multas diarias.",
+          "cuerpo": "<p>El Juzgado Contencioso Administrativo Federal N°11, a cargo del juez <strong>Martín Cormick</strong>, intimó al Gobierno nacional a \"dar efectivo cumplimiento a los artículos quinto y sexto de la Ley de Financiamiento Universitario en un plazo máximo de cinco días\", con la aplicación de astreintes —multas económicas diarias que se acumulan a partir del sexto día de mora— en caso de persistir el incumplimiento.</p><p>El fallo rechazó el argumento del Poder Ejecutivo de que ya había cumplido mediante \"incrementos previos y transferencias a hospitales\", al considerar que aún resta saldar parte de lo adeudado. El artículo quinto exige la actualización de partidas según la inflación acumulada, mientras que el sexto ordena la recomposición salarial docente y no docente. La causa, además, está en condiciones de resolver la cuestión de fondo sobre la constitucionalidad del decreto del Ejecutivo que originó el conflicto.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/23/alta/2157034.jpg"
+        }
+      ]
     }
   ]
 }
