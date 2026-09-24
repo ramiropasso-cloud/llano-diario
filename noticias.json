@@ -7150,6 +7150,180 @@
           "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/23/alta/2157034.jpg"
         }
       ]
+    },
+    {
+      "clave": "2026-09-24_manana",
+      "fecha_iso": "2026-09-24",
+      "fecha": "24 septiembre 2026",
+      "turno": "Edición Mañana · 09:00",
+      "hero": {
+        "titulo": "Los pampeanos van a pagar hasta un 60% más por el gas",
+        "summary": "Bensusán votará en contra de la modificación a Zona Fría, que el Senado trata hoy. ¿Cómo votarán el radical Daniel Kroneberger y la macrista Victoria Huala?",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/24/alta/2157124.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Hallan fósiles de posible megaterio y material arqueológico en un predio de Árbol Solo",
+          "resumen": "Especialistas del Museo Provincial de Historia Natural hallaron restos óseos atribuidos a un megaterio y material lítico en un campo de Árbol Solo, departamento Chalileo.",
+          "cat": "La Pampa · Paleontología",
+          "foto": "img/noticias/fosiles-megaterio-arbolsolo-2026-09-24.jpg",
+          "ts": "24 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Créditos y asesoramiento de Gobierno para impulsar emprendimientos en San Martín",
+          "resumen": "El Ministerio de la Producción entregó créditos subsidiados y asesoramiento técnico a emprendedores de General San Martín en el marco del programa de Economía Social.",
+          "cat": "La Pampa · Economía",
+          "foto": "img/noticias/creditos-sanmartin-2026-09-24.jpg",
+          "ts": "24 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Pampa Negocios 360",
+          "resumen": "Ziliotto presentó una iniciativa para posicionar a la provincia como destino de inversiones, con evento central el 5 de noviembre en Buenos Aires.",
+          "cat": "La Pampa · Economía",
+          "foto": "img/noticias/negocios360-2026-09-23.jpg",
+          "ts": "23 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Gobierno reincorporará empleados de Olivos pero serán reubicados",
+          "resumen": "El Gobierno acordó reincorporar a los doce empleados despedidos de la quinta presidencial, aunque serán reubicados en Casa Rosada y oficinas de 25 de Mayo.",
+          "cat": "Política Nacional · Gobierno",
+          "foto": "https://media.ambito.com/p/9d44be5fa9683cb268e76c09d4a0bac2/adjuntos/239/imagenes/043/031/0043031266/quinta-olivos-2.jpg",
+          "ts": "23 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Javier Milei calificó a la ONU como una organización inútil y remarcó que Malvinas es una causa nacional",
+          "resumen": "El Presidente calificó a la ONU de organización inútil ante la Asamblea General y reivindicó el reclamo de soberanía argentina sobre Malvinas.",
+          "cat": "Política Nacional · Internacional",
+          "foto": "https://media.ambito.com/p/1ba455c5e07c258196d7b83bafc93e7b/adjuntos/239/imagenes/043/660/0043660530/javier-milei-onu-2026.jpg",
+          "ts": "23 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gobernadores animarán una cumbre en CABA en plena tensión por el Presupuesto 2027 y la reforma electoral",
+          "resumen": "Mandatarios provinciales se reunirán el 16 de octubre en el Consejo Federal de Inversiones en medio de la negociación por el Presupuesto 2027 y la reforma electoral.",
+          "cat": "Política Nacional · Presupuesto 2027",
+          "foto": "https://media.ambito.com/p/3832df80b225204d8ade0fc8d04c91ef/adjuntos/239/imagenes/043/411/0043411493/655x368/696x352:716x372/gobernadores-cfi.jpg",
+          "ts": "23 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "El silencio de Huala anticipa un aval al hachazo a la tarifa del gas a La Pampa",
+          "resumen": "En el Congreso dan por sentado que la senadora del PRO se alineará con el Gobierno nacional en el recorte a Zona Fría.",
+          "cat": "La Pampa · Gas",
+          "ts": "24 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Negocio para amigos del poder y río seco: la trama secreta del Grupo Neuss en Los Nihuiles",
+          "resumen": "Un informe reveló que una firma vinculada a Santiago Caputo obtuvo control anticipado del mantenimiento de Los Nihuiles antes de la licitación.",
+          "cat": "La Pampa · Nihuiles",
+          "ts": "24 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Crecen en la UCR los reparos a una posible alianza con Tierno",
+          "resumen": "Intendentes radicales del interior expresaron reparos a una alianza con el exintendente de Santa Rosa, cuestionado por su gestión.",
+          "cat": "La Pampa · UCR",
+          "ts": "24 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "El Concejo Deliberante definió los nombres de plazas, espacios verdes, y hasta un nuevo barrio",
+          "resumen": "El cuerpo legislativo santarroseño asignó nombres a plazas, espacios verdes y a la ampliación de un barrio tradicional.",
+          "cat": "La Pampa · Santa Rosa",
+          "ts": "24 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "bensusan_gas_zonafria_60porciento",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Los pampeanos van a pagar hasta un 60% más por el gas",
+          "bajada": "Bensusán votará en contra de la modificación a Zona Fría, que el Senado trata hoy. ¿Cómo votarán el radical Daniel Kroneberger y la macrista Victoria Huala?",
+          "cuerpo": "<p>El senador nacional Daniel Bensusán (Unión por la Patria) confirmó su rechazo a la modificación del régimen de Zona Fría, y advirtió que de aprobarse, las facturas de gas de los hogares pampeanos podrían subir entre un 40% y un 60%.</p><p>\"La Pampa sigue dentro de la Zona Fría, pero eso no significa que los pampeanos mantengan el mismo beneficio. Lo que están haciendo es cambiar cómo se aplica el descuento\", explicó el legislador.</p><p>Actualmente, los usuarios de las zonas históricamente designadas reciben por ley una rebaja del 50% sobre el cuadro tarifario pleno. La modificación impulsada por el Gobierno nacional trasladaría la definición del descuento a la discrecionalidad del Poder Ejecutivo, y excluiría del beneficio los cargos de transporte, distribución y fijos.</p><p>Bensusán remarcó que la calefacción en La Pampa es una necesidad y no un consumo de lujo, y cuestionó además las compensaciones previstas para distribuidoras eléctricas con deudas en CAMMESA, una obligación que La Pampa no tiene.</p><p>Los otros dos representantes pampeanos todavía no fijaron postura pública: la diputada del PRO Victoria Huala guarda silencio, mientras que el senador radical Daniel Kroneberger adelantó que votará en contra si la quita del beneficio queda en manos discrecionales del Ejecutivo, aunque defendió la constitucionalidad del fondo que lo financia.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/24/alta/2157124.jpg"
+        },
+        {
+          "id": "huala_silencio_aval_gas",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "El silencio de Huala anticipa un aval al hachazo a la tarifa del gas a La Pampa",
+          "bajada": "En el Congreso dan por sentado que la senadora del PRO se alineará con las exigencias del Gobierno nacional.",
+          "cuerpo": "<p>Mientras Bensusán y Kroneberger confirmaron su voto en contra para evitar aumentos de hasta el 60% en el gas, la senadora del PRO Victoria Huala eludió fijar postura previa a la sesión de hoy en el Senado, que definirá el futuro del régimen de Zona Fría.</p><p>Más allá del debate técnico sobre la Ley 27.637, la atención política en la provincia quedó concentrada en su figura: mientras sus pares de representación provincial adelantaron un rechazo categórico a la reforma promovida por la Casa Rosada, Huala optó por un hermetismo que alimenta todas las certezas sobre su voto.</p><p>La jugada del Gobierno nacional no elimina formalmente a La Pampa del mapa frío, pero altera de raíz la arquitectura del subsidio: al quitar de la ley el piso garantizado de descuento y transferir la definición de las tarifas a la discrecionalidad del Poder Ejecutivo, el impacto real en las boletas locales oscilará entre un 40% y un 60% de aumento.</p><p>Tanto Bensusán (Unión por la Patria) como Kroneberger (UCR) argumentaron que el régimen no le cuesta un peso al Tesoro —se financia con un fondo fiduciario propio— y que en La Pampa la calefacción es una necesidad básica, no un lujo. En los pasillos del Senado se descuenta que Huala acompañará la iniciativa oficialista, repitiendo el patrón de alineamiento con la conducción de su espacio político.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/24/alta/2157158.jpg"
+        },
+        {
+          "id": "grupo_neuss_nihuiles_trama",
+          "cat": "Seguimiento · Política Pampeana",
+          "titulo": "Negocio para amigos del poder y río seco: la trama secreta del Grupo Neuss en Los Nihuiles",
+          "bajada": "Un informe periodístico destapó las maniobras entre Mendoza y el Gobierno nacional para favorecer a empresarios vinculados a Santiago Caputo y Javier Milei en la operación del complejo hidroeléctrico.",
+          "cuerpo": "<p>Un informe periodístico destapó cómo el Grupo Neuss, una firma vinculada al asesor presidencial Santiago Caputo y sin antecedentes en el sector energético, se instaló en el complejo hidroeléctrico Los Nihuiles. La provincia de Mendoza le otorgó a la empresa el control directo del mantenimiento de las represas, en una posición ventajosa de cara a la futura licitación del sistema por 13 años.</p><p>El diputado provincial mendocino Gustavo Perret cuestionó el proceso: \"En esta licitación es todo raro… todo esto tiene una oscuridad extrema\".</p><p>El esquema le da a la firma acceso inmediato a una caja millonaria, incluido un pago de seguros por 45 millones de dólares, en simultáneo con el polémico Decreto 982/2026 que transfirió el 100% de las regalías hidroeléctricas a Mendoza, en perjuicio de los derechos hídricos de La Pampa.</p><p>El constitucionalista Andrés Gil Domínguez fue tajante: \"Si esto hubiera ocurrido entre dos países, ya habría desatado una guerra\", en referencia al contraste entre el negocio financiero y el daño ambiental que sufre el territorio pampeano, con cauces secos mientras los espejos de agua mendocinos se mantienen plenos.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/24/alta/986626-t.jpg"
+        },
+        {
+          "id": "ucr_reparos_alianza_tierno",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Crecen en la UCR los reparos a una posible alianza con Tierno",
+          "bajada": "El sector Azul ya anunció que hará todo lo posible para que el radicalismo no pacte con el exintendente. Ahora, las prevenciones vienen también de un jefe comunal del interior.",
+          "cuerpo": "<p>Crece el malestar dentro de la UCR por una eventual alianza con Comunidad Organizada, el partido unipersonal de Juan Carlos Tierno. Intendentes del interior provincial expresaron reparos a asociarse con el exintendente de Santa Rosa, por sus antecedentes de gestión y el riesgo de que le reste votos al radicalismo.</p><p>El intendente de Alpachiri, Iván Fuhr, lo dijo sin rodeos: \"Hay modos que no me gustan, que no comparto. Yo soy por ahí de otra idea en ese sentido, de la forma de ser y decir las cosas\", en referencia a la conducta pública de Tierno y su uso de las redes sociales.</p><p>El perfil político de Tierno se deterioró de manera notoria: apenas ejerció 87 días como intendente de Santa Rosa antes de que el municipio fuera intervenido, y fue condenado por abuso de autoridad. Comunidad Organizada funciona, según el artículo, prácticamente como un vehículo de participación de un solo hombre.</p><p>En la conducción radical temen que una alianza ampliada que incluya a Tierno resulte electoralmente contraproducente, y que además genere complicaciones de gobernabilidad si la coalición opositora llegara a ganar las elecciones.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/24/alta/2157116.jpg"
+        },
+        {
+          "id": "concejo_deliberante_nombres_plazas",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "El Concejo Deliberante definió los nombres de plazas, espacios verdes, y hasta un nuevo barrio",
+          "bajada": "Desde el \"Indio\" Solari hasta Ana María Lasalle fueron los nombres elegidos para denominar distintos espacios públicos en Santa Rosa. La ampliación de un barrio tradicional también recibió su nombre en memoria de una familia santarroseña.",
+          "cuerpo": "<p>Durante las últimas sesiones, el Concejo Deliberante de Santa Rosa aprobó una serie de ordenanzas para formalizar la denominación de un nuevo barrio, establecer la delimitación territorial de sectores en expansión y asignar nombres a distintas plazas, plazoletas y rotondas de la capital provincial.</p><p>Las iniciativas combinaron homenajes a la causa Malvinas con referentes de la historia política, social y cultural local, además de reconocimientos al trabajo comunitario, educativo y al movimiento cooperativo.</p><p>El barrio delimitado por las calles José B. Calo, Ramona Pereyra, Nicolás Toscano Sur y Santa Teresa fue designado oficialmente \"Héroes de Malvinas\". También se formalizó \"Villa Ale\" para el sector entre Ramona Pereyra, Liberato Rosas, Nicolás Toscano Sur y avenida Alfredo Palacios, ajustando la extensión de Villa Hilda por el crecimiento urbano.</p><p>Entre los espacios verdes que recibieron nombre se destacan la rotonda \"Ana María Lasalle\", en homenaje a una militante cultural víctima de la dictadura; el espacio \"Indio\" Solari, en Villa Germinal, en homenaje al músico; y la plaza Alicia Chávez, en reconocimiento a una excorreladora provincial. Otros espacios recordarán a trabajadores municipales, a pueblos originarios, al Instituto Domingo Savio y al movimiento cooperativo.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/24/alta/2157151.jpg"
+        },
+        {
+          "id": "fosiles_megaterio_arbolsolo",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Hallan fósiles de posible megaterio y material arqueológico en un predio de Árbol Solo",
+          "bajada": "Especialistas del Museo Provincial de Historia Natural recuperaron restos óseos atribuidos preliminarmente a un megaterio, junto a material lítico, en un campo del departamento Chalileo.",
+          "cuerpo": "<p>Especialistas del Museo Provincial de Historia Natural (MPHN) recuperaron restos óseos correspondientes a un megaterio, junto con valioso material lítico antiguo, tras el aviso de los propietarios de un predio en Árbol Solo, departamento Chalileo.</p><p>Las piezas reportadas corresponden a fragmentos óseos, atribuidos de manera preliminar a un fémur incompleto de megaterio, hallados dispersos en un área de aproximadamente cuatro metros cuadrados.</p><p>La intervención, a cargo de la Secretaría de Cultura de La Pampa como autoridad de aplicación de la Ley provincial 3104/2018 de Protección del Patrimonio Arqueológico y Paleontológico, se realizó el martes y fue dirigida por el director del museo, Daniel Pincen, el paleontólogo Lucas Cheme Arriaga y el técnico Pablo Tejerina.</p><p>El hallazgo fue reportado por los propietarios del campo, Marily Fuentes y Mario Cabal, quienes detectaron los restos óseos en un médano vivo y lo comunicaron de inmediato al museo. Desde el organismo remarcaron el potencial del sitio para nuevos hallazgos y la importancia de la participación ciudadana en la preservación del patrimonio.</p>",
+          "foto": "img/noticias/fosiles-megaterio-arbolsolo-2026-09-24.jpg"
+        },
+        {
+          "id": "creditos_emprendimientos_sanmartin",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Créditos y asesoramiento de Gobierno para impulsar emprendimientos en San Martín",
+          "bajada": "El Ministerio de la Producción entregó créditos subsidiados y brindó asesoramiento técnico a emprendedores de General San Martín, en el marco del programa provincial de Economía Social.",
+          "cuerpo": "<p>El Ministerio de la Producción de La Pampa entregó créditos subsidiados y brindó asesoramiento técnico a un grupo de emprendedores de General San Martín, en el marco del programa provincial de Economía Social.</p><p>Los fondos, de tasa reducida, están destinados a financiar la compra de equipamiento y capital de trabajo para pequeños emprendimientos locales, entre ellos actividades de manufactura, gastronomía y servicios.</p><p>Desde la cartera productiva remarcaron que la iniciativa busca fortalecer el entramado económico del interior provincial, acompañando a quienes están dando sus primeros pasos o buscan expandir su actividad con financiamiento accesible y acompañamiento técnico permanente.</p>",
+          "foto": "img/noticias/creditos-sanmartin-2026-09-24.jpg"
+        },
+        {
+          "id": "negocios360_presentacion",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La Pampa Negocios 360",
+          "bajada": "El gobernador Sergio Ziliotto presentó una iniciativa económica provincial que se lanzará el 5 de noviembre en Buenos Aires, para posicionar a la provincia como destino de inversiones.",
+          "cuerpo": "<p>El gobernador Sergio Ziliotto presentó \"La Pampa Negocios 360\", una iniciativa económica dirigida a los sectores empresarial, académico y profesional, con el objetivo de \"posicionar a la provincia como un destino clave para las inversiones\" y acompañar la diversificación de la economía local.</p><p>El evento principal se realizará el 5 de noviembre en el Golden Center de Buenos Aires, donde funcionarios provinciales exhibirán las capacidades productivas de La Pampa ante empresarios, inversores y entidades del sistema financiero.</p><p>La propuesta recibió el respaldo de entidades como la Unión Industrial, la Cámara de Comercio, la Cámara de la Construcción, la Universidad Nacional de La Pampa, asociaciones agropecuarias (CARBAP, CRA, Federación Agraria) y colegios profesionales. La estrategia se enfoca en cinco ejes: energías renovables, áreas bajo riego, economía del conocimiento e industrias culturales, agroindustria con valor agregado, y vínculos estratégicos con Vaca Muerta.</p>",
+          "foto": "img/noticias/negocios360-2026-09-23.jpg"
+        },
+        {
+          "id": "olivos_empleados_reincorporacion",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Gobierno reincorporará empleados de Olivos pero serán reubicados",
+          "bajada": "La decisión se conoció después de que doce trabajadores fueran desplazados de la residencia presidencial. Serán reubicados fuera de la quinta. Aún se desconoce si abarcará a la totalidad de los cesanteados.",
+          "cuerpo": "<p>Tras la polémica por los despidos de personal en la quinta de Olivos, el Gobierno nacional acordó reincorporar a los trabajadores desplazados, aunque no volverán a sus puestos originales sino que serán reubicados.</p><p>La reincorporación fue negociada entre funcionarios de la Secretaría General de la Presidencia, a cargo de Karina Milei, y el gremio ATE. Según trascendió, los empleados serían reubicados entre la Casa Rosada y las oficinas de Presidencia ubicadas en la calle 25 de Mayo.</p><p>La medida se da en el marco de una reestructuración que disolvió la Dirección General de la Residencia Presidencial y trasladó las responsabilidades de seguridad a la Casa Militar, un proceso de transición que se estima completar en 60 días.</p>",
+          "foto": "https://media.ambito.com/p/9d44be5fa9683cb268e76c09d4a0bac2/adjuntos/239/imagenes/043/031/0043031266/quinta-olivos-2.jpg"
+        },
+        {
+          "id": "milei_onu_malvinas",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Javier Milei calificó a la ONU como una organización inútil y remarcó que Malvinas es una causa nacional",
+          "bajada": "El Presidente volvió a reivindicar el reclamo argentino por las islas y cuestionó la falta de consecuencias frente a las acciones de Reino Unido en la zona.",
+          "cuerpo": "<p>En su discurso ante la Asamblea General de la ONU en Nueva York, el presidente Javier Milei calificó al organismo como \"una organización inútil\" y centró buena parte de su intervención en el reclamo de soberanía argentina sobre las islas Malvinas, a las que definió como \"una causa nacional\".</p><p>El mandatario remarcó la distancia entre las resoluciones de la ONU y su cumplimiento efectivo, en referencia puntual a la Resolución 3149, de hace 50 años, que insta a ambos países a evitar modificaciones unilaterales mientras la soberanía siga en disputa.</p><p>Milei también cuestionó los proyectos británicos de exploración petrolera que continúan en la zona, y advirtió: \"No nos vamos a quedar esperando a que la ONU actúe, vamos a tomar el asunto en nuestras propias manos\".</p>",
+          "foto": "https://media.ambito.com/p/1ba455c5e07c258196d7b83bafc93e7b/adjuntos/239/imagenes/043/660/0043660530/javier-milei-onu-2026.jpg"
+        },
+        {
+          "id": "gobernadores_cumbre_presupuesto2027",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Gobernadores animarán una cumbre en CABA en plena tensión por el Presupuesto 2027 y la reforma electoral",
+          "bajada": "El encuentro se realizará el 16 de octubre en el Consejo Federal de Inversiones. Participarán mandatarios de distintas fuerzas y se espera la presencia de ministros nacionales. El oficialismo no tiene cerrados los respaldos para ambos proyectos.",
+          "cuerpo": "<p>Un grupo de gobernadores se reunirá el 16 de octubre en Buenos Aires, en la sede del Consejo Federal de Inversiones, en medio de la negociación por el Presupuesto 2027 y la reforma electoral que impulsa el Gobierno nacional.</p><p>Varios mandatarios de distintos espacios políticos plantearon reparos a los recortes previstos en discapacidad y financiamiento universitario, y algunos condicionaron su respaldo al Presupuesto a que se introduzcan modificaciones.</p><p>Gobernadores del norte esperan además la implementación de \"Zona Cálida\", un régimen de alivio tarifario eléctrico para zonas cálidas y muy cálidas, como parte de la negociación por los votos necesarios en el Senado para la reforma de Zona Fría. El oficialismo, por ahora, no tiene garantizados los apoyos para ninguno de los dos proyectos.</p>",
+          "foto": "https://media.ambito.com/p/3832df80b225204d8ade0fc8d04c91ef/adjuntos/239/imagenes/043/411/0043411493/655x368/696x352:716x372/gobernadores-cfi.jpg"
+        }
+      ]
     }
   ]
 }
