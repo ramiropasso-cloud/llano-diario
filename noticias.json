@@ -7324,6 +7324,180 @@
           "foto": "https://media.ambito.com/p/3832df80b225204d8ade0fc8d04c91ef/adjuntos/239/imagenes/043/411/0043411493/655x368/696x352:716x372/gobernadores-cfi.jpg"
         }
       ]
+    },
+    {
+      "clave": "2026-09-25_manana",
+      "fecha_iso": "2026-09-25",
+      "fecha": "25 septiembre 2026",
+      "turno": "Edición Mañana · 10:00",
+      "hero": {
+        "titulo": "Zona Fría: el negocio de Edenor y Edesur detrás del golpe tarifario",
+        "summary": "La reforma aprobada en el Senado quita los subsidios al gas a más de 136 mil hogares pampeanos y habilita a las grandes distribuidoras del AMBA a limpiar deudas por casi USD 2.000 millones con CAMMESA.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157245.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Diez familias obtuvieron sus escrituras en el IPAV",
+          "resumen": "Diez familias de Santa Rosa completaron el pago de sus viviendas a través del IPAV y recibieron sus escrituras en un acto oficial.",
+          "cat": "La Pampa · Vivienda",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157241.jpg",
+          "ts": "25 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Ingreso oficial de La Pampa al Programa de Cardiopatías Congénitas",
+          "resumen": "El Complejo Hospitalario Favaloro-Molas fue incorporado formalmente al Programa Nacional de Cardiopatías Congénitas.",
+          "cat": "La Pampa · Salud",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157237.jpg",
+          "ts": "25 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Avanza la instalación de semáforos en 9 y 44",
+          "resumen": "El Municipio de General Pico comenzó a instalar un sistema semafórico de cuatro fases en una intersección de alto tránsito.",
+          "cat": "La Pampa · General Pico",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157218.jpg",
+          "ts": "25 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Javier Milei cerró su viaje a Nueva York con una reunión con Benjamin Netanyahu",
+          "resumen": "El Presidente mantuvo un encuentro bilateral con Netanyahu en Nueva York antes de emprender su regreso a la Argentina.",
+          "cat": "Política Nacional · Internacional",
+          "foto": "https://media.ambito.com/p/5a5bc70f12d20ad631dd346bb9af7a4c/adjuntos/239/imagenes/043/663/0043663434/655x368/smart/netanyahu-milei.jpg",
+          "ts": "24 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Tras la cuarta reunión en Casa Rosada, LLA y el PRO siguen lejos de un acuerdo electoral",
+          "resumen": "El macrismo admitió que las negociaciones con LLA hacia 2027 avanzan con dificultades tras un cuarto encuentro en Casa Rosada.",
+          "cat": "Política Nacional · 2027",
+          "foto": "https://media.ambito.com/p/46f43762798ff8df984da5db111603b0/adjuntos/239/imagenes/043/608/0043608803/655x368/smart/pro-casa-rosada.jpg",
+          "ts": "24 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "El llamativo salto patrimonial de una exfuncionaria del círculo de Karina Milei",
+          "resumen": "Una exfuncionaria del círculo de Karina Milei multiplicó por 98 su patrimonio en menos de tres años de gestión.",
+          "cat": "Política Nacional · Olivosgate",
+          "foto": "https://media.ambito.com/p/361d15c95e891d6ba683219ab9f1cc3e/adjuntos/239/imagenes/043/031/0043031272/quinta-olivos-2.jpg",
+          "ts": "24 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Kroneberger niega el quórum, pero varios medios dicen que sí lo dio",
+          "resumen": "El senador pampeano aseguró que no participó del quórum y votó en contra de la reforma de Zona Fría, pero varios medios lo ubicaron entre quienes habilitaron la sesión.",
+          "cat": "La Pampa · Senado",
+          "ts": "25 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Ravier y la conformación del frente opositor: \"nadie de la UCR nos llamó\"",
+          "resumen": "El presidente de LLA en La Pampa afirmó que la comisión designada para negociar el frente opositor no tuvo contactos con ellos.",
+          "cat": "La Pampa · LLA",
+          "ts": "25 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Marcha en 25 de Mayo por la beba golpeada",
+          "resumen": "La Red Infancia Robada convocó a una concentración en la fiscalía ante la falta de respuestas sobre la beba agredida.",
+          "cat": "La Pampa · 25 de Mayo",
+          "ts": "25 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Denuncian una millonaria estafa con cheques sin fondo en Santa Rosa",
+          "resumen": "Una denuncia penal expuso una presunta estafa con cheques sin fondo y sociedades sin actividad real en Santa Rosa.",
+          "cat": "La Pampa · Santa Rosa",
+          "ts": "25 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "zonafria_edenor_edesur_negocio",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Zona Fría: el negocio de Edenor y Edesur detrás del golpe tarifario",
+          "bajada": "La reforma aprobada en el Senado quita los subsidios al gas a más de 136 mil hogares pampeanos y habilita a las grandes distribuidoras del AMBA a limpiar deudas por casi USD 2.000 millones con CAMMESA.",
+          "cuerpo": "<p>La aprobación en el Senado de la Ley de Medidas Energéticas dejó al descubierto una fuerte asimetría: más de 136 mil hogares y comercios de La Pampa enfrentarán subas de entre el 40% y el 60% en sus facturas de gas, mientras el Gobierno nacional le concedió un beneficio millonario a las grandes distribuidoras eléctricas del AMBA.</p><p>La ley sancionada permite que empresas como Edenor y Edesur compensen deudas acumuladas con la estatal CAMMESA —unos USD 1.840 millones— a través de \"activos regulatorios\", fondos que dicen no haber percibido durante los períodos de tarifas congeladas. La medida golpea en particular a La Pampa, una provincia que mantiene sus cuentas al día con el mercado eléctrico mayorista pero que paga el costo del recorte a los subsidios del gas.</p><p>El trámite parlamentario expuso además las divisiones entre los representantes pampeanos: el radical Daniel Kroneberger aportó el quórum decisivo de 37 senadores (y luego votó en contra), mientras que la diputada del PRO Victoria Huala acompañó la propuesta oficialista. El senador Daniel Bensusán (Frejupa) votó en contra y sostuvo: \"El Gobierno de Milei construyó una falsa grieta entre el norte y el centro-sur\", en referencia a que la administración ofreció soluciones a algunas provincias a cambio de votos contra los subsidios de Zona Fría.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157245.jpg"
+        },
+        {
+          "id": "kroneberger_quorum_negado",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Kroneberger niega el quórum, pero varios medios dicen que sí lo dio",
+          "bajada": "El senador pampeano aseguró que no participó del quórum y votó en contra de la reforma de Zona Fría, pero varios medios lo ubicaron entre quienes habilitaron la sesión.",
+          "cuerpo": "<p>El senador nacional Daniel Kroneberger (UCR) aseguró que no participó de la conformación del quórum para el debate de la reforma de Zona Fría, aunque terminó votando en contra de la iniciativa que finalmente se aprobó. Sin embargo, varios medios lo ubicaron entre los 37 senadores necesarios para habilitar la sesión tras el retiro del bloque peronista. La Política Online y el diario Río Negro lo señalaron a él, junto a la neuquina Julieta Corroza, como quienes permitieron reanudar el debate tras un cuarto intermedio.</p><p>Tras la publicación de esas versiones, Kroneberger emitió un comunicado negando haber aportado el quórum, aunque detalló los motivos de su rechazo al proyecto. Cuestionó si la permanencia formal en el régimen garantiza en los hechos algún beneficio: \"Una cosa es permanecer formalmente dentro del régimen y otra muy distinta es saber con certeza cuál será el beneficio que efectivamente recibirá cada familia\".</p><p>El legislador radical criticó además que la reforma le otorgue al Poder Ejecutivo la discrecionalidad para definir los parámetros del beneficio, y advirtió: \"Lo que hoy es un derecho con un piso establecido legalmente puede transformarse mañana en una decisión de gestión\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157249.jpg"
+        },
+        {
+          "id": "ravier_frente_opositor_ucr",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Ravier y la conformación del frente opositor: \"nadie de la UCR nos llamó\"",
+          "bajada": "El presidente de LLA en La Pampa afirmó que la comisión designada para negociar el frente opositor no tuvo contactos con ellos.",
+          "cuerpo": "<p>El presidente provincial de La Libertad Avanza y vocero presidencial, Adrián Ravier, aseguró que la UCR no estableció contacto con su espacio en las negociaciones para conformar un frente opositor de cara a la gobernación de 2027. En diálogo con un canal de streaming local, repasó la coyuntura provincial, cuestionó la gestión del gobernador Sergio Ziliotto y respaldó las políticas del Gobierno nacional en educación, discapacidad y empleo.</p><p>Sobre la amplia coalición opositora que se negocia para las elecciones de 2027, Ravier sostuvo que \"en el primer mes que pasó, nadie nos llamó\" tras la Convención radical. Reconoció haber tenido conversaciones previas por WhatsApp con otras figuras, pero remarcó que la posición de la UCR todavía no está clara.</p><p>El libertario insistió en que LLA debería aportar el candidato de la coalición, argumentando que esa condición responde a su reciente desempeño electoral y a las mediciones que muestran una polarización entre el peronismo y su espacio. Sobre la organización partidaria, destacó la reciente asamblea de LLA en Santa Rosa, que sumó más de 1.300 nuevos afiliados en siete meses, y la conformación de mesas técnicas de trabajo en distintas áreas de política pública.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157248.jpg"
+        },
+        {
+          "id": "marcha_beba_golpeada_25demayo",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Marcha en 25 de Mayo por la beba golpeada",
+          "bajada": "La Red Infancia Robada convocó para este viernes a las 10 horas a una concentración en la fiscalía ante la falta de respuestas sobre la situación de los padres de la beba agredida.",
+          "cuerpo": "<p>La Red Infancia Robada Foro La Pampa convocó para este viernes a las 10 horas a una concentración frente a la fiscalía de 25 de Mayo, para reclamar respuestas oficiales sobre el caso de una beba que sufrió agresiones físicas. La niña fue trasladada de urgencia al Hospital Favaloro de Santa Rosa hace unos diez días, luego de haber sido internada primero en el Hospital Jorge Ahuad y derivada después a Neuquén.</p><p>Desde la organización convocante señalaron: \"Nos cerraron las puertas de todos lados\" y remarcaron que \"el silencio no es una opción\", reclamando transparencia sobre las actuaciones judiciales y administrativas en curso.</p><p>La Procuración General provincial conformó un equipo fiscal interdisciplinario a cargo del fiscal Cazenave, junto a la fiscal de 25 de Mayo, Eugenia Bolzán, que reúne historias clínicas y testimonios para una evaluación integral en el Cuerpo Médico Forense de la Corte Suprema, con especialistas en neurología, pediatría y clínica médica.</p><p>Según los últimos informes médicos, la beba sufrió un posible daño neurológico por falta de oxígeno, la pérdida total de la visión en un ojo y compromiso en el otro. Los profesionales indican que \"posiblemente quede con una discapacidad muy grave\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157244.jpg"
+        },
+        {
+          "id": "estafa_cheques_santarosa",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Denuncian una millonaria estafa con cheques sin fondo en Santa Rosa",
+          "bajada": "Todo sería parte de una estructura delictiva dedicada a crear sociedades sin actividad para estafar con cheques rechazados por falta de fondos.",
+          "cuerpo": "<p>Una denuncia penal expuso una presunta estafa de alcance nacional con cheques sin fondo que tiene epicentro en Santa Rosa, con perjuicios estimados en unos $12.500 millones. La acusación apunta a Cristian Damián Del Pardo, vinculado a la fabricación de aberturas y al comercio de carnes, señalado como el organizador de una maniobra con sociedades sin actividad real.</p><p>El esquema consistía en canjear cheques físicos de empresas con actividad genuina por cheques electrónicos de sociedades ficticias, que luego eran sistemáticamente rechazados por falta de fondos al momento de intentar depositarlos.</p><p>La denuncia fue presentada por el empresario Miguel Ángel Jacobi, en representación de Handel SRL. Entre las pruebas aportadas hay mensajes de WhatsApp del denunciado ofreciendo facturas y presupuestos apócrifos para dar respaldo a los cheques fraudulentos. Hay varias firmas bajo la lupa, entre ellas Aurora Consultores SA y Melger SRL, y crecen las quejas por la lentitud del trámite judicial.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157243.jpg"
+        },
+        {
+          "id": "ipav_escrituras_diezfamilias",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Diez familias obtuvieron sus escrituras en el IPAV",
+          "bajada": "Diez familias de Santa Rosa completaron el pago de sus viviendas a través del Instituto Provincial Autárquico de Vivienda y recibieron sus escrituras en un acto oficial.",
+          "cuerpo": "<p>Diez familias de Santa Rosa completaron el pago de sus viviendas a través del Instituto Provincial Autárquico de Vivienda (IPAV) y recibieron sus escrituras en un acto oficial. La directora del organismo, Erica Riboyra, remarcó que \"cada acto de escrituración implica una carga de emociones muy importante\" y destacó el esfuerzo de las familias por cumplir con sus obligaciones de pago.</p><p>Entre los beneficiarios, Oscar Alberto Muñoz y María Masías compartieron su historia, marcada por dificultades económicas como la pérdida de empleo en una fábrica local y la crisis de 2001, hasta lograr finalmente la casa propia donde criaron a sus hijos.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157241.jpg"
+        },
+        {
+          "id": "cardiopatias_congenitas_ingreso",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Ingreso oficial de La Pampa al Programa de Cardiopatías Congénitas",
+          "bajada": "El Complejo Hospitalario Favaloro-Molas fue incorporado formalmente al Programa Nacional de Cardiopatías Congénitas mediante la Disposición Ministerial N° 4/2026.",
+          "cuerpo": "<p>El Complejo Hospitalario Favaloro-Molas de La Pampa fue incorporado formalmente al Programa Nacional de Cardiopatías Congénitas, a través de la Disposición Ministerial N° 4/2026. El ingreso amplía la capacidad de tratamiento en la región y garantiza el acceso oportuno para niños y niñas con cobertura pública de salud.</p><p>El ministro de Salud, Mario Rubén Kohan, destacó que \"este logro valida la eficiencia y la calidad de nuestros equipos\" y reconoció el respaldo del Gobierno provincial para conseguir esta habilitación.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157237.jpg"
+        },
+        {
+          "id": "semaforos_9y44_pico",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Avanza la instalación de semáforos en 9 y 44",
+          "bajada": "El Municipio de General Pico comenzó a instalar un sistema semafórico de cuatro fases en una de las intersecciones de mayor tránsito de la ciudad.",
+          "cuerpo": "<p>El Municipio de General Pico inició la instalación de un sistema semafórico de cuatro fases en la intersección de calles 9 y 44, un cruce de alto tránsito que conecta distintos sectores de la ciudad. Los trabajos se realizan en cumplimiento de la Ordenanza Municipal N° 1184/26.</p><p>Las cuadrillas ya completaron las perforaciones de fundación en las esquinas y colocaron los conductos para el tendido eléctrico en dos de los cruces. El proyecto incluye columnas, cabezales de señal, ópticas, controladores y pulsadores peatonales necesarios para la puesta en funcionamiento.</p><p>La intersección conecta varios barrios, clubes y espacios públicos, lo que genera un caudal vehicular considerable. Desde el Municipio pidieron a los conductores circular con precaución y respetar las señales y vallados de la obra durante la instalación.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157218.jpg"
+        },
+        {
+          "id": "milei_netanyahu_nuevayork",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Javier Milei cerró su viaje a Nueva York con una reunión con Benjamin Netanyahu",
+          "bajada": "El Presidente mantuvo un encuentro bilateral con el primer ministro israelí antes de emprender su regreso a la Argentina.",
+          "cuerpo": "<p>El presidente Javier Milei cerró su visita a Nueva York con una reunión bilateral con el primer ministro israelí, Benjamín Netanyahu, tras su discurso ante la Asamblea General de la ONU. Lo acompañaron el ministro de Economía, Luis Caputo, y el canciller Pablo Quirno.</p><p>El encuentro se dio en medio de una fuerte tensión diplomática, después de que decenas de delegaciones se retiraran del recinto de la Asamblea General en protesta mientras hablaba Netanyahu. En su discurso ante la ONU, Milei había sostenido que \"Israel está del lado correcto de la historia\" y lo describió como \"el único país perfectamente democrático y libre de la región\".</p><p>Tras la reunión, Milei publicó en sus redes una imagen junto al premier israelí con el mensaje \"Viva los valores de occidente carajo\", reafirmando la alianza con Israel en el cierre de su gira por Nueva York.</p>",
+          "foto": "https://media.ambito.com/p/5a5bc70f12d20ad631dd346bb9af7a4c/adjuntos/239/imagenes/043/663/0043663434/655x368/smart/netanyahu-milei.jpg"
+        },
+        {
+          "id": "lla_pro_cuarta_reunion",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Tras la cuarta reunión en Casa Rosada, LLA y el PRO siguen lejos de un acuerdo electoral",
+          "bajada": "Luego de un nuevo encuentro entre ambos espacios, el macrismo admitió que las negociaciones hacia 2027 avanzan con dificultades y reclamó mayor convivencia política.",
+          "cuerpo": "<p>La Libertad Avanza y el PRO mantuvieron su cuarto encuentro en la Casa Rosada para negociar una alianza electoral de cara a 2027, sin lograr destrabar las diferencias. Los representantes del macrismo, Cristian Ritondo y Fernando De Andreis, reconocieron que \"estamos lejos de un acuerdo electoral\".</p><p>Desde el PRO se quejaron de que LLA negocia bajo sus propias condiciones mientras mantiene conflictos políticos con gestiones encabezadas por dirigentes del propio PRO. Pese a las tensiones, ambos espacios remarcaron su rechazo compartido a un regreso del populismo y repasaron la agenda parlamentaria, que incluye la reforma del Banco Central y el Presupuesto.</p><p>Por parte del oficialismo participaron el jefe de Gabinete, Diego Santilli, y el subsecretario de Gestión Institucional, Eduardo \"Lule\" Menem. Los enviados de Mauricio Macri confirmaron su intención de acompañar el Presupuesto 2027, aunque con matices, y evitaron pronunciarse sobre el plano electoral.</p>",
+          "foto": "https://media.ambito.com/p/46f43762798ff8df984da5db111603b0/adjuntos/239/imagenes/043/608/0043608803/655x368/smart/pro-casa-rosada.jpg"
+        },
+        {
+          "id": "agudiez_patrimonio_olivosgate",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "El llamativo salto patrimonial de una exfuncionaria del círculo de Karina Milei",
+          "bajada": "María Belén Agudiez, exsubsecretaria de Planificación General, pasó de declarar $43.000 al ingresar a la administración pública a informar activos por $4,5 millones al cierre de 2025.",
+          "cuerpo": "<p>María Belén Agudiez, exsubsecretaria de Planificación General y una de las funcionarias más cercanas a Karina Milei, multiplicó por 98 su patrimonio en poco menos de tres años de gestión, según sus declaraciones juradas. Al ingresar a la administración pública había declarado bienes por $43.000 —entre ahorros y efectivo—, mientras que al cierre de 2025 informó activos por $4,5 millones.</p><p>Su última presentación patrimonial detalla $3,5 millones en efectivo, además de fondos de inversión, plataformas de pago y una cuenta de ahorro en dólares. Declaró ingresos anuales por $37,6 millones frente a gastos personales por $36 millones.</p><p>Su salida de la Quinta de Olivos se dio en el marco de una reestructuración que alcanzó a una docena de empleados, en medio de denuncias por presuntas irregularidades en compras públicas vinculadas a la residencia presidencial y a un emprendimiento privado de catering.</p>",
+          "foto": "https://media.ambito.com/p/361d15c95e891d6ba683219ab9f1cc3e/adjuntos/239/imagenes/043/031/0043031272/quinta-olivos-2.jpg"
+        }
+      ]
     }
   ]
 }
