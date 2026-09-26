@@ -7498,6 +7498,180 @@
           "foto": "https://media.ambito.com/p/361d15c95e891d6ba683219ab9f1cc3e/adjuntos/239/imagenes/043/031/0043031272/quinta-olivos-2.jpg"
         }
       ]
+    },
+    {
+      "clave": "2026-09-26_manana",
+      "fecha_iso": "2026-09-26",
+      "fecha": "26 septiembre 2026",
+      "turno": "Edición Mañana · 13:00",
+      "hero": {
+        "titulo": "Murió Nelson Nicoletti, periodista y referente de la memoria pampeana",
+        "summary": "El reconocido periodista falleció el viernes por la tarde a los 75 años. Sobreviviente de la dictadura, dio testimonio de aquel horror durante los tres juicios de la Subzona 14.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157136.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Distinguieron tres proyectos pampeanos en la 14° edición del Sello de Buen Diseño Argentino",
+          "resumen": "Tres empresas pampeanas fueron distinguidas en el Sello de Buen Diseño Argentino, en Buenos Aires.",
+          "cat": "La Pampa · Diseño",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/26/alta/2157337.jpg",
+          "ts": "26 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Cardio 365: capacitaron en RCP a más de 400 personas",
+          "resumen": "Más de 400 vecinos participaron de una jornada de prevención cardiovascular y capacitación en RCP en General Pico.",
+          "cat": "La Pampa · Salud",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/26/alta/2157301.jpg",
+          "ts": "26 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Toay: aprobaron la exención del impuesto a baldíos para viviendas y un régimen de inclusión laboral",
+          "resumen": "El Concejo Deliberante de Toay aprobó una exención impositiva para la construcción de viviendas y un régimen de inclusión laboral.",
+          "cat": "La Pampa · Toay",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/26/alta/2157326.jpg",
+          "ts": "26 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Más de 500 intendentes cuestionaron la derogación del Régimen de Zona Fría",
+          "resumen": "La Federación Argentina de Municipios rechazó la reforma de Zona Fría aprobada en el Senado.",
+          "cat": "Política Nacional · Zona Fría",
+          "foto": "https://media.ambito.com/p/920077cc56b8b758e6dfc309b01a054b/adjuntos/239/imagenes/043/666/0043666121/655x368/626x699:646x719/image-4.png",
+          "ts": "26 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Nueva ronda de reuniones de gobernadores de Diego Santilli, antes del debate del Presupuesto 2027",
+          "resumen": "Cinco gobernadores se reunieron con Diego Santilli en Casa Rosada en busca de apoyos para el Presupuesto 2027.",
+          "cat": "Política Nacional · Presupuesto 2027",
+          "foto": "https://media.ambito.com/p/b5f7287a08d3e98b0c315d5a698373c4/adjuntos/239/imagenes/043/665/0043665797/655x368/smart/diego-santilli-alfredo-cornejo-menem.jpg",
+          "ts": "25 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "La trama internacional detrás del atentado a la AMIA: Irán, Hezbolá y el vínculo con Panamá",
+          "resumen": "A 32 años del atentado, la Justicia reconstruyó la trama internacional entre Irán, Hezbolá y un segundo ataque en Panamá.",
+          "cat": "Política Nacional · AMIA",
+          "foto": "https://media.ambito.com/p/8904ca8632da8a4149789882274edb4b/adjuntos/239/imagenes/042/600/0042600463/jorge-macri-amia.jpeg",
+          "ts": "26 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Dolor en la despedida de Nelson Nicoletti",
+          "resumen": "El último adiós a Eduardo Nelson Nicoletti se realiza este sábado en Santa Rosa.",
+          "cat": "La Pampa · Despedida",
+          "ts": "26 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "La comisión investigadora del caso del bebé de Rancul pidió documentación",
+          "resumen": "La comisión investigadora del caso del bebé de Rancul pidió documentación y citará a funcionarios la semana próxima.",
+          "cat": "La Pampa · Rancul",
+          "ts": "26 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "El IPAV confirmó una caída del 10% en el cobro de cuotas de las viviendas",
+          "resumen": "El IPAV confirmó una caída del 10% en el cobro de cuotas de las viviendas sociales.",
+          "cat": "La Pampa · IPAV",
+          "ts": "26 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "\"En La Pampa no se discrimina como hace Nación\", afirmó el ministro Pascual Fernández en Quemú Quemú",
+          "resumen": "El ministro Pascual Fernández visitó Quemú Quemú y contrastó la gestión provincial con el ajuste nacional.",
+          "cat": "La Pampa · Quemú Quemú",
+          "ts": "26 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "nicoletti_murio_referente_memoria",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Murió Nelson Nicoletti, periodista y referente de la memoria pampeana",
+          "bajada": "El reconocido periodista falleció el viernes por la tarde a los 75 años. Sobreviviente de la dictadura, dio testimonio de aquel horror durante los tres juicios de la Subzona 14.",
+          "cuerpo": "<p>Nelson Nicoletti, reconocido periodista y dirigente gremial, falleció el viernes a los 75 años. Su carrera en el periodismo comenzó en 1969 en el diario La Reforma, y continuó en La Capital, medio del que llegó a ser director. Fue una pieza clave en la organización de los trabajadores de prensa y uno de los fundadores del gremio de Prensa de La Pampa, del que fue secretario general.</p><p>Su vida quedó marcada por el terrorismo de Estado. El 24 de marzo de 1976 fue detenido ilegalmente en la redacción de La Capital, durante un operativo militar y policial. Permaneció preso en la Unidad 4 y luego en el penal de máxima seguridad de Rawson hasta recuperar la libertad. Tras su liberación, vivió bajo vigilancia en Telén durante años.</p><p>Con el regreso de la democracia, Nicoletti retomó la actividad pública en distintos roles: director de prensa de la Legislatura, cargos municipales, dirección de radio y representación ante organismos de medios. En 2015 fue candidato a parlamentario del Mercosur por La Pampa.</p><p>En las últimas décadas transformó su historia personal en una herramienta para la memoria colectiva. Declaró como testigo en los tres juicios de la Subzona 14, un aporte clave para condenar a los represores pampeanos. Participó en numerosos encuentros, entrevistas y actividades educativas junto a organismos de derechos humanos, y repitió una y otra vez: \"Tenemos la misión de dar testimonio de esa barbarie y exigir justicia\" (marzo de 2021).</p><p>El 5 de junio de 2026 había dialogado con estudiantes y periodistas en la Universidad Nacional de La Pampa sobre la persecución a la prensa durante la dictadura. Días antes de morir, el Concejo Deliberante reconoció su trayectoria junto a la del referente cultural Delfor Sombra. Su mensaje de siempre: \"Nunca más\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/25/alta/2157136.jpg"
+        },
+        {
+          "id": "nicoletti_despedida_dolor",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Dolor en la despedida de Nelson Nicoletti",
+          "bajada": "El último adiós a Eduardo Nelson Nicoletti se realiza este sábado en Santa Rosa. Sus restos son velados desde las 10 horas en la sala de la CPE.",
+          "cuerpo": "<p>Familiares, amigos, compañeros de militancia y dirigentes políticos despidieron este sábado los restos del histórico referente pampeano, fallecido el viernes a los 75 años. El velatorio se realiza en la sala de la Cooperativa Popular de Electricidad de Santa Rosa desde las 10 horas, y el traslado al Cementerio Parque está previsto para las 16 horas.</p><p>El intendente Luciano Di Nápoli expresó su profundo pesar y recordó charlas políticas compartidas: \"Te fuiste y no pudimos tener esa última cena que habíamos planeado\". Destacó el compromiso de Nicoletti con las conmemoraciones de derechos humanos y remarcó que, \"más allá de las diferencias generacionales y electorales\", siempre lo acompañó.</p><p>Desde UTELPa Santa Rosa remarcaron su militancia: \"Tu coherencia, tu militancia por los Derechos Humanos y tu compromiso gremial nos marcan el camino\". El Sindicato de Prensa lo recordó como fundador en 1974, reconociendo su trayectoria periodística, su trabajo en el diario cooperativo La Capital y la persecución que sufrió durante la dictadura.</p><p>El diputado Espartaco Marín lo definió como \"firme en sus convicciones, inteligente y lúcido\", y lo describió como un amigo leal de la familia.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/26/alta/2157324.jpg"
+        },
+        {
+          "id": "rancul_comision_pidio_documentacion",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La comisión investigadora del caso del bebé de Rancul pidió documentación",
+          "bajada": "La comisión pidió documentación y citará a funcionarios la semana próxima.",
+          "cuerpo": "<p>La comisión legislativa que investiga presuntas irregularidades en la Subsecretaría de Niñez comenzó formalmente su trabajo. El cuerpo solicitó al gobernador Sergio Ziliotto que remita todos los expedientes y la documentación vinculada al caso del bebé de Rancul que obre en poder del Poder Ejecutivo.</p><p>La comisión anunció que a partir de la semana próxima comenzará a librar pedidos de informes, citaciones e interrogatorios a las personas, autoridades y funcionarios involucrados. El objetivo es reconstruir los hechos, reunir la documentación necesaria y determinar si hubo irregularidades, además de eventuales responsabilidades administrativas o institucionales.</p><p>El cuerpo está presidido por Sandra Fonseca (Comunidad Organizada), con Silvia Larreta (FreJuPa) como vicepresidenta, e integrado además por Gisela Cuadrado (UCR) y Noelia Viara (PRO-MID). Los legisladores aclararon que la investigación no revisará el proceso de adopción ni las decisiones judiciales, sino que se enfocará en \"las circunstancias y los procedimientos administrativos\" en la intervención de los organismos provinciales, con un trabajo guiado por el interés superior del niño.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/26/alta/2157322.jpg"
+        },
+        {
+          "id": "ipav_caida_cobro_cuotas",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "El IPAV confirmó una caída del 10% en el cobro de cuotas de las viviendas",
+          "bajada": "\"Una cosa es no querer pagar y otra cosa es no poder pagar\", sostuvo la titular del organismo, Erica Riboyra. Y detalló que analizan la situación social de los adjudicatarios.",
+          "cuerpo": "<p>La presidenta del Instituto Provincial Autárquico de Vivienda (IPAV), Erica Riboyra, informó que el cobro de las cuotas de viviendas sociales cayó un 10% en los últimos meses. La funcionaria atribuyó la contracción al impacto del contexto económico nacional sobre las familias pampeanas, y diferenció entre los casos de dificultad económica real y el no pago voluntario.</p><p>\"Una cosa es no querer pagar y otra cosa es no poder pagar. La realidad es que nadie deja de pagar su casa porque no quiere. Hay un gran compromiso de la gente, pero muchas familias atraviesan problemas económicos\", sostuvo Riboyra.</p><p>El organismo mantiene atención personalizada y acompañamiento social a través de equipos técnicos en sus delegaciones, entre ellas General Pico, para evaluar la situación de cada familia afectada por la pérdida de empleo o la caída de ingresos. El IPAV aplica además un tratamiento diferencial para la mora y esquemas de acompañamiento para quienes buscan regularizar deudas o acreditar vulnerabilidad social.</p><p>La funcionaria advirtió que la tendencia difícilmente mejore en el corto plazo, dado el rumbo de la macroeconomía nacional, que según remarcó no prioriza el desarrollo productivo ni la generación de empleo formal.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/26/alta/2157334.jpg"
+        },
+        {
+          "id": "pascual_fernandez_quemu_quemu",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "\"En La Pampa no se discrimina como hace Nación\", afirmó el ministro Pascual Fernández en Quemú Quemú",
+          "bajada": "Durante su visita a la localidad, el funcionario provincial se reunió con el intendente Francisco Tassone para relevar obras públicas y acciones preventivas frente al Niño.",
+          "cuerpo": "<p>El ministro de Gobierno provincial, Pascual Fernández, visitó Quemú Quemú para reunirse con autoridades locales y relevar obras en ejecución, entre ellas trabajos de cordón cuneta y la construcción de una escuela secundaria. El funcionario remarcó el compromiso del Gobierno provincial de acompañar a todos los municipios por igual.</p><p>Fernández cuestionó las políticas de ajuste del Gobierno nacional y sostuvo que la provincia mantiene una presencia constante en las comunidades del interior, distribuyendo recursos sin discriminar por color político, en contraste con lo que caracterizó como el trato de la administración nacional hacia el interior productivo.</p><p>El ministro también se refirió a las acciones de prevención que se están coordinando de cara al fenómeno de El Niño, que anticipa lluvias por encima de lo habitual para la región en los próximos meses.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/26/alta/2157328.jpg"
+        },
+        {
+          "id": "zonafria_500intendentes_fam",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Más de 500 intendentes cuestionaron la derogación del Régimen de Zona Fría",
+          "bajada": "La Federación Argentina de Municipios emitió un comunicado oficial donde cuestionó la modificación aprobada en el Senado y advirtió que afectará a millones de usuarios de gas en regiones de bajas temperaturas.",
+          "cuerpo": "<p>Más de 500 intendentes nucleados en la Federación Argentina de Municipios (FAM) rechazaron la reforma del régimen de Zona Fría aprobada esta semana en el Senado, y advirtieron que \"el ajuste permanente de Milei elimina ahora un derecho adquirido que era un alivio fundamental para la economía real de la vida cotidiana de la sociedad\".</p><p>La nueva ley modifica el funcionamiento de los subsidios al gas en regiones de bajas temperaturas. Antes, los usuarios de las zonas designadas recibían el descuento de forma automática; ahora, el beneficio dependerá tanto de la ubicación geográfica como del ingreso del hogar, limitándolo a quienes ganan menos de tres canastas básicas alimentarias.</p><p>La reforma golpea en particular a los usuarios incorporados durante la ampliación territorial de 2021 en Buenos Aires, Córdoba, Santa Fe y Mendoza. Según estimaciones de los propios intendentes, más de 1,6 millones de usuarios en todo el país podrían perder la asistencia si no califican bajo el nuevo esquema de Subsidios Energéticos Focalizados.</p>",
+          "foto": "https://media.ambito.com/p/920077cc56b8b758e6dfc309b01a054b/adjuntos/239/imagenes/043/666/0043666121/655x368/626x699:646x719/image-4.png"
+        },
+        {
+          "id": "santilli_gobernadores_presupuesto2027",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Nueva ronda de reuniones de gobernadores de Diego Santilli, antes del debate del Presupuesto 2027",
+          "bajada": "Cinco gobernadores se reunieron con el jefe de Gabinete en Casa Rosada en las últimas 48 horas, en busca de apoyos para el Presupuesto 2027 y la reforma electoral.",
+          "cuerpo": "<p>El jefe de Gabinete, Diego Santilli, recibió en Casa Rosada a una nueva tanda de gobernadores en busca de apoyos para el Presupuesto 2027 y la reforma electoral. Un día después de reunirse con el chaqueño Leandro Zdero, esta vez recibió al sanjuanino Marcelo Orrego y al mendocino Alfredo Cornejo.</p><p>Del encuentro con Cornejo también participó Martín Menem, presidente de la Cámara de Diputados, lo que remarca la importancia legislativa de estas conversaciones. La charla giró en torno al incremento nacional asignado a Mendoza en el Presupuesto 2027, estimado en $6,76 billones, un aumento nominal del 25,7% respecto de 2026.</p><p>El debate del Presupuesto 2027 comenzará el martes 13 de octubre en la Cámara de Diputados, donde el oficialismo busca obtener la media sanción el miércoles 4 de noviembre. Los tres gobernadores que se reunieron con Santilli en las últimas 48 horas controlan los votos de cuatro senadores y seis diputados.</p>",
+          "foto": "https://media.ambito.com/p/b5f7287a08d3e98b0c315d5a698373c4/adjuntos/239/imagenes/043/665/0043665797/655x368/smart/diego-santilli-alfredo-cornejo-menem.jpg"
+        },
+        {
+          "id": "amia_trama_iran_hezbola_panama",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "La trama internacional detrás del atentado a la AMIA: Irán, Hezbolá y el vínculo con Panamá",
+          "bajada": "A 32 años del atentado, la Justicia reconstruyó cómo Irán y Hezbolá coordinaron el ataque, y reveló un segundo operativo terrorista ejecutado un día después en Panamá.",
+          "cuerpo": "<p>A 32 años del atentado a la AMIA, la Justicia argentina reconstruyó con precisión la trama internacional detrás del mayor ataque terrorista de la historia del país. Según la resolución judicial, la decisión se adoptó en la cúpula de la estructura iraní, y la ejecución quedó en manos de Hezbolá, que actuó como brazo operativo para atentados fuera de Irán. La orden llegó a través de la Fuerza Quds, bajo responsabilidad de Ahmad Vahidi, hasta Imad Mughniyeh, señalado como responsable de la estructura clandestina de Hezbolá para operaciones en el exterior.</p><p>El juez destacó tres comunicaciones realizadas los días 6, 8 y 11 de julio de 1994 hacia la ciudad panameña de Colón, donde en paralelo se preparaba un segundo atentado de Hezbolá que se ejecutaría un día después del ataque a la AMIA. El 19 de julio de 1994, un avión de Alas Chiricanas que había despegado de Colón explotó en pleno vuelo, matando a sus 21 ocupantes, entre ellos miembros de la comunidad judía local.</p><p>Esta semana, el juez federal Daniel Rafecas procesó a ocho ciudadanos iraníes y libaneses que serán juzgados en ausencia por el atentado a la AMIA, y en su resolución reconstruyó con precisión la secuencia cronológica del ataque perpetrado el 18 de julio de 1994, que causó 85 muertos y más de 150 heridos.</p>",
+          "foto": "https://media.ambito.com/p/8904ca8632da8a4149789882274edb4b/adjuntos/239/imagenes/042/600/0042600463/jorge-macri-amia.jpeg"
+        },
+        {
+          "id": "sello_buen_diseno_tresproyectos",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Distinguieron tres proyectos pampeanos en la 14° edición del Sello de Buen Diseño Argentino",
+          "bajada": "El reconocimiento oficial destacó la innovación en mobiliario infantil sustentable, calzado técnico de alta montaña y una campaña de comunicación regional.",
+          "cuerpo": "<p>Tres empresas pampeanas recibieron reconocimiento en la ceremonia del Sello de Buen Diseño Argentino, realizada en el Palacio Libertad de Buenos Aires. Chema Universo de Madera fue distinguida por su línea evolutiva de mobiliario infantil \"Surco\", elaborada con materiales reciclados; Duke fue reconocida por su calzado técnico de alta montaña \"Comahue Atlas\"; y Megafon obtuvo el sello por la campaña publicitaria \"La Pampa Original\".</p><p>Esta edición evaluó un récord de 1.559 presentaciones a nivel nacional, a través de 144 jurados expertos, y finalmente distinguió a 640 productos. Según Gabriel Rodrigo, coordinador de Industrias Culturales de la Secretaría de Cultura provincial, el sello suma valor de mercado y respalda el posicionamiento comercial de los productores locales.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/26/alta/2157337.jpg"
+        },
+        {
+          "id": "cardio365_rcp_400personas",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Cardio 365: capacitaron en RCP a más de 400 personas",
+          "bajada": "Más de 400 vecinos, deportistas y dirigentes participaron de una jornada de prevención cardiovascular y capacitación en RCP en General Pico.",
+          "cuerpo": "<p>Más de 400 vecinos, deportistas y dirigentes locales participaron de una jornada de prevención cardiovascular y capacitación en reanimación cardiopulmonar (RCP) en General Pico, organizada en el marco del programa provincial Cardio 365 y la iniciativa \"La Pampa Cardioprotegida\".</p><p>El ministro de Salud, Mario Kohan, destacó que entre agosto de 2018 y julio de 2026 el programa atendió 7.418 casos, de los cuales más del 80% se resolvieron localmente sin necesidad de trasladar a los pacientes.</p><p>La jornada cerró con talleres prácticos en los que los participantes se entrenaron en técnicas de RCP y aprendieron a utilizar desfibriladores externos automáticos (DEA).</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/26/alta/2157301.jpg"
+        },
+        {
+          "id": "toay_exencion_baldios_inclusion",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Toay: aprobaron la exención del impuesto a baldíos para viviendas y un régimen de inclusión laboral",
+          "bajada": "La exención impositiva por 24 meses para quienes edifiquen su vivienda familiar se definió por mayoría tras un debate dividido. Por unanimidad, el cuerpo creó un régimen de inclusión laboral para personas con discapacidad y géneros no binarios.",
+          "cuerpo": "<p>El Concejo Deliberante de Toay aprobó incentivos fiscales y medidas laborales orientadas a acompañar a los vecinos y promover el desarrollo de la construcción. La principal medida otorga una exención de 24 meses en el impuesto a los baldíos para quienes comiencen a edificar su vivienda familiar, con el objetivo de dinamizar el sector de la construcción en medio de la coyuntura económica. La votación dividió al cuerpo, con reparos de algunos concejales.</p><p>Por unanimidad, el Concejo aprobó además un régimen de inclusión laboral que garantiza el acceso equitativo a cargos municipales para personas con discapacidad y personas de géneros no binarios. Otras ordenanzas sancionadas apuntaron a la transparencia en la información pública sobre contrataciones municipales, programas de bienestar animal y la asignación de terrenos en el parque industrial para empresas metalúrgicas.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/26/alta/2157326.jpg"
+        }
+      ]
     }
   ]
 }
