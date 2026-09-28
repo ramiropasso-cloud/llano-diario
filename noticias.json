@@ -7672,6 +7672,180 @@
           "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/26/alta/2157326.jpg"
         }
       ]
+    },
+    {
+      "clave": "2026-09-28_manana",
+      "fecha_iso": "2026-09-28",
+      "fecha": "28 septiembre 2026",
+      "turno": "Edición Mañana · 16:00",
+      "hero": {
+        "titulo": "Nuevo Encuentro: la Justicia Federal condenó al diputado Martín Balsa por irregularidades con los fondos",
+        "summary": "El Juzgado Federal de Santa Rosa sancionó al actual diputado provincial y al tesorero de la agrupación política tras detectar maniobras opacas en la rendición de cuentas del ejercicio contable 2024.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/28/alta/2157428.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Finaliza el asfaltado de 11 cuadras del Plan 5.000",
+          "resumen": "La Municipalidad de Santa Rosa completó el asfaltado de once cuadras de la calle Ferrando.",
+          "cat": "La Pampa · Santa Rosa",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/28/alta/2157497.jpg",
+          "ts": "28 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Entregaron créditos a tasa cero para el desarrollo de la economía social en Caleufú",
+          "resumen": "El Gobierno de La Pampa entregó créditos a tasa cero a emprendedores de Caleufú.",
+          "cat": "La Pampa · Caleufú",
+          "foto": "img/noticias/creditos-caleufu-2026-09-28.jpg",
+          "ts": "28 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Pampa se ubicó entre las cinco provincias con crecimiento en la venta de supermercados",
+          "resumen": "La Pampa registró un aumento del 3,6% en las ventas de supermercados en julio, la segunda mejor marca del país.",
+          "cat": "La Pampa · Economía",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/28/alta/2157480.jpg",
+          "ts": "28 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Discapacidad: diputados aliados de Javier Milei amenazan con quitarle el apoyo en el Congreso",
+          "resumen": "Diputados aliados de Javier Milei amenazan con quitarle el apoyo al oficialismo por la ley de discapacidad.",
+          "cat": "Política Nacional · Discapacidad",
+          "foto": "https://media.ambito.com/p/9a37771e147393d1316015332457b890/adjuntos/239/imagenes/041/854/0041854192/655x368/smart/oscar-zago-mid-diputados.jpeg",
+          "ts": "28 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Del festejo al cuestionamiento del INDEC: Javier Milei redefine su relación con las estadísticas oficiales",
+          "resumen": "Milei pasó de celebrar los datos del INDEC a cuestionar las series que muestran una caída de la actividad.",
+          "cat": "Política Nacional · INDEC",
+          "foto": "https://media.ambito.com/p/a31e345687a1c237c39abb04ed97467a/adjuntos/239/imagenes/043/433/0043433877/indec-ipc-inflacion.jpg",
+          "ts": "28 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Más de la mitad de los argentinos cree que la situación económica es mala y prefiere un cambio de Gobierno en 2027",
+          "resumen": "Una encuesta nacional mostró que el 57% desaprueba la gestión de Milei y el 58% prefiere un cambio de Gobierno en 2027.",
+          "cat": "Política Nacional · Encuesta",
+          "foto": "https://media.ambito.com/p/9bed2e498d94234a14a2b44bbd21d456/adjuntos/239/imagenes/040/067/0040067176/jovenes-desempleowebp.png",
+          "ts": "28 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Ni el 17 de Octubre une al PJ: se reaviva el fuego entre Ziliotto, di Nápoli y el vernismo",
+          "resumen": "El vernismo y los aliados de Di Nápoli rechazaron la reunión del Consejo Provincial convocada para el 17 de Octubre.",
+          "cat": "La Pampa · PJ",
+          "ts": "28 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Legislatura gastará más de $22.500 millones en 2026: cada banca cuesta $752 millones",
+          "resumen": "La Legislatura pampeana destinará $22.576 millones a su funcionamiento en 2026, unos $752 millones por banca.",
+          "cat": "La Pampa · Legislatura",
+          "ts": "28 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gil Domínguez cruzó a Mendoza por el río Atuel: \"Desobedecer a la Corte rompe el pacto federal\"",
+          "resumen": "El constitucionalista Gil Domínguez advirtió que la desobediencia de Mendoza al fallo de la Corte por el Atuel rompe el pacto federal.",
+          "cat": "La Pampa · Atuel",
+          "ts": "27 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Universitarios convocaron a un paro de 72 horas desde el miércoles",
+          "resumen": "Los gremios docentes universitarios convocaron a un paro de 72 horas desde el miércoles, en la previa de la Marcha Federal.",
+          "cat": "La Pampa · Universidad",
+          "ts": "27 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "balsa_condena_nuevoencuentro",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Nuevo Encuentro: la Justicia Federal condenó al diputado Martín Balsa por irregularidades con los fondos",
+          "bajada": "El Juzgado Federal de Santa Rosa sancionó al actual diputado provincial y al tesorero de la agrupación política tras detectar maniobras opacas en la rendición de cuentas del ejercicio contable 2024.",
+          "cuerpo": "<p>El Juzgado Federal de Santa Rosa condenó a Martín Horacio Balsa, presidente del partido Nuevo Encuentro y actual diputado provincial, junto al tesorero de la agrupación, Maximiliano Nahuel Zorrilla, a seis meses de inhabilitación. La sanción les impide votar, ser elegidos para cargos públicos y ocupar cargos públicos o partidarios durante ese período.</p><p>El fallo los responsabilizó por infracciones a la Ley de Financiamiento de los Partidos Políticos, al no poder documentar debidamente el origen y el destino de los fondos correspondientes al ejercicio contable 2024. El partido recibió $3.340.869,71 mediante transferencias de la Cámara de Diputados provincial, pero no logró identificar individualmente a los donantes. Además, la Justicia determinó que de los $823.582 retirados mediante cheques, solo $14.000 pudieron justificarse, quedando $809.582 sin documentación ni trazabilidad.</p><p>La investigación detectó numerosas irregularidades, entre ellas cheques cobrados por el abogado de los imputados, facturas sin relación con el distrito y asientos contables sin respaldo documental.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/28/alta/2157428.jpg"
+        },
+        {
+          "id": "pj_interna_17octubre_verna",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Ni el 17 de Octubre une al PJ: se reaviva el fuego entre Ziliotto, di Nápoli y el vernismo",
+          "bajada": "El encuentro del Consejo Provincial pactado para este lunes sumó un nuevo cortocircuito en el peronismo pampeano. El sector del intendente santarroseño y las huestes de Carlos Verna rechazan festejar la Lealtad \"a las apuradas\" y sin consenso.",
+          "cuerpo": "<p>El peronismo pampeano vuelve a mostrar sus fracturas internas. El intento de usar la conmemoración del 17 de Octubre como una postal de \"unidad exprés\" chocó con la realidad política interna, luego de que el sector vernista y los aliados de Luciano Di Nápoli rechazaran abiertamente la reunión del Consejo Provincial convocada para el lunes.</p><p>Desde ambas alas internas señalaron que no fueron formalmente invitados y sostuvieron que la crisis política profunda del partido no se puede disimular con gestos protocolares. Argumentan que no hay un consenso genuino ni sobre el rumbo del espacio hacia 2027 ni sobre el sentido de la conmemoración.</p><p>En sectores críticos de la conducción se lee la iniciativa como un intento de \"festejar el cumpleaños del partido antes de tiempo\" mientras las divisiones internas se profundizan. La situación de Di Nápoli expone especialmente esas tensiones: marginado del Consejo Provincial tras una interna fallida, el intendente de la capital observa el proceso desde afuera mientras la conducción busca una foto de armonía.</p><p>Mientras tanto, el sector de Carlos Verna no muestra apuro por sumarse al mensaje de unidad. Con su vehículo electoral \"Fuerza Pampa\" ya registrado y los partidos opositores provinciales negociando un frente conjunto, el peronismo llega a esta fecha clave más fracturado que nunca.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/28/alta/2157473.jpg"
+        },
+        {
+          "id": "legislatura_gasto_bancas_2026",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La Legislatura gastará más de $22.500 millones en 2026: cada banca cuesta $752 millones",
+          "bajada": "Con una estructura parlamentaria compuesta por 30 legisladores, la Cámara de Diputados de La Pampa destinará en 2026 un presupuesto de $22.576 millones para su funcionamiento.",
+          "cuerpo": "<p>La Cámara de Diputados de La Pampa destinará en 2026 un presupuesto de $22.576 millones para su funcionamiento, con una estructura de 30 legisladores. Eso ubica a la provincia en el puesto 20° a nivel nacional en gasto por diputado. Cada banca cuesta cerca de $752,5 millones al año, unos $62,7 millones mensuales por legislador.</p><p>A nivel nacional las diferencias son marcadas: Tucumán lidera el gasto con $3.725 millones por legislador (entre 49 diputados), seguida por la Ciudad de Buenos Aires ($3.402 millones) y Chaco ($3.057 millones). San Luis tiene el costo más bajo, con $176 millones por banca, lo que significa que un legislador tucumano \"cuesta 21 veces más que uno puntano\".</p><p>A nivel país, aproximadamente el 85% de los fondos legislativos se destina a sueldos, dietas y personal de asesoría. La relación de empleados por legislador también varía fuerte: Corrientes mantiene 72 empleados por legislador, frente a los 8 de Córdoba o los 2 de San Luis. Pese a ser considerada austera en la comparación regional, La Pampa igual gasta más de 2 millones de pesos diarios por banca.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/28/alta/2157452.jpg"
+        },
+        {
+          "id": "gildominguez_atuel_mendoza_corte",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Gil Domínguez cruzó a Mendoza por el río Atuel: \"Desobedecer a la Corte rompe el pacto federal\"",
+          "bajada": "En un análisis duro, el constitucionalista advirtió que desobedecer a la Corte por el agua del Atuel sienta un precedente peligroso en el país. Sostuvo que el incumplimiento convierte al federalismo en un \"esquema de hechos consumados\" donde prima la fuerza.",
+          "cuerpo": "<p>El constitucionalista pampeano Andrés Gil Domínguez analizó cómo la desobediencia judicial afecta la estabilidad institucional, en referencia al conflicto hídrico entre La Pampa y Mendoza. Explicó que el artículo 127 de la Constitución fue diseñado para evitar conflictos armados entre provincias, otorgándole a la Corte Suprema la competencia exclusiva para resolver disputas interjurisdiccionales.</p><p>Gil Domínguez remarcó que ese sistema requiere \"buena fe y lealtad federal de las partes para que las resoluciones judiciales tengan una validez efectiva\". Sin mecanismos de ejecución, advirtió, la Corte Suprema pierde capacidad de incidir sobre los hechos reales.</p><p>El conflicto se origina en un fallo de la Corte Suprema de 2017 que declaró interprovincial la cuenca del Atuel y ordenó a las provincias negociar un caudal mínimo. Una orden de ejecución de 2020 fijó en 3,2 metros cúbicos por segundo ese mínimo. Sin embargo, Mendoza no cumplió, lo que llevó a organizaciones a presentar denuncias ante la Comisión Interamericana de Derechos Humanos por violaciones al derecho ambiental y por la ineficacia de la tutela judicial.</p><p>Gil Domínguez concluyó que los mecanismos de ejecución son imprescindibles para evitar que el federalismo termine dominado por quien controla los hechos consumados.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/27/alta/2157417.jpg"
+        },
+        {
+          "id": "universitarios_paro_72horas",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Universitarios convocaron a un paro de 72 horas desde el miércoles",
+          "bajada": "En la UNLPam y las demás universidades del país seguirá esta semana el plan de lucha, en la previa de la Marcha Federal. Ultimátum al Gobierno de Milei para que cumpla con la Ley de Financiamiento después de más de 300 días.",
+          "cuerpo": "<p>Los gremios docentes universitarios Conadu y Conadu Histórica convocaron a un paro de 72 horas desde el miércoles 30 de septiembre hasta el viernes 2 de octubre. La medida busca presionar al Gobierno nacional para que cumpla con una medida judicial que ordena un aumento salarial del 33,4% y para que se aplique la Ley de Financiamiento Universitario, aprobada por el Congreso hace más de 300 días.</p><p>La última oferta del Gobierno, de un 3% de aumento, fue rechazada en las negociaciones. El paro se da en la previa de la Marcha Federal Universitaria, prevista para el 15 de octubre, con protestas que también se esperan en el resto de las universidades del país.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/27/alta/2157458.jpg"
+        },
+        {
+          "id": "plan5000_asfaltado_ferrando",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Finaliza el asfaltado de 11 cuadras del Plan 5.000",
+          "bajada": "La Municipalidad de Santa Rosa terminó la pavimentación de la calle Ferrando, un corredor estratégico para el barrio.",
+          "cuerpo": "<p>La Municipalidad de Santa Rosa completó el asfaltado de la calle Ferrando, pavimentando once cuadras que hasta ahora eran de tierra. La calle funciona como un corredor estratégico que conecta distintos barrios y mejora el acceso al Hospital Evita. Los trabajos continúan en dos cuadras de la calle Mariano Pascual, con finalización prevista para fin de semana si el clima acompaña.</p><p>La obra forma parte de un plan municipal más amplio que contempla 79 cuadras de pavimento, con recursos propios y la planta asfáltica de la ciudad. El proyecto ya superó el 70% de avance y beneficiará a más de 1.500 familias en ocho barrios de la capital.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/28/alta/2157497.jpg"
+        },
+        {
+          "id": "creditos_caleufu_economiasocial",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Entregaron créditos a tasa cero para el desarrollo de la economía social en Caleufú",
+          "bajada": "El Gobierno de La Pampa entregó créditos sin interés a emprendedores de Caleufú, en el marco del programa provincial de Economía Social.",
+          "cuerpo": "<p>El Gobierno de La Pampa entregó créditos a tasa cero a un grupo de emprendedores de Caleufú, en el marco del programa provincial de Economía Social. La iniciativa busca fortalecer las actividades productivas del interior provincial, facilitando el acceso a financiamiento para quienes están dando sus primeros pasos o buscan expandir su emprendimiento.</p><p>Desde el organismo remarcaron que este tipo de créditos, sin costo financiero para el tomador, apuntan a sostener el entramado económico local en un contexto donde el acceso al crédito privado resulta cada vez más difícil para los pequeños emprendedores.</p>",
+          "foto": "img/noticias/creditos-caleufu-2026-09-28.jpg"
+        },
+        {
+          "id": "supermercados_crecimiento_lapampa",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La Pampa se ubicó entre las cinco provincias con crecimiento en la venta de supermercados",
+          "bajada": "Registró un incremento real del 3,6% en las ventas de supermercados durante julio y fue la segunda provincia con mayor crecimiento del país, en un contexto nacional de caída generalizada del consumo.",
+          "cuerpo": "<p>La Pampa registró un incremento real del 3,6% en las ventas de supermercados durante julio de 2026, y se ubicó como la segunda provincia con mayor crecimiento a nivel nacional. \"El dinamismo del consumo local estuvo apalancado principalmente por el impulso de rubros esenciales de la canasta alimentaria\", con un alza del 15,2% en la venta de carnes y del 13,8% en bebidas.</p><p>A nivel nacional, la actividad de los supermercados cayó un 2,1% interanual, y solo cinco provincias registraron resultados positivos en el período.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/28/alta/2157480.jpg"
+        },
+        {
+          "id": "discapacidad_aliados_amenazan_apoyo",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Discapacidad: diputados aliados de Javier Milei amenazan con quitarle el apoyo en el Congreso",
+          "bajada": "Le pidieron al presidente de la comisión de Presupuesto, \"Bertie\" Benegas Lynch, que se informen las partidas presupuestarias para garantizar el cumplimiento de la ley. De lo contrario, votarían la prórroga a la emergencia, en tándem con la oposición.",
+          "cuerpo": "<p>Diputados aliados del Gobierno de Javier Milei presionan al oficialismo por la ley de discapacidad. Legisladores del MID, Argentina Federal y el PRO le pidieron al presidente de la comisión de Presupuesto y Hacienda, \"Bertie\" Benegas Lynch, que se precisen las partidas presupuestarias necesarias para garantizar el cumplimiento efectivo de la norma.</p><p>El diputado Eduardo Falcone (MID) explicó que solicitaron esa información como condición para mantener su respaldo. Advirtieron que, de no obtener precisiones, acompañarían la prórroga de la emergencia en discapacidad impulsada por la oposición, lo que garantizaría una derrota legislativa para el oficialismo.</p><p>El Gobierno había logrado el dictamen de mayoría con 42 firmas a favor y 4 en disidencia gracias al respaldo de estos aliados, mientras el peronismo junto a la izquierda impulsa extender la emergencia hasta diciembre de 2027.</p>",
+          "foto": "https://media.ambito.com/p/9a37771e147393d1316015332457b890/adjuntos/239/imagenes/041/854/0041854192/655x368/smart/oscar-zago-mid-diputados.jpeg"
+        },
+        {
+          "id": "indec_milei_redefine_relacion",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Del festejo al cuestionamiento del INDEC: Javier Milei redefine su relación con las estadísticas oficiales",
+          "bajada": "El Presidente pasó de utilizar los indicadores del organismo para respaldar los resultados de su gestión a cuestionar las series de actividad que muestran una caída, tras el retroceso del 2,9% del EMAE en julio.",
+          "cuerpo": "<p>El presidente Javier Milei cambió de forma notoria su relación con las estadísticas oficiales del INDEC. Durante buena parte de su gestión utilizó los indicadores del organismo —desaceleración de la inflación, baja de la pobreza, recuperación de la actividad— para mostrar resultados favorables de su programa económico. Ahora cuestiona la confiabilidad de las series de actividad económica, que muestran una caída.</p><p>La discusión se reactivó luego de que el EMAE (Estimador Mensual de Actividad Económica) retrocediera un 2,9% en julio, y Milei puso en duda públicamente la utilidad de las series desestacionalizadas que utiliza el organismo para comparar la evolución mensual de la economía.</p><p>El planteo se da mientras sigue pendiente un proyecto que el Gobierno había anunciado para fijar nuevas condiciones para la conducción del INDEC, con mandato fijo para su titular y mecanismos de acuerdo parlamentario para su designación, que finalmente quedó afuera de la reforma de la Carta Orgánica del Banco Central y postergado para un proyecto específico.</p>",
+          "foto": "https://media.ambito.com/p/a31e345687a1c237c39abb04ed97467a/adjuntos/239/imagenes/043/433/0043433877/indec-ipc-inflacion.jpg"
+        },
+        {
+          "id": "encuesta_economia_mala_cambio2027",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Más de la mitad de los argentinos cree que la situación económica es mala y prefiere un cambio de Gobierno en 2027",
+          "bajada": "Un relevamiento nacional mostró una mirada negativa sobre el presente del país: el 57% desaprueba al Ejecutivo y el 58% se inclina por otra administración.",
+          "cuerpo": "<p>Un relevamiento nacional de OPSA correspondiente a septiembre de 2026 mostró una fuerte desaprobación sobre la gestión del presidente Javier Milei. Según el estudio, el 57% desaprueba la administración y el 53% calificó la situación económica como mala o muy mala, frente a un 28% con una mirada positiva y un 19% que la consideró regular.</p><p>De cara a las elecciones presidenciales de 2027, el 58% de los consultados expresó que prefiere un cambio de Gobierno, mientras que el 42% se inclina por la continuidad. Además, el 56% sostiene que la economía empeoró respecto de hace un año, y solo el 36% percibe una mejora.</p><p>El estudio también marcó diferencias por género: entre las mujeres, el 68% prefiere un cambio y el 32% la continuidad; entre los varones, el 53% opta por la continuidad y el 47% por una nueva administración.</p>",
+          "foto": "https://media.ambito.com/p/9bed2e498d94234a14a2b44bbd21d456/adjuntos/239/imagenes/040/067/0040067176/jovenes-desempleowebp.png"
+        }
+      ]
     }
   ]
 }
