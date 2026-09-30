@@ -7846,6 +7846,180 @@
           "foto": "https://media.ambito.com/p/9bed2e498d94234a14a2b44bbd21d456/adjuntos/239/imagenes/040/067/0040067176/jovenes-desempleowebp.png"
         }
       ]
+    },
+    {
+      "clave": "2026-09-29_manana",
+      "fecha_iso": "2026-09-29",
+      "fecha": "29 septiembre 2026",
+      "turno": "Edición Mañana · 20:00",
+      "hero": {
+        "titulo": "El STJ aceptó un recurso de la familia de contención y revisarán la adopción del bebé de Rancul",
+        "summary": "Tras la decisión del Superior Tribunal de Justicia de dar lugar a sus recursos, dieron traslado a las partes que intervinieron en el proceso de adopción. La familia insiste en que hubo irregularidades.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157572.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "El Gobierno provincial y la UNLPam crearon el Observatorio de Inteligencia Artificial",
+          "resumen": "Ziliotto y el rector Marull firmaron un convenio para crear un Observatorio de Inteligencia Artificial en la UNLPam.",
+          "cat": "La Pampa · Tecnología",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157633.jpg",
+          "ts": "29 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Aprobaron una inversión de USD 12,3 millones para un nuevo parque solar en General Pico",
+          "resumen": "Pampetrol adjudicó la segunda etapa del Parque Solar de General Pico, con una inversión privada de USD 12,3 millones.",
+          "cat": "La Pampa · Energía",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157602.jpg",
+          "ts": "29 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Gran convocatoria en el festejo por el Día del Jubilado",
+          "resumen": "El Servicio de Previsión Social organizó un festejo por el Día del Jubilado con gran convocatoria en Santa Rosa.",
+          "cat": "La Pampa · Santa Rosa",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157592.jpg",
+          "ts": "29 sep 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "Cristina Kirchner recurrió a la ONU para revisar su condena por la causa Vialidad",
+          "resumen": "Cristina Kirchner presentó una denuncia ante la ONU para revisar su condena en la causa Vialidad y poder ser candidata en 2027.",
+          "cat": "Política Nacional · Vialidad",
+          "foto": "https://media.ambito.com/p/64824b1999ea682ed16303a62e963484/adjuntos/239/imagenes/042/783/0042783878/cristina-cfk-el-balcon.jpg",
+          "ts": "29 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Antes de viajar a París, Javier Milei invitó a inversores a \"llenarse los bolsillos\" en la Argentina",
+          "resumen": "Milei invitó a inversores franceses a \"llenarse los bolsillos\" en la Argentina, antes de viajar a París.",
+          "cat": "Política Nacional · París",
+          "foto": "https://media.ambito.com/p/5b496596843e493e764a30361d815b74/adjuntos/239/imagenes/043/661/0043661395/655x368/smart/milei-nueva-york-1.jpg",
+          "ts": "29 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Javier Milei nombró a Adolfo Cambiaso embajador extraordinario para promover el deporte argentino en el mundo",
+          "resumen": "Milei nombró a Adolfo Cambiaso embajador extraordinario para promover el deporte argentino en el mundo.",
+          "cat": "Política Nacional · Designación",
+          "foto": "https://media.ambito.com/p/95c2c75cbe4749bd7a4d0b0cbc823747/adjuntos/239/imagenes/043/673/0043673104/655x368/smart/milei-cambiaso.jpg",
+          "ts": "29 sep 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Bebé Rancul: la pareja de contención declara hoy en la Legislatura",
+          "resumen": "Joaquín Díaz y Ana Laura Pizzani declaran ante la comisión investigadora de Diputados por el caso del bebé de Rancul.",
+          "cat": "La Pampa · Rancul",
+          "ts": "29 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Caso de adopción: el Ejecutivo le marcó límites a la comisión investigadora",
+          "resumen": "Ziliotto respondió a Diputados pero les marcó límites sobre qué documentación pueden revisar en el caso de adopción.",
+          "cat": "La Pampa · Niñez",
+          "ts": "29 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Piden el juicio político al ministro José Sappa por el caso La Recova",
+          "resumen": "Piden el juicio político al ministro del Superior Tribunal José Sappa por su actuación en el caso La Recova.",
+          "cat": "La Pampa · Justicia",
+          "ts": "29 sep 2026 · LLANO·"
+        },
+        {
+          "titulo": "Tragedia en Mayer: denuncian precarización extrema, acoso y abandono",
+          "resumen": "La muerte de un trabajador rural en Mayer derivó en denuncias por precarización laboral extrema y falta de auxilio médico.",
+          "cat": "La Pampa · Mayer",
+          "ts": "29 sep 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "rancul_stj_revisa_adopcion",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "El STJ aceptó un recurso de la familia de contención y revisarán la adopción del bebé de Rancul",
+          "bajada": "Tras la decisión del Superior Tribunal de Justicia de dar lugar a sus recursos, dieron traslado a las partes que intervinieron en el proceso de adopción. La familia insiste en que hubo irregularidades.",
+          "cuerpo": "<p>La Sala A Civil del Superior Tribunal de Justicia de La Pampa admitió un recurso extraordinario presentado por Joaquín Díaz y Ana Laura Pizzani, la familia de contención que cuidó al bebé antes del proceso de adopción. La resolución sobre la adopción, dictada por la jueza Ana Pérez Ballester, será ahora revisada por los jueces Verónica Campo y Eduardo Fernández Mendía.</p><p>El tribunal declaró admisible el recurso extraordinario el 25 de septiembre, al considerar que los planteos de la familia sobre presuntas violaciones legales y \"absurdo jurídico\" estaban \"clara y concisamente formulados\". La admisión todavía no implica un pronunciamiento sobre el fondo del asunto: el Superior Tribunal fundamentará su postura al dictar la resolución final.</p><p>El próximo paso procesal es la notificación a las partes y organismos involucrados, entre ellos la Defensoría Oficial, la Asesoría de Menores y la Defensoría de los Derechos del Niño, en un plazo de diez días.</p><p>Joaquín Díaz se mostró esperanzado con la decisión y sostuvo que \"hubo muchas irregularidades\" en el proceso de adopción. Afirmó su determinación de reencontrarse con el bebé, al que definió como \"su única referencia afectiva\", y rechazó las versiones oficiales sobre una manipulación política del caso, remarcando que treinta diputados coincidieron en que hubo errores administrativos.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157572.jpg"
+        },
+        {
+          "id": "rancul_pareja_declara_legislatura",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Bebé Rancul: la pareja de contención declara hoy en la Legislatura",
+          "bajada": "Joaquín Díaz y Ana Laura Pizzani acuden este martes a la comisión investigadora de la Cámara de Diputados. La mesa integrada por cuatro legisladoras busca determinar si hubo abusos de poder o irregularidades administrativas.",
+          "cuerpo": "<p>La comisión especial de la Cámara de Diputados que investiga el caso del bebé de Rancul recibe este martes el testimonio de Joaquín Díaz y Ana Laura Pizzani, la pareja que ofició de familia de contención. Las cuatro legisladoras que integran la comisión buscan determinar si hubo abuso de autoridad o irregularidades administrativas por parte de funcionarios provinciales durante el operativo de retiro del bebé, ocurrido el 7 de septiembre, cuando la pareja se negó en un primer momento a entregarlo.</p><p>La Justicia ya falló en contra de la pareja en distintas instancias, confirmando que el programa de familias de contención exige la aceptación expresa de su carácter no adoptivo. Sin embargo, la investigación legislativa se enfocará en posibles irregularidades administrativas o excesos por parte del Ministerio de Desarrollo Social y de la policía local durante el operativo.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157565.jpg"
+        },
+        {
+          "id": "rancul_ejecutivo_limites_comision",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Caso de adopción: el Ejecutivo le marcó límites a la comisión investigadora",
+          "bajada": "El gobernador Sergio Ziliotto respondió al pedido de informes de Diputados, pero exigió que se precise qué documentación administrativa se busca revisar y advirtió que la Legislatura no puede inmiscuirse en decisiones judiciales.",
+          "cuerpo": "<p>El gobernador Sergio Ziliotto envió una respuesta formal a la comisión investigadora de Diputados sobre el caso de presuntas irregularidades en la Subsecretaría de Niñez, Adolescencia y Familia. Aunque reconoció la facultad de control de la Legislatura, el Ejecutivo le marcó límites a la pesquisa, al sostener que ese control \"debe ejercerse dentro de los márgenes establecidos por el ordenamiento legal\", en particular por las garantías constitucionales que protegen al niño y la privacidad familiar involucrada.</p><p>El Gobierno provincial le pidió a los diputados \"precisar e individualizar\" qué expedientes administrativos buscan examinar, y se opuso a los pedidos genéricos. Además, instruyó a la Legislatura a no solicitar información que implique revisar decisiones judiciales, sosteniendo que esa documentación debe requerirse directamente al Poder Judicial.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157582.jpg"
+        },
+        {
+          "id": "sappa_juicio_politico_recova",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Piden el juicio político al ministro José Sappa por el caso La Recova",
+          "bajada": "La presentación fue radicada ante la Cámara de Diputados de La Pampa por Elba Liliana Ortiz en el marco del caso Recova.",
+          "cuerpo": "<p>Se presentó un pedido de juicio político contra el ministro del Superior Tribunal de Justicia José Sappa por su actuación en el caso conocido como \"La Recova\". La denuncia fue radicada por Elba Liliana Ortiz ante la Cámara de Diputados de La Pampa el 18 de septiembre de 2026.</p><p>La acusación apunta a la conducta de Sappa como titular de la Sala \"A\" del Superior Tribunal, a quien se le atribuye haber admitido recursos improcedentes, haber reconocido errores graves en sus resoluciones y haberse negado a corregirlos. La denuncia sostiene que \"la denunciante lleva más de un cuarto de siglo reclamando el ejercicio de derechos de propiedad y uso\" contra un ocupante que debería haber restituido el inmueble.</p><p>El conflicto de fondo es una disputa por desalojo del edificio La Recova que lleva 27 años. Según la presentación, Sappa reconoció un \"error excepcionalmente grave y patente\" pero no revocó su resolución por cuestiones procesales, prolongando así un conflicto ya extenso.</p><p>La denuncia alega violaciones constitucionales, entre ellas dilaciones irrazonables del proceso y afectación de las garantías del debido proceso previstas en la Constitución.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157575.jpg"
+        },
+        {
+          "id": "mayer_tragedia_precarizacion",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Tragedia en Mayer: denuncian precarización extrema, acoso y abandono",
+          "bajada": "A la falta de auxilio médico y el traslado de urgencia en un auto particular, se suman acusaciones por trabajo no registrado con un sueldo de 150 mil pesos mensuales, hostigamiento laboral y pedido de justicia contra los dueños del predio.",
+          "cuerpo": "<p>Un accidente laboral fatal en un campo de Mauricio Mayer derivó en graves denuncias legales y sociales. La muerte de Sebastián Oscar Suárez, un trabajador de 22 años que cayó de un carro y fue aplastado por un tractor, motivó acusaciones de la familia por \"precarización laboral severa, hostigamiento constante y abandono\".</p><p>Según personas cercanas a la víctima, el joven realizaba trabajo rural no registrado por apenas 150 mil pesos mensuales. Testigos relatan que sufría hostilidad constante y discriminación en el ámbito laboral, factores que el equipo legal planea remarcar al reconstruir el contexto de la tragedia.</p><p>El hecho ocurrió el viernes 25 de septiembre. Sin ambulancia disponible en la posta sanitaria de Mayer, familiares trasladaron al trabajador, gravemente herido, en un Volkswagen Gol particular hasta el hospital de Winifreda. Pese a las maniobras de reanimación, el traumatismo interno grave resultó fatal minutos después de la llegada.</p><p>La familia presentó denuncias contra el sistema de salud pública por la demora en la respuesta de emergencia. La Fiscalía ordenó una autopsia en General Pico para determinar la mecánica del accidente y establecer responsabilidades penales entre el contratista, los dueños de la maquinaria y los propietarios del campo.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157570.jpg"
+        },
+        {
+          "id": "observatorio_ia_unlpam",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "El Gobierno provincial y la UNLPam crearon el Observatorio de Inteligencia Artificial",
+          "bajada": "El convenio fue firmado por el gobernador Sergio Ziliotto y el rector Francisco Marull. El espacio estudiará el impacto social, ético, normativo y técnico de la tecnología, operando en el ámbito universitario sin generar nuevas estructuras presupuestarias.",
+          "cuerpo": "<p>El Gobierno de La Pampa y la Universidad Nacional de La Pampa formalizaron un convenio de cooperación para crear un Observatorio de Inteligencia Artificial. Según el gobernador Sergio Ziliotto, \"la inteligencia artificial ya está entre nosotros\" y la sociedad debe estudiar y comprender sus impactos de manera responsable, estableciendo regulaciones que protejan los derechos humanos.</p><p>El observatorio funcionará dentro de la estructura existente de la universidad, sin generar nuevos cargos presupuestarios, a través de comisiones técnicas. El rector Francisco Marull remarcó la responsabilidad pública de la institución para abordar no solo el desarrollo de la IA sino también \"su regulación, su reglamentación, cuáles deben ser sus límites\" y los riesgos asociados.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157633.jpg"
+        },
+        {
+          "id": "parquesolar_pico_inversion",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Aprobaron una inversión de USD 12,3 millones para un nuevo parque solar en General Pico",
+          "bajada": "La segunda etapa del Parque Solar Fotovoltaico incorporará 15 MW de potencia y tendrá un plazo de ejecución de 12 meses. Otra empresa podría igualar la oferta y sumar otros 15 MW al proyecto.",
+          "cuerpo": "<p>El directorio de Pampetrol adjudicó la construcción de la segunda etapa del Parque Solar Fotovoltaico de General Pico a Vial A S.A. y TPS Constructora S.A., con una inversión privada estimada en USD 12,4 millones. La obra incorporará 15 MW de potencia al parque, con un plazo de ejecución de 12 meses. Pampetrol conservará una participación del 16,8% en los resultados, mientras que las contratistas se quedarán con el 83,2%.</p><p>El proyecto opera bajo un esquema de inversión conjunta. Además, un mecanismo de igualación permite que otra empresa oferente iguale los términos de la propuesta aprobada, lo que podría sumar otros 15 MW de capacidad al predio.</p><p>El parque solar se conectará a una nueva estación transformadora en General Pico y apunta a abastecer al Polo de Desarrollo Energético y Productivo y al Parque de Actividades Económicas, con una exigencia de al menos 70% de mano de obra local.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157602.jpg"
+        },
+        {
+          "id": "dia_del_jubilado_festejo",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Gran convocatoria en el festejo por el Día del Jubilado",
+          "bajada": "Bajo la organización del Servicio de Previsión Social se concretó un encuentro recreativo, cultural y deportivo.",
+          "cuerpo": "<p>El Servicio de Previsión Social de La Pampa organizó un festejo por el Día del Jubilado en el Centro Cultural y Social, con una gran convocatoria. El encuentro incluyó numerosas actividades recreativas, culturales y de esparcimiento pensadas para los jubilados y sus familias.</p><p>Entre las presentaciones se destacó el Ballet Folklórico \"El Bravío\", que ofreció danzas tradicionales, y el grupo folclórico Diableros, que puso la música para cerrar la jornada en un clima de compañerismo y alegría.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/09/29/alta/2157592.jpg"
+        },
+        {
+          "id": "cristina_onu_vialidad",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Cristina Kirchner recurrió a la ONU para revisar su condena por la causa Vialidad",
+          "bajada": "La expresidenta presentó una denuncia ante el Comité de Derechos Humanos de la ONU alegando violaciones a garantías fundamentales, y pidió suspender la inhabilitación perpetua para ocupar cargos públicos.",
+          "cuerpo": "<p>La expresidenta Cristina Kirchner presentó una denuncia ante el Comité de Derechos Humanos de la ONU para que se revise su condena en la causa Vialidad. Su defensa denunció violaciones a garantías fundamentales y solicitó la suspensión de la inhabilitación perpetua para ocupar cargos públicos.</p><p>La presentación estuvo a cargo de los abogados Carlos Alberto Beraldi, el brasileño Rafael Valim y el español Javier Borrego, e incorporó pruebas que ya habían sido anunciadas semanas atrás en una conferencia de prensa.</p><p>La condena a seis años de prisión, que Kirchner cumple bajo arresto domiciliario, quedó firme después de que la Corte Suprema rechazara el recurso extraordinario de la defensa y confirmara por unanimidad el fallo del Tribunal Oral Federal 2.</p><p>El objetivo central de la estrategia legal es que el organismo internacional dicte una medida cautelar que ordene suspender la inhabilitación perpetua impuesta por la Justicia argentina, lo que le permitiría ser candidata en las elecciones de 2027. Un elemento clave de la estrategia es un informe técnico de la consultora Specs, presentado por Beraldi en la conferencia de septiembre, que sostiene que el Grupo Austral de Lázaro Báez recibió el 0,85% de los fondos asignados al fideicomiso vial administrado por la Dirección Nacional de Vialidad.</p>",
+          "foto": "https://media.ambito.com/p/64824b1999ea682ed16303a62e963484/adjuntos/239/imagenes/042/783/0042783878/cristina-cfk-el-balcon.jpg"
+        },
+        {
+          "id": "milei_paris_bolsillos_inversores",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Antes de viajar a París, Javier Milei invitó a inversores a \"llenarse los bolsillos\" en la Argentina",
+          "bajada": "El Presidente hizo la invitación en una entrevista con el medio francés Le Point, en la previa de su participación en la Semana Argentina en París.",
+          "cuerpo": "<p>El presidente Javier Milei invitó a los inversores franceses a \"venir a llenarse los bolsillos en la Argentina\", antes de viajar a París para participar de la Semana Argentina. La frase la pronunció en una entrevista con el medio francés Le Point, en la que también defendió el rumbo económico de su gestión y cuestionó las críticas de la oposición al Régimen de Incentivo para Grandes Inversiones (RIGI).</p><p>Milei sostuvo que \"los inversores son bienvenidos a venir a llenarse los bolsillos en la Argentina\", en el marco de una defensa de la seguridad jurídica y el derecho de propiedad, argumentando que el Gobierno protege \"la santidad de los contratos\" y que las ganancias de las empresas terminan generando empleo y prosperidad para los argentinos.</p><p>Sobre su vínculo con el presidente francés Emmanuel Macron, Milei afirmó: \"Tengo una excelente relación con él, lo considero un amigo\", y describió a Francia como \"uno de los mayores inversores en la Argentina\".</p>",
+          "foto": "https://media.ambito.com/p/5b496596843e493e764a30361d815b74/adjuntos/239/imagenes/043/661/0043661395/655x368/smart/milei-nueva-york-1.jpg"
+        },
+        {
+          "id": "milei_cambiaso_embajador_deporte",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Javier Milei nombró a Adolfo Cambiaso embajador extraordinario para promover el deporte argentino en el mundo",
+          "bajada": "La ceremonia se realizó este martes en el Palacio Libertad, donde Milei firmó el decreto que designa al polista como embajador ad honorem, con la misión especial de promover el deporte argentino a nivel internacional.",
+          "cuerpo": "<p>El presidente Javier Milei nombró al polista Adolfo Cambiaso embajador extraordinario para promover el deporte argentino en el mundo. La ceremonia se realizó este martes en el Palacio Libertad, donde el mandatario entregó el decreto que designa a Cambiaso como Embajador Extraordinario y Plenipotenciario ad honorem, con la misión especial de promover el deporte argentino a nivel internacional.</p><p>El Decreto 1116/2026, publicado en el Boletín Oficial y firmado por Milei junto al canciller Pablo Quirno, destaca la trayectoria deportiva de Cambiaso como uno de los principales referentes del polo a nivel mundial. El decreto aclara que esta condición no implica su incorporación al cuerpo permanente del Servicio Exterior ni una embajada en un país en particular, y que no genera erogaciones presupuestarias para el Estado.</p><p>Según el decreto, el objetivo final es contribuir a incrementar las exportaciones de bienes y servicios, generar oportunidades de negocios y favorecer el desarrollo turístico vinculado al polo. Milei y Cambiaso posaron juntos con otras autoridades en la ceremonia de reconocimiento, donde el polista también fue distinguido como Ciudadano Ilustre de Buenos Aires.</p>",
+          "foto": "https://media.ambito.com/p/95c2c75cbe4749bd7a4d0b0cbc823747/adjuntos/239/imagenes/043/673/0043673104/655x368/smart/milei-cambiaso.jpg"
+        }
+      ]
     }
   ]
 }
