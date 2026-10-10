@@ -8020,6 +8020,180 @@
           "foto": "https://media.ambito.com/p/95c2c75cbe4749bd7a4d0b0cbc823747/adjuntos/239/imagenes/043/673/0043673104/655x368/smart/milei-cambiaso.jpg"
         }
       ]
+    },
+    {
+      "clave": "2026-10-09_manana",
+      "fecha_iso": "2026-10-09",
+      "fecha": "9 octubre 2026",
+      "turno": "Edición Mañana · 14:00",
+      "hero": {
+        "titulo": "Ziliotto defendió la soberanía sobre la tierra: \"Estamos poniendo límites\"",
+        "summary": "El gobernador sostuvo que el proyecto busca proteger los recursos naturales estratégicos de La Pampa y establecer límites a la compra de campos por parte de extranjeros.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/09/alta/2158434.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Empezó Infomatrix en Realicó con más de 200 expositores y 87 proyectos finalistas",
+          "resumen": "La feria internacional de ciencia y tecnología reúne a más de 200 jóvenes expositores en Realicó.",
+          "cat": "La Pampa · Realicó",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/09/alta/2158417.jpg",
+          "ts": "9 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "El movimiento cooperativo y mutual debate en Santa Rosa sobre Economía Social",
+          "resumen": "FEMULPA y FEPAMCO preparan el tercer Foro de Integración de la Economía Social para el 16 de octubre.",
+          "cat": "La Pampa · Economía Social",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/09/alta/2158431.jpg",
+          "ts": "9 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Se desarrolla el periodo de tutorías para postulantes a las carreras policiales",
+          "resumen": "El Instituto Policial realiza tutorías para los postulantes a las carreras policiales 2027.",
+          "cat": "La Pampa · Formación",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/09/alta/2158429.jpg",
+          "ts": "9 oct 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "La Corte Suprema convocó a un acuerdo extraordinario y puede definir el futuro de la Ley de Tierras",
+          "resumen": "La Corte Suprema convocó a un acuerdo extraordinario que podría definir el futuro de la Ley de Tierras a nivel nacional.",
+          "cat": "Política Nacional · Ley de Tierras",
+          "foto": "https://media.ambito.com/p/30d47c6141ce216f0906d55768d3d671/adjuntos/239/imagenes/043/636/0043636399/655x368/601x458:621x478/jueces-la-corte-suprema.jpeg",
+          "ts": "8 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Nuevas irregularidades en la privatización de AySA: advierten conflictos en aportantes de campaña y tasaciones clandestinas",
+          "resumen": "Un informe reveló conflictos de interés y tasaciones secretas en la privatización de AySA.",
+          "cat": "Política Nacional · AySA",
+          "foto": "https://media.ambito.com/p/3fa8862ed8fba9d627c9b72df7f4046a/adjuntos/239/imagenes/041/394/0041394675/aysa-agua-obra-publica-hidricajpg.jpg",
+          "ts": "8 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "El 77% de los argentinos quiere un Estado activo y pone en duda el avance cultural de la derecha",
+          "resumen": "Una encuesta nacional mostró que el 77% de los argentinos respalda un Estado activo en la economía.",
+          "cat": "Política Nacional · Encuesta",
+          "foto": "https://media.ambito.com/p/fa559605e8ee71dfe7ff857f6869c1a6/adjuntos/239/imagenes/042/806/0042806253/655x368/smart/javier-milei-lentes-2.jpg",
+          "ts": "9 oct 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Bensusán cuestionó el manejo del oro del Banco Central y pidió explicaciones",
+          "resumen": "El senador Bensusán reclamó explicaciones tras conocerse que el Banco Central perdió más de US$1.023 millones con el oro.",
+          "cat": "La Pampa · Oro",
+          "ts": "9 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "\"Ser candidato a gobernador es una posibilidad, pero hay otras también\"",
+          "resumen": "Ravier habló sobre sus posibilidades electorales de cara a 2027 y la construcción del frente opositor.",
+          "cat": "La Pampa · LLA",
+          "ts": "9 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Condenan a un acompañante terapéutico por abuso sexual",
+          "resumen": "Un acompañante terapéutico fue condenado a 8 años de prisión por abuso sexual en General Pico.",
+          "cat": "La Pampa · Justicia",
+          "ts": "9 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Desarticulan en Victorica una banda dedicada a la faena clandestina: cuatro implicados",
+          "resumen": "La policía desarticuló una banda dedicada al abigeato y la faena clandestina en el oeste provincial.",
+          "cat": "La Pampa · Victorica",
+          "ts": "9 oct 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "ziliotto_tierras_soberania",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Ziliotto defendió la soberanía sobre la tierra: \"Estamos poniendo límites\"",
+          "bajada": "El gobernador sostuvo que el proyecto busca proteger los recursos naturales estratégicos de La Pampa y establecer límites a la compra de campos por parte de extranjeros.",
+          "cuerpo": "<p>El gobernador Sergio Ziliotto defendió ante la Legislatura su proyecto de Ley de Tierras Rurales, al que calificó como una herramienta para resguardar la soberanía territorial y los recursos naturales de La Pampa. \"Ni se vende ni se regala\", sostuvo.</p><p>El mandatario aclaró que la iniciativa no se opone a la inversión extranjera, sino que establece condiciones para el acceso a la tierra: \"No se trata de impedir que el extranjero invierta, sí, pero con reglas de juego que establecen los Estados\".</p><p>La propuesta restringe la adquisición de tierras que contengan recursos naturales estratégicos —ríos, lagunas, bosques nativos, salitrales y áreas protegidas— y prohíbe el acceso a Estados extranjeros y empresas con participación estatal extranjera.</p><p>Entre los criterios de acceso se incluyen la productividad del suelo y el tiempo de residencia. Ziliotto indicó que los límites de superficie podrían llegar a las 1.000 hectáreas en la zona núcleo y a las 20.000 hectáreas en el oeste pampeano. El requisito de residencia sería de diez años continuos, reducible a cinco para quienes tengan vínculos familiares en la provincia.</p><p>El gobernador se mostró confiado en que la Legislatura aprobará la iniciativa, en línea con lo que definió como un compromiso histórico de La Pampa con la protección de sus recursos.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/09/alta/2158434.jpg"
+        },
+        {
+          "id": "bensusan_oro_bancocentral",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Bensusán cuestionó el manejo del oro del Banco Central y pidió explicaciones",
+          "bajada": "El senador nacional reclamó precisiones tras conocerse que la entidad perdió más de US$1.023 millones en operaciones financieras con las reservas de oro.",
+          "cuerpo": "<p>El senador nacional Daniel Bensusán (Unión por la Patria) cuestionó el manejo de las reservas de oro del Banco Central, luego de que la Auditoría General de la Nación (AGN) confirmara que la entidad perdió más de US$1.023 millones en operaciones financieras con el metal durante la gestión de Santiago Bausili.</p><p>Según el informe de la AGN, la pérdida se originó en operaciones con derivados financieros liquidables en dólares, en las que parte de las reservas de oro funcionó como activo subyacente. De ese total, US$960 millones corresponden al resultado negativo de las operaciones y otros US$62,8 millones al pago de primas de opciones.</p><p>Bensusán vinculó las pérdidas reveladas por la AGN con las operaciones financieras del Banco Central y volvió a reclamar información sobre el destino de los lingotes transferidos al exterior. Según remarcó, \"no hablamos de tres pesos con cincuenta\": es la primera vez, desde que se audita al organismo, que se registra una pérdida de esta magnitud con reservas físicas de oro utilizadas en operaciones financieras de riesgo.</p>",
+          "foto": ""
+        },
+        {
+          "id": "ravier_candidato_gobernador",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "\"Ser candidato a gobernador es una posibilidad, pero hay otras también\"",
+          "bajada": "El presidente de LLA en La Pampa y vocero presidencial, Adrián Ravier, habló sobre sus posibilidades electorales de cara a 2027 y la construcción del frente opositor.",
+          "cuerpo": "<p>El presidente provincial de La Libertad Avanza y vocero presidencial, Adrián Ravier, habló sobre sus posibles aspiraciones electorales de cara a la gobernación de 2027. \"Estamos lejos de cerrar; ser candidato a gobernador es una posibilidad, pero hay otras también\", sostuvo.</p><p>En la entrevista repasó el estado de las negociaciones con el PRO y la UCR para construir un frente opositor con chances frente al peronismo, y remarcó que el diálogo con esos espacios continúa abierto. También defendió las políticas económicas del Gobierno de Milei y se mostró a favor de eliminar las PASO, a las que calificó de un gasto innecesario.</p><p>Ravier insistió en su compromiso con la construcción partidaria, y mencionó a cientos de personas trabajando en mesas técnicas y una escuela de formación política para la formación ideológica del espacio.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/09/alta/2158364.jpg"
+        },
+        {
+          "id": "condena_acompañante_terapeutico",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Condenan a un acompañante terapéutico por abuso sexual",
+          "bajada": "La víctima fue una persona que había sufrido un ACV. El imputado recibió una pena de 8 años de prisión efectiva y tenía un antecedente por un delito similar en 2018.",
+          "cuerpo": "<p>El juez Federico Pellegrino, de General Pico, condenó a Cristian Eduardo Salina, un acompañante terapéutico de 45 años, por abuso sexual con acceso carnal agravado por la situación de guarda en la que se encontraba. El imputado recibió una pena de 8 años de prisión efectiva.</p><p>El hecho fue cometido contra una persona que había sufrido un ACV y se encontraba en una situación de vulnerabilidad. El juez consideró como agravantes la gravedad de la conducta y el hecho de que el condenado ya tenía un antecedente por un delito similar cometido en 2018.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/09/alta/2158435.jpg"
+        },
+        {
+          "id": "victorica_faena_clandestina",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Desarticulan en Victorica una banda dedicada a la faena clandestina: cuatro implicados",
+          "bajada": "La policía realizó múltiples allanamientos en el oeste provincial y en Santa Rosa. Tres hombres quedaron detenidos y una mujer fue notificada en libertad.",
+          "cuerpo": "<p>La policía desarticuló una presunta banda dedicada al abigeato y la faena clandestina de carne, tras realizar cinco allanamientos simultáneos en Victorica, Loventué y Santa Rosa. La investigación, a cargo de personal de patrullas rurales y de la brigada de investigaciones, derivó en la detención de tres hombres y la notificación en libertad de una mujer.</p><p>Durante los operativos, los efectivos secuestraron armas de fuego, vehículos, herramientas de faena y productos cárnicos de origen ilícito.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/09/alta/2158439.jpg"
+        },
+        {
+          "id": "infomatrix_realico_2026",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Empezó Infomatrix en Realicó con más de 200 expositores y 87 proyectos finalistas",
+          "bajada": "La feria internacional de ciencia y tecnología reúne a estudiantes de seis provincias argentinas y de Brasil, Bolivia, Paraguay y México. El sábado se corre la competencia de robótica Robomatrix.",
+          "cuerpo": "<p>La cuarta edición argentina de Infomatrix, una feria internacional de ciencia y tecnología, arrancó en Realicó con más de 200 jóvenes expositores que presentan 87 proyectos finalistas. El evento, que se desarrolla en el gimnasio municipal Dorita Lucesoli, reúne delegaciones de Buenos Aires, Córdoba, Entre Ríos, Río Negro, Salta, La Pampa y participantes internacionales de Brasil, Bolivia, Paraguay y México.</p><p>La feria está organizada por la Sociedad Latinoamericana de Ciencia y Tecnología (SOLACyT) y además del certamen incluye el Seminario Internacional de Enseñanza de Ciencia y Tecnología (SIENCyT) y Robomatrix, una competencia de robótica que se disputa el sábado.</p><p>Manuel Fernando Guzmán, presidente de SOLACyT, sostuvo: \"Hoy, mañana y pasado, Realicó es el epicentro de la ciencia y la tecnología en la Argentina\". Desde el municipio remarcaron que la tecnología permite el desarrollo más allá del tamaño o la ubicación de una comunidad.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/09/alta/2158417.jpg"
+        },
+        {
+          "id": "cooperativo_mutual_economiasocial",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "El movimiento cooperativo y mutual debate en Santa Rosa sobre Economía Social",
+          "bajada": "La FEMULPA y la FEPAMCO preparan un encuentro para el próximo 16 de octubre.",
+          "cuerpo": "<p>El tercer Foro de Integración de la Economía Social se realizará el 16 de octubre en Santa Rosa, organizado por la Federación de Mutuales de La Pampa (FEMULPA) y la Federación Pampeana de Cooperativas (FEPAMCO). El encuentro contará con cuatro paneles que abordarán las demandas de la comunidad, la diversificación de servicios, el cuidado y la salud mental en la era digital, con la participación de funcionarios, académicos y dirigentes del sector cooperativo.</p><p>El primer panel llevará por título \"La economía social a partir de las demandas de la comunidad: del servicio a la necesidad real\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/09/alta/2158431.jpg"
+        },
+        {
+          "id": "tutorias_carreras_policiales",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Se desarrolla el periodo de tutorías para postulantes a las carreras policiales",
+          "bajada": "El Instituto Policial de La Pampa realiza encuentros de tutoría para los aspirantes a las carreras policiales 2027.",
+          "cuerpo": "<p>El Instituto Policial de La Pampa lleva adelante un período de tutorías para los postulantes a las carreras policiales 2027. Los encuentros ya realizados de los Bloques I y II reunieron a 60 y 70 aspirantes respectivamente, con orientación sobre el material de estudio y la preparación para los exámenes.</p><p>El próximo encuentro, correspondiente al Bloque III, abordará \"Derechos Humanos y Seguridad Pública y Ciudadana\" y está previsto para el 9 de octubre. La participación suma puntaje adicional en la evaluación académica formativa.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/09/alta/2158429.jpg"
+        },
+        {
+          "id": "corte_suprema_leytierras",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "La Corte Suprema convocó a un acuerdo extraordinario y puede definir el futuro de la Ley de Tierras",
+          "bajada": "El máximo tribunal citó a sus integrantes para este viernes a las 9, tras acelerar el expediente y completar su integración con dos conjueces. La causa podría derivar en una nueva definición sobre la derogación impulsada por el Gobierno.",
+          "cuerpo": "<p>La Corte Suprema convocó a un acuerdo extraordinario para este viernes a las 9, en el marco de una causa que podría volver a poner en discusión la derogación de la Ley de Tierras a nivel nacional. El fallo podría restablecer límites a la adquisición de tierras por parte de extranjeros, una restricción que había quedado sin efecto a partir del artículo 154 del DNU 70/2023 firmado por Javier Milei.</p><p>Entre los planteos que debe analizar el máximo tribunal hay un pedido de medida cautelar presentado por la Asociación Civil Árbol de Pie, las comunidades Lafkenche y Lof Fcta Anecón, junto a la legisladora rionegrina Magdalena Odarda.</p><p>La convocatoria a la sesión extraordinaria surgió después de que Carlos Rosenkrantz, Horacio Rosatti y Ricardo Lorenzetti no lograran la unanimidad necesaria para resolver la causa. Como el tribunal funciona actualmente con tres miembros y necesita los tres votos para dictar sentencia, se recurrió a la incorporación de conjueces para destrabar el empate: fueron convocados Diego Barroetaveña, de la Cámara Federal de Casación Penal, y Juan Ignacio Pérez Curci, de la Cámara Federal de Apelaciones de Mendoza.</p>",
+          "foto": "https://media.ambito.com/p/30d47c6141ce216f0906d55768d3d671/adjuntos/239/imagenes/043/636/0043636399/655x368/601x458:621x478/jueces-la-corte-suprema.jpeg"
+        },
+        {
+          "id": "aysa_irregularidades_privatizacion",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Nuevas irregularidades en la privatización de AySA: advierten conflictos en aportantes de campaña y tasaciones clandestinas",
+          "bajada": "Dos firmas vinculadas al grupo Equo Capital aportaron $20 millones cada una a la campaña de La Libertad Avanza en la Ciudad de Buenos Aires para las legislativas de 2025.",
+          "cuerpo": "<p>Un nuevo informe expuso irregularidades en el proceso de privatización de AySA, al revelar un potencial conflicto de intereses: empresas vinculadas a Equo Capital, dueño de la firma ganadora Rowing S.A., realizaron aportes de campaña significativos al oficialismo. Dos firmas del grupo aportaron $20 millones cada una a la campaña de La Libertad Avanza en la Ciudad de Buenos Aires para las legislativas de 2025.</p><p>Además, legisladores críticos sostienen que el proceso de tasación se realizó \"en secreto\", lo que impide verificar si la oferta ganadora de u$s340,2 millones representa un valor justo por la empresa de agua y saneamiento, que presta servicio a 3,35 millones de hogares.</p><p>A esto se suma que la Auditoría General de la Nación detectó más de $42.935 millones sin registrar vinculados a un crédito del Banco Mundial destinado al Sistema Riachuelo, lo que generó pedidos de informes en Diputados y puso en duda la transparencia del proceso.</p>",
+          "foto": "https://media.ambito.com/p/3fa8862ed8fba9d627c9b72df7f4046a/adjuntos/239/imagenes/041/394/0041394675/aysa-agua-obra-publica-hidricajpg.jpg"
+        },
+        {
+          "id": "encuesta_estado_activo_77porciento",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "El 77% de los argentinos quiere un Estado activo y pone en duda el avance cultural de la derecha",
+          "bajada": "Un relevamiento nacional de CEOP Latam en exclusiva para Ámbito mostró que la mayoría de la sociedad respalda la intervención estatal en la economía. El 58,7% considera que el ajuste de Milei fue excesivo o no debería haberse realizado.",
+          "cuerpo": "<p>Un relevamiento nacional de CEOP Latam, realizado en exclusiva para Ámbito entre el 4 y el 6 de octubre sobre una muestra de 1.702 personas, mostró que el 77% de los argentinos considera que el Estado debe ser el principal responsable de garantizar el bienestar de la población, y el 76,5% reclama una intervención activa en la economía.</p><p>Según el informe, en la Argentina el avance de la derecha es más electoral que cultural: las posiciones favorables a una mayor presencia estatal siguen siendo mayoritarias, incluso frente a las medidas concretas de la gestión libertaria.</p><p>Entre los datos adicionales, el 66,5% apoya el desarrollo de la industria nacional y el 58,7% considera que el ajuste de Javier Milei fue excesivo o que no debería haberse realizado.</p>",
+          "foto": "https://media.ambito.com/p/fa559605e8ee71dfe7ff857f6869c1a6/adjuntos/239/imagenes/042/806/0042806253/655x368/smart/javier-milei-lentes-2.jpg"
+        }
+      ]
     }
   ]
 }
