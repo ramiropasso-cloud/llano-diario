@@ -8194,6 +8194,180 @@
           "foto": "https://media.ambito.com/p/fa559605e8ee71dfe7ff857f6869c1a6/adjuntos/239/imagenes/042/806/0042806253/655x368/smart/javier-milei-lentes-2.jpg"
         }
       ]
+    },
+    {
+      "clave": "2026-10-13_manana",
+      "fecha_iso": "2026-10-13",
+      "fecha": "13 octubre 2026",
+      "turno": "Edición Mañana · 15:00",
+      "hero": {
+        "titulo": "La Pampa es la segunda provincia que más empleo industrial perdió durante la gestión de Milei",
+        "summary": "La industria pampeana perdió 729 puestos de trabajo registrados entre el primer trimestre de 2024 y el mismo período de 2026, una caída del 12,8%.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/12/alta/2158653.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "Reconocimiento por 41 años de trabajo en el Teatro Español",
+          "resumen": "Raúl Martínez recibió un homenaje por sus 41 años de trabajo en el Teatro Español, al inicio de su jubilación.",
+          "cat": "La Pampa · Cultura",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/13/alta/2158692.jpg",
+          "ts": "13 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Realicó: aprueban la compra directa de equipamiento hídrico ante El Niño",
+          "resumen": "El Concejo Deliberante de Realicó aprobó la compra de bombas de extracción para reforzar la prevención ante El Niño.",
+          "cat": "La Pampa · Realicó",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/13/alta/2158688.jpg",
+          "ts": "13 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Alertan por un aumento del caudal del río Colorado",
+          "resumen": "Corfo Río Colorado anticipa una suba gradual del caudal por el deshielo en la alta cuenca.",
+          "cat": "La Pampa · Colorado",
+          "foto": "",
+          "ts": "13 oct 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "La oposición mide fuerzas en Diputados: buscará sesionar con temas sensibles para Javier Milei",
+          "resumen": "La oposición busca sesionar el jueves con discapacidad, desendeudamiento y el DNU 70/23, tras el fallo que dejó en pie la Ley de Tierras.",
+          "cat": "Política Nacional · Congreso",
+          "foto": "https://media.ambito.com/p/f3bf723c3c235031d9f6f0f355e5849b/adjuntos/239/imagenes/043/611/0043611088/655x368/smart/diputados-oposicion.jpg",
+          "ts": "13 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Tucumán: denuncian \"acuerdo espurio\" entre Jaldo y los Neuss para quedarse con distribuidora eléctrica",
+          "resumen": "Legisladores tucumanos denuncian un acuerdo espurio entre Jaldo y el Grupo Neuss por la distribuidora eléctrica EDET.",
+          "cat": "Política Nacional · Tucumán",
+          "foto": "https://media.ambito.com/p/2109e5eb1492dd1cca241ea80c8554bf/adjuntos/239/imagenes/043/358/0043358623/655x368/smart/neuss.jpeg",
+          "ts": "13 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Domingo Cavallo volvió a cuestionar el modelo económico de Milei: alertó por el sobreajuste y la caída de la inversión",
+          "resumen": "Cavallo respaldó un informe del Ieral que alerta sobre el sobreajuste y la caída de la inversión bajo el modelo de Milei.",
+          "cat": "Política Nacional · Economía",
+          "foto": "",
+          "ts": "12 oct 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Ferrán afirmó que el proyecto del PRO sobre vandalismo rural \"baja las penas\"",
+          "resumen": "El diputado Ferrán cuestionó al PRO y afirmó que su proyecto contra el vandalismo rural reduce las penas vigentes.",
+          "cat": "La Pampa · Legislatura",
+          "ts": "13 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Cuenta de Inversión 2025: Ambiente solo ejecutó el 45% y el IPAV, 59%",
+          "resumen": "La Cuenta de Inversión 2025 mostró baja ejecución presupuestaria en Ambiente, el IPAV y Energía y Minería.",
+          "cat": "La Pampa · Presupuesto",
+          "ts": "13 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Prisión preventiva por 60 días para el hombre acusado de balear a otro en Santa Rosa",
+          "resumen": "Un hombre que cumplía arresto domiciliario por una causa federal quedó con prisión preventiva por 60 días tras un nuevo hecho.",
+          "cat": "La Pampa · Santa Rosa",
+          "ts": "13 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Hablar de raza, atrasa",
+          "resumen": "El diputado Pérez Araujo cuestionó a quienes usan la denominación \"Día de la Raza\" en lugar del Día de la Diversidad Cultural.",
+          "cat": "La Pampa · Debate",
+          "ts": "13 oct 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "lapampa_empleo_industrial_milei",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La Pampa es la segunda provincia que más empleo industrial perdió durante la gestión de Milei",
+          "bajada": "La industria pampeana perdió 729 puestos de trabajo registrados entre el primer trimestre de 2024 y el mismo período de 2026, una caída del 12,8%.",
+          "cuerpo": "<p>Según un informe de la consultora Politikon Chaco, basado en datos de la Secretaría de Trabajo de la Nación, La Pampa es la segunda provincia del país con mayor caída porcentual del empleo industrial desde el inicio de la gestión de Javier Milei. Solo La Rioja registró una baja mayor.</p><p>La caída pampeana, del 12,8%, más que duplica el promedio nacional, que fue del 5,2%. La elaboración de alimentos explica 661 de los 729 puestos perdidos —el 91% del total—, mientras que el resto de las ramas industriales sumó una pérdida neta de 68 puestos.</p><p>A nivel nacional, el país perdió 66.262 puestos industriales registrados en el mismo período. El informe aclara que los datos incluyen únicamente a los asalariados registrados del sector privado, sin contar el empleo público, el informal ni el trabajo independiente.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/12/alta/2158653.jpg"
+        },
+        {
+          "id": "ferran_vandalismo_rural_pro",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Ferrán afirmó que el proyecto del PRO sobre vandalismo rural \"baja las penas\"",
+          "bajada": "El diputado nacional por La Pampa respondió a las críticas del PRO al bloque peronista y cuestionó el proyecto impulsado junto a LLA y la UCR, que según explicó reduce las penas vigentes para delitos contra la producción rural.",
+          "cuerpo": "<p>El diputado nacional Abelardo Ferrán (Unión por la Patria) cuestionó al diputado del PRO Martín Ardohain, quien había acusado al bloque peronista de votar en contra de un proyecto para penalizar el vandalismo rural. Ferrán sostuvo que \"apoyar un despacho propio no es votar en contra\" y denunció operaciones mediáticas e información falsa.</p><p>Según Ferrán, el proyecto del PRO, respaldado por La Libertad Avanza y la UCR, fija penas menores a las vigentes. Citó el artículo 186 inciso 2 del Código Penal, que castiga la destrucción de cosechas, ganado y productos rurales con penas de 3 a 10 años.</p><p>Ramiro Gutiérrez, autor de la alternativa peronista, argumentó que el texto del PRO equipara incorrectamente el ingreso a un campo con la violación de domicilio del artículo 150, y que a través de un nuevo artículo 184 bis reduce el mínimo de la pena en un año y el máximo en dos.</p><p>La alternativa de Unión por la Patria, una \"ley de estragos, daños agravados y protección de infraestructuras críticas y productivas\", mantiene de 3 a 10 años para los delitos de peligro común y eleva las penas de 5 a 15 años cuando los ataques apuntan a infraestructura productiva, rural, industrial o crítica.</p><p>Ferrán cerró su planteo destacando la producción agropecuaria de La Pampa y las políticas públicas que la sostienen.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/13/alta/2158689.jpg"
+        },
+        {
+          "id": "cuentainversion2025_ambiente_ipav",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Cuenta de Inversión 2025: Ambiente solo ejecutó el 45% y el IPAV, 59%",
+          "bajada": "La Secretaría de Ambiente y Cambio Climático ejecutó el 45,9% de su presupuesto, el IPAV el 59,4% y la Secretaría de Energía y Minería el 63,7%, los organismos con menor ejecución presupuestaria.",
+          "cuerpo": "<p>La Cuenta de Inversión 2025, remitida a la Legislatura por la Contaduría General el 30 de septiembre, muestra que la provincia ejecutó cerca del 91,59% de su presupuesto modificado. Energía y Minería fue el organismo que dejó sin ejecutar el mayor monto absoluto, unos $77.900 millones.</p><p>Entre Ambiente, Vivienda (IPAV) y Energía dejaron sin invertir más de $115.000 millones en conjunto. El informe atribuye los mayores desvíos a la desaceleración de la obra pública y a fondos con afectación específica que no llegaron a desembolsarse.</p><p>El Ministerio de la Producción (87,51%) y el de Obras y Servicios Públicos (87,49%) también muestran una ejecución notablemente baja. Dentro del IPAV, los préstamos para vivienda (Partida 070) alcanzaron apenas un 37% de ejecución.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/13/alta/2158654.jpg"
+        },
+        {
+          "id": "prision_preventiva_baleo_santarosa",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Prisión preventiva por 60 días para el hombre acusado de balear a otro en Santa Rosa",
+          "bajada": "El hombre de 36 años cumplía arresto domiciliario en el FONAVI 25 por una causa federal, y el tribunal notificó al organismo de niñez porque sus hijos adolescentes estaban a su cuidado.",
+          "cuerpo": "<p>La Justicia de Santa Rosa ordenó 60 días de prisión preventiva para un hombre de 36 años acusado de balear a otra persona frente a su domicilio. La medida rige hasta el 12 de diciembre de 2026. La audiencia, realizada por videoconferencia, estuvo a cargo del juez Carlos M. Chapalcaz; la fiscal Cecilia Martini presentó la imputación, y la defensora pública Silvina Blanco Gómez representó al acusado.</p><p>Según la fiscalía, el hecho ocurrió el domingo 11 de octubre, alrededor de las 12:30, cerca del domicilio del imputado en el complejo FONAVI 25. Fue imputado provisoriamente por lesiones graves cometidas con arma de fuego y tenencia ilegal de arma. La fiscalía invocó riesgo de fuga y de entorpecimiento de la investigación. La defensa cuestionó la imputación, señaló que todavía no se estableció el calibre del arma, puso en duda la tenencia por un hecho ocurrido en la puerta de la vivienda, y remarcó que no se había agregado un informe médico. También pidió arresto domiciliario, ya que el hombre tiene a su cuidado a dos hijos adolescentes.</p><p>El juez hizo lugar a la prueba y a los argumentos de riesgo procesal planteados por la fiscalía. Ordenó notificar al tribunal federal, ya que el hombre cumplía una condena federal bajo arresto domiciliario en el mismo edificio, y dispuso el aviso urgente a los organismos provinciales de protección de niñez y adolescencia, para que asistan a los dos hijos, de 17 y 13 años.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/13/alta/2158694.jpg"
+        },
+        {
+          "id": "hablar_de_raza_atrasa",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Hablar de raza, atrasa",
+          "bajada": "Algunos organismos y dirigentes rebautizaron el Día del Respeto a la Diversidad Cultural. El diputado Pérez Araujo salió al cruce.",
+          "cuerpo": "<p>El 12 de octubre, algunos organismos y dirigentes celebraron la fecha con la denominación tradicional de \"Día de la Raza\", asociada a la visión del supuesto descubrimiento de América por Cristóbal Colón. El diputado provincial peronista Hernán Pérez Araujo respondió que la especie humana no tiene razas, y que la fecha conmemora hoy la diversidad cultural. Su comentario apuntó, de forma implícita, al Colegio de Abogados de La Pampa, aunque también cuestionó al diputado nacional Martín Matzkin y al Tribunal de Cuentas provincial, que en sus redes sociales usaron la misma denominación.</p><p>Pérez Araujo sostiene que el 12 de octubre dejó de ser una fecha festiva. Según su planteo, la idea del \"encuentro de dos mundos\" justificaba una mirada etnocéntrica que presentaba a los pueblos originarios como \"bárbaros\" por defender su territorio.</p><p>Para respaldar su postura, citó el libro Crónicas Ranquelinas, de José Depetris y Walter Cazenave, que cuestiona la historiografía racista y plantea la frontera como un espacio de intercambio cultural, concluyendo que la diversidad cultural existía y desafiaba los relatos oficiales.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/13/alta/2158685.jpg"
+        },
+        {
+          "id": "colorado_alerta_caudal",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Alertan por un aumento del caudal del río Colorado",
+          "bajada": "Corfo Río Colorado anticipa una suba gradual del caudal en las próximas semanas, por la regulación del embalse Casa de Piedra y la nieve acumulada en la alta cuenca.",
+          "cuerpo": "<p>El organismo Corfo Río Colorado advirtió que el caudal del río subirá de forma gradual en las próximas semanas, como consecuencia de una decisión de regulación del embalse Casa de Piedra. Las mediciones realizadas a fines de septiembre evidenciaron una importante acumulación de nieve en la alta cuenca, con registros significativos en El Azufre y Paso Pehuenche.</p><p>Estas condiciones permiten anticipar un mayor escurrimiento, principalmente durante noviembre, diciembre y enero, cuando se produce el deshielo. Los volúmenes previstos son significativamente superiores a los que se liberaban en años anteriores para esta época, lo que haría subir el nivel y la velocidad del agua en el cauce.</p><p>Desde Corfo Río Colorado recomendaron extremar las medidas de precaución en todos los sectores próximos al río. La advertencia está dirigida especialmente a quienes realizan actividades recreativas, practican pesca o desarrollan tareas rurales en las inmediaciones del cauce.</p>",
+          "foto": ""
+        },
+        {
+          "id": "teatroespañol_reconocimiento41años",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Reconocimiento por 41 años de trabajo en el Teatro Español",
+          "bajada": "La actividad fue una forma de destacar los 41 años de trabajo de Raúl Martínez en el Teatro Español, al inicio de su jubilación.",
+          "cuerpo": "<p>El lunes 12 de octubre, a las 21, Raúl Martínez recibió un homenaje por su trayectoria en el Teatro Español y por su jubilación. Al encuentro asistieron artistas locales, academias y escuelas de danza, grupos musicales y allegados, entre ellos Alba y Pablo, Juan Alberto Muzalski, Laura Gómez Weizz y Martín Fornero. Santiago Gauna también tuvo una actuación.</p><p>La organización estuvo a cargo de Lina Martínez, Tomás Gauna, Martina Neveu y Santiago Gauna. Durante la velada, Martínez recibió obsequios de Belén Echenique y de \"las Doras\", además de una placa de reconocimiento entregada por Romina Montes de Oca. El homenaje buscó destacar sus cuatro décadas de trabajo en la institución y despedirlo al inicio de su etapa de jubilación, junto a quienes compartieron su recorrido.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/13/alta/2158692.jpg"
+        },
+        {
+          "id": "realico_equipamientohidrico_elnino",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Realicó: aprueban la compra directa de equipamiento hídrico ante El Niño",
+          "bajada": "El municipio comprará dos bombas de extracción y una manga, financiadas por el Gobierno provincial, para reforzar la capacidad preventiva ante las lluvias.",
+          "cuerpo": "<p>El Concejo Deliberante de Realicó autorizó por unanimidad la compra directa de dos bombas de extracción de agua y una manga de conducción de 50 metros, por un total de $61.347.400. El Gobierno provincial financia la compra, por lo que no se afecta el presupuesto ordinario municipal.</p><p>El equipamiento busca reforzar la capacidad preventiva de cara a las lluvias intensas asociadas al fenómeno de El Niño, para el bombeo y traslado de agua en zonas con riesgo de anegamiento o desborde. La compra es a la empresa Bomba Piva SA: una bomba de alto caudal DMS 300, una de caudal medio MHS 230, y la manga.</p><p>El Ejecutivo municipal, a cargo del intendente Javier Facundo Sola, envió el proyecto al Concejo. La concejala Leticia Embrici pidió su tratamiento urgente para que las bombas puedan instalarse y probarse antes de las lluvias. La moción se aprobó por unanimidad, con el acompañamiento del bloque Juntos por el Cambio.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/13/alta/2158688.jpg"
+        },
+        {
+          "id": "diputados_oposicion_sesion_leytierras",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "La oposición mide fuerzas en Diputados: buscará sesionar con temas sensibles para Javier Milei",
+          "bajada": "La sesión del jueves buscaría avanzar con la prórroga a la Emergencia en Discapacidad, una ley de desendeudamiento y la voltura del DNU 70/23. Tras el fallo de la Corte Suprema que dejó en pie la Ley de Tierras, las chances de reunir quórum caen.",
+          "cuerpo": "<p>La oposición convocó una sesión en Diputados para el jueves con el objetivo de avanzar con la prórroga a la Emergencia en Discapacidad, una ley de desendeudamiento familiar y el rechazo al DNU 70/23 de Javier Milei. El temario había cobrado fuerza tras el fallo de la Corte Suprema del viernes 9 de octubre, que dictó una medida cautelar y dejó en pie la Ley de Tierras al suspender los efectos del artículo 154 del propio DNU, que había eliminado los límites a la compra de tierras por extranjeros.</p><p>El diputado Maximiliano Ferraro (Coalición Cívica) celebró la decisión judicial: \"¡la Ley de Tierras vuelve a estar vigente!\". Sin embargo, el fallo también le quitó presión política a los legisladores indecisos, que ahora pueden faltar a la sesión a un costo político menor. En la oposición dudan de que los gobernadores cercanos a la Casa Rosada envíen a sus diputados para garantizar el quórum.</p><p>Como respuesta, La Libertad Avanza anunció una sesión propia para la semana siguiente con los mismos temas de discapacidad y desendeudamiento, y convocó a un plenario de comisiones para el miércoles para avanzar con la ley de tierras privada, en la que el oficialismo buscaría reinsertar un límite a la compra extranjera, lo que obligaría al proyecto a volver al Senado si se aprueba.</p><p>En paralelo, está prevista una marcha universitaria el mismo día de la sesión, y el martes arrancó el debate en comisión por el Presupuesto 2027. En el Senado, Patricia Bullrich planea una conferencia de prensa sobre una reforma a la ley de Salud Mental.</p>",
+          "foto": "https://media.ambito.com/p/f3bf723c3c235031d9f6f0f355e5849b/adjuntos/239/imagenes/043/611/0043611088/655x368/smart/diputados-oposicion.jpg"
+        },
+        {
+          "id": "tucuman_jaldo_neuss_edet",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Tucumán: denuncian \"acuerdo espurio\" entre Jaldo y los Neuss para quedarse con distribuidora eléctrica",
+          "bajada": "La provincia postergó por tercera vez la licitación de las acciones de EDET, lo que según legisladores locales beneficia al holding de los hermanos Juan y Patricio Neuss.",
+          "cuerpo": "<p>La Comisión de Energía de la Legislatura de Tucumán denunció un presunto \"acuerdo espurio\" entre el gobernador Osvaldo Jaldo y el Grupo Neuss para quedarse con el control de la distribuidora eléctrica provincial EDET. La provincia postergó por tercera vez la licitación del paquete mayoritario de acciones de la empresa.</p><p>Los hermanos Juan y Patricio Neuss se consolidaron como los principales beneficiarios del mercado energético desde 2025. A través de la firma Edison Energía, el grupo adquirió los activos que en la Argentina pertenecían al fondo estadounidense Apollo Global Management, entre ellos EDET (Tucumán), EJESA (Jujuy) y LITSA (transporte).</p><p>Según los legisladores, la maniobra configura un esquema de monopolio y opacidad informativa: cuando se concrete la licitación, la empresa controlante podrá igualar la oferta de quien compita por el paquete accionario, lo que en los hechos blindaría su posición dominante.</p>",
+          "foto": "https://media.ambito.com/p/2109e5eb1492dd1cca241ea80c8554bf/adjuntos/239/imagenes/043/358/0043358623/655x368/smart/neuss.jpeg"
+        },
+        {
+          "id": "cavallo_cuestiona_modelo_milei",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Domingo Cavallo volvió a cuestionar el modelo económico de Milei: alertó por el sobreajuste y la caída de la inversión",
+          "bajada": "El exministro elogió en su blog un informe del Ieral que pone números al costo del ajuste: la contracción del consumo equivalió al 1,6% del PBI y la caída de la inversión, a un 2,5%.",
+          "cuerpo": "<p>El exministro de Economía Domingo Cavallo volvió a cuestionar el rumbo económico del Gobierno de Javier Milei, esta vez a través de su blog personal, donde elogió un informe de Jorge Vasconcelos, economista jefe del Ieral de la Fundación Mediterránea, que pone números al costo del ajuste y propone correcciones sin abandonar el programa iniciado en diciembre de 2023.</p><p>Para Vasconcelos, la política monetaria restrictiva fue más allá de lo necesario y terminó profundizando la caída de la demanda interna. Según sus cálculos, la contracción del consumo equivalió al 1,6% del PBI, mientras que la caída de la inversión representó un 2,5%. El informe distingue una primera etapa del ajuste basada en el recorte del gasto público, y una segunda marcada por el endurecimiento monetario, en la que la inversión retrocedió a un ritmo cercano al 10% anual.</p><p>El análisis señala además que las exportaciones fueron el único componente con aporte relevante al crecimiento, y que pese al RIGI la inversión extranjera todavía no mostró un gran dinamismo. Cavallo no firmó el diagnóstico, pero respaldó sus conclusiones; sus críticas recurrentes al rumbo económico ya le valieron respuestas del propio Milei, que llegó a calificarlo de \"chanta\".</p>",
+          "foto": ""
+        }
+      ]
     }
   ]
 }
