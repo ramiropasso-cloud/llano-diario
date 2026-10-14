@@ -8368,6 +8368,180 @@
           "foto": ""
         }
       ]
+    },
+    {
+      "clave": "2026-10-14_manana",
+      "fecha_iso": "2026-10-14",
+      "fecha": "14 octubre 2026",
+      "turno": "Edición Mañana · 13:00",
+      "hero": {
+        "titulo": "Rauschenberger advirtió por aumentos de hasta el 70% en la factura de gas",
+        "summary": "El diputado nacional pampeano cuestionó los cambios en la Ley de Zona Fría. Según él, unas 136.700 familias pampeanas tendrán aumentos en el costo del gas, y criticó que la norma también beneficie a las grandes empresas energéticas.",
+        "cat": "La Pampa · Política Pampeana",
+        "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/14/alta/2158824.jpg"
+      },
+      "sec01_list": [
+        {
+          "titulo": "La vulnerabilidad social alcanza al 5,3% de la población pampeana, según un relevamiento provincial",
+          "resumen": "El octavo Índice de Vulnerabilidad Social registró un 5,3% de personas en situación de vulnerabilidad en La Pampa.",
+          "cat": "La Pampa · Social",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/14/alta/2158829.jpg",
+          "ts": "14 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Estudiantes crearon una app para complementar el tratamiento de la hipoacusia",
+          "resumen": "Estudiantes pampeanos integran el equipo que desarrolló una app para complementar el tratamiento de la hipoacusia.",
+          "cat": "La Pampa · Innovación",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/14/alta/2158800.jpg",
+          "ts": "14 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "La Pampa tiene la menor morosidad del país, pero las deudas impagas aumentaron",
+          "resumen": "La Pampa tiene la morosidad crediticia más baja del país, aunque las deudas impagas crecieron en el último año.",
+          "cat": "La Pampa · Economía",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/14/alta/2158787.jpg",
+          "ts": "14 oct 2026 · LLANO·"
+        }
+      ],
+      "sec03": [
+        {
+          "titulo": "La Justicia impuso multas diarias de $100.000 al jefe de Gabinete por incumplir la ley de Financiamiento Universitario",
+          "resumen": "La Justicia fijó multas diarias de $100.000 al jefe de Gabinete por no cumplir la ley de Financiamiento Universitario.",
+          "cat": "Política Nacional · Universidades",
+          "foto": "https://media.ambito.com/p/efc795dcd4ad992aefe7ec151f98e1e4/adjuntos/239/imagenes/042/845/0042845155/milei-santilli.jpg",
+          "ts": "14 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Oro: el manejo de las reservas del BCRA suma una nueva denuncia penal",
+          "resumen": "El diputado Paulón sumó una nueva denuncia penal contra Caputo y Bausili por el manejo del oro del Banco Central.",
+          "cat": "Política Nacional · BCRA",
+          "foto": "https://media.ambito.com/p/c8306179636c5a27f6217bd274e7d13e/adjuntos/239/imagenes/043/633/0043633562/bausili-lingote-oro.jpg",
+          "ts": "14 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Malvinas: la cooperación pesquera internacional abre un nuevo frente para la Argentina",
+          "resumen": "La cooperación pesquera internacional sobre el calamar avanza sin participación argentina, mientras crece el reclamo por Malvinas.",
+          "cat": "Política Nacional · Malvinas",
+          "foto": "https://media.ambito.com/p/3c10646e594a0ace67a732e98dd71291/adjuntos/239/imagenes/043/703/0043703800/pesca-malvinas.jpeg",
+          "ts": "14 oct 2026 · LLANO·"
+        }
+      ],
+      "hero_side": [
+        {
+          "titulo": "Zona Fría: qué cambia en los subsidios al gas para La Pampa",
+          "resumen": "La Pampa conserva su beneficio de Zona Fría por su pertenencia a la Patagonia, pero cambia la base de cálculo del descuento.",
+          "cat": "La Pampa · Zona Fría",
+          "ts": "13 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Bebé de Rancul: venció el plazo para responder el recurso de la familia de contención ante el STJ",
+          "resumen": "Venció el plazo para que los organismos de niñez respondan el recurso de la familia de contención ante el Superior Tribunal.",
+          "cat": "La Pampa · Rancul",
+          "ts": "14 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "Deuda previsional y traspaso del Procrear: Ziliotto y Santilli abrieron una nueva instancia para cerrar acuerdos",
+          "resumen": "Ziliotto y Santilli avanzan en acuerdos por la deuda previsional y el traspaso de 636 viviendas paralizadas del Procrear.",
+          "cat": "La Pampa · Nación",
+          "ts": "13 oct 2026 · LLANO·"
+        },
+        {
+          "titulo": "La UNLPam convocó a marchar este jueves en defensa de la universidad pública",
+          "resumen": "La UNLPam convocó a marchar el jueves 15 en Santa Rosa y General Pico por el cumplimiento de la ley de financiamiento universitario.",
+          "cat": "La Pampa · Universidad",
+          "ts": "14 oct 2026 · LLANO·"
+        }
+      ],
+      "arts": [
+        {
+          "id": "rauschenberger_gas_70porciento",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Rauschenberger advirtió por aumentos de hasta el 70% en la factura de gas",
+          "bajada": "El diputado nacional pampeano cuestionó los cambios en la Ley de Zona Fría. Según él, unas 136.700 familias pampeanas tendrán aumentos en el costo del gas, y criticó que la norma también beneficie a las grandes empresas energéticas.",
+          "cuerpo": "<p>El diputado nacional pampeano Ariel Rauschenberger (peronismo) sostuvo que la promulgación de los cambios en la Ley de Zona Fría encarecerá las facturas de gas de los hogares pampeanos, con subas que estimó entre el 35% y el 70%, según el consumo.</p><p>Explicó que el beneficio del 50% de descuento ya no se aplicaría sobre el total de la factura, sino solo sobre el precio del gas. \"Lo que hace es quitarnos la garantía de que en la factura de gas tengamos un 50% de descuento\", afirmó.</p><p>Según el legislador, la medida rige desde la publicación en el Boletín Oficial, aunque reconoció que la facturación tiene demora, por lo que sus efectos llegarán en los próximos consumos. Criticó además que la ley incluya una compensación a las empresas energéticas por los ingresos no percibidos durante el período de tarifas congeladas, lo que describió como una \"condonación\" de deudas.</p><p>Cerró señalando una contradicción: los hogares pagan más mientras las grandes compañías reciben beneficios.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/14/alta/2158824.jpg"
+        },
+        {
+          "id": "zonafria_quecambia_lapampa",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Zona Fría: qué cambia en los subsidios al gas para La Pampa",
+          "bajada": "El Gobierno nacional promulgó la ley que modifica el régimen de Zona Fría y restringe el descuento extra para localidades incorporadas en 2021. La Pampa mantiene su beneficio territorial por su pertenencia a la Patagonia, pero cambia la forma de calcularlo.",
+          "cuerpo": "<p>El Gobierno nacional promulgó la Ley 27.828, formalizada mediante el Decreto 1161/2026, que modifica el régimen de Zona Fría para los usuarios residenciales de gas en todo el país.</p><p>El descuento pasará a calcularse sobre el precio del gas en el punto de ingreso al sistema de transporte (PIST), y no sobre el total de la factura, por lo que su efecto en el monto final será menor.</p><p>Se elimina la ampliación de 2021 dispuesta por la Ley 27.637, que había extendido el beneficio a localidades de varias provincias. Esas zonas deberán ahora inscribirse en el nuevo esquema de subsidios energéticos focalizados (SEF) y cumplir criterios socioeconómicos, como límites de ingreso familiar vinculados a la canasta básica del INDEC.</p><p>La Pampa conserva su clasificación patagónica y, por lo tanto, su beneficio de Zona Fría, pero la nueva base de cálculo reduce su impacto en las facturas. El Fondo Fiduciario para Subsidios de Consumos de Gas continúa vigente, financiado con un recargo de hasta el 7,5% sobre el precio del gas natural en el PIST, válido hasta el 31 de diciembre de 2031. La implementación de las nuevas condiciones dependerá de la reglamentación correspondiente.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/13/alta/2158709.jpg"
+        },
+        {
+          "id": "rancul_plazovencido_stj",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Bebé de Rancul: venció el plazo para responder el recurso de la familia de contención ante el STJ",
+          "bajada": "El asesor de Niñas, Niños y Adolescentes y la defensora adjunta no contestaron los agravios planteados por la pareja.",
+          "cuerpo": "<p>Venció el plazo de diez días hábiles para que el asesor de Niñas, Niños y Adolescentes y la defensora adjunta respondieran el recurso extraordinario que Joaquín Díaz y Ana Laura Pizzani presentaron ante el Superior Tribunal de Justicia (STJ). Otra de las partes se presentó, pero solo ratificó un escrito anterior.</p><p>El recurso cuestiona una resolución de la Cámara de Apelaciones que rechazó la guarda con fines de adopción del bebé que la pareja cuidaba como familia de contención desde los dos meses de vida. Tras el traslado, el expediente fue enviado al procurador general por el planteo de inconstitucionalidad.</p><p>El caso se hizo público en julio, cuando la pareja denunció que Niñez les pidió por WhatsApp que entregaran al niño. Una cautelar les permitió conservarlo mientras se resolvía el conflicto, pero una jueza de Familia rechazó luego sus pedidos y ordenó entregarlo a una familia del registro de aspirantes. El 7 de septiembre, la pareja fue interceptada por la Policía en la ruta 35 cuando se negó a entregar al bebé, y finalmente la entrega se concretó ese día en Santa Rosa. Después de la separación, la pareja reclamó en la Legislatura y la Cámara de Diputados creó una comisión especial para investigar posibles irregularidades de los organismos provinciales.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/14/alta/2158802.jpg"
+        },
+        {
+          "id": "ziliotto_santilli_deuda_procrear",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Deuda previsional y traspaso del Procrear: Ziliotto y Santilli abrieron una nueva instancia para cerrar acuerdos",
+          "bajada": "El Ejecutivo provincial y la Casa Rosada avanzan en la consolidación del déficit del ISS de 2021 y en la transferencia de 636 viviendas paralizadas en Santa Rosa, Toay y General Pico.",
+          "cuerpo": "<p>El gobernador Sergio Ziliotto se reunió con el jefe de Gabinete, Diego Santilli, para avanzar en dos reclamos financieros de La Pampa contra la Nación: la deuda previsional y el traspaso de las viviendas paralizadas del Procrear.</p><p>En materia previsional, funcionarios de ANSES y del Instituto de Seguridad Social (ISS) provincial fijaron un monto consolidado por el déficit de 2021, vinculado a la demanda de La Pampa ante la Corte Suprema. El Gobierno nacional había realizado recientemente pagos parciales por $10.000 millones.</p><p>En cuanto a las viviendas, la provincia busca hacerse cargo de 636 unidades paralizadas del Procrear: 270 en Toay, 198 en General Pico y 168 en Santa Rosa. El plan provincial es terminar las obras con fondos propios una vez transferidos los terrenos y los títulos de los proyectos.</p><p>Está prevista una nueva reunión en los próximos días para definir los instrumentos legales y financieros de ambos acuerdos.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/13/alta/2158737.jpg"
+        },
+        {
+          "id": "unlpam_marcha_jueves_financiamiento",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La UNLPam convocó a marchar este jueves en defensa de la universidad pública",
+          "bajada": "El rector Francisco Marull, decanos, dirigentes estudiantiles y los gremios ADU y APULP llamaron a participar de la movilización del jueves 15 de octubre. Reclaman el cumplimiento de la ley de financiamiento universitario.",
+          "cuerpo": "<p>La Universidad Nacional de La Pampa convocó a una movilización para el jueves 15 de octubre en defensa de la educación pública. La convocatoria, anunciada en conferencia de prensa por el rector Francisco Marull, decanos y los gremios ADU y APULP, exige el cumplimiento de la ley de financiamiento universitario, en medio del conflicto con el Gobierno nacional por los fondos del sistema.</p><p>Marull sostuvo que se agotaron las vías legislativa y judicial, y que ahora corresponde llevar el reclamo a la calle. En Santa Rosa, las actividades comienzan a las 16 en la Plaza San Martín, con stands de las facultades, y la marcha parte a las 18.15. También habrá convocatoria en General Pico. El secretario general de ADU, Santiago Audisio, anticipó la adhesión de las dos CTA y planteó que el presidente Javier Milei debería ser sometido a juicio político por desconocer leyes del Congreso.</p><p>La jornada culmina con una peña en las escalinatas, organizada en conjunto por las agrupaciones estudiantiles. Marull destacó ese trabajo colectivo y expresó la intención de que la movilización tenga un tono festivo: \"No queremos que nos roben la alegría en la universidad\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/14/alta/2158821.jpg"
+        },
+        {
+          "id": "vulnerabilidad_social_53porciento",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La vulnerabilidad social alcanza al 5,3% de la población pampeana, según un relevamiento provincial",
+          "bajada": "El octavo Índice de Vulnerabilidad Social se realizó entre julio y agosto y abarcó al 73,42% de la población de La Pampa.",
+          "cuerpo": "<p>El Gobierno de La Pampa presentó los resultados de la octava edición del Índice de Vulnerabilidad Social, que registró un 5,3% de personas en situación de vulnerabilidad durante julio y agosto de 2026. Según el informe, sin el Refuerzo Alimentario Focalizado Extraordinario (RAFE), el indicador habría llegado al 7,4%. El Gobierno atribuyó el resultado a las transferencias directas, en especial a los programas alimentarios de la Tarjeta Social Pampeana.</p><p>El relevamiento alcanzó al 73,42% de la población provincial. Comenzó en 2023 en el conglomerado Santa Rosa-Toay, se extendió a 11 localidades y hoy cubre las diez microrregiones definidas por la Ley de Descentralización N° 2358 y su modificatoria N° 2461. En el operativo participaron 269 personas de los ministerios de Desarrollo Social y Derechos Humanos y de Salud, junto con equipos sociales municipales.</p><p>Según el comunicado oficial, los datos servirán para planificar políticas públicas y reforzar la atención a las familias con mayor vulnerabilidad.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/14/alta/2158829.jpg"
+        },
+        {
+          "id": "app_hipoacusia_estudiantes",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "Estudiantes crearon una app para complementar el tratamiento de la hipoacusia",
+          "bajada": "Una alumna de Acha y otro de Quemú forman parte del equipo que desarrolló una aplicación que vincula a pacientes con sus fonoaudiólogos para acceder a sesiones diarias desde el celular.",
+          "cuerpo": "<p>Cinco jóvenes de la Facultad Regional Córdoba de la UTN desarrollaron Charli, una aplicación para complementar el tratamiento fonoaudiológico de personas con hipoacusia. Entre ellos están Agostina Milena Landi y Enrique Agustín Barros, de General Acha y Quemú Quemú. La herramienta ya se usa en General Acha, donde la fonoaudióloga Virginia Romero la incorporó con sus pacientes.</p><p>La plataforma tiene un panel web para los profesionales, que pueden armar y asignar ejercicios auditivos para hacer en casa, y una app móvil para los pacientes, que registran sus respuestas, incluidas grabaciones de voz. El panel también incluye una función de inteligencia artificial que propone sesiones a partir del historial del paciente, aunque el profesional debe revisarlas y validarlas antes de asignarlas.</p><p>Charli surgió como proyecto final de la carrera de Ingeniería en Sistemas de Información y busca dar continuidad a la terapia fuera del consultorio y aportar datos para el seguimiento profesional. Su nombre se inspira en una frase que refleja una dificultad habitual de las personas con hipoacusia: \"Te escucho, pero no te entiendo\".</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/14/alta/2158800.jpg"
+        },
+        {
+          "id": "morosidad_lapampa_menor_pais",
+          "cat": "La Pampa · Política Pampeana",
+          "titulo": "La Pampa tiene la menor morosidad del país, pero las deudas impagas aumentaron",
+          "bajada": "El 9,6% del crédito otorgado a personas físicas en la provincia presenta atrasos, frente al 18,4% del promedio nacional, y la deuda promedio por persona es de $6,5 millones.",
+          "cuerpo": "<p>Según un informe del Monitor Económico Financiero de la Universidad Austral y la consultora Eco Go, basado en datos de la Central de Deudores del BCRA, La Pampa tiene la tasa de morosidad crediticia más baja del país. Aun así, en agosto de 2026 llegó al 9,6%, casi 5 puntos más que un año antes. Alrededor de uno de cada cinco deudores pampeanos tiene al menos una obligación impaga.</p><p>El crédito a personas físicas en la provincia creció en términos reales, tanto mensual como interanualmente, a un ritmo casi el doble del promedio nacional. La deuda promedio por deudor también supera la media del país. La morosidad varía mucho según el tipo de prestamista: es del 7,3% en el sistema financiero tradicional y del 29,6% en los proveedores no financieros.</p><p>A nivel nacional, la morosidad por monto alcanza el 18,4% y acumula 22 meses consecutivos de aumento. La Rioja encabeza el ranking con 26,2%. La Pampa tuvo el menor incremento interanual entre las 24 jurisdicciones, aunque los investigadores advierten que el crecimiento del crédito no garantiza una mejora en la situación económica de las familias.</p>",
+          "foto": "https://www.eldiariodelapampa.com.ar/img/publicaciones/2026/10/14/alta/2158787.jpg"
+        },
+        {
+          "id": "diputados_multas_financiamiento_uni",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "La Justicia impuso multas diarias de $100.000 al jefe de Gabinete por incumplir la ley de Financiamiento Universitario",
+          "bajada": "El juez federal Martín Cormick fijó la sanción económica para forzar el cumplimiento de la cautelar que ordena actualizar salarios docentes y recomponer las becas estudiantiles.",
+          "cuerpo": "<p>El juez federal Martín Cormick, del Juzgado Contencioso Administrativo Federal N° 11, fijó multas diarias de $100.000 contra el titular de la Jefatura de Gabinete, Diego Santilli, por el incumplimiento de una orden judicial en la causa impulsada por el Consejo Interuniversitario Nacional (CIN) y distintas universidades contra el Estado nacional.</p><p>La sanción económica se fijó en una primera etapa y tanto el monto como los funcionarios alcanzados podrán modificarse más adelante. En diciembre de 2025, Cormick había dictado una cautelar a partir de un amparo colectivo que busca declarar la inconstitucionalidad del Decreto 759/2025, mediante el cual el Ejecutivo subordinó la aplicación de la Ley 27.795 de Financiamiento Universitario a la determinación de fuentes específicas de financiamiento.</p><p>La cautelar alcanza a los artículos 5 y 6 de la ley, que establecen la actualización de los salarios del personal docente y no docente desde diciembre de 2023 y la recomposición de los programas de becas estudiantiles. La Cámara Contencioso Administrativo Federal había rechazado la apelación del Gobierno y confirmado la medida, que quedó firme después de que la Corte Suprema rechazara en junio el recurso presentado por el Estado.</p>",
+          "foto": "https://media.ambito.com/p/efc795dcd4ad992aefe7ec151f98e1e4/adjuntos/239/imagenes/042/845/0042845155/milei-santilli.jpg"
+        },
+        {
+          "id": "oro_bcra_nueva_denuncia_paulon",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Oro: el manejo de las reservas del BCRA suma una nueva denuncia penal",
+          "bajada": "El diputado Esteban Paulón presentó una nueva denuncia penal y pidió que se investigue a Caputo, Bausili y Curutchet por las operaciones con el oro del Banco Central.",
+          "cuerpo": "<p>El diputado Esteban Paulón presentó una nueva denuncia penal por el manejo de las reservas de oro del Banco Central, y pidió que la Justicia investigue y requiera documentación sobre el destino, la custodia y el uso de las reservas a los funcionarios Luis Caputo, Santiago Bausili y Juan Curutchet. La presentación se apoya en un informe de la Auditoría General de la Nación que detectó un faltante de más de 1.000 millones de dólares, y acusa a los funcionarios de \"malversación de caudales públicos\".</p><p>La denuncia de Paulón se suma a una anterior, presentada por el abogado Gregorio Dalbón, que pidió la detención de Caputo, Bausili y Curutchet por operaciones con derivados sobre oro realizadas durante 2025, con un resultado negativo de US$1.023 millones. Esa causa recayó en el Juzgado Federal 4, a cargo de Ariel Lijo.</p><p>Desde el Gobierno defendieron las operaciones con oro del BCRA y aseguraron que, en su estrategia global, dejaron ganancias. Una denuncia, de todos modos, no equivale a una imputación: la existencia de pérdidas por sí sola no acredita la comisión de un delito ni la responsabilidad penal de los funcionarios involucrados, y ahora la Justicia deberá evaluar los pedidos.</p>",
+          "foto": "https://media.ambito.com/p/c8306179636c5a27f6217bd274e7d13e/adjuntos/239/imagenes/043/633/0043633562/bausili-lingote-oro.jpg"
+        },
+        {
+          "id": "malvinas_cooperacion_pesquera",
+          "cat": "Nacional · Política Nacional",
+          "titulo": "Malvinas: la cooperación pesquera internacional abre un nuevo frente para la Argentina",
+          "bajada": "Mientras el Gobierno reclama ante el Tribunal Internacional del Derecho del Mar por la explotación británica de hidrocarburos, el sector pesquero internacional avanza en mecanismos de cooperación científica sobre el calamar sin participación argentina.",
+          "cuerpo": "<p>Mientras el Gobierno argentino busca que el Reino Unido cese sus acciones unilaterales en la Cuenca Norte de las islas Malvinas y recurre al Tribunal Internacional del Derecho del Mar para impedir la explotación británica de hidrocarburos, el sector pesquero internacional impulsa en paralelo mecanismos de cooperación científica sobre el calamar Illex argentinus.</p><p>El recurso es capturado por pesqueros españoles y de otros países, principalmente arrastreros y poteros que operan en la Milla 201. La Argentina tuvo representación institucional en la feria pesquera CONXEMAR, pero no participó de la mesa científica que debatió la gobernanza del caladero de calamar ni del entendimiento para construir una base de datos regional sobre el recurso, un espacio donde sí tuvieron presencia delegaciones de otros países y del gobierno de las islas.</p>",
+          "foto": "https://media.ambito.com/p/3c10646e594a0ace67a732e98dd71291/adjuntos/239/imagenes/043/703/0043703800/pesca-malvinas.jpeg"
+        }
+      ]
     }
   ]
 }
